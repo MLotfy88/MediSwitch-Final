@@ -1,0 +1,601 @@
+{
+  "drug_name": "Parasitic_diseases",
+  "url": "https://wikem.org/wiki/Parasitic_diseases",
+  "scraped_at": "2026-01-10T07:59:20.543978",
+  "sections": {
+    "Background": {
+      "text": "Although any organism that \"lives in or on another and takes its nourishment from that other organism\" is technically a parasite, in common medical parlance \"parasitic diseases\" refer to infections due to protozoa, helminths, arthropods, or other \"macroparasites\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Protozoa": {
+      "text": "",
+      "subsections": {
+        "Protozoa_2": {
+          "text": "African Sleeping Sickness\nBalantidium coli\nChagas Disease\nCryptosporidium\nEntamoeba histolytica\nGiardia lamblia\nLeishmania\nMalaria\nMicrosporidium\nToxoplasma gondii\nTrichomonas vaginalis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "African Sleeping Sickness",
+          "url": "https://wikem.org/wiki/African_Sleeping_Sickness"
+        },
+        {
+          "text": "Balantidium coli",
+          "url": "https://wikem.org/wiki/Balantidium_coli"
+        },
+        {
+          "text": "Chagas Disease",
+          "url": "https://wikem.org/wiki/Chagas_Disease"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Leishmania",
+          "url": "https://wikem.org/wiki/Leishmania"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        }
+      ]
+    },
+    "Protozoa_2": {
+      "text": "African Sleeping Sickness\nBalantidium coli\nChagas Disease\nCryptosporidium\nEntamoeba histolytica\nGiardia lamblia\nLeishmania\nMalaria\nMicrosporidium\nToxoplasma gondii\nTrichomonas vaginalis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "African Sleeping Sickness",
+          "url": "https://wikem.org/wiki/African_Sleeping_Sickness"
+        },
+        {
+          "text": "Balantidium coli",
+          "url": "https://wikem.org/wiki/Balantidium_coli"
+        },
+        {
+          "text": "Chagas Disease",
+          "url": "https://wikem.org/wiki/Chagas_Disease"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Leishmania",
+          "url": "https://wikem.org/wiki/Leishmania"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        }
+      ]
+    },
+    "Helminths": {
+      "text": "",
+      "subsections": {
+        "Cestodes_(Tapeworms)": {
+          "text": "Taenia saginata\nTaenia solium (Cysticercosis)\nDiphyllobothrium latum\nHymenolepis nana\nEchinococcus granulosus",
+          "tables": []
+        },
+        "Trematodes_(Flukes)": {
+          "text": "Fasciola hepatica\nFasciolopsis buski\nOpistorchis viverrini\nSchistosoma spp\nSchistosomiasis\nChlonorchis sinensis\nParagonimus\nspp.",
+          "tables": []
+        },
+        "Nematodes_(Roundworms)": {
+          "text": "Ascaris lumbricoides\nEnterobius vermicularis (Pinworm)\nFilarial worms\nLoa Loa\nOnchocerciasis\nLymphatic filariasis\n(\nElephantiasis\n)\nWuchereria bancrofti\nBrugia malayi\nBrugia timori\nHookworm\nNecator americanus\nAncylostoma duodenale\nCutaneous larva migrans\n(Ancylostoma braziliense)\nDracunculiasis\nStrongyloides stercoralis\nTrichuris trichiura\n(\nWhipworm)\nAnisakis\nToxocara\nspp.\nTrichinosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Taenia saginata",
+          "url": "https://wikem.org/wiki/Taenia_saginata"
+        },
+        {
+          "text": "Taenia solium (Cysticercosis)",
+          "url": "https://wikem.org/wiki/Taenia_solium_(Cysticercosis)"
+        },
+        {
+          "text": "Diphyllobothrium latum",
+          "url": "https://wikem.org/wiki/Diphyllobothrium_latum"
+        },
+        {
+          "text": "Hymenolepis nana",
+          "url": "https://wikem.org/wiki/Hymenolepis_nana"
+        },
+        {
+          "text": "Echinococcus granulosus",
+          "url": "https://wikem.org/wiki/Echinococcus_granulosus"
+        },
+        {
+          "text": "Fasciola hepatica",
+          "url": "https://wikem.org/wiki/Fasciola_hepatica"
+        },
+        {
+          "text": "Fasciolopsis buski",
+          "url": "https://wikem.org/wiki/Fasciolopsis_buski"
+        },
+        {
+          "text": "Opistorchis viverrini",
+          "url": "https://wikem.org/wiki/Opistorchis_viverrini"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Chlonorchis sinensis",
+          "url": "https://wikem.org/wiki/Chlonorchis_sinensis"
+        },
+        {
+          "text": "Paragonimus",
+          "url": "https://wikem.org/wiki/Paragonimus"
+        },
+        {
+          "text": "Ascaris lumbricoides",
+          "url": "https://wikem.org/wiki/Ascaris_lumbricoides"
+        },
+        {
+          "text": "Enterobius vermicularis (Pinworm)",
+          "url": "https://wikem.org/wiki/Pinworm"
+        },
+        {
+          "text": "Loa Loa",
+          "url": "https://wikem.org/wiki/Loa_Loa"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Lymphatic filariasis",
+          "url": "https://wikem.org/wiki/Lymphatic_filariasis"
+        },
+        {
+          "text": "Elephantiasis",
+          "url": "https://wikem.org/wiki/Elephantiasis"
+        },
+        {
+          "text": "Wuchereria bancrofti",
+          "url": "https://wikem.org/wiki/Wuchereria_bancrofti"
+        },
+        {
+          "text": "Brugia malayi",
+          "url": "https://wikem.org/wiki/Brugia_malayi"
+        },
+        {
+          "text": "Brugia timori",
+          "url": "https://wikem.org/wiki/Brugia_timori"
+        },
+        {
+          "text": "Hookworm",
+          "url": "https://wikem.org/wiki/Hookworm"
+        },
+        {
+          "text": "Necator americanus",
+          "url": "https://wikem.org/wiki/Necator_americanus"
+        },
+        {
+          "text": "Ancylostoma duodenale",
+          "url": "https://wikem.org/wiki/Ancylostoma_duodenale"
+        },
+        {
+          "text": "Cutaneous larva migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larva_migrans"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Strongyloides stercoralis",
+          "url": "https://wikem.org/wiki/Strongyloides_stercoralis"
+        },
+        {
+          "text": "Trichuris trichiura",
+          "url": "https://wikem.org/wiki/Trichuris_trichiura"
+        },
+        {
+          "text": "Whipworm)",
+          "url": "https://wikem.org/wiki/Whipworm)"
+        },
+        {
+          "text": "Anisakis",
+          "url": "https://wikem.org/wiki/Anisakis"
+        },
+        {
+          "text": "Toxocara",
+          "url": "https://wikem.org/wiki/Toxocara"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        }
+      ]
+    },
+    "Helminth_infections": {
+      "text": "",
+      "subsections": {
+        "Cestodes_(Tapeworms)": {
+          "text": "Taenia saginata\nTaenia solium (Cysticercosis)\nDiphyllobothrium latum\nHymenolepis nana\nEchinococcus granulosus",
+          "tables": []
+        },
+        "Trematodes_(Flukes)": {
+          "text": "Fasciola hepatica\nFasciolopsis buski\nOpistorchis viverrini\nSchistosoma spp\nSchistosomiasis\nChlonorchis sinensis\nParagonimus\nspp.",
+          "tables": []
+        },
+        "Nematodes_(Roundworms)": {
+          "text": "Ascaris lumbricoides\nEnterobius vermicularis (Pinworm)\nFilarial worms\nLoa Loa\nOnchocerciasis\nLymphatic filariasis\n(\nElephantiasis\n)\nWuchereria bancrofti\nBrugia malayi\nBrugia timori\nHookworm\nNecator americanus\nAncylostoma duodenale\nCutaneous larva migrans\n(Ancylostoma braziliense)\nDracunculiasis\nStrongyloides stercoralis\nTrichuris trichiura\n(\nWhipworm)\nAnisakis\nToxocara\nspp.\nTrichinosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Taenia saginata",
+          "url": "https://wikem.org/wiki/Taenia_saginata"
+        },
+        {
+          "text": "Taenia solium (Cysticercosis)",
+          "url": "https://wikem.org/wiki/Taenia_solium_(Cysticercosis)"
+        },
+        {
+          "text": "Diphyllobothrium latum",
+          "url": "https://wikem.org/wiki/Diphyllobothrium_latum"
+        },
+        {
+          "text": "Hymenolepis nana",
+          "url": "https://wikem.org/wiki/Hymenolepis_nana"
+        },
+        {
+          "text": "Echinococcus granulosus",
+          "url": "https://wikem.org/wiki/Echinococcus_granulosus"
+        },
+        {
+          "text": "Fasciola hepatica",
+          "url": "https://wikem.org/wiki/Fasciola_hepatica"
+        },
+        {
+          "text": "Fasciolopsis buski",
+          "url": "https://wikem.org/wiki/Fasciolopsis_buski"
+        },
+        {
+          "text": "Opistorchis viverrini",
+          "url": "https://wikem.org/wiki/Opistorchis_viverrini"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Chlonorchis sinensis",
+          "url": "https://wikem.org/wiki/Chlonorchis_sinensis"
+        },
+        {
+          "text": "Paragonimus",
+          "url": "https://wikem.org/wiki/Paragonimus"
+        },
+        {
+          "text": "Ascaris lumbricoides",
+          "url": "https://wikem.org/wiki/Ascaris_lumbricoides"
+        },
+        {
+          "text": "Enterobius vermicularis (Pinworm)",
+          "url": "https://wikem.org/wiki/Pinworm"
+        },
+        {
+          "text": "Loa Loa",
+          "url": "https://wikem.org/wiki/Loa_Loa"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Lymphatic filariasis",
+          "url": "https://wikem.org/wiki/Lymphatic_filariasis"
+        },
+        {
+          "text": "Elephantiasis",
+          "url": "https://wikem.org/wiki/Elephantiasis"
+        },
+        {
+          "text": "Wuchereria bancrofti",
+          "url": "https://wikem.org/wiki/Wuchereria_bancrofti"
+        },
+        {
+          "text": "Brugia malayi",
+          "url": "https://wikem.org/wiki/Brugia_malayi"
+        },
+        {
+          "text": "Brugia timori",
+          "url": "https://wikem.org/wiki/Brugia_timori"
+        },
+        {
+          "text": "Hookworm",
+          "url": "https://wikem.org/wiki/Hookworm"
+        },
+        {
+          "text": "Necator americanus",
+          "url": "https://wikem.org/wiki/Necator_americanus"
+        },
+        {
+          "text": "Ancylostoma duodenale",
+          "url": "https://wikem.org/wiki/Ancylostoma_duodenale"
+        },
+        {
+          "text": "Cutaneous larva migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larva_migrans"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Strongyloides stercoralis",
+          "url": "https://wikem.org/wiki/Strongyloides_stercoralis"
+        },
+        {
+          "text": "Trichuris trichiura",
+          "url": "https://wikem.org/wiki/Trichuris_trichiura"
+        },
+        {
+          "text": "Whipworm)",
+          "url": "https://wikem.org/wiki/Whipworm)"
+        },
+        {
+          "text": "Anisakis",
+          "url": "https://wikem.org/wiki/Anisakis"
+        },
+        {
+          "text": "Toxocara",
+          "url": "https://wikem.org/wiki/Toxocara"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        }
+      ]
+    },
+    "Ectoparasites": {
+      "text": "",
+      "subsections": {
+        "Domestic_U.S._Ectoparasites": {
+          "text": "Bed bugs\nLice\nScabies\n(Mites)\nTicks\nFleas\nPseudoparasites\nDelusional parasitosis (Ekbom syndrome)\nSee also\ntravel-related skin conditions",
+          "tables": []
+        },
+        "Ectoparasite_&_Related_Images": {
+          "text": "Bed bug\nMyiasis\nScabies\nIxodes\ntick\nLice\nFleas\nPseudoparasites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Lice",
+          "url": "https://wikem.org/wiki/Lice"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Ticks",
+          "url": "https://wikem.org/wiki/Tick_borne_illnesses"
+        },
+        {
+          "text": "Fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        },
+        {
+          "text": "Pseudoparasites",
+          "url": "https://wikem.org/wiki/Pseudoparasites"
+        },
+        {
+          "text": "travel-related skin conditions",
+          "url": "https://wikem.org/wiki/Travel-related_skin_conditions"
+        },
+        {
+          "text": "Bed bug",
+          "url": "https://wikem.org/wiki/Bed_bug"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "tick",
+          "url": "https://wikem.org/wiki/Ticks"
+        },
+        {
+          "text": "Lice",
+          "url": "https://wikem.org/wiki/Lice"
+        },
+        {
+          "text": "Fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        },
+        {
+          "text": "Pseudoparasites",
+          "url": "https://wikem.org/wiki/Pseudoparasites"
+        }
+      ]
+    },
+    "Domestic_U.S._Ectoparasites": {
+      "text": "Bed bugs\nLice\nScabies\n(Mites)\nTicks\nFleas\nPseudoparasites\nDelusional parasitosis (Ekbom syndrome)\nSee also\ntravel-related skin conditions",
+      "subsections": {
+        "Ectoparasite_&_Related_Images": {
+          "text": "Bed bug\nMyiasis\nScabies\nIxodes\ntick\nLice\nFleas\nPseudoparasites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Lice",
+          "url": "https://wikem.org/wiki/Lice"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Ticks",
+          "url": "https://wikem.org/wiki/Tick_borne_illnesses"
+        },
+        {
+          "text": "Fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        },
+        {
+          "text": "Pseudoparasites",
+          "url": "https://wikem.org/wiki/Pseudoparasites"
+        },
+        {
+          "text": "travel-related skin conditions",
+          "url": "https://wikem.org/wiki/Travel-related_skin_conditions"
+        },
+        {
+          "text": "Bed bug",
+          "url": "https://wikem.org/wiki/Bed_bug"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "tick",
+          "url": "https://wikem.org/wiki/Ticks"
+        },
+        {
+          "text": "Lice",
+          "url": "https://wikem.org/wiki/Lice"
+        },
+        {
+          "text": "Fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        },
+        {
+          "text": "Pseudoparasites",
+          "url": "https://wikem.org/wiki/Pseudoparasites"
+        }
+      ]
+    },
+    "Ectoparasite_&_Related_Images": {
+      "text": "Bed bug\nMyiasis\nScabies\nIxodes\ntick\nLice\nFleas\nPseudoparasites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bug",
+          "url": "https://wikem.org/wiki/Bed_bug"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "tick",
+          "url": "https://wikem.org/wiki/Ticks"
+        },
+        {
+          "text": "Lice",
+          "url": "https://wikem.org/wiki/Lice"
+        },
+        {
+          "text": "Fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        },
+        {
+          "text": "Pseudoparasites",
+          "url": "https://wikem.org/wiki/Pseudoparasites"
+        }
+      ]
+    },
+    "Marine_Dermatitis": {
+      "text": "Swimmer's Itch\nSeabather's Eruption",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Swimmer's Itch",
+          "url": "https://wikem.org/wiki/Swimmer%27s_Itch"
+        },
+        {
+          "text": "Seabather's Eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_Eruption"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Microbiology (Main)\nTravel Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        },
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "drug_name": "Paraphimosis_reduction",
+  "url": "https://wikem.org/wiki/Paraphimosis_reduction",
+  "scraped_at": "2026-01-10T07:59:15.257615",
+  "sections": {
+    "Indications": {
+      "text": "Paraphimosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Paraphimosis",
+          "url": "https://wikem.org/wiki/Paraphimosis"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "None",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "lubricant\ngloves",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Remove the Foley catheter if one is in place.\nPlace a small amount of lubricant on the proximal aspect of the glans and inner surface of the foreskin\nGrasp the swollen foreskin with the non-dominant hand and apply slow gentle pressure for several minutes while elevating to reduce edema\nWith the non-dominant hand, securely hold the proximal aspect of the swollen ring of foreskin with a ring formed by the thumb and the index and middle finger\nSlowly begin pushing the glans into the foreskin with the dominant thumb that is placed over the urethral meatus\nContinue until the foreskin is replaced over the glans",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "failure of reduction requiring\nDorsal Slit",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dorsal Slit",
+          "url": "https://wikem.org/wiki/Dorsal_Slit_(Penis)"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Phimosis\nDorsal Slit (Penis)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "Dorsal Slit (Penis)",
+          "url": "https://wikem.org/wiki/Dorsal_Slit_(Penis)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=BkeOUzC1Q40}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=BkeOUzC1Q40}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Vilke GM et al. Evaluation and treatment of acute urinary retention. J Emerg Med. 2008: 35:193-198.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

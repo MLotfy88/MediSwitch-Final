@@ -1,0 +1,962 @@
+{
+  "drug_name": "Pelvic_inflammatory_disease",
+  "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease",
+  "scraped_at": "2026-01-10T07:59:27.772026",
+  "sections": {
+    "Background": {
+      "text": "Pelvic Inflammatory Disease (PID) comprises spectrum of infections of the upper reproductive tract:\nSalpingitis, endometritis, myo/parametritis, and oophoritis\nPerihepatitis (\nFitz-Hugh-Curtis\n) is caused by lymphatic spread\nTubo-ovarian abscess\nis caused by direct extension\nIt is the most common serious infection in women aged 16 to 25 years and begins as\ncervicitis\n(commonly due to\nGC\nor\nchlamydia\n) that may progress to polymicrobial infection.\nInitial lower tract infection may be asymptomatic\nMost common cause of death is rupture of a\ntubo-ovarian abscess\nCan be caused by organisms such as\nM. genitalium\nwhich is very difficult to isolate and will not be picked up on routine testing\nBilateral tubal ligation does not confer protection against risk\n[1]",
+      "subsections": {
+        "Risk_factors": {
+          "text": "Age < 25\nAge at first sexual intercourse < 20\nNon-white ethnicity\nNulliparous\nHistory of transmitted diseases, especially chlamydia\nIUD\nwithin 21 days after insertion\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fitz-Hugh-Curtis",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "M. genitalium",
+          "url": "https://wikem.org/wiki/M._genitalium"
+        },
+        {
+          "text": "IUD",
+          "url": "https://wikem.org/wiki/IUD"
+        }
+      ]
+    },
+    "Risk_factors": {
+      "text": "Age < 25\nAge at first sexual intercourse < 20\nNon-white ethnicity\nNulliparous\nHistory of transmitted diseases, especially chlamydia\nIUD\nwithin 21 days after insertion\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IUD",
+          "url": "https://wikem.org/wiki/IUD"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Pelvic Pain\n(90%)\nVaginal discharge\n(75%)\nVaginal and postcoital bleeding\n(>33%)\nDysuria\n,\nfever\n, malaise,\nnausea and vomiting",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Cervical motion tenderness\nAdnexal tenderness (Most sensitive finding - Sn ~95%)\nMucopurulent cervicitis\nAbsence should prompt consideration of another diagnosis\nRUQ Pain\nMay indicate perihepatic inflammation (particularly if\njaundice\nalso present)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic Pain",
+          "url": "https://wikem.org/wiki/Pelvic_Pain"
+        },
+        {
+          "text": "Vaginal discharge",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        },
+        {
+          "text": "Vaginal and postcoital bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "RUQ Pain",
+          "url": "https://wikem.org/wiki/RUQ_Pain"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        }
+      ]
+    },
+    "History": {
+      "text": "Pelvic Pain\n(90%)\nVaginal discharge\n(75%)\nVaginal and postcoital bleeding\n(>33%)\nDysuria\n,\nfever\n, malaise,\nnausea and vomiting",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Cervical motion tenderness\nAdnexal tenderness (Most sensitive finding - Sn ~95%)\nMucopurulent cervicitis\nAbsence should prompt consideration of another diagnosis\nRUQ Pain\nMay indicate perihepatic inflammation (particularly if\njaundice\nalso present)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic Pain",
+          "url": "https://wikem.org/wiki/Pelvic_Pain"
+        },
+        {
+          "text": "Vaginal discharge",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        },
+        {
+          "text": "Vaginal and postcoital bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "RUQ Pain",
+          "url": "https://wikem.org/wiki/RUQ_Pain"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        }
+      ]
+    },
+    "Physical_Exam": {
+      "text": "Cervical motion tenderness\nAdnexal tenderness (Most sensitive finding - Sn ~95%)\nMucopurulent cervicitis\nAbsence should prompt consideration of another diagnosis\nRUQ Pain\nMay indicate perihepatic inflammation (particularly if\njaundice\nalso present)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "RUQ Pain",
+          "url": "https://wikem.org/wiki/RUQ_Pain"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[4]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        }
+      ]
+    },
+    "Acute_Pelvic_Pain": {
+      "text": "",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[4]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Urine pregnancy\nWet mount\nEndocervical swab (for\nGC\n,\nChlamydia\n)\nCBC\nESR/CRP\nUrine culture, analysis (to exclude\nUTI\n)\nPelvic ultrasound\nUltrasound sensitivity may be as low as 56% and specificity of 85%\n[5]\nConsider CT to rule-out other causes of lower\nabdominal\n/\npelvic pain\nMultiple intra-abdominal processes can cause cervical motion tenderness, including\nappendicitis",
+          "tables": []
+        },
+        "CDC_Empiric_Diagnosis_Criteria": {
+          "text": "Due to inability to test for all causative pathogens and the potential for serious complications such as infertility, the CDC has made this a purposefully vague condition with a low threshold for empiric treatment\nWoman at risk for\nSTIs\nPelvic or lower abdominal pain\nNo cause for the illness other than PID can be identified\nAt least one of the following on pelvic exam:\nCMT\nUterine tenderness\nAdnexal tenderness.\nAdditional criteria that make the diagnosis more likely:\nOral temperature >101° F (>38.3° C)\nAbnormal cervical or vaginal mucopurulent discharge\nPresence of abundant numbers of WBC on saline microscopy of vaginal fluid\nElevated ESR\nElevated CRP\nLaboratory documentation of cervical infection with\nGC\nor\nchlamydia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        },
+        {
+          "text": "abdominal",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "STIs",
+          "url": "https://wikem.org/wiki/STIs"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Urine pregnancy\nWet mount\nEndocervical swab (for\nGC\n,\nChlamydia\n)\nCBC\nESR/CRP\nUrine culture, analysis (to exclude\nUTI\n)\nPelvic ultrasound\nUltrasound sensitivity may be as low as 56% and specificity of 85%\n[5]\nConsider CT to rule-out other causes of lower\nabdominal\n/\npelvic pain\nMultiple intra-abdominal processes can cause cervical motion tenderness, including\nappendicitis",
+      "subsections": {
+        "CDC_Empiric_Diagnosis_Criteria": {
+          "text": "Due to inability to test for all causative pathogens and the potential for serious complications such as infertility, the CDC has made this a purposefully vague condition with a low threshold for empiric treatment\nWoman at risk for\nSTIs\nPelvic or lower abdominal pain\nNo cause for the illness other than PID can be identified\nAt least one of the following on pelvic exam:\nCMT\nUterine tenderness\nAdnexal tenderness.\nAdditional criteria that make the diagnosis more likely:\nOral temperature >101° F (>38.3° C)\nAbnormal cervical or vaginal mucopurulent discharge\nPresence of abundant numbers of WBC on saline microscopy of vaginal fluid\nElevated ESR\nElevated CRP\nLaboratory documentation of cervical infection with\nGC\nor\nchlamydia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        },
+        {
+          "text": "abdominal",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "STIs",
+          "url": "https://wikem.org/wiki/STIs"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        }
+      ]
+    },
+    "CDC_Empiric_Diagnosis_Criteria": {
+      "text": "Due to inability to test for all causative pathogens and the potential for serious complications such as infertility, the CDC has made this a purposefully vague condition with a low threshold for empiric treatment\nWoman at risk for\nSTIs\nPelvic or lower abdominal pain\nNo cause for the illness other than PID can be identified\nAt least one of the following on pelvic exam:\nCMT\nUterine tenderness\nAdnexal tenderness.\nAdditional criteria that make the diagnosis more likely:\nOral temperature >101° F (>38.3° C)\nAbnormal cervical or vaginal mucopurulent discharge\nPresence of abundant numbers of WBC on saline microscopy of vaginal fluid\nElevated ESR\nElevated CRP\nLaboratory documentation of cervical infection with\nGC\nor\nchlamydia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STIs",
+          "url": "https://wikem.org/wiki/STIs"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Antibiotics": {
+          "text": "No sexual activity for 2 weeks;\nTreat all partners who had sex with patient during previous 60 days prior to symptom onset",
+          "tables": []
+        },
+        "Outpatient_Antibiotic_Options": {
+          "text": "Ceftriaxone\n500mg IM (1g if >150kg)\n[7]\n[8]\nx1 +\ndoxycycline\n100mg PO BID x14d +\nmetronidazole\n500mg PO BID x14d\n[9]\n[10]\nMetronidazole\nRecommended for empiric treatment of PID by the CDC\n[11]\nRecommended empirically by European guidelines\n[12]\nCefoxitin\n2 g IM in a single dose and Probenecid, 1 g PO administered concurrently in a single dose\n[13]\n+\nDoxycycline\n100 mg PO BID x 14 days +\nmetronidazole",
+          "tables": []
+        },
+        "Inpatient_Antibiotic_Options": {
+          "text": "Recommended\n[14]\n:\nCeftriaxone\n1gm IV q24hr OR\nCefoxitin\n2gm IV q6hr OR\ncefotetan\n2gm IV q12hr) +\ndoxycycline\nPO or IV 100 mg q12hr +\nMetronidazole\n500mg IV or PO Q12hr OR\nClindamycin\n900mg IV q8h +\ngentamicin\n2mg/kg loading -> 1.5 mg/kg q8hr IV OR\nAmpicillin-sulbactam\n3gm IV q6hr +\ndoxycycline\n100mg IV/PO q12hr",
+          "tables": []
+        },
+        "IUD": {
+          "text": "No change in treatment if IUD in place (may treat without removal)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "cefotetan",
+          "url": "https://wikem.org/wiki/Cefotetan"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ampicillin-sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin-sulbactam"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "No sexual activity for 2 weeks;\nTreat all partners who had sex with patient during previous 60 days prior to symptom onset",
+      "subsections": {
+        "Outpatient_Antibiotic_Options": {
+          "text": "Ceftriaxone\n500mg IM (1g if >150kg)\n[7]\n[8]\nx1 +\ndoxycycline\n100mg PO BID x14d +\nmetronidazole\n500mg PO BID x14d\n[9]\n[10]\nMetronidazole\nRecommended for empiric treatment of PID by the CDC\n[11]\nRecommended empirically by European guidelines\n[12]\nCefoxitin\n2 g IM in a single dose and Probenecid, 1 g PO administered concurrently in a single dose\n[13]\n+\nDoxycycline\n100 mg PO BID x 14 days +\nmetronidazole",
+          "tables": []
+        },
+        "Inpatient_Antibiotic_Options": {
+          "text": "Recommended\n[14]\n:\nCeftriaxone\n1gm IV q24hr OR\nCefoxitin\n2gm IV q6hr OR\ncefotetan\n2gm IV q12hr) +\ndoxycycline\nPO or IV 100 mg q12hr +\nMetronidazole\n500mg IV or PO Q12hr OR\nClindamycin\n900mg IV q8h +\ngentamicin\n2mg/kg loading -> 1.5 mg/kg q8hr IV OR\nAmpicillin-sulbactam\n3gm IV q6hr +\ndoxycycline\n100mg IV/PO q12hr",
+          "tables": []
+        },
+        "IUD": {
+          "text": "No change in treatment if IUD in place (may treat without removal)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "cefotetan",
+          "url": "https://wikem.org/wiki/Cefotetan"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ampicillin-sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin-sulbactam"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "IUD": {
+      "text": "No change in treatment if IUD in place (may treat without removal)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit": {
+          "text": "Tubo-ovarian abscess\nHemodynamically unstable, TOA > 9 cm, postmenopausal, outpatient failure --> admit for surgical or VIR drainage\nFitz-Hugh-Curtis\nPregnancy\nSepsis\n/\nPeritonitis\nUnable to tolerate PO\nFailed outpatient treatment",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "72hr follow up\nInstruct patient to abstain from sex or adhere strictly to condom use until partner treatment and symptoms have abated\nHIV+ is not an automatic criteria for admission, consider overall clinical impression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        }
+      ]
+    },
+    "Admit": {
+      "text": "Tubo-ovarian abscess\nHemodynamically unstable, TOA > 9 cm, postmenopausal, outpatient failure --> admit for surgical or VIR drainage\nFitz-Hugh-Curtis\nPregnancy\nSepsis\n/\nPeritonitis\nUnable to tolerate PO\nFailed outpatient treatment",
+      "subsections": {
+        "Discharge": {
+          "text": "72hr follow up\nInstruct patient to abstain from sex or adhere strictly to condom use until partner treatment and symptoms have abated\nHIV+ is not an automatic criteria for admission, consider overall clinical impression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        }
+      ]
+    },
+    "Discharge": {
+      "text": "72hr follow up\nInstruct patient to abstain from sex or adhere strictly to condom use until partner treatment and symptoms have abated\nHIV+ is not an automatic criteria for admission, consider overall clinical impression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Tubo-ovarian abscess\nFitz-Hugh-Curtis\nPerihepatic inflammation seen only on CT, not US; LFTs are normal\nResponds to standard antibiotic regimen\nInfertility\nEctopic pregnancy\nChronic\npelvic pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sexually Transmitted Diseases (STD)\nPelvic pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sexually Transmitted Diseases (STD)",
+          "url": "https://wikem.org/wiki/Sexually_Transmitted_Diseases_(STD)"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        }
+      ]
+    }
+  }
+}

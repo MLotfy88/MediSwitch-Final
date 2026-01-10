@@ -1,0 +1,91 @@
+{
+  "drug_name": "Pediatric_autoimmune_neuropsychiatric_disorder_associated_with_group_A_streptococci",
+  "url": "https://wikem.org/wiki/Pediatric_autoimmune_neuropsychiatric_disorder_associated_with_group_A_streptococci",
+  "scraped_at": "2026-01-10T07:59:20.388919",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"PANDAS\"\nControversial hypothesis that a subset of children with rapid onset of obsessive-compulsive disorder (OCD) or tic disorders caused by\ngroup A beta-hemolytic streptococcal\n(GABHS) infections\n[1]\nHypothesis is that antibodies against the cell wall of the streptococcal bacteria cross-react with neuronal brain tissue in the basal ganglia to cause the tics and OCD that characterize PANDAS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "group A beta-hemolytic streptococcal",
+          "url": "https://wikem.org/wiki/Group_A_beta-hemolytic_strep"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Diagnostic criteria for PANDAS include\n[2]\n:\nOCD and/or tic disorder\nPediatric onset (between three years and onset of puberty)\nAbrupt onset and episodic course of symptoms\nTemporal relation between GAS infection and onset and/or exacerbation\nGAS infection is confirmed by:\nPositive throat or skin culture or rapid antigen detection test for GAS at the beginning of a PANDAS exacerbation, or\nClinically significant rise in antistreptococcal antibody between the onset of symptoms and four to six weeks later\nNeurologic abnormalities, such as motoric hyperactivity, choreiform movements, or tics during exacerbations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Tic disorder or OCD\nSydenham\nchorea\n(due to\nAcute Rheumatic Fever\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Acute Rheumatic Fever",
+          "url": "https://wikem.org/wiki/Acute_Rheumatic_Fever"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for alternative etiologies of symptoms or precipitants of decompensation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Antistreptococcal therapy\n, (even if the episode of GAS was already treated given the failure rates for penicillin and amoxicillin therapy)\nAzithromycin\n12 mg/kg orally in one dose for five days (maximum dose 500 mg)\nTreatment with azithromycin or\nclindamycin\nis advocated by some experts because of the possibility that GAS is intracellular\n[3]\nStandard neuropsychiatric treatment for OCD and/or tic disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antistreptococcal therapy",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Streptococcal pharyngitis\nAcute rheumatic fever\nScarlet fever\nToxic shock syndrome\nPost-streptococcal glomerular nephritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Post-streptococcal glomerular nephritis",
+          "url": "https://wikem.org/wiki/Post-streptococcal_glomerular_nephritis"
+        }
+      ]
+    }
+  }
+}

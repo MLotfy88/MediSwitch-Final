@@ -1,0 +1,84 @@
+{
+  "drug_name": "Pediatric_car_seat_rules",
+  "url": "https://wikem.org/wiki/Pediatric_car_seat_rules",
+  "scraped_at": "2026-01-10T07:59:20.155776",
+  "sections": {
+    "Intro": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "<2 years old",
+            "Type of Car Seat": "Infant-only or convertible car seat",
+            "Position": "Back seat, rear-facing",
+            "Comments": "If child height or weight > seat limit (usually ~40-65lbs), go to next age up"
+          },
+          {
+            "Age": "2-8 years old",
+            "Type of Car Seat": "Convertible or combination car seat",
+            "Position": "Back seat, forward-facing",
+            "Comments": "If child height or weight > seat limit, go to next age up"
+          },
+          {
+            "Age": "8-12 years old",
+            "Type of Car Seat": "Booster seat",
+            "Position": "Back seat, forward-facing",
+            "Comments": "If child height or weight > seat limit (usually 4' 9\"), go to next age up"
+          },
+          {
+            "Age": "12-13 years old",
+            "Type of Car Seat": "Lap and shoulder seat belt",
+            "Position": "Front or back seat, forward-facing",
+            "Comments": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Pediatric_car_seat_rules": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "<2 years old",
+            "Type of Car Seat": "Infant-only or convertible car seat",
+            "Position": "Back seat, rear-facing",
+            "Comments": "If child height or weight > seat limit (usually ~40-65lbs), go to next age up"
+          },
+          {
+            "Age": "2-8 years old",
+            "Type of Car Seat": "Convertible or combination car seat",
+            "Position": "Back seat, forward-facing",
+            "Comments": "If child height or weight > seat limit, go to next age up"
+          },
+          {
+            "Age": "8-12 years old",
+            "Type of Car Seat": "Booster seat",
+            "Position": "Back seat, forward-facing",
+            "Comments": "If child height or weight > seat limit (usually 4' 9\"), go to next age up"
+          },
+          {
+            "Age": "12-13 years old",
+            "Type of Car Seat": "Lap and shoulder seat belt",
+            "Position": "Front or back seat, forward-facing",
+            "Comments": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Trauma (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma (peds)",
+          "url": "https://wikem.org/wiki/Trauma_(peds)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "drug_name": "Parotitis",
+  "url": "https://wikem.org/wiki/Parotitis",
+  "scraped_at": "2026-01-10T07:59:16.192386",
+  "sections": {
+    "Types": {
+      "text": "Viral parotitis\nSuppurative parotitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sialoadenitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        }
+      ]
+    }
+  }
+}

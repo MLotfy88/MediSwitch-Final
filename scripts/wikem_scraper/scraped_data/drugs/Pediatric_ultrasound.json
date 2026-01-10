@@ -1,0 +1,70 @@
+{
+  "drug_name": "Pediatric_ultrasound",
+  "url": "https://wikem.org/wiki/Pediatric_ultrasound",
+  "scraped_at": "2026-01-10T07:59:28.167539",
+  "sections": {
+    "Pediatric_FAST_and_E-FAST": {
+      "text": "Pediatric FAST exam less sensitive (but similar specificity) than in adults because more pediatric abdominal injuries do not have associated free fluid.\nSensitivity 66%. Specificity 95%.\nSome advocate combining FAST with LFTs (improved sensitivity to 88%) or FAST and observed for 6 hours.\nFuture of FAST may include ultrasound with intravenous contrast.\nProcedurally is similar to adult FAST and E-FAST",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Skull_Ultrasound": {
+      "text": "Absence of skull fracture does not rule out intracranial injury but can be used to risk stratify.\nSensitivity of 94%-100%. Specificity of 95%-96%.  (albeit less literature on this topic)\nSkull x-rays have sensitivity 38% and specificity of 95%",
+      "subsections": {
+        "Procedure": {
+          "text": "Place probe on area with maximal tenderness, hematoma, or other sign of possible fracture.  Scan in 2 planes.  Look for disruptions in cortex. Sutures can be identified by following cortical break to a fontanelle and/or comparing contralateral side. Fractures will have ragged, sharp margins. Sutures will have smooth appearance.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Place probe on area with maximal tenderness, hematoma, or other sign of possible fracture.  Scan in 2 planes.  Look for disruptions in cortex. Sutures can be identified by following cortical break to a fontanelle and/or comparing contralateral side. Fractures will have ragged, sharp margins. Sutures will have smooth appearance.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Intravascular_Volume_Assessment": {
+      "text": "In pediatrics, comparison of IVC to aorta ratio may be more reliable than respiratory variation of IVC alone",
+      "subsections": {
+        "Procedure_2": {
+          "text": "IVC-to-aorta ratio less than 0.8 has sensitivity of 86-93% and specificity of 54-59% for severe dehydration (compared to WHO dehydration scale which has sensitivity of 73%, specificity of 43%).\nSubcostal view of IVC. Measure IVC at point of entry of hepatic vein or 2cm distal to cavoatrial junction. Measurements are taken at maximal diameters of structures (freeze and scroll back during cardiac and respiratory cycles).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Procedure_2": {
+      "text": "IVC-to-aorta ratio less than 0.8 has sensitivity of 86-93% and specificity of 54-59% for severe dehydration (compared to WHO dehydration scale which has sensitivity of 73%, specificity of 43%).\nSubcostal view of IVC. Measure IVC at point of entry of hepatic vein or 2cm distal to cavoatrial junction. Measurements are taken at maximal diameters of structures (freeze and scroll back during cardiac and respiratory cycles).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Intussusception": {
+      "text": "Start with high frequency probe in right lower quadrant and scan all 4 quadrants in a lawnmower fashion.\nWhile scanning each quadrant, use graded compression in every 1-2 cm looking for the following signs.\nPseudokidney or sandwich sign seen on long axis\n[1]\nTarget sign on short axis\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ultrasound (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound (Main)",
+          "url": "https://wikem.org/wiki/Ultrasound_(Main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

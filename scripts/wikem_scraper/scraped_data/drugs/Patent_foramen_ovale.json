@@ -1,0 +1,156 @@
+{
+  "drug_name": "Patent_foramen_ovale",
+  "url": "https://wikem.org/wiki/Patent_foramen_ovale",
+  "scraped_at": "2026-01-10T07:59:23.060962",
+  "sections": {
+    "Background": {
+      "text": "Flap-like opening between the atrial septa primum and secundum\nOccurs at fossa ovalis\nPersists beyond 1 year of age\nInter-atrial communication allows right-to-left cardiac shunting\nMost patients with isolated PFO are asymptomatic\nBut there is increasing evidence that PFO is the culprit in\nparadoxical embolic events",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "paradoxical embolic events",
+          "url": "https://wikem.org/wiki/Missile_embolism"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Stroke\nor\nTIA\nof undefined etiology\nConsider in young, healthy patients without risk factors for stroke\nMigraine\nor migraine-like symptoms\nNeurologic\ndecompression sickness\n(seen in scuba divers)\nAcute myocardial infarction\nSystemic\nembolism\n, such as renal infarction\nFat embolism\nParadoxical embolism caused by right atrial tumors that increase right atrial pressure\nLeft-sided valve disease in\ncarcinoid syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Acute myocardial infarction",
+          "url": "https://wikem.org/wiki/Acute_myocardial_infarction"
+        },
+        {
+          "text": "embolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Missile_embolism_types": {
+          "text": "Intrapericardial foreign body\nSystemic venous embolism\nRight heart and pulmonary artery embolism\nPulmonary vein embolism\nLeft heart embolism\nCoronary artery embolism\nParadoxical embolus (due to\npatent foramen ovale\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Missile_embolism_types": {
+      "text": "Intrapericardial foreign body\nSystemic venous embolism\nRight heart and pulmonary artery embolism\nPulmonary vein embolism\nLeft heart embolism\nCoronary artery embolism\nParadoxical embolus (due to\npatent foramen ovale\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Echocardiography\n: color flow Doppler imaging\nSmall \"flame\" of color signal may be seen in middle region of atrial septum\nContrast echocardiography\n(Bubble Study)\nBolus of agitated saline injected to antecubital vein\nMicrobubbles appear in right atrium\nStudy positive for PFO if microbubbles appear in left atrium within 3 cardiac cycles of their appearance in right atrium\nValsalva increases right atrial pressure and facilitates right-to-left shunting if present\n2D TEE with contrast provides superior visualization and is preferred\nObtain 2E TEE with constrast if suspicion is high and TTE is negative",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "Contrast echocardiography",
+          "url": "https://wikem.org/wiki/Contrast_echocardiography"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Most patients with incidental or isolated PFO receive no treatment\nTreatment more common when PFO associated with unexplained neurologic event, but no consensus for treatment exists",
+      "subsections": {
+        "Medical_Therapy": {
+          "text": "Aspirin\ntherapy alone in low risk patients\nWarfarin\nwith ASA (INR 2-3) in high-risk individuals",
+          "tables": []
+        },
+        "Surgical_Closure": {
+          "text": "Indications:\nPFO more than 25 mm in size\nInadequate rim of tissue around defect\nPercutaneous device failure\nAdvantages of surgical closure\nPermanent closure of defect\nPrevents future paradoxical emboli\nNo need for long-term anticoagulation\nPercutaneous closure\nEmergency therapeutic option",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Medical_Therapy": {
+      "text": "Aspirin\ntherapy alone in low risk patients\nWarfarin\nwith ASA (INR 2-3) in high-risk individuals",
+      "subsections": {
+        "Surgical_Closure": {
+          "text": "Indications:\nPFO more than 25 mm in size\nInadequate rim of tissue around defect\nPercutaneous device failure\nAdvantages of surgical closure\nPermanent closure of defect\nPrevents future paradoxical emboli\nNo need for long-term anticoagulation\nPercutaneous closure\nEmergency therapeutic option",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Surgical_Closure": {
+      "text": "Indications:\nPFO more than 25 mm in size\nInadequate rim of tissue around defect\nPercutaneous device failure\nAdvantages of surgical closure\nPermanent closure of defect\nPrevents future paradoxical emboli\nNo need for long-term anticoagulation\nPercutaneous closure\nEmergency therapeutic option",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Congenital Heart Disease\nMissile embolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital Heart Disease",
+          "url": "https://wikem.org/wiki/Congenital_Heart_Disease"
+        },
+        {
+          "text": "Missile embolism",
+          "url": "https://wikem.org/wiki/Missile_embolism"
+        }
+      ]
+    },
+    "References": {
+      "text": "emedicine.Medscape.com",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

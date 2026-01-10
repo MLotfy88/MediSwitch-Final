@@ -1,0 +1,257 @@
+{
+  "drug_name": "Patella_dislocation",
+  "url": "https://wikem.org/wiki/Patella_dislocation",
+  "scraped_at": "2026-01-10T07:59:21.061329",
+  "sections": {
+    "Background": {
+      "text": "Usual mechanism is blow to extended knee with externally rotated foot\n[1]\nMay also occur with sudden lateral cut or twisting at the ankle or knee\nAcute traumatic dislocations more common in males\n[2]\nChronic dislocation seen more commonly in women/teenage girls, typically little or no swelling\n[2]\nMay be associated with hemarthrosis\nChronic dislocation more common in females\nTypically little or no swelling",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Patella usually displaced laterally\nKnee held in flexion\nPain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_knee_injury": {
+          "text": "Knee dislocation\nKnee fractures\nPatella fracture\nSegond fracture\nTibial plateau fracture\nMeniscus and ligament knee injuries\nPatella dislocation\nPatellar tendonitis\nPatellar tendon rupture\nQuadriceps tendon rupture",
+          "tables": []
+        },
+        "Nontraumatic/Subacute": {
+          "text": "Arthritis\nGout and Pseudogout\nOsgood-Schlatter disease\nPatellofemoral syndrome\n(Runner's Knee)\nPatellar tendonitis\n(Jumper's knee)\nPes anserine bursitis\nPopliteal cyst\n(Bakers cyst)\nPrepatellar bursitis (nonseptic)\nSeptic bursitis\nSeptic joint\nDVT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "Knee fractures",
+          "url": "https://wikem.org/wiki/Knee_fractures"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Segond fracture",
+          "url": "https://wikem.org/wiki/Segond_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Meniscus and ligament knee injuries",
+          "url": "https://wikem.org/wiki/Meniscus_and_ligament_knee_injuries"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Patellar tendon rupture",
+          "url": "https://wikem.org/wiki/Patellar_tendon_rupture"
+        },
+        {
+          "text": "Quadriceps tendon rupture",
+          "url": "https://wikem.org/wiki/Quadriceps_tendon_rupture"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Gout and Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Osgood-Schlatter disease",
+          "url": "https://wikem.org/wiki/Osgood-Schlatter_disease"
+        },
+        {
+          "text": "Patellofemoral syndrome",
+          "url": "https://wikem.org/wiki/Patellofemoral_syndrome"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Pes anserine bursitis",
+          "url": "https://wikem.org/wiki/Pes_anserine_bursitis"
+        },
+        {
+          "text": "Popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Prepatellar bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Prepatellar_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_arthritis_(general)"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Knee_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute_knee_injury": {
+          "text": "Knee dislocation\nKnee fractures\nPatella fracture\nSegond fracture\nTibial plateau fracture\nMeniscus and ligament knee injuries\nPatella dislocation\nPatellar tendonitis\nPatellar tendon rupture\nQuadriceps tendon rupture",
+          "tables": []
+        },
+        "Nontraumatic/Subacute": {
+          "text": "Arthritis\nGout and Pseudogout\nOsgood-Schlatter disease\nPatellofemoral syndrome\n(Runner's Knee)\nPatellar tendonitis\n(Jumper's knee)\nPes anserine bursitis\nPopliteal cyst\n(Bakers cyst)\nPrepatellar bursitis (nonseptic)\nSeptic bursitis\nSeptic joint\nDVT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "Knee fractures",
+          "url": "https://wikem.org/wiki/Knee_fractures"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Segond fracture",
+          "url": "https://wikem.org/wiki/Segond_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Meniscus and ligament knee injuries",
+          "url": "https://wikem.org/wiki/Meniscus_and_ligament_knee_injuries"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Patellar tendon rupture",
+          "url": "https://wikem.org/wiki/Patellar_tendon_rupture"
+        },
+        {
+          "text": "Quadriceps tendon rupture",
+          "url": "https://wikem.org/wiki/Quadriceps_tendon_rupture"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Gout and Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Osgood-Schlatter disease",
+          "url": "https://wikem.org/wiki/Osgood-Schlatter_disease"
+        },
+        {
+          "text": "Patellofemoral syndrome",
+          "url": "https://wikem.org/wiki/Patellofemoral_syndrome"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Pes anserine bursitis",
+          "url": "https://wikem.org/wiki/Pes_anserine_bursitis"
+        },
+        {
+          "text": "Popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Prepatellar bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Prepatellar_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_arthritis_(general)"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nMay consider pre-reduction x-ray if concern for fracture (not required)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Reduce\nGenerally do not need x-rays prior to reduction\nSedation rarely required\nSingle dose of pain medication may facilitate relaxation",
+      "subsections": {
+        "Techniques_for_closed_reduction": {
+          "text": "Single operator\nPlace the hip in mild flexion by raising head of bed\nThis facilitates relaxation of the quadriceps\nGently extend the knee with one hand while pushing the patella back in place with the other hand\nTwo operators\nOne provider applies slow downward pressure over quadriceps\nThis stretches the muscle and slowly straightens the leg\nSecond provider gently rotates the patella lateral to anterior\nPlace patient in knee immobilizer\nProvide NSAIDs\nObtain radiographs to rule out associated fracture (consider including sunrise view)\nAllow weight-bearing as tolerated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Techniques_for_closed_reduction": {
+      "text": "Single operator\nPlace the hip in mild flexion by raising head of bed\nThis facilitates relaxation of the quadriceps\nGently extend the knee with one hand while pushing the patella back in place with the other hand\nTwo operators\nOne provider applies slow downward pressure over quadriceps\nThis stretches the muscle and slowly straightens the leg\nSecond provider gently rotates the patella lateral to anterior\nPlace patient in knee immobilizer\nProvide NSAIDs\nObtain radiographs to rule out associated fracture (consider including sunrise view)\nAllow weight-bearing as tolerated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Commonly associated fractures:\nMedial patellar facet\nLateral femoral condyle",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "If unable to reduce or if fracture or loose bodies (i.e. osteochondral fracture) are seen on post-reduction radiographs, consult orthopedic surgery\nIf patella successfully reduced, discharge with knee immobilizer and orthopedic follow up within 1 - 2 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Knee (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee (Main)",
+          "url": "https://wikem.org/wiki/Knee_(Main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "drug_name": "Pediatric_developmental_milestones",
+  "url": "https://wikem.org/wiki/Pediatric_developmental_milestones",
+  "scraped_at": "2026-01-10T07:59:24.441055",
+  "sections": {
+    "Intro": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age (months)": "1",
+            "Motor": "slight head raise",
+            "Visual/Problem Solving": "visually fixes",
+            "Language": "alert to sound",
+            "Social": "regards face"
+          },
+          {
+            "Age (months)": "2",
+            "Motor": "holds up head",
+            "Visual/Problem Solving": "visually follows past midline",
+            "Language": "social smile",
+            "Social": "recognizes parent"
+          },
+          {
+            "Age (months)": "3",
+            "Motor": "holds head steady",
+            "Visual/Problem Solving": "responds to visual threat",
+            "Language": "coos",
+            "Social": "reaches fo objects"
+          },
+          {
+            "Age (months)": "4",
+            "Motor": "rolls front to back",
+            "Visual/Problem Solving": "reaches with arms in unison",
+            "Language": "laughs, orients to voice",
+            "Social": "looks around environment"
+          },
+          {
+            "Age (months)": "5",
+            "Motor": "sits supported",
+            "Visual/Problem Solving": "transfers objects",
+            "Language": "\"ah-goo\"",
+            "Social": ""
+          },
+          {
+            "Age (months)": "6",
+            "Motor": "sits unsupported",
+            "Visual/Problem Solving": "unilateral reach",
+            "Language": "babbles",
+            "Social": "recognizes strangers"
+          },
+          {
+            "Age (months)": "7",
+            "Motor": "creeps",
+            "Visual/Problem Solving": "inspects objects",
+            "Language": "orients to bell",
+            "Social": "finger-feeds"
+          },
+          {
+            "Age (months)": "8",
+            "Motor": "crawls",
+            "Visual/Problem Solving": "inspects objects",
+            "Language": "Mama/dada",
+            "Social": ""
+          },
+          {
+            "Age (months)": "9",
+            "Motor": "pulls to stand",
+            "Visual/Problem Solving": "pincer grasp, holds bottle",
+            "Language": "Mama/dada descriminately",
+            "Social": "explores environment"
+          },
+          {
+            "Age (months)": "12",
+            "Motor": "walks alone",
+            "Visual/Problem Solving": "mature pincer grasp",
+            "Language": "2 additional words",
+            "Social": "comes when called"
+          },
+          {
+            "Age (months)": "15",
+            "Motor": "creeps up stairs",
+            "Visual/Problem Solving": "scribbles, 2-block tower",
+            "Language": "4-6 words",
+            "Social": "uses spoon independently"
+          },
+          {
+            "Age (months)": "18",
+            "Motor": "runs, throws from standing",
+            "Visual/Problem Solving": "3-block tower",
+            "Language": "2 word combinations",
+            "Social": "plays with other children"
+          },
+          {
+            "Age (months)": "21",
+            "Motor": "squats, walks up stairs",
+            "Visual/Problem Solving": "5-block tower",
+            "Language": "50 words",
+            "Social": "asks for food/toilet"
+          },
+          {
+            "Age (months)": "24",
+            "Motor": "walks up & down steps",
+            "Visual/Problem Solving": "removes shoes, pants, etc",
+            "Language": "pronouns",
+            "Social": "parallel play"
+          }
+        ]
+      ],
+      "links": []
+    }
+  }
+}

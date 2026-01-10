@@ -1,0 +1,287 @@
+{
+  "drug_name": "Pediatric_jet_ventilation",
+  "url": "https://wikem.org/wiki/Pediatric_jet_ventilation",
+  "scraped_at": "2026-01-10T07:59:30.081193",
+  "sections": {
+    "Overview": {
+      "text": "Also known as \"percutaneous transtracheal ventilation\"\nProvides a temporary secure airway to oxygenate and ventilate a patient in severe\nrespiratory distress\nin whom less invasive techniques (eg,\nventilation\nvia\nbag-valve-mask\n,\nlaryngeal mask airway\n, endotracheal\nintubation\n) have failed or are not likely to be successful (ie, \"can't intubate, can't ventilate\")",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "ventilation",
+          "url": "https://wikem.org/wiki/Ventilation"
+        },
+        {
+          "text": "bag-valve-mask",
+          "url": "https://wikem.org/wiki/Bag-valve-mask"
+        },
+        {
+          "text": "laryngeal mask airway",
+          "url": "https://wikem.org/wiki/Laryngeal_mask_airway"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Can’t intubate, can’t ventilate\nSevere\nmaxillofacial trauma\nBleeding in the upper airway that obscures your ability to see anatomy\nSevere swelling/edema\nChemical or thermal\nburns\nSurgical airway\nof choice for children younger than 12 years of age (due to the small airway and *increased risk of laryngeal injury with cricothyrotomy)\nDiagnostic or surgical laryngoscopy requiring good exposure of the larynx, continuous control of airway patency, and immobility of the vocal cords where elective tracheostomy is not a good option. In this case usually high frequency jet ventilation is used rather than manual jet ventilation.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Surgical airway",
+          "url": "https://wikem.org/wiki/Surgical_airway"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Because of the risk of\npneumothorax\nand subcutaneous or mediastinal emphysema, jet ventilation should not be used when you are able to secure the airway using more conventional and non-invasive means. In addition, it should not be used if there is:\nDamage to the trachea or tracheal rupture: pressurized air would escape into the soft tissues\nSevere obstruction of the airway above the cricothyroid membrane: patient would be unable to exhale and risk of pneumothorax would increase",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "14-16G angiocath\n3cc syringe (for emergent ventilation)\n7.5ETT connector (for emergent ventilation)\nambu bag (for emergent ventilation)\n10cc syringe with 3-5cc saline\njet ventilator",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Percutaneous cricothyroidotomy\nThe patient should be supine. If there is no risk of cervical spine injury, extend the head to expose the neck. Prep the skin.\nFirst identify the cricothyroid membrane. The blood vessels tend to overlie the upper third of the cricothyroid membrane. Making your puncture in the lower third will minimize the risk of hitting them.\nUse the largest IV catheter possible, such as a size 10 or 14 gauge in the adult. For a child choose a smaller catheter such as an 18 or 16 gauge.\nAttach a 10 ml syringe to the hub of the needle. The syringe should contain 3-5 ml of saline. Stand at the head of the bed and aim the needle slightly caudad at an angle of about 30-40 degrees. Aspirate as you advance. Your insertion should be slow and deliberate to avoid puncture of the posterior tracheal wall. As soon as you enter the tracheal lumen you will see bubbles in the saline as you aspirate air, verifying intratracheal placement.\nOnce you have entered the trachea, slide the catheter off the needle into the trachea. The catheter should slide easily. Immediately attach your syringe to the hub of the catheter again and aspirate air. There should be no resistance. Do not skip verification of correct placement inside the tracheal lumen because you must be absolutely sure that the catheter is correctly placed inside the trachea. Jet ventilation against or into the tracheal wall can cause massive subcutaneous emphysema that can cause catastrophic airway distortion and obstruction.\nSteady the catheter by the hub to ensure that it doesn’t move. Keep your fingers in contact with the neck while holding the hub to avoid accidentally pulling the catheter out of position.\nusing a jet ventilator\nYou should familiarize yourself with the jet ventilator available in your institution.\n0 to <5 years old- < 20 mmHg (you can also consider use of Bag-Valve device to limit peak pressure: see below)\n5 to 12 years old- < 30mm/Hg\n12 years old – 50 mm/Hg\nUse I:E ratio of 1:4 to 1:5, with a breath rate of 10 to 12/minute for most children.\nYou risk tension pneumothorax if the patient cannot exhale or isn’t given enough time to exhale. Never press the trigger unless you are watching the patient’s chest.\nwhen a jet ventilator is not available\nNote: Hypercarbia Will Develop Without A Jet Ventilator\nAlthough hypoxia is avoided with any of these non-jet ventilator techniques, hypercarbia will develop. This can cause significant respiratory acidosis if use of these techniques is prolonged. However, any oxygen supplied during emergency treatment of airway obstruction is useful.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Pneumothorax\nPneumomediastinum\nTracheal injury\nHypercapnia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Surgical airways\nDifficult airway algorithm",
+      "subsections": {
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Difficult airway algorithm",
+          "url": "https://wikem.org/wiki/Difficult_airway_algorithm"
+        },
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Mechanical_Ventilation_Pages": {
+      "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://airwayjedi.com/2015/10/29/dont-be-afraid-to-use-percutaneous-jet-ventilation-in-an-emergency/\nhttps://emedicine.medscape.com/article/1413327-overview",
+      "subsections": {
+        "Videos": {
+          "text": "MDedge (1:52)\nhttps://www.youtube.com/watch?v=F_PV7N2c2pQ",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "MDedge (1:52)\nhttps://www.youtube.com/watch?v=F_PV7N2c2pQ",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

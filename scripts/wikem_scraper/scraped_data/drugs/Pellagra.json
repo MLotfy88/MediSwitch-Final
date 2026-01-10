@@ -1,0 +1,513 @@
+{
+  "drug_name": "Pellagra",
+  "url": "https://wikem.org/wiki/Pellagra",
+  "scraped_at": "2026-01-10T07:59:29.275365",
+  "sections": {
+    "Background": {
+      "text": "Pellagra is the deficiency of Niacin (Vitamin B3).\nNiacin\nis an important factor for the production of NADH and NADPH, which are important for redox reactions.\nDeficiency therefore affects tissues with high turnover, including skin, GI tract and brain\nNiacin is either consumed in the diet or converted from tryptophan by the hepatic kynurenine pathway in the liver.\nNeurological symptoms can also be exacerbated by supplementation by other B vitiamins, particularly B1, B2, B6, and B12.  Mechanism is unknown but may be secondary to the increased demand of NAD.",
+      "subsections": {
+        "Drugs_that_inhibit_niacin_production": {
+          "text": "Azathioprine\nChloramphenicol\nEthionamide\n5-Fluorouracil\nIsoniazid\n6mercaptopurine\nPyrazinamide",
+          "tables": []
+        },
+        "Conditions_that_decrease_niacin_GI_absoprtion": {
+          "text": "Colitis\nCeliac disease\nCrohn's disease\nUlcerative colitis\nCirrhosis\nGastrectomy\npatients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Niacin",
+          "url": "https://wikem.org/wiki/Niacin"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Pyrazinamide",
+          "url": "https://wikem.org/wiki/Pyrazinamide"
+        },
+        {
+          "text": "Colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Celiac disease",
+          "url": "https://wikem.org/wiki/Celiac_disease"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Gastrectomy",
+          "url": "https://wikem.org/wiki/Weight_loss_surgery_complications"
+        }
+      ]
+    },
+    "Drugs_that_inhibit_niacin_production": {
+      "text": "Azathioprine\nChloramphenicol\nEthionamide\n5-Fluorouracil\nIsoniazid\n6mercaptopurine\nPyrazinamide",
+      "subsections": {
+        "Conditions_that_decrease_niacin_GI_absoprtion": {
+          "text": "Colitis\nCeliac disease\nCrohn's disease\nUlcerative colitis\nCirrhosis\nGastrectomy\npatients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Pyrazinamide",
+          "url": "https://wikem.org/wiki/Pyrazinamide"
+        },
+        {
+          "text": "Colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Celiac disease",
+          "url": "https://wikem.org/wiki/Celiac_disease"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Gastrectomy",
+          "url": "https://wikem.org/wiki/Weight_loss_surgery_complications"
+        }
+      ]
+    },
+    "Conditions_that_decrease_niacin_GI_absoprtion": {
+      "text": "Colitis\nCeliac disease\nCrohn's disease\nUlcerative colitis\nCirrhosis\nGastrectomy\npatients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Celiac disease",
+          "url": "https://wikem.org/wiki/Celiac_disease"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Gastrectomy",
+          "url": "https://wikem.org/wiki/Weight_loss_surgery_complications"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Niacin deficiency classically causes the 4 D's: Dermatitis, Diarrhea, Dementia and Death.\nSkin photosensitivity and\nrash\n.  Erythematous and scaly.  May be mistaken for\nsunburn\n.\nsecondary to UV damage and decreased repair and hence the desquamation, keratosis and erythema is most common in sun-exposed skin\n\"Casal's Necklace.\" Reddish rash surrounding the neck, and on the hands and feet.  This is a photosensitivity rash in the exposed areas of the neck.  Originally described by Gaspar Casal in 1735.\nGI symptoms\nsecondary to decreased cell turnover\nNeurological symptoms\n\"Pellagra\nencephalopathy\n,\"\ndepression\n,\nanxiety\n,\naltered mental status\n,\nhallucinations\n, delusions, affective disorders, cognitive dysfunction.\nNiacin deficiency is often associated with chronic\nalcohol\nuse secondary to nutritional deficiency and malabsorption.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "sunburn",
+          "url": "https://wikem.org/wiki/Sunburn"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Other_Rash": {
+          "text": "Acute generalized exanthematous pustulosis\nAllergic reaction\nAphthous stomatitis\nAtopic dermatitis\nCoxsackie\nDermatitis herpetiformis\nExfoliative erythroderma\nImpetigo\nPellagra\nPityriasis rosea\nSerum Sickness\nTinea capitus\nTinea corporis\nVitiligo",
+          "tables": []
+        },
+        "Vitamin_deficiencies": {
+          "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Serum Sickness",
+          "url": "https://wikem.org/wiki/Serum_Sickness"
+        },
+        {
+          "text": "Tinea capitus",
+          "url": "https://wikem.org/wiki/Tinea_capitus"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        },
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        }
+      ]
+    },
+    "Other_Rash": {
+      "text": "Acute generalized exanthematous pustulosis\nAllergic reaction\nAphthous stomatitis\nAtopic dermatitis\nCoxsackie\nDermatitis herpetiformis\nExfoliative erythroderma\nImpetigo\nPellagra\nPityriasis rosea\nSerum Sickness\nTinea capitus\nTinea corporis\nVitiligo",
+      "subsections": {
+        "Vitamin_deficiencies": {
+          "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Serum Sickness",
+          "url": "https://wikem.org/wiki/Serum_Sickness"
+        },
+        {
+          "text": "Tinea capitus",
+          "url": "https://wikem.org/wiki/Tinea_capitus"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        },
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        }
+      ]
+    },
+    "Vitamin_deficiencies": {
+      "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Niacin\nsupplementation.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Niacin",
+          "url": "https://wikem.org/wiki/Niacin"
+        }
+      ]
+    },
+    "References": {
+      "text": "Badaway, Abdulla.  “Pellagra and Alcoholism: a biochemical perspective.”  Alcohol and alcoholism 2014; vol 49, No 3, pages 238-250\nLopez, Marta, et al.  “Pellagra Encephalopathy in the context of alcoholism: review and case report.”  Alcohol and alcoholism. Vol 49.  No 1.  pages 38-41.  2014.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

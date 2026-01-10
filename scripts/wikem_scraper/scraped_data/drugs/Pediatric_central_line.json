@@ -1,0 +1,332 @@
+{
+  "drug_name": "Pediatric_central_line",
+  "url": "https://wikem.org/wiki/Pediatric_central_line",
+  "scraped_at": "2026-01-10T07:59:22.339937",
+  "sections": {
+    "Size": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age (yrs)": "0-0.5",
+            "Internal Jugular": "3F",
+            "Subclavian": "3F",
+            "Femoral": "3F"
+          },
+          {
+            "Age (yrs)": "0.5-2",
+            "Internal Jugular": "3F",
+            "Subclavian": "3F",
+            "Femoral": "3-4F"
+          },
+          {
+            "Age (yrs)": "3-6",
+            "Internal Jugular": "4F",
+            "Subclavian": "4F",
+            "Femoral": "4-5F"
+          },
+          {
+            "Age (yrs)": "7-12",
+            "Internal Jugular": "4-5F",
+            "Subclavian": "4-5F",
+            "Femoral": "5-8F"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Insertion_Distance": {
+      "text": "Initial length of insertion (cm) = 1.7 + [(0.07 x height (cm)]\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "",
+      "subsections": {
+        "Absolute": {
+          "text": "Infection over the placement site\nAnatomic obstruction (thrombosis of target vein, other anatomic variance)\nSite-specific\nSubclavian - trauma/fracture to ipsilateral clavicle or proximal ribs",
+          "tables": []
+        },
+        "Relative": {
+          "text": "Coagulopathy (see below)\nDistortion of landmarks by trauma or congenital anomalies\nPrior vessel injury or procedures\nMorbid obesity\nUncooperative/combative patient",
+          "tables": []
+        },
+        "Central_line_if_coagulopathic": {
+          "text": "Preferentially use a compressible site such as the\nfemoral\nlocation (avoid the\nIJ\nand\nsubclavian\nif possible, though IJ preferred over subclavian)\nNo benefit to giving\nFFP\nunless artery is punctured\n[3]\nHowever, consider giving\nFFP\nif patient has\nhemophilia\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "IJ",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        }
+      ]
+    },
+    "Absolute": {
+      "text": "Infection over the placement site\nAnatomic obstruction (thrombosis of target vein, other anatomic variance)\nSite-specific\nSubclavian - trauma/fracture to ipsilateral clavicle or proximal ribs",
+      "subsections": {
+        "Relative": {
+          "text": "Coagulopathy (see below)\nDistortion of landmarks by trauma or congenital anomalies\nPrior vessel injury or procedures\nMorbid obesity\nUncooperative/combative patient",
+          "tables": []
+        },
+        "Central_line_if_coagulopathic": {
+          "text": "Preferentially use a compressible site such as the\nfemoral\nlocation (avoid the\nIJ\nand\nsubclavian\nif possible, though IJ preferred over subclavian)\nNo benefit to giving\nFFP\nunless artery is punctured\n[3]\nHowever, consider giving\nFFP\nif patient has\nhemophilia\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "IJ",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        }
+      ]
+    },
+    "Relative": {
+      "text": "Coagulopathy (see below)\nDistortion of landmarks by trauma or congenital anomalies\nPrior vessel injury or procedures\nMorbid obesity\nUncooperative/combative patient",
+      "subsections": {
+        "Central_line_if_coagulopathic": {
+          "text": "Preferentially use a compressible site such as the\nfemoral\nlocation (avoid the\nIJ\nand\nsubclavian\nif possible, though IJ preferred over subclavian)\nNo benefit to giving\nFFP\nunless artery is punctured\n[3]\nHowever, consider giving\nFFP\nif patient has\nhemophilia\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "IJ",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        }
+      ]
+    },
+    "Central_line_if_coagulopathic": {
+      "text": "Preferentially use a compressible site such as the\nfemoral\nlocation (avoid the\nIJ\nand\nsubclavian\nif possible, though IJ preferred over subclavian)\nNo benefit to giving\nFFP\nunless artery is punctured\n[3]\nHowever, consider giving\nFFP\nif patient has\nhemophilia\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "IJ",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Critical care quick reference",
+      "subsections": {
+        "Vascular_access_types": {
+          "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "Venous cutdown",
+          "url": "https://wikem.org/wiki/Venous_cutdown"
+        },
+        {
+          "text": "Umbilical vein catheterization",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "External jugular vein cannulation",
+          "url": "https://wikem.org/wiki/External_jugular_vein_cannulation"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    },
+    "Vascular_access_types": {
+      "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "Venous cutdown",
+          "url": "https://wikem.org/wiki/Venous_cutdown"
+        },
+        {
+          "text": "Umbilical vein catheterization",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "External jugular vein cannulation",
+          "url": "https://wikem.org/wiki/External_jugular_vein_cannulation"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    }
+  }
+}

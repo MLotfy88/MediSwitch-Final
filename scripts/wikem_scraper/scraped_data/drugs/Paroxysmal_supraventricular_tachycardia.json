@@ -1,0 +1,1610 @@
+{
+  "drug_name": "Paroxysmal_supraventricular_tachycardia",
+  "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia",
+  "scraped_at": "2026-01-10T07:59:20.066979",
+  "sections": {
+    "Intro": {
+      "text": "SVT terminology can be confusing, as some references consider SVT to be any rhythm originating above the ventricles (e.g. sinus tachycardia, MAT, atrial flutter, atrial fibrillation, PSVT, etc).  As these entities have their own specific articles and treatment, only paroxysmal supraventricular tachycardia links here.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Most common dysrhythmia in children and young, otherwise healthy patients\nAlso known as PSVT and frequently referred to just as SVT\nSubtypes include AV nodal reentrant tachycardia (AVNRT) and AV reentrant tachycardia (AVRT)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Palpitations\nChest pain\nFatigue\nDiaphoresis\nMay be hemodynamically unstable with\nhypotension\nor\nsyncope\nInfants: poor feeding, failure-to-thrive, tachypnea, irritability",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Narrow-complex_tachycardia": {
+          "text": "Regular\nAV Node Independent\nSinus tachycardia\nAtrial tachycardia\n(uni-focal or multi-focal)\nAtrial fibrillation\nAtrial flutter\nIdiopathic fascicular left ventricular tachycardia\nAV Node Dependent\nParoxysmal supraventricular tachycardia\n(PSVT)\nAV node re-entry tachycardia\n(AVNRT)\nAV re-entry tachycardia\n(AVRT)\nLown-Ganong-Levine syndrome\nWolff–Parkinson–White syndrome\nJunctional tachycardia\nIrregular\nMultifocal atrial tachycardia\n(MAT)\nSinus tachycardia\nwith frequent\nPACs\n,\nPJCs\n,\nPVCs\nAtrial fibrillation\nAtrial fibrillation with RVR\nAtrial flutter\nwith variable conduction\nDigoxin Toxicity",
+          "tables": []
+        },
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        },
+        "Palpitations": {
+          "text": "Arrhythmias:\nNarrow-complex tachycardias\nWide-complex tachycardias\nAV blocks\nSecond Degree AV Block Type I\n(Wenckeback)\nSecond Degree AV Block Type II\nThird Degree AV Block\nPremature atrial contraction\nPremature junctional contraction\nPremature ventricular contraction\nSick sinus syndrome\nWandering atrial pacemaker\nNon-arrhythmic cardiac causes:\nAcute coronary syndrome\nCardiomyopathy\nCongenital heart disease\nCongestive heart failure (CHF)\nMitral valve prolapse\nPacemaker complication\nPericarditis\nMyocarditis\nValvular disease\nPsychiatric causes:\nPanic attack\nAnxiety\nSomatic Symptom Disorder\nDrugs and Medications:\nAlcohol\nCaffeine\nDrugs of abuse\n(e.g.\ncocaine\n)\nMedications (e.g.\ndigoxin\n,\ntheophylline\n)\nTobacco\nMisc\nAnemia\nHyperthyroidism\nThyroid storm\nPulmonary embolism\nDehydration\nSepsis\nPheochromocytoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial tachycardia",
+          "url": "https://wikem.org/wiki/Atrial_tachycardia"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Idiopathic fascicular left ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Idiopathic_fascicular_left_ventricular_tachycardia"
+        },
+        {
+          "text": "AV node re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_node_re-entry_tachycardia"
+        },
+        {
+          "text": "AV re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_re-entry_tachycardia"
+        },
+        {
+          "text": "Lown-Ganong-Levine syndrome",
+          "url": "https://wikem.org/wiki/Lown-Ganong-Levine_syndrome"
+        },
+        {
+          "text": "Wolff–Parkinson–White syndrome",
+          "url": "https://wikem.org/wiki/Wolff%E2%80%93Parkinson%E2%80%93White_syndrome"
+        },
+        {
+          "text": "Junctional tachycardia",
+          "url": "https://wikem.org/wiki/Junctional_tachycardia"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "PJCs",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "PVCs",
+          "url": "https://wikem.org/wiki/PVCs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial fibrillation with RVR",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_with_RVR"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Digoxin Toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        },
+        {
+          "text": "Narrow-complex tachycardias",
+          "url": "https://wikem.org/wiki/Narrow-complex_tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardias",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        },
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional contraction",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Congestive heart failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Somatic Symptom Disorder",
+          "url": "https://wikem.org/wiki/Somatic_Symptom_Disorder"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Narrow-complex_tachycardia": {
+      "text": "Regular\nAV Node Independent\nSinus tachycardia\nAtrial tachycardia\n(uni-focal or multi-focal)\nAtrial fibrillation\nAtrial flutter\nIdiopathic fascicular left ventricular tachycardia\nAV Node Dependent\nParoxysmal supraventricular tachycardia\n(PSVT)\nAV node re-entry tachycardia\n(AVNRT)\nAV re-entry tachycardia\n(AVRT)\nLown-Ganong-Levine syndrome\nWolff–Parkinson–White syndrome\nJunctional tachycardia\nIrregular\nMultifocal atrial tachycardia\n(MAT)\nSinus tachycardia\nwith frequent\nPACs\n,\nPJCs\n,\nPVCs\nAtrial fibrillation\nAtrial fibrillation with RVR\nAtrial flutter\nwith variable conduction\nDigoxin Toxicity",
+      "subsections": {
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        },
+        "Palpitations": {
+          "text": "Arrhythmias:\nNarrow-complex tachycardias\nWide-complex tachycardias\nAV blocks\nSecond Degree AV Block Type I\n(Wenckeback)\nSecond Degree AV Block Type II\nThird Degree AV Block\nPremature atrial contraction\nPremature junctional contraction\nPremature ventricular contraction\nSick sinus syndrome\nWandering atrial pacemaker\nNon-arrhythmic cardiac causes:\nAcute coronary syndrome\nCardiomyopathy\nCongenital heart disease\nCongestive heart failure (CHF)\nMitral valve prolapse\nPacemaker complication\nPericarditis\nMyocarditis\nValvular disease\nPsychiatric causes:\nPanic attack\nAnxiety\nSomatic Symptom Disorder\nDrugs and Medications:\nAlcohol\nCaffeine\nDrugs of abuse\n(e.g.\ncocaine\n)\nMedications (e.g.\ndigoxin\n,\ntheophylline\n)\nTobacco\nMisc\nAnemia\nHyperthyroidism\nThyroid storm\nPulmonary embolism\nDehydration\nSepsis\nPheochromocytoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial tachycardia",
+          "url": "https://wikem.org/wiki/Atrial_tachycardia"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Idiopathic fascicular left ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Idiopathic_fascicular_left_ventricular_tachycardia"
+        },
+        {
+          "text": "AV node re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_node_re-entry_tachycardia"
+        },
+        {
+          "text": "AV re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_re-entry_tachycardia"
+        },
+        {
+          "text": "Lown-Ganong-Levine syndrome",
+          "url": "https://wikem.org/wiki/Lown-Ganong-Levine_syndrome"
+        },
+        {
+          "text": "Wolff–Parkinson–White syndrome",
+          "url": "https://wikem.org/wiki/Wolff%E2%80%93Parkinson%E2%80%93White_syndrome"
+        },
+        {
+          "text": "Junctional tachycardia",
+          "url": "https://wikem.org/wiki/Junctional_tachycardia"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "PJCs",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "PVCs",
+          "url": "https://wikem.org/wiki/PVCs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial fibrillation with RVR",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_with_RVR"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Digoxin Toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        },
+        {
+          "text": "Narrow-complex tachycardias",
+          "url": "https://wikem.org/wiki/Narrow-complex_tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardias",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        },
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional contraction",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Congestive heart failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Somatic Symptom Disorder",
+          "url": "https://wikem.org/wiki/Somatic_Symptom_Disorder"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Wide-complex_tachycardia": {
+      "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+      "subsections": {
+        "Palpitations": {
+          "text": "Arrhythmias:\nNarrow-complex tachycardias\nWide-complex tachycardias\nAV blocks\nSecond Degree AV Block Type I\n(Wenckeback)\nSecond Degree AV Block Type II\nThird Degree AV Block\nPremature atrial contraction\nPremature junctional contraction\nPremature ventricular contraction\nSick sinus syndrome\nWandering atrial pacemaker\nNon-arrhythmic cardiac causes:\nAcute coronary syndrome\nCardiomyopathy\nCongenital heart disease\nCongestive heart failure (CHF)\nMitral valve prolapse\nPacemaker complication\nPericarditis\nMyocarditis\nValvular disease\nPsychiatric causes:\nPanic attack\nAnxiety\nSomatic Symptom Disorder\nDrugs and Medications:\nAlcohol\nCaffeine\nDrugs of abuse\n(e.g.\ncocaine\n)\nMedications (e.g.\ndigoxin\n,\ntheophylline\n)\nTobacco\nMisc\nAnemia\nHyperthyroidism\nThyroid storm\nPulmonary embolism\nDehydration\nSepsis\nPheochromocytoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        },
+        {
+          "text": "Narrow-complex tachycardias",
+          "url": "https://wikem.org/wiki/Narrow-complex_tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardias",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        },
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional contraction",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Congestive heart failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Somatic Symptom Disorder",
+          "url": "https://wikem.org/wiki/Somatic_Symptom_Disorder"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Palpitations": {
+      "text": "Arrhythmias:\nNarrow-complex tachycardias\nWide-complex tachycardias\nAV blocks\nSecond Degree AV Block Type I\n(Wenckeback)\nSecond Degree AV Block Type II\nThird Degree AV Block\nPremature atrial contraction\nPremature junctional contraction\nPremature ventricular contraction\nSick sinus syndrome\nWandering atrial pacemaker\nNon-arrhythmic cardiac causes:\nAcute coronary syndrome\nCardiomyopathy\nCongenital heart disease\nCongestive heart failure (CHF)\nMitral valve prolapse\nPacemaker complication\nPericarditis\nMyocarditis\nValvular disease\nPsychiatric causes:\nPanic attack\nAnxiety\nSomatic Symptom Disorder\nDrugs and Medications:\nAlcohol\nCaffeine\nDrugs of abuse\n(e.g.\ncocaine\n)\nMedications (e.g.\ndigoxin\n,\ntheophylline\n)\nTobacco\nMisc\nAnemia\nHyperthyroidism\nThyroid storm\nPulmonary embolism\nDehydration\nSepsis\nPheochromocytoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Narrow-complex tachycardias",
+          "url": "https://wikem.org/wiki/Narrow-complex_tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardias",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        },
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional contraction",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Congestive heart failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Somatic Symptom Disorder",
+          "url": "https://wikem.org/wiki/Somatic_Symptom_Disorder"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "^In infants HR cuttoff = 220\nECG\nfindings\nP-waves\nSinus tachycardia - may be seen before QRS complexes\nSVT - either p-waves not seen OR retrograde p-waves\nSigns with no actionable clinical relevance, unless they persist after conversion:\nST depressions in any lead\nST elevation in aVR\nSVT is very rarely isolated manifestation of\nACS\nand ST changes usually resolve after PSVT is appropriately treated\nConsider PSVT underlying causes to include\n[1]\n:\nDrug toxicity\nCaffeine\nStimulants\nEtOH\nThyroid disease\nElectrolyte abnormality\nHypoxia,\npulmonary embolism\nPre-existing heart disease (prior\nMI\n, MVP,\npericarditis\n) is rare\nTroponins\nare not indicated in patients without significant risk factors for CAD\n[2]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Symptoms": "History",
+            "Sinus tachycardia": "Volume loss",
+            "SVT": "Sudden onset"
+          },
+          {
+            "Symptoms": "Physical Exam",
+            "Sinus tachycardia": "Dehydrated",
+            "SVT": "CHF-like"
+          },
+          {
+            "Symptoms": "^Heart Rate (generally)",
+            "Sinus tachycardia": "<180",
+            "SVT": ">180"
+          },
+          {
+            "Symptoms": "Variability",
+            "Sinus tachycardia": "Yes",
+            "SVT": "No"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        },
+        {
+          "text": "pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Troponins",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Unstable_Management": {
+      "text": "Synchronized cardioversion\n0.5-1.0 J/kg\nPediatrics: synchronized cardioversion at 0.5-1 J/kg\nIf unsuccessful, increase to 2 J/kg\nConsider sedation prior to cardioversion only if it will not significantly delay the procedure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        }
+      ]
+    },
+    "Stable_Management": {
+      "text": "",
+      "subsections": {
+        "Vagal_maneuvers": {
+          "text": "Modified Positional Valsalva\nmore successful than traditional\nValsalva maneuver\n[3]\nCarotid sinus massage for 15 seconds\n[4]\n)\nAuscultate for bruits prior to performing\nMassage one side at a time\nDo not attempt in elderly patients or patients with known carotid artery disease or risk factors\nMammalian diving reflex (pediatrics)\nMost effective in infants\nApply cold ice pack over face for 15-30 seconds, covering nose\nBe conscientious of infants as obligate nasal breathers",
+          "tables": []
+        },
+        "Adults": {
+          "text": "6mg rapid IV push (1st dose)\nWarn patient of sense of discomfort during transient sinus pause immediately following dose\nEnsure rapid push is through a large bore IV with proximity to the heart (left side antecubital preferred) as half-life of adenosine is less than 10 seconds\n[5]\nFollow rapid push with 20cc rapid saline flush, consider use of Y-tubing or 3-way stopcock\nRaise left arm above head immediately after push to facilitate rapid delivery to myocardium\nIf unsuccessful, push 12mg (2nd dose)\n[6]\nIf unsuccessful, consider repeat bolus of 12mg (3rd dose) (to a max of 30mg)\nSome literature to support 3rd dose of 18mg\n[7]\nIf still unsuccessful, consider\ncalcium channel blocker\nas below\nMay have higher conversion rates and patient comfort in appropriate patients",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "0.1mg/kg (1st dose) rapid IV push as above\nIf unsuccessful, attempt second 0.1 mg/kg dose or escalate immediately to 0.2mg/kg (2nd dose) IV push",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "Relatively contraindicated in asthmatics due to increased bronchoconstriction\nPatients taking methylxanthines (eg\ncaffeine\n,\ntheophylline\n) may require higher dose\nConsider initial adult dose of 3mg, if:\n[8]\nCentral line\nDecreased transit time to heart\nHeart transplant\nRelative sensitivity of denervated transplanted hearts\nNote that full dose may be used safely, but initial half-dose is reasonable\n[9]\nTaking carbamazepine or\ndipyridamole",
+          "tables": []
+        },
+        "Adults_2": {
+          "text": "Diltiazem\n0.25mg/kg IV over 2min\nMay give 0.35mg/kg IV if inadequate response after 15min\nIf IV bolus worked start IV infusion at 5–20mg/hr\nA slow infusion of 2.5 mg/min to a maximum of 50 mg is also an option\nIn this trial 50% had converted by 12 mg and 75% had converted by 18 mg\n[10]\nContraindications: Hypotension,\nCHF\n, any suspicion of VT\nConsider calcium gluconate premedication OR afterwards if BP falls\nPhase 2 trial completed on intranasal CCB (Etripamil)\n[11]\nHigh conversion rate (65 to 95%)\nMedian time to conversion 3 minutes",
+          "tables": []
+        },
+        "Pediatrics_2": {
+          "text": "Verapamil\n1-4 mg/kg q8hrs (only if >12 months old)\n[12]\nMay cause significant hypotension in infants",
+          "tables": []
+        },
+        "Adults_3": {
+          "text": "Metoprolol\n5mg IV q5min x 3; give 50mg PO if IVP effective\nEsmolol\n500mcg/kg IV over 60sec\nMay give repeat bolus if inadequate response after 2-5min\nIf effective start infusion at 50mcg/kg/min (titrate up to 300mcg/kg/min)",
+          "tables": []
+        },
+        "Pediatrics_3": {
+          "text": "Propranolol\n0.3-1mg/kg q6hrs IV (contraindicated in asthmatics)\n[12]\nAtenolol\n0.5-1mg/kg q12hrs (caution in asthmatics)\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Modified Positional Valsalva",
+          "url": "https://wikem.org/wiki/Modified_Positional_Valsalva"
+        },
+        {
+          "text": "Valsalva maneuver",
+          "url": "https://wikem.org/wiki/Valsalva_maneuver"
+        },
+        {
+          "text": "calcium channel blocker",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "dipyridamole",
+          "url": "https://wikem.org/wiki/Dipyridamole"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        }
+      ]
+    },
+    "Vagal_maneuvers": {
+      "text": "Modified Positional Valsalva\nmore successful than traditional\nValsalva maneuver\n[3]\nCarotid sinus massage for 15 seconds\n[4]\n)\nAuscultate for bruits prior to performing\nMassage one side at a time\nDo not attempt in elderly patients or patients with known carotid artery disease or risk factors\nMammalian diving reflex (pediatrics)\nMost effective in infants\nApply cold ice pack over face for 15-30 seconds, covering nose\nBe conscientious of infants as obligate nasal breathers",
+      "subsections": {
+        "Adults": {
+          "text": "6mg rapid IV push (1st dose)\nWarn patient of sense of discomfort during transient sinus pause immediately following dose\nEnsure rapid push is through a large bore IV with proximity to the heart (left side antecubital preferred) as half-life of adenosine is less than 10 seconds\n[5]\nFollow rapid push with 20cc rapid saline flush, consider use of Y-tubing or 3-way stopcock\nRaise left arm above head immediately after push to facilitate rapid delivery to myocardium\nIf unsuccessful, push 12mg (2nd dose)\n[6]\nIf unsuccessful, consider repeat bolus of 12mg (3rd dose) (to a max of 30mg)\nSome literature to support 3rd dose of 18mg\n[7]\nIf still unsuccessful, consider\ncalcium channel blocker\nas below\nMay have higher conversion rates and patient comfort in appropriate patients",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "0.1mg/kg (1st dose) rapid IV push as above\nIf unsuccessful, attempt second 0.1 mg/kg dose or escalate immediately to 0.2mg/kg (2nd dose) IV push",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "Relatively contraindicated in asthmatics due to increased bronchoconstriction\nPatients taking methylxanthines (eg\ncaffeine\n,\ntheophylline\n) may require higher dose\nConsider initial adult dose of 3mg, if:\n[8]\nCentral line\nDecreased transit time to heart\nHeart transplant\nRelative sensitivity of denervated transplanted hearts\nNote that full dose may be used safely, but initial half-dose is reasonable\n[9]\nTaking carbamazepine or\ndipyridamole",
+          "tables": []
+        },
+        "Adults_2": {
+          "text": "Diltiazem\n0.25mg/kg IV over 2min\nMay give 0.35mg/kg IV if inadequate response after 15min\nIf IV bolus worked start IV infusion at 5–20mg/hr\nA slow infusion of 2.5 mg/min to a maximum of 50 mg is also an option\nIn this trial 50% had converted by 12 mg and 75% had converted by 18 mg\n[10]\nContraindications: Hypotension,\nCHF\n, any suspicion of VT\nConsider calcium gluconate premedication OR afterwards if BP falls\nPhase 2 trial completed on intranasal CCB (Etripamil)\n[11]\nHigh conversion rate (65 to 95%)\nMedian time to conversion 3 minutes",
+          "tables": []
+        },
+        "Pediatrics_2": {
+          "text": "Verapamil\n1-4 mg/kg q8hrs (only if >12 months old)\n[12]\nMay cause significant hypotension in infants",
+          "tables": []
+        },
+        "Adults_3": {
+          "text": "Metoprolol\n5mg IV q5min x 3; give 50mg PO if IVP effective\nEsmolol\n500mcg/kg IV over 60sec\nMay give repeat bolus if inadequate response after 2-5min\nIf effective start infusion at 50mcg/kg/min (titrate up to 300mcg/kg/min)",
+          "tables": []
+        },
+        "Pediatrics_3": {
+          "text": "Propranolol\n0.3-1mg/kg q6hrs IV (contraindicated in asthmatics)\n[12]\nAtenolol\n0.5-1mg/kg q12hrs (caution in asthmatics)\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Modified Positional Valsalva",
+          "url": "https://wikem.org/wiki/Modified_Positional_Valsalva"
+        },
+        {
+          "text": "Valsalva maneuver",
+          "url": "https://wikem.org/wiki/Valsalva_maneuver"
+        },
+        {
+          "text": "calcium channel blocker",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "dipyridamole",
+          "url": "https://wikem.org/wiki/Dipyridamole"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        }
+      ]
+    },
+    "Adenosine": {
+      "text": "",
+      "subsections": {
+        "Adults": {
+          "text": "6mg rapid IV push (1st dose)\nWarn patient of sense of discomfort during transient sinus pause immediately following dose\nEnsure rapid push is through a large bore IV with proximity to the heart (left side antecubital preferred) as half-life of adenosine is less than 10 seconds\n[5]\nFollow rapid push with 20cc rapid saline flush, consider use of Y-tubing or 3-way stopcock\nRaise left arm above head immediately after push to facilitate rapid delivery to myocardium\nIf unsuccessful, push 12mg (2nd dose)\n[6]\nIf unsuccessful, consider repeat bolus of 12mg (3rd dose) (to a max of 30mg)\nSome literature to support 3rd dose of 18mg\n[7]\nIf still unsuccessful, consider\ncalcium channel blocker\nas below\nMay have higher conversion rates and patient comfort in appropriate patients",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "0.1mg/kg (1st dose) rapid IV push as above\nIf unsuccessful, attempt second 0.1 mg/kg dose or escalate immediately to 0.2mg/kg (2nd dose) IV push",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "Relatively contraindicated in asthmatics due to increased bronchoconstriction\nPatients taking methylxanthines (eg\ncaffeine\n,\ntheophylline\n) may require higher dose\nConsider initial adult dose of 3mg, if:\n[8]\nCentral line\nDecreased transit time to heart\nHeart transplant\nRelative sensitivity of denervated transplanted hearts\nNote that full dose may be used safely, but initial half-dose is reasonable\n[9]\nTaking carbamazepine or\ndipyridamole",
+          "tables": []
+        },
+        "Adults_2": {
+          "text": "Diltiazem\n0.25mg/kg IV over 2min\nMay give 0.35mg/kg IV if inadequate response after 15min\nIf IV bolus worked start IV infusion at 5–20mg/hr\nA slow infusion of 2.5 mg/min to a maximum of 50 mg is also an option\nIn this trial 50% had converted by 12 mg and 75% had converted by 18 mg\n[10]\nContraindications: Hypotension,\nCHF\n, any suspicion of VT\nConsider calcium gluconate premedication OR afterwards if BP falls\nPhase 2 trial completed on intranasal CCB (Etripamil)\n[11]\nHigh conversion rate (65 to 95%)\nMedian time to conversion 3 minutes",
+          "tables": []
+        },
+        "Pediatrics_2": {
+          "text": "Verapamil\n1-4 mg/kg q8hrs (only if >12 months old)\n[12]\nMay cause significant hypotension in infants",
+          "tables": []
+        },
+        "Adults_3": {
+          "text": "Metoprolol\n5mg IV q5min x 3; give 50mg PO if IVP effective\nEsmolol\n500mcg/kg IV over 60sec\nMay give repeat bolus if inadequate response after 2-5min\nIf effective start infusion at 50mcg/kg/min (titrate up to 300mcg/kg/min)",
+          "tables": []
+        },
+        "Pediatrics_3": {
+          "text": "Propranolol\n0.3-1mg/kg q6hrs IV (contraindicated in asthmatics)\n[12]\nAtenolol\n0.5-1mg/kg q12hrs (caution in asthmatics)\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "calcium channel blocker",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "dipyridamole",
+          "url": "https://wikem.org/wiki/Dipyridamole"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        }
+      ]
+    },
+    "Calcium-channel_blockers": {
+      "text": "",
+      "subsections": {
+        "Adults_2": {
+          "text": "Diltiazem\n0.25mg/kg IV over 2min\nMay give 0.35mg/kg IV if inadequate response after 15min\nIf IV bolus worked start IV infusion at 5–20mg/hr\nA slow infusion of 2.5 mg/min to a maximum of 50 mg is also an option\nIn this trial 50% had converted by 12 mg and 75% had converted by 18 mg\n[10]\nContraindications: Hypotension,\nCHF\n, any suspicion of VT\nConsider calcium gluconate premedication OR afterwards if BP falls\nPhase 2 trial completed on intranasal CCB (Etripamil)\n[11]\nHigh conversion rate (65 to 95%)\nMedian time to conversion 3 minutes",
+          "tables": []
+        },
+        "Pediatrics_2": {
+          "text": "Verapamil\n1-4 mg/kg q8hrs (only if >12 months old)\n[12]\nMay cause significant hypotension in infants",
+          "tables": []
+        },
+        "Adults_3": {
+          "text": "Metoprolol\n5mg IV q5min x 3; give 50mg PO if IVP effective\nEsmolol\n500mcg/kg IV over 60sec\nMay give repeat bolus if inadequate response after 2-5min\nIf effective start infusion at 50mcg/kg/min (titrate up to 300mcg/kg/min)",
+          "tables": []
+        },
+        "Pediatrics_3": {
+          "text": "Propranolol\n0.3-1mg/kg q6hrs IV (contraindicated in asthmatics)\n[12]\nAtenolol\n0.5-1mg/kg q12hrs (caution in asthmatics)\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        }
+      ]
+    },
+    "Beta-blockers": {
+      "text": "",
+      "subsections": {
+        "Adults_3": {
+          "text": "Metoprolol\n5mg IV q5min x 3; give 50mg PO if IVP effective\nEsmolol\n500mcg/kg IV over 60sec\nMay give repeat bolus if inadequate response after 2-5min\nIf effective start infusion at 50mcg/kg/min (titrate up to 300mcg/kg/min)",
+          "tables": []
+        },
+        "Pediatrics_3": {
+          "text": "Propranolol\n0.3-1mg/kg q6hrs IV (contraindicated in asthmatics)\n[12]\nAtenolol\n0.5-1mg/kg q12hrs (caution in asthmatics)\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most can be discharged\nAvoid stimulants, sympathomimetics\nConsider low dose beta-blocker prescription, beta-1 specific (\natenolol\n,\nmetoprolol\n)\nFollow up with primary care provider if first episode\nFollow up with cardiology if recurrent episodes\nA retrospective review of 111 patients found\n[13]\n:\n79 (71%) were discharged from the ED\n3 (4%) in this group had recurrent SVT after discharge\nNone had an unstable event\n32 (29%) were admitted to the hospital\n6 of the 32 (19%) had recurrent PSVT in the hospital\nRecurrence more likely to occur in older patients and those with CVD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "V Tach vs. SVT\nTachycardia (Narrow)\nACLS: Tachycardia\nPALS: Tachycardia\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "V Tach vs. SVT",
+          "url": "https://wikem.org/wiki/V_Tach_vs._SVT"
+        },
+        {
+          "text": "Tachycardia (Narrow)",
+          "url": "https://wikem.org/wiki/Tachycardia_(Narrow)"
+        },
+        {
+          "text": "ACLS: Tachycardia",
+          "url": "https://wikem.org/wiki/ACLS:_Tachycardia"
+        },
+        {
+          "text": "PALS: Tachycardia",
+          "url": "https://wikem.org/wiki/PALS:_Tachycardia"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Amal Mattu ECG Case: Feb 26 2012",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

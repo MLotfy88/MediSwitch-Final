@@ -1,0 +1,431 @@
+{
+  "drug_name": "Paradoxical_vocal_fold_motion",
+  "url": "https://wikem.org/wiki/Paradoxical_vocal_fold_motion",
+  "scraped_at": "2026-01-10T07:59:13.814281",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"vocal cord dysfunction\"\nOccurs from abnormal adduction of the vocal cords during inspiration\nLack of familiarity may lead to delayed diagnosis and unnecessary\nintubation\nor\nsurgical airway\nprocedures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "surgical airway",
+          "url": "https://wikem.org/wiki/Surgical_airway"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Stridor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Trauma": {
+          "text": "Larynx fracture\nTracheobronchial tear/injury\nThyroid gland injury/trauma\nTracheal injury\nElectromagnetic or\nradiation exposure\nBurns\n,\ninhalation injury",
+          "tables": []
+        },
+        "Infectious_Disorders": {
+          "text": "Bacterial tracheitis\nDiphtheria\nTetanus\nTracheobronchial\ntuberculosis\nPoliomyelitis\n, paralytic, bulbar, or acute\nFungal\nlaryngitis",
+          "tables": []
+        },
+        "Abscesses": {
+          "text": "Retropharyngeal abscess\nEpiglottitis\n, acute\nPeritonsillar abscess\nLaryngotracheobronchitis (\ncroup\n)\nRetropharyngeal abscess",
+          "tables": []
+        },
+        "Neoplastic_Disorders": {
+          "text": "Neoplasms/tumors",
+          "tables": []
+        },
+        "Allergic_and_Auto-Immune_Disorders": {
+          "text": "Spasmodic/tracheobronchitis\nAngioedema\n/Angioneurotic edema",
+          "tables": []
+        },
+        "Metabolic,_Storage_Disorders": {
+          "text": "Cerebral Gaucher's of infants (acute)\nTracheobronchial\namyloidosis",
+          "tables": []
+        },
+        "Biochemical_Disorders": {
+          "text": "Tetany",
+          "tables": []
+        },
+        "Congenital,_Developmental_Disorders": {
+          "text": "Angioedema\n/Angioneurotic edema, hereditary",
+          "tables": []
+        },
+        "Psychiatric_Disorders": {
+          "text": "Somatization disorder",
+          "tables": []
+        },
+        "Anatomical_or_Mechanical": {
+          "text": "Foreign body aspiration\nAcute gastric acid/aspiration syndrome\nAirway obstruction\nNeck compartment hemorrhage/hematoma\nParadoxical vocal fold motion\n[2]",
+          "tables": []
+        },
+        "Vegetative,_Autonomic,_Endocrine_Disorders": {
+          "text": "Esophageal free reflux/\nGERD\nsyndrome\nLaryngospasm, acute\nBilateral vocal cord paralysis\nHypoparathyroidism",
+          "tables": []
+        },
+        "Poisoning": {
+          "text": "Smoke inhalation\nChemical burn/esophagus",
+          "tables": []
+        },
+        "Chronic_Pediatric_Conditions": {
+          "text": "Laryngotracheomalacia\n[3]\nSubglottic stenosis\nor prior intubation\nVascular ring\n(double aortic arch)\nVocal cord dysfunction/paroxysmal vocal fold movement",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Larynx fracture",
+          "url": "https://wikem.org/wiki/Neck_Trauma"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Tetanus",
+          "url": "https://wikem.org/wiki/Tetanus"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Poliomyelitis",
+          "url": "https://wikem.org/wiki/Poliomyelitis"
+        },
+        {
+          "text": "laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Foreign body aspiration",
+          "url": "https://wikem.org/wiki/Foreign_body_aspiration"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Hypoparathyroidism",
+          "url": "https://wikem.org/wiki/Hypoparathyroidism"
+        },
+        {
+          "text": "Smoke inhalation",
+          "url": "https://wikem.org/wiki/Smoke_inhalation"
+        },
+        {
+          "text": "Chemical burn/esophagus",
+          "url": "https://wikem.org/wiki/Caustics"
+        },
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        }
+      ]
+    },
+    "Stridor": {
+      "text": "",
+      "subsections": {
+        "Trauma": {
+          "text": "Larynx fracture\nTracheobronchial tear/injury\nThyroid gland injury/trauma\nTracheal injury\nElectromagnetic or\nradiation exposure\nBurns\n,\ninhalation injury",
+          "tables": []
+        },
+        "Infectious_Disorders": {
+          "text": "Bacterial tracheitis\nDiphtheria\nTetanus\nTracheobronchial\ntuberculosis\nPoliomyelitis\n, paralytic, bulbar, or acute\nFungal\nlaryngitis",
+          "tables": []
+        },
+        "Abscesses": {
+          "text": "Retropharyngeal abscess\nEpiglottitis\n, acute\nPeritonsillar abscess\nLaryngotracheobronchitis (\ncroup\n)\nRetropharyngeal abscess",
+          "tables": []
+        },
+        "Neoplastic_Disorders": {
+          "text": "Neoplasms/tumors",
+          "tables": []
+        },
+        "Allergic_and_Auto-Immune_Disorders": {
+          "text": "Spasmodic/tracheobronchitis\nAngioedema\n/Angioneurotic edema",
+          "tables": []
+        },
+        "Metabolic,_Storage_Disorders": {
+          "text": "Cerebral Gaucher's of infants (acute)\nTracheobronchial\namyloidosis",
+          "tables": []
+        },
+        "Biochemical_Disorders": {
+          "text": "Tetany",
+          "tables": []
+        },
+        "Congenital,_Developmental_Disorders": {
+          "text": "Angioedema\n/Angioneurotic edema, hereditary",
+          "tables": []
+        },
+        "Psychiatric_Disorders": {
+          "text": "Somatization disorder",
+          "tables": []
+        },
+        "Anatomical_or_Mechanical": {
+          "text": "Foreign body aspiration\nAcute gastric acid/aspiration syndrome\nAirway obstruction\nNeck compartment hemorrhage/hematoma\nParadoxical vocal fold motion\n[2]",
+          "tables": []
+        },
+        "Vegetative,_Autonomic,_Endocrine_Disorders": {
+          "text": "Esophageal free reflux/\nGERD\nsyndrome\nLaryngospasm, acute\nBilateral vocal cord paralysis\nHypoparathyroidism",
+          "tables": []
+        },
+        "Poisoning": {
+          "text": "Smoke inhalation\nChemical burn/esophagus",
+          "tables": []
+        },
+        "Chronic_Pediatric_Conditions": {
+          "text": "Laryngotracheomalacia\n[3]\nSubglottic stenosis\nor prior intubation\nVascular ring\n(double aortic arch)\nVocal cord dysfunction/paroxysmal vocal fold movement",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Larynx fracture",
+          "url": "https://wikem.org/wiki/Neck_Trauma"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Tetanus",
+          "url": "https://wikem.org/wiki/Tetanus"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Poliomyelitis",
+          "url": "https://wikem.org/wiki/Poliomyelitis"
+        },
+        {
+          "text": "laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Foreign body aspiration",
+          "url": "https://wikem.org/wiki/Foreign_body_aspiration"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Hypoparathyroidism",
+          "url": "https://wikem.org/wiki/Hypoparathyroidism"
+        },
+        {
+          "text": "Smoke inhalation",
+          "url": "https://wikem.org/wiki/Smoke_inhalation"
+        },
+        {
+          "text": "Chemical burn/esophagus",
+          "url": "https://wikem.org/wiki/Caustics"
+        },
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Gold standard is\nlaryngoscopy\n(ideally with flexible fiberoptics)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "laryngoscopy",
+          "url": "https://wikem.org/wiki/Laryngoscopy"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Gold standard is\nlaryngoscopy\n(ideally with flexible fiberoptics)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "laryngoscopy",
+          "url": "https://wikem.org/wiki/Laryngoscopy"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Gold standard is\nlaryngoscopy\n(ideally with flexible fiberoptics)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "laryngoscopy",
+          "url": "https://wikem.org/wiki/Laryngoscopy"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Reassurance and breathing techniques to resolve stridor:\nJaw thrust while breathing\nPursed lip breathing through straw or endotracheal tube\nInhale through nose for 3 seconds and exhale through pursed lips for 3 seconds\n\"Pant like a dog\" - rhythmic breathing with mouth open and tongue protruding forward\n3 sniffs - take 2 quick then 1 slow inhalational sniffs through the nose, exhale slowly through mouth\nMild sedatives (eg\nbenzodiazepines\n) may be effective in cases refractory to breathing techniques\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    }
+  }
+}

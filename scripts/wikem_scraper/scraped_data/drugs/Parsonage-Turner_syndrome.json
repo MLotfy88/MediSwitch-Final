@@ -1,0 +1,518 @@
+{
+  "drug_name": "Parsonage-Turner_syndrome",
+  "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome",
+  "scraped_at": "2026-01-10T07:59:16.999021",
+  "sections": {
+    "Background": {
+      "text": "Syndrome characterized by sudden onset, severe shoulder pain followed by\nweakness\nand\nsensory loss\nas pain resolves over the course of days to weeks\nAlso known by many other names including acute brachial neuritis, acute brachial plexitis, idiopathic brachial plexopathy, neuralgic amyotrophy\nMore common in males in the 4th decade of life\nCan affect any part of the brachial plexus\nMost commonly affected nerves: long thoracic nerve, suprascapular nerve, axillary nerve, musculocutaneous nerve, radial nerve\nUp to 1/3 may have bilateral involvement\n2\nUpper trunk most frequently affected\n3\nMay have preceding viral syndrome\nTwo forms\nIdiopathic\nHereditary",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "sensory loss",
+          "url": "https://wikem.org/wiki/Numbness"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Severe shoulder girdle pain\nWeakness\n,\nparesthesias\n, and\nsensory losses\nthat depend on which nerves are involved\nMuscle atrophy may develop after several weeks of neuropathy\nLoss of reflexes\nScapular winging",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "sensory losses",
+          "url": "https://wikem.org/wiki/Numbness"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Causes_of_Brachial_plexopathy": {
+          "text": "Idiopathic\nPost-infectious\nViral\nEpstein-Barr\n,\nCMV\n,\ninfluenza\n,\nparvovirus\n,\ncoxsackie\n,\nHIV\n,\nPolio\nBacterial\nLyme\n,\nLeptospirosis\n,\nTB\n,\nSalmonella\nPost-immunization\nCompressive\nNeoplasm\nPancoast tumor\nPost-traumatic\nPenetrating or blunt neck/shoulder trauma\nTraction injury\nBirth trauma\nErb's palsy\nKlumpke's paralysis\nConnective tissue disorders\nAutoimmune disorders\nLupus\nPolyarteritis nodosa\nTemporal arteritis\nIatrogenic\nPost-surgical\nMedication induced\nRadiation\nHereditary Neuralgic Amyotrophy\nRotator Cuff Injury\nAdhesive capsulitis\nCalcific tendinitis\nThoracic outlet syndrome\nALS\nPoliomyelitis\nParsonage-Turner syndrome",
+          "tables": []
+        },
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epstein-Barr",
+          "url": "https://wikem.org/wiki/Infectious_Mononucleosis"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "parvovirus",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Polio",
+          "url": "https://wikem.org/wiki/Polio"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_Syndrome"
+        },
+        {
+          "text": "Connective tissue disorders",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Rotator Cuff Injury",
+          "url": "https://wikem.org/wiki/Rotator_Cuff_Injury"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Poliomyelitis",
+          "url": "https://wikem.org/wiki/Poliomyelitis"
+        },
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Suprascapular neuropathy",
+          "url": "https://wikem.org/wiki/Suprascapular_neuropathy"
+        },
+        {
+          "text": "Long thoracic neuropathy",
+          "url": "https://wikem.org/wiki/Long_thoracic_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Causes_of_Brachial_plexopathy": {
+      "text": "Idiopathic\nPost-infectious\nViral\nEpstein-Barr\n,\nCMV\n,\ninfluenza\n,\nparvovirus\n,\ncoxsackie\n,\nHIV\n,\nPolio\nBacterial\nLyme\n,\nLeptospirosis\n,\nTB\n,\nSalmonella\nPost-immunization\nCompressive\nNeoplasm\nPancoast tumor\nPost-traumatic\nPenetrating or blunt neck/shoulder trauma\nTraction injury\nBirth trauma\nErb's palsy\nKlumpke's paralysis\nConnective tissue disorders\nAutoimmune disorders\nLupus\nPolyarteritis nodosa\nTemporal arteritis\nIatrogenic\nPost-surgical\nMedication induced\nRadiation\nHereditary Neuralgic Amyotrophy\nRotator Cuff Injury\nAdhesive capsulitis\nCalcific tendinitis\nThoracic outlet syndrome\nALS\nPoliomyelitis\nParsonage-Turner syndrome",
+      "subsections": {
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epstein-Barr",
+          "url": "https://wikem.org/wiki/Infectious_Mononucleosis"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "parvovirus",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Polio",
+          "url": "https://wikem.org/wiki/Polio"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_Syndrome"
+        },
+        {
+          "text": "Connective tissue disorders",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Rotator Cuff Injury",
+          "url": "https://wikem.org/wiki/Rotator_Cuff_Injury"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Poliomyelitis",
+          "url": "https://wikem.org/wiki/Poliomyelitis"
+        },
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Suprascapular neuropathy",
+          "url": "https://wikem.org/wiki/Suprascapular_neuropathy"
+        },
+        {
+          "text": "Long thoracic neuropathy",
+          "url": "https://wikem.org/wiki/Long_thoracic_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Upper_extremity_peripheral_nerve_syndromes": {
+      "text": "",
+      "subsections": {
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Suprascapular neuropathy",
+          "url": "https://wikem.org/wiki/Suprascapular_neuropathy"
+        },
+        {
+          "text": "Long thoracic neuropathy",
+          "url": "https://wikem.org/wiki/Long_thoracic_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Plain films if there is history of trauma\nConsider\nMRI\nin the ED to rule out acute cervical spine pathology\nOutpatient brachial plexus\nMRI\nor magnetic resonance neurography\nOutpatient EMG - should be performed at least 3 weeks after symptom onset to show findings\n4",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Early conservative management\nNSAIDs\n, sling, physical therapy\nAntiviral\nmedications if etiology is viral in nature\nOral\nsteroids\nrecommended by some in early disease for pain\n3,4\nOperative management considered for space occupying lesions or if no recovery is seen in 6-9 months\nNerve decompression, neurolysis, neurorrhaphy, nerve transplant/grafting, muscle/tendon transplant/grafting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on etiology - acute traumatic injuries may need urgent or emergent surgery\nMost idiopathic cases can be discharged with neurology/orthopedics follow up\nFull recovery can take up to 2-3 years",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Peripheral nerve syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peripheral nerve syndromes",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        }
+      ]
+    },
+    "References": {
+      "text": "Feinberg et al. Parsonage-Turner Syndrome. HSSJ. 2010;6:199-205.\nMisamore et al. Parsonage-Turner Syndrome (Acute Brachial Neuritis). Journal of Bone and Joint Surgery. 1996;78(9)1405-1408.\nMoghekar et al. Brachial Plexopathies: Etiology, Frequency, and Electrodiagnostic 4. Localization. Journal of Clinical Neuromuscular Disease. 2007;9(1):243-247.\nOrtiz Torres M et al. Brachial Plexitis (Parsonage Turner Syndrome, Brachial Neuropathy, Brachial Radiculitis) [Updated 2020 Apr 23]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2020 Jan-. Available from:\nhttps://www.ncbi.nlm.nih.gov/books/NBK448114/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

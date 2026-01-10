@@ -1,0 +1,1076 @@
+{
+  "drug_name": "Pediatric_fever_of_uncertain_source",
+  "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source",
+  "scraped_at": "2026-01-10T07:59:26.415174",
+  "sections": {
+    "Background": {
+      "text": "Fever accounts for 30% of pediatric visits\nChildren <3 months are immunocompromised (e.g. poor opsonization, poor IgG response to encapsulated bacteria, macrophage and neutrophil dysfunction, bone marrow insufficiency)\nConcern is for missing a serious bacterial infection (SBI)",
+      "subsections": {
+        "Epidemiology_and_Risk": {
+          "text": "Serious bacterial illness (SBI) includes UTI, meningitis, pneumonia, bacteremia\n7% of patients <2 years old with fever have\npneumonia\n, however the etiology (viral/bacterial) or even the presence of pneumonia has low inter-observer reliability even among pediatric radiologists\n[1]\n4% Prevalence of\nUTI\nwith common other sources of fever (\nOM\n, viral\nURI\n, etc)\n[2]\n0.3% of previously well children aged 3-36 months who have a fever without a source will develop significant sequelae, 0.03% will develop sepsis or meningitis\n[3]",
+          "tables": [
+            [
+              {
+                "Age": "Meningitis/SBI Prevalence",
+                "0-14 days": "1/10",
+                "14-28 days": "1/20",
+                "28-60 days (pre vaccine)": "1/100",
+                "28-60 days (post vaccine)": "1/1000",
+                "60-90 days": "1/1000-10,000",
+                "> 90 days": "> 1/10,000"
+              }
+            ]
+          ]
+        },
+        "Concomitant_Respiratory_Viral_Infection": {
+          "text": "Relatively high coincidence of\nRSV\n,\nenterovirus\n, and\nparaflu\nwith bacteremia (and UTIs), so positive lab test for these viruses should not change testing and management plan\n[4]\nRSV\n+ neonates aged 0-28 days, 3.7% were bactremic (and 6.1% had\nUTIs\n)\nRSV+ infants aged 29-60 days, (5.5% had\nUTIs\n)\nThere is a low coincidence of\ninfluenza\nwith SBI, so postivie lab test for this virus may change testing and management plan (i.e. lower risk of concurrent bacterial illness)\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "OM",
+          "url": "https://wikem.org/wiki/OM"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "paraflu",
+          "url": "https://wikem.org/wiki/Paraflu"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "UTIs",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "UTIs",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        }
+      ]
+    },
+    "Epidemiology_and_Risk": {
+      "text": "Serious bacterial illness (SBI) includes UTI, meningitis, pneumonia, bacteremia\n7% of patients <2 years old with fever have\npneumonia\n, however the etiology (viral/bacterial) or even the presence of pneumonia has low inter-observer reliability even among pediatric radiologists\n[1]\n4% Prevalence of\nUTI\nwith common other sources of fever (\nOM\n, viral\nURI\n, etc)\n[2]\n0.3% of previously well children aged 3-36 months who have a fever without a source will develop significant sequelae, 0.03% will develop sepsis or meningitis\n[3]",
+      "subsections": {
+        "Concomitant_Respiratory_Viral_Infection": {
+          "text": "Relatively high coincidence of\nRSV\n,\nenterovirus\n, and\nparaflu\nwith bacteremia (and UTIs), so positive lab test for these viruses should not change testing and management plan\n[4]\nRSV\n+ neonates aged 0-28 days, 3.7% were bactremic (and 6.1% had\nUTIs\n)\nRSV+ infants aged 29-60 days, (5.5% had\nUTIs\n)\nThere is a low coincidence of\ninfluenza\nwith SBI, so postivie lab test for this virus may change testing and management plan (i.e. lower risk of concurrent bacterial illness)\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Age": "Meningitis/SBI Prevalence",
+            "0-14 days": "1/10",
+            "14-28 days": "1/20",
+            "28-60 days (pre vaccine)": "1/100",
+            "28-60 days (post vaccine)": "1/1000",
+            "60-90 days": "1/1000-10,000",
+            "> 90 days": "> 1/10,000"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "OM",
+          "url": "https://wikem.org/wiki/OM"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "paraflu",
+          "url": "https://wikem.org/wiki/Paraflu"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "UTIs",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "UTIs",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        }
+      ]
+    },
+    "Concomitant_Respiratory_Viral_Infection": {
+      "text": "Relatively high coincidence of\nRSV\n,\nenterovirus\n, and\nparaflu\nwith bacteremia (and UTIs), so positive lab test for these viruses should not change testing and management plan\n[4]\nRSV\n+ neonates aged 0-28 days, 3.7% were bactremic (and 6.1% had\nUTIs\n)\nRSV+ infants aged 29-60 days, (5.5% had\nUTIs\n)\nThere is a low coincidence of\ninfluenza\nwith SBI, so postivie lab test for this virus may change testing and management plan (i.e. lower risk of concurrent bacterial illness)\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "paraflu",
+          "url": "https://wikem.org/wiki/Paraflu"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "UTIs",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "UTIs",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Febrile\nDefined as\ntemperature\n≥38°C (100.4°F).\nPeripheral temperature is not clinically accurate and central measurements are the preferred means of determining fever.\nParental report of confirmed fever at home (i.e. via thermometer), even with no fever in ED, has rates of SBIs high as 4.7% (0-28 day range)\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Febrile",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "temperature",
+          "url": "https://wikem.org/wiki/Celsius_Fahrenheit_Temperature_Conversion"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Pediatric_fever": {
+      "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Evaluation_&_Management": {
+      "text": "Preemies: Count age by estimated postconception date (not by actual delivery date) for 1st-90d",
+      "subsections": {
+        "0-7_Days": {
+          "text": "For all infants (toxic and well-appearing)\n^\nAcyclovir\nif:\nHSV\ninfection in baby or mother\nCSF\npleocytoisis\nConcerning skin lesions\nSeizures\nAbnormal\nLFTs\nNote:\nCXR is optional if no resp sx and another source identified\nLP is necessary even if another source identified due to immature blood-brain barrier\nDo not give ceftriaxone to children <28d as may cause hyperbilirubinemia",
+          "tables": [
+            [
+              {
+                "Child Appearance": "Temperature ≥38°Toxic or Well",
+                "Work Up": "CBCBlood culturesUrinalysis, Urine cultureLP-CSFCXR+/- Stool studies (if diarrhea)",
+                "Treatment": "If <14 days,Ampicillin50 mg/kg/dose AND (Gentamicin4 mg/kg/dose orCefepime30mg/kg/dose)If >14 days,Ampicillin50 mg/kg/dose ANDCeftriaxone^^ 50-100mg/kg/doseAcyclovir^ 20 mg/kg/dose",
+                "Disposition & Follow-up": "Admit",
+                "Comments": "SBI incidenceIll appearing: 13%–21%Not ill appearing: <5%"
+              }
+            ]
+          ]
+        },
+        "8-21_Days": {
+          "text": "For toxic infants, treat for sepsis and admit\nFor well-appearing infants, see below algorithm",
+          "tables": []
+        },
+        "22-28_Days": {
+          "text": "For toxic infants, treat for sepsis and admit\nFor well-appearing infants, see below algorithm",
+          "tables": []
+        },
+        "29-60_Days": {
+          "text": "For toxic infants, treat for sepsis and admit\nFor well-appearing infants, see below algorithm",
+          "tables": []
+        },
+        "60_Days_-_36_Months": {
+          "text": "Consider CXR for:\nRespiratory symptoms\nFever >48 hrs\nTachypnea\nHypoxia\nNon-UTI SBI incidence of <.4% in children >6 mo",
+          "tables": [
+            [
+              {
+                "Appearance": "T≥38° + Toxic",
+                "Work Up": "CBCBlood culturesUrinalysis, urine cultureLP-CSFCXR^",
+                "Treatment": "Ceftriaxone(50-100mg/kg/dose) ANDConsidervancomycin(15mg/kg)^^^^",
+                "Disposition & Follow-Up": "Admit"
+              },
+              {
+                "Appearance": "T≥39°C + Well + Non-completePrevnar(NoPrevnaror <4 weeks post 1stPrevnardose)",
+                "Work Up": "Urinalysis, Urine cultureCBC+/- CXR",
+                "Treatment": "If WBC(+):Ceftriaxone50mg-100mg/kg (also then considerblood cultureandLP, especially in <6mo old)",
+                "Disposition & Follow-Up": "Outpatient (24 hour follow-up)"
+              },
+              {
+                "Appearance": "T≥39°C + Well +Prevnar(2Prevnaror ≥4 weeks post 1stPrevnardose)",
+                "Work Up": "Urine workup (UA, urine culture) for:Circumcised males <6 monthsUncircumcised males <12 monthsAll females+/- CXR",
+                "Treatment": "Treatcystitisorpneumoniaif postitive",
+                "Disposition & Follow-Up": "Outpatient (48hour follow up)"
+              },
+              {
+                "Appearance": "T≥38-38.9°C + Well",
+                "Work Up": "Consider UA, CXR based on symptoms, etc",
+                "Treatment": "Treatcystitisorpneumoniaif positive",
+                "Disposition & Follow-Up": "Outpatient (48-72 hour follow-up)[11]"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        }
+      ]
+    },
+    "0-7_Days": {
+      "text": "For all infants (toxic and well-appearing)\n^\nAcyclovir\nif:\nHSV\ninfection in baby or mother\nCSF\npleocytoisis\nConcerning skin lesions\nSeizures\nAbnormal\nLFTs\nNote:\nCXR is optional if no resp sx and another source identified\nLP is necessary even if another source identified due to immature blood-brain barrier\nDo not give ceftriaxone to children <28d as may cause hyperbilirubinemia",
+      "subsections": {
+        "8-21_Days": {
+          "text": "For toxic infants, treat for sepsis and admit\nFor well-appearing infants, see below algorithm",
+          "tables": []
+        },
+        "22-28_Days": {
+          "text": "For toxic infants, treat for sepsis and admit\nFor well-appearing infants, see below algorithm",
+          "tables": []
+        },
+        "29-60_Days": {
+          "text": "For toxic infants, treat for sepsis and admit\nFor well-appearing infants, see below algorithm",
+          "tables": []
+        },
+        "60_Days_-_36_Months": {
+          "text": "Consider CXR for:\nRespiratory symptoms\nFever >48 hrs\nTachypnea\nHypoxia\nNon-UTI SBI incidence of <.4% in children >6 mo",
+          "tables": [
+            [
+              {
+                "Appearance": "T≥38° + Toxic",
+                "Work Up": "CBCBlood culturesUrinalysis, urine cultureLP-CSFCXR^",
+                "Treatment": "Ceftriaxone(50-100mg/kg/dose) ANDConsidervancomycin(15mg/kg)^^^^",
+                "Disposition & Follow-Up": "Admit"
+              },
+              {
+                "Appearance": "T≥39°C + Well + Non-completePrevnar(NoPrevnaror <4 weeks post 1stPrevnardose)",
+                "Work Up": "Urinalysis, Urine cultureCBC+/- CXR",
+                "Treatment": "If WBC(+):Ceftriaxone50mg-100mg/kg (also then considerblood cultureandLP, especially in <6mo old)",
+                "Disposition & Follow-Up": "Outpatient (24 hour follow-up)"
+              },
+              {
+                "Appearance": "T≥39°C + Well +Prevnar(2Prevnaror ≥4 weeks post 1stPrevnardose)",
+                "Work Up": "Urine workup (UA, urine culture) for:Circumcised males <6 monthsUncircumcised males <12 monthsAll females+/- CXR",
+                "Treatment": "Treatcystitisorpneumoniaif postitive",
+                "Disposition & Follow-Up": "Outpatient (48hour follow up)"
+              },
+              {
+                "Appearance": "T≥38-38.9°C + Well",
+                "Work Up": "Consider UA, CXR based on symptoms, etc",
+                "Treatment": "Treatcystitisorpneumoniaif positive",
+                "Disposition & Follow-Up": "Outpatient (48-72 hour follow-up)[11]"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Child Appearance": "Temperature ≥38°Toxic or Well",
+            "Work Up": "CBCBlood culturesUrinalysis, Urine cultureLP-CSFCXR+/- Stool studies (if diarrhea)",
+            "Treatment": "If <14 days,Ampicillin50 mg/kg/dose AND (Gentamicin4 mg/kg/dose orCefepime30mg/kg/dose)If >14 days,Ampicillin50 mg/kg/dose ANDCeftriaxone^^ 50-100mg/kg/doseAcyclovir^ 20 mg/kg/dose",
+            "Disposition & Follow-up": "Admit",
+            "Comments": "SBI incidenceIll appearing: 13%–21%Not ill appearing: <5%"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        }
+      ]
+    },
+    "8-21_Days": {
+      "text": "For toxic infants, treat for sepsis and admit\nFor well-appearing infants, see below algorithm",
+      "subsections": {
+        "22-28_Days": {
+          "text": "For toxic infants, treat for sepsis and admit\nFor well-appearing infants, see below algorithm",
+          "tables": []
+        },
+        "29-60_Days": {
+          "text": "For toxic infants, treat for sepsis and admit\nFor well-appearing infants, see below algorithm",
+          "tables": []
+        },
+        "60_Days_-_36_Months": {
+          "text": "Consider CXR for:\nRespiratory symptoms\nFever >48 hrs\nTachypnea\nHypoxia\nNon-UTI SBI incidence of <.4% in children >6 mo",
+          "tables": [
+            [
+              {
+                "Appearance": "T≥38° + Toxic",
+                "Work Up": "CBCBlood culturesUrinalysis, urine cultureLP-CSFCXR^",
+                "Treatment": "Ceftriaxone(50-100mg/kg/dose) ANDConsidervancomycin(15mg/kg)^^^^",
+                "Disposition & Follow-Up": "Admit"
+              },
+              {
+                "Appearance": "T≥39°C + Well + Non-completePrevnar(NoPrevnaror <4 weeks post 1stPrevnardose)",
+                "Work Up": "Urinalysis, Urine cultureCBC+/- CXR",
+                "Treatment": "If WBC(+):Ceftriaxone50mg-100mg/kg (also then considerblood cultureandLP, especially in <6mo old)",
+                "Disposition & Follow-Up": "Outpatient (24 hour follow-up)"
+              },
+              {
+                "Appearance": "T≥39°C + Well +Prevnar(2Prevnaror ≥4 weeks post 1stPrevnardose)",
+                "Work Up": "Urine workup (UA, urine culture) for:Circumcised males <6 monthsUncircumcised males <12 monthsAll females+/- CXR",
+                "Treatment": "Treatcystitisorpneumoniaif postitive",
+                "Disposition & Follow-Up": "Outpatient (48hour follow up)"
+              },
+              {
+                "Appearance": "T≥38-38.9°C + Well",
+                "Work Up": "Consider UA, CXR based on symptoms, etc",
+                "Treatment": "Treatcystitisorpneumoniaif positive",
+                "Disposition & Follow-Up": "Outpatient (48-72 hour follow-up)[11]"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "22-28_Days": {
+      "text": "For toxic infants, treat for sepsis and admit\nFor well-appearing infants, see below algorithm",
+      "subsections": {
+        "29-60_Days": {
+          "text": "For toxic infants, treat for sepsis and admit\nFor well-appearing infants, see below algorithm",
+          "tables": []
+        },
+        "60_Days_-_36_Months": {
+          "text": "Consider CXR for:\nRespiratory symptoms\nFever >48 hrs\nTachypnea\nHypoxia\nNon-UTI SBI incidence of <.4% in children >6 mo",
+          "tables": [
+            [
+              {
+                "Appearance": "T≥38° + Toxic",
+                "Work Up": "CBCBlood culturesUrinalysis, urine cultureLP-CSFCXR^",
+                "Treatment": "Ceftriaxone(50-100mg/kg/dose) ANDConsidervancomycin(15mg/kg)^^^^",
+                "Disposition & Follow-Up": "Admit"
+              },
+              {
+                "Appearance": "T≥39°C + Well + Non-completePrevnar(NoPrevnaror <4 weeks post 1stPrevnardose)",
+                "Work Up": "Urinalysis, Urine cultureCBC+/- CXR",
+                "Treatment": "If WBC(+):Ceftriaxone50mg-100mg/kg (also then considerblood cultureandLP, especially in <6mo old)",
+                "Disposition & Follow-Up": "Outpatient (24 hour follow-up)"
+              },
+              {
+                "Appearance": "T≥39°C + Well +Prevnar(2Prevnaror ≥4 weeks post 1stPrevnardose)",
+                "Work Up": "Urine workup (UA, urine culture) for:Circumcised males <6 monthsUncircumcised males <12 monthsAll females+/- CXR",
+                "Treatment": "Treatcystitisorpneumoniaif postitive",
+                "Disposition & Follow-Up": "Outpatient (48hour follow up)"
+              },
+              {
+                "Appearance": "T≥38-38.9°C + Well",
+                "Work Up": "Consider UA, CXR based on symptoms, etc",
+                "Treatment": "Treatcystitisorpneumoniaif positive",
+                "Disposition & Follow-Up": "Outpatient (48-72 hour follow-up)[11]"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "29-60_Days": {
+      "text": "For toxic infants, treat for sepsis and admit\nFor well-appearing infants, see below algorithm",
+      "subsections": {
+        "60_Days_-_36_Months": {
+          "text": "Consider CXR for:\nRespiratory symptoms\nFever >48 hrs\nTachypnea\nHypoxia\nNon-UTI SBI incidence of <.4% in children >6 mo",
+          "tables": [
+            [
+              {
+                "Appearance": "T≥38° + Toxic",
+                "Work Up": "CBCBlood culturesUrinalysis, urine cultureLP-CSFCXR^",
+                "Treatment": "Ceftriaxone(50-100mg/kg/dose) ANDConsidervancomycin(15mg/kg)^^^^",
+                "Disposition & Follow-Up": "Admit"
+              },
+              {
+                "Appearance": "T≥39°C + Well + Non-completePrevnar(NoPrevnaror <4 weeks post 1stPrevnardose)",
+                "Work Up": "Urinalysis, Urine cultureCBC+/- CXR",
+                "Treatment": "If WBC(+):Ceftriaxone50mg-100mg/kg (also then considerblood cultureandLP, especially in <6mo old)",
+                "Disposition & Follow-Up": "Outpatient (24 hour follow-up)"
+              },
+              {
+                "Appearance": "T≥39°C + Well +Prevnar(2Prevnaror ≥4 weeks post 1stPrevnardose)",
+                "Work Up": "Urine workup (UA, urine culture) for:Circumcised males <6 monthsUncircumcised males <12 monthsAll females+/- CXR",
+                "Treatment": "Treatcystitisorpneumoniaif postitive",
+                "Disposition & Follow-Up": "Outpatient (48hour follow up)"
+              },
+              {
+                "Appearance": "T≥38-38.9°C + Well",
+                "Work Up": "Consider UA, CXR based on symptoms, etc",
+                "Treatment": "Treatcystitisorpneumoniaif positive",
+                "Disposition & Follow-Up": "Outpatient (48-72 hour follow-up)[11]"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "60_Days_-_36_Months": {
+      "text": "Consider CXR for:\nRespiratory symptoms\nFever >48 hrs\nTachypnea\nHypoxia\nNon-UTI SBI incidence of <.4% in children >6 mo",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Appearance": "T≥38° + Toxic",
+            "Work Up": "CBCBlood culturesUrinalysis, urine cultureLP-CSFCXR^",
+            "Treatment": "Ceftriaxone(50-100mg/kg/dose) ANDConsidervancomycin(15mg/kg)^^^^",
+            "Disposition & Follow-Up": "Admit"
+          },
+          {
+            "Appearance": "T≥39°C + Well + Non-completePrevnar(NoPrevnaror <4 weeks post 1stPrevnardose)",
+            "Work Up": "Urinalysis, Urine cultureCBC+/- CXR",
+            "Treatment": "If WBC(+):Ceftriaxone50mg-100mg/kg (also then considerblood cultureandLP, especially in <6mo old)",
+            "Disposition & Follow-Up": "Outpatient (24 hour follow-up)"
+          },
+          {
+            "Appearance": "T≥39°C + Well +Prevnar(2Prevnaror ≥4 weeks post 1stPrevnardose)",
+            "Work Up": "Urine workup (UA, urine culture) for:Circumcised males <6 monthsUncircumcised males <12 monthsAll females+/- CXR",
+            "Treatment": "Treatcystitisorpneumoniaif postitive",
+            "Disposition & Follow-Up": "Outpatient (48hour follow up)"
+          },
+          {
+            "Appearance": "T≥38-38.9°C + Well",
+            "Work Up": "Consider UA, CXR based on symptoms, etc",
+            "Treatment": "Treatcystitisorpneumoniaif positive",
+            "Disposition & Follow-Up": "Outpatient (48-72 hour follow-up)[11]"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Low_Risk_Lab_Criteria": {
+      "text": "If low-risk criteria below not met, then perform the LP (if not done) and admit for inpatient antibiotics\n[12]\n[13]",
+      "subsections": {
+        "CBC": {
+          "text": "WBC 5-15 /mm\n3\nAbsolute Band count <1500 /mm\n3\nProcalcitonin ≤0.5 ng/mL\nANC ≤4000/mm\n3",
+          "tables": []
+        },
+        "Urinalysis": {
+          "text": "Clear\nNeg Nitrate and Leukocyte esterase\nWBC <10/high powered field",
+          "tables": []
+        },
+        "CSF": {
+          "text": "Studies should include WBC, protein, glucose, Gram stain, and culture for bacteria. Consider viral studies (HSV).",
+          "tables": []
+        },
+        "0-28_days": {
+          "text": "WBC: 0-22/mm\n3\nProtein: <100mg/dL",
+          "tables": []
+        },
+        ">29_days": {
+          "text": "WBC 0-7/mm\n3\nProtein: 15-25mg/dL",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "CBC": {
+      "text": "WBC 5-15 /mm\n3\nAbsolute Band count <1500 /mm\n3\nProcalcitonin ≤0.5 ng/mL\nANC ≤4000/mm\n3",
+      "subsections": {
+        "Urinalysis": {
+          "text": "Clear\nNeg Nitrate and Leukocyte esterase\nWBC <10/high powered field",
+          "tables": []
+        },
+        "CSF": {
+          "text": "Studies should include WBC, protein, glucose, Gram stain, and culture for bacteria. Consider viral studies (HSV).",
+          "tables": []
+        },
+        "0-28_days": {
+          "text": "WBC: 0-22/mm\n3\nProtein: <100mg/dL",
+          "tables": []
+        },
+        ">29_days": {
+          "text": "WBC 0-7/mm\n3\nProtein: 15-25mg/dL",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Urinalysis": {
+      "text": "Clear\nNeg Nitrate and Leukocyte esterase\nWBC <10/high powered field",
+      "subsections": {
+        "CSF": {
+          "text": "Studies should include WBC, protein, glucose, Gram stain, and culture for bacteria. Consider viral studies (HSV).",
+          "tables": []
+        },
+        "0-28_days": {
+          "text": "WBC: 0-22/mm\n3\nProtein: <100mg/dL",
+          "tables": []
+        },
+        ">29_days": {
+          "text": "WBC 0-7/mm\n3\nProtein: 15-25mg/dL",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "CSF": {
+      "text": "Studies should include WBC, protein, glucose, Gram stain, and culture for bacteria. Consider viral studies (HSV).",
+      "subsections": {
+        "0-28_days": {
+          "text": "WBC: 0-22/mm\n3\nProtein: <100mg/dL",
+          "tables": []
+        },
+        ">29_days": {
+          "text": "WBC 0-7/mm\n3\nProtein: 15-25mg/dL",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Additional_Management": {
+      "text": "",
+      "subsections": {
+        "Neonatal_Antibiotics_by_Source": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Suspected Infection Source": "UTI",
+                "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+                "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+                "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)Oral options:Cephalexin50-100 mg/kg per day QID orCefixime8 mg/kg QD"
+              },
+              {
+                "Suspected Infection Source": "No source identified",
+                "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+                "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+                "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)"
+              },
+              {
+                "Suspected Infection Source": "Bacterialmeningitis",
+                "8-21 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+                "22-28 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+                "29-60 Days Old": "CephalosporinCeftriaxoneIV (100 mg/kg QD) orCeftazidimeIV (150 mg/kg QD)ANDVancomycinIV (60 mg/kg QD)"
+              }
+            ]
+          ]
+        },
+        "Acetaminophen_Pediatric_Dosing_Chart": {
+          "text": "Dosage can be given q6 hours",
+          "tables": [
+            [
+              {
+                "Weight (kg)": "3-4",
+                "Weight (lbs)": "6-11",
+                "Age": "0-3 mo",
+                "Dosage (mg)": "40"
+              },
+              {
+                "Weight (kg)": "5-7",
+                "Weight (lbs)": "12-17",
+                "Age": "4-11 mo",
+                "Dosage (mg)": "80"
+              },
+              {
+                "Weight (kg)": "8-10",
+                "Weight (lbs)": "18-23",
+                "Age": "1-2 y",
+                "Dosage (mg)": "120"
+              },
+              {
+                "Weight (kg)": "11-15",
+                "Weight (lbs)": "24-35",
+                "Age": "2-3 y",
+                "Dosage (mg)": "160"
+              },
+              {
+                "Weight (kg)": "16-21",
+                "Weight (lbs)": "36-47",
+                "Age": "4-5 y",
+                "Dosage (mg)": "240"
+              },
+              {
+                "Weight (kg)": "22-26",
+                "Weight (lbs)": "48-59",
+                "Age": "6-8 y",
+                "Dosage (mg)": "320"
+              },
+              {
+                "Weight (kg)": "27-32",
+                "Weight (lbs)": "60-71",
+                "Age": "9-10 y",
+                "Dosage (mg)": "400"
+              },
+              {
+                "Weight (kg)": "33-43",
+                "Weight (lbs)": "72-95",
+                "Age": "11 y",
+                "Dosage (mg)": "480"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Initial_Empiric_Antibiotics_for_Well-Appearing_Infants": {
+      "text": "",
+      "subsections": {
+        "Neonatal_Antibiotics_by_Source": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Suspected Infection Source": "UTI",
+                "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+                "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+                "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)Oral options:Cephalexin50-100 mg/kg per day QID orCefixime8 mg/kg QD"
+              },
+              {
+                "Suspected Infection Source": "No source identified",
+                "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+                "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+                "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)"
+              },
+              {
+                "Suspected Infection Source": "Bacterialmeningitis",
+                "8-21 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+                "22-28 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+                "29-60 Days Old": "CephalosporinCeftriaxoneIV (100 mg/kg QD) orCeftazidimeIV (150 mg/kg QD)ANDVancomycinIV (60 mg/kg QD)"
+              }
+            ]
+          ]
+        },
+        "Acetaminophen_Pediatric_Dosing_Chart": {
+          "text": "Dosage can be given q6 hours",
+          "tables": [
+            [
+              {
+                "Weight (kg)": "3-4",
+                "Weight (lbs)": "6-11",
+                "Age": "0-3 mo",
+                "Dosage (mg)": "40"
+              },
+              {
+                "Weight (kg)": "5-7",
+                "Weight (lbs)": "12-17",
+                "Age": "4-11 mo",
+                "Dosage (mg)": "80"
+              },
+              {
+                "Weight (kg)": "8-10",
+                "Weight (lbs)": "18-23",
+                "Age": "1-2 y",
+                "Dosage (mg)": "120"
+              },
+              {
+                "Weight (kg)": "11-15",
+                "Weight (lbs)": "24-35",
+                "Age": "2-3 y",
+                "Dosage (mg)": "160"
+              },
+              {
+                "Weight (kg)": "16-21",
+                "Weight (lbs)": "36-47",
+                "Age": "4-5 y",
+                "Dosage (mg)": "240"
+              },
+              {
+                "Weight (kg)": "22-26",
+                "Weight (lbs)": "48-59",
+                "Age": "6-8 y",
+                "Dosage (mg)": "320"
+              },
+              {
+                "Weight (kg)": "27-32",
+                "Weight (lbs)": "60-71",
+                "Age": "9-10 y",
+                "Dosage (mg)": "400"
+              },
+              {
+                "Weight (kg)": "33-43",
+                "Weight (lbs)": "72-95",
+                "Age": "11 y",
+                "Dosage (mg)": "480"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Neonatal_Antibiotics_by_Source": {
+      "text": "",
+      "subsections": {
+        "Acetaminophen_Pediatric_Dosing_Chart": {
+          "text": "Dosage can be given q6 hours",
+          "tables": [
+            [
+              {
+                "Weight (kg)": "3-4",
+                "Weight (lbs)": "6-11",
+                "Age": "0-3 mo",
+                "Dosage (mg)": "40"
+              },
+              {
+                "Weight (kg)": "5-7",
+                "Weight (lbs)": "12-17",
+                "Age": "4-11 mo",
+                "Dosage (mg)": "80"
+              },
+              {
+                "Weight (kg)": "8-10",
+                "Weight (lbs)": "18-23",
+                "Age": "1-2 y",
+                "Dosage (mg)": "120"
+              },
+              {
+                "Weight (kg)": "11-15",
+                "Weight (lbs)": "24-35",
+                "Age": "2-3 y",
+                "Dosage (mg)": "160"
+              },
+              {
+                "Weight (kg)": "16-21",
+                "Weight (lbs)": "36-47",
+                "Age": "4-5 y",
+                "Dosage (mg)": "240"
+              },
+              {
+                "Weight (kg)": "22-26",
+                "Weight (lbs)": "48-59",
+                "Age": "6-8 y",
+                "Dosage (mg)": "320"
+              },
+              {
+                "Weight (kg)": "27-32",
+                "Weight (lbs)": "60-71",
+                "Age": "9-10 y",
+                "Dosage (mg)": "400"
+              },
+              {
+                "Weight (kg)": "33-43",
+                "Weight (lbs)": "72-95",
+                "Age": "11 y",
+                "Dosage (mg)": "480"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Suspected Infection Source": "UTI",
+            "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+            "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+            "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)Oral options:Cephalexin50-100 mg/kg per day QID orCefixime8 mg/kg QD"
+          },
+          {
+            "Suspected Infection Source": "No source identified",
+            "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+            "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+            "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)"
+          },
+          {
+            "Suspected Infection Source": "Bacterialmeningitis",
+            "8-21 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+            "22-28 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+            "29-60 Days Old": "CephalosporinCeftriaxoneIV (100 mg/kg QD) orCeftazidimeIV (150 mg/kg QD)ANDVancomycinIV (60 mg/kg QD)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Acetaminophen_Pediatric_Dosing_Chart": {
+      "text": "Dosage can be given q6 hours",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Weight (kg)": "3-4",
+            "Weight (lbs)": "6-11",
+            "Age": "0-3 mo",
+            "Dosage (mg)": "40"
+          },
+          {
+            "Weight (kg)": "5-7",
+            "Weight (lbs)": "12-17",
+            "Age": "4-11 mo",
+            "Dosage (mg)": "80"
+          },
+          {
+            "Weight (kg)": "8-10",
+            "Weight (lbs)": "18-23",
+            "Age": "1-2 y",
+            "Dosage (mg)": "120"
+          },
+          {
+            "Weight (kg)": "11-15",
+            "Weight (lbs)": "24-35",
+            "Age": "2-3 y",
+            "Dosage (mg)": "160"
+          },
+          {
+            "Weight (kg)": "16-21",
+            "Weight (lbs)": "36-47",
+            "Age": "4-5 y",
+            "Dosage (mg)": "240"
+          },
+          {
+            "Weight (kg)": "22-26",
+            "Weight (lbs)": "48-59",
+            "Age": "6-8 y",
+            "Dosage (mg)": "320"
+          },
+          {
+            "Weight (kg)": "27-32",
+            "Weight (lbs)": "60-71",
+            "Age": "9-10 y",
+            "Dosage (mg)": "400"
+          },
+          {
+            "Weight (kg)": "33-43",
+            "Weight (lbs)": "72-95",
+            "Age": "11 y",
+            "Dosage (mg)": "480"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute fever\nFever of unknown origin (peds)\nUrinary tract infection (peds)\nSepsis (peds)\nMeningitis (peds)\nFebrile seizure\nPECARN Febrile Infant",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Fever of unknown origin (peds)",
+          "url": "https://wikem.org/wiki/Fever_of_unknown_origin_(peds)"
+        },
+        {
+          "text": "Urinary tract infection (peds)",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis (peds)",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "PECARN Febrile Infant",
+          "url": "https://wikem.org/wiki/PECARN_Febrile_Infant"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "PEM ED Algorithm for Pediatric Fever\nDDxOf: Pediatric Fever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "drug_name": "Paroxysmal_autonomic_instability_with_dystonia",
+  "url": "https://wikem.org/wiki/Paroxysmal_autonomic_instability_with_dystonia",
+  "scraped_at": "2026-01-10T07:59:15.703517",
+  "sections": {
+    "Background": {
+      "text": "Also referred to as PAID syndrome, or paroxysmal sympathetic hyperactivity (PSH)\nDefined as paroxysmal episodes of sympathetic activity in patients with severe brain injury\n[1]\nMechanism remains poorly understood",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Tachycardia\nHypertension\nRepeat episodes pose risk for\nhypertensive emergency\nTachypnea\nHyperthermia\nDystonic posturing, typically symmetric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hypertension": {
+          "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+          "tables": []
+        },
+        "Other_Diagnoses_to_Consider": {
+          "text": "Pulmonary embolism\nSepsis\nElevated intracranial pressure\nSeizure\nAlcohol withdrawal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        }
+      ]
+    },
+    "Hypertension": {
+      "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+      "subsections": {
+        "Other_Diagnoses_to_Consider": {
+          "text": "Pulmonary embolism\nSepsis\nElevated intracranial pressure\nSeizure\nAlcohol withdrawal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        }
+      ]
+    },
+    "Other_Diagnoses_to_Consider": {
+      "text": "Pulmonary embolism\nSepsis\nElevated intracranial pressure\nSeizure\nAlcohol withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Labwork/imaging used primarily to rule out other diagnoses as appropriate",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical diagnosis, no confirmatory test",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Labwork/imaging used primarily to rule out other diagnoses as appropriate",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis, no confirmatory test",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis, no confirmatory test",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care\nReducing stimulation\nTreating\nhyperthermia\nPharmacologic therapy: Aimed at attenuating sympathetic activity\nMorphine\nGabapentin\nNoncardioselective\nbeta blocker\n+/-\nClonidine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine"
+        }
+      ]
+    }
+  }
+}

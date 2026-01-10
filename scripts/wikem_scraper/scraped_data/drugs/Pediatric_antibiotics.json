@@ -1,0 +1,3636 @@
+{
+  "drug_name": "Pediatric_antibiotics",
+  "url": "https://wikem.org/wiki/Pediatric_antibiotics",
+  "scraped_at": "2026-01-10T07:59:23.540079",
+  "sections": {
+    "Neonatal_Infections": {
+      "text": "All doses are for patients >2 kg and at least 7 days of age\nAlways treat for meningitis until you are sure it is not",
+      "subsections": {
+        "Neonatal_(0-28_days)": {
+          "text": "If <14 days,\nAmpicillin\n50 mg/kg/dose AND (\nGentamicin\n4 mg/kg/dose or\nCefepime\n30mg/kg/dose)\nIf >14 days,\nAmpicillin\n50 mg/kg/dose AND\nCeftriaxone\n^^ 50-100mg/kg/dose\nAcyclovir\n^ 20 mg/kg/dose\n^\nAcyclovir\nif:\nHSV\ninfection in baby or mother\nCSF\npleocytoisis\nConcerning skin lesions\nSeizures\nAbnormal\nLFTs",
+          "tables": []
+        },
+        "Neonatal_(28-90_days)": {
+          "text": "Ampicillin\n50 mg/kg/dose AND\nCeftriaxone\n^^ 50-100mg/kg\nAcyclovir\n^ 20 mg/kg\n^\nAcyclovir\nif:\nHSV\ninfection in baby or mother\nCSF\npleocytoisis\nConcerning skin lesions\nSeizures\nAbnormal\nLFTs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        }
+      ]
+    },
+    "Pediatric_fever_of_uncertain_source": {
+      "text": "",
+      "subsections": {
+        "Neonatal_(0-28_days)": {
+          "text": "If <14 days,\nAmpicillin\n50 mg/kg/dose AND (\nGentamicin\n4 mg/kg/dose or\nCefepime\n30mg/kg/dose)\nIf >14 days,\nAmpicillin\n50 mg/kg/dose AND\nCeftriaxone\n^^ 50-100mg/kg/dose\nAcyclovir\n^ 20 mg/kg/dose\n^\nAcyclovir\nif:\nHSV\ninfection in baby or mother\nCSF\npleocytoisis\nConcerning skin lesions\nSeizures\nAbnormal\nLFTs",
+          "tables": []
+        },
+        "Neonatal_(28-90_days)": {
+          "text": "Ampicillin\n50 mg/kg/dose AND\nCeftriaxone\n^^ 50-100mg/kg\nAcyclovir\n^ 20 mg/kg\n^\nAcyclovir\nif:\nHSV\ninfection in baby or mother\nCSF\npleocytoisis\nConcerning skin lesions\nSeizures\nAbnormal\nLFTs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        }
+      ]
+    },
+    "Meningitis": {
+      "text": "MRSA\nis uncommon in the neonate\nAmpicillin\n75mg/kg IV q6hrs\nPLUS\nCefotaxime\n50mg/kg IV q6hrs\nOR\nGentamicin\n2.5mg/kg IV q8hrs\nPer AAP,\nceftazidime\n50mg/kg IV (q12hr for babies < 8 days of age, q8hr for >7 days old) is a reasonable alternative to cefotaxime, offering virtually the same coverage for enteric bacilli and is FDA approved for all age groups\n[1]\nIf suspecting\nS. pneumoniae\nor\nMRSA\n, add\nVancomycin\nConsider\nacyclovir\nfor\nHSV\nAcyclovir\n20 mg/kg IV every 8 hours (duration depends on classification)\nIf ocular involvement:\n1% trifluridine, 0.1% iododeoxyuridine, or 3% vidarabine\nOptho consult\nAs for any febrile neonate SBI evaluation:\nAmpicillin\n+\ngentamycin\nMay substitute\ngentamycin\nwith\ncefotaxime\n/\nceftazidime",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "S. pneumoniae",
+          "url": "https://wikem.org/wiki/S._pneumoniae"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        },
+        {
+          "text": "gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        }
+      ]
+    },
+    "Newborn": {
+      "text": "Hospitalized\n[2]\nAmpicillin\n(80-90mg/kg/day) +\ngentamicin\n+/-\ncefotaxime\nAdd\nvancomycin\nif\nMRSA\na concern\nAdd\nerythromycin\n(12.g mg/kg QID) if concern for\nchlamydia\nOutpatient\n[3]\nInitial outpatient management not recommended",
+      "subsections": {
+        "1-3_Month": {
+          "text": "Hospitalized\n[4]\nAfebrile pneumonitis\nErythromycin\n(10 mg/kg q6) or\nAzithromycin\n(2.5 mg/kg q12)\nFebrile pneumonia\nAdd\nCefotaxime\n(200mg/kg per day divided q8h)\nOutpatient\n[5]\nErythromycin\nOR\nAzithromycin\nPO",
+          "tables": []
+        },
+        ">3mo_-_18_years": {
+          "text": "Hospitalized (PICU/severely ill)\n[6]\nCeftriaxone\nIV AND\nVancomycin\nAND consider\nAzithromycin\nHospitalized (moderately ill)\n[7]\nFully immunized:\nAmpicillin\n(50mg/kg q6) IV\nNot fully immunized:\nCeftriaxone\nIV\nOutpatient\n[8]\nAmoxicillin\n(90 mg/kg divided BID) x 10 days PO\nSome studies have shown that 5 day course may also be adequate treatment\nAlternative:\nClindamycin\nOR\nAzithromycin\nOR\nAmoxicillin-clavulanate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        }
+      ]
+    },
+    "1-3_Month": {
+      "text": "Hospitalized\n[4]\nAfebrile pneumonitis\nErythromycin\n(10 mg/kg q6) or\nAzithromycin\n(2.5 mg/kg q12)\nFebrile pneumonia\nAdd\nCefotaxime\n(200mg/kg per day divided q8h)\nOutpatient\n[5]\nErythromycin\nOR\nAzithromycin\nPO",
+      "subsections": {
+        ">3mo_-_18_years": {
+          "text": "Hospitalized (PICU/severely ill)\n[6]\nCeftriaxone\nIV AND\nVancomycin\nAND consider\nAzithromycin\nHospitalized (moderately ill)\n[7]\nFully immunized:\nAmpicillin\n(50mg/kg q6) IV\nNot fully immunized:\nCeftriaxone\nIV\nOutpatient\n[8]\nAmoxicillin\n(90 mg/kg divided BID) x 10 days PO\nSome studies have shown that 5 day course may also be adequate treatment\nAlternative:\nClindamycin\nOR\nAzithromycin\nOR\nAmoxicillin-clavulanate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        }
+      ]
+    },
+    ">3mo_-_18_years": {
+      "text": "Hospitalized (PICU/severely ill)\n[6]\nCeftriaxone\nIV AND\nVancomycin\nAND consider\nAzithromycin\nHospitalized (moderately ill)\n[7]\nFully immunized:\nAmpicillin\n(50mg/kg q6) IV\nNot fully immunized:\nCeftriaxone\nIV\nOutpatient\n[8]\nAmoxicillin\n(90 mg/kg divided BID) x 10 days PO\nSome studies have shown that 5 day course may also be adequate treatment\nAlternative:\nClindamycin\nOR\nAzithromycin\nOR\nAmoxicillin-clavulanate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        }
+      ]
+    },
+    "Osteomyelitis": {
+      "text": "Empiric treatment:\nNafcillin\n200mg/kg/day IV div Q6 AND\ncefotaxime\n150mg/kg/day IV div Q8 for >21 days.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        }
+      ]
+    },
+    "Neonatal_conjunctivitis": {
+      "text": "",
+      "subsections": {
+        "Prophylaxis": {
+          "text": "Erythromycin\n0.5% ointment x1 or\ntetracycline\n1% or silver nitrate 1% x1 topical (rarely used because of its potential for causing chemical conjunctivitis), applied at birth.",
+          "tables": []
+        },
+        "Chemical": {
+          "text": "Watchful waiting",
+          "tables": []
+        },
+        "Gonococcal_(onset_2-4_days)": {
+          "text": "Cefotaxime\n100mg/kg IV or IM OR\nceftriaxone\n25-50mg/kg IV or IM x1 (not to exceed 125mg)\nCefotaxime is preferred because it does not displace bilirubin\nDisseminated disease should be suspected until CSF is negative\nTreat mother and partners\nIrrigate eyes with saline (topical antibiotics are insufficient and unnecessary)",
+          "tables": []
+        },
+        "Chlamydia_(onset_5-10_days)": {
+          "text": "Erythromycin\nophthalmic ointment plus one of the following\nAzithromycin\n20mg/kg PO once daily x 3 days OR\nErythromycin\n50mg/kg PO QD in 4 divided doses x 14 days\nDisease manifests 5 days post-birth to 2 weeks (late onset)",
+          "tables": []
+        },
+        "Herpetic_(onset_6-14_days)": {
+          "text": "Acyclovir\n20mg/kg IV q8hr x 14-21d\nTopical antiviral\nDo not give steroids\nFull\nneonatal sepsis\nevaluation\nImmediate ophtho consult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        }
+      ]
+    },
+    "Prophylaxis": {
+      "text": "Erythromycin\n0.5% ointment x1 or\ntetracycline\n1% or silver nitrate 1% x1 topical (rarely used because of its potential for causing chemical conjunctivitis), applied at birth.",
+      "subsections": {
+        "Chemical": {
+          "text": "Watchful waiting",
+          "tables": []
+        },
+        "Gonococcal_(onset_2-4_days)": {
+          "text": "Cefotaxime\n100mg/kg IV or IM OR\nceftriaxone\n25-50mg/kg IV or IM x1 (not to exceed 125mg)\nCefotaxime is preferred because it does not displace bilirubin\nDisseminated disease should be suspected until CSF is negative\nTreat mother and partners\nIrrigate eyes with saline (topical antibiotics are insufficient and unnecessary)",
+          "tables": []
+        },
+        "Chlamydia_(onset_5-10_days)": {
+          "text": "Erythromycin\nophthalmic ointment plus one of the following\nAzithromycin\n20mg/kg PO once daily x 3 days OR\nErythromycin\n50mg/kg PO QD in 4 divided doses x 14 days\nDisease manifests 5 days post-birth to 2 weeks (late onset)",
+          "tables": []
+        },
+        "Herpetic_(onset_6-14_days)": {
+          "text": "Acyclovir\n20mg/kg IV q8hr x 14-21d\nTopical antiviral\nDo not give steroids\nFull\nneonatal sepsis\nevaluation\nImmediate ophtho consult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        }
+      ]
+    },
+    "Chemical": {
+      "text": "Watchful waiting",
+      "subsections": {
+        "Gonococcal_(onset_2-4_days)": {
+          "text": "Cefotaxime\n100mg/kg IV or IM OR\nceftriaxone\n25-50mg/kg IV or IM x1 (not to exceed 125mg)\nCefotaxime is preferred because it does not displace bilirubin\nDisseminated disease should be suspected until CSF is negative\nTreat mother and partners\nIrrigate eyes with saline (topical antibiotics are insufficient and unnecessary)",
+          "tables": []
+        },
+        "Chlamydia_(onset_5-10_days)": {
+          "text": "Erythromycin\nophthalmic ointment plus one of the following\nAzithromycin\n20mg/kg PO once daily x 3 days OR\nErythromycin\n50mg/kg PO QD in 4 divided doses x 14 days\nDisease manifests 5 days post-birth to 2 weeks (late onset)",
+          "tables": []
+        },
+        "Herpetic_(onset_6-14_days)": {
+          "text": "Acyclovir\n20mg/kg IV q8hr x 14-21d\nTopical antiviral\nDo not give steroids\nFull\nneonatal sepsis\nevaluation\nImmediate ophtho consult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        }
+      ]
+    },
+    ">_1_month_old": {
+      "text": "Ceftriaxone\n2gm (50mg/kg) IV BID daily\nPLUS\nVancomycin\n15-20 mg/kg IV BID daily\nVancomycin\nis for resistant\nPneumococcus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Pneumococcus",
+          "url": "https://wikem.org/wiki/Pneumococcus"
+        }
+      ]
+    },
+    "VP_shunt_infections": {
+      "text": "Empiric therapy:\nVancomycin\nAND\nCefotaxime\n200 mg/kg/day IV div Q6 OR\nceftriaxone\n100 mg/kg/day IV div Q12-24\nAlways involved neurosurgery in management\nTailor antimicrobial therapy to culture results",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Mastoiditis,_acute": {
+      "text": "S. pneumo\n(22%),\nS. pyogenes\n(16%),\nS. aureus\n(7%),\nH. flu, P. aeruginosa\nR/O\nmeningitis\n. Surgical debridement as indicated. Transition to PO once clinically improved.\nAmpicillin-sulbactam\n300mg/kg/dau IV div Q6 OR\ncefotaxime\n150mg/kg/day div Q8 OR\nceftriaxone\n50mg/kg/day Q24 +/-\nnafcillin\n200mg/kg/day IV div Q6 OR\nclindamycin\n40mg/kg/day IV div Q6 or\nvancomycin\nx21 days.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Ampicillin-sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin-sulbactam"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Sinusitis,_acute": {
+      "text": "Amoxicillin\n90mg/kg/day x14-21 days.\nAugmentin\n,\ncefuroxime\nor\ncefdinir\nif recent antibiotics or chronic sinusitis.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        }
+      ]
+    },
+    "Conjunctivitis": {
+      "text": "Adenovirus\n(types 3, 7)\nAKA pink eye. No treatment needed. Highly contagious. Cold artificial tears may help. NEVER treat with steroids except by an ophthalmologist!\nHSV\ntypes 1-2\nCan be sight-threatening. Refer to ophthalmologist immediately! 30-50% recurrence in 2 years.\nTrifluridine OR idoxuridine ophthalmic solution 1 drop Q2-3 while awake x7-14 days.\nVidarbine ophthalmic ointment Q3 until 1 weeks after healthing.\nS. pneumo, H. flu\nPolymyxin/trimethoprim ophthalmic solution 1 drop Q3 OR polymixin.bacitracin/Neosporin ophthalmic solution 1 drop Q3 x7-10 days.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        }
+      ]
+    },
+    "Dacryocystitis": {
+      "text": "Warm compresses and tear duct massage. No antimicrobial therapy usually needed. Oral antimicrobial therapy for more symptomatic infections",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Orbital_Cellulitis": {
+      "text": "Ampicillin-sulbactam\n300mg/kg/day IV div Q6 OR\ncefotaxime\n150mg/kg/day div Q8 OR\nceftriaxone\n50mg/kg/day Q24 AND\nnafcillin\n200mg/kg/day IV div Q6. If any MRSA isolated locally, add\nclindamycin\n40mg/kg/day IV div Q6 OR\nvancomycin\nx10-14 days.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin-sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin-sulbactam"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Otitis_Externa": {
+      "text": "Clean canal often.\nNeomycin/Polymixin B +/- hydrocortisone\notic drops. Alternate:\nOfloxacin\nor\nciprofloxacin\nsolution. For 'swimmers ear' use VoSol (2% acetic acid) to canal.\nCandidal:\nFluconazole\n5-10mg/kg/day PO Q24 x5-7 days.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neomycin/Polymixin B +/- hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone/neomycin/polymyxin"
+        },
+        {
+          "text": "Ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        }
+      ]
+    },
+    "Otitis_Media": {
+      "text": "Note:\nIf >2 years, afebrile, no otalgia, borderline exam → consider symptomatic treatment or safety net antibiotic prescription (SNAP).\nAmoxicillin\n80-90mg/kg/day div BID or TID x10 days (<2 years) or x5 days (>2 years).\nAugmentin\n90mg/kg/day amoxicillin component div BID.\nCefdinir\n,\ncefpodoxime\n,\ncefprozil\n,\ncefuroxime\n.\nAzithromycin\n(up to 40% resistance in PRSP).",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "Cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "cefprozil",
+          "url": "https://wikem.org/wiki/Cefprozil"
+        },
+        {
+          "text": "cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "Ludwig's_Angina": {
+      "text": "High risk of respiratory tract obstruction due to inflammatory edema.\nPenicillin G\n200,000 U/kg/day div Q6 AND\nclindamycin\n40mg/kg/day IV vid Q6.\nConsider\nmeropenem\n,\npiperacillin-tazobactam\nOR\nceftriaxone\nif\nGNR\nsuspected.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "GNR",
+          "url": "https://wikem.org/wiki/GNR"
+        }
+      ]
+    },
+    "Dental_abscess": {
+      "text": "Clindamycin\n40mg/kg/day PO/IV/IM div Q6 or\nPenicillin G\n100,000-200,000 U/kg/day IV div Q6.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        }
+      ]
+    },
+    "Gingivostomatitis": {
+      "text": "Acyclovir\nPO 80mg/kg/day div Q6 x7 days. For severe disease can use Acyclovir 30mg/kg/day IV div Q8.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        }
+      ]
+    },
+    "Bacterial_tracheitis": {
+      "text": "(\nVancomycin\nOR\nclindamycin\n40mg/kg/day div Q6) AND (\nCefotaxime\n150mg/kg/day div Q8 OR\nceftriaxone\n50mg/kg/day Q24). Tailor to cultures.\nCefuroxime\n100-150mg/kg/day div Q8.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        }
+      ]
+    },
+    "Epiglottitis": {
+      "text": "Cefotaxime\n150mg/kg/day div Q8 OR\nceftriaxone\n50mg/kg/day Q24. ADD Clindamycin 40mg/kg/day IV div Q6 OR\nvancomycin\nif Staph suspected.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Pharyngitis": {
+      "text": "Throat: Culture before treating.\nGAS\nuncommon in children <3 years. Treatment decrease rheumatic fever 2.8 to 0.2%. Rx as below also for scarlet fever.\nPenicillin\nV 25-50mg/kg/day PO div TID-QID OR\namoxicillin\n50-75mg/kg/day div BID-TID x10 days.\nPenicillin G\nBenzathine 600,000 U IM (<27 kg), 1.2 million U (>27 kg) x1.\nErythromycin\nor\nclindamycin\nfor PCN-allergic patients.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Pneumonia": {
+      "text": "",
+      "subsections": {
+        "Newborn_2": {
+          "text": "Hospitalized\n[11]\nAmpicillin\n(80-90mg/kg/day) +\ngentamicin\n+/-\ncefotaxime\nAdd\nvancomycin\nif\nMRSA\na concern\nAdd\nerythromycin\n(12.g mg/kg QID) if concern for\nchlamydia\nOutpatient\n[12]\nInitial outpatient management not recommended",
+          "tables": []
+        },
+        "1-3_Month_2": {
+          "text": "Hospitalized\n[13]\nAfebrile pneumonitis\nErythromycin\n(10 mg/kg q6) or\nAzithromycin\n(2.5 mg/kg q12)\nFebrile pneumonia\nAdd\nCefotaxime\n(200mg/kg per day divided q8h)\nOutpatient\n[14]\nErythromycin\nOR\nAzithromycin\nPO",
+          "tables": []
+        },
+        ">3mo_-_18_years_2": {
+          "text": "Hospitalized (PICU/severely ill)\n[15]\nCeftriaxone\nIV AND\nVancomycin\nAND consider\nAzithromycin\nHospitalized (moderately ill)\n[16]\nFully immunized:\nAmpicillin\n(50mg/kg q6) IV\nNot fully immunized:\nCeftriaxone\nIV\nOutpatient\n[17]\nAmoxicillin\n(90 mg/kg divided BID) x 10 days PO\nSome studies have shown that 5 day course may also be adequate treatment\nAlternative:\nClindamycin\nOR\nAzithromycin\nOR\nAmoxicillin-clavulanate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        }
+      ]
+    },
+    "Newborn_2": {
+      "text": "Hospitalized\n[11]\nAmpicillin\n(80-90mg/kg/day) +\ngentamicin\n+/-\ncefotaxime\nAdd\nvancomycin\nif\nMRSA\na concern\nAdd\nerythromycin\n(12.g mg/kg QID) if concern for\nchlamydia\nOutpatient\n[12]\nInitial outpatient management not recommended",
+      "subsections": {
+        "1-3_Month_2": {
+          "text": "Hospitalized\n[13]\nAfebrile pneumonitis\nErythromycin\n(10 mg/kg q6) or\nAzithromycin\n(2.5 mg/kg q12)\nFebrile pneumonia\nAdd\nCefotaxime\n(200mg/kg per day divided q8h)\nOutpatient\n[14]\nErythromycin\nOR\nAzithromycin\nPO",
+          "tables": []
+        },
+        ">3mo_-_18_years_2": {
+          "text": "Hospitalized (PICU/severely ill)\n[15]\nCeftriaxone\nIV AND\nVancomycin\nAND consider\nAzithromycin\nHospitalized (moderately ill)\n[16]\nFully immunized:\nAmpicillin\n(50mg/kg q6) IV\nNot fully immunized:\nCeftriaxone\nIV\nOutpatient\n[17]\nAmoxicillin\n(90 mg/kg divided BID) x 10 days PO\nSome studies have shown that 5 day course may also be adequate treatment\nAlternative:\nClindamycin\nOR\nAzithromycin\nOR\nAmoxicillin-clavulanate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        }
+      ]
+    },
+    "1-3_Month_2": {
+      "text": "Hospitalized\n[13]\nAfebrile pneumonitis\nErythromycin\n(10 mg/kg q6) or\nAzithromycin\n(2.5 mg/kg q12)\nFebrile pneumonia\nAdd\nCefotaxime\n(200mg/kg per day divided q8h)\nOutpatient\n[14]\nErythromycin\nOR\nAzithromycin\nPO",
+      "subsections": {
+        ">3mo_-_18_years_2": {
+          "text": "Hospitalized (PICU/severely ill)\n[15]\nCeftriaxone\nIV AND\nVancomycin\nAND consider\nAzithromycin\nHospitalized (moderately ill)\n[16]\nFully immunized:\nAmpicillin\n(50mg/kg q6) IV\nNot fully immunized:\nCeftriaxone\nIV\nOutpatient\n[17]\nAmoxicillin\n(90 mg/kg divided BID) x 10 days PO\nSome studies have shown that 5 day course may also be adequate treatment\nAlternative:\nClindamycin\nOR\nAzithromycin\nOR\nAmoxicillin-clavulanate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        }
+      ]
+    },
+    ">3mo_-_18_years_2": {
+      "text": "Hospitalized (PICU/severely ill)\n[15]\nCeftriaxone\nIV AND\nVancomycin\nAND consider\nAzithromycin\nHospitalized (moderately ill)\n[16]\nFully immunized:\nAmpicillin\n(50mg/kg q6) IV\nNot fully immunized:\nCeftriaxone\nIV\nOutpatient\n[17]\nAmoxicillin\n(90 mg/kg divided BID) x 10 days PO\nSome studies have shown that 5 day course may also be adequate treatment\nAlternative:\nClindamycin\nOR\nAzithromycin\nOR\nAmoxicillin-clavulanate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        }
+      ]
+    },
+    "Whooping_cough": {
+      "text": "Erythromycin\nethyl succinate 40mg/kg/day PO div QID x14 days (max 2000mg/day). Note: Do not use erythromycin base, which causes excessive GI symptoms.\nAzithromycin\n(<6 months): 10mg/kg once daily x5 days (max 500mg). Note: Preferred agent for patients <1 month.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "Cardiovascular_Infections": {
+      "text": "",
+      "subsections": {
+        "Endocarditis": {
+          "text": "Prophylaxis indications\nProsthetic cardiac valve or prosthetic material used for cardiac valve repair.\nPrevious infectious endocarditis.\nCongenital heart disease\n(CHD) - except for the conditions listed below, antibiotic prophylaxis is no longer recommended for any other form of CHD.\nUnrepaired cyanotic CHD, including palliative shunts and conduits.\nCompletely repaired CHD with prosthetic material or device, whether placed by surgery or by catheter intervention, during the first 6 months after the procedure.\nRepaired CHD with residual defects at the site or adjacent to the site or a prosthetic patch or prosthetic device (which inhibit endothelialization).\nCardiac transplantation recipients who develop cardiac valvulopathy.\nProphylaxis for oral, dental, respiratory tract or high risk patients with chronic GI/GU infections\nAmoxicillin\n50mg/kg PO x1 OR Ampicillin 50mg/kg IV x1, 30-60 minutes prior to the procedure.\nAllergic patients:\nClindamycin\n20mg/kg PO/IV x1 OR\ncephalexin\n50mg/kg PO x1 OR\nazithromycin\n15mg/kg PO x1.\nEmpiric therapy, native valves: S. viridans, Enterococci, Staphylococci\nBy definition includes multiple positive\nblood cultures\n, new murmur of valvular insufficiency, emboli and echo evidence of vegetations. Send cultures and target therapy based on results.\nVancomycin\nand Gentamicin pending culture results.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Endocarditis": {
+      "text": "Prophylaxis indications\nProsthetic cardiac valve or prosthetic material used for cardiac valve repair.\nPrevious infectious endocarditis.\nCongenital heart disease\n(CHD) - except for the conditions listed below, antibiotic prophylaxis is no longer recommended for any other form of CHD.\nUnrepaired cyanotic CHD, including palliative shunts and conduits.\nCompletely repaired CHD with prosthetic material or device, whether placed by surgery or by catheter intervention, during the first 6 months after the procedure.\nRepaired CHD with residual defects at the site or adjacent to the site or a prosthetic patch or prosthetic device (which inhibit endothelialization).\nCardiac transplantation recipients who develop cardiac valvulopathy.\nProphylaxis for oral, dental, respiratory tract or high risk patients with chronic GI/GU infections\nAmoxicillin\n50mg/kg PO x1 OR Ampicillin 50mg/kg IV x1, 30-60 minutes prior to the procedure.\nAllergic patients:\nClindamycin\n20mg/kg PO/IV x1 OR\ncephalexin\n50mg/kg PO x1 OR\nazithromycin\n15mg/kg PO x1.\nEmpiric therapy, native valves: S. viridans, Enterococci, Staphylococci\nBy definition includes multiple positive\nblood cultures\n, new murmur of valvular insufficiency, emboli and echo evidence of vegetations. Send cultures and target therapy based on results.\nVancomycin\nand Gentamicin pending culture results.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Gastroenterologic_Infections": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Diarrhea": "C. difficile",
+            "Initial Workup:If blood diarrhea or >6 stools/day and febrile then consider stool cultures, fecal leukocytes, electrolytes.Isolation:Contact precautions for diapered or incontinent children.": "Suspect if blood diarrhea, cramping develop with recent antibiotic exposure.Metronidazole30mg/kg/day PO/IV div QID x10 days.Vancomycin40mg/kg/day PO;div QID x10 days ONLY for Metronidazole failures."
+          },
+          {
+            "Diarrhea": "C. jejuni",
+            "Initial Workup:If blood diarrhea or >6 stools/day and febrile then consider stool cultures, fecal leukocytes, electrolytes.Isolation:Contact precautions for diapered or incontinent children.": "Suspect if prominent abdominal pain. Young infants may only have bloody diarrhea. Can have immunoreactive complications such as AIDP, reactive arthritis, Reiter syndrome or erythema nodosum.Erythromycin40mg/kg/day PO div QID x5 days. Shortens duration of illness and prevents relapse if given early."
+          },
+          {
+            "Diarrhea": "E. coliO157:H7(Enterotoxin producing, ETEC)",
+            "Initial Workup:If blood diarrhea or >6 stools/day and febrile then consider stool cultures, fecal leukocytes, electrolytes.Isolation:Contact precautions for diapered or incontinent children.": "Suspect if bloody diarrhea, >6 unformed stools/day and afebrile. Causes 36% of bloody diarrhea. Consider CBC and blood smear. If no hemolysis, azotemia or thrombocytopenia after 3 days of illness, risk of developing HUS is low. Antimicrobial therapy may precipitate an adverse reaction."
+          },
+          {
+            "Diarrhea": "Salmonella",
+            "Initial Workup:If blood diarrhea or >6 stools/day and febrile then consider stool cultures, fecal leukocytes, electrolytes.Isolation:Contact precautions for diapered or incontinent children.": "May cause asymptomatic disease, gastroenteritis, bacteremia, osteomyelitis or meningitis. Exposures to lizards and other reptiles may result in unusual species ofSalmonella.Antimicrobial therapy increases duration of illness in most carriers.Therapy recommended if invasive or focal disease, if <3 months old, chronic GI disease, oncology patients, hemoglobinopathies, or HIV+. May treat withamoxicillinorTMP-SMX;Ceftriaxonefor neonates (not receiving calcium containing fluids) or septic clinical state."
+          },
+          {
+            "Diarrhea": "Shigella",
+            "Initial Workup:If blood diarrhea or >6 stools/day and febrile then consider stool cultures, fecal leukocytes, electrolytes.Isolation:Contact precautions for diapered or incontinent children.": "Suspect if fever, cramps, tenesmus, abdominal pain. Complications include seizures, bacteremia, Reiter Syndrome, HUS (S. dystenteriae;type 1), toxic megacolon and toxic encephalopathy (ekiri syndrome).Cefixime8mg/kg/day PO div BID orTMP-SMX8mg/kg/day TMP PO div TID x5-7 days. Illness usually self-limited (48-72 hours), but treatment is always indicated to decrease duration of shedding, which is important for public health measures."
+          },
+          {
+            "Diarrhea": "Yersinia enterocolitica",
+            "Initial Workup:If blood diarrhea or >6 stools/day and febrile then consider stool cultures, fecal leukocytes, electrolytes.Isolation:Contact precautions for diapered or incontinent children.": "Causes mesenteric adenitis, mimics appendicitis. Predisposed by iron overload states (chronic transfusions). Antimicrobial therapies not indicated in normal hosts."
+          },
+          {
+            "Diarrhea": "Necrotizing Enterocolitis(NEC)",
+            "Initial Workup:If blood diarrhea or >6 stools/day and febrile then consider stool cultures, fecal leukocytes, electrolytes.Isolation:Contact precautions for diapered or incontinent children.": "Multifactorial disease, including bacterial invasion (debated).E. coli, Klebsiella, Pseudomonas, Clostridial sp., S. aureus, B. fragilis."
+          },
+          {
+            "Diarrhea": "Peritonitis (bowel perforation or appendicitis)",
+            "Initial Workup:If blood diarrhea or >6 stools/day and febrile then consider stool cultures, fecal leukocytes, electrolytes.Isolation:Contact precautions for diapered or incontinent children.": "Enteric GNR, Bacteroides sp., Enterococcus sp."
+          },
+          {
+            "Diarrhea": "Peritonitis (peritoneal dialysis)",
+            "Initial Workup:If blood diarrhea or >6 stools/day and febrile then consider stool cultures, fecal leukocytes, electrolytes.Isolation:Contact precautions for diapered or incontinent children.": "Staphylococci, GNs,yeast"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Genitourinary_Infections": {
+      "text": "",
+      "subsections": {
+        "Pyelonephritis": {
+          "text": "Inpatient:\nCeftriaxone\n50mg/kg/day IV/IM Q24 OR\ngentamicin\n(age based dosing) OR [[TMP/SMX] 8mg/kg/day IV div BID x14 days. Treat IV until defervesces and clinically improved, then transition to PO.\nOutpatient:\nTMP-SMX\nOR\ncefixime\nOR\nciprofloxacin\n(in adolescents); see doses under UTI",
+          "tables": []
+        },
+        "UTI": {
+          "text": "Inpatient:\n>2 months:\ncefotaxime\nor\nceftriaxone\nuntil taking PO, well appearing → transition to outpatient therapy.\nOutpatient:\n(Infants and Children):\nTMP-SMX\n6-10mg/kg/day TMP component div BID OR\ncefixime\n16mg/kg/day x1 day, then 8mg/kg/day Q24 (max 400mg/dose) OR\ncephalexin\n25mg/kg/dose QID (max 1000mg/dose) x7-14 days. Alternatives:\nnitrofurantoin\n,\nciprofloxacin\n,\nceftriaxone\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "TMP-SMX",
+          "url": "https://wikem.org/wiki/TMP-SMX"
+        },
+        {
+          "text": "cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "TMP-SMX",
+          "url": "https://wikem.org/wiki/TMP-SMX"
+        },
+        {
+          "text": "cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Pyelonephritis": {
+      "text": "Inpatient:\nCeftriaxone\n50mg/kg/day IV/IM Q24 OR\ngentamicin\n(age based dosing) OR [[TMP/SMX] 8mg/kg/day IV div BID x14 days. Treat IV until defervesces and clinically improved, then transition to PO.\nOutpatient:\nTMP-SMX\nOR\ncefixime\nOR\nciprofloxacin\n(in adolescents); see doses under UTI",
+      "subsections": {
+        "UTI": {
+          "text": "Inpatient:\n>2 months:\ncefotaxime\nor\nceftriaxone\nuntil taking PO, well appearing → transition to outpatient therapy.\nOutpatient:\n(Infants and Children):\nTMP-SMX\n6-10mg/kg/day TMP component div BID OR\ncefixime\n16mg/kg/day x1 day, then 8mg/kg/day Q24 (max 400mg/dose) OR\ncephalexin\n25mg/kg/dose QID (max 1000mg/dose) x7-14 days. Alternatives:\nnitrofurantoin\n,\nciprofloxacin\n,\nceftriaxone\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "TMP-SMX",
+          "url": "https://wikem.org/wiki/TMP-SMX"
+        },
+        {
+          "text": "cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "TMP-SMX",
+          "url": "https://wikem.org/wiki/TMP-SMX"
+        },
+        {
+          "text": "cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "UTI": {
+      "text": "Inpatient:\n>2 months:\ncefotaxime\nor\nceftriaxone\nuntil taking PO, well appearing → transition to outpatient therapy.\nOutpatient:\n(Infants and Children):\nTMP-SMX\n6-10mg/kg/day TMP component div BID OR\ncefixime\n16mg/kg/day x1 day, then 8mg/kg/day Q24 (max 400mg/dose) OR\ncephalexin\n25mg/kg/dose QID (max 1000mg/dose) x7-14 days. Alternatives:\nnitrofurantoin\n,\nciprofloxacin\n,\nceftriaxone\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "TMP-SMX",
+          "url": "https://wikem.org/wiki/TMP-SMX"
+        },
+        {
+          "text": "cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Skin_&_Soft_Tissue_Infections": {
+      "text": "",
+      "subsections": {
+        "Skin_abscess": {
+          "text": "OSSA/MSSA -\nCephalexin\n50-75mg/kg/day PO div TID OR\nAugmentin\n80-90mg/kg/day PO div BID x5-7 days.\nI&D when indicated.\nIf MRSA prevalent or if recurrent abscess, send specimen for culture and sensitivity. Treat with\nclindamycin\n40mg/kg/day IV div Q6 or\nTMP-SMX\n5mg/kg/dose TMP Q6-8. If toxic-appearing, use\nvancomycin\n.",
+          "tables": []
+        },
+        "Cellulitis": {
+          "text": "Start IV:\nClindamycin\n40mg/kg/day IV div Q6 if high community incidence of MRSA. May use\nnafcillin\n200mg/kg/day IV div Q6 OR\ncefazolin\n100mg/kg/day IV div Q8 if low incidence of MRSA. Transition to PO when stable. If no improvement, change to\nvancomycin\n(dose by age).\nPO:\nCephalexin\n50-75mg/kg/day divided TID OR\ndicloxacillin\n50mg/kg/day PO div Q6. Total duration of treatment 7-10 days.",
+          "tables": []
+        },
+        "Erysipelas": {
+          "text": "Penicillin G\nIV, then transition to\npenicillin\nV or\namoxicillin\nPO;x10 days.",
+          "tables": []
+        },
+        "Impetigo": {
+          "text": "Mupirocin\ntopical to lesions TID, cleanse with soap and water. Bathe daily. If extensive, treat with\ncephalexin\nPO or\namoxicillin-clavulanate\nx5-7 days.",
+          "tables": []
+        },
+        "Omphalitis/Funisitis": {
+          "text": "Empiric:\nCefotaxime\nAND\nclindamycin\nx10 or more days.\nFunisitis (local infection of cord): cord care, topical antimicrobials.",
+          "tables": []
+        },
+        "Paronychia": {
+          "text": "Local wound care and I&D unless signs of spreading infection, then consider\nAugmentin\nor\nclindamycin\n.",
+          "tables": []
+        },
+        "Scabies": {
+          "text": "Topical 5%\npermethrin\ncream, apply to neck down, wash off in 8-14 hours.\nTopical Lindane 1%-\nAvoid unless treatment failure to permethrin due to risk of neurotoxicity. Many contraindications/precautions!",
+          "tables": []
+        },
+        "Staphylococcal_scalded_skin_syndrome": {
+          "text": "Nafcillin\n200mg/kg/day IV div Q6 OR Cefazolin IV x5-7 days. Consider\nvancomycin\n.\nAvoid TMP-SMX.",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "May use one of many topical antifungal agents:\nTerbinafine\n1% cream or gel BID to affected areas;\nclotrimazole\n1% cream, lotion or solution; others include Econazole, Sulconazole, Oxiconazole, Naftifine, Cicloprox, Ketoconazole, Sertaconazle, Moconazole and Tolnaftate. Treat for 14 days. Keep affected areas dry.",
+          "tables": []
+        },
+        "Tinea_capitis": {
+          "text": "Griseofulvin\nMicrosize 10-20mg/kg/day div Q12-24 (max 1000mg/day) OR\nGriseofulvin\nUltramicrosize >2 years 5-10mg/kg/day div Q12-24 x6 weeks] AND\nSelenium sulfide\nshampoo twice weekly x1 week as directed.",
+          "tables": []
+        },
+        "Necrotizing_Fasciitis": {
+          "text": "Prompt surgical debridement and cultures. Send for cultures and sensitivities.\nTreat with\nclindamycin\nAND\nZosyn\nOR\ncefotaxime\n. For proven streptococcal disease,\npenicillin\nand\nclindamycin\nsuffice.",
+          "tables": [
+            [
+              {
+                "Animal bites": "Non Rabies-prone:Rodents, rabbits, hares, squirrels, hamsters, guinea pigs, gerbils, rats, chipmunks and mice usually do not require anti-rabies therapy. Consult public health officials with concerns. Check tetanus status. Consider Augmentin as below."
+              },
+              {
+                "Animal bites": "Cat:Pasteurella multocida, S. aureus",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day div Q8-12 x5-7 days. For penicillin allergic patients,Pasteurellais covered bydoxycyclineorciprofloxacin. Add another drug forStrep;orStaph sp.Rabies: See above if feral cat. Check tetanus status."
+              },
+              {
+                "Animal bites": "Dog:Pasteurella multocida, S. aureu's, Bacteroides, Fusobacterium, Capnophaga",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Human:Strep viridans;(100%),Staph epinephrine(53%),Cornybacterium(41%),S. aureus(29%),Eikenella, Bacteroides, Peptostrep",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "High rates of infection.Do not close open wounds!Early (no signs of infection):Augmentin45mg/kg/day PO div Q8-12 x5-7 days.Late (signs of infection):Ampicillin-sulbactamIV. Can useclindamycinANDampicillin.Check tetanus status."
+              },
+              {
+                "Animal bites": "Rat or pig (polymicrobial,Sprillum minus,Streptobacillus)",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Lymphadenitis",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Localized infection:GAS, S. aureus (MRSA)...less likely anaerobes, M. Tb(scrofula),Toxoplasmosis, Tularemia, Sporotrichosis,;atypical mycobacterial (consider the latter if nonresponsive to antimicrobials)",
+                "Treat all bat and feral cat exposures with both HRIG andRabiesvaccine as below. Otherwise, treat with vaccine and contact public health officials or infection control for advice on whether to treat with HRIG. Monitor animal for 10 days.Rabiesvaccine 1 mL;IM into deltoid days 0, 3, 7, 14 and 28.HRIG 20 IU/kg around wound and begin vaccination series with HDCV or;RVA vaccine days 0, 3, 7, 14 and 28.Consider treating with Augmentin as below.": "MSSA:Augmentin90mg/kg/day PO div BID ORCephalexin100mg/kg/day PO div QID x10 days. If IV needed,cefazolin100mg/kg/day IV div Q8.MRSA:ClindamycinORTMP-SMXORlinezolidORvancomycin(age based dosing) x7-10 days total."
+              },
+              {
+                "Animal bites": "Cat-scratch disease:Bartonella henslae",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Lymphadenitis common in axillary/epitrochlear nodes (46%), neck (26%), inguinal (17%). Treat for immunocompromised host of signs of systemic illness;(HSM).Azithromycin10mg/kg/day PO Q24 x5 days.May also useBactrim,rifampinandciprofloxacin. Duration of therapy is uncertain."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP-SMX",
+          "url": "https://wikem.org/wiki/TMP-SMX"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Zosyn",
+          "url": "https://wikem.org/wiki/Zosyn"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Skin_abscess": {
+      "text": "OSSA/MSSA -\nCephalexin\n50-75mg/kg/day PO div TID OR\nAugmentin\n80-90mg/kg/day PO div BID x5-7 days.\nI&D when indicated.\nIf MRSA prevalent or if recurrent abscess, send specimen for culture and sensitivity. Treat with\nclindamycin\n40mg/kg/day IV div Q6 or\nTMP-SMX\n5mg/kg/dose TMP Q6-8. If toxic-appearing, use\nvancomycin\n.",
+      "subsections": {
+        "Cellulitis": {
+          "text": "Start IV:\nClindamycin\n40mg/kg/day IV div Q6 if high community incidence of MRSA. May use\nnafcillin\n200mg/kg/day IV div Q6 OR\ncefazolin\n100mg/kg/day IV div Q8 if low incidence of MRSA. Transition to PO when stable. If no improvement, change to\nvancomycin\n(dose by age).\nPO:\nCephalexin\n50-75mg/kg/day divided TID OR\ndicloxacillin\n50mg/kg/day PO div Q6. Total duration of treatment 7-10 days.",
+          "tables": []
+        },
+        "Erysipelas": {
+          "text": "Penicillin G\nIV, then transition to\npenicillin\nV or\namoxicillin\nPO;x10 days.",
+          "tables": []
+        },
+        "Impetigo": {
+          "text": "Mupirocin\ntopical to lesions TID, cleanse with soap and water. Bathe daily. If extensive, treat with\ncephalexin\nPO or\namoxicillin-clavulanate\nx5-7 days.",
+          "tables": []
+        },
+        "Omphalitis/Funisitis": {
+          "text": "Empiric:\nCefotaxime\nAND\nclindamycin\nx10 or more days.\nFunisitis (local infection of cord): cord care, topical antimicrobials.",
+          "tables": []
+        },
+        "Paronychia": {
+          "text": "Local wound care and I&D unless signs of spreading infection, then consider\nAugmentin\nor\nclindamycin\n.",
+          "tables": []
+        },
+        "Scabies": {
+          "text": "Topical 5%\npermethrin\ncream, apply to neck down, wash off in 8-14 hours.\nTopical Lindane 1%-\nAvoid unless treatment failure to permethrin due to risk of neurotoxicity. Many contraindications/precautions!",
+          "tables": []
+        },
+        "Staphylococcal_scalded_skin_syndrome": {
+          "text": "Nafcillin\n200mg/kg/day IV div Q6 OR Cefazolin IV x5-7 days. Consider\nvancomycin\n.\nAvoid TMP-SMX.",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "May use one of many topical antifungal agents:\nTerbinafine\n1% cream or gel BID to affected areas;\nclotrimazole\n1% cream, lotion or solution; others include Econazole, Sulconazole, Oxiconazole, Naftifine, Cicloprox, Ketoconazole, Sertaconazle, Moconazole and Tolnaftate. Treat for 14 days. Keep affected areas dry.",
+          "tables": []
+        },
+        "Tinea_capitis": {
+          "text": "Griseofulvin\nMicrosize 10-20mg/kg/day div Q12-24 (max 1000mg/day) OR\nGriseofulvin\nUltramicrosize >2 years 5-10mg/kg/day div Q12-24 x6 weeks] AND\nSelenium sulfide\nshampoo twice weekly x1 week as directed.",
+          "tables": []
+        },
+        "Necrotizing_Fasciitis": {
+          "text": "Prompt surgical debridement and cultures. Send for cultures and sensitivities.\nTreat with\nclindamycin\nAND\nZosyn\nOR\ncefotaxime\n. For proven streptococcal disease,\npenicillin\nand\nclindamycin\nsuffice.",
+          "tables": [
+            [
+              {
+                "Animal bites": "Non Rabies-prone:Rodents, rabbits, hares, squirrels, hamsters, guinea pigs, gerbils, rats, chipmunks and mice usually do not require anti-rabies therapy. Consult public health officials with concerns. Check tetanus status. Consider Augmentin as below."
+              },
+              {
+                "Animal bites": "Cat:Pasteurella multocida, S. aureus",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day div Q8-12 x5-7 days. For penicillin allergic patients,Pasteurellais covered bydoxycyclineorciprofloxacin. Add another drug forStrep;orStaph sp.Rabies: See above if feral cat. Check tetanus status."
+              },
+              {
+                "Animal bites": "Dog:Pasteurella multocida, S. aureu's, Bacteroides, Fusobacterium, Capnophaga",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Human:Strep viridans;(100%),Staph epinephrine(53%),Cornybacterium(41%),S. aureus(29%),Eikenella, Bacteroides, Peptostrep",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "High rates of infection.Do not close open wounds!Early (no signs of infection):Augmentin45mg/kg/day PO div Q8-12 x5-7 days.Late (signs of infection):Ampicillin-sulbactamIV. Can useclindamycinANDampicillin.Check tetanus status."
+              },
+              {
+                "Animal bites": "Rat or pig (polymicrobial,Sprillum minus,Streptobacillus)",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Lymphadenitis",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Localized infection:GAS, S. aureus (MRSA)...less likely anaerobes, M. Tb(scrofula),Toxoplasmosis, Tularemia, Sporotrichosis,;atypical mycobacterial (consider the latter if nonresponsive to antimicrobials)",
+                "Treat all bat and feral cat exposures with both HRIG andRabiesvaccine as below. Otherwise, treat with vaccine and contact public health officials or infection control for advice on whether to treat with HRIG. Monitor animal for 10 days.Rabiesvaccine 1 mL;IM into deltoid days 0, 3, 7, 14 and 28.HRIG 20 IU/kg around wound and begin vaccination series with HDCV or;RVA vaccine days 0, 3, 7, 14 and 28.Consider treating with Augmentin as below.": "MSSA:Augmentin90mg/kg/day PO div BID ORCephalexin100mg/kg/day PO div QID x10 days. If IV needed,cefazolin100mg/kg/day IV div Q8.MRSA:ClindamycinORTMP-SMXORlinezolidORvancomycin(age based dosing) x7-10 days total."
+              },
+              {
+                "Animal bites": "Cat-scratch disease:Bartonella henslae",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Lymphadenitis common in axillary/epitrochlear nodes (46%), neck (26%), inguinal (17%). Treat for immunocompromised host of signs of systemic illness;(HSM).Azithromycin10mg/kg/day PO Q24 x5 days.May also useBactrim,rifampinandciprofloxacin. Duration of therapy is uncertain."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP-SMX",
+          "url": "https://wikem.org/wiki/TMP-SMX"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Zosyn",
+          "url": "https://wikem.org/wiki/Zosyn"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Cellulitis": {
+      "text": "Start IV:\nClindamycin\n40mg/kg/day IV div Q6 if high community incidence of MRSA. May use\nnafcillin\n200mg/kg/day IV div Q6 OR\ncefazolin\n100mg/kg/day IV div Q8 if low incidence of MRSA. Transition to PO when stable. If no improvement, change to\nvancomycin\n(dose by age).\nPO:\nCephalexin\n50-75mg/kg/day divided TID OR\ndicloxacillin\n50mg/kg/day PO div Q6. Total duration of treatment 7-10 days.",
+      "subsections": {
+        "Erysipelas": {
+          "text": "Penicillin G\nIV, then transition to\npenicillin\nV or\namoxicillin\nPO;x10 days.",
+          "tables": []
+        },
+        "Impetigo": {
+          "text": "Mupirocin\ntopical to lesions TID, cleanse with soap and water. Bathe daily. If extensive, treat with\ncephalexin\nPO or\namoxicillin-clavulanate\nx5-7 days.",
+          "tables": []
+        },
+        "Omphalitis/Funisitis": {
+          "text": "Empiric:\nCefotaxime\nAND\nclindamycin\nx10 or more days.\nFunisitis (local infection of cord): cord care, topical antimicrobials.",
+          "tables": []
+        },
+        "Paronychia": {
+          "text": "Local wound care and I&D unless signs of spreading infection, then consider\nAugmentin\nor\nclindamycin\n.",
+          "tables": []
+        },
+        "Scabies": {
+          "text": "Topical 5%\npermethrin\ncream, apply to neck down, wash off in 8-14 hours.\nTopical Lindane 1%-\nAvoid unless treatment failure to permethrin due to risk of neurotoxicity. Many contraindications/precautions!",
+          "tables": []
+        },
+        "Staphylococcal_scalded_skin_syndrome": {
+          "text": "Nafcillin\n200mg/kg/day IV div Q6 OR Cefazolin IV x5-7 days. Consider\nvancomycin\n.\nAvoid TMP-SMX.",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "May use one of many topical antifungal agents:\nTerbinafine\n1% cream or gel BID to affected areas;\nclotrimazole\n1% cream, lotion or solution; others include Econazole, Sulconazole, Oxiconazole, Naftifine, Cicloprox, Ketoconazole, Sertaconazle, Moconazole and Tolnaftate. Treat for 14 days. Keep affected areas dry.",
+          "tables": []
+        },
+        "Tinea_capitis": {
+          "text": "Griseofulvin\nMicrosize 10-20mg/kg/day div Q12-24 (max 1000mg/day) OR\nGriseofulvin\nUltramicrosize >2 years 5-10mg/kg/day div Q12-24 x6 weeks] AND\nSelenium sulfide\nshampoo twice weekly x1 week as directed.",
+          "tables": []
+        },
+        "Necrotizing_Fasciitis": {
+          "text": "Prompt surgical debridement and cultures. Send for cultures and sensitivities.\nTreat with\nclindamycin\nAND\nZosyn\nOR\ncefotaxime\n. For proven streptococcal disease,\npenicillin\nand\nclindamycin\nsuffice.",
+          "tables": [
+            [
+              {
+                "Animal bites": "Non Rabies-prone:Rodents, rabbits, hares, squirrels, hamsters, guinea pigs, gerbils, rats, chipmunks and mice usually do not require anti-rabies therapy. Consult public health officials with concerns. Check tetanus status. Consider Augmentin as below."
+              },
+              {
+                "Animal bites": "Cat:Pasteurella multocida, S. aureus",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day div Q8-12 x5-7 days. For penicillin allergic patients,Pasteurellais covered bydoxycyclineorciprofloxacin. Add another drug forStrep;orStaph sp.Rabies: See above if feral cat. Check tetanus status."
+              },
+              {
+                "Animal bites": "Dog:Pasteurella multocida, S. aureu's, Bacteroides, Fusobacterium, Capnophaga",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Human:Strep viridans;(100%),Staph epinephrine(53%),Cornybacterium(41%),S. aureus(29%),Eikenella, Bacteroides, Peptostrep",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "High rates of infection.Do not close open wounds!Early (no signs of infection):Augmentin45mg/kg/day PO div Q8-12 x5-7 days.Late (signs of infection):Ampicillin-sulbactamIV. Can useclindamycinANDampicillin.Check tetanus status."
+              },
+              {
+                "Animal bites": "Rat or pig (polymicrobial,Sprillum minus,Streptobacillus)",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Lymphadenitis",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Localized infection:GAS, S. aureus (MRSA)...less likely anaerobes, M. Tb(scrofula),Toxoplasmosis, Tularemia, Sporotrichosis,;atypical mycobacterial (consider the latter if nonresponsive to antimicrobials)",
+                "Treat all bat and feral cat exposures with both HRIG andRabiesvaccine as below. Otherwise, treat with vaccine and contact public health officials or infection control for advice on whether to treat with HRIG. Monitor animal for 10 days.Rabiesvaccine 1 mL;IM into deltoid days 0, 3, 7, 14 and 28.HRIG 20 IU/kg around wound and begin vaccination series with HDCV or;RVA vaccine days 0, 3, 7, 14 and 28.Consider treating with Augmentin as below.": "MSSA:Augmentin90mg/kg/day PO div BID ORCephalexin100mg/kg/day PO div QID x10 days. If IV needed,cefazolin100mg/kg/day IV div Q8.MRSA:ClindamycinORTMP-SMXORlinezolidORvancomycin(age based dosing) x7-10 days total."
+              },
+              {
+                "Animal bites": "Cat-scratch disease:Bartonella henslae",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Lymphadenitis common in axillary/epitrochlear nodes (46%), neck (26%), inguinal (17%). Treat for immunocompromised host of signs of systemic illness;(HSM).Azithromycin10mg/kg/day PO Q24 x5 days.May also useBactrim,rifampinandciprofloxacin. Duration of therapy is uncertain."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Zosyn",
+          "url": "https://wikem.org/wiki/Zosyn"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Erysipelas": {
+      "text": "Penicillin G\nIV, then transition to\npenicillin\nV or\namoxicillin\nPO;x10 days.",
+      "subsections": {
+        "Impetigo": {
+          "text": "Mupirocin\ntopical to lesions TID, cleanse with soap and water. Bathe daily. If extensive, treat with\ncephalexin\nPO or\namoxicillin-clavulanate\nx5-7 days.",
+          "tables": []
+        },
+        "Omphalitis/Funisitis": {
+          "text": "Empiric:\nCefotaxime\nAND\nclindamycin\nx10 or more days.\nFunisitis (local infection of cord): cord care, topical antimicrobials.",
+          "tables": []
+        },
+        "Paronychia": {
+          "text": "Local wound care and I&D unless signs of spreading infection, then consider\nAugmentin\nor\nclindamycin\n.",
+          "tables": []
+        },
+        "Scabies": {
+          "text": "Topical 5%\npermethrin\ncream, apply to neck down, wash off in 8-14 hours.\nTopical Lindane 1%-\nAvoid unless treatment failure to permethrin due to risk of neurotoxicity. Many contraindications/precautions!",
+          "tables": []
+        },
+        "Staphylococcal_scalded_skin_syndrome": {
+          "text": "Nafcillin\n200mg/kg/day IV div Q6 OR Cefazolin IV x5-7 days. Consider\nvancomycin\n.\nAvoid TMP-SMX.",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "May use one of many topical antifungal agents:\nTerbinafine\n1% cream or gel BID to affected areas;\nclotrimazole\n1% cream, lotion or solution; others include Econazole, Sulconazole, Oxiconazole, Naftifine, Cicloprox, Ketoconazole, Sertaconazle, Moconazole and Tolnaftate. Treat for 14 days. Keep affected areas dry.",
+          "tables": []
+        },
+        "Tinea_capitis": {
+          "text": "Griseofulvin\nMicrosize 10-20mg/kg/day div Q12-24 (max 1000mg/day) OR\nGriseofulvin\nUltramicrosize >2 years 5-10mg/kg/day div Q12-24 x6 weeks] AND\nSelenium sulfide\nshampoo twice weekly x1 week as directed.",
+          "tables": []
+        },
+        "Necrotizing_Fasciitis": {
+          "text": "Prompt surgical debridement and cultures. Send for cultures and sensitivities.\nTreat with\nclindamycin\nAND\nZosyn\nOR\ncefotaxime\n. For proven streptococcal disease,\npenicillin\nand\nclindamycin\nsuffice.",
+          "tables": [
+            [
+              {
+                "Animal bites": "Non Rabies-prone:Rodents, rabbits, hares, squirrels, hamsters, guinea pigs, gerbils, rats, chipmunks and mice usually do not require anti-rabies therapy. Consult public health officials with concerns. Check tetanus status. Consider Augmentin as below."
+              },
+              {
+                "Animal bites": "Cat:Pasteurella multocida, S. aureus",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day div Q8-12 x5-7 days. For penicillin allergic patients,Pasteurellais covered bydoxycyclineorciprofloxacin. Add another drug forStrep;orStaph sp.Rabies: See above if feral cat. Check tetanus status."
+              },
+              {
+                "Animal bites": "Dog:Pasteurella multocida, S. aureu's, Bacteroides, Fusobacterium, Capnophaga",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Human:Strep viridans;(100%),Staph epinephrine(53%),Cornybacterium(41%),S. aureus(29%),Eikenella, Bacteroides, Peptostrep",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "High rates of infection.Do not close open wounds!Early (no signs of infection):Augmentin45mg/kg/day PO div Q8-12 x5-7 days.Late (signs of infection):Ampicillin-sulbactamIV. Can useclindamycinANDampicillin.Check tetanus status."
+              },
+              {
+                "Animal bites": "Rat or pig (polymicrobial,Sprillum minus,Streptobacillus)",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Lymphadenitis",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Localized infection:GAS, S. aureus (MRSA)...less likely anaerobes, M. Tb(scrofula),Toxoplasmosis, Tularemia, Sporotrichosis,;atypical mycobacterial (consider the latter if nonresponsive to antimicrobials)",
+                "Treat all bat and feral cat exposures with both HRIG andRabiesvaccine as below. Otherwise, treat with vaccine and contact public health officials or infection control for advice on whether to treat with HRIG. Monitor animal for 10 days.Rabiesvaccine 1 mL;IM into deltoid days 0, 3, 7, 14 and 28.HRIG 20 IU/kg around wound and begin vaccination series with HDCV or;RVA vaccine days 0, 3, 7, 14 and 28.Consider treating with Augmentin as below.": "MSSA:Augmentin90mg/kg/day PO div BID ORCephalexin100mg/kg/day PO div QID x10 days. If IV needed,cefazolin100mg/kg/day IV div Q8.MRSA:ClindamycinORTMP-SMXORlinezolidORvancomycin(age based dosing) x7-10 days total."
+              },
+              {
+                "Animal bites": "Cat-scratch disease:Bartonella henslae",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Lymphadenitis common in axillary/epitrochlear nodes (46%), neck (26%), inguinal (17%). Treat for immunocompromised host of signs of systemic illness;(HSM).Azithromycin10mg/kg/day PO Q24 x5 days.May also useBactrim,rifampinandciprofloxacin. Duration of therapy is uncertain."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Zosyn",
+          "url": "https://wikem.org/wiki/Zosyn"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Impetigo": {
+      "text": "Mupirocin\ntopical to lesions TID, cleanse with soap and water. Bathe daily. If extensive, treat with\ncephalexin\nPO or\namoxicillin-clavulanate\nx5-7 days.",
+      "subsections": {
+        "Omphalitis/Funisitis": {
+          "text": "Empiric:\nCefotaxime\nAND\nclindamycin\nx10 or more days.\nFunisitis (local infection of cord): cord care, topical antimicrobials.",
+          "tables": []
+        },
+        "Paronychia": {
+          "text": "Local wound care and I&D unless signs of spreading infection, then consider\nAugmentin\nor\nclindamycin\n.",
+          "tables": []
+        },
+        "Scabies": {
+          "text": "Topical 5%\npermethrin\ncream, apply to neck down, wash off in 8-14 hours.\nTopical Lindane 1%-\nAvoid unless treatment failure to permethrin due to risk of neurotoxicity. Many contraindications/precautions!",
+          "tables": []
+        },
+        "Staphylococcal_scalded_skin_syndrome": {
+          "text": "Nafcillin\n200mg/kg/day IV div Q6 OR Cefazolin IV x5-7 days. Consider\nvancomycin\n.\nAvoid TMP-SMX.",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "May use one of many topical antifungal agents:\nTerbinafine\n1% cream or gel BID to affected areas;\nclotrimazole\n1% cream, lotion or solution; others include Econazole, Sulconazole, Oxiconazole, Naftifine, Cicloprox, Ketoconazole, Sertaconazle, Moconazole and Tolnaftate. Treat for 14 days. Keep affected areas dry.",
+          "tables": []
+        },
+        "Tinea_capitis": {
+          "text": "Griseofulvin\nMicrosize 10-20mg/kg/day div Q12-24 (max 1000mg/day) OR\nGriseofulvin\nUltramicrosize >2 years 5-10mg/kg/day div Q12-24 x6 weeks] AND\nSelenium sulfide\nshampoo twice weekly x1 week as directed.",
+          "tables": []
+        },
+        "Necrotizing_Fasciitis": {
+          "text": "Prompt surgical debridement and cultures. Send for cultures and sensitivities.\nTreat with\nclindamycin\nAND\nZosyn\nOR\ncefotaxime\n. For proven streptococcal disease,\npenicillin\nand\nclindamycin\nsuffice.",
+          "tables": [
+            [
+              {
+                "Animal bites": "Non Rabies-prone:Rodents, rabbits, hares, squirrels, hamsters, guinea pigs, gerbils, rats, chipmunks and mice usually do not require anti-rabies therapy. Consult public health officials with concerns. Check tetanus status. Consider Augmentin as below."
+              },
+              {
+                "Animal bites": "Cat:Pasteurella multocida, S. aureus",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day div Q8-12 x5-7 days. For penicillin allergic patients,Pasteurellais covered bydoxycyclineorciprofloxacin. Add another drug forStrep;orStaph sp.Rabies: See above if feral cat. Check tetanus status."
+              },
+              {
+                "Animal bites": "Dog:Pasteurella multocida, S. aureu's, Bacteroides, Fusobacterium, Capnophaga",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Human:Strep viridans;(100%),Staph epinephrine(53%),Cornybacterium(41%),S. aureus(29%),Eikenella, Bacteroides, Peptostrep",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "High rates of infection.Do not close open wounds!Early (no signs of infection):Augmentin45mg/kg/day PO div Q8-12 x5-7 days.Late (signs of infection):Ampicillin-sulbactamIV. Can useclindamycinANDampicillin.Check tetanus status."
+              },
+              {
+                "Animal bites": "Rat or pig (polymicrobial,Sprillum minus,Streptobacillus)",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Lymphadenitis",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Localized infection:GAS, S. aureus (MRSA)...less likely anaerobes, M. Tb(scrofula),Toxoplasmosis, Tularemia, Sporotrichosis,;atypical mycobacterial (consider the latter if nonresponsive to antimicrobials)",
+                "Treat all bat and feral cat exposures with both HRIG andRabiesvaccine as below. Otherwise, treat with vaccine and contact public health officials or infection control for advice on whether to treat with HRIG. Monitor animal for 10 days.Rabiesvaccine 1 mL;IM into deltoid days 0, 3, 7, 14 and 28.HRIG 20 IU/kg around wound and begin vaccination series with HDCV or;RVA vaccine days 0, 3, 7, 14 and 28.Consider treating with Augmentin as below.": "MSSA:Augmentin90mg/kg/day PO div BID ORCephalexin100mg/kg/day PO div QID x10 days. If IV needed,cefazolin100mg/kg/day IV div Q8.MRSA:ClindamycinORTMP-SMXORlinezolidORvancomycin(age based dosing) x7-10 days total."
+              },
+              {
+                "Animal bites": "Cat-scratch disease:Bartonella henslae",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Lymphadenitis common in axillary/epitrochlear nodes (46%), neck (26%), inguinal (17%). Treat for immunocompromised host of signs of systemic illness;(HSM).Azithromycin10mg/kg/day PO Q24 x5 days.May also useBactrim,rifampinandciprofloxacin. Duration of therapy is uncertain."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Zosyn",
+          "url": "https://wikem.org/wiki/Zosyn"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Omphalitis/Funisitis": {
+      "text": "Empiric:\nCefotaxime\nAND\nclindamycin\nx10 or more days.\nFunisitis (local infection of cord): cord care, topical antimicrobials.",
+      "subsections": {
+        "Paronychia": {
+          "text": "Local wound care and I&D unless signs of spreading infection, then consider\nAugmentin\nor\nclindamycin\n.",
+          "tables": []
+        },
+        "Scabies": {
+          "text": "Topical 5%\npermethrin\ncream, apply to neck down, wash off in 8-14 hours.\nTopical Lindane 1%-\nAvoid unless treatment failure to permethrin due to risk of neurotoxicity. Many contraindications/precautions!",
+          "tables": []
+        },
+        "Staphylococcal_scalded_skin_syndrome": {
+          "text": "Nafcillin\n200mg/kg/day IV div Q6 OR Cefazolin IV x5-7 days. Consider\nvancomycin\n.\nAvoid TMP-SMX.",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "May use one of many topical antifungal agents:\nTerbinafine\n1% cream or gel BID to affected areas;\nclotrimazole\n1% cream, lotion or solution; others include Econazole, Sulconazole, Oxiconazole, Naftifine, Cicloprox, Ketoconazole, Sertaconazle, Moconazole and Tolnaftate. Treat for 14 days. Keep affected areas dry.",
+          "tables": []
+        },
+        "Tinea_capitis": {
+          "text": "Griseofulvin\nMicrosize 10-20mg/kg/day div Q12-24 (max 1000mg/day) OR\nGriseofulvin\nUltramicrosize >2 years 5-10mg/kg/day div Q12-24 x6 weeks] AND\nSelenium sulfide\nshampoo twice weekly x1 week as directed.",
+          "tables": []
+        },
+        "Necrotizing_Fasciitis": {
+          "text": "Prompt surgical debridement and cultures. Send for cultures and sensitivities.\nTreat with\nclindamycin\nAND\nZosyn\nOR\ncefotaxime\n. For proven streptococcal disease,\npenicillin\nand\nclindamycin\nsuffice.",
+          "tables": [
+            [
+              {
+                "Animal bites": "Non Rabies-prone:Rodents, rabbits, hares, squirrels, hamsters, guinea pigs, gerbils, rats, chipmunks and mice usually do not require anti-rabies therapy. Consult public health officials with concerns. Check tetanus status. Consider Augmentin as below."
+              },
+              {
+                "Animal bites": "Cat:Pasteurella multocida, S. aureus",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day div Q8-12 x5-7 days. For penicillin allergic patients,Pasteurellais covered bydoxycyclineorciprofloxacin. Add another drug forStrep;orStaph sp.Rabies: See above if feral cat. Check tetanus status."
+              },
+              {
+                "Animal bites": "Dog:Pasteurella multocida, S. aureu's, Bacteroides, Fusobacterium, Capnophaga",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Human:Strep viridans;(100%),Staph epinephrine(53%),Cornybacterium(41%),S. aureus(29%),Eikenella, Bacteroides, Peptostrep",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "High rates of infection.Do not close open wounds!Early (no signs of infection):Augmentin45mg/kg/day PO div Q8-12 x5-7 days.Late (signs of infection):Ampicillin-sulbactamIV. Can useclindamycinANDampicillin.Check tetanus status."
+              },
+              {
+                "Animal bites": "Rat or pig (polymicrobial,Sprillum minus,Streptobacillus)",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Lymphadenitis",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Localized infection:GAS, S. aureus (MRSA)...less likely anaerobes, M. Tb(scrofula),Toxoplasmosis, Tularemia, Sporotrichosis,;atypical mycobacterial (consider the latter if nonresponsive to antimicrobials)",
+                "Treat all bat and feral cat exposures with both HRIG andRabiesvaccine as below. Otherwise, treat with vaccine and contact public health officials or infection control for advice on whether to treat with HRIG. Monitor animal for 10 days.Rabiesvaccine 1 mL;IM into deltoid days 0, 3, 7, 14 and 28.HRIG 20 IU/kg around wound and begin vaccination series with HDCV or;RVA vaccine days 0, 3, 7, 14 and 28.Consider treating with Augmentin as below.": "MSSA:Augmentin90mg/kg/day PO div BID ORCephalexin100mg/kg/day PO div QID x10 days. If IV needed,cefazolin100mg/kg/day IV div Q8.MRSA:ClindamycinORTMP-SMXORlinezolidORvancomycin(age based dosing) x7-10 days total."
+              },
+              {
+                "Animal bites": "Cat-scratch disease:Bartonella henslae",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Lymphadenitis common in axillary/epitrochlear nodes (46%), neck (26%), inguinal (17%). Treat for immunocompromised host of signs of systemic illness;(HSM).Azithromycin10mg/kg/day PO Q24 x5 days.May also useBactrim,rifampinandciprofloxacin. Duration of therapy is uncertain."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Zosyn",
+          "url": "https://wikem.org/wiki/Zosyn"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Paronychia": {
+      "text": "Local wound care and I&D unless signs of spreading infection, then consider\nAugmentin\nor\nclindamycin\n.",
+      "subsections": {
+        "Scabies": {
+          "text": "Topical 5%\npermethrin\ncream, apply to neck down, wash off in 8-14 hours.\nTopical Lindane 1%-\nAvoid unless treatment failure to permethrin due to risk of neurotoxicity. Many contraindications/precautions!",
+          "tables": []
+        },
+        "Staphylococcal_scalded_skin_syndrome": {
+          "text": "Nafcillin\n200mg/kg/day IV div Q6 OR Cefazolin IV x5-7 days. Consider\nvancomycin\n.\nAvoid TMP-SMX.",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "May use one of many topical antifungal agents:\nTerbinafine\n1% cream or gel BID to affected areas;\nclotrimazole\n1% cream, lotion or solution; others include Econazole, Sulconazole, Oxiconazole, Naftifine, Cicloprox, Ketoconazole, Sertaconazle, Moconazole and Tolnaftate. Treat for 14 days. Keep affected areas dry.",
+          "tables": []
+        },
+        "Tinea_capitis": {
+          "text": "Griseofulvin\nMicrosize 10-20mg/kg/day div Q12-24 (max 1000mg/day) OR\nGriseofulvin\nUltramicrosize >2 years 5-10mg/kg/day div Q12-24 x6 weeks] AND\nSelenium sulfide\nshampoo twice weekly x1 week as directed.",
+          "tables": []
+        },
+        "Necrotizing_Fasciitis": {
+          "text": "Prompt surgical debridement and cultures. Send for cultures and sensitivities.\nTreat with\nclindamycin\nAND\nZosyn\nOR\ncefotaxime\n. For proven streptococcal disease,\npenicillin\nand\nclindamycin\nsuffice.",
+          "tables": [
+            [
+              {
+                "Animal bites": "Non Rabies-prone:Rodents, rabbits, hares, squirrels, hamsters, guinea pigs, gerbils, rats, chipmunks and mice usually do not require anti-rabies therapy. Consult public health officials with concerns. Check tetanus status. Consider Augmentin as below."
+              },
+              {
+                "Animal bites": "Cat:Pasteurella multocida, S. aureus",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day div Q8-12 x5-7 days. For penicillin allergic patients,Pasteurellais covered bydoxycyclineorciprofloxacin. Add another drug forStrep;orStaph sp.Rabies: See above if feral cat. Check tetanus status."
+              },
+              {
+                "Animal bites": "Dog:Pasteurella multocida, S. aureu's, Bacteroides, Fusobacterium, Capnophaga",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Human:Strep viridans;(100%),Staph epinephrine(53%),Cornybacterium(41%),S. aureus(29%),Eikenella, Bacteroides, Peptostrep",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "High rates of infection.Do not close open wounds!Early (no signs of infection):Augmentin45mg/kg/day PO div Q8-12 x5-7 days.Late (signs of infection):Ampicillin-sulbactamIV. Can useclindamycinANDampicillin.Check tetanus status."
+              },
+              {
+                "Animal bites": "Rat or pig (polymicrobial,Sprillum minus,Streptobacillus)",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Lymphadenitis",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Localized infection:GAS, S. aureus (MRSA)...less likely anaerobes, M. Tb(scrofula),Toxoplasmosis, Tularemia, Sporotrichosis,;atypical mycobacterial (consider the latter if nonresponsive to antimicrobials)",
+                "Treat all bat and feral cat exposures with both HRIG andRabiesvaccine as below. Otherwise, treat with vaccine and contact public health officials or infection control for advice on whether to treat with HRIG. Monitor animal for 10 days.Rabiesvaccine 1 mL;IM into deltoid days 0, 3, 7, 14 and 28.HRIG 20 IU/kg around wound and begin vaccination series with HDCV or;RVA vaccine days 0, 3, 7, 14 and 28.Consider treating with Augmentin as below.": "MSSA:Augmentin90mg/kg/day PO div BID ORCephalexin100mg/kg/day PO div QID x10 days. If IV needed,cefazolin100mg/kg/day IV div Q8.MRSA:ClindamycinORTMP-SMXORlinezolidORvancomycin(age based dosing) x7-10 days total."
+              },
+              {
+                "Animal bites": "Cat-scratch disease:Bartonella henslae",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Lymphadenitis common in axillary/epitrochlear nodes (46%), neck (26%), inguinal (17%). Treat for immunocompromised host of signs of systemic illness;(HSM).Azithromycin10mg/kg/day PO Q24 x5 days.May also useBactrim,rifampinandciprofloxacin. Duration of therapy is uncertain."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Zosyn",
+          "url": "https://wikem.org/wiki/Zosyn"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Scabies": {
+      "text": "Topical 5%\npermethrin\ncream, apply to neck down, wash off in 8-14 hours.\nTopical Lindane 1%-\nAvoid unless treatment failure to permethrin due to risk of neurotoxicity. Many contraindications/precautions!",
+      "subsections": {
+        "Staphylococcal_scalded_skin_syndrome": {
+          "text": "Nafcillin\n200mg/kg/day IV div Q6 OR Cefazolin IV x5-7 days. Consider\nvancomycin\n.\nAvoid TMP-SMX.",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "May use one of many topical antifungal agents:\nTerbinafine\n1% cream or gel BID to affected areas;\nclotrimazole\n1% cream, lotion or solution; others include Econazole, Sulconazole, Oxiconazole, Naftifine, Cicloprox, Ketoconazole, Sertaconazle, Moconazole and Tolnaftate. Treat for 14 days. Keep affected areas dry.",
+          "tables": []
+        },
+        "Tinea_capitis": {
+          "text": "Griseofulvin\nMicrosize 10-20mg/kg/day div Q12-24 (max 1000mg/day) OR\nGriseofulvin\nUltramicrosize >2 years 5-10mg/kg/day div Q12-24 x6 weeks] AND\nSelenium sulfide\nshampoo twice weekly x1 week as directed.",
+          "tables": []
+        },
+        "Necrotizing_Fasciitis": {
+          "text": "Prompt surgical debridement and cultures. Send for cultures and sensitivities.\nTreat with\nclindamycin\nAND\nZosyn\nOR\ncefotaxime\n. For proven streptococcal disease,\npenicillin\nand\nclindamycin\nsuffice.",
+          "tables": [
+            [
+              {
+                "Animal bites": "Non Rabies-prone:Rodents, rabbits, hares, squirrels, hamsters, guinea pigs, gerbils, rats, chipmunks and mice usually do not require anti-rabies therapy. Consult public health officials with concerns. Check tetanus status. Consider Augmentin as below."
+              },
+              {
+                "Animal bites": "Cat:Pasteurella multocida, S. aureus",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day div Q8-12 x5-7 days. For penicillin allergic patients,Pasteurellais covered bydoxycyclineorciprofloxacin. Add another drug forStrep;orStaph sp.Rabies: See above if feral cat. Check tetanus status."
+              },
+              {
+                "Animal bites": "Dog:Pasteurella multocida, S. aureu's, Bacteroides, Fusobacterium, Capnophaga",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Human:Strep viridans;(100%),Staph epinephrine(53%),Cornybacterium(41%),S. aureus(29%),Eikenella, Bacteroides, Peptostrep",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "High rates of infection.Do not close open wounds!Early (no signs of infection):Augmentin45mg/kg/day PO div Q8-12 x5-7 days.Late (signs of infection):Ampicillin-sulbactamIV. Can useclindamycinANDampicillin.Check tetanus status."
+              },
+              {
+                "Animal bites": "Rat or pig (polymicrobial,Sprillum minus,Streptobacillus)",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Lymphadenitis",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Localized infection:GAS, S. aureus (MRSA)...less likely anaerobes, M. Tb(scrofula),Toxoplasmosis, Tularemia, Sporotrichosis,;atypical mycobacterial (consider the latter if nonresponsive to antimicrobials)",
+                "Treat all bat and feral cat exposures with both HRIG andRabiesvaccine as below. Otherwise, treat with vaccine and contact public health officials or infection control for advice on whether to treat with HRIG. Monitor animal for 10 days.Rabiesvaccine 1 mL;IM into deltoid days 0, 3, 7, 14 and 28.HRIG 20 IU/kg around wound and begin vaccination series with HDCV or;RVA vaccine days 0, 3, 7, 14 and 28.Consider treating with Augmentin as below.": "MSSA:Augmentin90mg/kg/day PO div BID ORCephalexin100mg/kg/day PO div QID x10 days. If IV needed,cefazolin100mg/kg/day IV div Q8.MRSA:ClindamycinORTMP-SMXORlinezolidORvancomycin(age based dosing) x7-10 days total."
+              },
+              {
+                "Animal bites": "Cat-scratch disease:Bartonella henslae",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Lymphadenitis common in axillary/epitrochlear nodes (46%), neck (26%), inguinal (17%). Treat for immunocompromised host of signs of systemic illness;(HSM).Azithromycin10mg/kg/day PO Q24 x5 days.May also useBactrim,rifampinandciprofloxacin. Duration of therapy is uncertain."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Zosyn",
+          "url": "https://wikem.org/wiki/Zosyn"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Staphylococcal_scalded_skin_syndrome": {
+      "text": "Nafcillin\n200mg/kg/day IV div Q6 OR Cefazolin IV x5-7 days. Consider\nvancomycin\n.\nAvoid TMP-SMX.",
+      "subsections": {
+        "Tinea_corporis": {
+          "text": "May use one of many topical antifungal agents:\nTerbinafine\n1% cream or gel BID to affected areas;\nclotrimazole\n1% cream, lotion or solution; others include Econazole, Sulconazole, Oxiconazole, Naftifine, Cicloprox, Ketoconazole, Sertaconazle, Moconazole and Tolnaftate. Treat for 14 days. Keep affected areas dry.",
+          "tables": []
+        },
+        "Tinea_capitis": {
+          "text": "Griseofulvin\nMicrosize 10-20mg/kg/day div Q12-24 (max 1000mg/day) OR\nGriseofulvin\nUltramicrosize >2 years 5-10mg/kg/day div Q12-24 x6 weeks] AND\nSelenium sulfide\nshampoo twice weekly x1 week as directed.",
+          "tables": []
+        },
+        "Necrotizing_Fasciitis": {
+          "text": "Prompt surgical debridement and cultures. Send for cultures and sensitivities.\nTreat with\nclindamycin\nAND\nZosyn\nOR\ncefotaxime\n. For proven streptococcal disease,\npenicillin\nand\nclindamycin\nsuffice.",
+          "tables": [
+            [
+              {
+                "Animal bites": "Non Rabies-prone:Rodents, rabbits, hares, squirrels, hamsters, guinea pigs, gerbils, rats, chipmunks and mice usually do not require anti-rabies therapy. Consult public health officials with concerns. Check tetanus status. Consider Augmentin as below."
+              },
+              {
+                "Animal bites": "Cat:Pasteurella multocida, S. aureus",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day div Q8-12 x5-7 days. For penicillin allergic patients,Pasteurellais covered bydoxycyclineorciprofloxacin. Add another drug forStrep;orStaph sp.Rabies: See above if feral cat. Check tetanus status."
+              },
+              {
+                "Animal bites": "Dog:Pasteurella multocida, S. aureu's, Bacteroides, Fusobacterium, Capnophaga",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Human:Strep viridans;(100%),Staph epinephrine(53%),Cornybacterium(41%),S. aureus(29%),Eikenella, Bacteroides, Peptostrep",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "High rates of infection.Do not close open wounds!Early (no signs of infection):Augmentin45mg/kg/day PO div Q8-12 x5-7 days.Late (signs of infection):Ampicillin-sulbactamIV. Can useclindamycinANDampicillin.Check tetanus status."
+              },
+              {
+                "Animal bites": "Rat or pig (polymicrobial,Sprillum minus,Streptobacillus)",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Lymphadenitis",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Localized infection:GAS, S. aureus (MRSA)...less likely anaerobes, M. Tb(scrofula),Toxoplasmosis, Tularemia, Sporotrichosis,;atypical mycobacterial (consider the latter if nonresponsive to antimicrobials)",
+                "Treat all bat and feral cat exposures with both HRIG andRabiesvaccine as below. Otherwise, treat with vaccine and contact public health officials or infection control for advice on whether to treat with HRIG. Monitor animal for 10 days.Rabiesvaccine 1 mL;IM into deltoid days 0, 3, 7, 14 and 28.HRIG 20 IU/kg around wound and begin vaccination series with HDCV or;RVA vaccine days 0, 3, 7, 14 and 28.Consider treating with Augmentin as below.": "MSSA:Augmentin90mg/kg/day PO div BID ORCephalexin100mg/kg/day PO div QID x10 days. If IV needed,cefazolin100mg/kg/day IV div Q8.MRSA:ClindamycinORTMP-SMXORlinezolidORvancomycin(age based dosing) x7-10 days total."
+              },
+              {
+                "Animal bites": "Cat-scratch disease:Bartonella henslae",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Lymphadenitis common in axillary/epitrochlear nodes (46%), neck (26%), inguinal (17%). Treat for immunocompromised host of signs of systemic illness;(HSM).Azithromycin10mg/kg/day PO Q24 x5 days.May also useBactrim,rifampinandciprofloxacin. Duration of therapy is uncertain."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Zosyn",
+          "url": "https://wikem.org/wiki/Zosyn"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Tinea_corporis": {
+      "text": "May use one of many topical antifungal agents:\nTerbinafine\n1% cream or gel BID to affected areas;\nclotrimazole\n1% cream, lotion or solution; others include Econazole, Sulconazole, Oxiconazole, Naftifine, Cicloprox, Ketoconazole, Sertaconazle, Moconazole and Tolnaftate. Treat for 14 days. Keep affected areas dry.",
+      "subsections": {
+        "Tinea_capitis": {
+          "text": "Griseofulvin\nMicrosize 10-20mg/kg/day div Q12-24 (max 1000mg/day) OR\nGriseofulvin\nUltramicrosize >2 years 5-10mg/kg/day div Q12-24 x6 weeks] AND\nSelenium sulfide\nshampoo twice weekly x1 week as directed.",
+          "tables": []
+        },
+        "Necrotizing_Fasciitis": {
+          "text": "Prompt surgical debridement and cultures. Send for cultures and sensitivities.\nTreat with\nclindamycin\nAND\nZosyn\nOR\ncefotaxime\n. For proven streptococcal disease,\npenicillin\nand\nclindamycin\nsuffice.",
+          "tables": [
+            [
+              {
+                "Animal bites": "Non Rabies-prone:Rodents, rabbits, hares, squirrels, hamsters, guinea pigs, gerbils, rats, chipmunks and mice usually do not require anti-rabies therapy. Consult public health officials with concerns. Check tetanus status. Consider Augmentin as below."
+              },
+              {
+                "Animal bites": "Cat:Pasteurella multocida, S. aureus",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day div Q8-12 x5-7 days. For penicillin allergic patients,Pasteurellais covered bydoxycyclineorciprofloxacin. Add another drug forStrep;orStaph sp.Rabies: See above if feral cat. Check tetanus status."
+              },
+              {
+                "Animal bites": "Dog:Pasteurella multocida, S. aureu's, Bacteroides, Fusobacterium, Capnophaga",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Human:Strep viridans;(100%),Staph epinephrine(53%),Cornybacterium(41%),S. aureus(29%),Eikenella, Bacteroides, Peptostrep",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "High rates of infection.Do not close open wounds!Early (no signs of infection):Augmentin45mg/kg/day PO div Q8-12 x5-7 days.Late (signs of infection):Ampicillin-sulbactamIV. Can useclindamycinANDampicillin.Check tetanus status."
+              },
+              {
+                "Animal bites": "Rat or pig (polymicrobial,Sprillum minus,Streptobacillus)",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Lymphadenitis",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Localized infection:GAS, S. aureus (MRSA)...less likely anaerobes, M. Tb(scrofula),Toxoplasmosis, Tularemia, Sporotrichosis,;atypical mycobacterial (consider the latter if nonresponsive to antimicrobials)",
+                "Treat all bat and feral cat exposures with both HRIG andRabiesvaccine as below. Otherwise, treat with vaccine and contact public health officials or infection control for advice on whether to treat with HRIG. Monitor animal for 10 days.Rabiesvaccine 1 mL;IM into deltoid days 0, 3, 7, 14 and 28.HRIG 20 IU/kg around wound and begin vaccination series with HDCV or;RVA vaccine days 0, 3, 7, 14 and 28.Consider treating with Augmentin as below.": "MSSA:Augmentin90mg/kg/day PO div BID ORCephalexin100mg/kg/day PO div QID x10 days. If IV needed,cefazolin100mg/kg/day IV div Q8.MRSA:ClindamycinORTMP-SMXORlinezolidORvancomycin(age based dosing) x7-10 days total."
+              },
+              {
+                "Animal bites": "Cat-scratch disease:Bartonella henslae",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Lymphadenitis common in axillary/epitrochlear nodes (46%), neck (26%), inguinal (17%). Treat for immunocompromised host of signs of systemic illness;(HSM).Azithromycin10mg/kg/day PO Q24 x5 days.May also useBactrim,rifampinandciprofloxacin. Duration of therapy is uncertain."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Zosyn",
+          "url": "https://wikem.org/wiki/Zosyn"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Tinea_capitis": {
+      "text": "Griseofulvin\nMicrosize 10-20mg/kg/day div Q12-24 (max 1000mg/day) OR\nGriseofulvin\nUltramicrosize >2 years 5-10mg/kg/day div Q12-24 x6 weeks] AND\nSelenium sulfide\nshampoo twice weekly x1 week as directed.",
+      "subsections": {
+        "Necrotizing_Fasciitis": {
+          "text": "Prompt surgical debridement and cultures. Send for cultures and sensitivities.\nTreat with\nclindamycin\nAND\nZosyn\nOR\ncefotaxime\n. For proven streptococcal disease,\npenicillin\nand\nclindamycin\nsuffice.",
+          "tables": [
+            [
+              {
+                "Animal bites": "Non Rabies-prone:Rodents, rabbits, hares, squirrels, hamsters, guinea pigs, gerbils, rats, chipmunks and mice usually do not require anti-rabies therapy. Consult public health officials with concerns. Check tetanus status. Consider Augmentin as below."
+              },
+              {
+                "Animal bites": "Cat:Pasteurella multocida, S. aureus",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day div Q8-12 x5-7 days. For penicillin allergic patients,Pasteurellais covered bydoxycyclineorciprofloxacin. Add another drug forStrep;orStaph sp.Rabies: See above if feral cat. Check tetanus status."
+              },
+              {
+                "Animal bites": "Dog:Pasteurella multocida, S. aureu's, Bacteroides, Fusobacterium, Capnophaga",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Human:Strep viridans;(100%),Staph epinephrine(53%),Cornybacterium(41%),S. aureus(29%),Eikenella, Bacteroides, Peptostrep",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "High rates of infection.Do not close open wounds!Early (no signs of infection):Augmentin45mg/kg/day PO div Q8-12 x5-7 days.Late (signs of infection):Ampicillin-sulbactamIV. Can useclindamycinANDampicillin.Check tetanus status."
+              },
+              {
+                "Animal bites": "Rat or pig (polymicrobial,Sprillum minus,Streptobacillus)",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+              },
+              {
+                "Animal bites": "Lymphadenitis",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Localized infection:GAS, S. aureus (MRSA)...less likely anaerobes, M. Tb(scrofula),Toxoplasmosis, Tularemia, Sporotrichosis,;atypical mycobacterial (consider the latter if nonresponsive to antimicrobials)",
+                "Treat all bat and feral cat exposures with both HRIG andRabiesvaccine as below. Otherwise, treat with vaccine and contact public health officials or infection control for advice on whether to treat with HRIG. Monitor animal for 10 days.Rabiesvaccine 1 mL;IM into deltoid days 0, 3, 7, 14 and 28.HRIG 20 IU/kg around wound and begin vaccination series with HDCV or;RVA vaccine days 0, 3, 7, 14 and 28.Consider treating with Augmentin as below.": "MSSA:Augmentin90mg/kg/day PO div BID ORCephalexin100mg/kg/day PO div QID x10 days. If IV needed,cefazolin100mg/kg/day IV div Q8.MRSA:ClindamycinORTMP-SMXORlinezolidORvancomycin(age based dosing) x7-10 days total."
+              },
+              {
+                "Animal bites": "Cat-scratch disease:Bartonella henslae",
+                "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Lymphadenitis common in axillary/epitrochlear nodes (46%), neck (26%), inguinal (17%). Treat for immunocompromised host of signs of systemic illness;(HSM).Azithromycin10mg/kg/day PO Q24 x5 days.May also useBactrim,rifampinandciprofloxacin. Duration of therapy is uncertain."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Zosyn",
+          "url": "https://wikem.org/wiki/Zosyn"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Necrotizing_Fasciitis": {
+      "text": "Prompt surgical debridement and cultures. Send for cultures and sensitivities.\nTreat with\nclindamycin\nAND\nZosyn\nOR\ncefotaxime\n. For proven streptococcal disease,\npenicillin\nand\nclindamycin\nsuffice.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Animal bites": "Non Rabies-prone:Rodents, rabbits, hares, squirrels, hamsters, guinea pigs, gerbils, rats, chipmunks and mice usually do not require anti-rabies therapy. Consult public health officials with concerns. Check tetanus status. Consider Augmentin as below."
+          },
+          {
+            "Animal bites": "Cat:Pasteurella multocida, S. aureus",
+            "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day div Q8-12 x5-7 days. For penicillin allergic patients,Pasteurellais covered bydoxycyclineorciprofloxacin. Add another drug forStrep;orStaph sp.Rabies: See above if feral cat. Check tetanus status."
+          },
+          {
+            "Animal bites": "Dog:Pasteurella multocida, S. aureu's, Bacteroides, Fusobacterium, Capnophaga",
+            "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+          },
+          {
+            "Animal bites": "Human:Strep viridans;(100%),Staph epinephrine(53%),Cornybacterium(41%),S. aureus(29%),Eikenella, Bacteroides, Peptostrep",
+            "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "High rates of infection.Do not close open wounds!Early (no signs of infection):Augmentin45mg/kg/day PO div Q8-12 x5-7 days.Late (signs of infection):Ampicillin-sulbactamIV. Can useclindamycinANDampicillin.Check tetanus status."
+          },
+          {
+            "Animal bites": "Rat or pig (polymicrobial,Sprillum minus,Streptobacillus)",
+            "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Augmentin45mg/kg/day PO div Q8-12 x5-7 daysRabies: see above. Check tetanus status."
+          },
+          {
+            "Animal bites": "Lymphadenitis",
+            "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Localized infection:GAS, S. aureus (MRSA)...less likely anaerobes, M. Tb(scrofula),Toxoplasmosis, Tularemia, Sporotrichosis,;atypical mycobacterial (consider the latter if nonresponsive to antimicrobials)",
+            "Treat all bat and feral cat exposures with both HRIG andRabiesvaccine as below. Otherwise, treat with vaccine and contact public health officials or infection control for advice on whether to treat with HRIG. Monitor animal for 10 days.Rabiesvaccine 1 mL;IM into deltoid days 0, 3, 7, 14 and 28.HRIG 20 IU/kg around wound and begin vaccination series with HDCV or;RVA vaccine days 0, 3, 7, 14 and 28.Consider treating with Augmentin as below.": "MSSA:Augmentin90mg/kg/day PO div BID ORCephalexin100mg/kg/day PO div QID x10 days. If IV needed,cefazolin100mg/kg/day IV div Q8.MRSA:ClindamycinORTMP-SMXORlinezolidORvancomycin(age based dosing) x7-10 days total."
+          },
+          {
+            "Animal bites": "Cat-scratch disease:Bartonella henslae",
+            "Rabies prone: BATS, feral cats, raccoon, skunk, foxes, coyotes, most carnivores, woodchucks and livestock in certain areas": "Lymphadenitis common in axillary/epitrochlear nodes (46%), neck (26%), inguinal (17%). Treat for immunocompromised host of signs of systemic illness;(HSM).Azithromycin10mg/kg/day PO Q24 x5 days.May also useBactrim,rifampinandciprofloxacin. Duration of therapy is uncertain."
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Zosyn",
+          "url": "https://wikem.org/wiki/Zosyn"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Orthopedic_Infections": {
+      "text": "",
+      "subsections": {
+        "Osteomyelitis_2": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Risk Factor": "Elderly, hematogenous spread",
+                "Likely Organism": "MRSA,MSSA,gram neg",
+                "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm + (Piperacillin/Tazobactam3.375 grams ORimipenem500mg)"
+              },
+              {
+                "Risk Factor": "Sickle Cell Disease",
+                "Likely Organism": "Salmonella,gram-negativebacteria",
+                "Initial Empiric Antibiotic Therapy'": "Ceftriaxone50mg/kg IV once daily ORCefotaxime50mg/kg IV three times daily, PLUSVancomycin15mg/kg IV  four times daily ORClindamycin10mg/kg IV PO four times daily ORNafcillin50 mg/kg IV four times daily to cover K. Kingae (common in daycare population)"
+              },
+              {
+                "Risk Factor": "DMor vascular insufficiency",
+                "Likely Organism": "Polymicrobial:Staph,strep, coliforms,anaerobes",
+                "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm + (Piperacillin/Tazobactam3.375 grams ORimipenem500mg)"
+              },
+              {
+                "Risk Factor": "IV druguser",
+                "Likely Organism": "MRSA,MSSA,pseudomonas",
+                "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm"
+              },
+              {
+                "Risk Factor": "Newborn",
+                "Likely Organism": "MRSA,MSSA,GBS,Gram Negative",
+                "Initial Empiric Antibiotic Therapy'": "Vancomycin15mg/kg load, then reduce dose, ANDceftazidime30mg/kg IV q12 h"
+              },
+              {
+                "Risk Factor": "Children",
+                "Likely Organism": "MRSA,MSSA",
+                "Initial Empiric Antibiotic Therapy'": "Vancomycin10mg/kg q6 h ANDceftazidime50mg/kg q8hr"
+              },
+              {
+                "Risk Factor": "Postoperative (ortho)",
+                "Likely Organism": "MRSA,MSSA",
+                "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm"
+              },
+              {
+                "Risk Factor": "Human bite",
+                "Likely Organism": "Strep,anaerobes, HACEK organism",
+                "Initial Empiric Antibiotic Therapy'": "Piperacillin/Tazobactam3.375gm ORimipenem500mg"
+              },
+              {
+                "Risk Factor": "Animal bites",
+                "Likely Organism": "Pasteurella,Eikenella, HACEK organism",
+                "Initial Empiric Antibiotic Therapy'": "Piperacillin/Tazobactam3.375gm ORimipenem500mg"
+              },
+              {
+                "Risk Factor": "Foot puncture wound",
+                "Likely Organism": "Pseudomonas",
+                "Initial Empiric Antibiotic Therapy'": "Anti-pseudomonal, staph coverage"
+              }
+            ]
+          ]
+        },
+        "Septic_Arthritis": {
+          "text": "If immunized against\nHib\n:\nNafcillin\n200mg/kg/day IV div Q6 OR\ncefazolin\n100mg/kg/day div Q8 x21 days.\nIf unimmunized again\nHib\n:\nCefuroxime\nOR\ncefotaxime\nAND\nnafcillin\nOR\ncefazolin\nx21 days.\nIf\nGonococcus\nsuspected or isolated,\nceftriaxone\n50mg/kg/day IV/IM daily OR\npenicillin G\nIV (if susceptible) x7-10 days.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Gonococcus",
+          "url": "https://wikem.org/wiki/Gonococcus"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        }
+      ]
+    },
+    "Osteomyelitis_2": {
+      "text": "",
+      "subsections": {
+        "Septic_Arthritis": {
+          "text": "If immunized against\nHib\n:\nNafcillin\n200mg/kg/day IV div Q6 OR\ncefazolin\n100mg/kg/day div Q8 x21 days.\nIf unimmunized again\nHib\n:\nCefuroxime\nOR\ncefotaxime\nAND\nnafcillin\nOR\ncefazolin\nx21 days.\nIf\nGonococcus\nsuspected or isolated,\nceftriaxone\n50mg/kg/day IV/IM daily OR\npenicillin G\nIV (if susceptible) x7-10 days.",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Risk Factor": "Elderly, hematogenous spread",
+            "Likely Organism": "MRSA,MSSA,gram neg",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm + (Piperacillin/Tazobactam3.375 grams ORimipenem500mg)"
+          },
+          {
+            "Risk Factor": "Sickle Cell Disease",
+            "Likely Organism": "Salmonella,gram-negativebacteria",
+            "Initial Empiric Antibiotic Therapy'": "Ceftriaxone50mg/kg IV once daily ORCefotaxime50mg/kg IV three times daily, PLUSVancomycin15mg/kg IV  four times daily ORClindamycin10mg/kg IV PO four times daily ORNafcillin50 mg/kg IV four times daily to cover K. Kingae (common in daycare population)"
+          },
+          {
+            "Risk Factor": "DMor vascular insufficiency",
+            "Likely Organism": "Polymicrobial:Staph,strep, coliforms,anaerobes",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm + (Piperacillin/Tazobactam3.375 grams ORimipenem500mg)"
+          },
+          {
+            "Risk Factor": "IV druguser",
+            "Likely Organism": "MRSA,MSSA,pseudomonas",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm"
+          },
+          {
+            "Risk Factor": "Newborn",
+            "Likely Organism": "MRSA,MSSA,GBS,Gram Negative",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin15mg/kg load, then reduce dose, ANDceftazidime30mg/kg IV q12 h"
+          },
+          {
+            "Risk Factor": "Children",
+            "Likely Organism": "MRSA,MSSA",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin10mg/kg q6 h ANDceftazidime50mg/kg q8hr"
+          },
+          {
+            "Risk Factor": "Postoperative (ortho)",
+            "Likely Organism": "MRSA,MSSA",
+            "Initial Empiric Antibiotic Therapy'": "Vancomycin1gm"
+          },
+          {
+            "Risk Factor": "Human bite",
+            "Likely Organism": "Strep,anaerobes, HACEK organism",
+            "Initial Empiric Antibiotic Therapy'": "Piperacillin/Tazobactam3.375gm ORimipenem500mg"
+          },
+          {
+            "Risk Factor": "Animal bites",
+            "Likely Organism": "Pasteurella,Eikenella, HACEK organism",
+            "Initial Empiric Antibiotic Therapy'": "Piperacillin/Tazobactam3.375gm ORimipenem500mg"
+          },
+          {
+            "Risk Factor": "Foot puncture wound",
+            "Likely Organism": "Pseudomonas",
+            "Initial Empiric Antibiotic Therapy'": "Anti-pseudomonal, staph coverage"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Gonococcus",
+          "url": "https://wikem.org/wiki/Gonococcus"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        }
+      ]
+    },
+    "Septic_Arthritis": {
+      "text": "If immunized against\nHib\n:\nNafcillin\n200mg/kg/day IV div Q6 OR\ncefazolin\n100mg/kg/day div Q8 x21 days.\nIf unimmunized again\nHib\n:\nCefuroxime\nOR\ncefotaxime\nAND\nnafcillin\nOR\ncefazolin\nx21 days.\nIf\nGonococcus\nsuspected or isolated,\nceftriaxone\n50mg/kg/day IV/IM daily OR\npenicillin G\nIV (if susceptible) x7-10 days.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Gonococcus",
+          "url": "https://wikem.org/wiki/Gonococcus"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "drug_name": "Paromomycin",
+  "url": "https://wikem.org/wiki/Paromomycin",
+  "scraped_at": "2026-01-10T07:59:14.719763",
+  "sections": {
+    "Administration": {
+      "text": "Class:\nAminoglycoside\nType:  Amebicide\nDosage Forms: 250\nRoutes of Administration: Oral\nCommon Trade Names: Humatin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Intestinal_amebiasis": {
+          "text": "25-35mg/kg/day PO divided tid x5-10 days\nGive with food",
+          "tables": []
+        },
+        "Hepatic_encephalopathy": {
+          "text": "adjunct treatment: 1000mg PO QID x5-6 days\nGive with food",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intestinal_amebiasis": {
+      "text": "25-35mg/kg/day PO divided tid x5-10 days\nGive with food",
+      "subsections": {
+        "Hepatic_encephalopathy": {
+          "text": "adjunct treatment: 1000mg PO QID x5-6 days\nGive with food",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_encephalopathy": {
+      "text": "adjunct treatment: 1000mg PO QID x5-6 days\nGive with food",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Intestinal_amebiasis_2": {
+          "text": "25-35mg/kg/day PO divided tid x5-10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intestinal_amebiasis_2": {
+      "text": "25-35mg/kg/day PO divided tid x5-10 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Poorly absorbed when given orally\nUse during pregnancy has limited data",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "No change in dosing",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No change in dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "No change in dosing",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "No change in dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "No change in dosing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nGI obstruction\ncaution if ulcerative colitis\ncaution if inflammatory bowel disease\ncaution if renal impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "nephrotoxicity\nototoxicity, auditory\nototoxicity, vestibular\nneurotoxicity\nneuromuscular blockade\nmalabsorption syndrome (prolonged use)\nsuperinfection (prolonged use)\nenterocolitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "nausea\nabdominal cramps\ndiarrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "nephrotoxicity\nototoxicity, auditory\nototoxicity, vestibular\nneurotoxicity\nneuromuscular blockade\nmalabsorption syndrome (prolonged use)\nsuperinfection (prolonged use)\nenterocolitis",
+      "subsections": {
+        "Common": {
+          "text": "nausea\nabdominal cramps\ndiarrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "nausea\nabdominal cramps\ndiarrhea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: CYP450\nExcretion: Feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Bactericidal and amebicidal.  Paromomycin binds to bacterial 30S ribosomal subunit, inhibiting protein synthesis; it suppresses urease producing bacteria, reducing ammonia absorption from gut",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "UpToDate, Epocrates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

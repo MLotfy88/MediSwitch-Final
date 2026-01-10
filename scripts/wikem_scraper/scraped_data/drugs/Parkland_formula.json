@@ -1,0 +1,24 @@
+{
+  "drug_name": "Parkland_formula",
+  "url": "https://wikem.org/wiki/Parkland_formula",
+  "scraped_at": "2026-01-10T07:59:16.352166",
+  "sections": {
+    "Intro": {
+      "text": "Fluids in first 24 hrs =\nTBSA\nburned(%) x Wt(kg) x 4ml/kg + maintenance fluids\nGive 1/2 in first 8 hours, then give other 1/2 over next 16 hrs\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Burns",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    }
+  }
+}

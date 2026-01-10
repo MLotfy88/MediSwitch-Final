@@ -1,0 +1,1626 @@
+{
+  "drug_name": "Paraquat_toxicity",
+  "url": "https://wikem.org/wiki/Paraquat_toxicity",
+  "scraped_at": "2026-01-10T07:59:13.084126",
+  "sections": {
+    "Background": {
+      "text": "Paraquat is an herbicide that has a rapid and large distribution and can be fatal even with small ingestions. It has a high case-fatality rate (>50%)\n[1]\nwhich makes it a frequent means of suicide in the developing world, as well as a dangerous accidental occupational exposure.\nParaquat exerts its toxic effects via multiple proposed mechanisms, including lipid peroxidation and generation of reactive oxygen species, direct mitochondrial toxicity, and apoptosis.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Overall, pulmonary and renal toxicities predominate and are the primary cause of mortality. GI toxicity is nearly universal and is probably an under-recognized cause of mortality secondary to erosion and perforation.\nGastrointestinal: predominate early\nParaquat tongue\nEsophageal and gastric erosion\nNausea and vomiting\nPulmonary: occurs due to distribution to pneumocytes\nPneumonitis\nPulmonary fibrosis\n(delayed)\nMultiorgan failure\nAcute renal failure\nHepatic necrosis\nMyocardial necrosis\nInternal bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "Pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Pulmonary_fibrosis"
+        },
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Toxic_Ingestion": {
+          "text": "Caustic Ingestion\nToxic Alcohols\nForeign Body Ingestion",
+          "tables": []
+        },
+        "Oral_Burns/Mucositis": {
+          "text": "Burns\nInfectious Causes\n[[Aphthous stomatitis|Aphthous Ulcer\nHerpes simplex\ninfection\nCoxsackie virus\nTonsillitis\nMethotrexate\n/chemotherapy toxicity",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate_toxicity"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Toxic_Ingestion": {
+      "text": "Caustic Ingestion\nToxic Alcohols\nForeign Body Ingestion",
+      "subsections": {
+        "Oral_Burns/Mucositis": {
+          "text": "Burns\nInfectious Causes\n[[Aphthous stomatitis|Aphthous Ulcer\nHerpes simplex\ninfection\nCoxsackie virus\nTonsillitis\nMethotrexate\n/chemotherapy toxicity",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate_toxicity"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Oral_Burns/Mucositis": {
+      "text": "Burns\nInfectious Causes\n[[Aphthous stomatitis|Aphthous Ulcer\nHerpes simplex\ninfection\nCoxsackie virus\nTonsillitis\nMethotrexate\n/chemotherapy toxicity",
+      "subsections": {
+        "Emergent": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate_toxicity"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Acute_Dyspnea": {
+      "text": "",
+      "subsections": {
+        "Emergent": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Acute_dyspnea_2": {
+      "text": "",
+      "subsections": {
+        "Emergent": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Labs\nCBC\nBMP\nLFTs\nand coagulation tests\nVBG\nor\nABG\nUA\n: high concentrations of paraquat in the urine will cause it to appear blue\nUrine dithionate test:\nAdd 1cc of 1% sodium dithionate (hematology labs have this solution) to 10mL urine\nBlue color change indicates presence of paraquat\nImaging\nCXR\nEKG\nconsider CT if stable to evaluate for perforation/\nmediastinitis",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Based on urine test",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Labs\nCBC\nBMP\nLFTs\nand coagulation tests\nVBG\nor\nABG\nUA\n: high concentrations of paraquat in the urine will cause it to appear blue\nUrine dithionate test:\nAdd 1cc of 1% sodium dithionate (hematology labs have this solution) to 10mL urine\nBlue color change indicates presence of paraquat\nImaging\nCXR\nEKG\nconsider CT if stable to evaluate for perforation/\nmediastinitis",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Based on urine test",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Based on urine test",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Patients who present in extremis after an ingestion will not survive regardless of management and should be treated palliatively. Large >50mL ingestions of paraquat are universally fatal. Aggressive resuscitation is futile.",
+      "subsections": {
+        "Resuscitation": {
+          "text": "Airway: consider early aggressive\nintubation\nfor any respiratory distress or large (>100mL) ingestions\nBreathing:\nCXR\n,\nO2\nAvoid aggressive oxygen therapy unless severe\nhypoxia\ndue to increased free radical production\nCirculation: may develop early shock and require aggressive\ninotropic\nsupport",
+          "tables": []
+        },
+        "Decontamination": {
+          "text": "Paraquat is absorbed transdermally. Unprotected first responders and healthcare workers are at risk\nRemove clothing and wash patient's skin if spillage or obvious skin involvement present\nConsider\nactivated charcoal\nor Fuller's Earth if within 1-2 hrs of ingestion\nConsider\nNG tube\nfor administration of\nactivated charcoal\nMust weigh risks as NGT placement can exacerbate caustic injury",
+          "tables": []
+        },
+        "Supportive_Care": {
+          "text": "IV fluids: patients often 2-3L fluid down\nPain control",
+          "tables": []
+        },
+        "Antidotes/Additional_Therapies": {
+          "text": "Some centers administer\nglucocorticoids\n(typically\ndexamethasone\n6mg-10mg IV q6h)\nConsider\nNAC\n, vitamin C, other free radical scavengers in consultation with toxicologist or poison control\nNo role for extracorporeal elimination (\nhemodialysis/Hemoperfusion\n, CRRT)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "inotropic",
+          "url": "https://wikem.org/wiki/Pressors"
+        },
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "NG tube",
+          "url": "https://wikem.org/wiki/NG_tube"
+        },
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "hemodialysis/Hemoperfusion",
+          "url": "https://wikem.org/wiki/Hemodialysis/Hemoperfusion"
+        }
+      ]
+    },
+    "Resuscitation": {
+      "text": "Airway: consider early aggressive\nintubation\nfor any respiratory distress or large (>100mL) ingestions\nBreathing:\nCXR\n,\nO2\nAvoid aggressive oxygen therapy unless severe\nhypoxia\ndue to increased free radical production\nCirculation: may develop early shock and require aggressive\ninotropic\nsupport",
+      "subsections": {
+        "Decontamination": {
+          "text": "Paraquat is absorbed transdermally. Unprotected first responders and healthcare workers are at risk\nRemove clothing and wash patient's skin if spillage or obvious skin involvement present\nConsider\nactivated charcoal\nor Fuller's Earth if within 1-2 hrs of ingestion\nConsider\nNG tube\nfor administration of\nactivated charcoal\nMust weigh risks as NGT placement can exacerbate caustic injury",
+          "tables": []
+        },
+        "Supportive_Care": {
+          "text": "IV fluids: patients often 2-3L fluid down\nPain control",
+          "tables": []
+        },
+        "Antidotes/Additional_Therapies": {
+          "text": "Some centers administer\nglucocorticoids\n(typically\ndexamethasone\n6mg-10mg IV q6h)\nConsider\nNAC\n, vitamin C, other free radical scavengers in consultation with toxicologist or poison control\nNo role for extracorporeal elimination (\nhemodialysis/Hemoperfusion\n, CRRT)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "inotropic",
+          "url": "https://wikem.org/wiki/Pressors"
+        },
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "NG tube",
+          "url": "https://wikem.org/wiki/NG_tube"
+        },
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "hemodialysis/Hemoperfusion",
+          "url": "https://wikem.org/wiki/Hemodialysis/Hemoperfusion"
+        }
+      ]
+    },
+    "Decontamination": {
+      "text": "Paraquat is absorbed transdermally. Unprotected first responders and healthcare workers are at risk\nRemove clothing and wash patient's skin if spillage or obvious skin involvement present\nConsider\nactivated charcoal\nor Fuller's Earth if within 1-2 hrs of ingestion\nConsider\nNG tube\nfor administration of\nactivated charcoal\nMust weigh risks as NGT placement can exacerbate caustic injury",
+      "subsections": {
+        "Supportive_Care": {
+          "text": "IV fluids: patients often 2-3L fluid down\nPain control",
+          "tables": []
+        },
+        "Antidotes/Additional_Therapies": {
+          "text": "Some centers administer\nglucocorticoids\n(typically\ndexamethasone\n6mg-10mg IV q6h)\nConsider\nNAC\n, vitamin C, other free radical scavengers in consultation with toxicologist or poison control\nNo role for extracorporeal elimination (\nhemodialysis/Hemoperfusion\n, CRRT)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "NG tube",
+          "url": "https://wikem.org/wiki/NG_tube"
+        },
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "hemodialysis/Hemoperfusion",
+          "url": "https://wikem.org/wiki/Hemodialysis/Hemoperfusion"
+        }
+      ]
+    },
+    "Supportive_Care": {
+      "text": "IV fluids: patients often 2-3L fluid down\nPain control",
+      "subsections": {
+        "Antidotes/Additional_Therapies": {
+          "text": "Some centers administer\nglucocorticoids\n(typically\ndexamethasone\n6mg-10mg IV q6h)\nConsider\nNAC\n, vitamin C, other free radical scavengers in consultation with toxicologist or poison control\nNo role for extracorporeal elimination (\nhemodialysis/Hemoperfusion\n, CRRT)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "hemodialysis/Hemoperfusion",
+          "url": "https://wikem.org/wiki/Hemodialysis/Hemoperfusion"
+        }
+      ]
+    },
+    "Antidotes/Additional_Therapies": {
+      "text": "Some centers administer\nglucocorticoids\n(typically\ndexamethasone\n6mg-10mg IV q6h)\nConsider\nNAC\n, vitamin C, other free radical scavengers in consultation with toxicologist or poison control\nNo role for extracorporeal elimination (\nhemodialysis/Hemoperfusion\n, CRRT)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "hemodialysis/Hemoperfusion",
+          "url": "https://wikem.org/wiki/Hemodialysis/Hemoperfusion"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "If small/trivial exposure and patient asymptomatic at 6 hours, unlikely to manifest a significant toxicity\nAny symptomatic exposure requires admission for close hemodynamic monitoring and supportive care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "drug_name": "Paroxysmal_nocturnal_hemoglobinuria",
+  "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria",
+  "scraped_at": "2026-01-10T07:59:19.615220",
+  "sections": {
+    "Background": {
+      "text": "Intravascular\nhemolysis\ncaused by increased sensitivity of RBCs to hemolytic action of complement",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Abnormal PIG-A gene > defect in GPI-linked anchor >  partial/complete absence of GPI-linked proteins (mainly CD55 and CD59) > increased sensitivity of RBCs to hemolytic action of complement\nHemolysis precipitated by stresses that activate complement (eg infection)\nNocturnal hemolysis attributed to intestinal absorption of lipopolysaccharide (strong activator of complement) at night",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Abnormal PIG-A gene > defect in GPI-linked anchor >  partial/complete absence of GPI-linked proteins (mainly CD55 and CD59) > increased sensitivity of RBCs to hemolytic action of complement\nHemolysis precipitated by stresses that activate complement (eg infection)\nNocturnal hemolysis attributed to intestinal absorption of lipopolysaccharide (strong activator of complement) at night",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal pain\nor\nback pain\nIntravascular\nhemolysis\nRenal failure\n(both from intravascular hemolysis causing AKI and chronic hemolysis causing iron deposition in kidneys)\nDVT\n, thrombosis of hepatic/intraabdominal/cerebral veins,\narterial thrombosis\nBone marrow failure leading to\naplastic anemia\nMyelodysplastic syndrome\n(MDS) or\nmyeloproliferative disorders\nAcute leukemia\nEsophageal spasm\nCrampy\nabdominal pain\nImpotence/erectile dysfunction\nMay progress to\naplastic anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "arterial thrombosis",
+          "url": "https://wikem.org/wiki/Arterial_thrombosis"
+        },
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "Myelodysplastic syndrome",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Microangiopathic_Hemolytic_Anemia_(MAHA)": {
+          "text": "Disseminated Intravascular Coagulation (DIC)\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nHELLP syndrome\nHeparin-Induced Thrombocytopenia (HIT)\nHereditary spherocytosis\nParoxysmal nocturnal hemoglobinuria\n(PNH)\nMalignant hypertension\nScleroderma\nAntiphospholipid Syndrome (APS)\nOther medical causes: malignancy, renal allograft rejection, vasculitides like\npolyarteritis nodosa\nand\nWegener's granulomatosis\nDrugs: chemotherapy;\nClopidogrel\n(Plavix) associated with\nTTP\nNonvascular causes: prosthetic valve (more common with mechanical, more common at aortic valve),\nLVAD\n,\nTIPS\n, coil embolization, patched AV shunt,\nAVM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Heparin-Induced Thrombocytopenia (HIT)",
+          "url": "https://wikem.org/wiki/Heparin-Induced_Thrombocytopenia_(HIT)"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Antiphospholipid Syndrome (APS)",
+          "url": "https://wikem.org/wiki/Antiphospholipid_Syndrome_(APS)"
+        },
+        {
+          "text": "polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Wegener's granulomatosis",
+          "url": "https://wikem.org/wiki/Wegener%27s_granulomatosis"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "LVAD",
+          "url": "https://wikem.org/wiki/LVAD"
+        },
+        {
+          "text": "TIPS",
+          "url": "https://wikem.org/wiki/TIPS"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Anemia\nNegative Coombs test\nHemoglobinuria\nElevated LDH\nDecreased haptoglobin\nPositive sucrose lysis test or Ham test (both test sensitivity of RBCs to lysis by complement). Ham's test is when the patient's cells are incubated in acidified serum, which triggers the alternative compliment pathway, resulting in lysis of PNH cells. Sucrose lysis test is when the patient's serum is mixed in sucrose, which causes hemolysis of PNH cells.\nOther clues: granulocytopenia/thrombocytopenia, venous thrombosis, aplastic anemia, MDS, dysphagia or abdominal pain\nFlow cytometry of cell membrane proteins (CD55 and CD59) is a sensitive test for PNH",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Eculizumab (C5 antibody): stops hemolysis in PNH\nIron\n/\nfolate\nsupplements\nRBC transfusion\nPRN\nPrednisone\nmay decrease RBC destruction\nFor severe hematopoietic dysfunction with marked cytopenias: hematopoietic cell transplant or immunosuppression (cyclosporine or antithymocyte globulin)\nAnticoagulation\nfor thrombosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_supplementation"
+        },
+        {
+          "text": "folate",
+          "url": "https://wikem.org/wiki/Folate"
+        },
+        {
+          "text": "RBC transfusion",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "drug_name": "Pancoast_syndrome",
+  "url": "https://wikem.org/wiki/Pancoast_syndrome",
+  "scraped_at": "2026-01-10T07:59:12.294878",
+  "sections": {
+    "Background": {
+      "text": "Syndrome resulting from compression of extrathoracic structures by Pancoast tumor (aka superior sulcus tumor)\nMajority are squamous cell carcinomas or pulmonary adenocarcinomas\nSymptoms arise from compression of the sympathetic chain and brachial plexus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Shoulder pain most common initial symptom\n[1]\nHorner syndrome\nIpsilateral arm and hand weakness, parasthesias, and atrophy (from\ncompression of brachial plexus\n)\nMay result in congestion from compression of subclavian vessels",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "compression of brachial plexus",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        }
+      ]
+    }
+  }
+}

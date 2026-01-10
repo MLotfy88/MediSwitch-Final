@@ -1,0 +1,566 @@
+{
+  "drug_name": "Parkinson%27s_disease",
+  "url": "https://wikem.org/wiki/Parkinson%27s_disease",
+  "scraped_at": "2026-01-10T07:59:16.438517",
+  "sections": {
+    "Background": {
+      "text": "Extrapyramidal movement disorder associated with reduced dopaminergic receptors in substantia nigra\nMost common presentations to the ED\n[1]\n:\nInfectious ~32%\nTrauma ~28%\nCardiovascular ~15%\nCerebrovascular ~12%\nGI ~7%\nElectrolyte abnormalities 6%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "TRAP_mnemonic": {
+          "text": "T\nremor\n(resting)\nInitially is unilateral tremor of upper extremity, especially finger and thumb (\"pill rolling\")\nDissipates when intentional movement is performed\nR\nigidity (cogwheel)\nElicited by causing passive movement of limb through full range of motion\nA\nkinesia\nSlowness of voluntary movement\nP\nosture/equilibrium impairment\nImpaired ability to turn or change direction while walking",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        }
+      ]
+    },
+    "TRAP_mnemonic": {
+      "text": "T\nremor\n(resting)\nInitially is unilateral tremor of upper extremity, especially finger and thumb (\"pill rolling\")\nDissipates when intentional movement is performed\nR\nigidity (cogwheel)\nElicited by causing passive movement of limb through full range of motion\nA\nkinesia\nSlowness of voluntary movement\nP\nosture/equilibrium impairment\nImpaired ability to turn or change direction while walking",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dementia": {
+          "text": "Degenerative\nAlzheimer's\ndisease\nHuntington's disease\nParkinson's disease\nVascular\nMultiple\ninfarcts\nHypoperfusion (\nMI\n, profound\nhypotension\n)\nSubdural hematoma\nSAH\nInfectious\nMeningitis\n(sequelae of bacterial, fungal, or tubercular)\nNeurosyphilis\nViral\nencephalitis\n(\nHSV\n,\nHIV\n), Creutzfeldt-Jakob disease\nInflammatory\nSLE\nDemyelinating disease (e.g.\nmultiple sclerosis\n)\nNeoplastic\nPrimary\nbrain tumor\n/ metastatic disease\nCarcinomatous meningitis\nParaneoplastic syndromes\nTraumatic\nTraumatic brain injury\nSubdural hematoma\nToxic\nETOH\nMeds (\nanticholinergics\n, polypharmacy)\nMetabolic\nB12 deficiency\nor\nfolate deficiency\nThyroid Disease\nUremia\nPsychiatric\nDepression\n(pseudodementia)\nHydrocephalic\nNormal pressure hydrocephalus (communicating hydrocephalus)\nNoncommunicating\nhydrocephalus",
+          "tables": []
+        },
+        "Movement_Disorders_and_Other_Abnormal_Contractions": {
+          "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Alzheimer's",
+          "url": "https://wikem.org/wiki/Alzheimer%27s"
+        },
+        {
+          "text": "infarcts",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Traumatic brain injury",
+          "url": "https://wikem.org/wiki/Traumatic_brain_injury"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Normal pressure hydrocephalus (communicating hydrocephalus)",
+          "url": "https://wikem.org/wiki/Normal_pressure_hydrocephalus"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Dementia": {
+      "text": "Degenerative\nAlzheimer's\ndisease\nHuntington's disease\nParkinson's disease\nVascular\nMultiple\ninfarcts\nHypoperfusion (\nMI\n, profound\nhypotension\n)\nSubdural hematoma\nSAH\nInfectious\nMeningitis\n(sequelae of bacterial, fungal, or tubercular)\nNeurosyphilis\nViral\nencephalitis\n(\nHSV\n,\nHIV\n), Creutzfeldt-Jakob disease\nInflammatory\nSLE\nDemyelinating disease (e.g.\nmultiple sclerosis\n)\nNeoplastic\nPrimary\nbrain tumor\n/ metastatic disease\nCarcinomatous meningitis\nParaneoplastic syndromes\nTraumatic\nTraumatic brain injury\nSubdural hematoma\nToxic\nETOH\nMeds (\nanticholinergics\n, polypharmacy)\nMetabolic\nB12 deficiency\nor\nfolate deficiency\nThyroid Disease\nUremia\nPsychiatric\nDepression\n(pseudodementia)\nHydrocephalic\nNormal pressure hydrocephalus (communicating hydrocephalus)\nNoncommunicating\nhydrocephalus",
+      "subsections": {
+        "Movement_Disorders_and_Other_Abnormal_Contractions": {
+          "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Alzheimer's",
+          "url": "https://wikem.org/wiki/Alzheimer%27s"
+        },
+        {
+          "text": "infarcts",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Traumatic brain injury",
+          "url": "https://wikem.org/wiki/Traumatic_brain_injury"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Normal pressure hydrocephalus (communicating hydrocephalus)",
+          "url": "https://wikem.org/wiki/Normal_pressure_hydrocephalus"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Movement_Disorders_and_Other_Abnormal_Contractions": {
+      "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Consider\nmini mental status exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "mini mental status exam",
+          "url": "https://wikem.org/wiki/Mini_mental_status_exam"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Initiation of or modifications in medications should be made in conjunction with neurologist\nDopamine agonists\nLevodopa\nand\ncarbidopa\n(peripheral decarboxylase inhibitor) = gold standard\nPramipexole\n(Mirapex)\nRopinirole (Requip)\nAnticholinergics\nBenztropine\n- caution in acute psychosis\nMonoamine oxidase inhibitor - blocks DA reuptake\nSelegiline (Eldepryl)\nRasagiline (Azilect)\nAgents for\npsychotic symptoms\n,\nhallucinations\nPimavanserin (Nuplazaid) - serotonin inverse agonist (not anti-dopamine), FDA approved in 2016\n[2]\nAvoid antidopaminergic drugs if possible (expect worsening motor symptoms), but commonly used agents:\nOlanzapine\nQuetiapine\nOthers:\nRivastigmine\nCitalopram\nin depressed patients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pramipexole",
+          "url": "https://wikem.org/wiki/Pramipexole"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "Benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "psychotic symptoms",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "Olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "Quetiapine",
+          "url": "https://wikem.org/wiki/Quetiapine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Usually treated as outpatient\nAdmit according to presentation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dementia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        }
+      ]
+    }
+  }
+}

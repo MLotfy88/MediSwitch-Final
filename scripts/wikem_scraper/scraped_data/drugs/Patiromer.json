@@ -1,0 +1,159 @@
+{
+  "drug_name": "Patiromer",
+  "url": "https://wikem.org/wiki/Patiromer",
+  "scraped_at": "2026-01-10T07:59:23.893566",
+  "sections": {
+    "Background": {
+      "text": "A potassium binding polymer that unlike\nKayexylate\nhas not been reported to increase the risk of intestinal necrosis.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Kayexylate",
+          "url": "https://wikem.org/wiki/Kayexylate"
+        }
+      ]
+    },
+    "Administration": {
+      "text": "Type: oral powder for suspension\nDosage Forms:\n8.4g/packet\n16.8g/packet\n25.2g/packet\nRoutes of Administration:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "8.4 g PO qDay\nMay increase or decrease dose as necessary (increments of 8.4 g) not to exceed 25.2 g qDay",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: no adjustments\nPediatric: not approved",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: no adjustment\nPediatric: not approved",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: no adjustments\nPediatric: not approved",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: no adjustment\nPediatric: not approved",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: no adjustments\nPediatric: not approved",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: no adjustment\nPediatric: not approved",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: no adjustments\nPediatric: not approved",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: no adjustment\nPediatric: not approved",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: no adjustment\nPediatric: not approved",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Excessive doses > 50g/d can cause profound hypokalemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Constipation (7.2%)\nHypomagnesemia (5.3%)\nDiarrhea (4.8%)\nNausea (2.3%)\nAbdominal discomfort (2%)\nFlatulence (2%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Excessive doses > 50g/d can cause profound hypokalemia",
+      "subsections": {
+        "Common": {
+          "text": "Constipation (7.2%)\nHypomagnesemia (5.3%)\nDiarrhea (4.8%)\nNausea (2.3%)\nAbdominal discomfort (2%)\nFlatulence (2%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Constipation (7.2%)\nHypomagnesemia (5.3%)\nDiarrhea (4.8%)\nNausea (2.3%)\nAbdominal discomfort (2%)\nFlatulence (2%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism: non-absorbed polymer\nExcretion: Fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds and removes (via sorbitol induced bowel movements) potassium from the GI tract==Comments==",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Kayexylate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Kayexylate",
+          "url": "https://wikem.org/wiki/Kayexylate"
+        }
+      ]
+    }
+  }
+}

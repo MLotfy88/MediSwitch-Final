@@ -1,0 +1,283 @@
+{
+  "drug_name": "Paracentesis",
+  "url": "https://wikem.org/wiki/Paracentesis",
+  "scraped_at": "2026-01-10T07:59:13.626287",
+  "sections": {
+    "Indications": {
+      "text": "Rule-out\nSBP\nAscites analysis\nClinical deterioration in a patient with ascites (e.g. fever, abdominal pain or tenderness, encephalopathy, acidosis, deterioration in renal function, peripheral leukocytosis)\n[1]\nTherapeutic in patient with discomfort from tense ascites",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "",
+      "subsections": {
+        "Paracentesis_if_coagulopathic": {
+          "text": "Coagulation studies are NOT required before performance of the procedure\n[2]\nIncidence of clinically significant bleeding complications is low even if in liver failure with an elevated INR (< 0.2%)\n[3]\nNo data supports cutoff values beyond which paracentesis should be avoided/prophylactically transfused\nRoutine use of\nFFP\nand\nplatelets\nis not recommended\nProcedure is contraindicated if the patient is actively bleeding or in\nDIC",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Paracentesis_if_coagulopathic": {
+      "text": "Coagulation studies are NOT required before performance of the procedure\n[2]\nIncidence of clinically significant bleeding complications is low even if in liver failure with an elevated INR (< 0.2%)\n[3]\nNo data supports cutoff values beyond which paracentesis should be avoided/prophylactically transfused\nRoutine use of\nFFP\nand\nplatelets\nis not recommended\nProcedure is contraindicated if the patient is actively bleeding or in\nDIC",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "Lidocaine\nwith epi\nChlorhexidine\nParacentesis kit (catheter, 11 blade, syringes, bandage)\nAbdominal bedside ultrasound\nVacuumed bottles",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Use ultrasound to identify safe ascites pocket to drain and mark the area of entry if possible\nif no ultrasound available, can percuss to identify pocket\nTry to pick site away from inferior epigastric artery\nPrefered location is that with the greatest pocket, past history of success, and furthest distance from bowel\n[4]\nMidline infraumbilicus is avascular (linea alba) but may have lower success rate\nPrep area\nAnesthesize area with Lidocaine\nUse needle to enter peritoneum, advance catheter upon withdrawing ascitic fluid\nAttach cathether to vacuum bottles for therapeutic tap, Withdrawal with syringe for diagnostic tap",
+      "subsections": {
+        "Albumin": {
+          "text": "Consider\nalbumin\ninfusion of 1.5gm/kg in cirrhotics with\nSBP\nor with renal insufficiency to reduces the risk of circulatory dysfunction and\nhepatorenal syndrome\n[5]",
+          "tables": []
+        },
+        "Pearls": {
+          "text": "Placing culture in blood culture tube increases yield\nZ-track method involves pulling skin downwards with one hand while inserting needle to create nonlinear track\nTheoretically reduces risk of ascitic leak",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Albumin": {
+      "text": "Consider\nalbumin\ninfusion of 1.5gm/kg in cirrhotics with\nSBP\nor with renal insufficiency to reduces the risk of circulatory dysfunction and\nhepatorenal syndrome\n[5]",
+      "subsections": {
+        "Pearls": {
+          "text": "Placing culture in blood culture tube increases yield\nZ-track method involves pulling skin downwards with one hand while inserting needle to create nonlinear track\nTheoretically reduces risk of ascitic leak",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pearls": {
+      "text": "Placing culture in blood culture tube increases yield\nZ-track method involves pulling skin downwards with one hand while inserting needle to create nonlinear track\nTheoretically reduces risk of ascitic leak",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "SBP_Work-Up_of_Ascitic_Fluid_via_Paracentesis": {
+          "text": "Cell count with differential\nGram stain\nCulture (10cc in blood culture bottle)\nGlucose\nProtein",
+          "tables": []
+        },
+        "Consider": {
+          "text": "Albumin and SERUM albumin\nLDH and SERUM LDH at same time\nAmylase",
+          "tables": []
+        },
+        "Specific_circumstances": {
+          "text": "TB smear and culture\nCytology\nTG\nBillirubin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        }
+      ]
+    },
+    "SBP_Work-Up_of_Ascitic_Fluid_via_Paracentesis": {
+      "text": "Cell count with differential\nGram stain\nCulture (10cc in blood culture bottle)\nGlucose\nProtein",
+      "subsections": {
+        "Consider": {
+          "text": "Albumin and SERUM albumin\nLDH and SERUM LDH at same time\nAmylase",
+          "tables": []
+        },
+        "Specific_circumstances": {
+          "text": "TB smear and culture\nCytology\nTG\nBillirubin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        }
+      ]
+    },
+    "Consider": {
+      "text": "Albumin and SERUM albumin\nLDH and SERUM LDH at same time\nAmylase",
+      "subsections": {
+        "Specific_circumstances": {
+          "text": "TB smear and culture\nCytology\nTG\nBillirubin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Specific_circumstances": {
+      "text": "TB smear and culture\nCytology\nTG\nBillirubin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Standard_Evaluation": {
+          "text": "Paracentesis results supporting a diagnosis of SBP:\nAbsolute neutrophil count (PMNs) ≥250, pH <7.35, OR blood-ascites pH gradient >0.1\n[6]\nBacteria on\ngram stain\n(single type)\nSAAG > 1.1\nDiagnostic of portal hypertension with 97% accuracy\n[7]\nSBP rarely develops in patients without portal hypertension\nProtein < 1, Glucose > 50 (otherwise concern for secondary bacterial peritonitis)\nFor bloody tap, subtract 1 WBC for every 250 RBC\n[8]",
+          "tables": []
+        },
+        "If_on_peritoneal_dialysis": {
+          "text": "See\nPeritoneal dialysis-associated peritonitis\nCell count >100/mm with >50% neutrophils most consistent with infection\n[9]",
+          "tables": []
+        },
+        "Spontaneous_versus_secondary_bacterial_peritonitis": {
+          "text": "Importance of distinction\nMortality of secondary bacterial peritonitis (eg. perforated\nappendicitis\n,\ncholecystitis\n) ~100% if treatment is only antibiotics without surgery\nMortality of unnecessary surgery in patients with SBP ~80%\nLaboratory findings\nSecondary bacterial peritonitis strongly suggested by:\nNeutrocytic fluid (PMN ≥250) with two or more of the following:\nTotal protein concentration >1 g/dL (10 g/L)\nGlucose concentration <50 mg/dL (2.8 mmol/L)\nLDH greater than upper limit of normal for serum\nAscitic alk phos >240\nGram stain\nLarge numbers of different bacterial forms\nImaging\nIf evidence of secondary bacterial peritonitis obtain abdominal imaging\nIf no evidence of free air or contrast extravasation then surgery is not indicated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        }
+      ]
+    },
+    "Diagnosis_of_SBP_via_Ascitic_Fluid_Analysis": {
+      "text": "",
+      "subsections": {
+        "Standard_Evaluation": {
+          "text": "Paracentesis results supporting a diagnosis of SBP:\nAbsolute neutrophil count (PMNs) ≥250, pH <7.35, OR blood-ascites pH gradient >0.1\n[6]\nBacteria on\ngram stain\n(single type)\nSAAG > 1.1\nDiagnostic of portal hypertension with 97% accuracy\n[7]\nSBP rarely develops in patients without portal hypertension\nProtein < 1, Glucose > 50 (otherwise concern for secondary bacterial peritonitis)\nFor bloody tap, subtract 1 WBC for every 250 RBC\n[8]",
+          "tables": []
+        },
+        "If_on_peritoneal_dialysis": {
+          "text": "See\nPeritoneal dialysis-associated peritonitis\nCell count >100/mm with >50% neutrophils most consistent with infection\n[9]",
+          "tables": []
+        },
+        "Spontaneous_versus_secondary_bacterial_peritonitis": {
+          "text": "Importance of distinction\nMortality of secondary bacterial peritonitis (eg. perforated\nappendicitis\n,\ncholecystitis\n) ~100% if treatment is only antibiotics without surgery\nMortality of unnecessary surgery in patients with SBP ~80%\nLaboratory findings\nSecondary bacterial peritonitis strongly suggested by:\nNeutrocytic fluid (PMN ≥250) with two or more of the following:\nTotal protein concentration >1 g/dL (10 g/L)\nGlucose concentration <50 mg/dL (2.8 mmol/L)\nLDH greater than upper limit of normal for serum\nAscitic alk phos >240\nGram stain\nLarge numbers of different bacterial forms\nImaging\nIf evidence of secondary bacterial peritonitis obtain abdominal imaging\nIf no evidence of free air or contrast extravasation then surgery is not indicated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        }
+      ]
+    },
+    "Spontaneous_versus_secondary_bacterial_peritonitis": {
+      "text": "Importance of distinction\nMortality of secondary bacterial peritonitis (eg. perforated\nappendicitis\n,\ncholecystitis\n) ~100% if treatment is only antibiotics without surgery\nMortality of unnecessary surgery in patients with SBP ~80%\nLaboratory findings\nSecondary bacterial peritonitis strongly suggested by:\nNeutrocytic fluid (PMN ≥250) with two or more of the following:\nTotal protein concentration >1 g/dL (10 g/L)\nGlucose concentration <50 mg/dL (2.8 mmol/L)\nLDH greater than upper limit of normal for serum\nAscitic alk phos >240\nGram stain\nLarge numbers of different bacterial forms\nImaging\nIf evidence of secondary bacterial peritonitis obtain abdominal imaging\nIf no evidence of free air or contrast extravasation then surgery is not indicated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Gram stain",
+          "url": "https://wikem.org/wiki/Gram_stain"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Hemorrhage (0 to 0.93%)\n[10]\nAbdominal wall hematoma\nMesenteric hematoma\nBladder or bowel perforation (6 out of 1000)\nInferior epigastric aneurysm\nVessel laceration (aorta, mesenteric artery, iliac artery)\nHypotension\nInfection (0.58 to 0.63%)\nPersistent ascitic fluid leak (5%)\nMay be minimized with Z-track method",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ascites\nSpontaneous bacterial peritonitis\n(SBP)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Focus On: Ultrasound-Guided Paracentesis\nMerk Manual: How to do Paracentesis",
+      "subsections": {
+        "Videos": {
+          "text": "NEJM (9:50)\nhttps://www.nejm.org/doi/full/10.1056/NEJMvcm062234",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "NEJM (9:50)\nhttps://www.nejm.org/doi/full/10.1056/NEJMvcm062234",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

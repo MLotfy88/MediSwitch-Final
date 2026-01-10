@@ -1,0 +1,465 @@
+{
+  "drug_name": "Pelvic_avulsion_fracture",
+  "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture",
+  "scraped_at": "2026-01-10T07:59:29.981266",
+  "sections": {
+    "Background": {
+      "text": "Isolated, closed avulsion fracture of pelvis or single-bone\nTrauma may be very minor (e.g. fall from seated) in elderly or those with weakened bones\nSports-related avulsion fractures are most common pelvic injuries in children",
+      "subsections": {
+        "Pelvic_fracture_types": {
+          "text": "Acetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        }
+      ]
+    },
+    "Pelvic_fracture_types": {
+      "text": "Acetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "History of trauma\nPain/point tenderness over iliac crests, pubic rami, sacrum, or coccyx",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        },
+        "Hip_pain": {
+          "text": "Acute Trauma\nFemur fracture\nProximal\nIntracapsular\nFemoral head fracture\nFemoral neck fracture\nExtracapsular\nIntertrochanteric femur fracture\nTrochanteric femur fracture\nShaft\nMid-shaft femur fracture\n(all subtrochanteric)\nHip dislocation\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nChronic/Atraumatic\nHip bursitis\nPsoas abscess\nPiriformis syndrome\nMeralgia paresthetica\nSeptic arthritis\nSeptic arthritis of the hip (peds)\nObturator nerve entrapment\nAvascular necrosis of hip",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        },
+        {
+          "text": "Femoral head fracture",
+          "url": "https://wikem.org/wiki/Femoral_head_fracture"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Intertrochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "Trochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Trochanteric_femur_fracture"
+        },
+        {
+          "text": "Mid-shaft femur fracture",
+          "url": "https://wikem.org/wiki/Mid-shaft_femur_fracture"
+        },
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Hip bursitis",
+          "url": "https://wikem.org/wiki/Hip_bursitis"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Piriformis syndrome",
+          "url": "https://wikem.org/wiki/Piriformis_syndrome"
+        },
+        {
+          "text": "Meralgia paresthetica",
+          "url": "https://wikem.org/wiki/Meralgia_paresthetica"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Obturator nerve entrapment",
+          "url": "https://wikem.org/wiki/Obturator_nerve_entrapment"
+        },
+        {
+          "text": "Avascular necrosis of hip",
+          "url": "https://wikem.org/wiki/Avascular_necrosis_of_hip"
+        }
+      ]
+    },
+    "Abdominal_Trauma": {
+      "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+      "subsections": {
+        "Hip_pain": {
+          "text": "Acute Trauma\nFemur fracture\nProximal\nIntracapsular\nFemoral head fracture\nFemoral neck fracture\nExtracapsular\nIntertrochanteric femur fracture\nTrochanteric femur fracture\nShaft\nMid-shaft femur fracture\n(all subtrochanteric)\nHip dislocation\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nChronic/Atraumatic\nHip bursitis\nPsoas abscess\nPiriformis syndrome\nMeralgia paresthetica\nSeptic arthritis\nSeptic arthritis of the hip (peds)\nObturator nerve entrapment\nAvascular necrosis of hip",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        },
+        {
+          "text": "Femoral head fracture",
+          "url": "https://wikem.org/wiki/Femoral_head_fracture"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Intertrochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "Trochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Trochanteric_femur_fracture"
+        },
+        {
+          "text": "Mid-shaft femur fracture",
+          "url": "https://wikem.org/wiki/Mid-shaft_femur_fracture"
+        },
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Hip bursitis",
+          "url": "https://wikem.org/wiki/Hip_bursitis"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Piriformis syndrome",
+          "url": "https://wikem.org/wiki/Piriformis_syndrome"
+        },
+        {
+          "text": "Meralgia paresthetica",
+          "url": "https://wikem.org/wiki/Meralgia_paresthetica"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Obturator nerve entrapment",
+          "url": "https://wikem.org/wiki/Obturator_nerve_entrapment"
+        },
+        {
+          "text": "Avascular necrosis of hip",
+          "url": "https://wikem.org/wiki/Avascular_necrosis_of_hip"
+        }
+      ]
+    },
+    "Hip_pain": {
+      "text": "Acute Trauma\nFemur fracture\nProximal\nIntracapsular\nFemoral head fracture\nFemoral neck fracture\nExtracapsular\nIntertrochanteric femur fracture\nTrochanteric femur fracture\nShaft\nMid-shaft femur fracture\n(all subtrochanteric)\nHip dislocation\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nChronic/Atraumatic\nHip bursitis\nPsoas abscess\nPiriformis syndrome\nMeralgia paresthetica\nSeptic arthritis\nSeptic arthritis of the hip (peds)\nObturator nerve entrapment\nAvascular necrosis of hip",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        },
+        {
+          "text": "Femoral head fracture",
+          "url": "https://wikem.org/wiki/Femoral_head_fracture"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Intertrochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "Trochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Trochanteric_femur_fracture"
+        },
+        {
+          "text": "Mid-shaft femur fracture",
+          "url": "https://wikem.org/wiki/Mid-shaft_femur_fracture"
+        },
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Hip bursitis",
+          "url": "https://wikem.org/wiki/Hip_bursitis"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Piriformis syndrome",
+          "url": "https://wikem.org/wiki/Piriformis_syndrome"
+        },
+        {
+          "text": "Meralgia paresthetica",
+          "url": "https://wikem.org/wiki/Meralgia_paresthetica"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Obturator nerve entrapment",
+          "url": "https://wikem.org/wiki/Obturator_nerve_entrapment"
+        },
+        {
+          "text": "Avascular necrosis of hip",
+          "url": "https://wikem.org/wiki/Avascular_necrosis_of_hip"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Pelvic X-ray, CT pelvis\nAssess for other injuries and more severe fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Do not disrupt pelvic ring, do not usually require surgery\nAnalgesia\nCrutches, non-weight-bearing status\nOutpatient orthopedic follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge if pain controlled and able to safely manage at home with mobility limitations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pelvic fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        }
+      ]
+    }
+  }
+}

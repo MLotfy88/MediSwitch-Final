@@ -1,0 +1,99 @@
+{
+  "drug_name": "Pediatric_assessment_triangle",
+  "url": "https://wikem.org/wiki/Pediatric_assessment_triangle",
+  "scraped_at": "2026-01-10T07:59:20.762274",
+  "sections": {
+    "Background": {
+      "text": "Tool used to succinctly evaluate and form a general impression (sick/not sick) of a pediatric patient\nConsists of three domains: Appearance, Breathing, and Circulation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Appearance": {
+          "text": "Muscle tone\nIrritability/consolability\nGaze (tracking, eye contact, vacant stare)\nAge-appropriate speech",
+          "tables": []
+        },
+        "Breathing": {
+          "text": "In addition to respiratory rate this includes assessing for:\nGrunting or noisy breathing\nUse of accessory muscles of respiration\nIntercostal or supraclavicular retractions\nBelly breathing\nNasal flaring",
+          "tables": []
+        },
+        "Circulation": {
+          "text": "Look for pallor, mottling, or cyanosis\nCheck capillary refill\nLook for tears, wet diaper",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Appearance": {
+      "text": "Muscle tone\nIrritability/consolability\nGaze (tracking, eye contact, vacant stare)\nAge-appropriate speech",
+      "subsections": {
+        "Breathing": {
+          "text": "In addition to respiratory rate this includes assessing for:\nGrunting or noisy breathing\nUse of accessory muscles of respiration\nIntercostal or supraclavicular retractions\nBelly breathing\nNasal flaring",
+          "tables": []
+        },
+        "Circulation": {
+          "text": "Look for pallor, mottling, or cyanosis\nCheck capillary refill\nLook for tears, wet diaper",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Breathing": {
+      "text": "In addition to respiratory rate this includes assessing for:\nGrunting or noisy breathing\nUse of accessory muscles of respiration\nIntercostal or supraclavicular retractions\nBelly breathing\nNasal flaring",
+      "subsections": {
+        "Circulation": {
+          "text": "Look for pallor, mottling, or cyanosis\nCheck capillary refill\nLook for tears, wet diaper",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Circulation": {
+      "text": "Look for pallor, mottling, or cyanosis\nCheck capillary refill\nLook for tears, wet diaper",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Children with an abnormality noted in any aspect of the pediatric assessment triangle require\nresuscitation\nBreathing difficulty with normal appearance and circulation usually implies\nrespiratory distress\nChild is in distress but still adequately oxygenating to maintain distal perfusion and mental status\nBreathing difficulty with abnormal appearance and/or circulation usually implies\nrespiratory failure\nChild's oxygenation is no longer sufficient to support distal perfusion and/or mental status\nPoor appearance and circulation usually implies\nshock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_resuscitation"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Acute_dyspnea"
+        },
+        {
+          "text": "respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "https://www.health.ny.gov/professionals/ems/pdf/pediatricreferencecard-04.pdf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

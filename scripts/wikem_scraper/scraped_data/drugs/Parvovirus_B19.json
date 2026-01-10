@@ -1,0 +1,70 @@
+{
+  "drug_name": "Parvovirus_B19",
+  "url": "https://wikem.org/wiki/Parvovirus_B19",
+  "scraped_at": "2026-01-10T07:59:19.930034",
+  "sections": {
+    "Background": {
+      "text": "In children: causes\nErythema infectiosum\n(Fifth disease)\nIn transplant patients on immunosuppressive drugs: causes RBC aplasia.\nShort-lived, may not be discovered\nParvovirus only replicated in erythroid progenitor cells",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Erythema infectiosum (fifth disease)\nMost contagious during the phase of active viral replication and viral shedding, which occurs approximately 5 to 10 days after exposure and usually lasts approximately 5 days\nComplications\nArthropathy\nAplastic anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema infectiosum (fifth disease)",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum_(fifth_disease)"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Roseola\nMeasles\nRubella\nEnteroviral infections\nGroup A Streptococcal infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Roseola",
+          "url": "https://wikem.org/wiki/Roseola"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis is clinical usually through clinical presentation\nIgM testing is recommended for immunocompromised patients.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Parvovirus is usually self-limiting and requires no further treatment.\nManagement should be targeted at reducing symptoms, such as using anti-inflammatory medications for arthropathy or performing transfusions for aplastic anemia.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Fish RM, Massad MG. The Transplant Patient. In: Tintinalli JE, Stapczynski J, Ma O, Cline DM, Cydulka RK, Meckler GD, T. eds. Tintinalli's Emergency Medicine: A Comprehensive Study Guide. New York, NY: McGraw-Hill; 2011.\nPlace R, Lagoc AT, Mayer TA, Lawlor CJ. Oncology and Hematology Emergencies in Children. In: Tintinalli JE, Stapczynski J, Ma O, Cline DM, Cydulka RK, Meckler GD, T. eds. Tintinalli's Emergency Medicine: A Comprehensive Study Guide. New York, NY: McGraw-Hill; 2011",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
