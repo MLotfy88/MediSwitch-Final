@@ -448,48 +448,71 @@ class WikEMScraper:
             logger.warning(f"Git commit/push failed: {e}")
     
     def run(self, drug_list: List[str]):
-        """Main scraping loop with resume support"""
-        logger.info(f"Starting scraper. Total drugs: {len(drug_list)}")
+        """Main scraping loop with PARALLEL execution"""
+        import concurrent.futures
+        import threading
+        
+        # Concurrency settings
+        MAX_WORKERS = 10  # 10 parallel threads
+        self.lock = threading.Lock()
+        
+        logger.info(f"Starting PARALLEL scraper (Workers: {MAX_WORKERS}). Total jobs: {len(drug_list)}")
         stats = self.checkpoint.get_stats()
         logger.info(f"Checkpoint: {stats['total_scraped']} scraped, {stats['total_failed']} failed")
         
         processed_count = 0
         
-        for i, drug_name in enumerate(drug_list, 1):
-            # Skip if already processed
-            if self.checkpoint.is_processed(drug_name):
-                logger.debug(f"Skipping (already processed): {drug_name}")
-                continue
+        def process_single_drug(drug_name):
+            nonlocal processed_count
             
-            logger.info(f"[{i}/{len(drug_list)}] Scraping: {drug_name}")
+            # 1. Check if processed (fast check before requesting)
+            # Note: is_processed is not thread-safe if we don't lock, but it reads from memory dict so it's okay for read.
+            # However, for strict correctness with Resume, we should lock or just rely on the fact that we won't process duplicates in one run.
+            if self.checkpoint.is_processed(drug_name):
+                return
             
             try:
+                # 2. Scrape (Network bound - good for threads)
                 data = self.scrape_drug(drug_name)
                 
-                if data:
-                    self.save_drug_data(drug_name, data)
-                    self.checkpoint.mark_processed(drug_name)
-                    processed_count += 1
-                    
-                    # Auto-commit every N drugs
-                    if processed_count % COMMIT_EVERY == 0:
-                        try:
-                            self.git_commit(f"WikEM scraping: {processed_count} drugs completed")
-                        except Exception as e:
-                            logger.warning(f"Git commit failed (non-critical): {e}")
-                else:
-                    self.checkpoint.mark_failed(drug_name, "Scraping returned None")
-                    
+                # 3. Critical Section (Writing files & Updating stats)
+                with self.lock:
+                    if data:
+                        self.save_drug_data(drug_name, data)
+                        self.checkpoint.mark_processed(drug_name)
+                        processed_count += 1
+                        current_total = self.checkpoint.data["total_scraped"]
+                        
+                        logger.info(f"[{processed_count}] ✓ Scraped: {drug_name} (Total: {current_total})")
+                        
+                        # Auto-commit every N drugs
+                        if processed_count % COMMIT_EVERY == 0:
+                            try:
+                                self.git_commit(f"WikEM scraping: {current_total} drugs (Parallel)")
+                            except Exception as e:
+                                logger.warning(f"Git commit failed: {e}")
+                    else:
+                        self.checkpoint.mark_failed(drug_name, "Scraping returned None")
+                        logger.warning(f"Failed to scrape: {drug_name}")
+
             except Exception as e:
-                logger.error(f"Error scraping {drug_name}: {e}")
-                self.checkpoint.mark_failed(drug_name, str(e))
+                with self.lock:
+                    logger.error(f"Error scraping {drug_name}: {e}")
+                    self.checkpoint.mark_failed(drug_name, str(e))
+
+        # Use ThreadPool for concurrency
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            # Submit all jobs
+            futures = [executor.submit(process_single_drug, drug) for drug in drug_list]
+            
+            # Wait for completion (optional, or just let them run)
+            concurrent.futures.wait(futures)
         
         # Final commit
-        if processed_count % COMMIT_EVERY != 0:
-            self.git_commit(f"Final commit: {processed_count} drugs scraped")
+        self.git_commit("Final commit: Scraping Complete")
         
         logger.info("=" * 60)
-        logger.info("SCRAPING COMPLETE!")
+        logger.info("PARALLEL SCRAPING COMPLETE!")
         final_stats = self.checkpoint.get_stats()
         logger.info(f"Total scraped: {final_stats['total_scraped']}")
         logger.info(f"Total failed: {final_stats['total_failed']}")
