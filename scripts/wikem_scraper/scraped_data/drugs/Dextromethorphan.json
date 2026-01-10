@@ -1,0 +1,127 @@
+{
+  "drug_name": "Dextromethorphan",
+  "url": "https://wikem.org/wiki/Dextromethorphan",
+  "scraped_at": "2026-01-10T07:51:45.169585",
+  "sections": {
+    "Administration": {
+      "text": "Type: Anti-tussive\nDosage Forms:\nRoutes of Administration:\nCommon Trade Names: Active ingredient in many combination OTC cough/cold medications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "30mg PO q6-8h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "cough/cold products should NOT be used in children younger than 4 years",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: A\nLactation risk\n: infant risk minimal",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nMAOI use concurrently or within past 14d",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Serotonin syndrome (if used with other serotonergic agents)\nRecreational abuse",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dizziness\nFatigue/somnolence",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Serotonin syndrome (if used with other serotonergic agents)\nRecreational abuse",
+      "subsections": {
+        "Common": {
+          "text": "Dizziness\nFatigue/somnolence",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Dizziness\nFatigue/somnolence",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism: Liver\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dextromethorphan toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dextromethorphan toxicity",
+          "url": "https://wikem.org/wiki/Dextromethorphan_toxicity"
+        }
+      ]
+    },
+    "References": {
+      "text": "Micromedex",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "drug_name": "Diabetic_peripheral_neuropathy",
+  "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy",
+  "scraped_at": "2026-01-10T07:51:47.892596",
+  "sections": {
+    "Background": {
+      "text": "Diagnosis of exclusion\nMost prevalent chronic complication of diabetes, risk of injuries due to insensate feet\nUltimately need follow up with primary care, not to be managed in the ED",
+      "subsections": {
+        "Categories": {
+          "text": "Distal symmetric polyneuropathy (DSPN), most common at 75% of all neuropathies\nMononeuropathies (\ncranial nerves\n, radiculopathy)\nDiabetic autonomic neuropathies\nCardiovascular (\ntachycardia\n, orthostatic\nhypotension\n, malignant\narrhythmia\n)\nGastrointestinal (\ngastroparesis\n, diabetic enteropathy with\ndiarrhea\n, colonic hypomotility with\nconstipation\n)\nUrogenital (neurogenic bladder, erectile dysfunction)\nSudomotor (hypohydrosis, anhidrosis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cranial nerves",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Categories": {
+      "text": "Distal symmetric polyneuropathy (DSPN), most common at 75% of all neuropathies\nMononeuropathies (\ncranial nerves\n, radiculopathy)\nDiabetic autonomic neuropathies\nCardiovascular (\ntachycardia\n, orthostatic\nhypotension\n, malignant\narrhythmia\n)\nGastrointestinal (\ngastroparesis\n, diabetic enteropathy with\ndiarrhea\n, colonic hypomotility with\nconstipation\n)\nUrogenital (neurogenic bladder, erectile dysfunction)\nSudomotor (hypohydrosis, anhidrosis)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cranial nerves",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Spectrum of sensation from\nnumbness\nto\nparesthesias\nto pain\nAutonomic symptoms as above",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hyperglycemia": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        },
+        "Peripheral_neuropathy": {
+          "text": "Peripheral nerve syndromes\n(mononeuropathy)^\nAcute trauma\nChronic nerve entrapment\nMononeuritis multiplex^^\nAcute\nDiabetes mellitus\nPolyarteritis nodosum\nConnective tissue diseases (e.g.,\nSLE\n,\nrheumatoid arthritis\n)\nChronic\nMultiple compressive neuropathies\nAIDS\nSarcoidosis\nAcromegaly\nLeprosy\nLyme disease\nIdiopathic\nAssociated with autonomic features\nAlcohol use disorder\nAmyloidosis\nChemotherapy-related neuropathy\nChronic\nnitrous oxide abuse\nDiabetes mellitus\nHeavy metal toxicity\nPorphyria\nPrimary dysautonomia\nVitamin B12 deficiency\nAssociated with pain\nAlcohol use disorder\nAmyloidosis\nChemotherapy (\nheavy metal toxicity\n)\nDiabetes mellitus\nIdiopathic polyneuropathy\nPorphyria\nParaneoplastic syndrome\nVitamin B1 or B12 deficiency\nArsenic toxicity\nThallium toxicity\n^A condition in which a single nerve is damaged or compressed.\n^^A condition where damage to at least two separate peripheral nerves results in a painful, asymmetric, and asynchronous presentation of sensory and motor deficits.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Peripheral nerve syndromes",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Leprosy",
+          "url": "https://wikem.org/wiki/Leprosy"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "nitrous oxide abuse",
+          "url": "https://wikem.org/wiki/Nitrous_oxide_toxicity"
+        },
+        {
+          "text": "Heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        }
+      ]
+    },
+    "Hyperglycemia": {
+      "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+      "subsections": {
+        "Peripheral_neuropathy": {
+          "text": "Peripheral nerve syndromes\n(mononeuropathy)^\nAcute trauma\nChronic nerve entrapment\nMononeuritis multiplex^^\nAcute\nDiabetes mellitus\nPolyarteritis nodosum\nConnective tissue diseases (e.g.,\nSLE\n,\nrheumatoid arthritis\n)\nChronic\nMultiple compressive neuropathies\nAIDS\nSarcoidosis\nAcromegaly\nLeprosy\nLyme disease\nIdiopathic\nAssociated with autonomic features\nAlcohol use disorder\nAmyloidosis\nChemotherapy-related neuropathy\nChronic\nnitrous oxide abuse\nDiabetes mellitus\nHeavy metal toxicity\nPorphyria\nPrimary dysautonomia\nVitamin B12 deficiency\nAssociated with pain\nAlcohol use disorder\nAmyloidosis\nChemotherapy (\nheavy metal toxicity\n)\nDiabetes mellitus\nIdiopathic polyneuropathy\nPorphyria\nParaneoplastic syndrome\nVitamin B1 or B12 deficiency\nArsenic toxicity\nThallium toxicity\n^A condition in which a single nerve is damaged or compressed.\n^^A condition where damage to at least two separate peripheral nerves results in a painful, asymmetric, and asynchronous presentation of sensory and motor deficits.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Peripheral nerve syndromes",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Leprosy",
+          "url": "https://wikem.org/wiki/Leprosy"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "nitrous oxide abuse",
+          "url": "https://wikem.org/wiki/Nitrous_oxide_toxicity"
+        },
+        {
+          "text": "Heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        }
+      ]
+    },
+    "Peripheral_neuropathy": {
+      "text": "Peripheral nerve syndromes\n(mononeuropathy)^\nAcute trauma\nChronic nerve entrapment\nMononeuritis multiplex^^\nAcute\nDiabetes mellitus\nPolyarteritis nodosum\nConnective tissue diseases (e.g.,\nSLE\n,\nrheumatoid arthritis\n)\nChronic\nMultiple compressive neuropathies\nAIDS\nSarcoidosis\nAcromegaly\nLeprosy\nLyme disease\nIdiopathic\nAssociated with autonomic features\nAlcohol use disorder\nAmyloidosis\nChemotherapy-related neuropathy\nChronic\nnitrous oxide abuse\nDiabetes mellitus\nHeavy metal toxicity\nPorphyria\nPrimary dysautonomia\nVitamin B12 deficiency\nAssociated with pain\nAlcohol use disorder\nAmyloidosis\nChemotherapy (\nheavy metal toxicity\n)\nDiabetes mellitus\nIdiopathic polyneuropathy\nPorphyria\nParaneoplastic syndrome\nVitamin B1 or B12 deficiency\nArsenic toxicity\nThallium toxicity\n^A condition in which a single nerve is damaged or compressed.\n^^A condition where damage to at least two separate peripheral nerves results in a painful, asymmetric, and asynchronous presentation of sensory and motor deficits.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peripheral nerve syndromes",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Leprosy",
+          "url": "https://wikem.org/wiki/Leprosy"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "nitrous oxide abuse",
+          "url": "https://wikem.org/wiki/Nitrous_oxide_toxicity"
+        },
+        {
+          "text": "Heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nBlood glucose level\nSee\ndiabetes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Optimize glucose control\nFirst-line medications per ADA position paper 2017\n[1]\nPregabalin\n50 - 100 mg PO TID, starting at 50 mg TID, increasing to 100 mg TID after 1 week, max dose 600 mg/day\n[2]\nMore rapid onset of action and less titration necessary as compared to\ngabapentin\n[3]\nHowever, extremely cost prohibitive for self-pay\nDuloxetine\nat 60 - 120 mg/day, starting 30 mg PO BID, increasing to goal after 1 week, max 120 mg/day\nSNRI, anti-depressant, not as cost-prohibitive as pregabalin\nDoes not appear to be associated with significant cardiovascular risk\n[4]\nGabapentin\nis a questionably effective medication, but is low cost and has a relatively tolerable side effect profile\nMarch 2017 systematic review revealed gabapentin is not beneficial\n[5]\nEffective treatments include\nduloxetine\n,\nvenlafaxine\n,\npregabalin\n,\noxcarbazepine\n,\nTCAs\n, atypical\nopioids\n(tapentadol)\nIneffective treatments include\ndextromethorphan\n,\ngabapentin\n, typical\nopioids\n(\noxycodone\n),  topical '\ncapsaicin\nGabapentin 300 mg QHS, increased to 300 mg BID, increased to 300 mg TID over 2-3 weeks\nGraduation titration to 1800 - 3600 mg/day is necessary for it to be clinically effective\n[6]\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregabalin",
+          "url": "https://wikem.org/wiki/Pregabalin"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Duloxetine",
+          "url": "https://wikem.org/wiki/Duloxetine"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "duloxetine",
+          "url": "https://wikem.org/wiki/Duloxetine"
+        },
+        {
+          "text": "venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "pregabalin",
+          "url": "https://wikem.org/wiki/Pregabalin"
+        },
+        {
+          "text": "oxcarbazepine",
+          "url": "https://wikem.org/wiki/Oxcarbazepine"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "oxycodone",
+          "url": "https://wikem.org/wiki/Oxycodone"
+        },
+        {
+          "text": "capsaicin",
+          "url": "https://wikem.org/wiki/Capsaicin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Follow up with primary care for long-term management and up-titration of medications if started in the ED\nAdmission for severe complications, such as severe\ndiabetic foot infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Weakness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    }
+  }
+}

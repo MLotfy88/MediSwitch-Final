@@ -1,0 +1,138 @@
+{
+  "drug_name": "Dialyzable_drugs",
+  "url": "https://wikem.org/wiki/Dialyzable_drugs",
+  "scraped_at": "2026-01-10T07:51:52.598009",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Factors_Influencing_Dialyzability": {
+          "text": "Molecular weight\nSmaller molecular weight substances will pass through the dialysis membrane more easily than larger molecular weights.\nProtein Binding\nDrugs with a high degree of protein binding will have a small plasma concentration of unbound drug available for dialysis, making them poorly dialyzable or requiring multiple sessions.\nVolume of Distribution\nDrugs with large volumes of distribution usually due to lipid solubility and low plasma protein binding are poorly diliazable.\nPlasma clearance\nAlthough plasma clearance may be beneficial, increasing plasma clearance will dcrease dialysis clearance.\nDialysis Flow Rates\nGreater degrees of dialysis can be achieved with faster dialysate flow rates if the dialysate drug concentrations is low. As the concentration of drug is increased in the diasylate the flow rate needs to be lowered.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Factors_Influencing_Dialyzability": {
+      "text": "Molecular weight\nSmaller molecular weight substances will pass through the dialysis membrane more easily than larger molecular weights.\nProtein Binding\nDrugs with a high degree of protein binding will have a small plasma concentration of unbound drug available for dialysis, making them poorly dialyzable or requiring multiple sessions.\nVolume of Distribution\nDrugs with large volumes of distribution usually due to lipid solubility and low plasma protein binding are poorly diliazable.\nPlasma clearance\nAlthough plasma clearance may be beneficial, increasing plasma clearance will dcrease dialysis clearance.\nDialysis Flow Rates\nGreater degrees of dialysis can be achieved with faster dialysate flow rates if the dialysate drug concentrations is low. As the concentration of drug is increased in the diasylate the flow rate needs to be lowered.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Common_Dialyzable_Drugs": {
+      "text": "Mnemonics BLISTMED and ISTUMBLED:\nB -\nBarbiturates\nL -\nLithium\nI -\nIsoniazid\nS -\nSalicylates\nT -\nTheophyline\n/\nCaffeine\n(both are methylxanthines)\nM -\nMethanol\n,\nmetformin\nE -\nEthylene glycol\nD -\nDepakote\n,\ndabigatran\nOthers -\nCarbamezepine\nI -\nINH\n/\nisopropyl alcohol\nS -\nSalicylates\nT -\nTheophylline\nU -\nUremia\nM -\nMethanol\nB -\nBarbiturates\nL -\nLithium\nE -\nEthylene glycol\nD -\nDabigatran\n,\ndepakote",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium_Toxicity"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/INH_Toxicity"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Theophyline",
+          "url": "https://wikem.org/wiki/Theophylline_toxicity"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_Toxicity"
+        },
+        {
+          "text": "metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Depakote",
+          "url": "https://wikem.org/wiki/Depakote"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "Carbamezepine",
+          "url": "https://wikem.org/wiki/Carbamazepine_Toxicity"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "Theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "depakote",
+          "url": "https://wikem.org/wiki/Depakote"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Dialysis\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    }
+  }
+}

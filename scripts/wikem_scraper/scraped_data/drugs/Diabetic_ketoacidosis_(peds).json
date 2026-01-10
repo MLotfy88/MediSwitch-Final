@@ -1,0 +1,518 @@
+{
+  "drug_name": "Diabetic_ketoacidosis_(peds)",
+  "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)",
+  "scraped_at": "2026-01-10T07:51:48.397863",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\ndiabetic ketoacidosis\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "DKA + altered mental status =\ncerebral edema\nuntil proven otherwise",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cerebral edema",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "May be the initial presenting of an unrecognized Type-1 diabetes mellitus patient\nSigns/symptoms may include:\nTachypnea\n, Kussmaul's breathing\nPolyuria\n, polydipsia, polyphagia,\npoor weight gain\n/weight loss\nSigns of\ndehydration\nAbdominal pain\n,\nnausea/vomiting\nAltered mental status\n, drowsiness, lethargy\nBreath fruity odor (acetone)\nPerform a thorough neurologic exam as cerebral edema increases mortality significantly, especially in children\n+/- signs/symptoms of precipitating trigger for decompensation (e.g.\npneumonia\n,\ncellulitis\n)\nKeep in mind that the initial presentation of sepsis with dehydration can look very similar to DKA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Polyuria",
+          "url": "https://wikem.org/wiki/Polyuria"
+        },
+        {
+          "text": "poor weight gain",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hyperglycemia": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Hyperglycemia": {
+      "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Point of care glucose (and potassium, if available)\nVBG\nChem 7\nMagnesium\nPhosphorus\nSerum ketones (or beta-OH and acetone)\nUrinalysis\nCBC\nUrine pregnancy (if appropriate)\nConsider infectious workup to identify trigger",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Hyperglycemia\n(>200)\nAcidosis\npH <=7.30 or bicarb <=15\n+ketonemia (>1:2 serum dilution)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Point of care glucose (and potassium, if available)\nVBG\nChem 7\nMagnesium\nPhosphorus\nSerum ketones (or beta-OH and acetone)\nUrinalysis\nCBC\nUrine pregnancy (if appropriate)\nConsider infectious workup to identify trigger",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Hyperglycemia\n(>200)\nAcidosis\npH <=7.30 or bicarb <=15\n+ketonemia (>1:2 serum dilution)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Hyperglycemia\n(>200)\nAcidosis\npH <=7.30 or bicarb <=15\n+ketonemia (>1:2 serum dilution)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "General_Treatment": {
+      "text": "Initial bolus 20ml/kg NS x 1 (repeat boluses only for shock or poor perfusion)\n[1]",
+      "subsections": {
+        "Manage_Hydration": {
+          "text": "If K+<5.5\n0.45% NS (or NS) + 20 KPhosat 1.5 x\nmaintenance rate\nWhen BS <300, change to D5/0.45%NS (or NS) +20 KPhos at 1.5 x\nmaintenance rate\n(maintain BS 150-250)\nIn a retrospective study, lactated ringers when compared with normal saline was associated with lower total cost and rate of development of cerebral edema.\n[3]",
+          "tables": []
+        },
+        "Manage_Acidosis": {
+          "text": "Insulin\ndrip 0.1 units/kg/hr\nDo not start if K+ <4.0 (replete K+ first)\nContinue until HCO3 >15 and pH >7.3, then transition to SC insulin\nDecrease infusion to 0.05 units/kg/hr until 1hr\nafter\nSC insulin initiated",
+          "tables": []
+        },
+        "Potassium": {
+          "text": "if <2.5, hold insulin and give 1 meq/kg potassium KCL in IV over 1hr\nNo insulin until K >2.5\nif >2.5 but <3.5 give 40-60 meq/L in IV until K >3.5\nif >3.5 but <5.5 give 30-40 meq/L in IV for K = 3.5 - 5\nif >5.5, then check K q1hr",
+          "tables": []
+        },
+        "Bicarbonate": {
+          "text": "No evidence supports the use of sodium bicarb in DKA, with a pH >6.9\nHowever, no studies have been performed for patients with pH <6.9 and the most recent ADA guidelines recommend it for patients with pH <7.1\nOnly consider for:\nCritically ill (hemodynamic compromise from decreased contractility) AND\npH <7.0\n0.5-2 mEq/kg over 1-2hr\nCorrection should never exceed pH > 7.1 or bicarb >10",
+          "tables": []
+        },
+        "Monitor_for_Complications": {
+          "text": "Cerebral edema\n(1% of DKA)\nAcute\nchange in mental status\nSigns of\nherniation\nIf present, see\nCerebral Edema in DKA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "maintenance rate",
+          "url": "https://wikem.org/wiki/IVF_maintenance"
+        },
+        {
+          "text": "maintenance rate",
+          "url": "https://wikem.org/wiki/IVF_maintenance"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Cerebral edema",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "change in mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "herniation",
+          "url": "https://wikem.org/wiki/Herniation_Syndromes"
+        },
+        {
+          "text": "Cerebral Edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_Edema_in_DKA"
+        }
+      ]
+    },
+    "Manage_Hydration": {
+      "text": "If K+<5.5\n0.45% NS (or NS) + 20 KPhosat 1.5 x\nmaintenance rate\nWhen BS <300, change to D5/0.45%NS (or NS) +20 KPhos at 1.5 x\nmaintenance rate\n(maintain BS 150-250)\nIn a retrospective study, lactated ringers when compared with normal saline was associated with lower total cost and rate of development of cerebral edema.\n[3]",
+      "subsections": {
+        "Manage_Acidosis": {
+          "text": "Insulin\ndrip 0.1 units/kg/hr\nDo not start if K+ <4.0 (replete K+ first)\nContinue until HCO3 >15 and pH >7.3, then transition to SC insulin\nDecrease infusion to 0.05 units/kg/hr until 1hr\nafter\nSC insulin initiated",
+          "tables": []
+        },
+        "Potassium": {
+          "text": "if <2.5, hold insulin and give 1 meq/kg potassium KCL in IV over 1hr\nNo insulin until K >2.5\nif >2.5 but <3.5 give 40-60 meq/L in IV until K >3.5\nif >3.5 but <5.5 give 30-40 meq/L in IV for K = 3.5 - 5\nif >5.5, then check K q1hr",
+          "tables": []
+        },
+        "Bicarbonate": {
+          "text": "No evidence supports the use of sodium bicarb in DKA, with a pH >6.9\nHowever, no studies have been performed for patients with pH <6.9 and the most recent ADA guidelines recommend it for patients with pH <7.1\nOnly consider for:\nCritically ill (hemodynamic compromise from decreased contractility) AND\npH <7.0\n0.5-2 mEq/kg over 1-2hr\nCorrection should never exceed pH > 7.1 or bicarb >10",
+          "tables": []
+        },
+        "Monitor_for_Complications": {
+          "text": "Cerebral edema\n(1% of DKA)\nAcute\nchange in mental status\nSigns of\nherniation\nIf present, see\nCerebral Edema in DKA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "maintenance rate",
+          "url": "https://wikem.org/wiki/IVF_maintenance"
+        },
+        {
+          "text": "maintenance rate",
+          "url": "https://wikem.org/wiki/IVF_maintenance"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Cerebral edema",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "change in mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "herniation",
+          "url": "https://wikem.org/wiki/Herniation_Syndromes"
+        },
+        {
+          "text": "Cerebral Edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_Edema_in_DKA"
+        }
+      ]
+    },
+    "Manage_Acidosis": {
+      "text": "Insulin\ndrip 0.1 units/kg/hr\nDo not start if K+ <4.0 (replete K+ first)\nContinue until HCO3 >15 and pH >7.3, then transition to SC insulin\nDecrease infusion to 0.05 units/kg/hr until 1hr\nafter\nSC insulin initiated",
+      "subsections": {
+        "Potassium": {
+          "text": "if <2.5, hold insulin and give 1 meq/kg potassium KCL in IV over 1hr\nNo insulin until K >2.5\nif >2.5 but <3.5 give 40-60 meq/L in IV until K >3.5\nif >3.5 but <5.5 give 30-40 meq/L in IV for K = 3.5 - 5\nif >5.5, then check K q1hr",
+          "tables": []
+        },
+        "Bicarbonate": {
+          "text": "No evidence supports the use of sodium bicarb in DKA, with a pH >6.9\nHowever, no studies have been performed for patients with pH <6.9 and the most recent ADA guidelines recommend it for patients with pH <7.1\nOnly consider for:\nCritically ill (hemodynamic compromise from decreased contractility) AND\npH <7.0\n0.5-2 mEq/kg over 1-2hr\nCorrection should never exceed pH > 7.1 or bicarb >10",
+          "tables": []
+        },
+        "Monitor_for_Complications": {
+          "text": "Cerebral edema\n(1% of DKA)\nAcute\nchange in mental status\nSigns of\nherniation\nIf present, see\nCerebral Edema in DKA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Cerebral edema",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "change in mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "herniation",
+          "url": "https://wikem.org/wiki/Herniation_Syndromes"
+        },
+        {
+          "text": "Cerebral Edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_Edema_in_DKA"
+        }
+      ]
+    },
+    "Potassium": {
+      "text": "if <2.5, hold insulin and give 1 meq/kg potassium KCL in IV over 1hr\nNo insulin until K >2.5\nif >2.5 but <3.5 give 40-60 meq/L in IV until K >3.5\nif >3.5 but <5.5 give 30-40 meq/L in IV for K = 3.5 - 5\nif >5.5, then check K q1hr",
+      "subsections": {
+        "Bicarbonate": {
+          "text": "No evidence supports the use of sodium bicarb in DKA, with a pH >6.9\nHowever, no studies have been performed for patients with pH <6.9 and the most recent ADA guidelines recommend it for patients with pH <7.1\nOnly consider for:\nCritically ill (hemodynamic compromise from decreased contractility) AND\npH <7.0\n0.5-2 mEq/kg over 1-2hr\nCorrection should never exceed pH > 7.1 or bicarb >10",
+          "tables": []
+        },
+        "Monitor_for_Complications": {
+          "text": "Cerebral edema\n(1% of DKA)\nAcute\nchange in mental status\nSigns of\nherniation\nIf present, see\nCerebral Edema in DKA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cerebral edema",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "change in mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "herniation",
+          "url": "https://wikem.org/wiki/Herniation_Syndromes"
+        },
+        {
+          "text": "Cerebral Edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_Edema_in_DKA"
+        }
+      ]
+    },
+    "Bicarbonate": {
+      "text": "No evidence supports the use of sodium bicarb in DKA, with a pH >6.9\nHowever, no studies have been performed for patients with pH <6.9 and the most recent ADA guidelines recommend it for patients with pH <7.1\nOnly consider for:\nCritically ill (hemodynamic compromise from decreased contractility) AND\npH <7.0\n0.5-2 mEq/kg over 1-2hr\nCorrection should never exceed pH > 7.1 or bicarb >10",
+      "subsections": {
+        "Monitor_for_Complications": {
+          "text": "Cerebral edema\n(1% of DKA)\nAcute\nchange in mental status\nSigns of\nherniation\nIf present, see\nCerebral Edema in DKA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cerebral edema",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "change in mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "herniation",
+          "url": "https://wikem.org/wiki/Herniation_Syndromes"
+        },
+        {
+          "text": "Cerebral Edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_Edema_in_DKA"
+        }
+      ]
+    },
+    "Monitor_for_Complications": {
+      "text": "Cerebral edema\n(1% of DKA)\nAcute\nchange in mental status\nSigns of\nherniation\nIf present, see\nCerebral Edema in DKA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cerebral edema",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "change in mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "herniation",
+          "url": "https://wikem.org/wiki/Herniation_Syndromes"
+        },
+        {
+          "text": "Cerebral Edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_Edema_in_DKA"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit all (usually to PICU, if on insulin drip) unless\nKnown diabetes\npH >7.35 and bicarb >20\nKnown and resolving precipitant for DKA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Cerebral Edema in DKA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cerebral Edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_Edema_in_DKA"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Diabetes mellitus (main)\nDiabetic ketoacidosis\n(main)\nEBQ:Sodium Bicarbonate use in DKA\nClinical Trial of Fluid Infusion Rates for Pediatric Diabetic Ketoacidosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "EBQ:Sodium Bicarbonate use in DKA",
+          "url": "https://wikem.org/wiki/EBQ:Sodium_Bicarbonate_use_in_DKA"
+        },
+        {
+          "text": "Clinical Trial of Fluid Infusion Rates for Pediatric Diabetic Ketoacidosis",
+          "url": "https://wikem.org/wiki/Clinical_Trial_of_Fluid_Infusion_Rates_for_Pediatric_Diabetic_Ketoacidosis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook -- Vomiting in the Young Child: Nothing or Nightmare",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "drug_name": "Depression",
+  "url": "https://wikem.org/wiki/Depression",
+  "scraped_at": "2026-01-10T07:51:39.829884",
+  "sections": {
+    "Background": {
+      "text": "Depression is a risk factor for suicide, which is the leading cause of death among adolescents in the U.S.\n[1]\nDepression in adolescence predicts depression & anxiety in adulthood and most affected adults had their first depressive episode during adolescence\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Major Depressive Disorder (MDD) - Must have 5 of the following features for >2 wks\n[3]\nDepressed mood or anhedonia (must be present)\nSIGECAPS\nSleep decreased (Insomnia with 2-4 am awakening)\nInterest decreased in activities\nGuilt or worthlessness (Not a major criteria)\nEnergy decreased\nConcentration difficulties\nAppetite disturbance or weight loss\nPsychomotor retardation/agitation\nSuicidal thoughts",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Suicidal thoughts",
+          "url": "https://wikem.org/wiki/Suicide"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "General_Psychiatric": {
+          "text": "Organic causes\nDelirium\nDementia\nOverdose\nPsychiatric causes\nDepression\nAnxiety\nConversion disorder\nBipolar disorder\nAcute psychosis\nPanic attack\nSchizophrenia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Overdose",
+          "url": "https://wikem.org/wiki/Toxicology"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Bipolar disorder",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        }
+      ]
+    },
+    "General_Psychiatric": {
+      "text": "Organic causes\nDelirium\nDementia\nOverdose\nPsychiatric causes\nDepression\nAnxiety\nConversion disorder\nBipolar disorder\nAcute psychosis\nPanic attack\nSchizophrenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Overdose",
+          "url": "https://wikem.org/wiki/Toxicology"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Bipolar disorder",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate\nsuicide risk\nDepression screening with PHQ-9, the PHQ-2, the Beck Depression Inventory for Primary Care, and the WHO-5",
+      "subsections": {
+        "General_ED_Psychiatric_Workup": {
+          "text": "Point-of-care glucose\nCBC\nChem 7\nLFTs\nECG\n(for toxicology evaluation)\nASA level\nTylenol level\nUrine toxicology screen\n/Blood toxicology screen\nEtOH\nUrine pregnancy/beta-hCG (if female of childbearing age)\nConsider:\nAmmonia (see\nHepatic encephalopathy\n)\nTSH (\nhypo\nor\nhyperthyroidism\nmay mimic mental illness)\nCXR\n(for\nTb\nscreen or rule-out\ndelirium\nin older patient)\nUA\n(for rule-out\ndelirium\nin older patients)\nHead CT\n(to rule-out\nICH\nin patients with\nAMS\n)\nLumbar puncture\n(to rule-out\nmeningitis\nor\nencephalitis\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "suicide risk",
+          "url": "https://wikem.org/wiki/Suicide"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ASA level",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Tylenol level",
+          "url": "https://wikem.org/wiki/Acetaminophen_(tylenol)_toxicity"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "Hepatic encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_encephalopathy"
+        },
+        {
+          "text": "hypo",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Tb",
+          "url": "https://wikem.org/wiki/Tb"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "General_ED_Psychiatric_Workup": {
+      "text": "Point-of-care glucose\nCBC\nChem 7\nLFTs\nECG\n(for toxicology evaluation)\nASA level\nTylenol level\nUrine toxicology screen\n/Blood toxicology screen\nEtOH\nUrine pregnancy/beta-hCG (if female of childbearing age)\nConsider:\nAmmonia (see\nHepatic encephalopathy\n)\nTSH (\nhypo\nor\nhyperthyroidism\nmay mimic mental illness)\nCXR\n(for\nTb\nscreen or rule-out\ndelirium\nin older patient)\nUA\n(for rule-out\ndelirium\nin older patients)\nHead CT\n(to rule-out\nICH\nin patients with\nAMS\n)\nLumbar puncture\n(to rule-out\nmeningitis\nor\nencephalitis\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ASA level",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Tylenol level",
+          "url": "https://wikem.org/wiki/Acetaminophen_(tylenol)_toxicity"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "Hepatic encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_encephalopathy"
+        },
+        {
+          "text": "hypo",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Tb",
+          "url": "https://wikem.org/wiki/Tb"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Psych consult or admission if high risk of\nsuicide\nConsider consult with psychiatric team in other cases, particularly if severe symptoms and patient not already plugged into psych care\nPharmacologic agents (typically not started in ED due to need for monitoring and adjustment)\nAntidepressants can take up to 8 weeks to reach maximum effect, so discuss expectations to ensure adherence.\n[4]\nSSRIs (citalopram, fluoxetine, paroxetine, sertraline)\nSNRIs (\nduloxetine\n,\nvenlafaxine\n, milnacipran)\nSerotonin modulators (\ntrazodone\n)\nAtypical (\nbupropion\n,\nmirtazapine\n)\nTCAs (\namitriptyline\n, clomipramine, desipramine,\ndoxepin\n, imipramine,\nnortriptyline\n, trimipramine)\nMAOIs (isocarboxazid, phenelzine, selegiline)\nCognitive Behavioral Therapy and Interpersonal psychotherapy have been shown to be effective in treating depression in adolescents.\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "suicide",
+          "url": "https://wikem.org/wiki/Suicide"
+        },
+        {
+          "text": "duloxetine",
+          "url": "https://wikem.org/wiki/Duloxetine"
+        },
+        {
+          "text": "venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "trazodone",
+          "url": "https://wikem.org/wiki/Trazodone"
+        },
+        {
+          "text": "bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        },
+        {
+          "text": "mirtazapine",
+          "url": "https://wikem.org/wiki/Mirtazapine"
+        },
+        {
+          "text": "amitriptyline",
+          "url": "https://wikem.org/wiki/Amitriptyline"
+        },
+        {
+          "text": "doxepin",
+          "url": "https://wikem.org/wiki/Doxepin"
+        },
+        {
+          "text": "nortriptyline",
+          "url": "https://wikem.org/wiki/Nortriptyline"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Those at risk for self-harm or harm to others should be admitted/transferred for psych evaluation.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "SAD PERSONS score",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SAD PERSONS score",
+          "url": "https://wikem.org/wiki/SAD_PERSONS_score"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Screening test for depression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

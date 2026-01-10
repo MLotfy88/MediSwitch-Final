@@ -1,0 +1,612 @@
+{
+  "drug_name": "Dengue",
+  "url": "https://wikem.org/wiki/Dengue",
+  "scraped_at": "2026-01-10T07:51:43.173838",
+  "sections": {
+    "Background": {
+      "text": "A viral infection transmitted though Aedes mosquitos typically in urban areas, especially during rainy seasons in tropical/subtropic regions (Asia, Africa, Central America, Caribbean)\nLos Angeles County reported 14 confirmed cases of locally acquired dengue in 2024\n[2]\nAlso known as \"break-bone fever\"\nMost infections are asymptomatic or produce only mild illness, but the virus occasionally causes more severe cases up to death (i.e., \"severe dengue\")\n[3]\nSevere dengue (which includes \"dengue shock syndrome\") is rare in travelers, as it is cause by a second infection of a different Dengue serotype (so patients must have had two separate exposures at different times to be at risk)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Dengue": {
+          "text": "Incubation 3-7 days\nFebrile phase:\nHigh\nfever\n+ \"Break-bone\" pain + GI symptoms +\nrash\n+ possible exposure\n+/-\nFaget sign\nLasts 3-7 days, majority recover",
+          "tables": []
+        },
+        "Severe_Dengue": {
+          "text": "As above, followed by:\nCritical Phase\n[4]\n:\nMinority of patients, generally pediatric and elderly\nAround time of defervescence\nVascular leak, hypoproteinemia, hemoconcentration,\npleural effusion\n,\nascites\nNarrowed pulse pressure, persistent\nvomiting\n, RUQ tenderness, lethargy and restlessness are signs of impending collapse\nMucosal and skin bleeding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Faget sign",
+          "url": "https://wikem.org/wiki/Faget_sign"
+        },
+        {
+          "text": "pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Dengue": {
+      "text": "Incubation 3-7 days\nFebrile phase:\nHigh\nfever\n+ \"Break-bone\" pain + GI symptoms +\nrash\n+ possible exposure\n+/-\nFaget sign\nLasts 3-7 days, majority recover",
+      "subsections": {
+        "Severe_Dengue": {
+          "text": "As above, followed by:\nCritical Phase\n[4]\n:\nMinority of patients, generally pediatric and elderly\nAround time of defervescence\nVascular leak, hypoproteinemia, hemoconcentration,\npleural effusion\n,\nascites\nNarrowed pulse pressure, persistent\nvomiting\n, RUQ tenderness, lethargy and restlessness are signs of impending collapse\nMucosal and skin bleeding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Faget sign",
+          "url": "https://wikem.org/wiki/Faget_sign"
+        },
+        {
+          "text": "pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Severe_Dengue": {
+      "text": "As above, followed by:\nCritical Phase\n[4]\n:\nMinority of patients, generally pediatric and elderly\nAround time of defervescence\nVascular leak, hypoproteinemia, hemoconcentration,\npleural effusion\n,\nascites\nNarrowed pulse pressure, persistent\nvomiting\n, RUQ tenderness, lethargy and restlessness are signs of impending collapse\nMucosal and skin bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Consider tests to rule out other possible processes:\nCBC, chemistry, LFTs, viral panels\nWest Nile virus\ntesting (see testing cross-reactivity concerns below)\nSee\nFever in traveler\nDefinitive dengue testing (all are serum tests)\nAcute phase (0-7 days post symptom onset)\n[5]\nNucleic acid amplification test (NAAT) (e.g., RT-PCR)\nOR\nNS1 ELISA test,\nAND\nIgM antibody test\nConvalescent Phase (>7 days post symptom onset)\n[6]\nFor public health purposes, many agencies request the same testing as for 0-7 days above\n[7]\nIgM antibody (alone)\nConcern for Severe Dengue\nAdd\nDIC\nlabs",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "In the US, dengue is a nationally notifiable disease and all suspected cases should be reported to the local health department.\nTypically a clinical diagnosis in the ED\nAll patients with clinically suspected dengue should receive appropriate management without waiting for diagnostic test results.\nDefinitive testing\nPositive\nA positive NAAT test does not require further confirmatory testing.\nA positive NS1 test during the first 7 days of illness is indicative of a current or recent dengue virus infection.\nA positive IgM antibody test\nDiagnosed by a 4x increase in acute vs convalescent titers\nIs limited by possible cross reactivity against other flaviviruses (e.g.,\nZika\n,\nJapanese encephalitis\n, St. Louis encephalitis,\nWest Nile\n,\nyellow fever\n) viruses\nNegative\nA negative result from a RT-PCR or NS1 ELISA test does\nnot\nrule out infection.\nIgG detection should not be used to diagnose acute dengue because it does not distinguish between current and previous infection.\nOther possible lab findings:\nCBC:\nLeukopenia\n,\nthrombocytopenia\n, and hemoconcentration\nCMP: LFTs elevated\nDIC\nlab abnormalities\nSevere Dengue if any of the following identified:\nShock\n(from plasma leakage)\nHemorrhage\nRespiratory distress",
+          "tables": []
+        },
+        "Tourniquet_Test": {
+          "text": "Tests for capillary fragility as a sign of\nSevere\nDengue\nTypically used in the absence of available\nDIC\nlabs (i.e., low-resource settings)\nSensitivity of 52% and specificity of 82.4%\nA positive tourniquet test combined with lekuopenia increases sensitivity to 94%\n[9]\nInflate cuff to pressure between SBP & DBP, and leave for 5 min\n(+) Test = 10-20 petechiae per square inch",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "West Nile virus",
+          "url": "https://wikem.org/wiki/West_Nile_virus"
+        },
+        {
+          "text": "Fever in traveler",
+          "url": "https://wikem.org/wiki/Fever_in_traveler"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Zika",
+          "url": "https://wikem.org/wiki/Zika"
+        },
+        {
+          "text": "Japanese encephalitis",
+          "url": "https://wikem.org/wiki/Japanese_encephalitis"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "Consider tests to rule out other possible processes:\nCBC, chemistry, LFTs, viral panels\nWest Nile virus\ntesting (see testing cross-reactivity concerns below)\nSee\nFever in traveler\nDefinitive dengue testing (all are serum tests)\nAcute phase (0-7 days post symptom onset)\n[5]\nNucleic acid amplification test (NAAT) (e.g., RT-PCR)\nOR\nNS1 ELISA test,\nAND\nIgM antibody test\nConvalescent Phase (>7 days post symptom onset)\n[6]\nFor public health purposes, many agencies request the same testing as for 0-7 days above\n[7]\nIgM antibody (alone)\nConcern for Severe Dengue\nAdd\nDIC\nlabs",
+      "subsections": {
+        "Diagnosis": {
+          "text": "In the US, dengue is a nationally notifiable disease and all suspected cases should be reported to the local health department.\nTypically a clinical diagnosis in the ED\nAll patients with clinically suspected dengue should receive appropriate management without waiting for diagnostic test results.\nDefinitive testing\nPositive\nA positive NAAT test does not require further confirmatory testing.\nA positive NS1 test during the first 7 days of illness is indicative of a current or recent dengue virus infection.\nA positive IgM antibody test\nDiagnosed by a 4x increase in acute vs convalescent titers\nIs limited by possible cross reactivity against other flaviviruses (e.g.,\nZika\n,\nJapanese encephalitis\n, St. Louis encephalitis,\nWest Nile\n,\nyellow fever\n) viruses\nNegative\nA negative result from a RT-PCR or NS1 ELISA test does\nnot\nrule out infection.\nIgG detection should not be used to diagnose acute dengue because it does not distinguish between current and previous infection.\nOther possible lab findings:\nCBC:\nLeukopenia\n,\nthrombocytopenia\n, and hemoconcentration\nCMP: LFTs elevated\nDIC\nlab abnormalities\nSevere Dengue if any of the following identified:\nShock\n(from plasma leakage)\nHemorrhage\nRespiratory distress",
+          "tables": []
+        },
+        "Tourniquet_Test": {
+          "text": "Tests for capillary fragility as a sign of\nSevere\nDengue\nTypically used in the absence of available\nDIC\nlabs (i.e., low-resource settings)\nSensitivity of 52% and specificity of 82.4%\nA positive tourniquet test combined with lekuopenia increases sensitivity to 94%\n[9]\nInflate cuff to pressure between SBP & DBP, and leave for 5 min\n(+) Test = 10-20 petechiae per square inch",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "West Nile virus",
+          "url": "https://wikem.org/wiki/West_Nile_virus"
+        },
+        {
+          "text": "Fever in traveler",
+          "url": "https://wikem.org/wiki/Fever_in_traveler"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Zika",
+          "url": "https://wikem.org/wiki/Zika"
+        },
+        {
+          "text": "Japanese encephalitis",
+          "url": "https://wikem.org/wiki/Japanese_encephalitis"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "In the US, dengue is a nationally notifiable disease and all suspected cases should be reported to the local health department.\nTypically a clinical diagnosis in the ED\nAll patients with clinically suspected dengue should receive appropriate management without waiting for diagnostic test results.\nDefinitive testing\nPositive\nA positive NAAT test does not require further confirmatory testing.\nA positive NS1 test during the first 7 days of illness is indicative of a current or recent dengue virus infection.\nA positive IgM antibody test\nDiagnosed by a 4x increase in acute vs convalescent titers\nIs limited by possible cross reactivity against other flaviviruses (e.g.,\nZika\n,\nJapanese encephalitis\n, St. Louis encephalitis,\nWest Nile\n,\nyellow fever\n) viruses\nNegative\nA negative result from a RT-PCR or NS1 ELISA test does\nnot\nrule out infection.\nIgG detection should not be used to diagnose acute dengue because it does not distinguish between current and previous infection.\nOther possible lab findings:\nCBC:\nLeukopenia\n,\nthrombocytopenia\n, and hemoconcentration\nCMP: LFTs elevated\nDIC\nlab abnormalities\nSevere Dengue if any of the following identified:\nShock\n(from plasma leakage)\nHemorrhage\nRespiratory distress",
+      "subsections": {
+        "Tourniquet_Test": {
+          "text": "Tests for capillary fragility as a sign of\nSevere\nDengue\nTypically used in the absence of available\nDIC\nlabs (i.e., low-resource settings)\nSensitivity of 52% and specificity of 82.4%\nA positive tourniquet test combined with lekuopenia increases sensitivity to 94%\n[9]\nInflate cuff to pressure between SBP & DBP, and leave for 5 min\n(+) Test = 10-20 petechiae per square inch",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Zika",
+          "url": "https://wikem.org/wiki/Zika"
+        },
+        {
+          "text": "Japanese encephalitis",
+          "url": "https://wikem.org/wiki/Japanese_encephalitis"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Tourniquet_Test": {
+      "text": "Tests for capillary fragility as a sign of\nSevere\nDengue\nTypically used in the absence of available\nDIC\nlabs (i.e., low-resource settings)\nSensitivity of 52% and specificity of 82.4%\nA positive tourniquet test combined with lekuopenia increases sensitivity to 94%\n[9]\nInflate cuff to pressure between SBP & DBP, and leave for 5 min\n(+) Test = 10-20 petechiae per square inch",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Management": {
+      "text": "No specific antiviral treatment for dengue is available.",
+      "subsections": {
+        "Dengue_2": {
+          "text": "Supportive Care\nAcetaminophen\nfor pain/fever\nDO NOT use\naspirin\nor\nibuprofen\ndue to increased risk of hemorrhage\nPO hydration",
+          "tables": []
+        },
+        "Severe_Dengue_2": {
+          "text": "Above plus:\nTreatment is supportive and requires careful volume management\nMonitor for shock and reduce the risk of complications resulting from increased vascular permeability, plasma leakage, and organ damage.\nIVFs\n(mainstay of supportive care)\nConsider blood\ntransfusion\nif hemorrhagic shock\nProphylactic platelet transfusions and steroids are\nnot\nrecommended",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "IVFs",
+          "url": "https://wikem.org/wiki/IVFs"
+        },
+        {
+          "text": "transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        }
+      ]
+    },
+    "Dengue_2": {
+      "text": "Supportive Care\nAcetaminophen\nfor pain/fever\nDO NOT use\naspirin\nor\nibuprofen\ndue to increased risk of hemorrhage\nPO hydration",
+      "subsections": {
+        "Severe_Dengue_2": {
+          "text": "Above plus:\nTreatment is supportive and requires careful volume management\nMonitor for shock and reduce the risk of complications resulting from increased vascular permeability, plasma leakage, and organ damage.\nIVFs\n(mainstay of supportive care)\nConsider blood\ntransfusion\nif hemorrhagic shock\nProphylactic platelet transfusions and steroids are\nnot\nrecommended",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "IVFs",
+          "url": "https://wikem.org/wiki/IVFs"
+        },
+        {
+          "text": "transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        }
+      ]
+    },
+    "Severe_Dengue_2": {
+      "text": "Above plus:\nTreatment is supportive and requires careful volume management\nMonitor for shock and reduce the risk of complications resulting from increased vascular permeability, plasma leakage, and organ damage.\nIVFs\n(mainstay of supportive care)\nConsider blood\ntransfusion\nif hemorrhagic shock\nProphylactic platelet transfusions and steroids are\nnot\nrecommended",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IVFs",
+          "url": "https://wikem.org/wiki/IVFs"
+        },
+        {
+          "text": "transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Dengue_3": {
+          "text": "Typically outpatient, if well hydrated and non-toxic appearing\nMay consider admitting certain high-risk patients (e.g., pregnant, extremes of age, concerning concomitant chronic disease)\nAdvise to:\nSay well hydrated\nAvoid\naspirin\nand other\nNSAIDs\n. Fever should be controlled with acetaminophen and tepid sponge baths.\nFor at least one week, avoid mosquitoes and use insect repellent to prevent additional spread.",
+          "tables": []
+        },
+        "Severe_Dengue_3": {
+          "text": "Typically admitted\nConsider ICU admission for patients with shock and end-organ damage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        }
+      ]
+    },
+    "Dengue_3": {
+      "text": "Typically outpatient, if well hydrated and non-toxic appearing\nMay consider admitting certain high-risk patients (e.g., pregnant, extremes of age, concerning concomitant chronic disease)\nAdvise to:\nSay well hydrated\nAvoid\naspirin\nand other\nNSAIDs\n. Fever should be controlled with acetaminophen and tepid sponge baths.\nFor at least one week, avoid mosquitoes and use insect repellent to prevent additional spread.",
+      "subsections": {
+        "Severe_Dengue_3": {
+          "text": "Typically admitted\nConsider ICU admission for patients with shock and end-organ damage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        }
+      ]
+    },
+    "Severe_Dengue_3": {
+      "text": "Typically admitted\nConsider ICU admission for patients with shock and end-organ damage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prevention": {
+      "text": "The vaccine Dengvaxia was approved by the Food and Drug Administration in 2021 and was recommended for children and adolescents aged 9 – 16 years who had a laboratory confirmed previous dengue virus infection AND live in areas where dengue is common. However, production was discontinued due to low demand and currently, no vaccines are available.\n[10]\n[11]\n[12]\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Travel Medicine\nNeglected Tropical Diseases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        },
+        {
+          "text": "Neglected Tropical Diseases",
+          "url": "https://wikem.org/wiki/Neglected_Tropical_Diseases"
+        }
+      ]
+    }
+  }
+}

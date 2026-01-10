@@ -1,0 +1,85 @@
+{
+  "drug_name": "Diazepam",
+  "url": "https://wikem.org/wiki/Diazepam",
+  "scraped_at": "2026-01-10T07:51:50.049473",
+  "sections": {
+    "General": {
+      "text": "Type:\nBenzodiazepines\nDosage Forms:\nCommon Trade Names: Valium",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Anxiety\nPO: 2 - 10 mg 2-4 times daily\nMuscle spasm\nPO: 2 - 10 mg 2-4 times daily\nSedation in ICU\nIV: Loading dose: 5 - 10 mg, Maintenance dose: 0.03 - 0.1 mg/kg every 30 minutes to 6 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation: Diazepam and metabolites are present in breast milk\nRenal Dosing\nAdult\nNot defined\nPediatric\nNot defined\nHepatic Dosing\nAdult\nNot defined, use with caution, do not used oral tablets in severe hepatic impairment\nPediatric\nNot defined, use with caution, do not used oral tablets in severe hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nsevere hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Respiratory/CNS depression\nHypotension\nparadoxical CNS stimulation",
+          "tables": []
+        },
+        "Common": {
+          "text": "drowsiness\ndisinhibition\nataxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Respiratory/CNS depression\nHypotension\nparadoxical CNS stimulation",
+      "subsections": {
+        "Common": {
+          "text": "drowsiness\ndisinhibition\nataxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "drowsiness\ndisinhibition\nataxia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 30-60 hours\nMetabolism: Liver\nExcretion: Urine\nMechanism of Action: GABA agonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Diazepam: Drug information. UpToDate. www.uptodate.com. Accessed April 2, 2019.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

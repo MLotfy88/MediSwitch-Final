@@ -1,0 +1,85 @@
+{
+  "drug_name": "Denver_screening_criteria",
+  "url": "https://wikem.org/wiki/Denver_screening_criteria",
+  "scraped_at": "2026-01-10T07:51:40.192230",
+  "sections": {
+    "Background": {
+      "text": "Used to screen for\nvertebral and carotid artery dissection\nand/or injury after blunt head and neck trauma\n(BCVI - blunt cerebrovascular injury)\n[1]\n[2]\nA CTA to evaluate for VAI should be obtained in those meeting the modified Denver Criteria\nBCVI has the highest association with cervical hyperextension and rotation, hyperflexion, or direct blunt force to head and neck\n[3]\nMost injuries are diagnosed after the development of symptoms secondary to central nervous system ischemia resulting in neurologic morbidity of up to 80% and associated mortality of up to 40%.\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        }
+      ]
+    },
+    "Criteria": {
+      "text": "",
+      "subsections": {
+        "Denver_screening_criteria_for_blunt_cerebrovascular_injury": {
+          "text": "The\nDenver Screening Criteria\nare divided into risk factors and signs and symptoms",
+          "tables": []
+        },
+        "Signs_and_Symptoms": {
+          "text": "Arterial hemorrhage\nCervical bruit\nExpanding neck hematoma\nFocal neurologic deficit\nNeuro exam inconsistent with head CT\nStroke on head CT",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Midface Fractures\n(Le Fort II or III)\nBasilar Skull Fracture with carotid canal involvement\nDiffuse axonal injury with GCS<6\nCervical spine fracture\nHanging with anoxic brain injury\nSeat belt abrasion or other soft tissue injury of the anterior neck resulting in significant swelling or altered mental status\nIsolated seatbelt sign without other neurologic symptoms has not been identified as a risk factor\n[5]\n[6]\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Denver Screening Criteria",
+          "url": "https://wikem.org/wiki/Denver_Screening_Criteria"
+        },
+        {
+          "text": "Midface Fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        }
+      ]
+    },
+    "Denver_screening_criteria_for_blunt_cerebrovascular_injury": {
+      "text": "The\nDenver Screening Criteria\nare divided into risk factors and signs and symptoms",
+      "subsections": {
+        "Signs_and_Symptoms": {
+          "text": "Arterial hemorrhage\nCervical bruit\nExpanding neck hematoma\nFocal neurologic deficit\nNeuro exam inconsistent with head CT\nStroke on head CT",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Midface Fractures\n(Le Fort II or III)\nBasilar Skull Fracture with carotid canal involvement\nDiffuse axonal injury with GCS<6\nCervical spine fracture\nHanging with anoxic brain injury\nSeat belt abrasion or other soft tissue injury of the anterior neck resulting in significant swelling or altered mental status\nIsolated seatbelt sign without other neurologic symptoms has not been identified as a risk factor\n[5]\n[6]\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Denver Screening Criteria",
+          "url": "https://wikem.org/wiki/Denver_Screening_Criteria"
+        },
+        {
+          "text": "Midface Fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Blunt neck trauma\nEBQ:Denver Screening Criteria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "EBQ:Denver Screening Criteria",
+          "url": "https://wikem.org/wiki/EBQ:Denver_Screening_Criteria"
+        }
+      ]
+    }
+  }
+}

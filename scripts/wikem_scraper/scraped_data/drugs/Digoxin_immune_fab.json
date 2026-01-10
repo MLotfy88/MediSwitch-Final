@@ -1,0 +1,58 @@
+{
+  "drug_name": "Digoxin_immune_fab",
+  "url": "https://wikem.org/wiki/Digoxin_immune_fab",
+  "scraped_at": "2026-01-10T07:51:54.299266",
+  "sections": {
+    "Background": {
+      "text": "1 Fab vial binds 0.5mg of digoxin\nClinical improvement usually seen within 1hr\nMay give as IV bolus in cardiac arrest; otherwise give over 30min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Ventricular dysrhythmias\nHemodynamically significant\nbradyarrhythmias\nunresponsive to standard therapy\nHyperkalemia\n> 5.5 associated with toxic digoxin level or presumptive diagnosis of overdose\nAlso consider for:\nPacemaker (may mask cardiac dysrhythmia)\nDig level > 10 in acute ingestion\nDig level > 4 in chronic ingestion\nIf adult acutely ingests > 10mg\nIf child acutely ingests > 4mg",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Side_Effects": {
+      "text": "Withdrawal of dig effect:\nCHF\n, A-fib with RVR\nHypokalemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "How_To_Use": {
+      "text": "Neither amount ingested nor digoxin level are known:\nAdult dose\n10 vials over 30 min; repeat dose if clinical response is inadequate\nPeds dose\n5 vials over 30 min; repeat dose if clinical response is inadequate\nAmount ingested is known but digoxin level is unknown\nCalculate total body load (TBL)\nTBL = Dose (in mg) ingested x 0.8\nCalculate number of vials needed\nNumber of vials = TBL X 2 (round up to nearest whole number)\nSteady state digoxin level is known\nNumber of vials = (dig level (in ng/mL) X patient wt) / 100\nChronic toxicity without severe signs\nGive half the recommended dose\nOtherwise may unmask the condition for which the patient is taking digoxin\nCardiac Arrest\n20 vials administered undiluted by IV bolus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Digoxin Toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Digoxin Toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        }
+      ]
+    },
+    "References": {
+      "text": "2019 American Geriatrics Society Beers Criteria Update Expert Panel. American Geriatrics Society 2019 Updated AGS Beers Criteria for Potentially Inappropriate Medication Use in Older Adults. J Am Geriatr Soc. 2019;67(4):674-694. doi: 10.1111/jgs.15767 [PubMed 30693946]\nAlsaied T, Baskar S, Fares M, et al. First-line antiarrhythmic transplacental treatment for fetal tachyarrhythmia: a systematic review and meta-analysis. J Am Heart Assoc. 2017;6(12). pii: e007164. doi: 10.1161/JAHA.117.007164. [PubMed 29246961]\nAnderson PO, Sauberan JB. Modeling drug passage into human milk. Clin Pharmacol Ther. 2016;100(1):42-52. doi: 10.1002/cpt.377. [PubMed 27060684]10.1002/cpt.377\nAronoff GR, Bennett WM, Berns JS, et al. Drug Prescribing in Renal Failure: Dosing Guidelines for Adults and Children. 5th ed. Philadelphia, PA: American College of Physicians; 2007:42.\nAzancot-Benisty A, Jacqz-Aigrain E, Guirgis NM, Decrepy A, Oury JF, Blot P. Clinical and pharmacologic study of fetal supraventricular tachyarrhythmias. J Pediatr. 1992;121(4):608-613. [PubMed 1403399]\nBakir M, Bilgiç A. Single daily dose of digoxin for maintenance therapy of infants and children with cardiac disease: is it reliable? Pediatr Cardiol. 1994;15(5):229-232. [PubMed 7997427]\nBendayan R, McKenzie MW. Digoxin pharmacokinetics and dosage requirements in pediatric patients. Clin Pharm. 1983;2(3):224-235. [PubMed 6349908]\nBurk O, Brenner SS, Hofmann U, et al. The Impact of Thyroid Disease on the regulation, expression, and function of ABCB1 (MDRa/P-glycoprotein) and consequences for the disposition of digoxin. Clin Pharm Ther. 2010;88(5):685-694. [PubMed 20844484]\nCheng JW, Rybak I. Use of digoxin for heart failure and atrial fibrillation in elderly patients. Am J Geriatr Pharmacother. 2010;8(5):419-427. [PubMed 21335295]\nColucci WS, Sylvia L. Use of digoxin in heart failure with reduced ejection fraction. Post TW, ed. UpToDate. Waltham, MA: UpToDate Inc.\nhttp://www.uptodate.com\n. Accessed October 22, 2018.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

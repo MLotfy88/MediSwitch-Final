@@ -1,0 +1,1022 @@
+{
+  "drug_name": "Diabetic_foot_infection",
+  "url": "https://wikem.org/wiki/Diabetic_foot_infection",
+  "scraped_at": "2026-01-10T07:51:51.376696",
+  "sections": {
+    "Background": {
+      "text": "75% of patients have polymicrobial infection, usu 70% are\ngram positive\nSevere limb/life threatening infection are more likely to involve\ngram negative\naerobic &\nanaerobic bacteria\nas well.\nMRSA\nis increasing in frequency\nUlcer depth is important predictor of healing rate,\nosteomyelitis\n(OM) & risk of amputation.\nFailure of ulcer to heal by 50% or more after 1 month of treatment is a strong predictor that the ulcer is unlikely to heal after 3 months.\nRecurrence or amputation is 50-70% over 3-5 yrs. Overall, 50-80% will heal within 6 months with optimal care.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "gram positive",
+          "url": "https://wikem.org/wiki/Gram_positive"
+        },
+        {
+          "text": "gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "anaerobic bacteria",
+          "url": "https://wikem.org/wiki/Anaerobic_bacteria"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Diabetes mellitus\nulcers usually occur at areas of increased pressure (sole of foot) or friction\nVenous ulcers usually present above malleoli with irregular borders\nArterial ulcers usually found on the toes or shins, with pale, \"punched-out\" borders (typically painful)\nOften history of minor/unnoticed trauma such as ill-fitting footwear\nNote hair and nail growth, determine vascular status (palpate DP, PT, and popliteal pulse)\nProbe ulceration site, note involvement of bone, joint, tendon, or sinus tract formation\nOften more extensive than initially appear\nUse sterile probe, if hit bone chance of OM 90% higher\n+/- systemic symptoms (e.g.\nfever\n, malaise)\n50% or more of patients with SEVERE diabetic foot infections will have no systemic signs and symptoms of infection (i.e. fever, tachycardia, leukocytosis, left shift)\nDiabetes mellitus\nfoot ulcer infection presumed if:\n2 or more of following: erythema, warmth, tenderness, or swelling\nOR if pus coming from ulcer site or nearby sinus tract\nSevere diabetes mellitus foot infection if:\nAbnormal vital signs\nRim of erythema surrounding ulcer or ulcer >2 cm in diameter\nLymphangitic streaking or signs of fasciitis (crepitus, skip lesions, severe tenderness, bullae), or if probe reaches bone/joint/tendon",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Foot_infection": {
+          "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+          "tables": []
+        },
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        },
+        "Hyperglycemia": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Dry gangrene",
+          "url": "https://wikem.org/wiki/Dry_gangrene"
+        },
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Foot_infection": {
+      "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+      "subsections": {
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        },
+        "Hyperglycemia": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Dry gangrene",
+          "url": "https://wikem.org/wiki/Dry_gangrene"
+        },
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Look_A-Likes": {
+      "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+      "subsections": {
+        "Hyperglycemia": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Hyperglycemia": {
+      "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Obtain ABI on all patients with: nonpalpable DP/PT, claudication symptoms, ischemic foot pain\nConsider vascular consult if abnormal:\nABI <0.4 (severe obstruction)\nABI 0.4-0.69 (mod obstruction)",
+          "tables": []
+        },
+        "Labs": {
+          "text": "Chem 10, CBC, Coags, A1c, consider ESR/CRP (useful for monitoring response to treatment)\nESR >40 increased chance of OM 12 fold, an ESR >70 makes diagnosis nearly certain.",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "X-rays to detect soft tissue gas, foreign body, OM, or structural foot deformities\nOM: x-ray changes occur late in disease, negative xrays do not exclude\nMRI to eval for OM (not usually done in ED)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Determine presence/extent of infection and likelihood of OM/fasciitis\nConsider Charcot arthropathy (diabetic neuropathic osteoarthropathy)\ncommonly missed diagnosis\nrequires different management (total contact cast, NWB)",
+          "tables": []
+        },
+        "Likelihood_of_Osteomyelitis": {
+          "text": "Factors that increase likelihood of osteomyelitis:\nVisible bone or probe to bone\nUlcer >2cm in size\nESR >70\nUlcer duration >2 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Obtain ABI on all patients with: nonpalpable DP/PT, claudication symptoms, ischemic foot pain\nConsider vascular consult if abnormal:\nABI <0.4 (severe obstruction)\nABI 0.4-0.69 (mod obstruction)",
+      "subsections": {
+        "Labs": {
+          "text": "Chem 10, CBC, Coags, A1c, consider ESR/CRP (useful for monitoring response to treatment)\nESR >40 increased chance of OM 12 fold, an ESR >70 makes diagnosis nearly certain.",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "X-rays to detect soft tissue gas, foreign body, OM, or structural foot deformities\nOM: x-ray changes occur late in disease, negative xrays do not exclude\nMRI to eval for OM (not usually done in ED)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Determine presence/extent of infection and likelihood of OM/fasciitis\nConsider Charcot arthropathy (diabetic neuropathic osteoarthropathy)\ncommonly missed diagnosis\nrequires different management (total contact cast, NWB)",
+          "tables": []
+        },
+        "Likelihood_of_Osteomyelitis": {
+          "text": "Factors that increase likelihood of osteomyelitis:\nVisible bone or probe to bone\nUlcer >2cm in size\nESR >70\nUlcer duration >2 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Determine presence/extent of infection and likelihood of OM/fasciitis\nConsider Charcot arthropathy (diabetic neuropathic osteoarthropathy)\ncommonly missed diagnosis\nrequires different management (total contact cast, NWB)",
+      "subsections": {
+        "Likelihood_of_Osteomyelitis": {
+          "text": "Factors that increase likelihood of osteomyelitis:\nVisible bone or probe to bone\nUlcer >2cm in size\nESR >70\nUlcer duration >2 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Non-infected_chronic_wounds": {
+          "text": "Prophylactic antibiotics not indicated\nFor clinically uninfected wounds, do not collect a specimen for culture\nMoist dressing to allow for healing and proper footwear to prevent worsening abrasions",
+          "tables": []
+        },
+        "Infected_Wounds": {
+          "text": "Consider wound culture prior to starting empiric antibiotic therapy. However cultures may be unnecessary for a mild infection in a patients who have not recently received antibiotic therapy.\nCoverage is targeted at\nMSSA\n+\nStrep\n)\nStrict non-weight bearing, tight glycemic control, meticulous wound care",
+          "tables": []
+        },
+        "Severe_infection": {
+          "text": "Admit with surgical consult\nEmpiric therapy directed at\nPseudomonas aeruginosa\nis NOT necessary except for patients with risk factors for true infection with this organism\nMRSA\ncoverage in a patient with a prior history of MRSA infection",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Associated organisms include Staphylococcus, Streptococcus, Enterococcus, Enterobacteriaceae, Proteus, Bacteroides, and Pseudomonas, and Klebsiella",
+          "tables": []
+        },
+        "Superficial_Mild_Infections": {
+          "text": "Clindamycin\n450mg PO q8hrs daily x 14 days OR\nTMP/SMX\n2DS tabs PO q12hrs daily x 14 days OR\nDoxycycline\n100mg PO q12hrs daily x 14 days",
+          "tables": []
+        },
+        "Prior_antibiotic_treatment_or_moderate_infections": {
+          "text": "Amoxicillin/Clavulanate\n875/125mg PO q12hrs +\nTMP/SMX\n2DS tabs PO q12hrs daily x 14 days  OR\nClindamycin\n450mg PO q8hrs +\nCiprofloxacin\n750mg PO q12hrs x 14 days",
+          "tables": []
+        },
+        "Inpatient_Treatment": {
+          "text": "Vancomycin\n15-20mg/kg IV q12hrs plus\nAmpicillin/Sulbactam\n3g IV q6hrs OR\nPiperacillin/Tazobactam\n4.5g IV q8hrs OR\nTicarcillin/Clavulanate\n3.1g IV q8hrs OR\nImipenem\n500mg IV q6hrs OR\nMetronidazole\n500mg IV q8hrs PLUS\nCefepime\n2g IV q12hrs OR\nCiprofloxacin\n400mg IV q12hrs OR\nAztreonam\n2g IV q8hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MSSA",
+          "url": "https://wikem.org/wiki/MSSA"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Streptococcus_Genus"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        }
+      ]
+    },
+    "Non-infected_chronic_wounds": {
+      "text": "Prophylactic antibiotics not indicated\nFor clinically uninfected wounds, do not collect a specimen for culture\nMoist dressing to allow for healing and proper footwear to prevent worsening abrasions",
+      "subsections": {
+        "Infected_Wounds": {
+          "text": "Consider wound culture prior to starting empiric antibiotic therapy. However cultures may be unnecessary for a mild infection in a patients who have not recently received antibiotic therapy.\nCoverage is targeted at\nMSSA\n+\nStrep\n)\nStrict non-weight bearing, tight glycemic control, meticulous wound care",
+          "tables": []
+        },
+        "Severe_infection": {
+          "text": "Admit with surgical consult\nEmpiric therapy directed at\nPseudomonas aeruginosa\nis NOT necessary except for patients with risk factors for true infection with this organism\nMRSA\ncoverage in a patient with a prior history of MRSA infection",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Associated organisms include Staphylococcus, Streptococcus, Enterococcus, Enterobacteriaceae, Proteus, Bacteroides, and Pseudomonas, and Klebsiella",
+          "tables": []
+        },
+        "Superficial_Mild_Infections": {
+          "text": "Clindamycin\n450mg PO q8hrs daily x 14 days OR\nTMP/SMX\n2DS tabs PO q12hrs daily x 14 days OR\nDoxycycline\n100mg PO q12hrs daily x 14 days",
+          "tables": []
+        },
+        "Prior_antibiotic_treatment_or_moderate_infections": {
+          "text": "Amoxicillin/Clavulanate\n875/125mg PO q12hrs +\nTMP/SMX\n2DS tabs PO q12hrs daily x 14 days  OR\nClindamycin\n450mg PO q8hrs +\nCiprofloxacin\n750mg PO q12hrs x 14 days",
+          "tables": []
+        },
+        "Inpatient_Treatment": {
+          "text": "Vancomycin\n15-20mg/kg IV q12hrs plus\nAmpicillin/Sulbactam\n3g IV q6hrs OR\nPiperacillin/Tazobactam\n4.5g IV q8hrs OR\nTicarcillin/Clavulanate\n3.1g IV q8hrs OR\nImipenem\n500mg IV q6hrs OR\nMetronidazole\n500mg IV q8hrs PLUS\nCefepime\n2g IV q12hrs OR\nCiprofloxacin\n400mg IV q12hrs OR\nAztreonam\n2g IV q8hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MSSA",
+          "url": "https://wikem.org/wiki/MSSA"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Streptococcus_Genus"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        }
+      ]
+    },
+    "Infected_Wounds": {
+      "text": "Consider wound culture prior to starting empiric antibiotic therapy. However cultures may be unnecessary for a mild infection in a patients who have not recently received antibiotic therapy.\nCoverage is targeted at\nMSSA\n+\nStrep\n)\nStrict non-weight bearing, tight glycemic control, meticulous wound care",
+      "subsections": {
+        "Severe_infection": {
+          "text": "Admit with surgical consult\nEmpiric therapy directed at\nPseudomonas aeruginosa\nis NOT necessary except for patients with risk factors for true infection with this organism\nMRSA\ncoverage in a patient with a prior history of MRSA infection",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Associated organisms include Staphylococcus, Streptococcus, Enterococcus, Enterobacteriaceae, Proteus, Bacteroides, and Pseudomonas, and Klebsiella",
+          "tables": []
+        },
+        "Superficial_Mild_Infections": {
+          "text": "Clindamycin\n450mg PO q8hrs daily x 14 days OR\nTMP/SMX\n2DS tabs PO q12hrs daily x 14 days OR\nDoxycycline\n100mg PO q12hrs daily x 14 days",
+          "tables": []
+        },
+        "Prior_antibiotic_treatment_or_moderate_infections": {
+          "text": "Amoxicillin/Clavulanate\n875/125mg PO q12hrs +\nTMP/SMX\n2DS tabs PO q12hrs daily x 14 days  OR\nClindamycin\n450mg PO q8hrs +\nCiprofloxacin\n750mg PO q12hrs x 14 days",
+          "tables": []
+        },
+        "Inpatient_Treatment": {
+          "text": "Vancomycin\n15-20mg/kg IV q12hrs plus\nAmpicillin/Sulbactam\n3g IV q6hrs OR\nPiperacillin/Tazobactam\n4.5g IV q8hrs OR\nTicarcillin/Clavulanate\n3.1g IV q8hrs OR\nImipenem\n500mg IV q6hrs OR\nMetronidazole\n500mg IV q8hrs PLUS\nCefepime\n2g IV q12hrs OR\nCiprofloxacin\n400mg IV q12hrs OR\nAztreonam\n2g IV q8hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MSSA",
+          "url": "https://wikem.org/wiki/MSSA"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Streptococcus_Genus"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        }
+      ]
+    },
+    "Severe_infection": {
+      "text": "Admit with surgical consult\nEmpiric therapy directed at\nPseudomonas aeruginosa\nis NOT necessary except for patients with risk factors for true infection with this organism\nMRSA\ncoverage in a patient with a prior history of MRSA infection",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Associated organisms include Staphylococcus, Streptococcus, Enterococcus, Enterobacteriaceae, Proteus, Bacteroides, and Pseudomonas, and Klebsiella",
+          "tables": []
+        },
+        "Superficial_Mild_Infections": {
+          "text": "Clindamycin\n450mg PO q8hrs daily x 14 days OR\nTMP/SMX\n2DS tabs PO q12hrs daily x 14 days OR\nDoxycycline\n100mg PO q12hrs daily x 14 days",
+          "tables": []
+        },
+        "Prior_antibiotic_treatment_or_moderate_infections": {
+          "text": "Amoxicillin/Clavulanate\n875/125mg PO q12hrs +\nTMP/SMX\n2DS tabs PO q12hrs daily x 14 days  OR\nClindamycin\n450mg PO q8hrs +\nCiprofloxacin\n750mg PO q12hrs x 14 days",
+          "tables": []
+        },
+        "Inpatient_Treatment": {
+          "text": "Vancomycin\n15-20mg/kg IV q12hrs plus\nAmpicillin/Sulbactam\n3g IV q6hrs OR\nPiperacillin/Tazobactam\n4.5g IV q8hrs OR\nTicarcillin/Clavulanate\n3.1g IV q8hrs OR\nImipenem\n500mg IV q6hrs OR\nMetronidazole\n500mg IV q8hrs PLUS\nCefepime\n2g IV q12hrs OR\nCiprofloxacin\n400mg IV q12hrs OR\nAztreonam\n2g IV q8hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Associated organisms include Staphylococcus, Streptococcus, Enterococcus, Enterobacteriaceae, Proteus, Bacteroides, and Pseudomonas, and Klebsiella",
+      "subsections": {
+        "Superficial_Mild_Infections": {
+          "text": "Clindamycin\n450mg PO q8hrs daily x 14 days OR\nTMP/SMX\n2DS tabs PO q12hrs daily x 14 days OR\nDoxycycline\n100mg PO q12hrs daily x 14 days",
+          "tables": []
+        },
+        "Prior_antibiotic_treatment_or_moderate_infections": {
+          "text": "Amoxicillin/Clavulanate\n875/125mg PO q12hrs +\nTMP/SMX\n2DS tabs PO q12hrs daily x 14 days  OR\nClindamycin\n450mg PO q8hrs +\nCiprofloxacin\n750mg PO q12hrs x 14 days",
+          "tables": []
+        },
+        "Inpatient_Treatment": {
+          "text": "Vancomycin\n15-20mg/kg IV q12hrs plus\nAmpicillin/Sulbactam\n3g IV q6hrs OR\nPiperacillin/Tazobactam\n4.5g IV q8hrs OR\nTicarcillin/Clavulanate\n3.1g IV q8hrs OR\nImipenem\n500mg IV q6hrs OR\nMetronidazole\n500mg IV q8hrs PLUS\nCefepime\n2g IV q12hrs OR\nCiprofloxacin\n400mg IV q12hrs OR\nAztreonam\n2g IV q8hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Non-infected chronic wounds: outpatient management\nInfected Wounds: Low threshold for admission vs. outpatient management with antibiotics\nSevere infection: Admit with surgical consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Foot diagnoses\nOsteomyelitis\nNeuropathic pain\nWound care dressing basics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot diagnoses",
+          "url": "https://wikem.org/wiki/Foot_diagnoses"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Neuropathic pain",
+          "url": "https://wikem.org/wiki/Neuropathic_pain"
+        },
+        {
+          "text": "Wound care dressing basics",
+          "url": "https://wikem.org/wiki/Wound_care_dressing_basics"
+        }
+      ]
+    }
+  }
+}

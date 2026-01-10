@@ -1,0 +1,164 @@
+{
+  "drug_name": "Diffuse_alveolar_hemorrhage",
+  "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage",
+  "scraped_at": "2026-01-10T07:51:52.382814",
+  "sections": {
+    "Background": {
+      "text": "Diffuse Alveolar Hemorrhage (DAH) is a life-threatening condition\nIt is a subset of Pulmonary hemorrhage involving the microcirculation involving alveolar microvasculature\nMost commonly the result of systemic vasculitis\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Hemoptysis\n(may be initially absent in up 33% of DAH presentations)\n[2]\nAnemia\nDiffuse lung infiltrates\nAcute hypoxemic\nrespiratory failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Idiopathic small vessel vasculitis\nGranulomatosis with polyangiitis\n(Wegener's)\nChurg-Strauss syndrome\nMicroscopic polyangitis\nPrimary immune complex-mediated vasculitis\nGoodpasture syndrome\nHenoch-Schonlein purpura\nSecondary vasculitis\nSystemic lupus erythematosus\nRheumatoid arthritis\nMixed\nconnective tissue disease\nPolymyositis\n/\nDermatomyositis\nAcute\nlung transplant\nrejection\nDrug induced (ie. chemotherapy,\namiodarone\n,\npropylthiouracil\n)\nARDS\nMultilobar\nPneumonia\nCoagulopathy\nPulmonic veno-occlusive disease\nMitral stenosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Churg-Strauss syndrome",
+          "url": "https://wikem.org/wiki/Churg-Strauss_syndrome"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "lung transplant",
+          "url": "https://wikem.org/wiki/Lung_transplant"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "propylthiouracil",
+          "url": "https://wikem.org/wiki/Propylthiouracil"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical suspicion with falling hematocrit\nRadiographic imaging consistent with bilateral infiltration (\nCXR\n, CT) - can be patchy, focal or diffuse\nBronchoscopy with BAL showing sequentially increasing RBC counts",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Airway stabilization if large volume hemoptysis or problems with oxygenation/ventilation (>8.0 ETT preferable)\nIV\ncorticosteroids\n- high dose\nMethylprednisolone\nQ6H\n[3]\nBronchoscopy to obtain BAL and localize/address source of bleeding if localizable\nManagement of Hemoptysis\nCorrect any\ncoagulopathy\nConsider nebulized\nTXA\nif massive\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Management of Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Typically requires upper level of care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hemoptysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Life in the Fast Lane: Diffuse Alveolar Hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

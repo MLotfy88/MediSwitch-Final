@@ -1,0 +1,93 @@
+{
+  "drug_name": "Diagnosis_of_death",
+  "url": "https://wikem.org/wiki/Diagnosis_of_death",
+  "scraped_at": "2026-01-10T07:51:48.681291",
+  "sections": {
+    "Background": {
+      "text": "The definition or classification of death can also change based on the setting the patient is present in as well. For example in a mass casualty setting triaging a patient as \"black\" or dead, is done purely on the basis of responsiveness and spontaneous circulation and ventilation.\n[1]\nNote there is a distinction between pronouncing and\ncertifying\ndeath. The former means assessing the patient and diagnosing death, whereas certifying death typically involves stating the\ncause\nof death as well.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Asystole\nBrain death\nPEA\nDrug overdose\nPersistent Vegetative State\nHypothermia\nElectrolyte derangement\nHypotension\nAcidosis\nor\nAlkalosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "Brain death",
+          "url": "https://wikem.org/wiki/Brain_death"
+        },
+        {
+          "text": "PEA",
+          "url": "https://wikem.org/wiki/PEA"
+        },
+        {
+          "text": "Drug overdose",
+          "url": "https://wikem.org/wiki/Drug_overdose"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Electrolyte derangement",
+          "url": "https://wikem.org/wiki/Electrolyte_derangement"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Alkalosis",
+          "url": "https://wikem.org/wiki/Alkalosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluation of the patient depends on the clinical setting the patient is in, as above, triage in settings of mass casualty changes the evaluation of death.\nThe two main categories for diagnosis of death are cardiorespiratory and neurological.\nCardiorespiratory: No spontaneous respiratory effort accompanied with 5 minutes of asystole- causing inadequate cerebral perfusion for long enough to cause neurologic compromise.\nNeurological: Two separate doctors must successfully declare the patient brain dead, preferably physicians skilled in neurological management, i.e. a neurologist or neurosurgeon.\nPatient in question needs to be uncoscious, apneic , and artificially ventilated.\nClear etiology of severe brain injury.\nConsider all reversible causes of coma (differential above)\nTest brainstem reflexes, and demonstration they are absent\nApnea testing\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Take care to acknowledge family needs.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Post Cardiac Arrest\nDelivering bad news\nBrain death",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Post Cardiac Arrest",
+          "url": "https://wikem.org/wiki/Post_Cardiac_Arrest"
+        },
+        {
+          "text": "Delivering bad news",
+          "url": "https://wikem.org/wiki/Delivering_bad_news"
+        },
+        {
+          "text": "Brain death",
+          "url": "https://wikem.org/wiki/Brain_death"
+        }
+      ]
+    },
+    "Further_Reading": {
+      "text": "Drug overdose may mimic brain death\n[1]\nPronouncing Minnie, from annals of Emergency Medicine.\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

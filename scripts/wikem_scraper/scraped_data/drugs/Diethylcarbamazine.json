@@ -1,0 +1,235 @@
+{
+  "drug_name": "Diethylcarbamazine",
+  "url": "https://wikem.org/wiki/Diethylcarbamazine",
+  "scraped_at": "2026-01-10T07:51:53.665977",
+  "sections": {
+    "Overview": {
+      "text": "Diethylcarbamazine (DEC) used globally its anti-filaricidal activity\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Administration": {
+      "text": "Mechanism of Action: interferes with cyclooxygenase and lipoxygenase pathways, reducing the production of thromboxane, prostacyclin, prostaglandin and leukotrienes\nDosage Forms: tablets\nRoutes of Administration: oral\nCommon Trade Names: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Lymphatic_filariasis": {
+          "text": "including lymphatic filariasis caused by infection with\nWuchereria bancrofti\n,\nBrugia malayi\n, or\nBrugia timori\nDay 1: 50mg PO\nDay 2: 50mg TID\nDay 3: 100mg TID\nDays 4-21: 6mg/kg/day divided TID",
+          "tables": []
+        },
+        "Loa_Loa": {
+          "text": "Day 1: 50 mg PO PC\nDay 2: 50 mg PO TID\nDay 3: 100 mg PO TID\nDay 4-21: 9 mg/kg/day PO divided TID",
+          "tables": []
+        },
+        "Mansonella_streptocerca": {
+          "text": "6 mg/kg PO qDay x14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Wuchereria bancrofti",
+          "url": "https://wikem.org/wiki/Wuchereria_bancrofti"
+        },
+        {
+          "text": "Brugia malayi",
+          "url": "https://wikem.org/wiki/Brugia_malayi"
+        },
+        {
+          "text": "Brugia timori",
+          "url": "https://wikem.org/wiki/Brugia_timori"
+        }
+      ]
+    },
+    "Lymphatic_filariasis": {
+      "text": "including lymphatic filariasis caused by infection with\nWuchereria bancrofti\n,\nBrugia malayi\n, or\nBrugia timori\nDay 1: 50mg PO\nDay 2: 50mg TID\nDay 3: 100mg TID\nDays 4-21: 6mg/kg/day divided TID",
+      "subsections": {
+        "Loa_Loa": {
+          "text": "Day 1: 50 mg PO PC\nDay 2: 50 mg PO TID\nDay 3: 100 mg PO TID\nDay 4-21: 9 mg/kg/day PO divided TID",
+          "tables": []
+        },
+        "Mansonella_streptocerca": {
+          "text": "6 mg/kg PO qDay x14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Wuchereria bancrofti",
+          "url": "https://wikem.org/wiki/Wuchereria_bancrofti"
+        },
+        {
+          "text": "Brugia malayi",
+          "url": "https://wikem.org/wiki/Brugia_malayi"
+        },
+        {
+          "text": "Brugia timori",
+          "url": "https://wikem.org/wiki/Brugia_timori"
+        }
+      ]
+    },
+    "Loa_Loa": {
+      "text": "Day 1: 50 mg PO PC\nDay 2: 50 mg PO TID\nDay 3: 100 mg PO TID\nDay 4-21: 9 mg/kg/day PO divided TID",
+      "subsections": {
+        "Mansonella_streptocerca": {
+          "text": "6 mg/kg PO qDay x14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mansonella_streptocerca": {
+      "text": "6 mg/kg PO qDay x14 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Day 1: 1 mg/kg orally after meals\nDay 2: 1 mg/kg orally three times daily\nDay 3: 1-2 mg/kg orally three times daily\nDay 4-14: 6 mg/kg/day orally divided three times daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Do not use diethylcarbamazine in pregnancy.",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Do not use diethylcarbamazine in pregnancy.",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis if allergic to Hetrazan",
+          "tables": []
+        },
+        "Common": {
+          "text": "Fever\nGI distress",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Anaphylaxis if allergic to Hetrazan",
+      "subsections": {
+        "Common": {
+          "text": "Fever\nGI distress",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Fever\nGI distress",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8hrs\nMetabolism: Partially metabolized to diethylcarbamazine N-oxide.\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ivermectin\nAlbendazole\nLoa Loa\nLymphatic filariasis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ivermectin",
+          "url": "https://wikem.org/wiki/Ivermectin"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Loa Loa",
+          "url": "https://wikem.org/wiki/Loa_Loa"
+        },
+        {
+          "text": "Lymphatic filariasis",
+          "url": "https://wikem.org/wiki/Lymphatic_filariasis"
+        }
+      ]
+    }
+  }
+}

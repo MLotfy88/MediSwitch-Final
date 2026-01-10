@@ -1,0 +1,219 @@
+{
+  "drug_name": "Dialysis_catheter_placement",
+  "url": "https://wikem.org/wiki/Dialysis_catheter_placement",
+  "scraped_at": "2026-01-10T07:51:50.872397",
+  "sections": {
+    "Overview": {
+      "text": "Procedure similar to\ncentral line\nplacement\nPrecise procedural differences will depend on type of line used\nGenerally, HD lines have\nlarger\ndiameters (12-14Fr) than TLCs and require additional dilation\nLength varies based on site of insertion\nRight Internal Jugular: 12-15 cm\nLeft Internal Jugular: 15-20 cm\nFemoral Vein: 19-24 cm\nHD catheters also tend to be more\nfirm\nand unforgiving than TLCs, so use caution and ultrasound!\nLocation selection\nConsider coagulopathy, prior surgeries, altered anatomy, ability to tolerate lying flat etc.\nGenerally, RIJ > LIJ > Femoral > subclavian\nRIJ\nDirect line to caval-atrial junction --> higher blood flow\nLess complications such as kinking, obstruction, stenosis\nUse 13.5Fr, 15cm catheter generally\nLIJ\nTortuosity--> reduced flows\nLong catheter (19.5cm usually) required\nFemoral vein\nEasier/faster but reduces patient mobility, higher risk of infection in longer term\nUse longest possible catheter to ensure tip reaches distal IVC\nSubclavian\nLeast preferred site because it is noncompressible\nDialysis catheters typically have 2 lumens (exceptions exist such as Trialysis catheters)\nRed lumen= \"arterial\" = carries blood away from patient to HD machine\nBlue lumen= \"venous\" = carries blood from machine back to patient\nTypes of dialysis catheters include:\nShiley\nNiagara\nTrialysis\nQuinton",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "central line",
+          "url": "https://wikem.org/wiki/Central_line"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "\"AEIOU\":\nAcidosis\nthat is severe/refractory to medical management\nElectrolyte derangement\n, typically severe, refractory\nhyperkalemia\nIngestion; severe or otherwise untreatable overdose with\ndialyzable drugs\n(e.g. methanol, ethylene glycol, lithium, salicylates)\nOverload of volume (e.g. hypervolemia) refractory to medical management\nUremia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Electrolyte derangement",
+          "url": "https://wikem.org/wiki/Electrolyte_derangement"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "dialyzable drugs",
+          "url": "https://wikem.org/wiki/Dialyzable_drugs"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "",
+      "subsections": {
+        "Absolute": {
+          "text": "Infection over the placement site\nAnatomic obstruction (thrombosis of target vein, other anatomic variance)\nSite-specific\nSubclavian - trauma/fracture to ipsilateral clavicle or proximal ribs",
+          "tables": []
+        },
+        "Relative": {
+          "text": "Coagulopathy (see below)\nDistortion of landmarks by trauma or congenital anomalies\nPrior vessel injury or procedures\nMorbid obesity\nUncooperative/combative patient",
+          "tables": []
+        },
+        "Central_line_if_coagulopathic": {
+          "text": "Preferentially use a compressible site such as the\nfemoral\nlocation (avoid the\nIJ\nand\nsubclavian\nif possible, though IJ preferred over subclavian)\nNo benefit to giving\nFFP\nunless artery is punctured\n[2]\nHowever, consider giving\nFFP\nif patient has\nhemophilia\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "IJ",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        }
+      ]
+    },
+    "Absolute": {
+      "text": "Infection over the placement site\nAnatomic obstruction (thrombosis of target vein, other anatomic variance)\nSite-specific\nSubclavian - trauma/fracture to ipsilateral clavicle or proximal ribs",
+      "subsections": {
+        "Relative": {
+          "text": "Coagulopathy (see below)\nDistortion of landmarks by trauma or congenital anomalies\nPrior vessel injury or procedures\nMorbid obesity\nUncooperative/combative patient",
+          "tables": []
+        },
+        "Central_line_if_coagulopathic": {
+          "text": "Preferentially use a compressible site such as the\nfemoral\nlocation (avoid the\nIJ\nand\nsubclavian\nif possible, though IJ preferred over subclavian)\nNo benefit to giving\nFFP\nunless artery is punctured\n[2]\nHowever, consider giving\nFFP\nif patient has\nhemophilia\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "IJ",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        }
+      ]
+    },
+    "Relative": {
+      "text": "Coagulopathy (see below)\nDistortion of landmarks by trauma or congenital anomalies\nPrior vessel injury or procedures\nMorbid obesity\nUncooperative/combative patient",
+      "subsections": {
+        "Central_line_if_coagulopathic": {
+          "text": "Preferentially use a compressible site such as the\nfemoral\nlocation (avoid the\nIJ\nand\nsubclavian\nif possible, though IJ preferred over subclavian)\nNo benefit to giving\nFFP\nunless artery is punctured\n[2]\nHowever, consider giving\nFFP\nif patient has\nhemophilia\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "IJ",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        }
+      ]
+    },
+    "Central_line_if_coagulopathic": {
+      "text": "Preferentially use a compressible site such as the\nfemoral\nlocation (avoid the\nIJ\nand\nsubclavian\nif possible, though IJ preferred over subclavian)\nNo benefit to giving\nFFP\nunless artery is punctured\n[2]\nHowever, consider giving\nFFP\nif patient has\nhemophilia\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "IJ",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "HD line kit\nSterile gown, cap, mask, gloves\nBiopatch\nTegaderm\nSterile saline flush\nSterile caps for lumen ports",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Identical to\nCVC placement\nwith exception that second dilator is used prior to inserting line\nMust ensure adequate flow with 20-ml syringe due to high flow through dialysis machine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVC placement",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "http://maryland.ccproject.com/2014/03/11/vascular-access-renal-replacement-therapy/\nhttp://www.laminatemedical.com/hemodialysis-catheter-placement/\nhttps://intensiveblog.com/mastering-vascath/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

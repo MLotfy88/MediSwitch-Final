@@ -1,0 +1,227 @@
+{
+  "drug_name": "Depleted_uranium_toxicity",
+  "url": "https://wikem.org/wiki/Depleted_uranium_toxicity",
+  "scraped_at": "2026-01-10T07:51:39.588654",
+  "sections": {
+    "Background": {
+      "text": "Uranium is an alpha-emitting, radioactive heavy metal that occurs naturally in nearly all rocks and soil. Natural uranium is made up of the three naturally occurring isotopes of uranium namely\n234\nU,\n235\nU, and\n238\nU. Naturally occurring uranium deposits are over 99%\n238\nU. You eat, drink, and breather natural uranium on a daily basis.\nHealth hazards of natural uranium have been studied extensively since 1940s. Health impact of Depleted Uranium (DU) has been studied since the early 1970s.\nEnrichment is the industrial process by which natural uranium is separated into enriched uranium which has an increased percentage of\n235\nU and depleted uranium which has a decreased percentage of\n235\nU.\nDU is a byproduct of the enrichment process.\nDU has 40% less radioactivity than natural uranium. It has a specific activity of 0.33 microCi/g.\nDU has the same chemical properties as naturally occurring uranium, it simply has different ratio of isotopes of\n234\nU,\n235\nU, and\n238\nU.\nDU health effects will be the same as for natural uranium because the toxicity is primarily due to the chemical toxicity rather than radiotoxicity.\nUnited States Armed Forces have used depleted uranium in the manufacture of ammunition, armor, and aircraft.\nDU's high density, self-sharpening quality and pyrophoricity make it a good choice for projectile munitions.\nDU's density makes it a good armor choice.\nDU's density also makes it a good choice for counterbalance weights used in aircraft and on helicopter rotors.",
+      "subsections": {
+        "Routes_of_exposure": {
+          "text": "Inhalation - minor route of exposure for general population. Major route for occupational population. On average in US individual daily intake of uranium is 0.007 micrograms by inhalation.\nOral - predominant route of exposure for general population through ingestion of food and drinking water. Average daily intake of uranium in US is 1.9 micrograms by ingestion.\nDermal - unlikely route of exposure for general population. Potential route of exposure for military service members.",
+          "tables": []
+        },
+        "Toxicokinetics": {
+          "text": "DU is poorly absorbed following inhalation, oral, or dermal exposure route.\nAmount absorbed heavily dependent on the solubility of the compound.\n<0.1-6% of uranium is absorbed following oral exposure.\n67% of uranium in blood is filtered in the kidneys and leaves body in urine within 24 hours. Remainder is distributed to tissues primarily bone, liver, and kidney.\nRetention half-time for uranium in bone is 70-200 days.\nRetention in body skeleton (66%), liver (16%), kidneys (8%), other tissues (10%)",
+          "tables": []
+        },
+        "Radiation_Toxicity": {
+          "text": "Alpha emitter thus not serious external radiation hazard. Alpha radiation has poor penetrating ability. Direct contact with bare DU for 250 hours is necessary to exceed annual occupational exposure limits.\nInternal exposure via inhalation, ingestion, wound contamination or retained fragments warrants some concern.\nChronic exposure by inhalation is potential radiologic hazard to the lung and thoracic lymph nodes.\nGenotoxicity, mutagenicity and reproductive effects are being studied.",
+          "tables": []
+        },
+        "Chemical_Toxicity": {
+          "text": "Kidney dysfunction main chemically-induced effect of uranium\nCan develop tubulopathy or renal tubular acidosis",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "'": "Isotope",
+            "Natural Uranium": "Concentration of isotope",
+            "Depleted Uranium": "Concentration of isotope"
+          },
+          {
+            "'": "234U",
+            "Natural Uranium": "0.0058%",
+            "Depleted Uranium": "0.0010%"
+          },
+          {
+            "'": "235U",
+            "Natural Uranium": "0.72%",
+            "Depleted Uranium": "0.20%"
+          },
+          {
+            "'": "238U",
+            "Natural Uranium": "99.28%",
+            "Depleted Uranium": "99.80%"
+          },
+          {
+            "'": "Relative Radioactivity",
+            "Natural Uranium": "1.0",
+            "Depleted Uranium": "0.6"
+          },
+          {
+            "'": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Routes_of_exposure": {
+      "text": "Inhalation - minor route of exposure for general population. Major route for occupational population. On average in US individual daily intake of uranium is 0.007 micrograms by inhalation.\nOral - predominant route of exposure for general population through ingestion of food and drinking water. Average daily intake of uranium in US is 1.9 micrograms by ingestion.\nDermal - unlikely route of exposure for general population. Potential route of exposure for military service members.",
+      "subsections": {
+        "Toxicokinetics": {
+          "text": "DU is poorly absorbed following inhalation, oral, or dermal exposure route.\nAmount absorbed heavily dependent on the solubility of the compound.\n<0.1-6% of uranium is absorbed following oral exposure.\n67% of uranium in blood is filtered in the kidneys and leaves body in urine within 24 hours. Remainder is distributed to tissues primarily bone, liver, and kidney.\nRetention half-time for uranium in bone is 70-200 days.\nRetention in body skeleton (66%), liver (16%), kidneys (8%), other tissues (10%)",
+          "tables": []
+        },
+        "Radiation_Toxicity": {
+          "text": "Alpha emitter thus not serious external radiation hazard. Alpha radiation has poor penetrating ability. Direct contact with bare DU for 250 hours is necessary to exceed annual occupational exposure limits.\nInternal exposure via inhalation, ingestion, wound contamination or retained fragments warrants some concern.\nChronic exposure by inhalation is potential radiologic hazard to the lung and thoracic lymph nodes.\nGenotoxicity, mutagenicity and reproductive effects are being studied.",
+          "tables": []
+        },
+        "Chemical_Toxicity": {
+          "text": "Kidney dysfunction main chemically-induced effect of uranium\nCan develop tubulopathy or renal tubular acidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxicokinetics": {
+      "text": "DU is poorly absorbed following inhalation, oral, or dermal exposure route.\nAmount absorbed heavily dependent on the solubility of the compound.\n<0.1-6% of uranium is absorbed following oral exposure.\n67% of uranium in blood is filtered in the kidneys and leaves body in urine within 24 hours. Remainder is distributed to tissues primarily bone, liver, and kidney.\nRetention half-time for uranium in bone is 70-200 days.\nRetention in body skeleton (66%), liver (16%), kidneys (8%), other tissues (10%)",
+      "subsections": {
+        "Radiation_Toxicity": {
+          "text": "Alpha emitter thus not serious external radiation hazard. Alpha radiation has poor penetrating ability. Direct contact with bare DU for 250 hours is necessary to exceed annual occupational exposure limits.\nInternal exposure via inhalation, ingestion, wound contamination or retained fragments warrants some concern.\nChronic exposure by inhalation is potential radiologic hazard to the lung and thoracic lymph nodes.\nGenotoxicity, mutagenicity and reproductive effects are being studied.",
+          "tables": []
+        },
+        "Chemical_Toxicity": {
+          "text": "Kidney dysfunction main chemically-induced effect of uranium\nCan develop tubulopathy or renal tubular acidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Exposure normally does\nnot\ncause symptoms, as small amounts are quickly passed\nIf significantly large exposure, can cause\nrenal damage\ndue to\nheavy metal\nproperties",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "renal damage",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "heavy metal",
+          "url": "https://wikem.org/wiki/Heavy_metal"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Alpha\nradiation exposure\nHeavy metal toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Patients who feel they have been exposed to high levels of DU should be evaluated",
+      "subsections": {
+        "History": {
+          "text": "Circumstances : date, time, route of exposure, amount\nEvidence of wound or embedded fragments?\nProlonged skin contact i.e. through keeping of a souvenir?",
+          "tables": []
+        },
+        "Workup": {
+          "text": "UA\nCBC\nBMP for renal function\nCXR\nif significant inhalation exposure\nTests for uranium exposure if close proximity/large exposure or any abnormalities:\nBeta-2 microglobulin 24h urine to evaluate for tubulopathy\nUrine uranium level; if elevated, check 24h excreted DU level to include isotope-specific ratios",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "History": {
+      "text": "Circumstances : date, time, route of exposure, amount\nEvidence of wound or embedded fragments?\nProlonged skin contact i.e. through keeping of a souvenir?",
+      "subsections": {
+        "Workup": {
+          "text": "UA\nCBC\nBMP for renal function\nCXR\nif significant inhalation exposure\nTests for uranium exposure if close proximity/large exposure or any abnormalities:\nBeta-2 microglobulin 24h urine to evaluate for tubulopathy\nUrine uranium level; if elevated, check 24h excreted DU level to include isotope-specific ratios",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Exam": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "UA\nCBC\nBMP for renal function\nCXR\nif significant inhalation exposure\nTests for uranium exposure if close proximity/large exposure or any abnormalities:\nBeta-2 microglobulin 24h urine to evaluate for tubulopathy\nUrine uranium level; if elevated, check 24h excreted DU level to include isotope-specific ratios",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "UA\nCBC\nBMP for renal function\nCXR\nif significant inhalation exposure\nTests for uranium exposure if close proximity/large exposure or any abnormalities:\nBeta-2 microglobulin 24h urine to evaluate for tubulopathy\nUrine uranium level; if elevated, check 24h excreted DU level to include isotope-specific ratios",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Remove patient from exposure\nExternally decontaminate if residue present on patient\nBase further treatment on symptoms observed\nRenal tubulopathy treatment:\nNeeds to be initiated early, prior to fixation of uranium in the skeleton\nSodium bicarbonate\nto alkalinize urine\nConsider heavy metal chelation therapy\nMonitor renal function",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most cases of exposure have no permanent effect\nLikelihood to develop any health effects is low\nIf exposure is via inhalation and significant amounts of insoluble uranium compounds deposited in lungs than patient will need long-term surveillance/follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Agency for Toxic Substances and Disease Registry (ATSDR), Toxicological Profile for Uranium (Update), February 2013.\nMcDiarmid, M.A. (2001).\nDepleted uranium and public health\n. BMJ, 322(7279), 123-124.\nU.S. Army Environmental Policy Institute (AEPI). (June 1995). Health and Environmental Consequences of Depleted Uranium Use in the U.S. Army: Technical Report.\nDepartment of Defense. (August 4, 1998). Health Effects of Depleted Uranium - Fact Sheet.\nU.S. Army Environmental Policy Institute, (AEPI). (June 1994). Health and Environmental Consequences of Depleted Uranium Use by the U.S. Army, Summary Report to Congress.\nWorld Health Organization (WHO), Guidance On Exposure to DU- For Medical Officers and Programme Administrators, 2001.\nWorld Health Organization (WHO), Depleted Uranium: Sources, Exposure and Health Effects, 2001.\nWorld Health Organization (WHO), Depleted Uranium Fact Sheet, revised January 2003.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "drug_name": "DiGeorge_syndrome",
+  "url": "https://wikem.org/wiki/DiGeorge_syndrome",
+  "scraped_at": "2026-01-10T07:51:45.001752",
+  "sections": {
+    "Background": {
+      "text": "The most common microdeletion disorder in humans\n[1]\nAs prevalent as 1/2000 people in US\n22q11 chromosomal defect\nCause by a de novo heterozygous deletion of approximately 2.5 mb in length on chromosome 22q11.\n[2]\nKeep in differential for\nhypocalcemia\nof unknown etiology in pediatric patient",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Clinical_features": {
+      "text": "",
+      "subsections": {
+        "CATCH-22": {
+          "text": "Cardiac defects (commonly interrupted aortic arch,\ntruncus arteriosus\nand\ntetralogy of Fallot\n)\nAbnormal facies - micrognathia, long face, etc.\nThymic hypoplasia - immune deficiencies\nCleft palate\nHypocalcemia\ndue to\nhypoparathyroidism\nAdditional phenotypes include neurodevelopmental defects and urogenital malformations.\nCongenital kidney and urinary tract anomalies are present in approximately 30% of the patients with the DiGeorge syndrome.\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "tetralogy of Fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_Fallot"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypoparathyroidism",
+          "url": "https://wikem.org/wiki/Hypoparathyroidism"
+        }
+      ]
+    },
+    "CATCH-22": {
+      "text": "Cardiac defects (commonly interrupted aortic arch,\ntruncus arteriosus\nand\ntetralogy of Fallot\n)\nAbnormal facies - micrognathia, long face, etc.\nThymic hypoplasia - immune deficiencies\nCleft palate\nHypocalcemia\ndue to\nhypoparathyroidism\nAdditional phenotypes include neurodevelopmental defects and urogenital malformations.\nCongenital kidney and urinary tract anomalies are present in approximately 30% of the patients with the DiGeorge syndrome.\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "tetralogy of Fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_Fallot"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypoparathyroidism",
+          "url": "https://wikem.org/wiki/Hypoparathyroidism"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Disease involves multiple systems and thus management depends on presentating chief complaint.\nIdentify and treat\nhypocalcemia\nas these patients are at risk for seizures\n[6]\nVitamin D supplementation may also be needed\nPsychiatric Disorders (60%)\nThrombocytopenia\n(30%)\nHypothyroidism\n(20%)\nCholelithiasis\n(20%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Cholelithiasis",
+          "url": "https://wikem.org/wiki/Cholelithiasis"
+        }
+      ]
+    }
+  }
+}

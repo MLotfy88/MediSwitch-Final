@@ -1,0 +1,263 @@
+{
+  "drug_name": "Diabetes_insipidus",
+  "url": "https://wikem.org/wiki/Diabetes_insipidus",
+  "scraped_at": "2026-01-10T07:51:44.496976",
+  "sections": {
+    "Background": {
+      "text": "Characterized as either:\nCentral Diabetes Insipidus (or neurogenic DI)\nDeficient secretion of antidiuretic hormone (ADH)\nNephrogenic DI\nNormal ADH secretion but decreased renal sensitivity to ADH\nCauses\nhypernatremia",
+      "subsections": {
+        "Causes": {
+          "text": "Central DI\nCancer\nPituitary surgery\nHead trauma\nIdiopathic\nNephrogenic DI\nRenal disease\nDrug Induced (e.g\nLithium\n)\nHypokalemia\nHypercalcemia\nPolycystic kidney disease\nSjögren syndrome\nAmyloidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Renal disease",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Central DI\nCancer\nPituitary surgery\nHead trauma\nIdiopathic\nNephrogenic DI\nRenal disease\nDrug Induced (e.g\nLithium\n)\nHypokalemia\nHypercalcemia\nPolycystic kidney disease\nSjögren syndrome\nAmyloidosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Renal disease",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Hypernatremia\nDecreased urine osmolality\nDehydration\nIrritability\nTremors\nAtaxia\nHyperreflexia\nSpasms\nSeizures\nDeath",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Tremors",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hypernatremia": {
+          "text": "Water loss:\nDecreased Intake\nWater loss > Na loss\nVomiting\nDiarrhea\nSweating\nDialysis\nOsmotic diuresis\nCentral DI\nHead Trauma\nCVA\nTumor\nMeningitis\nNephrogenic DI\nThyrotoxicosis\nSodium gain:\nIncreased intake\nNa intake\nNaBicarb\nIncorrect preparation of infant formula\nRenal Na retention (secondary to poor perfusion)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Dialysis",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        },
+        {
+          "text": "Central DI",
+          "url": "https://wikem.org/wiki/Central_DI"
+        },
+        {
+          "text": "Head Trauma",
+          "url": "https://wikem.org/wiki/Head_Trauma"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Nephrogenic DI",
+          "url": "https://wikem.org/wiki/Nephrogenic_DI"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        }
+      ]
+    },
+    "Hypernatremia": {
+      "text": "Water loss:\nDecreased Intake\nWater loss > Na loss\nVomiting\nDiarrhea\nSweating\nDialysis\nOsmotic diuresis\nCentral DI\nHead Trauma\nCVA\nTumor\nMeningitis\nNephrogenic DI\nThyrotoxicosis\nSodium gain:\nIncreased intake\nNa intake\nNaBicarb\nIncorrect preparation of infant formula\nRenal Na retention (secondary to poor perfusion)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Dialysis",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        },
+        {
+          "text": "Central DI",
+          "url": "https://wikem.org/wiki/Central_DI"
+        },
+        {
+          "text": "Head Trauma",
+          "url": "https://wikem.org/wiki/Head_Trauma"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Nephrogenic DI",
+          "url": "https://wikem.org/wiki/Nephrogenic_DI"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Urine specific gravity < 1.010\nMeasure serum and urine sodium while patient is water-deprived\nLack of response to water deprivation is diagnostic\nSerum Osm >295 mOsm/L\nRecord response to 5 units subcutaneous\nvasopressin\nResponse to\nvasopressin\nis diagnostic of central DI (response is indicated by urine osm >800 mOsm/L)\nNo response is diagnostic of nephrogenic DI\nIn adults, onset of central DI usually abrupt whereas onset gradual in nephrogenic DI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Place foley for strict I/Os\nVolume repletion with\nnormal saline\nor lactated ringers solution\nPatients will be water-deprived\nCalculate water deficit: Water deficit (in Liters) = [(Body weight(kg)x0.6)x((Measured sodium/Normal sodium)-1)]\nSerum sodium should not decrease by more than 10-15 mEq/L per day in chronic cases of hypernatremia\nOver-aggressive reduction of serum sodium may result in cerebral edema secondary to presence of idiogenic osmoles the build up in brain cells when exposed to chronic hypernatremia\nIf patient acutely hypernatremic, idiogenic osmoles have not had time to build up in brain tissue and rapid correction of hypernatremia would not develop cerebral edema\nNephrogenic diabetes insipidus\n[1]\nLow-salt, low-protein diet\nHydrochlorothiazide\n25mg BID\nIndomethacin\nhas greater effect at reducing urine output than ibuprofen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission for further workup and/or volume replacement\nNephrology follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypernatremia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        }
+      ]
+    }
+  }
+}

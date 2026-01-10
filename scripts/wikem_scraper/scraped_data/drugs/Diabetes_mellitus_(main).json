@@ -1,0 +1,246 @@
+{
+  "drug_name": "Diabetes_mellitus_(main)",
+  "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)",
+  "scraped_at": "2026-01-10T07:51:45.378368",
+  "sections": {
+    "Background": {
+      "text": "Growing in worldwide prevalence\nResults from either inability of the body to release insulin from the pancreas or a resistance against the actions of insulin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Patients with diabetes may be asymptomatic\nAcute symptoms range from those of\nnonketotic hyperglycemia\n(e.g. polyuria, polydipsia, polyphagia) to\nDKA\n(ill appearance, acetone breath, Kussmaul's breathing, somnolence)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hyperglycemia": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Hyperglycemia": {
+      "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diabetes mellitus itself is not normally a diagnosis sought in the emergency department (i.e. via A1C)\nHyperglycemia can be found on laboratory testing\nAsymptomatic patients do not necessarily require additional testing\nSymptomatic or potentially symptomatic patients require additional testing\nCheck CBC, BMP, and ketones (if sick, additionally see\nDKA\nworkup)\nUA is only necessary if you are ruling out urinary infection or do not have serum ketones available and are using it as a screening mechanism\nObtaining HbA1c prior to initiation of therapy helpful to establish a baseline",
+      "subsections": {
+        "American_Diabetes_Association_Diagnostic_Criteria": {
+          "text": "Need 1 of the following:\n[1]\nHbA1C ≥6.5%\nFPG ≥126mg/dL (7.0 mmol/L). Fasting is defined as no caloric intake for at least eight hours\nTwo-hour plasma glucose ≥200mg/dL (11.1 mmol/L) during an oral glucose tolerance test\nIn a patient with classic symptoms of hyperglycemia or hyperglycemic crisis, a random plasma glucose ≥200mg/dL (11.1 mmol/L)\nMost common way diagnosed in ED",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        }
+      ]
+    },
+    "American_Diabetes_Association_Diagnostic_Criteria": {
+      "text": "Need 1 of the following:\n[1]\nHbA1C ≥6.5%\nFPG ≥126mg/dL (7.0 mmol/L). Fasting is defined as no caloric intake for at least eight hours\nTwo-hour plasma glucose ≥200mg/dL (11.1 mmol/L) during an oral glucose tolerance test\nIn a patient with classic symptoms of hyperglycemia or hyperglycemic crisis, a random plasma glucose ≥200mg/dL (11.1 mmol/L)\nMost common way diagnosed in ED",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "There is no need to treat the glucose \"number\" (i.e.\nnonketotic hyperglycemia\nin the emergency setting (i.e. with insulin)\nHigher discharge glucose levels are not associated with a greater risk of repeated ED visits, hospitalization, or other adverse outcomes.\nFor\nhyperosmolar hyperglycemic state\n,\nDKA\n, or another specific process see that particular page",
+      "subsections": {
+        "Type_II_Diabetes_Outpatient_Management": {
+          "text": "1st line:\nMetformin\n500mg BID → 1000mg BID, do not give in people with abnormal LFT's, CHF Stage 3/4 and ARI, CKD\n2nd Agent:\nGlipizide\nstart 2.5mg BID → 5mg BID, need to monitor for hypoglycemia\n3rd Agent:\nPioglitazone\nAfter 3 agents: need to start\ninsulin\nif not controlled\nNPH BID or Lantus Qday (0.1 to 0.2mg/kg) and titrate to Fasting Blood Sugar",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Higher discharge glucose levels are not associated with a greater risk of repeated ED visits, hospitalization, or other adverse outcomes.",
+          "url": "https://wikem.org/wiki/EBQ:Relevance_of_Discharge_Glucose_Levels"
+        },
+        {
+          "text": "hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/HHS"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Glipizide",
+          "url": "https://wikem.org/wiki/Glipizide"
+        },
+        {
+          "text": "Pioglitazone",
+          "url": "https://wikem.org/wiki/Pioglitazone"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        }
+      ]
+    },
+    "Type_II_Diabetes_Outpatient_Management": {
+      "text": "1st line:\nMetformin\n500mg BID → 1000mg BID, do not give in people with abnormal LFT's, CHF Stage 3/4 and ARI, CKD\n2nd Agent:\nGlipizide\nstart 2.5mg BID → 5mg BID, need to monitor for hypoglycemia\n3rd Agent:\nPioglitazone\nAfter 3 agents: need to start\ninsulin\nif not controlled\nNPH BID or Lantus Qday (0.1 to 0.2mg/kg) and titrate to Fasting Blood Sugar",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Glipizide",
+          "url": "https://wikem.org/wiki/Glipizide"
+        },
+        {
+          "text": "Pioglitazone",
+          "url": "https://wikem.org/wiki/Pioglitazone"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Asymptomatic patients or those with\nnonketotic hyperglycemia\ncan be discharged with follow up with primary care physician\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hypoglycemia\nEvidence Review Sodium Bicarbonate in DKA\nEBQ:Relevance of Discharge Glucose Levels",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Evidence Review Sodium Bicarbonate in DKA",
+          "url": "https://wikem.org/wiki/EBQ:Sodium_Bicarbonate_use_in_DKA"
+        },
+        {
+          "text": "EBQ:Relevance of Discharge Glucose Levels",
+          "url": "https://wikem.org/wiki/EBQ:Relevance_of_Discharge_Glucose_Levels"
+        }
+      ]
+    }
+  }
+}

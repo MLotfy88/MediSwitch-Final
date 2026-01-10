@@ -1,0 +1,364 @@
+{
+  "drug_name": "Diarrhea_(peds)",
+  "url": "https://wikem.org/wiki/Diarrhea_(peds)",
+  "scraped_at": "2026-01-10T07:51:53.205483",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "85% of diarrhea is infectious in etiology\nViruses\ncause vast majority of infectious diarrhea\nBacterial\ncauses are responsible for most cases of severe diarrhea\nForeign travel associated with 80% probability of bacterial diarrhea (see\nTraveler's Diarrhea\n)",
+      "subsections": {
+        "Definitions": {
+          "text": "Diarrhea\n: Increased frequency of defection, usually >3 bowel movements per day\nHyperacute: 1-6 hr\nAcute: less than 3 weeks in duration\nGastroenteritis\n: Diarrhea with nausea and/or vomiting\nDysentery: Diarrhea with blood/mucus/pus\nInvasive = Infectious",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Definitions": {
+      "text": "Diarrhea\n: Increased frequency of defection, usually >3 bowel movements per day\nHyperacute: 1-6 hr\nAcute: less than 3 weeks in duration\nGastroenteritis\n: Diarrhea with nausea and/or vomiting\nDysentery: Diarrhea with blood/mucus/pus\nInvasive = Infectious",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Possible food poisoning?\nSymptoms occur within 6hr\nDoes it resolve (osmotic) or persist (secretory) with fasting?\nAre the stools of smaller volume (large intestine) or larger volume (small intestine)\nFever\nor\nabdominal pain\n? (\ndiverticulitis\n,\ngastroenteritis\n,\nIBD\n)\nBloody or melenic\n?\nTenesmus? (\nshigella\n)\nMalodorous? (\ngiardia\n)\nRecent travel? (\nTraveler's Diarrhea\n)\nRecent antibiotics? (\nC. diff\n)\nHIV\n/immunocompromised/high risk behaviors?\nHeat intolerance and anxiety? (\nthyrotoxicosis\n)\nParesthesias\nor reverse temperature sensation? (\nCiguatera\n)",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Thyroid\nmasses\nOral ulcers, erythema nodosum, episcleritis,\nanal fissure\n(\nIBD\n)\nReactive arthritis\n(\nArthritis\n,\nconjunctivitis\n, urethritis)\nSuggests infection with\nsalmonella\n,\nshigella\n,\ncampylobacter\n, or\nyersinia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "History": {
+      "text": "Possible food poisoning?\nSymptoms occur within 6hr\nDoes it resolve (osmotic) or persist (secretory) with fasting?\nAre the stools of smaller volume (large intestine) or larger volume (small intestine)\nFever\nor\nabdominal pain\n? (\ndiverticulitis\n,\ngastroenteritis\n,\nIBD\n)\nBloody or melenic\n?\nTenesmus? (\nshigella\n)\nMalodorous? (\ngiardia\n)\nRecent travel? (\nTraveler's Diarrhea\n)\nRecent antibiotics? (\nC. diff\n)\nHIV\n/immunocompromised/high risk behaviors?\nHeat intolerance and anxiety? (\nthyrotoxicosis\n)\nParesthesias\nor reverse temperature sensation? (\nCiguatera\n)",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Thyroid\nmasses\nOral ulcers, erythema nodosum, episcleritis,\nanal fissure\n(\nIBD\n)\nReactive arthritis\n(\nArthritis\n,\nconjunctivitis\n, urethritis)\nSuggests infection with\nsalmonella\n,\nshigella\n,\ncampylobacter\n, or\nyersinia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Physical_Exam": {
+      "text": "Thyroid\nmasses\nOral ulcers, erythema nodosum, episcleritis,\nanal fissure\n(\nIBD\n)\nReactive arthritis\n(\nArthritis\n,\nconjunctivitis\n, urethritis)\nSuggests infection with\nsalmonella\n,\nshigella\n,\ncampylobacter\n, or\nyersinia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infection": {
+          "text": "Viral\nRotavirus\nNorovirus\n, Norwalk virus\nEnterovirus\nAdenovirus\nBacterial\nSalmonella\nShigella\nYersinia\nCampylobacter\nEscherichia coli\nVibrio\nspecies\nClostridium difficile\nTB\nParasitic\nGiardia\nEntamoeba\nCryptosporidium",
+          "tables": []
+        },
+        "Dietary_disturbances": {
+          "text": "Overfeeding\nFood\nallergy\nStarvation stools",
+          "tables": []
+        },
+        "Anatomic_abnormalities": {
+          "text": "Intussusception\nHirschsprung's disease\nPartial\nSBO\nAppendicitis\nBlind loop syndrome\nIntestinal lymphangiectasia\nShort bowel syndrome",
+          "tables": []
+        },
+        "Malabsorption_or_secretory_diseases": {
+          "text": "Cystic fibrosis\nCeliac disease\nDisaccharidase deficiency\nSecretory neoplasms",
+          "tables": []
+        },
+        "Systemic_diseases": {
+          "text": "Immunodeficiency\nEndocrinopathy\nHyperthyroidism\nHypoparathyroidism\nCongenital adrenal hyperplasia",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Inflammatory bowel disease\nAntibiotic\n-associated diarrhea\nSecondary lactase deficiency\nIrritable colon syndrome\nNeonatal abstinence syndrome\nToxins\nHemolytic uremic syndrome\n(HUS)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infection": {
+      "text": "Viral\nRotavirus\nNorovirus\n, Norwalk virus\nEnterovirus\nAdenovirus\nBacterial\nSalmonella\nShigella\nYersinia\nCampylobacter\nEscherichia coli\nVibrio\nspecies\nClostridium difficile\nTB\nParasitic\nGiardia\nEntamoeba\nCryptosporidium",
+      "subsections": {
+        "Dietary_disturbances": {
+          "text": "Overfeeding\nFood\nallergy\nStarvation stools",
+          "tables": []
+        },
+        "Anatomic_abnormalities": {
+          "text": "Intussusception\nHirschsprung's disease\nPartial\nSBO\nAppendicitis\nBlind loop syndrome\nIntestinal lymphangiectasia\nShort bowel syndrome",
+          "tables": []
+        },
+        "Malabsorption_or_secretory_diseases": {
+          "text": "Cystic fibrosis\nCeliac disease\nDisaccharidase deficiency\nSecretory neoplasms",
+          "tables": []
+        },
+        "Systemic_diseases": {
+          "text": "Immunodeficiency\nEndocrinopathy\nHyperthyroidism\nHypoparathyroidism\nCongenital adrenal hyperplasia",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Inflammatory bowel disease\nAntibiotic\n-associated diarrhea\nSecondary lactase deficiency\nIrritable colon syndrome\nNeonatal abstinence syndrome\nToxins\nHemolytic uremic syndrome\n(HUS)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dietary_disturbances": {
+      "text": "Overfeeding\nFood\nallergy\nStarvation stools",
+      "subsections": {
+        "Anatomic_abnormalities": {
+          "text": "Intussusception\nHirschsprung's disease\nPartial\nSBO\nAppendicitis\nBlind loop syndrome\nIntestinal lymphangiectasia\nShort bowel syndrome",
+          "tables": []
+        },
+        "Malabsorption_or_secretory_diseases": {
+          "text": "Cystic fibrosis\nCeliac disease\nDisaccharidase deficiency\nSecretory neoplasms",
+          "tables": []
+        },
+        "Systemic_diseases": {
+          "text": "Immunodeficiency\nEndocrinopathy\nHyperthyroidism\nHypoparathyroidism\nCongenital adrenal hyperplasia",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Inflammatory bowel disease\nAntibiotic\n-associated diarrhea\nSecondary lactase deficiency\nIrritable colon syndrome\nNeonatal abstinence syndrome\nToxins\nHemolytic uremic syndrome\n(HUS)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anatomic_abnormalities": {
+      "text": "Intussusception\nHirschsprung's disease\nPartial\nSBO\nAppendicitis\nBlind loop syndrome\nIntestinal lymphangiectasia\nShort bowel syndrome",
+      "subsections": {
+        "Malabsorption_or_secretory_diseases": {
+          "text": "Cystic fibrosis\nCeliac disease\nDisaccharidase deficiency\nSecretory neoplasms",
+          "tables": []
+        },
+        "Systemic_diseases": {
+          "text": "Immunodeficiency\nEndocrinopathy\nHyperthyroidism\nHypoparathyroidism\nCongenital adrenal hyperplasia",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Inflammatory bowel disease\nAntibiotic\n-associated diarrhea\nSecondary lactase deficiency\nIrritable colon syndrome\nNeonatal abstinence syndrome\nToxins\nHemolytic uremic syndrome\n(HUS)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Malabsorption_or_secretory_diseases": {
+      "text": "Cystic fibrosis\nCeliac disease\nDisaccharidase deficiency\nSecretory neoplasms",
+      "subsections": {
+        "Systemic_diseases": {
+          "text": "Immunodeficiency\nEndocrinopathy\nHyperthyroidism\nHypoparathyroidism\nCongenital adrenal hyperplasia",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Inflammatory bowel disease\nAntibiotic\n-associated diarrhea\nSecondary lactase deficiency\nIrritable colon syndrome\nNeonatal abstinence syndrome\nToxins\nHemolytic uremic syndrome\n(HUS)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Systemic_diseases": {
+      "text": "Immunodeficiency\nEndocrinopathy\nHyperthyroidism\nHypoparathyroidism\nCongenital adrenal hyperplasia",
+      "subsections": {
+        "Miscellaneous": {
+          "text": "Inflammatory bowel disease\nAntibiotic\n-associated diarrhea\nSecondary lactase deficiency\nIrritable colon syndrome\nNeonatal abstinence syndrome\nToxins\nHemolytic uremic syndrome\n(HUS)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Miscellaneous": {
+      "text": "Inflammatory bowel disease\nAntibiotic\n-associated diarrhea\nSecondary lactase deficiency\nIrritable colon syndrome\nNeonatal abstinence syndrome\nToxins\nHemolytic uremic syndrome\n(HUS)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Treatment": {
+          "text": "Reduced-osmolarity oral rehydration solution\nIf\nbloody diarrhea\n, use caution with beginning antibiotics in ED before stool culture results\nSome studies demonstrate antibiotic treatment in setting of\nE.coli\nO157:H7 leads to increasing risk of\nhemolytic uremic syndrome\n(HUS)",
+          "tables": []
+        },
+        "Diarrheal_Pathogens_in_Children_and_Specific_Therapy": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "AGENT": "Campylobacter jejuni",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Azithromycin12mg/kg/day PO for 5 daysor"
+              },
+              {
+                "AGENT": "Erythromycin30–50mg/kg/day, divided, tid PO for 5–7 days"
+              },
+              {
+                "AGENT": "Clostridium difficile",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Metronidazole30mg/kg/day, divided, QID PO for 7–10 daysor"
+              },
+              {
+                "AGENT": "Escherichia coli",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Azithromycin12mg/kg/day PO for 5 daysor"
+              },
+              {
+                "AGENT": "Trimethoprim-sulfamethoxazole10mg (TMP)/kg/day PO divided BID for 5–7 days"
+              },
+              {
+                "AGENT": "Giardialamblia",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Metronidazole15mg/kg/day PO, divided, tid for 5 days"
+              },
+              {
+                "AGENT": "Salmonellaspecies",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "In toxic infants <3mo:Ampicillin200mg/kg/24 hours q6h for 7–10 daysandGentamicin5–7.5mg/kg/24 hours q8h IV"
+              },
+              {
+                "AGENT": "Shigellaspecies",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Azithromycin12mg/kg/day PO for 5 daysor"
+              },
+              {
+                "AGENT": "Trimethoprim-sulfamethoxazole10mg (TMP)/kg/day, divided, BID for 5–7 days if susceptible"
+              },
+              {
+                "AGENT": "Yersinia enterocolitica",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "If patient is immunosuppressed, treat as for presumed sepsis"
+              },
+              {
+                "AGENT": "Vibrio cholera",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "None; severe diarrhea or cholera may benefit from antibiotics"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_Treatment": {
+      "text": "Reduced-osmolarity oral rehydration solution\nIf\nbloody diarrhea\n, use caution with beginning antibiotics in ED before stool culture results\nSome studies demonstrate antibiotic treatment in setting of\nE.coli\nO157:H7 leads to increasing risk of\nhemolytic uremic syndrome\n(HUS)",
+      "subsections": {
+        "Diarrheal_Pathogens_in_Children_and_Specific_Therapy": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "AGENT": "Campylobacter jejuni",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Azithromycin12mg/kg/day PO for 5 daysor"
+              },
+              {
+                "AGENT": "Erythromycin30–50mg/kg/day, divided, tid PO for 5–7 days"
+              },
+              {
+                "AGENT": "Clostridium difficile",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Metronidazole30mg/kg/day, divided, QID PO for 7–10 daysor"
+              },
+              {
+                "AGENT": "Escherichia coli",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Azithromycin12mg/kg/day PO for 5 daysor"
+              },
+              {
+                "AGENT": "Trimethoprim-sulfamethoxazole10mg (TMP)/kg/day PO divided BID for 5–7 days"
+              },
+              {
+                "AGENT": "Giardialamblia",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Metronidazole15mg/kg/day PO, divided, tid for 5 days"
+              },
+              {
+                "AGENT": "Salmonellaspecies",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "In toxic infants <3mo:Ampicillin200mg/kg/24 hours q6h for 7–10 daysandGentamicin5–7.5mg/kg/24 hours q8h IV"
+              },
+              {
+                "AGENT": "Shigellaspecies",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Azithromycin12mg/kg/day PO for 5 daysor"
+              },
+              {
+                "AGENT": "Trimethoprim-sulfamethoxazole10mg (TMP)/kg/day, divided, BID for 5–7 days if susceptible"
+              },
+              {
+                "AGENT": "Yersinia enterocolitica",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "If patient is immunosuppressed, treat as for presumed sepsis"
+              },
+              {
+                "AGENT": "Vibrio cholera",
+                "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "None; severe diarrhea or cholera may benefit from antibiotics"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diarrheal_Pathogens_in_Children_and_Specific_Therapy": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "AGENT": "Campylobacter jejuni",
+            "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Azithromycin12mg/kg/day PO for 5 daysor"
+          },
+          {
+            "AGENT": "Erythromycin30–50mg/kg/day, divided, tid PO for 5–7 days"
+          },
+          {
+            "AGENT": "Clostridium difficile",
+            "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Metronidazole30mg/kg/day, divided, QID PO for 7–10 daysor"
+          },
+          {
+            "AGENT": "Escherichia coli",
+            "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Azithromycin12mg/kg/day PO for 5 daysor"
+          },
+          {
+            "AGENT": "Trimethoprim-sulfamethoxazole10mg (TMP)/kg/day PO divided BID for 5–7 days"
+          },
+          {
+            "AGENT": "Giardialamblia",
+            "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Metronidazole15mg/kg/day PO, divided, tid for 5 days"
+          },
+          {
+            "AGENT": "Salmonellaspecies",
+            "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "In toxic infants <3mo:Ampicillin200mg/kg/24 hours q6h for 7–10 daysandGentamicin5–7.5mg/kg/24 hours q8h IV"
+          },
+          {
+            "AGENT": "Shigellaspecies",
+            "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "Azithromycin12mg/kg/day PO for 5 daysor"
+          },
+          {
+            "AGENT": "Trimethoprim-sulfamethoxazole10mg (TMP)/kg/day, divided, BID for 5–7 days if susceptible"
+          },
+          {
+            "AGENT": "Yersinia enterocolitica",
+            "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "If patient is immunosuppressed, treat as for presumed sepsis"
+          },
+          {
+            "AGENT": "Vibrio cholera",
+            "SPECIFIC THERAPY BEYOND SUPPORTIVE CARE": "None; severe diarrhea or cholera may benefit from antibiotics"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diarrhea\nDehydration (peds)\nNausea and vomiting (peds)\nAcute gastroenteritis (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "drug_name": "Diagnostic_peritoneal_lavage",
+  "url": "https://wikem.org/wiki/Diagnostic_peritoneal_lavage",
+  "scraped_at": "2026-01-10T07:51:46.431994",
+  "sections": {
+    "Overview": {
+      "text": "Largely historical significance\nSupplanted by\nFAST\nand CT\n[1]\nCan be done at bedside, but is invasive\nHistorical gold standard for evaluation of intra-peritoneal bleed in abdominal trauma",
+      "subsections": {
+        "Two_part_procedure": {
+          "text": "Diagnostic peritoneal aspiration (DPA)\nFluid aspirated from peritoneal cavity for analysis\nDiagnostic peritoneal lavage (DPL)\nFluid instilled into peritoneal cavity, then drained for analysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        }
+      ]
+    },
+    "Two_part_procedure": {
+      "text": "Diagnostic peritoneal aspiration (DPA)\nFluid aspirated from peritoneal cavity for analysis\nDiagnostic peritoneal lavage (DPL)\nFluid instilled into peritoneal cavity, then drained for analysis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Evaluation for intra-peritoneal hemorrhage in hemodynamically unstable patient when FAST and CT are not available or appropriate\nBlunt abdominal trauma\nTangential gunshot wounds\nAid in diagnosis of diaphragmatic injury\nEvaluation for peritoneal penetration of flank and anterior abdominal stab wounds when local wound exploration inconclusive",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "",
+      "subsections": {
+        "Absolute": {
+          "text": "Clear indication for immediate laparotomy",
+          "tables": []
+        },
+        "Relative": {
+          "text": "Prior abdominal operations\nCoagulopathy\nAdvanced cirrhosis\nMorbid obesity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Absolute": {
+      "text": "Clear indication for immediate laparotomy",
+      "subsections": {
+        "Relative": {
+          "text": "Prior abdominal operations\nCoagulopathy\nAdvanced cirrhosis\nMorbid obesity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Relative": {
+      "text": "Prior abdominal operations\nCoagulopathy\nAdvanced cirrhosis\nMorbid obesity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Foley catheter and nasogastric tube\nPlace prior to DPL to decrease risk of injury to bladder or stomach\nLocal anesthetic\n1%\nlidocaine\nwith epinephrine\nCommercial DPL kit\nAlternately, abdominal access kit for laparoscopy and rigid peritoneal dialysis catheter",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Abdominal_access": {
+          "text": "Mark insertion site\nThree possibilities:\nInfra-umbilical\n2 cm below umbilicus\nStandard site\nSupra-umbilical\nPreferred in pregnant trauma patients\nPreferred in presence of pelvic facture\nPrep site with antiseptic",
+          "tables": []
+        },
+        "Open_Technique": {
+          "text": "Use scalpel to incise skin\nDissect through skin, fascia, and peritoneum under direct visualization\nNote that this is the preferred technique when precise insertion of catheter is critical (pregnant patients, patients with pelvic fractures who may have large hematoma)",
+          "tables": []
+        },
+        "Semi-Open_Technique": {
+          "text": "Open skin and fascia under direct visualisation\nInsert needle through peritoneum\nUse Seldinger technique to pass wire through needle\nPass catheter over wire and remove wire\nSecure catheter",
+          "tables": []
+        },
+        "Closed_Technique": {
+          "text": "Make small nick through skin\nBlindly pass needle through linea alba and into peritoneum\nUse Seldinger technique to pass wire and insert catheter as in the semi-open technique\nNote that this technique is faster than open and semi-open techniques but has a higher risk of complications and should be avoided in presence of pelvic fracture or prior midline surgical incision",
+          "tables": []
+        },
+        "Diagnostic_peritoneal_aspiration_(DPA)": {
+          "text": "Aspirate fluid from peritoneal cavity\nIf >10 mL blood or enteric contents, test is positive and it is not necessary to instil lavage fluid",
+          "tables": []
+        },
+        "Diagnostic_peritoneal_lavage_(DPL)": {
+          "text": "Instil 1L warm saline into abdomen via catheter\nAllow fluid to immediately drain passively\nDo not separate catheter and tubing between instillation and removal\nSend fluid for analysis\nIdeally, send full litre of instilled fluid, but analysis can be performed on as little as 300 mL if unable to obtain entire litre",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abdominal_access": {
+      "text": "Mark insertion site\nThree possibilities:\nInfra-umbilical\n2 cm below umbilicus\nStandard site\nSupra-umbilical\nPreferred in pregnant trauma patients\nPreferred in presence of pelvic facture\nPrep site with antiseptic",
+      "subsections": {
+        "Open_Technique": {
+          "text": "Use scalpel to incise skin\nDissect through skin, fascia, and peritoneum under direct visualization\nNote that this is the preferred technique when precise insertion of catheter is critical (pregnant patients, patients with pelvic fractures who may have large hematoma)",
+          "tables": []
+        },
+        "Semi-Open_Technique": {
+          "text": "Open skin and fascia under direct visualisation\nInsert needle through peritoneum\nUse Seldinger technique to pass wire through needle\nPass catheter over wire and remove wire\nSecure catheter",
+          "tables": []
+        },
+        "Closed_Technique": {
+          "text": "Make small nick through skin\nBlindly pass needle through linea alba and into peritoneum\nUse Seldinger technique to pass wire and insert catheter as in the semi-open technique\nNote that this technique is faster than open and semi-open techniques but has a higher risk of complications and should be avoided in presence of pelvic fracture or prior midline surgical incision",
+          "tables": []
+        },
+        "Diagnostic_peritoneal_aspiration_(DPA)": {
+          "text": "Aspirate fluid from peritoneal cavity\nIf >10 mL blood or enteric contents, test is positive and it is not necessary to instil lavage fluid",
+          "tables": []
+        },
+        "Diagnostic_peritoneal_lavage_(DPL)": {
+          "text": "Instil 1L warm saline into abdomen via catheter\nAllow fluid to immediately drain passively\nDo not separate catheter and tubing between instillation and removal\nSend fluid for analysis\nIdeally, send full litre of instilled fluid, but analysis can be performed on as little as 300 mL if unable to obtain entire litre",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnostic_Criteria": {
+      "text": "Blunt abdominal trauma\nRBC >100,000/mm3\nWBC >500/mm3\nElevated fluid amylase\nPresence of enteric contents or bacteria\nPenetrating abdominal trauma (controversial)\nRBC  >1000/mm3\nWBC >500/mm3\nResults from cell analysis take 30 to 60 minutes\nIf an immediate decision is necessary, may use the density of cells in the IV tubing\nIf text can be read through the tubing it can be considered unofficially negative until the official cell counts return.\nIf the density of cells in the tubing is so high that you cannot read through it, then it can be considered a positive lavage.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Catheter misplacement\nHemorrhage\nIntraabdominal or retroperitoneal organ injury\nWound infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal trauma\nTheraputic peritoneal lavage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal trauma",
+          "url": "https://wikem.org/wiki/Abdominal_trauma"
+        },
+        {
+          "text": "Theraputic peritoneal lavage",
+          "url": "https://wikem.org/wiki/Theraputic_peritoneal_lavage"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merk Manual - How To Do Diagnostic Peritoneal Lavage",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=O9BZamRlXVA}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=O9BZamRlXVA}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

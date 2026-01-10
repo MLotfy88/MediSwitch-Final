@@ -1,0 +1,480 @@
+{
+  "drug_name": "Dermatophytosis",
+  "url": "https://wikem.org/wiki/Dermatophytosis",
+  "scraped_at": "2026-01-10T07:51:40.972535",
+  "sections": {
+    "Background": {
+      "text": "Also known as ringworm\nCommon\nfungal infection\nof the skin, hair and nails\nMode of transmission via direct contact to the organisms (eg. using unwashed wrestling mats)\nThese dermatophytes are filamentous fungi that live off the keratin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fungal infection",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Subtypes of infections include:\nTinea corporis\n(ringworm)\nBody except for feet, groin, face, scalp hair or beard hair\nClinical manifestation:\nPruritic\n, circular scaly\npatch\nor plaque → central clearing → annular plaque\nTinea pedis\n(athlete's foot)\nFoot\nClinical manifestation:\nBetween digit spaces\nPruritic\nErosions\nScales\nBullous\nTinea cruris\n(jock itch)\nGroin\nClinical manifestation:\nErythematous patch on proximal inner thigh → central clearing with sharp borders and vesicles\nScrotum typically spared\nTinea capitis\nScalp hair\nClinical manifestation:\nScaly patches with alopecia\nTinea unguium (Dermatophyte onchomycosis)\nNail\nClinical manifestation:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Pruritic",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "patch",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tinea_pedis": {
+          "text": "Interdigital\ncandida\ninfection\nErythrasma\nAtopic dermatitis\nChronic\ncontact dermatitis\nAcute palmoplantar\neczema\nPalmoplantar\npsoriasis\nPitted keratolysis\nJuvenile plantar dermatosis\nKeratolysis exfoliativa\nKeratodermas\nAcute palmoplantar\neczema\nAcute\ncontact dermatitis\nPalmoplantar pustulosis\nScabies",
+          "tables": []
+        },
+        "Tinea_cruris": {
+          "text": "Inverse psoriasis\nErythrasma\nSeborrheic dermatitis\nCandidal intertrigo",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "Subacute cutaneous\nlupus\nerythematosus (SCLE)\nGranuloma annulare\nErythema annulare centrifugum",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        }
+      ]
+    },
+    "Tinea_pedis": {
+      "text": "Interdigital\ncandida\ninfection\nErythrasma\nAtopic dermatitis\nChronic\ncontact dermatitis\nAcute palmoplantar\neczema\nPalmoplantar\npsoriasis\nPitted keratolysis\nJuvenile plantar dermatosis\nKeratolysis exfoliativa\nKeratodermas\nAcute palmoplantar\neczema\nAcute\ncontact dermatitis\nPalmoplantar pustulosis\nScabies",
+      "subsections": {
+        "Tinea_cruris": {
+          "text": "Inverse psoriasis\nErythrasma\nSeborrheic dermatitis\nCandidal intertrigo",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "Subacute cutaneous\nlupus\nerythematosus (SCLE)\nGranuloma annulare\nErythema annulare centrifugum",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        }
+      ]
+    },
+    "Tinea_cruris": {
+      "text": "Inverse psoriasis\nErythrasma\nSeborrheic dermatitis\nCandidal intertrigo",
+      "subsections": {
+        "Tinea_corporis": {
+          "text": "Subacute cutaneous\nlupus\nerythematosus (SCLE)\nGranuloma annulare\nErythema annulare centrifugum",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        }
+      ]
+    },
+    "Tinea_corporis": {
+      "text": "Subacute cutaneous\nlupus\nerythematosus (SCLE)\nGranuloma annulare\nErythema annulare centrifugum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "KOH prep for diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Tinea_corporis_2": {
+          "text": "Topical\nantifungals\n(azoles, allylamines, butenafine, ciclopirox, and tolnaftate)\nOral antifungals for those who fail topical treatment",
+          "tables": []
+        },
+        "Tinea_pedis_2": {
+          "text": "Topical antifungals\nOral antifungals (\nterbinafine\n,\nitraconazole\n, or\nfluconazole\n)",
+          "tables": []
+        },
+        "Tinea_cruris_2": {
+          "text": "Topical antifungals",
+          "tables": []
+        },
+        "Tinea_capitis": {
+          "text": "1st line\nGriseofulvin\nTerbinafine",
+          "tables": []
+        },
+        "Tinea_unguium": {
+          "text": "Mild to moderate\n1st line\nOral\nterbinafine\nTopical efinaconazole, amorolfine, tavaborole, and ciclopirox\nModerate to severe\nTerbinafine\n,\nitraconazole",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        }
+      ]
+    },
+    "Tinea_corporis_2": {
+      "text": "Topical\nantifungals\n(azoles, allylamines, butenafine, ciclopirox, and tolnaftate)\nOral antifungals for those who fail topical treatment",
+      "subsections": {
+        "Tinea_pedis_2": {
+          "text": "Topical antifungals\nOral antifungals (\nterbinafine\n,\nitraconazole\n, or\nfluconazole\n)",
+          "tables": []
+        },
+        "Tinea_cruris_2": {
+          "text": "Topical antifungals",
+          "tables": []
+        },
+        "Tinea_capitis": {
+          "text": "1st line\nGriseofulvin\nTerbinafine",
+          "tables": []
+        },
+        "Tinea_unguium": {
+          "text": "Mild to moderate\n1st line\nOral\nterbinafine\nTopical efinaconazole, amorolfine, tavaborole, and ciclopirox\nModerate to severe\nTerbinafine\n,\nitraconazole",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        }
+      ]
+    },
+    "Tinea_pedis_2": {
+      "text": "Topical antifungals\nOral antifungals (\nterbinafine\n,\nitraconazole\n, or\nfluconazole\n)",
+      "subsections": {
+        "Tinea_cruris_2": {
+          "text": "Topical antifungals",
+          "tables": []
+        },
+        "Tinea_capitis": {
+          "text": "1st line\nGriseofulvin\nTerbinafine",
+          "tables": []
+        },
+        "Tinea_unguium": {
+          "text": "Mild to moderate\n1st line\nOral\nterbinafine\nTopical efinaconazole, amorolfine, tavaborole, and ciclopirox\nModerate to severe\nTerbinafine\n,\nitraconazole",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        }
+      ]
+    },
+    "Tinea_cruris_2": {
+      "text": "Topical antifungals",
+      "subsections": {
+        "Tinea_capitis": {
+          "text": "1st line\nGriseofulvin\nTerbinafine",
+          "tables": []
+        },
+        "Tinea_unguium": {
+          "text": "Mild to moderate\n1st line\nOral\nterbinafine\nTopical efinaconazole, amorolfine, tavaborole, and ciclopirox\nModerate to severe\nTerbinafine\n,\nitraconazole",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        }
+      ]
+    },
+    "Tinea_capitis": {
+      "text": "1st line\nGriseofulvin\nTerbinafine",
+      "subsections": {
+        "Tinea_unguium": {
+          "text": "Mild to moderate\n1st line\nOral\nterbinafine\nTopical efinaconazole, amorolfine, tavaborole, and ciclopirox\nModerate to severe\nTerbinafine\n,\nitraconazole",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        }
+      ]
+    },
+    "Tinea_unguium": {
+      "text": "Mild to moderate\n1st line\nOral\nterbinafine\nTopical efinaconazole, amorolfine, tavaborole, and ciclopirox\nModerate to severe\nTerbinafine\n,\nitraconazole",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Rashes\nTinea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rashes",
+          "url": "https://wikem.org/wiki/Rashes"
+        },
+        {
+          "text": "Tinea",
+          "url": "https://wikem.org/wiki/Tinea"
+        }
+      ]
+    },
+    "References": {
+      "text": "https://www.uptodate.com/contents/dermatophyte-tinea-infections?source=search_result&search=dermatophytosis&selectedTitle=1~150#H68628070\nhttps://www.uptodate.com/contents/onychomycosis-epidemiology-clinical-features-and-diagnosis?source=search_result&search=tinea%20unguium&selectedTitle=2~15#H522098449\nhttps://www.uptodate.com/contents/onychomycosis-management?source=search_result&search=tinea%20unguium&selectedTitle=1~15\nhttps://www.uptodate.com/contents/tinea-capitis?source=search_result&search=tinea%20capitis&selectedTitle=1~39",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "drug_name": "Dialysis-associated_hypotension",
+  "url": "https://wikem.org/wiki/Dialysis-associated_hypotension",
+  "scraped_at": "2026-01-10T07:51:47.235591",
+  "sections": {
+    "Background": {
+      "text": "Most frequent complication of hemodialysis (20%-30% of treatment)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Nausea/vomiting\nAnxiety\nDizziness\nOrthostatic\nhypotension\nSyncope",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Excessive ultrafiltration\n> 0.35 ml/min/kg\n>20% plasma volume\nPredialytic volume loss\nGI losses (e.g.\nvomiting\n,\ndiarrhea\n)\nDecreased oral intake\nIntradialytic volume loss\nTube and hemodialyzer blood losses\nPostdialytic volume loss\nVascular access blood loss\nHemorrhage\nMedication effects\nAntihypertensives\nOpioids\nDecreased vascular tone (\nsepsis\n)\nCardiac dysfunction\nLVH\n,\nischemia\n,\nhypoxia\n,\narrhythmia\n, pericardial\ntamponade\nPericardial disease\nEffusion\nTamponade\nHemolysis",
+      "subsections": {
+        "Dialysis_Complications": {
+          "text": "Dialysis-associated hypotension\nDialysis disequilibrium syndrome\nAir embolism\nMissed dialysis (\npulmonary edema\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Antihypertensives",
+          "url": "https://wikem.org/wiki/Antihypertensives"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "Effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "Hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Dialysis disequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dialysis_disequilibrium_syndrome"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Dialysis_Complications": {
+      "text": "Dialysis-associated hypotension\nDialysis disequilibrium syndrome\nAir embolism\nMissed dialysis (\npulmonary edema\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis disequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dialysis_disequilibrium_syndrome"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Assess:\nVolume status (US)\nCardiac function\nPericardial disease\nInfection\nGI bleeding",
+      "subsections": {
+        "Evaluation_by_HypotensionTiming": {
+          "text": "Early in session: usually due to preexisting\nhypovolemia\nDuring the session: often due to blood loss (from tubing or filter leak)\nNear the end: usually result of excessive ultrafiltration\nUnderestimation of patient's ideal blood volume (dry weight)\nAlso consider pericardial or cardiac disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        }
+      ]
+    },
+    "Evaluation_by_HypotensionTiming": {
+      "text": "Early in session: usually due to preexisting\nhypovolemia\nDuring the session: often due to blood loss (from tubing or filter leak)\nNear the end: usually result of excessive ultrafiltration\nUnderestimation of patient's ideal blood volume (dry weight)\nAlso consider pericardial or cardiac disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Dialysis complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis complications",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        }
+      ]
+    }
+  }
+}

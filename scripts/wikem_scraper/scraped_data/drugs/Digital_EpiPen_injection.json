@@ -1,0 +1,105 @@
+{
+  "drug_name": "Digital_EpiPen_injection",
+  "url": "https://wikem.org/wiki/Digital_EpiPen_injection",
+  "scraped_at": "2026-01-10T07:51:53.096145",
+  "sections": {
+    "Background": {
+      "text": "Accidental digital self-injection of epinephrine from an EpiPen.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Puncture wound with delayed capillary refill (vasoconstriction)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Injection of other medication\nRetained\nforeign body\nAllergic reaction\nCellulitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically a clinical diagnosis (no testing required)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Observation for 2 hours after injection\n[1]\nIf continued ischemia symptoms after 2 hrs, inject\nphentolamine\ninto the ischemic area (see procedure below)",
+      "subsections": {
+        "Equipment_Needed": {
+          "text": "10cc syringe\nPhentolamine mesylate\n1-2% lidocaine (WITHOUT epinephrine)\n25g needle",
+          "tables": []
+        },
+        "Technique": {
+          "text": "Dilute 1.5mg of\nphentolamine\nmesilate in 1mL of 2% lidocaine.\nInject subQ into the site and stop when tissue turns pink again.\nObserve and repeat as necessary.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "phentolamine",
+          "url": "https://wikem.org/wiki/Phentolamine"
+        },
+        {
+          "text": "phentolamine",
+          "url": "https://wikem.org/wiki/Phentolamine"
+        }
+      ]
+    },
+    "Digital_Phentolamine_Injection_Procedure": {
+      "text": "",
+      "subsections": {
+        "Equipment_Needed": {
+          "text": "10cc syringe\nPhentolamine mesylate\n1-2% lidocaine (WITHOUT epinephrine)\n25g needle",
+          "tables": []
+        },
+        "Technique": {
+          "text": "Dilute 1.5mg of\nphentolamine\nmesilate in 1mL of 2% lidocaine.\nInject subQ into the site and stop when tissue turns pink again.\nObserve and repeat as necessary.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "phentolamine",
+          "url": "https://wikem.org/wiki/Phentolamine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally may be discharged",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Epinephrine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    }
+  }
+}

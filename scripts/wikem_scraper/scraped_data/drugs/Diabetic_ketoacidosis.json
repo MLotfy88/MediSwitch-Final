@@ -1,0 +1,1073 @@
+{
+  "drug_name": "Diabetic_ketoacidosis",
+  "url": "https://wikem.org/wiki/Diabetic_ketoacidosis",
+  "scraped_at": "2026-01-10T07:51:47.167181",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\ndiabetic ketoacidosis (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Patients in DKA are almost always K+ depleted despite initially fairly normal K+.\nThis is due to extracellular shift of K+ due to acidosis as well as insulin infusion, which increases uptake of K+ intracellularly.",
+      "subsections": {
+        "Epidemiology": {
+          "text": "Mortality rate approximately 2-5%\n[1]",
+          "tables": []
+        },
+        "Pathophysiology": {
+          "text": "Defining features include\nhyperglycemia\n(glucose > 200mg/dl),\nacidosis\n(pH < 7.3), and\nketonemia",
+          "tables": []
+        },
+        "Hyperglycemia": {
+          "text": "Leads to osmotic diuresis and depletion of electrolytes including sodium, potassium, magnesium, calcium and phosphorus.\nFurther dehydration impairs glomerular filtration rate (GFR) and contributes to acute renal failure\nHypokalemia may inhibit insulin release",
+          "tables": []
+        },
+        "Acidosis": {
+          "text": "Due to insulin deficiency -> lipolysis / accumulation of of ketoacids (represented by increased anion gap)\nCompensatory respiratory alkalosis (i.e. tachypnea and hyperpnea - Kussmaul breathing)\nBreakdown of adipose creates first acetoacetate leading to conversion to beta-hydroxybutyrate",
+          "tables": []
+        },
+        "Dehydration": {
+          "text": "Causes activation of RAAS in addition to the osmotic diuresis\nThe initial serum values for electrolytes such as K+ may be higher than actual body stores\nCation loss (in exchange for chloride) worsens metabolic acidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epidemiology": {
+      "text": "Mortality rate approximately 2-5%\n[1]",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Defining features include\nhyperglycemia\n(glucose > 200mg/dl),\nacidosis\n(pH < 7.3), and\nketonemia",
+          "tables": []
+        },
+        "Hyperglycemia": {
+          "text": "Leads to osmotic diuresis and depletion of electrolytes including sodium, potassium, magnesium, calcium and phosphorus.\nFurther dehydration impairs glomerular filtration rate (GFR) and contributes to acute renal failure\nHypokalemia may inhibit insulin release",
+          "tables": []
+        },
+        "Acidosis": {
+          "text": "Due to insulin deficiency -> lipolysis / accumulation of of ketoacids (represented by increased anion gap)\nCompensatory respiratory alkalosis (i.e. tachypnea and hyperpnea - Kussmaul breathing)\nBreakdown of adipose creates first acetoacetate leading to conversion to beta-hydroxybutyrate",
+          "tables": []
+        },
+        "Dehydration": {
+          "text": "Causes activation of RAAS in addition to the osmotic diuresis\nThe initial serum values for electrolytes such as K+ may be higher than actual body stores\nCation loss (in exchange for chloride) worsens metabolic acidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pathophysiology": {
+      "text": "Defining features include\nhyperglycemia\n(glucose > 200mg/dl),\nacidosis\n(pH < 7.3), and\nketonemia",
+      "subsections": {
+        "Hyperglycemia": {
+          "text": "Leads to osmotic diuresis and depletion of electrolytes including sodium, potassium, magnesium, calcium and phosphorus.\nFurther dehydration impairs glomerular filtration rate (GFR) and contributes to acute renal failure\nHypokalemia may inhibit insulin release",
+          "tables": []
+        },
+        "Acidosis": {
+          "text": "Due to insulin deficiency -> lipolysis / accumulation of of ketoacids (represented by increased anion gap)\nCompensatory respiratory alkalosis (i.e. tachypnea and hyperpnea - Kussmaul breathing)\nBreakdown of adipose creates first acetoacetate leading to conversion to beta-hydroxybutyrate",
+          "tables": []
+        },
+        "Dehydration": {
+          "text": "Causes activation of RAAS in addition to the osmotic diuresis\nThe initial serum values for electrolytes such as K+ may be higher than actual body stores\nCation loss (in exchange for chloride) worsens metabolic acidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "May be the initial presenting of an unrecognized T1DM patient\nOR symptoms/signs of inciting precipitant (e.g. history of med/dietary nonadherence, signs/symptoms of infection)\nPresenting features may include:\nPolydipsia,\npolyuria\n(initially) or decreased urine output (as volume depleted)\nSigns of\ndehydration\n(dry mouth, dry mucosa, etc.),\nhypotension\n+/- Weight loss\nAbdominal pain\n,\nnausea/vomiting\nTachypnea\n(Kussmaul's breathing)\nAcetone or fruity smell on breath\nGenerally ill-appearance\nAltered mental status\n, drowsiness with decreased reflexes\nCerebral edema\nincreases mortality significantly, especially in children",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "polyuria",
+          "url": "https://wikem.org/wiki/Polyuria"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Cerebral edema",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Causes_of_DKA": {
+          "text": "Insulin\nor oral hypoglycemic medication non-compliance (or insulin pump malfunction)\nInfection\nCardiac Ischemia\nIntra-abdominal infections\nSteroid\nuse\nETOH Abuse\nToxicologic exposure\nPregnancy\nHyperthyroidism\nGI Hemorrhage\nCVA\nPE\nPancreatitis\nRenal Failure\nGI Bleed\nAlcoholic Ketoacidosis\nSGLT-2 inhibitors\n(euglycemic DKA)",
+          "tables": []
+        },
+        "Hyperglycemia_2": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Cardiac Ischemia",
+          "url": "https://wikem.org/wiki/Cardiac_Ischemia"
+        },
+        {
+          "text": "Steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "ETOH Abuse",
+          "url": "https://wikem.org/wiki/ETOH_Abuse"
+        },
+        {
+          "text": "Toxicologic exposure",
+          "url": "https://wikem.org/wiki/Toxicologic_exposure"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "GI Hemorrhage",
+          "url": "https://wikem.org/wiki/GI_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Alcoholic Ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_Ketoacidosis"
+        },
+        {
+          "text": "SGLT-2 inhibitors",
+          "url": "https://wikem.org/wiki/SGLT-2_inhibitors"
+        },
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Causes_of_DKA": {
+      "text": "Insulin\nor oral hypoglycemic medication non-compliance (or insulin pump malfunction)\nInfection\nCardiac Ischemia\nIntra-abdominal infections\nSteroid\nuse\nETOH Abuse\nToxicologic exposure\nPregnancy\nHyperthyroidism\nGI Hemorrhage\nCVA\nPE\nPancreatitis\nRenal Failure\nGI Bleed\nAlcoholic Ketoacidosis\nSGLT-2 inhibitors\n(euglycemic DKA)",
+      "subsections": {
+        "Hyperglycemia_2": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Cardiac Ischemia",
+          "url": "https://wikem.org/wiki/Cardiac_Ischemia"
+        },
+        {
+          "text": "Steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "ETOH Abuse",
+          "url": "https://wikem.org/wiki/ETOH_Abuse"
+        },
+        {
+          "text": "Toxicologic exposure",
+          "url": "https://wikem.org/wiki/Toxicologic_exposure"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "GI Hemorrhage",
+          "url": "https://wikem.org/wiki/GI_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Alcoholic Ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_Ketoacidosis"
+        },
+        {
+          "text": "SGLT-2 inhibitors",
+          "url": "https://wikem.org/wiki/SGLT-2_inhibitors"
+        },
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Hyperglycemia_2": {
+      "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Workup to confirm diagnosis and search for possible inciting causes (e.g. infection,\nACS\n)\nCBC\nBMP\nBlood glucose\nSerum ketones (e.g. beta-hydroxybutyrate and/or acetone)\nMag\nPhos\nVBG\n/\nABG\nConsider\nECG\n,\nurinalysis\n,\nchest X-ray\n,\nblood cultures",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosis is made based on the presence of\nacidosis\n(e.g. venous pH < 7.3 or HCO3 <18) and\nketonemia\n(e.g. >3mmol/L BOH or ketonuria) in the setting of diabetes (e.g. glucose >200mg/dl)\n[2]",
+          "tables": []
+        },
+        "Basic_Laboratory_Findings": {
+          "text": "Blood Glucose\nCapillary blood sugar >200mg/dL\nBlood sugar may not be very elevated if there is impaired gluconeogenesis (eg liver failure, severe alcoholism) or patient is taking a\nSGLT-2 Inhibitor\n[3]\nElevated\nAnion Gap\nBicarb may be normal due to compensatory and contraction alkalosis so the elevated anion gap or ketonuria may be the only clues to the DKA\nSerum ketones\nBeta hydroxybutyrate will be elevated",
+          "tables": []
+        },
+        "Blood_Gas": {
+          "text": "No need to perform Arterial blood gas. Venous blood gas is sufficient\n[4]\nDifference in pH from VBG vs ABG  will be ±0.02pH units\n[5]\n[6]\n[7]\n[8]",
+          "tables": []
+        },
+        "Urinary_analysis_(ketonuria)": {
+          "text": "Urinalysis\nmay be a useful screening test early in DKA, if serum ketones not available\nHowever, may give a false negative for ketones later in DKA, as acetoacetate is converted to beta-hydroxybutyrate the urinary ketones may turn negative\n[9]",
+          "tables": []
+        },
+        "End_Tidal_CO2": {
+          "text": "Strongly consider capnography for respiratory distress\n[10]\nETCO2 can be used for bedside assessment of DKA in pts with glucose>550\n[11]\nAn ETCO2 of ≥35 is 100% sensitive to rule out DKA\nAn ETCO2 of ≤21 is 100% specific to diagnosis DKA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "chest X-ray",
+          "url": "https://wikem.org/wiki/Chest_X-ray"
+        },
+        {
+          "text": "blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "SGLT-2 Inhibitor",
+          "url": "https://wikem.org/wiki/SGLT-2_Inhibitor"
+        },
+        {
+          "text": "Anion Gap",
+          "url": "https://wikem.org/wiki/Anion_Gap"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Workup to confirm diagnosis and search for possible inciting causes (e.g. infection,\nACS\n)\nCBC\nBMP\nBlood glucose\nSerum ketones (e.g. beta-hydroxybutyrate and/or acetone)\nMag\nPhos\nVBG\n/\nABG\nConsider\nECG\n,\nurinalysis\n,\nchest X-ray\n,\nblood cultures",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Diagnosis is made based on the presence of\nacidosis\n(e.g. venous pH < 7.3 or HCO3 <18) and\nketonemia\n(e.g. >3mmol/L BOH or ketonuria) in the setting of diabetes (e.g. glucose >200mg/dl)\n[2]",
+          "tables": []
+        },
+        "Basic_Laboratory_Findings": {
+          "text": "Blood Glucose\nCapillary blood sugar >200mg/dL\nBlood sugar may not be very elevated if there is impaired gluconeogenesis (eg liver failure, severe alcoholism) or patient is taking a\nSGLT-2 Inhibitor\n[3]\nElevated\nAnion Gap\nBicarb may be normal due to compensatory and contraction alkalosis so the elevated anion gap or ketonuria may be the only clues to the DKA\nSerum ketones\nBeta hydroxybutyrate will be elevated",
+          "tables": []
+        },
+        "Blood_Gas": {
+          "text": "No need to perform Arterial blood gas. Venous blood gas is sufficient\n[4]\nDifference in pH from VBG vs ABG  will be ±0.02pH units\n[5]\n[6]\n[7]\n[8]",
+          "tables": []
+        },
+        "Urinary_analysis_(ketonuria)": {
+          "text": "Urinalysis\nmay be a useful screening test early in DKA, if serum ketones not available\nHowever, may give a false negative for ketones later in DKA, as acetoacetate is converted to beta-hydroxybutyrate the urinary ketones may turn negative\n[9]",
+          "tables": []
+        },
+        "End_Tidal_CO2": {
+          "text": "Strongly consider capnography for respiratory distress\n[10]\nETCO2 can be used for bedside assessment of DKA in pts with glucose>550\n[11]\nAn ETCO2 of ≥35 is 100% sensitive to rule out DKA\nAn ETCO2 of ≤21 is 100% specific to diagnosis DKA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "chest X-ray",
+          "url": "https://wikem.org/wiki/Chest_X-ray"
+        },
+        {
+          "text": "blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "SGLT-2 Inhibitor",
+          "url": "https://wikem.org/wiki/SGLT-2_Inhibitor"
+        },
+        {
+          "text": "Anion Gap",
+          "url": "https://wikem.org/wiki/Anion_Gap"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Diagnosis is made based on the presence of\nacidosis\n(e.g. venous pH < 7.3 or HCO3 <18) and\nketonemia\n(e.g. >3mmol/L BOH or ketonuria) in the setting of diabetes (e.g. glucose >200mg/dl)\n[2]",
+      "subsections": {
+        "Basic_Laboratory_Findings": {
+          "text": "Blood Glucose\nCapillary blood sugar >200mg/dL\nBlood sugar may not be very elevated if there is impaired gluconeogenesis (eg liver failure, severe alcoholism) or patient is taking a\nSGLT-2 Inhibitor\n[3]\nElevated\nAnion Gap\nBicarb may be normal due to compensatory and contraction alkalosis so the elevated anion gap or ketonuria may be the only clues to the DKA\nSerum ketones\nBeta hydroxybutyrate will be elevated",
+          "tables": []
+        },
+        "Blood_Gas": {
+          "text": "No need to perform Arterial blood gas. Venous blood gas is sufficient\n[4]\nDifference in pH from VBG vs ABG  will be ±0.02pH units\n[5]\n[6]\n[7]\n[8]",
+          "tables": []
+        },
+        "Urinary_analysis_(ketonuria)": {
+          "text": "Urinalysis\nmay be a useful screening test early in DKA, if serum ketones not available\nHowever, may give a false negative for ketones later in DKA, as acetoacetate is converted to beta-hydroxybutyrate the urinary ketones may turn negative\n[9]",
+          "tables": []
+        },
+        "End_Tidal_CO2": {
+          "text": "Strongly consider capnography for respiratory distress\n[10]\nETCO2 can be used for bedside assessment of DKA in pts with glucose>550\n[11]\nAn ETCO2 of ≥35 is 100% sensitive to rule out DKA\nAn ETCO2 of ≤21 is 100% specific to diagnosis DKA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SGLT-2 Inhibitor",
+          "url": "https://wikem.org/wiki/SGLT-2_Inhibitor"
+        },
+        {
+          "text": "Anion Gap",
+          "url": "https://wikem.org/wiki/Anion_Gap"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "If the patient has an insulin pump, make sure it is shut off or disconnected",
+      "subsections": {
+        "Volume_Repletion": {
+          "text": "Administer 20-30cc/kg\nlactated ringers\nbolus during the first hour\nMost important step in treatment since osmotic diuresis is the major driving force\n[7]\nMost adult patients are  3-6L depleted\nIncreased systemic perfusion may transport insulin to previously unreached receptor sites, inhibiting ketogenesis\nIncreased renal perfusion promotes renal hydrogen ion loss\nUse of LRs is preferred over NS\n[12]\n,\n[13]\nWhen blood sugar(BS) < 250-300 add a D10 infusion at an equal rate to the LR using a single IV line\n[14]\nPatients can eat and drink if mental status is intact\n[15]",
+          "tables": []
+        },
+        "Electrolyte_Repletion": {
+          "text": "Potassium (most important!)\n[16]\n<3.5mEq/L:\nStart potassium repleation: 20-30 mEq KCl to IVF/hr\nDo not administer insulin (to avoid worsening of hypokalemia)\n>3.5mEq/L and <5.5 mEq/L:\nStart potassium repleation: 20-30 mEq KCl to IVF/hr\nMay start insulin (see below)\n>5.5 mEq/L:\nHold potassium repletion and recheck electroltyes after initiaton of insulin (see below)\nSodium\nHyponatremia\nCorrect for hyperglycemia\nNa+ decreases by 1.6mEq/L for every 100mg/dL increase in glucose (ie pseudohyponatremia)\nIf truly hyponatraemic, start NS 250-500ml/hr\nHypernatremia\nConsider Lactated Ringers\nHypophosphatemia\n<1.0 mEq/L, start repletion:\nIV K2PO4 at 1mL/hour (contains 4.4meqK+ & 93mg phos)\nSevere hypophosphatemia can cause cardiac and respiratory dysfunction\nHypomagnesemia\nMg<2.0mg/DL, start repletion:\n2g MgSO4 IV over 1h",
+          "tables": []
+        },
+        "Insulin_Overview": {
+          "text": "Check potassium prior to insulin treatment (see above)! Do not administer insulin until potassium supplementation is underway.\n[17]\nA bolus dose is unnecessary and may contribute to increased hypoglycemic episodes\n[18]\nIf the patient comes in wearing an insulin pump, turn off the pump and remove the subcutaneous catheter.\nExpect BS to fall by 50-100mg/dL per hr if you administer 0.1units/kg/hr of insulin\nRefractory hyperglycemia may be due to an associated infectious process contributing to the DKA",
+          "tables": []
+        },
+        "Long-Acting_(Basal)_Insulin": {
+          "text": "Two main practices exist: 1) Close the anion gap, then start basal insulin 2-3 hours before stopping insulin infusion, 2) Early basal insulin\nPotential benefits of early basal insulin (glargine or detemir) include protecting against erroneously stopping insulin infusion prematurely and eliminating the 2-3 hour waiting period of starting basal insulin while on IV infusion\nEarly basal insulin:\n[19]\nGlargine 0.30 U/kg SQ x 1\n[20]\n[21]\n,\nOR\nDetermine total 24 hour home dose of basal insulin and deliver that q24 hours (e.g. patient's normal home dose of glargine)\n[22]",
+          "tables": []
+        },
+        "Intravenous_Regimen_(Short-Acting)": {
+          "text": "Do not stop insulin infusion until AG normalized AND bicarb normalized, despite resolution of blood sugar. Aim of insulin regime is to correct the acidosis, not merely the hyperglycemia.\nInitial infusion 0.1 to 0.14 units/kg/hr of insulin (or 0.05units/kg/hr per local protocol)\nFixed Rate Insulin Infusion has improved outcomes over Variable Rate\n[23]\n[24]\nMaintain BS between 150 and 200mg/dL until resolution of acidosis\nMay require IV fluids to be switched to Dextrose 10% when BS <150mg/dL\nContinue IV infusion for 2 hrs after subcutaneous insulin is begun\nSubcutaneous route (appropriate only for mild DKA and if able to eat and void urine; poor perfusion may hamper its absorption)",
+          "tables": []
+        },
+        "Subcutaneous_Regimen_(Short-Acting)": {
+          "text": "A subcutaneous (SC) regimen must use short acting insulin and follow either a 1hr or 2hr dosing protocol. Regular insulin is not effective.\n[25]\nFor patients who are euglycemic (glucose <250 mg/dl) at presentation (e.g. with mild gap), using standard\ninsulin sliding scale\ninstead of this regimen.\n[26]\n[27]\n1hr Protocol\nInitial dose SC short acting insulin (e.g. Aspart): 0.3 units/kg\nideal body weight\n, followed by\n0.1 units/kg SC every hour\nWhen blood glucose <250mg/dl (13.8 mmol/l), change IV fluids to D5<sub 0.45%NS and reduce SC aspart insulin to 0.05 units/kg/hr\nKeep glucose at 150mg/dl (11 mmol/l) until resolution of DKA.\n2hr Protocol\nInitial dose SC short acting insulin (e.g. Aspart): 0.3 units/kg\nideal body weight\n, followed by\n0.2 units/kg SC 1 hour later followed by Q2hr dosing\nWhen blood glucose <250mg/dl (13.8 mmol/l), change IV fluids to D5 0.45% saline and reduce SC insulin to 0.1 units/kg/ 2hr\nKeep glucose at 150mg/dl (11 mmol/l) until resolution of DKA.",
+          "tables": []
+        },
+        "Bicarbonate": {
+          "text": "No evidence supports the use of sodium bicarb in DKA, with a pH >6.9\nHowever, no studies have been performed for patients with pH <6.9 and the most recent ADA guidelines recommend it for patients with pH <7.1\nPitfalls of sodium bicarbonate therapy in DKA (outside of last ditch efforts in severe acidemia)\n[29]\nParadoxical CSF acidosis\nHypokalemia from H+ and K+ shifts\nLarge sodium bolus\nCerebral edema\nShifts oxygen-hemoglobin dissociation curve to left, decreasing O2 delivery to tissues",
+          "tables": []
+        },
+        "Labs/Monitoring": {
+          "text": "Glucose check Q1hr\nChem 10 Q2r (then move to Q4hr)\nCheck pH PRN based on clinical status (eval respiratory compensation)\nCheck appropriateness of\ninsulin\ndose Q1hr (see below)\nCorrected Electrolytes",
+          "tables": []
+        },
+        "Sliding_Scale": {
+          "text": "Insulin\nSliding Scale to be started once patient's DKA has resolved and eating a full diet.",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Avoid intubation unless patient cannot generate respiratory alkalosis compensation due to extreme fatigue\n[30]\nRisks associated with intubation in DKA:\nDuring sedation/paralysis, a rise in PaCO2 can decrease pH considerably\nSevere gastroparesis in DKA creates a significant risk for aspiration\nStrong DKA patients generally can achieve greater hyperventilation than mechanical ventilated patients\nSee\nIntubation\nfor more information",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lactated ringers",
+          "url": "https://wikem.org/wiki/Lactated_ringers"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "Hypophosphatemia",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "insulin sliding scale",
+          "url": "https://wikem.org/wiki/Insulin#Insulin_Sliding_Scale"
+        },
+        {
+          "text": "ideal body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight"
+        },
+        {
+          "text": "ideal body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation#Severe_Metabolic_Acidosis"
+        }
+      ]
+    },
+    "Volume_Repletion": {
+      "text": "Administer 20-30cc/kg\nlactated ringers\nbolus during the first hour\nMost important step in treatment since osmotic diuresis is the major driving force\n[7]\nMost adult patients are  3-6L depleted\nIncreased systemic perfusion may transport insulin to previously unreached receptor sites, inhibiting ketogenesis\nIncreased renal perfusion promotes renal hydrogen ion loss\nUse of LRs is preferred over NS\n[12]\n,\n[13]\nWhen blood sugar(BS) < 250-300 add a D10 infusion at an equal rate to the LR using a single IV line\n[14]\nPatients can eat and drink if mental status is intact\n[15]",
+      "subsections": {
+        "Electrolyte_Repletion": {
+          "text": "Potassium (most important!)\n[16]\n<3.5mEq/L:\nStart potassium repleation: 20-30 mEq KCl to IVF/hr\nDo not administer insulin (to avoid worsening of hypokalemia)\n>3.5mEq/L and <5.5 mEq/L:\nStart potassium repleation: 20-30 mEq KCl to IVF/hr\nMay start insulin (see below)\n>5.5 mEq/L:\nHold potassium repletion and recheck electroltyes after initiaton of insulin (see below)\nSodium\nHyponatremia\nCorrect for hyperglycemia\nNa+ decreases by 1.6mEq/L for every 100mg/dL increase in glucose (ie pseudohyponatremia)\nIf truly hyponatraemic, start NS 250-500ml/hr\nHypernatremia\nConsider Lactated Ringers\nHypophosphatemia\n<1.0 mEq/L, start repletion:\nIV K2PO4 at 1mL/hour (contains 4.4meqK+ & 93mg phos)\nSevere hypophosphatemia can cause cardiac and respiratory dysfunction\nHypomagnesemia\nMg<2.0mg/DL, start repletion:\n2g MgSO4 IV over 1h",
+          "tables": []
+        },
+        "Insulin_Overview": {
+          "text": "Check potassium prior to insulin treatment (see above)! Do not administer insulin until potassium supplementation is underway.\n[17]\nA bolus dose is unnecessary and may contribute to increased hypoglycemic episodes\n[18]\nIf the patient comes in wearing an insulin pump, turn off the pump and remove the subcutaneous catheter.\nExpect BS to fall by 50-100mg/dL per hr if you administer 0.1units/kg/hr of insulin\nRefractory hyperglycemia may be due to an associated infectious process contributing to the DKA",
+          "tables": []
+        },
+        "Long-Acting_(Basal)_Insulin": {
+          "text": "Two main practices exist: 1) Close the anion gap, then start basal insulin 2-3 hours before stopping insulin infusion, 2) Early basal insulin\nPotential benefits of early basal insulin (glargine or detemir) include protecting against erroneously stopping insulin infusion prematurely and eliminating the 2-3 hour waiting period of starting basal insulin while on IV infusion\nEarly basal insulin:\n[19]\nGlargine 0.30 U/kg SQ x 1\n[20]\n[21]\n,\nOR\nDetermine total 24 hour home dose of basal insulin and deliver that q24 hours (e.g. patient's normal home dose of glargine)\n[22]",
+          "tables": []
+        },
+        "Intravenous_Regimen_(Short-Acting)": {
+          "text": "Do not stop insulin infusion until AG normalized AND bicarb normalized, despite resolution of blood sugar. Aim of insulin regime is to correct the acidosis, not merely the hyperglycemia.\nInitial infusion 0.1 to 0.14 units/kg/hr of insulin (or 0.05units/kg/hr per local protocol)\nFixed Rate Insulin Infusion has improved outcomes over Variable Rate\n[23]\n[24]\nMaintain BS between 150 and 200mg/dL until resolution of acidosis\nMay require IV fluids to be switched to Dextrose 10% when BS <150mg/dL\nContinue IV infusion for 2 hrs after subcutaneous insulin is begun\nSubcutaneous route (appropriate only for mild DKA and if able to eat and void urine; poor perfusion may hamper its absorption)",
+          "tables": []
+        },
+        "Subcutaneous_Regimen_(Short-Acting)": {
+          "text": "A subcutaneous (SC) regimen must use short acting insulin and follow either a 1hr or 2hr dosing protocol. Regular insulin is not effective.\n[25]\nFor patients who are euglycemic (glucose <250 mg/dl) at presentation (e.g. with mild gap), using standard\ninsulin sliding scale\ninstead of this regimen.\n[26]\n[27]\n1hr Protocol\nInitial dose SC short acting insulin (e.g. Aspart): 0.3 units/kg\nideal body weight\n, followed by\n0.1 units/kg SC every hour\nWhen blood glucose <250mg/dl (13.8 mmol/l), change IV fluids to D5<sub 0.45%NS and reduce SC aspart insulin to 0.05 units/kg/hr\nKeep glucose at 150mg/dl (11 mmol/l) until resolution of DKA.\n2hr Protocol\nInitial dose SC short acting insulin (e.g. Aspart): 0.3 units/kg\nideal body weight\n, followed by\n0.2 units/kg SC 1 hour later followed by Q2hr dosing\nWhen blood glucose <250mg/dl (13.8 mmol/l), change IV fluids to D5 0.45% saline and reduce SC insulin to 0.1 units/kg/ 2hr\nKeep glucose at 150mg/dl (11 mmol/l) until resolution of DKA.",
+          "tables": []
+        },
+        "Bicarbonate": {
+          "text": "No evidence supports the use of sodium bicarb in DKA, with a pH >6.9\nHowever, no studies have been performed for patients with pH <6.9 and the most recent ADA guidelines recommend it for patients with pH <7.1\nPitfalls of sodium bicarbonate therapy in DKA (outside of last ditch efforts in severe acidemia)\n[29]\nParadoxical CSF acidosis\nHypokalemia from H+ and K+ shifts\nLarge sodium bolus\nCerebral edema\nShifts oxygen-hemoglobin dissociation curve to left, decreasing O2 delivery to tissues",
+          "tables": []
+        },
+        "Labs/Monitoring": {
+          "text": "Glucose check Q1hr\nChem 10 Q2r (then move to Q4hr)\nCheck pH PRN based on clinical status (eval respiratory compensation)\nCheck appropriateness of\ninsulin\ndose Q1hr (see below)\nCorrected Electrolytes",
+          "tables": []
+        },
+        "Sliding_Scale": {
+          "text": "Insulin\nSliding Scale to be started once patient's DKA has resolved and eating a full diet.",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Avoid intubation unless patient cannot generate respiratory alkalosis compensation due to extreme fatigue\n[30]\nRisks associated with intubation in DKA:\nDuring sedation/paralysis, a rise in PaCO2 can decrease pH considerably\nSevere gastroparesis in DKA creates a significant risk for aspiration\nStrong DKA patients generally can achieve greater hyperventilation than mechanical ventilated patients\nSee\nIntubation\nfor more information",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lactated ringers",
+          "url": "https://wikem.org/wiki/Lactated_ringers"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "Hypophosphatemia",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "insulin sliding scale",
+          "url": "https://wikem.org/wiki/Insulin#Insulin_Sliding_Scale"
+        },
+        {
+          "text": "ideal body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight"
+        },
+        {
+          "text": "ideal body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation#Severe_Metabolic_Acidosis"
+        }
+      ]
+    },
+    "Electrolyte_Repletion": {
+      "text": "Potassium (most important!)\n[16]\n<3.5mEq/L:\nStart potassium repleation: 20-30 mEq KCl to IVF/hr\nDo not administer insulin (to avoid worsening of hypokalemia)\n>3.5mEq/L and <5.5 mEq/L:\nStart potassium repleation: 20-30 mEq KCl to IVF/hr\nMay start insulin (see below)\n>5.5 mEq/L:\nHold potassium repletion and recheck electroltyes after initiaton of insulin (see below)\nSodium\nHyponatremia\nCorrect for hyperglycemia\nNa+ decreases by 1.6mEq/L for every 100mg/dL increase in glucose (ie pseudohyponatremia)\nIf truly hyponatraemic, start NS 250-500ml/hr\nHypernatremia\nConsider Lactated Ringers\nHypophosphatemia\n<1.0 mEq/L, start repletion:\nIV K2PO4 at 1mL/hour (contains 4.4meqK+ & 93mg phos)\nSevere hypophosphatemia can cause cardiac and respiratory dysfunction\nHypomagnesemia\nMg<2.0mg/DL, start repletion:\n2g MgSO4 IV over 1h",
+      "subsections": {
+        "Insulin_Overview": {
+          "text": "Check potassium prior to insulin treatment (see above)! Do not administer insulin until potassium supplementation is underway.\n[17]\nA bolus dose is unnecessary and may contribute to increased hypoglycemic episodes\n[18]\nIf the patient comes in wearing an insulin pump, turn off the pump and remove the subcutaneous catheter.\nExpect BS to fall by 50-100mg/dL per hr if you administer 0.1units/kg/hr of insulin\nRefractory hyperglycemia may be due to an associated infectious process contributing to the DKA",
+          "tables": []
+        },
+        "Long-Acting_(Basal)_Insulin": {
+          "text": "Two main practices exist: 1) Close the anion gap, then start basal insulin 2-3 hours before stopping insulin infusion, 2) Early basal insulin\nPotential benefits of early basal insulin (glargine or detemir) include protecting against erroneously stopping insulin infusion prematurely and eliminating the 2-3 hour waiting period of starting basal insulin while on IV infusion\nEarly basal insulin:\n[19]\nGlargine 0.30 U/kg SQ x 1\n[20]\n[21]\n,\nOR\nDetermine total 24 hour home dose of basal insulin and deliver that q24 hours (e.g. patient's normal home dose of glargine)\n[22]",
+          "tables": []
+        },
+        "Intravenous_Regimen_(Short-Acting)": {
+          "text": "Do not stop insulin infusion until AG normalized AND bicarb normalized, despite resolution of blood sugar. Aim of insulin regime is to correct the acidosis, not merely the hyperglycemia.\nInitial infusion 0.1 to 0.14 units/kg/hr of insulin (or 0.05units/kg/hr per local protocol)\nFixed Rate Insulin Infusion has improved outcomes over Variable Rate\n[23]\n[24]\nMaintain BS between 150 and 200mg/dL until resolution of acidosis\nMay require IV fluids to be switched to Dextrose 10% when BS <150mg/dL\nContinue IV infusion for 2 hrs after subcutaneous insulin is begun\nSubcutaneous route (appropriate only for mild DKA and if able to eat and void urine; poor perfusion may hamper its absorption)",
+          "tables": []
+        },
+        "Subcutaneous_Regimen_(Short-Acting)": {
+          "text": "A subcutaneous (SC) regimen must use short acting insulin and follow either a 1hr or 2hr dosing protocol. Regular insulin is not effective.\n[25]\nFor patients who are euglycemic (glucose <250 mg/dl) at presentation (e.g. with mild gap), using standard\ninsulin sliding scale\ninstead of this regimen.\n[26]\n[27]\n1hr Protocol\nInitial dose SC short acting insulin (e.g. Aspart): 0.3 units/kg\nideal body weight\n, followed by\n0.1 units/kg SC every hour\nWhen blood glucose <250mg/dl (13.8 mmol/l), change IV fluids to D5<sub 0.45%NS and reduce SC aspart insulin to 0.05 units/kg/hr\nKeep glucose at 150mg/dl (11 mmol/l) until resolution of DKA.\n2hr Protocol\nInitial dose SC short acting insulin (e.g. Aspart): 0.3 units/kg\nideal body weight\n, followed by\n0.2 units/kg SC 1 hour later followed by Q2hr dosing\nWhen blood glucose <250mg/dl (13.8 mmol/l), change IV fluids to D5 0.45% saline and reduce SC insulin to 0.1 units/kg/ 2hr\nKeep glucose at 150mg/dl (11 mmol/l) until resolution of DKA.",
+          "tables": []
+        },
+        "Bicarbonate": {
+          "text": "No evidence supports the use of sodium bicarb in DKA, with a pH >6.9\nHowever, no studies have been performed for patients with pH <6.9 and the most recent ADA guidelines recommend it for patients with pH <7.1\nPitfalls of sodium bicarbonate therapy in DKA (outside of last ditch efforts in severe acidemia)\n[29]\nParadoxical CSF acidosis\nHypokalemia from H+ and K+ shifts\nLarge sodium bolus\nCerebral edema\nShifts oxygen-hemoglobin dissociation curve to left, decreasing O2 delivery to tissues",
+          "tables": []
+        },
+        "Labs/Monitoring": {
+          "text": "Glucose check Q1hr\nChem 10 Q2r (then move to Q4hr)\nCheck pH PRN based on clinical status (eval respiratory compensation)\nCheck appropriateness of\ninsulin\ndose Q1hr (see below)\nCorrected Electrolytes",
+          "tables": []
+        },
+        "Sliding_Scale": {
+          "text": "Insulin\nSliding Scale to be started once patient's DKA has resolved and eating a full diet.",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Avoid intubation unless patient cannot generate respiratory alkalosis compensation due to extreme fatigue\n[30]\nRisks associated with intubation in DKA:\nDuring sedation/paralysis, a rise in PaCO2 can decrease pH considerably\nSevere gastroparesis in DKA creates a significant risk for aspiration\nStrong DKA patients generally can achieve greater hyperventilation than mechanical ventilated patients\nSee\nIntubation\nfor more information",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "Hypophosphatemia",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "insulin sliding scale",
+          "url": "https://wikem.org/wiki/Insulin#Insulin_Sliding_Scale"
+        },
+        {
+          "text": "ideal body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight"
+        },
+        {
+          "text": "ideal body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation#Severe_Metabolic_Acidosis"
+        }
+      ]
+    },
+    "Insulin_Overview": {
+      "text": "Check potassium prior to insulin treatment (see above)! Do not administer insulin until potassium supplementation is underway.\n[17]\nA bolus dose is unnecessary and may contribute to increased hypoglycemic episodes\n[18]\nIf the patient comes in wearing an insulin pump, turn off the pump and remove the subcutaneous catheter.\nExpect BS to fall by 50-100mg/dL per hr if you administer 0.1units/kg/hr of insulin\nRefractory hyperglycemia may be due to an associated infectious process contributing to the DKA",
+      "subsections": {
+        "Long-Acting_(Basal)_Insulin": {
+          "text": "Two main practices exist: 1) Close the anion gap, then start basal insulin 2-3 hours before stopping insulin infusion, 2) Early basal insulin\nPotential benefits of early basal insulin (glargine or detemir) include protecting against erroneously stopping insulin infusion prematurely and eliminating the 2-3 hour waiting period of starting basal insulin while on IV infusion\nEarly basal insulin:\n[19]\nGlargine 0.30 U/kg SQ x 1\n[20]\n[21]\n,\nOR\nDetermine total 24 hour home dose of basal insulin and deliver that q24 hours (e.g. patient's normal home dose of glargine)\n[22]",
+          "tables": []
+        },
+        "Intravenous_Regimen_(Short-Acting)": {
+          "text": "Do not stop insulin infusion until AG normalized AND bicarb normalized, despite resolution of blood sugar. Aim of insulin regime is to correct the acidosis, not merely the hyperglycemia.\nInitial infusion 0.1 to 0.14 units/kg/hr of insulin (or 0.05units/kg/hr per local protocol)\nFixed Rate Insulin Infusion has improved outcomes over Variable Rate\n[23]\n[24]\nMaintain BS between 150 and 200mg/dL until resolution of acidosis\nMay require IV fluids to be switched to Dextrose 10% when BS <150mg/dL\nContinue IV infusion for 2 hrs after subcutaneous insulin is begun\nSubcutaneous route (appropriate only for mild DKA and if able to eat and void urine; poor perfusion may hamper its absorption)",
+          "tables": []
+        },
+        "Subcutaneous_Regimen_(Short-Acting)": {
+          "text": "A subcutaneous (SC) regimen must use short acting insulin and follow either a 1hr or 2hr dosing protocol. Regular insulin is not effective.\n[25]\nFor patients who are euglycemic (glucose <250 mg/dl) at presentation (e.g. with mild gap), using standard\ninsulin sliding scale\ninstead of this regimen.\n[26]\n[27]\n1hr Protocol\nInitial dose SC short acting insulin (e.g. Aspart): 0.3 units/kg\nideal body weight\n, followed by\n0.1 units/kg SC every hour\nWhen blood glucose <250mg/dl (13.8 mmol/l), change IV fluids to D5<sub 0.45%NS and reduce SC aspart insulin to 0.05 units/kg/hr\nKeep glucose at 150mg/dl (11 mmol/l) until resolution of DKA.\n2hr Protocol\nInitial dose SC short acting insulin (e.g. Aspart): 0.3 units/kg\nideal body weight\n, followed by\n0.2 units/kg SC 1 hour later followed by Q2hr dosing\nWhen blood glucose <250mg/dl (13.8 mmol/l), change IV fluids to D5 0.45% saline and reduce SC insulin to 0.1 units/kg/ 2hr\nKeep glucose at 150mg/dl (11 mmol/l) until resolution of DKA.",
+          "tables": []
+        },
+        "Bicarbonate": {
+          "text": "No evidence supports the use of sodium bicarb in DKA, with a pH >6.9\nHowever, no studies have been performed for patients with pH <6.9 and the most recent ADA guidelines recommend it for patients with pH <7.1\nPitfalls of sodium bicarbonate therapy in DKA (outside of last ditch efforts in severe acidemia)\n[29]\nParadoxical CSF acidosis\nHypokalemia from H+ and K+ shifts\nLarge sodium bolus\nCerebral edema\nShifts oxygen-hemoglobin dissociation curve to left, decreasing O2 delivery to tissues",
+          "tables": []
+        },
+        "Labs/Monitoring": {
+          "text": "Glucose check Q1hr\nChem 10 Q2r (then move to Q4hr)\nCheck pH PRN based on clinical status (eval respiratory compensation)\nCheck appropriateness of\ninsulin\ndose Q1hr (see below)\nCorrected Electrolytes",
+          "tables": []
+        },
+        "Sliding_Scale": {
+          "text": "Insulin\nSliding Scale to be started once patient's DKA has resolved and eating a full diet.",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Avoid intubation unless patient cannot generate respiratory alkalosis compensation due to extreme fatigue\n[30]\nRisks associated with intubation in DKA:\nDuring sedation/paralysis, a rise in PaCO2 can decrease pH considerably\nSevere gastroparesis in DKA creates a significant risk for aspiration\nStrong DKA patients generally can achieve greater hyperventilation than mechanical ventilated patients\nSee\nIntubation\nfor more information",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "insulin sliding scale",
+          "url": "https://wikem.org/wiki/Insulin#Insulin_Sliding_Scale"
+        },
+        {
+          "text": "ideal body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight"
+        },
+        {
+          "text": "ideal body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation#Severe_Metabolic_Acidosis"
+        }
+      ]
+    },
+    "Short-Acting_Insulin": {
+      "text": "",
+      "subsections": {
+        "Intravenous_Regimen_(Short-Acting)": {
+          "text": "Do not stop insulin infusion until AG normalized AND bicarb normalized, despite resolution of blood sugar. Aim of insulin regime is to correct the acidosis, not merely the hyperglycemia.\nInitial infusion 0.1 to 0.14 units/kg/hr of insulin (or 0.05units/kg/hr per local protocol)\nFixed Rate Insulin Infusion has improved outcomes over Variable Rate\n[23]\n[24]\nMaintain BS between 150 and 200mg/dL until resolution of acidosis\nMay require IV fluids to be switched to Dextrose 10% when BS <150mg/dL\nContinue IV infusion for 2 hrs after subcutaneous insulin is begun\nSubcutaneous route (appropriate only for mild DKA and if able to eat and void urine; poor perfusion may hamper its absorption)",
+          "tables": []
+        },
+        "Subcutaneous_Regimen_(Short-Acting)": {
+          "text": "A subcutaneous (SC) regimen must use short acting insulin and follow either a 1hr or 2hr dosing protocol. Regular insulin is not effective.\n[25]\nFor patients who are euglycemic (glucose <250 mg/dl) at presentation (e.g. with mild gap), using standard\ninsulin sliding scale\ninstead of this regimen.\n[26]\n[27]\n1hr Protocol\nInitial dose SC short acting insulin (e.g. Aspart): 0.3 units/kg\nideal body weight\n, followed by\n0.1 units/kg SC every hour\nWhen blood glucose <250mg/dl (13.8 mmol/l), change IV fluids to D5<sub 0.45%NS and reduce SC aspart insulin to 0.05 units/kg/hr\nKeep glucose at 150mg/dl (11 mmol/l) until resolution of DKA.\n2hr Protocol\nInitial dose SC short acting insulin (e.g. Aspart): 0.3 units/kg\nideal body weight\n, followed by\n0.2 units/kg SC 1 hour later followed by Q2hr dosing\nWhen blood glucose <250mg/dl (13.8 mmol/l), change IV fluids to D5 0.45% saline and reduce SC insulin to 0.1 units/kg/ 2hr\nKeep glucose at 150mg/dl (11 mmol/l) until resolution of DKA.",
+          "tables": []
+        },
+        "Bicarbonate": {
+          "text": "No evidence supports the use of sodium bicarb in DKA, with a pH >6.9\nHowever, no studies have been performed for patients with pH <6.9 and the most recent ADA guidelines recommend it for patients with pH <7.1\nPitfalls of sodium bicarbonate therapy in DKA (outside of last ditch efforts in severe acidemia)\n[29]\nParadoxical CSF acidosis\nHypokalemia from H+ and K+ shifts\nLarge sodium bolus\nCerebral edema\nShifts oxygen-hemoglobin dissociation curve to left, decreasing O2 delivery to tissues",
+          "tables": []
+        },
+        "Labs/Monitoring": {
+          "text": "Glucose check Q1hr\nChem 10 Q2r (then move to Q4hr)\nCheck pH PRN based on clinical status (eval respiratory compensation)\nCheck appropriateness of\ninsulin\ndose Q1hr (see below)\nCorrected Electrolytes",
+          "tables": []
+        },
+        "Sliding_Scale": {
+          "text": "Insulin\nSliding Scale to be started once patient's DKA has resolved and eating a full diet.",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Avoid intubation unless patient cannot generate respiratory alkalosis compensation due to extreme fatigue\n[30]\nRisks associated with intubation in DKA:\nDuring sedation/paralysis, a rise in PaCO2 can decrease pH considerably\nSevere gastroparesis in DKA creates a significant risk for aspiration\nStrong DKA patients generally can achieve greater hyperventilation than mechanical ventilated patients\nSee\nIntubation\nfor more information",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "insulin sliding scale",
+          "url": "https://wikem.org/wiki/Insulin#Insulin_Sliding_Scale"
+        },
+        {
+          "text": "ideal body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight"
+        },
+        {
+          "text": "ideal body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation#Severe_Metabolic_Acidosis"
+        }
+      ]
+    },
+    "Bicarbonate": {
+      "text": "No evidence supports the use of sodium bicarb in DKA, with a pH >6.9\nHowever, no studies have been performed for patients with pH <6.9 and the most recent ADA guidelines recommend it for patients with pH <7.1\nPitfalls of sodium bicarbonate therapy in DKA (outside of last ditch efforts in severe acidemia)\n[29]\nParadoxical CSF acidosis\nHypokalemia from H+ and K+ shifts\nLarge sodium bolus\nCerebral edema\nShifts oxygen-hemoglobin dissociation curve to left, decreasing O2 delivery to tissues",
+      "subsections": {
+        "Labs/Monitoring": {
+          "text": "Glucose check Q1hr\nChem 10 Q2r (then move to Q4hr)\nCheck pH PRN based on clinical status (eval respiratory compensation)\nCheck appropriateness of\ninsulin\ndose Q1hr (see below)\nCorrected Electrolytes",
+          "tables": []
+        },
+        "Sliding_Scale": {
+          "text": "Insulin\nSliding Scale to be started once patient's DKA has resolved and eating a full diet.",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Avoid intubation unless patient cannot generate respiratory alkalosis compensation due to extreme fatigue\n[30]\nRisks associated with intubation in DKA:\nDuring sedation/paralysis, a rise in PaCO2 can decrease pH considerably\nSevere gastroparesis in DKA creates a significant risk for aspiration\nStrong DKA patients generally can achieve greater hyperventilation than mechanical ventilated patients\nSee\nIntubation\nfor more information",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation#Severe_Metabolic_Acidosis"
+        }
+      ]
+    },
+    "Subsequent_Management": {
+      "text": "",
+      "subsections": {
+        "Labs/Monitoring": {
+          "text": "Glucose check Q1hr\nChem 10 Q2r (then move to Q4hr)\nCheck pH PRN based on clinical status (eval respiratory compensation)\nCheck appropriateness of\ninsulin\ndose Q1hr (see below)\nCorrected Electrolytes",
+          "tables": []
+        },
+        "Sliding_Scale": {
+          "text": "Insulin\nSliding Scale to be started once patient's DKA has resolved and eating a full diet.",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Avoid intubation unless patient cannot generate respiratory alkalosis compensation due to extreme fatigue\n[30]\nRisks associated with intubation in DKA:\nDuring sedation/paralysis, a rise in PaCO2 can decrease pH considerably\nSevere gastroparesis in DKA creates a significant risk for aspiration\nStrong DKA patients generally can achieve greater hyperventilation than mechanical ventilated patients\nSee\nIntubation\nfor more information",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation#Severe_Metabolic_Acidosis"
+        }
+      ]
+    },
+    "Intubation": {
+      "text": "Avoid intubation unless patient cannot generate respiratory alkalosis compensation due to extreme fatigue\n[30]\nRisks associated with intubation in DKA:\nDuring sedation/paralysis, a rise in PaCO2 can decrease pH considerably\nSevere gastroparesis in DKA creates a significant risk for aspiration\nStrong DKA patients generally can achieve greater hyperventilation than mechanical ventilated patients\nSee\nIntubation\nfor more information",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation#Severe_Metabolic_Acidosis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit to higher level care (usually ICU or step-down unit initially)\nSubsequent hospital discharge requires closing on anion gap and resolution of symptoms.\nPatients with mild DKA may be treated as outpatients if reliable, close follow-up available and underlying causes not requiring admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Cerebral Edema in DKA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cerebral Edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_Edema_in_DKA"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Diabetes mellitus (main)\nEvidence Review Sodium Bicarbonate in DKA\nDiabetic ketoacidosis (peds)\nKetonemia\nCerebral edema in DKA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Evidence Review Sodium Bicarbonate in DKA",
+          "url": "https://wikem.org/wiki/EBQ:Sodium_Bicarbonate_use_in_DKA"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Ketonemia",
+          "url": "https://wikem.org/wiki/Ketonemia"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "British Society for Paediatric Endocrinology and Diabetes - Paediatric Diabetic Ketoacidosis\nDDxOf: Management of DIabetic Ketoacidosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

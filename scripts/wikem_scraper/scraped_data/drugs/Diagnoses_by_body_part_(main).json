@@ -1,0 +1,193 @@
+{
+  "drug_name": "Diagnoses_by_body_part_(main)",
+  "url": "https://wikem.org/wiki/Diagnoses_by_body_part_(main)",
+  "scraped_at": "2026-01-10T07:51:45.437657",
+  "sections": {
+    "Head_and_Neck": {
+      "text": "Intracranial Hemorrhage (Main)\nOcular and periocular diagnoses\nSore throat\nNeck diagnoses\nDental problems\nTongue diagnoses\nOropharynx and jaw diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial Hemorrhage (Main)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(Main)"
+        },
+        {
+          "text": "Ocular and periocular diagnoses",
+          "url": "https://wikem.org/wiki/Ocular_and_periocular_diagnoses"
+        },
+        {
+          "text": "Sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "Neck diagnoses",
+          "url": "https://wikem.org/wiki/Neck_diagnoses"
+        },
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Oropharynx and jaw diagnoses",
+          "url": "https://wikem.org/wiki/Oropharynx_and_jaw_diagnoses"
+        }
+      ]
+    },
+    "Upper_Extremity": {
+      "text": "Shoulder and upper arm diagnoses\nElbow diagnoses\nForearm diagnoses\nHand and finger diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shoulder and upper arm diagnoses",
+          "url": "https://wikem.org/wiki/Shoulder_and_upper_arm_diagnoses"
+        },
+        {
+          "text": "Elbow diagnoses",
+          "url": "https://wikem.org/wiki/Elbow_diagnoses"
+        },
+        {
+          "text": "Forearm diagnoses",
+          "url": "https://wikem.org/wiki/Forearm_diagnoses"
+        },
+        {
+          "text": "Hand and finger diagnoses",
+          "url": "https://wikem.org/wiki/Hand_and_finger_diagnoses"
+        }
+      ]
+    },
+    "Torso": {
+      "text": "Chest pain\nAbdominal pain\nAbdominal trauma\nAnorectal disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Abdominal trauma",
+          "url": "https://wikem.org/wiki/Abdominal_trauma"
+        },
+        {
+          "text": "Anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        }
+      ]
+    },
+    "Genital": {
+      "text": "",
+      "subsections": {
+        "Female": {
+          "text": "Pelvic Pain",
+          "tables": []
+        },
+        "Male": {
+          "text": "Testicular diagnoses\nPenile diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic Pain",
+          "url": "https://wikem.org/wiki/Pelvic_Pain"
+        },
+        {
+          "text": "Testicular diagnoses",
+          "url": "https://wikem.org/wiki/Testicular_diagnoses"
+        },
+        {
+          "text": "Penile diagnoses",
+          "url": "https://wikem.org/wiki/Penile_diagnoses"
+        }
+      ]
+    },
+    "Female": {
+      "text": "Pelvic Pain",
+      "subsections": {
+        "Male": {
+          "text": "Testicular diagnoses\nPenile diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic Pain",
+          "url": "https://wikem.org/wiki/Pelvic_Pain"
+        },
+        {
+          "text": "Testicular diagnoses",
+          "url": "https://wikem.org/wiki/Testicular_diagnoses"
+        },
+        {
+          "text": "Penile diagnoses",
+          "url": "https://wikem.org/wiki/Penile_diagnoses"
+        }
+      ]
+    },
+    "Male": {
+      "text": "Testicular diagnoses\nPenile diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Testicular diagnoses",
+          "url": "https://wikem.org/wiki/Testicular_diagnoses"
+        },
+        {
+          "text": "Penile diagnoses",
+          "url": "https://wikem.org/wiki/Penile_diagnoses"
+        }
+      ]
+    },
+    "Lower_Extremity": {
+      "text": "Upper Leg (Thigh) Diagnoses\nKnee Diagnoses\nLower Leg Diagnoses\nAnkle Diagnoses\nFoot Diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper Leg (Thigh) Diagnoses",
+          "url": "https://wikem.org/wiki/Upper_Leg_(Thigh)_Diagnoses"
+        },
+        {
+          "text": "Knee Diagnoses",
+          "url": "https://wikem.org/wiki/Knee_Diagnoses"
+        },
+        {
+          "text": "Lower Leg Diagnoses",
+          "url": "https://wikem.org/wiki/Lower_Leg_Diagnoses"
+        },
+        {
+          "text": "Ankle Diagnoses",
+          "url": "https://wikem.org/wiki/Ankle_Diagnoses"
+        },
+        {
+          "text": "Foot Diagnoses",
+          "url": "https://wikem.org/wiki/Foot_Diagnoses"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Fracture (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fracture (Main)",
+          "url": "https://wikem.org/wiki/Fracture_(Main)"
+        }
+      ]
+    }
+  }
+}

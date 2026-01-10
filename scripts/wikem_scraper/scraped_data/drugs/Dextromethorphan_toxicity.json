@@ -1,0 +1,897 @@
+{
+  "drug_name": "Dextromethorphan_toxicity",
+  "url": "https://wikem.org/wiki/Dextromethorphan_toxicity",
+  "scraped_at": "2026-01-10T07:51:46.878690",
+  "sections": {
+    "Background": {
+      "text": "Antitussive agent\nActs on opioid and serotonin receptors\nAt high doses has phencyclidine (PCP) and ketamine like effects on the NMDA receptor system\nHigh abuse in 12-25 year olds for euphoric and dissociative properties\n\"Skittles\", \"Robotripping\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Diaphoresis, hyperthermia, tachycardia\nVisual field distortion and dilated pupils\nExcitement, euphoria, hallucinations, loss of time, feelings of dissociation, inappropriate laughing\nLess respiratory depression compared to other opioids (does not act on mu/delta receptors)\nReactions with other medications\nIf anti-H1 in combination,\nAnticholinergic toxicity\nIf α-agonist in combination, hypertension and reflex bradycardia\nIf\nAcetaminophen\nin combination, hepatic toxicity\nOne of several medications that may precipitate\nSerotonin Syndrome\nToxicity is dose dependant\n[1]\nNormal dose of nyquil (30 mL) has 30mg of dextromethorphan",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Plateau": "1",
+            "Dose": "100 to 200mg",
+            "Symptoms": "Mild stimulation, change in gravity perception"
+          },
+          {
+            "Plateau": "2",
+            "Dose": "200 to 400mg",
+            "Symptoms": "Euphoria and hallucinations"
+          },
+          {
+            "Plateau": "3",
+            "Dose": "300 to 600mg",
+            "Symptoms": "Dissociative and out of body sensation"
+          },
+          {
+            "Plateau": "4",
+            "Dose": ">600mg",
+            "Symptoms": "Complete dissociation and unresponsiveness, coma"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen_(Tylenol)_Toxicity"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dissociative_drugs": {
+          "text": "Dextromethorphan\nKetamine\nNitrous oxide\nPhencyclidine\n(PCP)\nNMDA receptor antagonist",
+          "tables": []
+        },
+        "Hallucinations": {
+          "text": "Serotonin-Like Agents\nLysergic acid diethylamide\n(LSD)\nPsilocybin\n(\"magic mushrooms\")\nN,N-Dimethyltryptamine\n(DMT)\n5-methoxy- dimethyltryptamine (5-MeO-DMT)\n25C-NBOMe\nEnactogens\nDesigner amphetamines\nBath salts\nEcstasy (MDMA)\nMescaline\n(peyote)\nSynthetic cannabinoids\nDissociative Agents\nPhencyclidine\n(PCP)\nKetamine\nDextromethorphan\nNitrous oxide\nPlant-based Hallucinogenics\nMarijuana\nSalvia\nAbsinthe\nIsoxazole Mushrooms\nHawaiian baby woodrose (Argyreia nervosa)\nHawaiian woodrose (Merremia tuberosa)\nMorning glory (Ipomoea violacea)\nOlili- uqui (Rivea corymbosa)\nOrganic causes\nDelirium\nIntracranial mass\nto occipital or temporal lobes\nEncephalitis\n,\nlimbic encephalitis\n,\nanti-NMDA receptor encephalitis\nMigraine\nSeizure\nHypocalcemia\n/\nHypercalcemia\nRift valley fever\nRabies\nSyphilis\nVitamin B7 deficiency\nPellagra\nDementia\nParkinson's Disease\nOther Toxicologic Causes\nAlcohol withdrawal\nAnticholinergic Toxicity\nTricyclic (TCA) Toxicity\nSynthetic cannabinoids\nInhalant abuse\nNitrogen narcosis\nGHB withdrawal\nHydrocarbon toxicity\nHeavy metal toxicity\nMultiple medications:\nmontelukast\n,\ndoxapram\n,\nhyoscyamine\n,\ntizanidine\n,\nperamivir\n,\namantadine\n,\nrimantadine\n,\nbromocriptine\n,\nmethylergonovine\n,\nbenztropine\n,\ndoxepin\n,\nvoriconazole\n,\nacyclovir\n,\nvalacyclovir\n,\nganciclovir\n,\ncimetidine\n,\npenicillin G Procaine\n,\nclarithromycin\n,\nmetoclopramide\nInhalant abuse\nPsychiatric Causes\n[2]\nSchizophrenia\n,\nschizoaffective disorder\n,\nschizophreniform disorder\nDepression\nwith psychotic features\nBipolar disorder\nCharles Bonnet Syndrome (in the visually impaired)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Nitrous oxide",
+          "url": "https://wikem.org/wiki/Nitrous_oxide"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine"
+        },
+        {
+          "text": "Lysergic acid diethylamide",
+          "url": "https://wikem.org/wiki/Lysergic_acid_diethylamide_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "N,N-Dimethyltryptamine",
+          "url": "https://wikem.org/wiki/N,N-Dimethyltryptamine"
+        },
+        {
+          "text": "25C-NBOMe",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts_toxicity"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)_toxicity"
+        },
+        {
+          "text": "Mescaline",
+          "url": "https://wikem.org/wiki/Mescaline"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Salvia",
+          "url": "https://wikem.org/wiki/Salvia_toxicity"
+        },
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "limbic encephalitis",
+          "url": "https://wikem.org/wiki/Limbic_encephalitis"
+        },
+        {
+          "text": "anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Parkinson's Disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_Disease"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Anticholinergic Toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_Toxicity"
+        },
+        {
+          "text": "Tricyclic (TCA) Toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_Toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Nitrogen narcosis",
+          "url": "https://wikem.org/wiki/Nitrogen_narcosis"
+        },
+        {
+          "text": "GHB withdrawal",
+          "url": "https://wikem.org/wiki/GHB_withdrawal"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        },
+        {
+          "text": "doxapram",
+          "url": "https://wikem.org/wiki/Doxapram"
+        },
+        {
+          "text": "hyoscyamine",
+          "url": "https://wikem.org/wiki/Hyoscyamine"
+        },
+        {
+          "text": "tizanidine",
+          "url": "https://wikem.org/wiki/Tizanidine"
+        },
+        {
+          "text": "peramivir",
+          "url": "https://wikem.org/wiki/Peramivir"
+        },
+        {
+          "text": "amantadine",
+          "url": "https://wikem.org/wiki/Amantadine"
+        },
+        {
+          "text": "rimantadine",
+          "url": "https://wikem.org/wiki/Rimantadine"
+        },
+        {
+          "text": "bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "methylergonovine",
+          "url": "https://wikem.org/wiki/Methylergonovine"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "doxepin",
+          "url": "https://wikem.org/wiki/Doxepin"
+        },
+        {
+          "text": "voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "penicillin G Procaine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Procaine"
+        },
+        {
+          "text": "clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "schizoaffective disorder",
+          "url": "https://wikem.org/wiki/Schizoaffective_disorder"
+        },
+        {
+          "text": "schizophreniform disorder",
+          "url": "https://wikem.org/wiki/Schizophreniform_disorder"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Bipolar disorder",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        }
+      ]
+    },
+    "Dissociative_drugs": {
+      "text": "Dextromethorphan\nKetamine\nNitrous oxide\nPhencyclidine\n(PCP)\nNMDA receptor antagonist",
+      "subsections": {
+        "Hallucinations": {
+          "text": "Serotonin-Like Agents\nLysergic acid diethylamide\n(LSD)\nPsilocybin\n(\"magic mushrooms\")\nN,N-Dimethyltryptamine\n(DMT)\n5-methoxy- dimethyltryptamine (5-MeO-DMT)\n25C-NBOMe\nEnactogens\nDesigner amphetamines\nBath salts\nEcstasy (MDMA)\nMescaline\n(peyote)\nSynthetic cannabinoids\nDissociative Agents\nPhencyclidine\n(PCP)\nKetamine\nDextromethorphan\nNitrous oxide\nPlant-based Hallucinogenics\nMarijuana\nSalvia\nAbsinthe\nIsoxazole Mushrooms\nHawaiian baby woodrose (Argyreia nervosa)\nHawaiian woodrose (Merremia tuberosa)\nMorning glory (Ipomoea violacea)\nOlili- uqui (Rivea corymbosa)\nOrganic causes\nDelirium\nIntracranial mass\nto occipital or temporal lobes\nEncephalitis\n,\nlimbic encephalitis\n,\nanti-NMDA receptor encephalitis\nMigraine\nSeizure\nHypocalcemia\n/\nHypercalcemia\nRift valley fever\nRabies\nSyphilis\nVitamin B7 deficiency\nPellagra\nDementia\nParkinson's Disease\nOther Toxicologic Causes\nAlcohol withdrawal\nAnticholinergic Toxicity\nTricyclic (TCA) Toxicity\nSynthetic cannabinoids\nInhalant abuse\nNitrogen narcosis\nGHB withdrawal\nHydrocarbon toxicity\nHeavy metal toxicity\nMultiple medications:\nmontelukast\n,\ndoxapram\n,\nhyoscyamine\n,\ntizanidine\n,\nperamivir\n,\namantadine\n,\nrimantadine\n,\nbromocriptine\n,\nmethylergonovine\n,\nbenztropine\n,\ndoxepin\n,\nvoriconazole\n,\nacyclovir\n,\nvalacyclovir\n,\nganciclovir\n,\ncimetidine\n,\npenicillin G Procaine\n,\nclarithromycin\n,\nmetoclopramide\nInhalant abuse\nPsychiatric Causes\n[2]\nSchizophrenia\n,\nschizoaffective disorder\n,\nschizophreniform disorder\nDepression\nwith psychotic features\nBipolar disorder\nCharles Bonnet Syndrome (in the visually impaired)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Nitrous oxide",
+          "url": "https://wikem.org/wiki/Nitrous_oxide"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine"
+        },
+        {
+          "text": "Lysergic acid diethylamide",
+          "url": "https://wikem.org/wiki/Lysergic_acid_diethylamide_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "N,N-Dimethyltryptamine",
+          "url": "https://wikem.org/wiki/N,N-Dimethyltryptamine"
+        },
+        {
+          "text": "25C-NBOMe",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts_toxicity"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)_toxicity"
+        },
+        {
+          "text": "Mescaline",
+          "url": "https://wikem.org/wiki/Mescaline"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Salvia",
+          "url": "https://wikem.org/wiki/Salvia_toxicity"
+        },
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "limbic encephalitis",
+          "url": "https://wikem.org/wiki/Limbic_encephalitis"
+        },
+        {
+          "text": "anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Parkinson's Disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_Disease"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Anticholinergic Toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_Toxicity"
+        },
+        {
+          "text": "Tricyclic (TCA) Toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_Toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Nitrogen narcosis",
+          "url": "https://wikem.org/wiki/Nitrogen_narcosis"
+        },
+        {
+          "text": "GHB withdrawal",
+          "url": "https://wikem.org/wiki/GHB_withdrawal"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        },
+        {
+          "text": "doxapram",
+          "url": "https://wikem.org/wiki/Doxapram"
+        },
+        {
+          "text": "hyoscyamine",
+          "url": "https://wikem.org/wiki/Hyoscyamine"
+        },
+        {
+          "text": "tizanidine",
+          "url": "https://wikem.org/wiki/Tizanidine"
+        },
+        {
+          "text": "peramivir",
+          "url": "https://wikem.org/wiki/Peramivir"
+        },
+        {
+          "text": "amantadine",
+          "url": "https://wikem.org/wiki/Amantadine"
+        },
+        {
+          "text": "rimantadine",
+          "url": "https://wikem.org/wiki/Rimantadine"
+        },
+        {
+          "text": "bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "methylergonovine",
+          "url": "https://wikem.org/wiki/Methylergonovine"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "doxepin",
+          "url": "https://wikem.org/wiki/Doxepin"
+        },
+        {
+          "text": "voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "penicillin G Procaine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Procaine"
+        },
+        {
+          "text": "clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "schizoaffective disorder",
+          "url": "https://wikem.org/wiki/Schizoaffective_disorder"
+        },
+        {
+          "text": "schizophreniform disorder",
+          "url": "https://wikem.org/wiki/Schizophreniform_disorder"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Bipolar disorder",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        }
+      ]
+    },
+    "Hallucinations": {
+      "text": "Serotonin-Like Agents\nLysergic acid diethylamide\n(LSD)\nPsilocybin\n(\"magic mushrooms\")\nN,N-Dimethyltryptamine\n(DMT)\n5-methoxy- dimethyltryptamine (5-MeO-DMT)\n25C-NBOMe\nEnactogens\nDesigner amphetamines\nBath salts\nEcstasy (MDMA)\nMescaline\n(peyote)\nSynthetic cannabinoids\nDissociative Agents\nPhencyclidine\n(PCP)\nKetamine\nDextromethorphan\nNitrous oxide\nPlant-based Hallucinogenics\nMarijuana\nSalvia\nAbsinthe\nIsoxazole Mushrooms\nHawaiian baby woodrose (Argyreia nervosa)\nHawaiian woodrose (Merremia tuberosa)\nMorning glory (Ipomoea violacea)\nOlili- uqui (Rivea corymbosa)\nOrganic causes\nDelirium\nIntracranial mass\nto occipital or temporal lobes\nEncephalitis\n,\nlimbic encephalitis\n,\nanti-NMDA receptor encephalitis\nMigraine\nSeizure\nHypocalcemia\n/\nHypercalcemia\nRift valley fever\nRabies\nSyphilis\nVitamin B7 deficiency\nPellagra\nDementia\nParkinson's Disease\nOther Toxicologic Causes\nAlcohol withdrawal\nAnticholinergic Toxicity\nTricyclic (TCA) Toxicity\nSynthetic cannabinoids\nInhalant abuse\nNitrogen narcosis\nGHB withdrawal\nHydrocarbon toxicity\nHeavy metal toxicity\nMultiple medications:\nmontelukast\n,\ndoxapram\n,\nhyoscyamine\n,\ntizanidine\n,\nperamivir\n,\namantadine\n,\nrimantadine\n,\nbromocriptine\n,\nmethylergonovine\n,\nbenztropine\n,\ndoxepin\n,\nvoriconazole\n,\nacyclovir\n,\nvalacyclovir\n,\nganciclovir\n,\ncimetidine\n,\npenicillin G Procaine\n,\nclarithromycin\n,\nmetoclopramide\nInhalant abuse\nPsychiatric Causes\n[2]\nSchizophrenia\n,\nschizoaffective disorder\n,\nschizophreniform disorder\nDepression\nwith psychotic features\nBipolar disorder\nCharles Bonnet Syndrome (in the visually impaired)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lysergic acid diethylamide",
+          "url": "https://wikem.org/wiki/Lysergic_acid_diethylamide_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "N,N-Dimethyltryptamine",
+          "url": "https://wikem.org/wiki/N,N-Dimethyltryptamine"
+        },
+        {
+          "text": "25C-NBOMe",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts_toxicity"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)_toxicity"
+        },
+        {
+          "text": "Mescaline",
+          "url": "https://wikem.org/wiki/Mescaline"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Salvia",
+          "url": "https://wikem.org/wiki/Salvia_toxicity"
+        },
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "limbic encephalitis",
+          "url": "https://wikem.org/wiki/Limbic_encephalitis"
+        },
+        {
+          "text": "anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Parkinson's Disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_Disease"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Anticholinergic Toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_Toxicity"
+        },
+        {
+          "text": "Tricyclic (TCA) Toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_Toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Nitrogen narcosis",
+          "url": "https://wikem.org/wiki/Nitrogen_narcosis"
+        },
+        {
+          "text": "GHB withdrawal",
+          "url": "https://wikem.org/wiki/GHB_withdrawal"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        },
+        {
+          "text": "doxapram",
+          "url": "https://wikem.org/wiki/Doxapram"
+        },
+        {
+          "text": "hyoscyamine",
+          "url": "https://wikem.org/wiki/Hyoscyamine"
+        },
+        {
+          "text": "tizanidine",
+          "url": "https://wikem.org/wiki/Tizanidine"
+        },
+        {
+          "text": "peramivir",
+          "url": "https://wikem.org/wiki/Peramivir"
+        },
+        {
+          "text": "amantadine",
+          "url": "https://wikem.org/wiki/Amantadine"
+        },
+        {
+          "text": "rimantadine",
+          "url": "https://wikem.org/wiki/Rimantadine"
+        },
+        {
+          "text": "bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "methylergonovine",
+          "url": "https://wikem.org/wiki/Methylergonovine"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "doxepin",
+          "url": "https://wikem.org/wiki/Doxepin"
+        },
+        {
+          "text": "voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "penicillin G Procaine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Procaine"
+        },
+        {
+          "text": "clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "schizoaffective disorder",
+          "url": "https://wikem.org/wiki/Schizoaffective_disorder"
+        },
+        {
+          "text": "schizophreniform disorder",
+          "url": "https://wikem.org/wiki/Schizophreniform_disorder"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Bipolar disorder",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Given altered mental status, key importance of witnesses and EMS recovery of medication bottles\nAcetaminophen level (combination cold medicine)\nUrine drug screen may be positive for PCP or opioids",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care\nIV hydration\nCooling\nBenzodiazepines\nNaloxone is unlikely to have much effect unless there is respiratory depression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Serotonin Syndrome\nAnticholinergic Toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Anticholinergic Toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_Toxicity"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "drug_name": "Dextrose-based_products",
+  "url": "https://wikem.org/wiki/Dextrose-based_products",
+  "scraped_at": "2026-01-10T07:51:46.678428",
+  "sections": {
+    "Product_Options": {
+      "text": "D5W\nD10W\nD25W\nD50W\nD5NS\nD5 1/2NS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "D5W",
+          "url": "https://wikem.org/wiki/D5W"
+        },
+        {
+          "text": "D10W",
+          "url": "https://wikem.org/wiki/D10W"
+        },
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "D5NS",
+          "url": "https://wikem.org/wiki/D5NS"
+        },
+        {
+          "text": "D5 1/2NS",
+          "url": "https://wikem.org/wiki/D5_1/2NS"
+        }
+      ]
+    },
+    "Choosing_Products": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Hypoglycemia_Dextrose_Chart": {
+          "text": "Consider diluting the\nD25W\nor\nD50W\nbolus, with NS 1-to-1, as those concentrations may be sclerosing to veins\nRecheck 5 minutes after dose and repeat dose if low.\nConsider\nglucagon\nIM/SQ if IV access is not readily available",
+          "tables": [
+            [
+              {
+                "Category": "Neonatal",
+                "Age": "<2mo",
+                "Glucose": "<40",
+                "Treatment": "D10W",
+                "Initial IV Bolus": "2.5-5 mL/kg",
+                "Maintenance Dose": "6 mL/kg/h"
+              },
+              {
+                "Category": "Pediatric",
+                "Age": "2mo-8yrs",
+                "Glucose": "<60",
+                "Treatment": "D25W",
+                "Initial IV Bolus": "2 mL/kg",
+                "Maintenance Dose": "D10W:6 mL/kg/h for first 10 kg+ 3 mL/kg/h for 11–20 kg+ 1.5 mL/kg/h for each additional kg >20 kg"
+              },
+              {
+                "Category": "Adult",
+                "Age": ">8yrs",
+                "Glucose": "<70",
+                "Treatment": "D50W",
+                "Initial IV Bolus": "50mL (1 amp)OR1 mL/kg",
+                "Maintenance Dose": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        }
+      ]
+    },
+    "Pediatric_Hypoglycemia_Dextrose_Chart": {
+      "text": "Consider diluting the\nD25W\nor\nD50W\nbolus, with NS 1-to-1, as those concentrations may be sclerosing to veins\nRecheck 5 minutes after dose and repeat dose if low.\nConsider\nglucagon\nIM/SQ if IV access is not readily available",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "Neonatal",
+            "Age": "<2mo",
+            "Glucose": "<40",
+            "Treatment": "D10W",
+            "Initial IV Bolus": "2.5-5 mL/kg",
+            "Maintenance Dose": "6 mL/kg/h"
+          },
+          {
+            "Category": "Pediatric",
+            "Age": "2mo-8yrs",
+            "Glucose": "<60",
+            "Treatment": "D25W",
+            "Initial IV Bolus": "2 mL/kg",
+            "Maintenance Dose": "D10W:6 mL/kg/h for first 10 kg+ 3 mL/kg/h for 11–20 kg+ 1.5 mL/kg/h for each additional kg >20 kg"
+          },
+          {
+            "Category": "Adult",
+            "Age": ">8yrs",
+            "Glucose": "<70",
+            "Treatment": "D50W",
+            "Initial IV Bolus": "50mL (1 amp)OR1 mL/kg",
+            "Maintenance Dose": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        }
+      ]
+    },
+    "Dextrose_Comparison": {
+      "text": "D50W\n25gm dextrose in 50mL sterile water (25g/50ml = 50% dextrose)\nD10W\n25gm dextrose in 250mL sterile water (25gm/250mL = 10% dextrose)\nD5W\n25gm dextrose in 500mL sterile water (25gm/500mL = 5% dextrose)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "D10W",
+          "url": "https://wikem.org/wiki/D10W"
+        },
+        {
+          "text": "D5W",
+          "url": "https://wikem.org/wiki/D5W"
+        }
+      ]
+    },
+    "Rule_of_50": {
+      "text": "Divide 50 by the type of dextrose solution to arrive at rate in ml/kg\nAdult (D50): 50/50 = 1 ml/kg\nPediatric (D25): 50/25 = 2 ml/kg\nInfant (D10): 50/10 = 5 ml/kg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypoglycemia\nNon-neonatal hypoglycemia (peds)\nNeonatal hypoglycemia\nIntravenous fluids (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Non-neonatal hypoglycemia (peds)",
+          "url": "https://wikem.org/wiki/Non-neonatal_hypoglycemia_(peds)"
+        },
+        {
+          "text": "Neonatal hypoglycemia",
+          "url": "https://wikem.org/wiki/Neonatal_hypoglycemia"
+        },
+        {
+          "text": "Intravenous fluids (main)",
+          "url": "https://wikem.org/wiki/Intravenous_fluids_(main)"
+        }
+      ]
+    }
+  }
+}

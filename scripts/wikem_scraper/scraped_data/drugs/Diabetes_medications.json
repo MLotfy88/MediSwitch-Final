@@ -1,0 +1,234 @@
+{
+  "drug_name": "Diabetes_medications",
+  "url": "https://wikem.org/wiki/Diabetes_medications",
+  "scraped_at": "2026-01-10T07:51:44.379119",
+  "sections": {
+    "Background": {
+      "text": "Hypoglycemics\nSulfonylureas\nBenzoic acid derivatives\nAntihyperglycemics\nBiguanides\nAlpha glucosidase inhibitors\nThiazolidinediones",
+      "subsections": {
+        "Common_Anti-hyperglycemic_Drugs_and_Pharmacology": {
+          "text": "See also\nGLP-1 agonists",
+          "tables": [
+            [
+              {
+                "Drug": "Onset",
+                "Pharmacology": "Peak"
+              },
+              {
+                "Drug": "Rapid-acting insulinAspart (Novolog)Lispro (Humalog)",
+                "Pharmacology": "15-30min"
+              },
+              {
+                "Drug": "Short-acting insulinRegular",
+                "Pharmacology": "30-60min"
+              },
+              {
+                "Drug": "Intermediate-acting insulinNPH (Humulin, Novolin)",
+                "Pharmacology": "1-3h"
+              },
+              {
+                "Drug": "Long-acting insulinGlargine (Lantus)",
+                "Pharmacology": "2-4h"
+              },
+              {
+                "Drug": "SulfonylureaGlimepirideGlipizide (Glucotrol)Glyburide (Glycron, Micronase)",
+                "Pharmacology": "–"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GLP-1 agonists",
+          "url": "https://wikem.org/wiki/GLP-1_agonists"
+        }
+      ]
+    },
+    "Common_Anti-hyperglycemic_Drugs_and_Pharmacology": {
+      "text": "See also\nGLP-1 agonists",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Drug": "Onset",
+            "Pharmacology": "Peak"
+          },
+          {
+            "Drug": "Rapid-acting insulinAspart (Novolog)Lispro (Humalog)",
+            "Pharmacology": "15-30min"
+          },
+          {
+            "Drug": "Short-acting insulinRegular",
+            "Pharmacology": "30-60min"
+          },
+          {
+            "Drug": "Intermediate-acting insulinNPH (Humulin, Novolin)",
+            "Pharmacology": "1-3h"
+          },
+          {
+            "Drug": "Long-acting insulinGlargine (Lantus)",
+            "Pharmacology": "2-4h"
+          },
+          {
+            "Drug": "SulfonylureaGlimepirideGlipizide (Glucotrol)Glyburide (Glycron, Micronase)",
+            "Pharmacology": "–"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "GLP-1 agonists",
+          "url": "https://wikem.org/wiki/GLP-1_agonists"
+        }
+      ]
+    },
+    "Dose": {
+      "text": "Metformin\n500mg PO BID is first-line agent for type II diabetics\nDo not prescribe if creatinine > 1.4 (GFR <40), CHF, hepatic insufficiency, ETOH abuse\nShould be withheld for 48hr after IV contrast",
+      "subsections": {
+        "Side_Effects": {
+          "text": "Lactic acidosis (due to increased lactate production)\nSeen almost exclusively in patients with renal failure\nNausea, diarrhea, crampy abdominal pain",
+          "tables": []
+        },
+        "Toxicity": {
+          "text": "Almost never causes hypoglycemia when taken alone, but can exacerbate hypoglycemia when taken in combination with hypoglycemic agents\nToxic dose unknown\nManagement: Supportive care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        }
+      ]
+    },
+    "Side_Effects": {
+      "text": "Lactic acidosis (due to increased lactate production)\nSeen almost exclusively in patients with renal failure\nNausea, diarrhea, crampy abdominal pain",
+      "subsections": {
+        "Toxicity": {
+          "text": "Almost never causes hypoglycemia when taken alone, but can exacerbate hypoglycemia when taken in combination with hypoglycemic agents\nToxic dose unknown\nManagement: Supportive care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxicity": {
+      "text": "Almost never causes hypoglycemia when taken alone, but can exacerbate hypoglycemia when taken in combination with hypoglycemic agents\nToxic dose unknown\nManagement: Supportive care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Sulfonylureas": {
+      "text": "Glipizide\n,\nglyburide\nIncrease insulin secretion\nHypoglycemia\nis the major adverse effect (especially with glyburide)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Glipizide",
+          "url": "https://wikem.org/wiki/Glipizide"
+        },
+        {
+          "text": "glyburide",
+          "url": "https://wikem.org/wiki/Glyburide"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Alpha_Glucosidase_Inhibitors": {
+      "text": "Acarbose, miglitol, voglibose\nCompetitively and reversibly inhibit alpha glucosidase brush border hydrolase enzyme- makes postprandial decrease in carbohydrate absorption since complex polysaccharides not broken down into absorbable monosaccharides. Does not affect lactose absorption\nTaken with first bite of each meal\nSince limited absorption, stays in gut and side effects mostly GI- bloating, gas,\ndiarrhea\nacarbose- can cause transaminitis/ liver inj\nContraindications-\ncirrhosis\n,\nIBD\n, malabsorption syndrome\nDo not cause\nhypoglycemia\nwhen used as monotherapy\nIf\nhypoglycemic\n- sucrose/ table sugar will\nnot\nwork- use glucose- PO or IV\nSince minimal absorption- systemic toxicity from OD unlikely",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hypoglycemic",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Thiazolidinediones": {
+      "text": "Rosiglitazone and poiglitazone\nEnhance insulin effect on muscle, fat, liver without increasing pancreatic insulin secretion\nProtein bound and hepatic metabolism - avoid in patients with liver disease\nSide effects- induces ovulation, decreases effectiveness of OCP's, increases plasma volume (bad if CHF)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Benzoic_Acid_Derivatives": {
+      "text": "Repaglinide- monotherapy or combined with metformin\nbinds to ATP dependent potassium channel like sulfonyls but at different site.\nUnlike sulfonyls, it\ndecreases\ninsulin levels\nDose 30 min before meal to decrease postprandial hyperglycemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "GLP-1_agonists": {
+      "text": "Exanatide (Byetta and Bydureon), Liraglutide (Victoza)\nSynthetic glucagon-like peptide-1 (GLP-1) receptor agonists\nStimulates insulin release from pancreatic islet cells\nMay promote weight loss by slowing gastric emptying and increasing satiety",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "DPP-4_inhibitors": {
+      "text": "Sitagliptin, saxagliptin, linagliptin, alogliptin\nBlock DPP-4, which leads to increased activity of incretins, which inhibit glucagon release, which in turn increase insulin secretion and slow gastric emptying, ultimately decreasing blood glucose levels\nPotential serious adverse events include acute\npancreatitis\n,\nanaphylaxis\n/\nangioedema\n,\nSJS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        }
+      ]
+    },
+    "SGLT-2_inhibitors": {
+      "text": "Canagliflozin (Invokana), Dapagliflozin (Farxiga), Empagliflozin (Jardiance)\nInhibit sodium-glucose cotransporter 2, decreasing glucose reabsorption in the proximal tubule\nPotential serious adverse event: euglycemic\nDKA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Diabetes Mellitus (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes Mellitus (Main)",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus_(Main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "drug_name": "Dialysis_complications",
+  "url": "https://wikem.org/wiki/Dialysis_complications",
+  "scraped_at": "2026-01-10T07:51:50.000324",
+  "sections": {
+    "Dialysis_Complications": {
+      "text": "Dialysis-associated hypotension\nDialysis disequilibrium syndrome\nAir embolism\nMissed dialysis (\npulmonary edema\n)",
+      "subsections": {
+        "AV_Fistula_Complications": {
+          "text": "Clotting of AV fistula\nInfection of AV fistula\nHemorrhage of AV fistula\nVascular insufficiency from AV fistula\nAV fistula aneurysm/pseudoaneurysm\nHigh-output heart failure from AV fistula",
+          "tables": []
+        },
+        "Peritoneal_Dialysis_Complications": {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "tables": []
+        },
+        "ESRD_Associated_Skin_Conditions": {
+          "text": "Calciphylaxis\nNephrogenic Systemic Fibrosis\n(gadolinium MRI)",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Cardiac tamponade\nPericarditis",
+          "tables": []
+        },
+        "Altered_Mental_Status": {
+          "text": "Hypotension\nHypoglycemia\nHypercalcemia\n/\nHyperkalemia\n/\nHyponatremia\nSubdural hematoma\nDysequilibrium syndrome\n- diagnosis of exclusion made after admission",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis-associated hypotension",
+          "url": "https://wikem.org/wiki/Dialysis-associated_hypotension"
+        },
+        {
+          "text": "Dialysis disequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dialysis_disequilibrium_syndrome"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Clotting of AV fistula",
+          "url": "https://wikem.org/wiki/Clotting_of_AV_fistula"
+        },
+        {
+          "text": "Infection of AV fistula",
+          "url": "https://wikem.org/wiki/Infection_of_AV_fistula"
+        },
+        {
+          "text": "Hemorrhage of AV fistula",
+          "url": "https://wikem.org/wiki/Hemorrhage_of_AV_fistula"
+        },
+        {
+          "text": "Vascular insufficiency from AV fistula",
+          "url": "https://wikem.org/wiki/Vascular_insufficiency_from_AV_fistula"
+        },
+        {
+          "text": "AV fistula aneurysm/pseudoaneurysm",
+          "url": "https://wikem.org/wiki/AV_fistula_aneurysm/pseudoaneurysm"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "Nephrogenic Systemic Fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_Systemic_Fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Dysequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dysequilibrium_syndrome"
+        }
+      ]
+    },
+    "AV_Fistula_Complications": {
+      "text": "Clotting of AV fistula\nInfection of AV fistula\nHemorrhage of AV fistula\nVascular insufficiency from AV fistula\nAV fistula aneurysm/pseudoaneurysm\nHigh-output heart failure from AV fistula",
+      "subsections": {
+        "Peritoneal_Dialysis_Complications": {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "tables": []
+        },
+        "ESRD_Associated_Skin_Conditions": {
+          "text": "Calciphylaxis\nNephrogenic Systemic Fibrosis\n(gadolinium MRI)",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Cardiac tamponade\nPericarditis",
+          "tables": []
+        },
+        "Altered_Mental_Status": {
+          "text": "Hypotension\nHypoglycemia\nHypercalcemia\n/\nHyperkalemia\n/\nHyponatremia\nSubdural hematoma\nDysequilibrium syndrome\n- diagnosis of exclusion made after admission",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotting of AV fistula",
+          "url": "https://wikem.org/wiki/Clotting_of_AV_fistula"
+        },
+        {
+          "text": "Infection of AV fistula",
+          "url": "https://wikem.org/wiki/Infection_of_AV_fistula"
+        },
+        {
+          "text": "Hemorrhage of AV fistula",
+          "url": "https://wikem.org/wiki/Hemorrhage_of_AV_fistula"
+        },
+        {
+          "text": "Vascular insufficiency from AV fistula",
+          "url": "https://wikem.org/wiki/Vascular_insufficiency_from_AV_fistula"
+        },
+        {
+          "text": "AV fistula aneurysm/pseudoaneurysm",
+          "url": "https://wikem.org/wiki/AV_fistula_aneurysm/pseudoaneurysm"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "Nephrogenic Systemic Fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_Systemic_Fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Dysequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dysequilibrium_syndrome"
+        }
+      ]
+    },
+    "Peritoneal_Dialysis_Complications": {
+      "text": "Peritoneal dialysis-associated peritonitis",
+      "subsections": {
+        "ESRD_Associated_Skin_Conditions": {
+          "text": "Calciphylaxis\nNephrogenic Systemic Fibrosis\n(gadolinium MRI)",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Cardiac tamponade\nPericarditis",
+          "tables": []
+        },
+        "Altered_Mental_Status": {
+          "text": "Hypotension\nHypoglycemia\nHypercalcemia\n/\nHyperkalemia\n/\nHyponatremia\nSubdural hematoma\nDysequilibrium syndrome\n- diagnosis of exclusion made after admission",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "Nephrogenic Systemic Fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_Systemic_Fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Dysequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dysequilibrium_syndrome"
+        }
+      ]
+    },
+    "ESRD_Associated_Skin_Conditions": {
+      "text": "Calciphylaxis\nNephrogenic Systemic Fibrosis\n(gadolinium MRI)",
+      "subsections": {
+        "Cardiovascular": {
+          "text": "Cardiac tamponade\nPericarditis",
+          "tables": []
+        },
+        "Altered_Mental_Status": {
+          "text": "Hypotension\nHypoglycemia\nHypercalcemia\n/\nHyperkalemia\n/\nHyponatremia\nSubdural hematoma\nDysequilibrium syndrome\n- diagnosis of exclusion made after admission",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "Nephrogenic Systemic Fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_Systemic_Fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Dysequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dysequilibrium_syndrome"
+        }
+      ]
+    },
+    "Cardiovascular": {
+      "text": "Cardiac tamponade\nPericarditis",
+      "subsections": {
+        "Altered_Mental_Status": {
+          "text": "Hypotension\nHypoglycemia\nHypercalcemia\n/\nHyperkalemia\n/\nHyponatremia\nSubdural hematoma\nDysequilibrium syndrome\n- diagnosis of exclusion made after admission",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Dysequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dysequilibrium_syndrome"
+        }
+      ]
+    },
+    "Altered_Mental_Status": {
+      "text": "Hypotension\nHypoglycemia\nHypercalcemia\n/\nHyperkalemia\n/\nHyponatremia\nSubdural hematoma\nDysequilibrium syndrome\n- diagnosis of exclusion made after admission",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Dysequilibrium syndrome",
+          "url": "https://wikem.org/wiki/Dysequilibrium_syndrome"
+        }
+      ]
+    }
+  }
+}

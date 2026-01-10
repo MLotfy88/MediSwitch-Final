@@ -1,0 +1,304 @@
+{
+  "drug_name": "Dialysis_disequilibrium_syndrome",
+  "url": "https://wikem.org/wiki/Dialysis_disequilibrium_syndrome",
+  "scraped_at": "2026-01-10T07:51:51.277968",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: DDS\nA rare clinical syndrome occurring at end of dialysis or the beginning of continuous renal replacement therapy\nDoes not occur with\nperitoneal dialysis\n[1]\nOccurs most commonly during initial hemodialysis or during hypercatabolic states\nTends to occur in patients who are initially started on dialysis, particularly with high initial BUN\nOther risk factors: older or younger age, hyponatremia, pre-existing neurologic disease\nSymptoms are thought to be secondary to the development of cerebral edema possibly due to urea removal during dialysis and from a decreased in pH in the cerebral intracelluar environment\nLarge and rapid solute clearance creates an osmotic gradient which can precipitate cerebral edema\n[2]\nPre-dialysis urea in CSF lower than in blood\n[3]\nPost-dialysis urea in CSF higher, setting up osmotic gradient for water into CNS\nMore uremic patients pre-dialysis at higher risk",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Signs and symptoms develop during or after dialysis or during renal replacement therapy, usually self limited but can occasionally progress\nHeadache\nDisorientation\nNausea and vomiting\nRestlessness\nVisual disturbances\nAsterixis\nMuscle Cramps\nCan progress to\nseizure\n,\ncoma\n, and\ndeath\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "death",
+          "url": "https://wikem.org/wiki/Death"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Subdural hematoma\nUremia\nNonketotic hyperosmolar\ncoma\nAcute cerebrovascular event\nDialysis\ndementia\nExcessive ultrafiltration and\nseizure\nMetabolic disturbances\nHypoglycemia\nHyponatremia\nMeningitis\nMalignant hypertension\n[4]\n[5]\nHypocalcemia\nIntracranial Bleed\nHypertensive Emergency\nStroke\nSupratheurapeutic Medication Effects\nPRES",
+      "subsections": {
+        "Dialysis_Complications": {
+          "text": "Dialysis-associated hypotension\nDialysis disequilibrium syndrome\nAir embolism\nMissed dialysis (\npulmonary edema\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Acute cerebrovascular event",
+          "url": "https://wikem.org/wiki/Acute_cerebrovascular_event"
+        },
+        {
+          "text": "dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Intracranial Bleed",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Hypertensive Emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_Emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "PRES",
+          "url": "https://wikem.org/wiki/PRES"
+        },
+        {
+          "text": "Dialysis-associated hypotension",
+          "url": "https://wikem.org/wiki/Dialysis-associated_hypotension"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Dialysis_Complications": {
+      "text": "Dialysis-associated hypotension\nDialysis disequilibrium syndrome\nAir embolism\nMissed dialysis (\npulmonary edema\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis-associated hypotension",
+          "url": "https://wikem.org/wiki/Dialysis-associated_hypotension"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Bedside Glucose\nCBC\nChem-10\nLFTs\nCT Brain",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Is a clinical diagnosis, suggested by development of neurologic symptoms associated with dialysis\nHowever, must first exclude more serious diagnoses (rule out\nSDH\n,\nCVA\n).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "CT Brain",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "SDH",
+          "url": "https://wikem.org/wiki/SDH"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Bedside Glucose\nCBC\nChem-10\nLFTs\nCT Brain",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Is a clinical diagnosis, suggested by development of neurologic symptoms associated with dialysis\nHowever, must first exclude more serious diagnoses (rule out\nSDH\n,\nCVA\n).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "CT Brain",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "SDH",
+          "url": "https://wikem.org/wiki/SDH"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Is a clinical diagnosis, suggested by development of neurologic symptoms associated with dialysis\nHowever, must first exclude more serious diagnoses (rule out\nSDH\n,\nCVA\n).",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SDH",
+          "url": "https://wikem.org/wiki/SDH"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Mild": {
+          "text": "Symptomatic management for mild symptoms (nausea, headache, restlessness)\nSymptoms are self-limiting and typically resolve within several hours",
+          "tables": []
+        },
+        "Severe": {
+          "text": "For severe symptoms, the mainstay of treatment is ICP reduction\n[4]\nCan give\nmannitol\nor\nhypertonic saline\nIV\nCan hyperventilate patient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        }
+      ]
+    },
+    "Mild": {
+      "text": "Symptomatic management for mild symptoms (nausea, headache, restlessness)\nSymptoms are self-limiting and typically resolve within several hours",
+      "subsections": {
+        "Severe": {
+          "text": "For severe symptoms, the mainstay of treatment is ICP reduction\n[4]\nCan give\nmannitol\nor\nhypertonic saline\nIV\nCan hyperventilate patient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        }
+      ]
+    },
+    "Severe": {
+      "text": "For severe symptoms, the mainstay of treatment is ICP reduction\n[4]\nCan give\nmannitol\nor\nhypertonic saline\nIV\nCan hyperventilate patient",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on severity\nMany cases can be discharged with followup",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prevention": {
+      "text": "Response to treatment is typically poor, so preventive measures are important\n[4]\nAdd an osmotic agent to mitigate the osmotic gradient\nElevate the sodium concentration in the diasylate\n[6]\nElevate the glucose concentration in the diasylate (717 mg/dl) or add IV mannitol (1g/kg)\n[7]\nConsider hemofiltration rather than hemodialysis\n[8]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dialysis complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis complications",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,738 @@
+{
+  "drug_name": "Deterioration_after_intubation",
+  "url": "https://wikem.org/wiki/Deterioration_after_intubation",
+  "scraped_at": "2026-01-10T07:51:44.415194",
+  "sections": {
+    "Background": {
+      "text": "There are multiple reasons for a patient to deteriorate while on mechanical ventilation\nA systematic method of evaluating this deterioration is the best way to identify/fix the causative problem",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Desaturation, other vital sign abnormalities, or\ncardiac arrest\nwhile on mechanical ventilation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "DOPES[1]": {
+          "text": "D\nisplaced ETT\nO\nbstruction (anywhere along circuit)\nP\nneumothorax\nE\nquipment failure (ventilator malfunction or disconnect)\nS\ntacked breaths (asthmatics)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Troubleshoot": {
+          "text": "Immediately disconnect from ventilator (allows for expiration of stacked breaths)\nD - Displacement of tube or cuff\nAttach end-tidal CO2 to verify and check depth (cm at lip)\nO - Obstruction of tube/circuit\nUse suction catheter to remove mucus plug, or make sure patient not biting down, look for kink in tube\nP -\nPneumothorax\nVerify via\nultrasound\n, CXR, or\nneedle thoracostomy\n(high suspicion)\nE - Equipment failure\nConnect to BVM\nS - Stacked breaths - Auto-PEEP especially in\nCOPD\n/\nAsthma\nDisconnect from ventilator",
+          "tables": []
+        },
+        "Fix": {
+          "text": "\"DOTTS\" Mnemonic\nD - Disconnect ventilator and put light pressure on patient chest\nO - Oxygen 100% BVM. Look for chest rise, listen and feel for cuff leak\nT - Tube position and patency.  Pass bougie or suction all the way through tube to remove obstruction\nT - Tweak the vent.  Usually need to decrease respiratory rate, decreased inspiratory time with changing E:I ratio (see below on breath-staking)\nS - Sonography and CXR",
+          "tables": []
+        },
+        "Auto-PEEP_(Breath_stacking)_troubleshooting_options": {
+          "text": "Bronchodilators\nif\nCOPD\n/\nasthma\nDecrease RR\nDecrease I:E ratio (increase expiratory time)\nQuicker inspiratory flow rate\nDecrease TV\nIncrease sedation",
+          "tables": []
+        },
+        "Peak_Vs_Plateau_Pressure": {
+          "text": "Super important to keep alveolar pressure low to prevent barotrauma\nPeak Pressure is pressure of entire system (vent, ET tube, trachea, bronchus, bronchioles, alveoli). High peak pressure does not equal barotrauma\nPlateau pressure - check with button on vent (may say plateau pressure or end-inspiratory hold)\nHigh Peak and Normal Plateau - problem with vent, ET tube, bronchoconstriction (reactive airway disease/asthma/COPD).\nHigh Peak and High Plateau - Compliance issue (pneumothorax, problem with alveoli like ARDS, fluid overload). Need to decrease pressure to prevent barotrauma.\nPlateau pressures should be kept < 30mmHg if possible.",
+          "tables": []
+        },
+        "Lung_Protective_FiO2_and_PEEP_Scale[3][4]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "FiO2": "PEEP",
+                "0.3": "5",
+                "0.4": "8",
+                "0.5": "10",
+                "0.6": "10",
+                "0.7": "14",
+                "0.8": "14",
+                "0.9": "18",
+                "1.0": "24"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Lungs"
+        },
+        {
+          "text": "needle thoracostomy",
+          "url": "https://wikem.org/wiki/Needle_thoracostomy"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Troubleshoot": {
+      "text": "Immediately disconnect from ventilator (allows for expiration of stacked breaths)\nD - Displacement of tube or cuff\nAttach end-tidal CO2 to verify and check depth (cm at lip)\nO - Obstruction of tube/circuit\nUse suction catheter to remove mucus plug, or make sure patient not biting down, look for kink in tube\nP -\nPneumothorax\nVerify via\nultrasound\n, CXR, or\nneedle thoracostomy\n(high suspicion)\nE - Equipment failure\nConnect to BVM\nS - Stacked breaths - Auto-PEEP especially in\nCOPD\n/\nAsthma\nDisconnect from ventilator",
+      "subsections": {
+        "Fix": {
+          "text": "\"DOTTS\" Mnemonic\nD - Disconnect ventilator and put light pressure on patient chest\nO - Oxygen 100% BVM. Look for chest rise, listen and feel for cuff leak\nT - Tube position and patency.  Pass bougie or suction all the way through tube to remove obstruction\nT - Tweak the vent.  Usually need to decrease respiratory rate, decreased inspiratory time with changing E:I ratio (see below on breath-staking)\nS - Sonography and CXR",
+          "tables": []
+        },
+        "Auto-PEEP_(Breath_stacking)_troubleshooting_options": {
+          "text": "Bronchodilators\nif\nCOPD\n/\nasthma\nDecrease RR\nDecrease I:E ratio (increase expiratory time)\nQuicker inspiratory flow rate\nDecrease TV\nIncrease sedation",
+          "tables": []
+        },
+        "Peak_Vs_Plateau_Pressure": {
+          "text": "Super important to keep alveolar pressure low to prevent barotrauma\nPeak Pressure is pressure of entire system (vent, ET tube, trachea, bronchus, bronchioles, alveoli). High peak pressure does not equal barotrauma\nPlateau pressure - check with button on vent (may say plateau pressure or end-inspiratory hold)\nHigh Peak and Normal Plateau - problem with vent, ET tube, bronchoconstriction (reactive airway disease/asthma/COPD).\nHigh Peak and High Plateau - Compliance issue (pneumothorax, problem with alveoli like ARDS, fluid overload). Need to decrease pressure to prevent barotrauma.\nPlateau pressures should be kept < 30mmHg if possible.",
+          "tables": []
+        },
+        "Lung_Protective_FiO2_and_PEEP_Scale[3][4]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "FiO2": "PEEP",
+                "0.3": "5",
+                "0.4": "8",
+                "0.5": "10",
+                "0.6": "10",
+                "0.7": "14",
+                "0.8": "14",
+                "0.9": "18",
+                "1.0": "24"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Lungs"
+        },
+        {
+          "text": "needle thoracostomy",
+          "url": "https://wikem.org/wiki/Needle_thoracostomy"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Fix": {
+      "text": "\"DOTTS\" Mnemonic\nD - Disconnect ventilator and put light pressure on patient chest\nO - Oxygen 100% BVM. Look for chest rise, listen and feel for cuff leak\nT - Tube position and patency.  Pass bougie or suction all the way through tube to remove obstruction\nT - Tweak the vent.  Usually need to decrease respiratory rate, decreased inspiratory time with changing E:I ratio (see below on breath-staking)\nS - Sonography and CXR",
+      "subsections": {
+        "Auto-PEEP_(Breath_stacking)_troubleshooting_options": {
+          "text": "Bronchodilators\nif\nCOPD\n/\nasthma\nDecrease RR\nDecrease I:E ratio (increase expiratory time)\nQuicker inspiratory flow rate\nDecrease TV\nIncrease sedation",
+          "tables": []
+        },
+        "Peak_Vs_Plateau_Pressure": {
+          "text": "Super important to keep alveolar pressure low to prevent barotrauma\nPeak Pressure is pressure of entire system (vent, ET tube, trachea, bronchus, bronchioles, alveoli). High peak pressure does not equal barotrauma\nPlateau pressure - check with button on vent (may say plateau pressure or end-inspiratory hold)\nHigh Peak and Normal Plateau - problem with vent, ET tube, bronchoconstriction (reactive airway disease/asthma/COPD).\nHigh Peak and High Plateau - Compliance issue (pneumothorax, problem with alveoli like ARDS, fluid overload). Need to decrease pressure to prevent barotrauma.\nPlateau pressures should be kept < 30mmHg if possible.",
+          "tables": []
+        },
+        "Lung_Protective_FiO2_and_PEEP_Scale[3][4]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "FiO2": "PEEP",
+                "0.3": "5",
+                "0.4": "8",
+                "0.5": "10",
+                "0.6": "10",
+                "0.7": "14",
+                "0.8": "14",
+                "0.9": "18",
+                "1.0": "24"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Peak_Vs_Plateau_Pressure": {
+      "text": "Super important to keep alveolar pressure low to prevent barotrauma\nPeak Pressure is pressure of entire system (vent, ET tube, trachea, bronchus, bronchioles, alveoli). High peak pressure does not equal barotrauma\nPlateau pressure - check with button on vent (may say plateau pressure or end-inspiratory hold)\nHigh Peak and Normal Plateau - problem with vent, ET tube, bronchoconstriction (reactive airway disease/asthma/COPD).\nHigh Peak and High Plateau - Compliance issue (pneumothorax, problem with alveoli like ARDS, fluid overload). Need to decrease pressure to prevent barotrauma.\nPlateau pressures should be kept < 30mmHg if possible.",
+      "subsections": {
+        "Lung_Protective_FiO2_and_PEEP_Scale[3][4]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "FiO2": "PEEP",
+                "0.3": "5",
+                "0.4": "8",
+                "0.5": "10",
+                "0.6": "10",
+                "0.7": "14",
+                "0.8": "14",
+                "0.9": "18",
+                "1.0": "24"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+          "tables": []
+        },
+        "Airway_Pages": {
+          "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        }
+      ]
+    },
+    "Mechanical_Ventilation_Pages": {
+      "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+      "subsections": {
+        "Airway_Pages": {
+          "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        }
+      ]
+    },
+    "Airway_Pages": {
+      "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://rebelem.com/rebel-cast-ep-46b-vent-management-crashing-patient-haney-mallemat/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
