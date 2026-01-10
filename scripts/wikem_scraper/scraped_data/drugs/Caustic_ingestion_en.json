@@ -1,0 +1,333 @@
+{
+  "drug_name": "Caustic_ingestion/en",
+  "url": "https://wikem.org/wiki/Caustic_ingestion/en",
+  "scraped_at": "2026-01-10T07:49:58.958209",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Caustics": {
+          "text": "Substances that cause damage on contact with body surfaces\nDegree of injury determined by pH, concentration, volume, duration of contact\nAcidic agents cause coagulative necrosis\nAlkaline agents cause liquefactive necrosis (considered more damaging to most tissues)\nCorrosive agents have reducing, oxidising, denaturing or defatting potential",
+          "tables": []
+        },
+        "Alkalis": {
+          "text": "Accepts protons → free hydroxide ion, which easily penetrates tissue → cellular destruction\nLiquefactive necrosis and protein disruption may allow for deep penetration into surrounding tissues\nExamples\nSodium hydroxide (NaOH), potassium hydroxide (KOH)\nLye present in drain cleaners, hair relaxers, grease remover\nBleach (sodium hypochlorite) and Ammonia (NH3)\nCleaning products such as oven cleaners, swimming pool chlorinator\nHousehold bleach ingestion (4-6% sodium hypochlorite) rarely causes significant esophageal injury\n[1]\n[2]",
+          "tables": []
+        },
+        "Acids": {
+          "text": "Proton donor → free hydrogen ion → cell death via denatured protein → coagulation necrosis and eschar formation, which limits deeper involvement\nHowever, due to pylorospasm and pooling of acid, high-grade gastric injuries are common\nMortality rate is higher compared to strong alkali ingestions\nCan be systemically absorbed and →\nmetabolic acidosis\n, hemolysis, AKI\nExamples\nHydrochloric acid (HCl),\nhydrofluoric acid\n(HF), Sulfuric acid (H2SO4), Phosphoric acid, Oxalic Acid, Acetic acid\nFound in: auto batteries, drain openers, toilet bowl, metal cleaners, swimming pool cleaners, rust remover, nail primer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        }
+      ]
+    },
+    "Caustics": {
+      "text": "Substances that cause damage on contact with body surfaces\nDegree of injury determined by pH, concentration, volume, duration of contact\nAcidic agents cause coagulative necrosis\nAlkaline agents cause liquefactive necrosis (considered more damaging to most tissues)\nCorrosive agents have reducing, oxidising, denaturing or defatting potential",
+      "subsections": {
+        "Alkalis": {
+          "text": "Accepts protons → free hydroxide ion, which easily penetrates tissue → cellular destruction\nLiquefactive necrosis and protein disruption may allow for deep penetration into surrounding tissues\nExamples\nSodium hydroxide (NaOH), potassium hydroxide (KOH)\nLye present in drain cleaners, hair relaxers, grease remover\nBleach (sodium hypochlorite) and Ammonia (NH3)\nCleaning products such as oven cleaners, swimming pool chlorinator\nHousehold bleach ingestion (4-6% sodium hypochlorite) rarely causes significant esophageal injury\n[1]\n[2]",
+          "tables": []
+        },
+        "Acids": {
+          "text": "Proton donor → free hydrogen ion → cell death via denatured protein → coagulation necrosis and eschar formation, which limits deeper involvement\nHowever, due to pylorospasm and pooling of acid, high-grade gastric injuries are common\nMortality rate is higher compared to strong alkali ingestions\nCan be systemically absorbed and →\nmetabolic acidosis\n, hemolysis, AKI\nExamples\nHydrochloric acid (HCl),\nhydrofluoric acid\n(HF), Sulfuric acid (H2SO4), Phosphoric acid, Oxalic Acid, Acetic acid\nFound in: auto batteries, drain openers, toilet bowl, metal cleaners, swimming pool cleaners, rust remover, nail primer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Signs and symptoms are inadequate to predict presence or severity of injury after caustic ingestion\n[3]\nExam eyes and skin (splash and dribble injuries may easily be missed)\nGI tract injury\nDysphagia\n, odynophagia, drooling,\nepigastric pain\n,\nvomiting\nLaryngotracheal injury\nDysphonia\n,\nstridor\n,\nrespiratory distress\nOccurs via aspiration of caustic or vomitus or inhalation of acidic fumes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Caustic_Burns": {
+          "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        }
+      ]
+    },
+    "Caustic_Burns": {
+      "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Labs": {
+          "text": "Only necessary in patients with significant injury or volume of ingestion\nCBC\nChemistry\nLactic Acid\nIn Alkali ingestion, presence of acidemia or hyperlactemia is likely indicative of clinically significant tissue injury\n[4]\nECG\nCalcium and Magnesium level (if\nhydrofluoric acid\nexposure)\nFree Fluoride binds rapidly to calcium and magnesium leading to severe hypocalcemia and hypomagnesemia that can be life threatening\nAcetaminophen and Salicylate levels (in patients with concern for intentional ingestion)",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "3-View\nCXR\nLook for free air under the diaphragm or signs of mediastinal air\n[5]\nButton battery XR - two rings, will likely need to remove it no matter where it is, whether post-pyloric or pre-pyloric\nCT with contrast\nConsider when perforated viscus is suspected but CXR is negative",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Labs": {
+      "text": "Only necessary in patients with significant injury or volume of ingestion\nCBC\nChemistry\nLactic Acid\nIn Alkali ingestion, presence of acidemia or hyperlactemia is likely indicative of clinically significant tissue injury\n[4]\nECG\nCalcium and Magnesium level (if\nhydrofluoric acid\nexposure)\nFree Fluoride binds rapidly to calcium and magnesium leading to severe hypocalcemia and hypomagnesemia that can be life threatening\nAcetaminophen and Salicylate levels (in patients with concern for intentional ingestion)",
+      "subsections": {
+        "Imaging": {
+          "text": "3-View\nCXR\nLook for free air under the diaphragm or signs of mediastinal air\n[5]\nButton battery XR - two rings, will likely need to remove it no matter where it is, whether post-pyloric or pre-pyloric\nCT with contrast\nConsider when perforated viscus is suspected but CXR is negative",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "3-View\nCXR\nLook for free air under the diaphragm or signs of mediastinal air\n[5]\nButton battery XR - two rings, will likely need to remove it no matter where it is, whether post-pyloric or pre-pyloric\nCT with contrast\nConsider when perforated viscus is suspected but CXR is negative",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Prevent provider and continued patient exposure to the caustic agent by removing all clothing and decontaminating the patient\nThere is a possible benefit of water ingestion immediately after ingestion of a powdered caustic to irrigate adherent materials in oropharynx/esophagus if no airway concerns to prevent prolonged injury from the powder adhering to tissues\n[6]",
+      "subsections": {
+        "Airway_Management": {
+          "text": "Monitor closely for\nstridor\n, airway edema, hoarseness, or other signs of airway injury\nIntubate\nearly if signs of airway injury exist, first sign of voice changes, inability to tolerate secretions or stridor before airway becomes more difficult to manage.\nConsider awake fiberoptic or video laryngoscopy if concern for difficult airway\nBlind nasotracheal intubation is contraindicated due to the potential for perforations and false passages",
+          "tables": []
+        },
+        "Endoscopy": {
+          "text": "Should be performed in the first 24 to 48 hours after ingestion (too early can underestimate extent of injury, too late increases risk of wound softening and perforation).\nIndications\nIntentional ingestion (higher likelihood of high volume ingestion)\nUnintentional ingestion with signs of:\nStridor\nSignificant oropharyngeal\nburns\nVomiting\nDrooling\nFood refusal",
+          "tables": []
+        },
+        "Esophageal_Stricture_Mitigation": {
+          "text": "Discuss with GI or medical toxicologist\nFor grade IIb or higher esophageal burns:\nMethylprednisolone\n(1 g/1.73 m2 per day for 3 days)\nRanitidine\nCeftriaxone\nTotal parenteral nutrition\nSucralfate, Mitomycin C",
+          "tables": []
+        },
+        "Surgical_Intervention": {
+          "text": "Indicated for:\nPerforation\nPeritoneal signs",
+          "tables": []
+        },
+        "Caustic_Specific_Treatment": {
+          "text": "Can include chelation, dialysis, or specific antidotes\nEspecially in caustics that cause systemic toxicity",
+          "tables": []
+        },
+        "Controversial_or_Contraindicated": {
+          "text": "Antibiotics\nNo evidence to support or reject the use of prophylactic\nantibiotics\nOnly indicated if also giving\nsteriods\n(see stricture mitigation above)\nActivated charcoal\nMay infiltrate damaged mucosa & interfere with EGD\nOnly consider when coingestants pose a risk for severe systemic toxicity\nZinc chloride and mercuric chloride systemic absorptions may outweigh interference with endoscopy\nGastric lavage\nContraindicated due to potential to cause reflux of caustic agent into esophagus, creating more damage\nBlind nasogastric-tube insertion for irrigation can cause thermal injury through neutralization\nDilution with water or milk causes vomiting, elevating risk for perforation\nPossible benefit only for solid alkali ingestions\nNeutralization generates excess heat\nMilk or magnesium citrate only for\nhydrofluoric acid\ningestion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Airway_Management": {
+      "text": "Monitor closely for\nstridor\n, airway edema, hoarseness, or other signs of airway injury\nIntubate\nearly if signs of airway injury exist, first sign of voice changes, inability to tolerate secretions or stridor before airway becomes more difficult to manage.\nConsider awake fiberoptic or video laryngoscopy if concern for difficult airway\nBlind nasotracheal intubation is contraindicated due to the potential for perforations and false passages",
+      "subsections": {
+        "Endoscopy": {
+          "text": "Should be performed in the first 24 to 48 hours after ingestion (too early can underestimate extent of injury, too late increases risk of wound softening and perforation).\nIndications\nIntentional ingestion (higher likelihood of high volume ingestion)\nUnintentional ingestion with signs of:\nStridor\nSignificant oropharyngeal\nburns\nVomiting\nDrooling\nFood refusal",
+          "tables": []
+        },
+        "Esophageal_Stricture_Mitigation": {
+          "text": "Discuss with GI or medical toxicologist\nFor grade IIb or higher esophageal burns:\nMethylprednisolone\n(1 g/1.73 m2 per day for 3 days)\nRanitidine\nCeftriaxone\nTotal parenteral nutrition\nSucralfate, Mitomycin C",
+          "tables": []
+        },
+        "Surgical_Intervention": {
+          "text": "Indicated for:\nPerforation\nPeritoneal signs",
+          "tables": []
+        },
+        "Caustic_Specific_Treatment": {
+          "text": "Can include chelation, dialysis, or specific antidotes\nEspecially in caustics that cause systemic toxicity",
+          "tables": []
+        },
+        "Controversial_or_Contraindicated": {
+          "text": "Antibiotics\nNo evidence to support or reject the use of prophylactic\nantibiotics\nOnly indicated if also giving\nsteriods\n(see stricture mitigation above)\nActivated charcoal\nMay infiltrate damaged mucosa & interfere with EGD\nOnly consider when coingestants pose a risk for severe systemic toxicity\nZinc chloride and mercuric chloride systemic absorptions may outweigh interference with endoscopy\nGastric lavage\nContraindicated due to potential to cause reflux of caustic agent into esophagus, creating more damage\nBlind nasogastric-tube insertion for irrigation can cause thermal injury through neutralization\nDilution with water or milk causes vomiting, elevating risk for perforation\nPossible benefit only for solid alkali ingestions\nNeutralization generates excess heat\nMilk or magnesium citrate only for\nhydrofluoric acid\ningestion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Endoscopy": {
+      "text": "Should be performed in the first 24 to 48 hours after ingestion (too early can underestimate extent of injury, too late increases risk of wound softening and perforation).\nIndications\nIntentional ingestion (higher likelihood of high volume ingestion)\nUnintentional ingestion with signs of:\nStridor\nSignificant oropharyngeal\nburns\nVomiting\nDrooling\nFood refusal",
+      "subsections": {
+        "Esophageal_Stricture_Mitigation": {
+          "text": "Discuss with GI or medical toxicologist\nFor grade IIb or higher esophageal burns:\nMethylprednisolone\n(1 g/1.73 m2 per day for 3 days)\nRanitidine\nCeftriaxone\nTotal parenteral nutrition\nSucralfate, Mitomycin C",
+          "tables": []
+        },
+        "Surgical_Intervention": {
+          "text": "Indicated for:\nPerforation\nPeritoneal signs",
+          "tables": []
+        },
+        "Caustic_Specific_Treatment": {
+          "text": "Can include chelation, dialysis, or specific antidotes\nEspecially in caustics that cause systemic toxicity",
+          "tables": []
+        },
+        "Controversial_or_Contraindicated": {
+          "text": "Antibiotics\nNo evidence to support or reject the use of prophylactic\nantibiotics\nOnly indicated if also giving\nsteriods\n(see stricture mitigation above)\nActivated charcoal\nMay infiltrate damaged mucosa & interfere with EGD\nOnly consider when coingestants pose a risk for severe systemic toxicity\nZinc chloride and mercuric chloride systemic absorptions may outweigh interference with endoscopy\nGastric lavage\nContraindicated due to potential to cause reflux of caustic agent into esophagus, creating more damage\nBlind nasogastric-tube insertion for irrigation can cause thermal injury through neutralization\nDilution with water or milk causes vomiting, elevating risk for perforation\nPossible benefit only for solid alkali ingestions\nNeutralization generates excess heat\nMilk or magnesium citrate only for\nhydrofluoric acid\ningestion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Esophageal_Stricture_Mitigation": {
+      "text": "Discuss with GI or medical toxicologist\nFor grade IIb or higher esophageal burns:\nMethylprednisolone\n(1 g/1.73 m2 per day for 3 days)\nRanitidine\nCeftriaxone\nTotal parenteral nutrition\nSucralfate, Mitomycin C",
+      "subsections": {
+        "Surgical_Intervention": {
+          "text": "Indicated for:\nPerforation\nPeritoneal signs",
+          "tables": []
+        },
+        "Caustic_Specific_Treatment": {
+          "text": "Can include chelation, dialysis, or specific antidotes\nEspecially in caustics that cause systemic toxicity",
+          "tables": []
+        },
+        "Controversial_or_Contraindicated": {
+          "text": "Antibiotics\nNo evidence to support or reject the use of prophylactic\nantibiotics\nOnly indicated if also giving\nsteriods\n(see stricture mitigation above)\nActivated charcoal\nMay infiltrate damaged mucosa & interfere with EGD\nOnly consider when coingestants pose a risk for severe systemic toxicity\nZinc chloride and mercuric chloride systemic absorptions may outweigh interference with endoscopy\nGastric lavage\nContraindicated due to potential to cause reflux of caustic agent into esophagus, creating more damage\nBlind nasogastric-tube insertion for irrigation can cause thermal injury through neutralization\nDilution with water or milk causes vomiting, elevating risk for perforation\nPossible benefit only for solid alkali ingestions\nNeutralization generates excess heat\nMilk or magnesium citrate only for\nhydrofluoric acid\ningestion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Surgical_Intervention": {
+      "text": "Indicated for:\nPerforation\nPeritoneal signs",
+      "subsections": {
+        "Caustic_Specific_Treatment": {
+          "text": "Can include chelation, dialysis, or specific antidotes\nEspecially in caustics that cause systemic toxicity",
+          "tables": []
+        },
+        "Controversial_or_Contraindicated": {
+          "text": "Antibiotics\nNo evidence to support or reject the use of prophylactic\nantibiotics\nOnly indicated if also giving\nsteriods\n(see stricture mitigation above)\nActivated charcoal\nMay infiltrate damaged mucosa & interfere with EGD\nOnly consider when coingestants pose a risk for severe systemic toxicity\nZinc chloride and mercuric chloride systemic absorptions may outweigh interference with endoscopy\nGastric lavage\nContraindicated due to potential to cause reflux of caustic agent into esophagus, creating more damage\nBlind nasogastric-tube insertion for irrigation can cause thermal injury through neutralization\nDilution with water or milk causes vomiting, elevating risk for perforation\nPossible benefit only for solid alkali ingestions\nNeutralization generates excess heat\nMilk or magnesium citrate only for\nhydrofluoric acid\ningestion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Caustic_Specific_Treatment": {
+      "text": "Can include chelation, dialysis, or specific antidotes\nEspecially in caustics that cause systemic toxicity",
+      "subsections": {
+        "Controversial_or_Contraindicated": {
+          "text": "Antibiotics\nNo evidence to support or reject the use of prophylactic\nantibiotics\nOnly indicated if also giving\nsteriods\n(see stricture mitigation above)\nActivated charcoal\nMay infiltrate damaged mucosa & interfere with EGD\nOnly consider when coingestants pose a risk for severe systemic toxicity\nZinc chloride and mercuric chloride systemic absorptions may outweigh interference with endoscopy\nGastric lavage\nContraindicated due to potential to cause reflux of caustic agent into esophagus, creating more damage\nBlind nasogastric-tube insertion for irrigation can cause thermal injury through neutralization\nDilution with water or milk causes vomiting, elevating risk for perforation\nPossible benefit only for solid alkali ingestions\nNeutralization generates excess heat\nMilk or magnesium citrate only for\nhydrofluoric acid\ningestion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Controversial_or_Contraindicated": {
+      "text": "Antibiotics\nNo evidence to support or reject the use of prophylactic\nantibiotics\nOnly indicated if also giving\nsteriods\n(see stricture mitigation above)\nActivated charcoal\nMay infiltrate damaged mucosa & interfere with EGD\nOnly consider when coingestants pose a risk for severe systemic toxicity\nZinc chloride and mercuric chloride systemic absorptions may outweigh interference with endoscopy\nGastric lavage\nContraindicated due to potential to cause reflux of caustic agent into esophagus, creating more damage\nBlind nasogastric-tube insertion for irrigation can cause thermal injury through neutralization\nDilution with water or milk causes vomiting, elevating risk for perforation\nPossible benefit only for solid alkali ingestions\nNeutralization generates excess heat\nMilk or magnesium citrate only for\nhydrofluoric acid\ningestion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "All patients with symptoms from a caustic ingestion should be admitted for at least 24 hours of observation\nAll patients with intentional ingestion should be evaluated by psych prior to discharge",
+      "subsections": {
+        "Prognosis": {
+          "text": "Depending on severity may have full return of mobility and function or can progress to perforation followed by stricture formation\nDays 2-14\npost-injury are associated with highest tissue friability / risk of perforation\nStrictures typically develop in the first 2 months, higher risk in those with circumferential esophageal erosions (Grade 2B burns and above)\nHigh-grade caustic burns associated with 1000x increase in esophageal adenocarcinoma or squamous-cell carcinoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Depending on severity may have full return of mobility and function or can progress to perforation followed by stricture formation\nDays 2-14\npost-injury are associated with highest tissue friability / risk of perforation\nStrictures typically develop in the first 2 months, higher risk in those with circumferential esophageal erosions (Grade 2B burns and above)\nHigh-grade caustic burns associated with 1000x increase in esophageal adenocarcinoma or squamous-cell carcinoma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Caustic burns",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,1818 @@
+{
+  "drug_name": "Cellulitis",
+  "url": "https://wikem.org/wiki/Cellulitis",
+  "scraped_at": "2026-01-10T07:50:06.839268",
+  "sections": {
+    "Background": {
+      "text": "Acute spreading infection of the dermis and subcutanous tissue, causing overlying skin inflammation\n[1]\nMost often caused by streptococcus or staphylococcus (including\nMRSA\n)",
+      "subsections": {
+        "Risk_factors": {
+          "text": "Previous cellulitis\nWound or current leg ulcers\nExcoriating skin diseases\nLymphedema\nVenous insufficiency\nObesity\nTinea pedis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Lymphedema",
+          "url": "https://wikem.org/wiki/Lymphedema"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        }
+      ]
+    },
+    "Risk_factors": {
+      "text": "Previous cellulitis\nWound or current leg ulcers\nExcoriating skin diseases\nLymphedema\nVenous insufficiency\nObesity\nTinea pedis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lymphedema",
+          "url": "https://wikem.org/wiki/Lymphedema"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Rash\nLocal erythema, warmth, swelling\nTender indistinct margins\nCan be accompanied by fever, chills, malaise, headache, nausea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        },
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        },
+        "Foot_infection": {
+          "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+          "tables": []
+        },
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        },
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Dry gangrene",
+          "url": "https://wikem.org/wiki/Dry_gangrene"
+        },
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Skin_and_Soft_Tissue_Infection": {
+      "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+      "subsections": {
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        },
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        },
+        "Foot_infection": {
+          "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+          "tables": []
+        },
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        },
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Dry gangrene",
+          "url": "https://wikem.org/wiki/Dry_gangrene"
+        },
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Look-A-Likes": {
+      "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+      "subsections": {
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        },
+        "Foot_infection": {
+          "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+          "tables": []
+        },
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        },
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Dry gangrene",
+          "url": "https://wikem.org/wiki/Dry_gangrene"
+        },
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Hand_and_finger_infections": {
+      "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+      "subsections": {
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        },
+        "Foot_infection": {
+          "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+          "tables": []
+        },
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        },
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Dry gangrene",
+          "url": "https://wikem.org/wiki/Dry_gangrene"
+        },
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Foot_infection": {
+      "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+      "subsections": {
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        },
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Dry gangrene",
+          "url": "https://wikem.org/wiki/Dry_gangrene"
+        },
+        {
+          "text": "Wet gangrene",
+          "url": "https://wikem.org/wiki/Wet_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Look_A-Likes": {
+      "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+      "subsections": {
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Erythematous_rash": {
+      "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Generally clinical diagnosis, may be assisted by ultrasound (above)\nUltrasound\ncan aid in diagnosis - may see \"cobblestoning\" of subcutaneous fat due to accumulation of fluid in these tissues. Also helpful to evaluate for\nabscess\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Soft_tissue"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Tailor antibiotics by regional antibiogram\n[3]",
+          "tables": []
+        },
+        "Outpatient": {
+          "text": "Coverage primarily for\nStrep\nMRSA\ncoverage only necessary if cellulitis associated with: purulence, penetrating trauma, known MRSA colonization, IV drug use, or SIRS\n[4]\n5 day treatment duration, unless symptoms do not improve within that timeframe\n[4]\nCephalexin\n500mg PO q6hrs\nOR\nAdd\nTMP/SMX\nDS 1 tab PO BID\n[5]\nif\nMRSA\nis suspected\nMost cases of non-purulent cellulitis are caused by Strep. In these cases, the addition of TMP/SMX has been demonstrated to offer no clinical benefit over cephalexin alone.\n[6]\nClindamycin\n450mg PO TID covers both Strep and Staph\nTetracyclines (like\nDoxycycline\n) should be avoided in non-purulent cellulitis due to high rates of Strep resistance\n[7]",
+          "tables": []
+        },
+        "Inpatient": {
+          "text": "Vancomycin\n20mg/kg IV q12hrs\nOR\nClindamycin\n600mg IV q8hrs\nOR\nLinezolid\n600mg IV q12hrs\nOR\nDaptomycin\n4mg/kg IV once daily",
+          "tables": []
+        },
+        "Saltwater_related_cellulitis": {
+          "text": "coverage extended for\nVibrio vulnificus\nDoxycycline\n100mg PO/IV q12hrs daily +\nCefepime\n1g IV q12hrs x 10 days\nCiprofloxacin\n400mg IV q12hrs x 10 days\nCiprofloxacin\n750mg PO q12hrs x 10 days",
+          "tables": []
+        },
+        "Freshwater_related_cellulitis": {
+          "text": "coverage extended for\nAeromonas sp\nCiprofloxacin\n400mg IV q12hrs  x 10 days\nCiprofloxacin\n500mg PO q12hrs x 10 days\nTMP/SMX\n2 DS tablets (5mg/kg) PO q12hrs x 10 days\nCeftriaxone\n1g (50mg/kg) IV q24hrs",
+          "tables": []
+        },
+        "Predictors_of_Treatment_Failure": {
+          "text": "Fever (T>38°C) at triage (odds ratio [OR] 4.3)\nChronic leg ulcers (OR 2.5)\nChronic edema or lymphedema (OR 2.5)\nPrior cellulitis in the same area (OR 2.1)\nCellulitis at a wound site (OR 1.9)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Vibrio vulnificus",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificus"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Aeromonas sp",
+          "url": "https://wikem.org/wiki/Aeromonas_sp"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Tailor antibiotics by regional antibiogram\n[3]",
+      "subsections": {
+        "Outpatient": {
+          "text": "Coverage primarily for\nStrep\nMRSA\ncoverage only necessary if cellulitis associated with: purulence, penetrating trauma, known MRSA colonization, IV drug use, or SIRS\n[4]\n5 day treatment duration, unless symptoms do not improve within that timeframe\n[4]\nCephalexin\n500mg PO q6hrs\nOR\nAdd\nTMP/SMX\nDS 1 tab PO BID\n[5]\nif\nMRSA\nis suspected\nMost cases of non-purulent cellulitis are caused by Strep. In these cases, the addition of TMP/SMX has been demonstrated to offer no clinical benefit over cephalexin alone.\n[6]\nClindamycin\n450mg PO TID covers both Strep and Staph\nTetracyclines (like\nDoxycycline\n) should be avoided in non-purulent cellulitis due to high rates of Strep resistance\n[7]",
+          "tables": []
+        },
+        "Inpatient": {
+          "text": "Vancomycin\n20mg/kg IV q12hrs\nOR\nClindamycin\n600mg IV q8hrs\nOR\nLinezolid\n600mg IV q12hrs\nOR\nDaptomycin\n4mg/kg IV once daily",
+          "tables": []
+        },
+        "Saltwater_related_cellulitis": {
+          "text": "coverage extended for\nVibrio vulnificus\nDoxycycline\n100mg PO/IV q12hrs daily +\nCefepime\n1g IV q12hrs x 10 days\nCiprofloxacin\n400mg IV q12hrs x 10 days\nCiprofloxacin\n750mg PO q12hrs x 10 days",
+          "tables": []
+        },
+        "Freshwater_related_cellulitis": {
+          "text": "coverage extended for\nAeromonas sp\nCiprofloxacin\n400mg IV q12hrs  x 10 days\nCiprofloxacin\n500mg PO q12hrs x 10 days\nTMP/SMX\n2 DS tablets (5mg/kg) PO q12hrs x 10 days\nCeftriaxone\n1g (50mg/kg) IV q24hrs",
+          "tables": []
+        },
+        "Predictors_of_Treatment_Failure": {
+          "text": "Fever (T>38°C) at triage (odds ratio [OR] 4.3)\nChronic leg ulcers (OR 2.5)\nChronic edema or lymphedema (OR 2.5)\nPrior cellulitis in the same area (OR 2.1)\nCellulitis at a wound site (OR 1.9)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Vibrio vulnificus",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificus"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Aeromonas sp",
+          "url": "https://wikem.org/wiki/Aeromonas_sp"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Predictors_of_Treatment_Failure": {
+      "text": "Fever (T>38°C) at triage (odds ratio [OR] 4.3)\nChronic leg ulcers (OR 2.5)\nChronic edema or lymphedema (OR 2.5)\nPrior cellulitis in the same area (OR 2.1)\nCellulitis at a wound site (OR 1.9)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit for:\nSepsis\nSignificant hand, face, or genitalia infection\nFailure of outpatient treatment\nSignificant comorbidity (e.g. immunocompromized, poorly controlled diabetes)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Orbital cellulitis\nHand cellulitis\nPeriorbital cellulitis\nErysipelas\nFacial cellulitis\nErythematous rash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Periorbital cellulitis",
+          "url": "https://wikem.org/wiki/Periorbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Erythematous rash",
+          "url": "https://wikem.org/wiki/Erythematous_rash"
+        }
+      ]
+    }
+  }
+}

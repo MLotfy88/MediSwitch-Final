@@ -1,0 +1,426 @@
+{
+  "drug_name": "Cervical_injury_(peds)",
+  "url": "https://wikem.org/wiki/Cervical_injury_(peds)",
+  "scraped_at": "2026-01-10T07:50:13.592784",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\ncervical spine injury\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "C-spine injury uncommon in children but large head in age <8 creates system for upper cervical injury\nInjuries most feared include\natlanto-occipital dissociation\n(AOD) and atlantoaxial rotatory subluxation or fixation (AARF).",
+      "subsections": {
+        "SCIWORA": {
+          "text": "Spinal cord injury without radiographic abnormality\nExam findings of myelopathy without abnormalities on XR or CT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        }
+      ]
+    },
+    "SCIWORA": {
+      "text": "Spinal cord injury without radiographic abnormality\nExam findings of myelopathy without abnormalities on XR or CT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Blunt trauma\nin pediatric population.\nAARF- may occur spontaneously or in trauma- exam shows head rotated, tilted or unable to turn past midline\nAOD- can be devastating injury or even fatal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blunt trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vertebral_fractures_and_dislocations_types": {
+          "text": "Cervical fractures and dislocations\nAtlanto-occipital dissociation\nC1\nJefferson fracture\nC1 isolated anterior arch fracture\nC1 isolated posterior arch fracture\nC2\nOdontoid fracture\nHangman's fracture\nC3-C7\nCervical burst fracture\nCervical spinous process fracture\nExtension cervical teardrop fracture\nFlexion cervical teardrop fracture\nAnterior cervical wedge fracture\nCervical facet dislocation\nIsolated transverse process fracture\nThoracic and lumbar fractures and dislocations\nChance fracture\nThoracic burst fracture\nLumbar burst fracture\nIsolated transverse process fracture\nThoracic and lumbar compression fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "Jefferson fracture",
+          "url": "https://wikem.org/wiki/Jefferson_fracture"
+        },
+        {
+          "text": "C1 isolated anterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_anterior_arch_fracture"
+        },
+        {
+          "text": "C1 isolated posterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_posterior_arch_fracture"
+        },
+        {
+          "text": "Odontoid fracture",
+          "url": "https://wikem.org/wiki/Odontoid_fracture"
+        },
+        {
+          "text": "Hangman's fracture",
+          "url": "https://wikem.org/wiki/Hangman%27s_fracture"
+        },
+        {
+          "text": "Cervical burst fracture",
+          "url": "https://wikem.org/wiki/Cervical_burst_fracture"
+        },
+        {
+          "text": "Cervical spinous process fracture",
+          "url": "https://wikem.org/wiki/Cervical_spinous_process_fracture"
+        },
+        {
+          "text": "Extension cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Extension_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Flexion cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Flexion_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Anterior cervical wedge fracture",
+          "url": "https://wikem.org/wiki/Anterior_cervical_wedge_fracture"
+        },
+        {
+          "text": "Cervical facet dislocation",
+          "url": "https://wikem.org/wiki/Cervical_facet_dislocation"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Chance fracture",
+          "url": "https://wikem.org/wiki/Chance_fracture"
+        },
+        {
+          "text": "Thoracic burst fracture",
+          "url": "https://wikem.org/wiki/Thoracic_burst_fracture"
+        },
+        {
+          "text": "Lumbar burst fracture",
+          "url": "https://wikem.org/wiki/Lumbar_burst_fracture"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar compression fractures",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_compression_fractures"
+        }
+      ]
+    },
+    "Vertebral_fractures_and_dislocations_types": {
+      "text": "Cervical fractures and dislocations\nAtlanto-occipital dissociation\nC1\nJefferson fracture\nC1 isolated anterior arch fracture\nC1 isolated posterior arch fracture\nC2\nOdontoid fracture\nHangman's fracture\nC3-C7\nCervical burst fracture\nCervical spinous process fracture\nExtension cervical teardrop fracture\nFlexion cervical teardrop fracture\nAnterior cervical wedge fracture\nCervical facet dislocation\nIsolated transverse process fracture\nThoracic and lumbar fractures and dislocations\nChance fracture\nThoracic burst fracture\nLumbar burst fracture\nIsolated transverse process fracture\nThoracic and lumbar compression fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "Jefferson fracture",
+          "url": "https://wikem.org/wiki/Jefferson_fracture"
+        },
+        {
+          "text": "C1 isolated anterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_anterior_arch_fracture"
+        },
+        {
+          "text": "C1 isolated posterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_posterior_arch_fracture"
+        },
+        {
+          "text": "Odontoid fracture",
+          "url": "https://wikem.org/wiki/Odontoid_fracture"
+        },
+        {
+          "text": "Hangman's fracture",
+          "url": "https://wikem.org/wiki/Hangman%27s_fracture"
+        },
+        {
+          "text": "Cervical burst fracture",
+          "url": "https://wikem.org/wiki/Cervical_burst_fracture"
+        },
+        {
+          "text": "Cervical spinous process fracture",
+          "url": "https://wikem.org/wiki/Cervical_spinous_process_fracture"
+        },
+        {
+          "text": "Extension cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Extension_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Flexion cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Flexion_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Anterior cervical wedge fracture",
+          "url": "https://wikem.org/wiki/Anterior_cervical_wedge_fracture"
+        },
+        {
+          "text": "Cervical facet dislocation",
+          "url": "https://wikem.org/wiki/Cervical_facet_dislocation"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Chance fracture",
+          "url": "https://wikem.org/wiki/Chance_fracture"
+        },
+        {
+          "text": "Thoracic burst fracture",
+          "url": "https://wikem.org/wiki/Thoracic_burst_fracture"
+        },
+        {
+          "text": "Lumbar burst fracture",
+          "url": "https://wikem.org/wiki/Lumbar_burst_fracture"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar compression fractures",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_compression_fractures"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "<3_years_old": {
+          "text": "GCS\n>13\nno neurological deficit\nno midline cervical tenderness to palpation\nno painful distracting injury\nno unexplained hypotension\nnot intoxicated\nmechanism-image if: MVC, fall >10 feet, non-accidental trauma known or suspected",
+          "tables": []
+        },
+        ">3_years_old": {
+          "text": "alert\nno neurological deficit\nno midline cervical ttp\nno painful distracting injury\nno unexplained hypotension\nnot intoxicated",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "No imaging if above criteria met based upon age\nCT c-spine for concern of Atlanto-occipital dislocation(AOD) or atlantoaxial rotatory subluxation or fixation (AARF)\nAOD- CT to look for condyle-C1 interval (CCI)\nAARF- C1-C2 motion analysis to characterize injury(3 position CT)\nPlain films otherwise acceptable\nSCIWORA- full spinal column radiographic imaging\nMRI of suspected area of spinal damage\nAssess spinal stability acutely and in follow-up with flex/ex films",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS_(Peds)"
+        }
+      ]
+    },
+    "C-Spine_Clearance_Without_Imaging": {
+      "text": "",
+      "subsections": {
+        "<3_years_old": {
+          "text": "GCS\n>13\nno neurological deficit\nno midline cervical tenderness to palpation\nno painful distracting injury\nno unexplained hypotension\nnot intoxicated\nmechanism-image if: MVC, fall >10 feet, non-accidental trauma known or suspected",
+          "tables": []
+        },
+        ">3_years_old": {
+          "text": "alert\nno neurological deficit\nno midline cervical ttp\nno painful distracting injury\nno unexplained hypotension\nnot intoxicated",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "No imaging if above criteria met based upon age\nCT c-spine for concern of Atlanto-occipital dislocation(AOD) or atlantoaxial rotatory subluxation or fixation (AARF)\nAOD- CT to look for condyle-C1 interval (CCI)\nAARF- C1-C2 motion analysis to characterize injury(3 position CT)\nPlain films otherwise acceptable\nSCIWORA- full spinal column radiographic imaging\nMRI of suspected area of spinal damage\nAssess spinal stability acutely and in follow-up with flex/ex films",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS_(Peds)"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "No imaging if above criteria met based upon age\nCT c-spine for concern of Atlanto-occipital dislocation(AOD) or atlantoaxial rotatory subluxation or fixation (AARF)\nAOD- CT to look for condyle-C1 interval (CCI)\nAARF- C1-C2 motion analysis to characterize injury(3 position CT)\nPlain films otherwise acceptable\nSCIWORA- full spinal column radiographic imaging\nMRI of suspected area of spinal damage\nAssess spinal stability acutely and in follow-up with flex/ex films",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Immobilization must account for relatively larger occiput using occipital recess or thoracic elevation to maintain c-spine neutrality.\nNeurosurgery consult for abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "General/Adult": {
+          "text": "Head Trauma (Main)\nConcussion\nSkull Fracture\nMaxillofacial Trauma\nC-spine (NEXUS)",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "C-spine (peds)\nAbuse (Nonaccidental Trauma)\nGCS (Peds)\nEBQ:PECARN Pediatric Head CT Rule\nDifferential diagnosis documentation#Head Trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Head Trauma (Main)",
+          "url": "https://wikem.org/wiki/Head_Trauma_(Main)"
+        },
+        {
+          "text": "Concussion",
+          "url": "https://wikem.org/wiki/Concussion"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "Maxillofacial Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        },
+        {
+          "text": "C-spine (NEXUS)",
+          "url": "https://wikem.org/wiki/C-spine_(NEXUS)"
+        },
+        {
+          "text": "C-spine (peds)",
+          "url": "https://wikem.org/wiki/C-spine_(peds)"
+        },
+        {
+          "text": "Abuse (Nonaccidental Trauma)",
+          "url": "https://wikem.org/wiki/Abuse_(Nonaccidental_Trauma)"
+        },
+        {
+          "text": "GCS (Peds)",
+          "url": "https://wikem.org/wiki/GCS_(Peds)"
+        },
+        {
+          "text": "EBQ:PECARN Pediatric Head CT Rule",
+          "url": "https://wikem.org/wiki/EBQ:PECARN_Pediatric_Head_CT_Rule"
+        },
+        {
+          "text": "Differential diagnosis documentation#Head Trauma",
+          "url": "https://wikem.org/wiki/Differential_diagnosis_documentation#Head_Trauma"
+        }
+      ]
+    },
+    "General/Adult": {
+      "text": "Head Trauma (Main)\nConcussion\nSkull Fracture\nMaxillofacial Trauma\nC-spine (NEXUS)",
+      "subsections": {
+        "Pediatric": {
+          "text": "C-spine (peds)\nAbuse (Nonaccidental Trauma)\nGCS (Peds)\nEBQ:PECARN Pediatric Head CT Rule\nDifferential diagnosis documentation#Head Trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Head Trauma (Main)",
+          "url": "https://wikem.org/wiki/Head_Trauma_(Main)"
+        },
+        {
+          "text": "Concussion",
+          "url": "https://wikem.org/wiki/Concussion"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "Maxillofacial Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        },
+        {
+          "text": "C-spine (NEXUS)",
+          "url": "https://wikem.org/wiki/C-spine_(NEXUS)"
+        },
+        {
+          "text": "C-spine (peds)",
+          "url": "https://wikem.org/wiki/C-spine_(peds)"
+        },
+        {
+          "text": "Abuse (Nonaccidental Trauma)",
+          "url": "https://wikem.org/wiki/Abuse_(Nonaccidental_Trauma)"
+        },
+        {
+          "text": "GCS (Peds)",
+          "url": "https://wikem.org/wiki/GCS_(Peds)"
+        },
+        {
+          "text": "EBQ:PECARN Pediatric Head CT Rule",
+          "url": "https://wikem.org/wiki/EBQ:PECARN_Pediatric_Head_CT_Rule"
+        },
+        {
+          "text": "Differential diagnosis documentation#Head Trauma",
+          "url": "https://wikem.org/wiki/Differential_diagnosis_documentation#Head_Trauma"
+        }
+      ]
+    },
+    "Pediatric": {
+      "text": "C-spine (peds)\nAbuse (Nonaccidental Trauma)\nGCS (Peds)\nEBQ:PECARN Pediatric Head CT Rule\nDifferential diagnosis documentation#Head Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "C-spine (peds)",
+          "url": "https://wikem.org/wiki/C-spine_(peds)"
+        },
+        {
+          "text": "Abuse (Nonaccidental Trauma)",
+          "url": "https://wikem.org/wiki/Abuse_(Nonaccidental_Trauma)"
+        },
+        {
+          "text": "GCS (Peds)",
+          "url": "https://wikem.org/wiki/GCS_(Peds)"
+        },
+        {
+          "text": "EBQ:PECARN Pediatric Head CT Rule",
+          "url": "https://wikem.org/wiki/EBQ:PECARN_Pediatric_Head_CT_Rule"
+        },
+        {
+          "text": "Differential diagnosis documentation#Head Trauma",
+          "url": "https://wikem.org/wiki/Differential_diagnosis_documentation#Head_Trauma"
+        }
+      ]
+    },
+    "References": {
+      "text": "EB Medicine- EM Practice Guideline Update- Sept 2014- Updated Guidelines For Management Of Acute Cervical Spine And Spinal Cord Injury In Pediatric Patients\nAmerican Association of Neurological Surgeons and Congress of Neurological Surgeons in 2013.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "drug_name": "Cavernous_sinus_thrombosis",
+  "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis",
+  "scraped_at": "2026-01-10T07:49:58.222683",
+  "sections": {
+    "Intro": {
+      "text": "The cavernous sinus is one of the several cerebral veins and cavernous sinus thrombosis is a specific type of\ncerebral venous (sinus) thrombosis\n.  See that article for a discussion of the larger clinical entity.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Severe infection involving complications of paranasal sinus and facial infections (e.g. manipulated midface abscesses, furuncles)\nFrequent extension of thrombosis to opposite sinus\nLow frequency, but high rate of morbidity/mortality\nStructures within the Cavernous Sinus\nV1 and V2\nIII, IV, VI\nInternal Carotid Artery",
+      "subsections": {
+        "Causes": {
+          "text": "Staph aureus\nStrep pneumoniae\nGram negative\nbacilli\nAnaerobes\nFungi",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "Strep pneumoniae",
+          "url": "https://wikem.org/wiki/Strep_pneumoniae"
+        },
+        {
+          "text": "Gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "Anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "Fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Staph aureus\nStrep pneumoniae\nGram negative\nbacilli\nAnaerobes\nFungi",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "Strep pneumoniae",
+          "url": "https://wikem.org/wiki/Strep_pneumoniae"
+        },
+        {
+          "text": "Gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "Anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "Fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fevers\n/chills\nNausea/vomiting\nHeadache\nEye exam\ninfraorbital/periorbital\ncellulitis\nExophthalmos (uni or bilateral)\nDecreased vision\nAbsent pupillary reflexes\nDecreased EOM secondary to CN III, IV, VI\nCN VI\ntypically affected 1st causing lateral gaze palsy\nCN VI palsy and\nHorner Syndrome\nknown as Parkinson sign\n[1]\nDecreased corneal sensation secondary to CN V\nIf infection spreads into CNS: altered mental status, lethargy, meningeal signs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fevers",
+          "url": "https://wikem.org/wiki/Fevers"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Decreased vision",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "CN VI",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "Horner Syndrome",
+          "url": "https://wikem.org/wiki/Horner_Syndrome"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Aneurysmal dilation/rupture of internal carotid artery in cavernous sinus\nCellulitis\nPeriorbital vs Orbital Cellulitis\nAcute Angle-Closure Glaucoma\nSinusitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Periorbital vs Orbital Cellulitis",
+          "url": "https://wikem.org/wiki/Periorbital_vs_Orbital_Cellulitis"
+        },
+        {
+          "text": "Acute Angle-Closure Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "MRI\nwith MR Venogram - study of choice\nCT head\nVenogram acceptable choice if no MR available with 95% sensitivity\n[2]\nCT findings can be subtle and if clinical suspicion is high cannot rule out with a negative CT\nBlood cultures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        }
+      ]
+    },
+    "Management": {
+      "text": "IV antibiotics:\n3rd generation\ncephalosporin\nAND:\nNafcillin\nor\nvancomycin\n/\nlinezolid\nif suspected MRSA and\nAnaerobic coverage if suspected dental source\nConsider\nheparin\nif rapidly decompensating and CT negative for intracranial hemorrhage\nConsider\nsteroids\nto decrease inflammation in conjunction with antibiotics\nSurgical drainage of primary infection if possible",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consult ophthalmology, neurology, ID, and ENT (or other appropriate surgery subspecialty)\nAdmit to ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Meningitis\nSeptic emboli\nRemaining visual defects\nCNS deficit\npituitary insufficiency",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CNS deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "pituitary insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Cerebral venous thrombosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        }
+      ]
+    }
+  }
+}

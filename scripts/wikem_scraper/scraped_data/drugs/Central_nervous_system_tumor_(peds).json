@@ -1,0 +1,342 @@
+{
+  "drug_name": "Central_nervous_system_tumor_(peds)",
+  "url": "https://wikem.org/wiki/Central_nervous_system_tumor_(peds)",
+  "scraped_at": "2026-01-10T07:50:10.352944",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nCentral nervous system tumor\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "2nd most common pediatric cancer (20%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Depends on location\nPosterior Fossa\nHeadache\nEarly morning (sleep > hypoventilation > hypercarbia > increases CNS blood flow > increased ICP)\nRed flags also include headaches that are worse with valsalva, wakes from sleep, occur daily\nEffortless\nvomiting\nCranial nerve palsies\n(especially 6th nerve)\nBrainstem\nCranial nerve palsies\n(facial weakness, abducens palsy, dysphagia), ataxia\nSupratentorial\nHeadache\n, personality change, motor\nweakness\n,\nseizure\nSellar\nVisual changes\n, hypothalamic dysfunction (\ndiabetes insipidus\n, stunted growth,\nhypothyroidism\n)\nIncreased ICP\nfeatures\nFeatures of\nelevated ICP\n(from\ncerebral edema\n,\ntumor bleed\n, or mass effect\nHeadache\n(from increased pressure on heavily innervated meninges)\nRed flags: worse in the morning, worse with valsalva, wakes from sleep, daily\nNausea/vomiting\nAlso typically worse in the morning\nPapilledema\n, dilated optic nerve\nCushing's triad:\nBradycardia\n,\nhypertension\n, irregular respirations\nBulging fontanelle\nin infants\nSeizure\nAltered mental status\n, irritability, coma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Cranial nerve palsies",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "Cranial nerve palsies",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Visual changes",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "cerebral edema",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_brain_cancer"
+        },
+        {
+          "text": "tumor bleed",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Bulging fontanelle",
+          "url": "https://wikem.org/wiki/Bulging_fontanelle"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Headache": {
+          "text": "Primary headache\nMigraine\nTension\nCluster\nSecondary headache\nViral\nillness and\nfever\nPost-\ntraumatic\nVP shunt malfunction\nCO poisoning\nEpidural hematoma\nSubdural hematoma\nBrain abscess\nPseudotumor cerebri\nMeningitis\nSpace-occupying lesion\nAVM\nSinusitis\nDental abscess\nOtitis media\nCNS tumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Tension",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma_(peds)"
+        },
+        {
+          "text": "VP shunt malfunction",
+          "url": "https://wikem.org/wiki/VP_shunt_malfunction"
+        },
+        {
+          "text": "CO poisoning",
+          "url": "https://wikem.org/wiki/CO_poisoning"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Space-occupying lesion",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumors_(peds)"
+        }
+      ]
+    },
+    "Pediatric_Headache": {
+      "text": "Primary headache\nMigraine\nTension\nCluster\nSecondary headache\nViral\nillness and\nfever\nPost-\ntraumatic\nVP shunt malfunction\nCO poisoning\nEpidural hematoma\nSubdural hematoma\nBrain abscess\nPseudotumor cerebri\nMeningitis\nSpace-occupying lesion\nAVM\nSinusitis\nDental abscess\nOtitis media\nCNS tumor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Tension",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma_(peds)"
+        },
+        {
+          "text": "VP shunt malfunction",
+          "url": "https://wikem.org/wiki/VP_shunt_malfunction"
+        },
+        {
+          "text": "CO poisoning",
+          "url": "https://wikem.org/wiki/CO_poisoning"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Space-occupying lesion",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumors_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Head CT",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Increased ICP\nBenzodiazepines\n+/-\nAEDs\nif actively seizing\nDexamethasone\n(reduce tumor capillary permeability, inflammatory cytotoxicity)- 1mg/yr of age (max 10mg)\nDo NOT give if CNS lymphoma is in the differential\nElevate head of bed to 30 degrees, provide adequate sedation in intubated patients\nMaintain cerebral perfusion (euvolemia,\nvasopressors\nif necessary)\nConsider osmotherapy (e.g.\nhypertonic saline\n,\nmannitol\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Herniation Syndromes\nElevated ICP\nCerebral edema in brain cancer",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herniation Syndromes",
+          "url": "https://wikem.org/wiki/Herniation_Syndromes"
+        },
+        {
+          "text": "Elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "Cerebral edema in brain cancer",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_brain_cancer"
+        }
+      ]
+    }
+  }
+}

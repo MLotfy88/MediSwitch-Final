@@ -1,0 +1,548 @@
+{
+  "drug_name": "Cerebellar_stroke",
+  "url": "https://wikem.org/wiki/Cerebellar_stroke",
+  "scraped_at": "2026-01-10T07:50:10.145927",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Sudden inability to walk is common finding\nMay have additional signs of of Posterior Circulation Stroke- 5Ds: Dizziness (\nVertigo\n),\nDysarthria\n,\nDystaxia\n,\nDiplopia\n,\nDysphagia\nCan be confused with acute vestibular syndrome (e.g.\nlabyrinthitis\n)",
+      "subsections": {
+        "Central_vs._Peripheral_Causes_of_Vertigo": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Onset",
+                "Peripheral": "Sudden",
+                "Central": "Sudden or slow"
+              },
+              {
+                "": "Severity",
+                "Peripheral": "Intense spinning",
+                "Central": "Ill defined, less intense"
+              },
+              {
+                "": "Pattern",
+                "Peripheral": "Paroxysmal, intermittent",
+                "Central": "Constant"
+              },
+              {
+                "": "Aggravated by position/movement",
+                "Peripheral": "Yes",
+                "Central": "Variable"
+              },
+              {
+                "": "Nausea/diaphoresis",
+                "Peripheral": "Frequent",
+                "Central": "Variable"
+              },
+              {
+                "": "Nystagmus",
+                "Peripheral": "Horizontal and unidirectional",
+                "Central": "Vertical and/or multidirectional"
+              },
+              {
+                "": "Fatigue of symptoms/signs",
+                "Peripheral": "Yes",
+                "Central": "No"
+              },
+              {
+                "": "Hearing loss/tinnitus",
+                "Peripheral": "May occur",
+                "Central": "Does not occur"
+              },
+              {
+                "": "Abnormal tympanic membrane",
+                "Peripheral": "May occur",
+                "Central": "Does not occur"
+              },
+              {
+                "": "CNS symptoms/signs",
+                "Peripheral": "Absent",
+                "Central": "Usually present"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Dystaxia",
+          "url": "https://wikem.org/wiki/Dystaxia"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        }
+      ]
+    },
+    "Central_vs._Peripheral_Causes_of_Vertigo": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Onset",
+            "Peripheral": "Sudden",
+            "Central": "Sudden or slow"
+          },
+          {
+            "": "Severity",
+            "Peripheral": "Intense spinning",
+            "Central": "Ill defined, less intense"
+          },
+          {
+            "": "Pattern",
+            "Peripheral": "Paroxysmal, intermittent",
+            "Central": "Constant"
+          },
+          {
+            "": "Aggravated by position/movement",
+            "Peripheral": "Yes",
+            "Central": "Variable"
+          },
+          {
+            "": "Nausea/diaphoresis",
+            "Peripheral": "Frequent",
+            "Central": "Variable"
+          },
+          {
+            "": "Nystagmus",
+            "Peripheral": "Horizontal and unidirectional",
+            "Central": "Vertical and/or multidirectional"
+          },
+          {
+            "": "Fatigue of symptoms/signs",
+            "Peripheral": "Yes",
+            "Central": "No"
+          },
+          {
+            "": "Hearing loss/tinnitus",
+            "Peripheral": "May occur",
+            "Central": "Does not occur"
+          },
+          {
+            "": "Abnormal tympanic membrane",
+            "Peripheral": "May occur",
+            "Central": "Does not occur"
+          },
+          {
+            "": "CNS symptoms/signs",
+            "Peripheral": "Absent",
+            "Central": "Usually present"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vertigo": {
+          "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Vertigo": {
+      "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Exam": {
+          "text": "HINTS Exam",
+          "tables": []
+        },
+        "Stroke_Work-Up": {
+          "text": "Labs\nPOC glucose\nCBC\nChemistry\nCoags\nTroponin\nT&S\nECG\nIn large ICH or stroke, may see deep TWI and prolong QT, occ ST changes\nHead CT\n(non-contrast)\nIn ischemia stroke CT has sensitivity 42%, specificity 91%\n[1]\nIn acute ICH the sensitivity is 95-100%\n[2]\nThe goal of CTH is to identify stroke mimics (ICH, mass lesions, etc .)\n[3]\nAlso consider:\nCTA brain and neck\nTo check for large vessel occlusion for potential thrombectomy\nDetermine if there is carotid stenosis that warrants endarterectomy urgently\nPregnancy test\nCXR\n(if infection suspected)\nUA\n(if infection suspected)\nUtox\n(if ingestion suspected)",
+          "tables": []
+        },
+        "MR_Imaging_(for_Rule-Out_CVA_or_TIA)": {
+          "text": "MRI Brain\nwith DWI, ADC (without contrast)\nAND\nCervical vascular imaging (ACEP Level B in patients with high short-term risk for stroke):\n[4]\nMRA brain (without contrast)\nAND\nMRA neck (without contrast)\nMay instead use Carotid CTA or US (Carotid US slightly less sensitive than MRA)\n[5]\n(ACEP Level C)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HINTS Exam",
+          "url": "https://wikem.org/wiki/EBQ:HINTS_Exam"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "Utox",
+          "url": "https://wikem.org/wiki/Utox"
+        },
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/MRI_Brain"
+        }
+      ]
+    },
+    "Exam": {
+      "text": "HINTS Exam",
+      "subsections": {
+        "Stroke_Work-Up": {
+          "text": "Labs\nPOC glucose\nCBC\nChemistry\nCoags\nTroponin\nT&S\nECG\nIn large ICH or stroke, may see deep TWI and prolong QT, occ ST changes\nHead CT\n(non-contrast)\nIn ischemia stroke CT has sensitivity 42%, specificity 91%\n[1]\nIn acute ICH the sensitivity is 95-100%\n[2]\nThe goal of CTH is to identify stroke mimics (ICH, mass lesions, etc .)\n[3]\nAlso consider:\nCTA brain and neck\nTo check for large vessel occlusion for potential thrombectomy\nDetermine if there is carotid stenosis that warrants endarterectomy urgently\nPregnancy test\nCXR\n(if infection suspected)\nUA\n(if infection suspected)\nUtox\n(if ingestion suspected)",
+          "tables": []
+        },
+        "MR_Imaging_(for_Rule-Out_CVA_or_TIA)": {
+          "text": "MRI Brain\nwith DWI, ADC (without contrast)\nAND\nCervical vascular imaging (ACEP Level B in patients with high short-term risk for stroke):\n[4]\nMRA brain (without contrast)\nAND\nMRA neck (without contrast)\nMay instead use Carotid CTA or US (Carotid US slightly less sensitive than MRA)\n[5]\n(ACEP Level C)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HINTS Exam",
+          "url": "https://wikem.org/wiki/EBQ:HINTS_Exam"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "Utox",
+          "url": "https://wikem.org/wiki/Utox"
+        },
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/MRI_Brain"
+        }
+      ]
+    },
+    "Stroke_Work-Up": {
+      "text": "Labs\nPOC glucose\nCBC\nChemistry\nCoags\nTroponin\nT&S\nECG\nIn large ICH or stroke, may see deep TWI and prolong QT, occ ST changes\nHead CT\n(non-contrast)\nIn ischemia stroke CT has sensitivity 42%, specificity 91%\n[1]\nIn acute ICH the sensitivity is 95-100%\n[2]\nThe goal of CTH is to identify stroke mimics (ICH, mass lesions, etc .)\n[3]\nAlso consider:\nCTA brain and neck\nTo check for large vessel occlusion for potential thrombectomy\nDetermine if there is carotid stenosis that warrants endarterectomy urgently\nPregnancy test\nCXR\n(if infection suspected)\nUA\n(if infection suspected)\nUtox\n(if ingestion suspected)",
+      "subsections": {
+        "MR_Imaging_(for_Rule-Out_CVA_or_TIA)": {
+          "text": "MRI Brain\nwith DWI, ADC (without contrast)\nAND\nCervical vascular imaging (ACEP Level B in patients with high short-term risk for stroke):\n[4]\nMRA brain (without contrast)\nAND\nMRA neck (without contrast)\nMay instead use Carotid CTA or US (Carotid US slightly less sensitive than MRA)\n[5]\n(ACEP Level C)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "Utox",
+          "url": "https://wikem.org/wiki/Utox"
+        },
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/MRI_Brain"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Early neurosurgical consultation is needed (herniation may lead to rapid deterioration)\nSee\nStroke (Main)\nSee\nThrombolysis in Acute Ischemic Stroke (tPA)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Thrombolysis in Acute Ischemic Stroke (tPA)",
+          "url": "https://wikem.org/wiki/Thrombolysis_in_Acute_Ischemic_Stroke_(tPA)"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Stroke syndromes\nVertigo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke syndromes",
+          "url": "https://wikem.org/wiki/Stroke_syndromes"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMCrit: Diagnosis of Posterior Stroke",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

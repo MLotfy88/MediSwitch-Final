@@ -1,0 +1,255 @@
+{
+  "drug_name": "Central_retinal_artery_occlusion",
+  "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion",
+  "scraped_at": "2026-01-10T07:50:10.224713",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: CRAO\nThe first branch of internal carotid artery is the ophthalmic artery\nMore common in the elderly with carotid artery disease\nRestoration of blood flow within 100min may lead to complete recovery\nOcclusion >240min leads to irreversible damage\n5-10% of CRAO is associated with giant cell arteritis\n[1]",
+      "subsections": {
+        "Etiology": {
+          "text": "Embolism\nThrombosis\nTemporal Arteritis\nVasculitis\nSickle Cell Disease\nTrauma\nVasospasm (\nmigraine\n)\nGlaucoma\nLow retinal blood flow (\ncarotid stenosis\nor\nhypotension\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Embolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "Temporal Arteritis",
+          "url": "https://wikem.org/wiki/Temporal_Arteritis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Sickle Cell Disease",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Disease"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Blunt_orbital_trauma"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "carotid stenosis",
+          "url": "https://wikem.org/wiki/Carotid_stenosis"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Embolism\nThrombosis\nTemporal Arteritis\nVasculitis\nSickle Cell Disease\nTrauma\nVasospasm (\nmigraine\n)\nGlaucoma\nLow retinal blood flow (\ncarotid stenosis\nor\nhypotension\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Embolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "Temporal Arteritis",
+          "url": "https://wikem.org/wiki/Temporal_Arteritis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Sickle Cell Disease",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Disease"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Blunt_orbital_trauma"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "carotid stenosis",
+          "url": "https://wikem.org/wiki/Carotid_stenosis"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sudden,\npainless, monocular vision loss\nOften preceded by episodes of\namaurosis fugax\nAPD",
+      "subsections": {
+        "Fundoscopy": {
+          "text": "Pale retina, cherry red macula\nBoxcar segmentation of blood column\nCherry red spot\nMacula is thinnest portion of retina\nIntact underlying choroidal circulation remains visible through this section\nMacular area maintains normal color (red) versus surrounding ischemic, pale retina due to differing blood supplies",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "painless, monocular vision loss",
+          "url": "https://wikem.org/wiki/Acute_vision_loss_(noninflamed)"
+        },
+        {
+          "text": "amaurosis fugax",
+          "url": "https://wikem.org/wiki/Amaurosis_fugax"
+        }
+      ]
+    },
+    "Fundoscopy": {
+      "text": "Pale retina, cherry red macula\nBoxcar segmentation of blood column\nCherry red spot\nMacula is thinnest portion of retina\nIntact underlying choroidal circulation remains visible through this section\nMacular area maintains normal color (red) versus surrounding ischemic, pale retina due to differing blood supplies",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Amaurosis fugax",
+          "url": "https://wikem.org/wiki/Amaurosis_fugax"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Etiology work-up\nESR and CRP\nCarotid\nUS\nECG\nEchocardiography\nfor embolus or atrial shunt\nCBC, coags, ANA, syphilis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "US",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Consult ophtho with goals for reducing\nintraocular pressure\n, dislodging  the embolus or increasing arterial flow\nStart high dose systemic\ncorticosteroids\nif high ESR/CRP (especially high CRP) and sudden vision loss\nMedian starting PO\nprednisone\n80mg/day, with 40% of patients on > 100mg/day\nTreat until BOTH ESR and CRP stabilize (~2-3 wks)\n[2]\nNo evidence supporting or refuting the following treatments:\n[3]\nOcular massage\nIntermittent direct digital pressure applied through closed eyelid x 10-15 sec with rapid release to create pressure gradient to dislodge embolism\nTimolol\nophthalmic 0.5% to decrease intraocular pressure\nAlternative\nacetazolamide\n500mg IV or PO\n[4]\nIncrease PCO2 leading to retinal artery vasodilation/increased retinal blood flow\nRebreathe into paper bag x10 min q hr\nInhale 95% O2 and 5% CO2 (Carbogen)\n[5]\nAnterior chamber paracentesis\nCauses acute drop in IOP to dislodge embolism\nIntraarterial fibrinolysis or low dose systemic\nthrombolytics\n[6]\n[7]\nAcetazolamide\n, 500mg IV or PO\nMannitol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "intraocular pressure",
+          "url": "https://wikem.org/wiki/Intraocular_pressure"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Timolol",
+          "url": "https://wikem.org/wiki/Timolol"
+        },
+        {
+          "text": "acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Immediate ophthalmology consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute vision loss (noninflamed)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute vision loss (noninflamed)",
+          "url": "https://wikem.org/wiki/Acute_vision_loss_(noninflamed)"
+        }
+      ]
+    }
+  }
+}

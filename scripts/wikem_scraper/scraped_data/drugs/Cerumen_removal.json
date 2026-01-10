@@ -1,0 +1,99 @@
+{
+  "drug_name": "Cerumen_removal",
+  "url": "https://wikem.org/wiki/Cerumen_removal",
+  "scraped_at": "2026-01-10T07:50:09.500652",
+  "sections": {
+    "Overview": {
+      "text": "Cerumen impaction is caused by the buildup of wax within the ear canal and can lead to\ndecreased hearing\n, pressure or fullness,\ndizziness\n,\ntinnitus\n, or\npain\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "decreased hearing",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "pain",
+          "url": "https://wikem.org/wiki/Otalgia"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Pain, hearing loss, vertigo, disequilibrium\nVisualization of symptomatic TM",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "TM rupture\nor myringotomy tubes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TM rupture",
+          "url": "https://wikem.org/wiki/TM_rupture"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "Warm Water\n5 or 10 cc syringe\nSoft tubing from catheter",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Three_Methods": {
+          "text": "Cerumenolytic agents\nWater based\nacetic acid, colace, hydrogen peroxide, sodium bicarbonate, sterile saline\nOil Based\nAlmond oil, Peanut oil, Olive oil, Mineral oil\nDebrox\nIrrigation\n5 cc syringe with warm water and soft tubing from catheter\nJet lavage\nRepeat until wax flushed out\nManual Removal\nPerform under direct visualization\nSoft, disposable plastic variety preferred to metal cerumen spoon/curettes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Three_Methods": {
+      "text": "Cerumenolytic agents\nWater based\nacetic acid, colace, hydrogen peroxide, sodium bicarbonate, sterile saline\nOil Based\nAlmond oil, Peanut oil, Olive oil, Mineral oil\nDebrox\nIrrigation\n5 cc syringe with warm water and soft tubing from catheter\nJet lavage\nRepeat until wax flushed out\nManual Removal\nPerform under direct visualization\nSoft, disposable plastic variety preferred to metal cerumen spoon/curettes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Increased risk of infection in immune compromised patients\nHemorrhage or hematoma in patients on anticoagulation\nIrrigating with cold or hot solution may lead to vertigo, nausea, vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=o0I9DWl7ARA}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=o0I9DWl7ARA}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

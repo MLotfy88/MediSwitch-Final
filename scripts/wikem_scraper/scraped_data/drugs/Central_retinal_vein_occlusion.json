@@ -1,0 +1,171 @@
+{
+  "drug_name": "Central_retinal_vein_occlusion",
+  "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion",
+  "scraped_at": "2026-01-10T07:50:10.627439",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Diabetes mellitus\nHypertension\nHypercoagulable states\nVasculitis\nGlaucoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Diabetes mellitus\nHypertension\nHypercoagulable states\nVasculitis\nGlaucoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Loss of vision\nVariable, ranging from vague blurring to rapid, painless monocular vision loss\nFundoscopy\nOptic disc edema, dilated and tortuous veins, diffuse retinal hemorrhages (\"blood-and-thunder fundus\")",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Loss of vision",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "Fundoscopy",
+          "url": "https://wikem.org/wiki/Fundoscopy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Amaurosis fugax",
+          "url": "https://wikem.org/wiki/Amaurosis_fugax"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Consult ophtho and neuro\nNo treatment regimen provides significant and consistent results\nComplex treatment possibly involving\naspirin\n,\nanticoagulation\n, fibrinolysis, lowering\nIOP\n,\ntopical steroids\n, cyclocryotherapy, photocoagulation, intravitreal injections (triamcinolone, anti-VEGF, aflibercept) while managing underlying medical diseases\nPossible benefit from\nLMWH\nplus\naspirin\nin central retinal vein occlusion\n[1]\nMay provide a 78% risk reduction of adverse ocular outcome in central vein occlusion\nLess benefit in branched retinal vein occlusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acute Vision Loss (Noninflamed)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute Vision Loss (Noninflamed)",
+          "url": "https://wikem.org/wiki/Acute_Vision_Loss_(Noninflamed)"
+        }
+      ]
+    }
+  }
+}

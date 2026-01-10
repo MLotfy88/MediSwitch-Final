@@ -1,0 +1,233 @@
+{
+  "drug_name": "Cervical_disk_herniation",
+  "url": "https://wikem.org/wiki/Cervical_disk_herniation",
+  "scraped_at": "2026-01-10T07:50:12.370501",
+  "sections": {
+    "Background": {
+      "text": "Nucleus pulposus protrudes through posterior annular fibrosis\nLeads to radiculopathy or less commonly myelopathy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Neck/shoulder/arm pain in\ndermatome\ndistribution, weakness, hyporeflexia\nSpurling test\nFlex neck forward, ipsilaterally rotate, and ipsilaterally tilt\nReproduction of radicular symptoms is positive test\nSpecific for nerve root compression\nLhermitte's sign\npositive suggests cord compression from midline herniation\nShoulder abduction test - lifting arm above head relieves symptoms; differentiates radiculopathy from shoulder pathology",
+      "subsections": {
+        "Cervical_Exam_by_Level": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Radiculopathy": "C4",
+                "Motor Deficit": "Levator Scapulae & Shoulder elevation",
+                "Sensory Deficit": "",
+                "Diminished Reflex": ""
+              },
+              {
+                "Radiculopathy": "C5",
+                "Motor Deficit": "Deltoid & Biceps",
+                "Sensory Deficit": "",
+                "Diminished Reflex": "Biceps"
+              },
+              {
+                "Radiculopathy": "C6",
+                "Motor Deficit": "Brachioradialis & Wrist extension",
+                "Sensory Deficit": "Thumb Paresthesia",
+                "Diminished Reflex": "Brachioradialis"
+              },
+              {
+                "Radiculopathy": "C7",
+                "Motor Deficit": "Triceps & Wrist flexion",
+                "Sensory Deficit": "Index/Middle/Ring Paresthesia",
+                "Diminished Reflex": "Triceps"
+              },
+              {
+                "Radiculopathy": "C8",
+                "Motor Deficit": "Index/Middle distal phlnx flexion",
+                "Sensory Deficit": "Small Finger Paresthesia",
+                "Diminished Reflex": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dermatome",
+          "url": "https://wikem.org/wiki/Spinal_cord_levels"
+        },
+        {
+          "text": "Lhermitte's sign",
+          "url": "https://wikem.org/wiki/Eponyms_(F-L)#Lhermitte's_sign"
+        }
+      ]
+    },
+    "Cervical_Exam_by_Level": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Radiculopathy": "C4",
+            "Motor Deficit": "Levator Scapulae & Shoulder elevation",
+            "Sensory Deficit": "",
+            "Diminished Reflex": ""
+          },
+          {
+            "Radiculopathy": "C5",
+            "Motor Deficit": "Deltoid & Biceps",
+            "Sensory Deficit": "",
+            "Diminished Reflex": "Biceps"
+          },
+          {
+            "Radiculopathy": "C6",
+            "Motor Deficit": "Brachioradialis & Wrist extension",
+            "Sensory Deficit": "Thumb Paresthesia",
+            "Diminished Reflex": "Brachioradialis"
+          },
+          {
+            "Radiculopathy": "C7",
+            "Motor Deficit": "Triceps & Wrist flexion",
+            "Sensory Deficit": "Index/Middle/Ring Paresthesia",
+            "Diminished Reflex": "Triceps"
+          },
+          {
+            "Radiculopathy": "C8",
+            "Motor Deficit": "Index/Middle distal phlnx flexion",
+            "Sensory Deficit": "Small Finger Paresthesia",
+            "Diminished Reflex": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Neck_pain": {
+          "text": "Musculoskeletal\nTorticollis\nDystonic reaction\nCervical spondylosis\nCervical stenosis\nCancer\nEpidural abscess\nVertebral\nosteomyelitis\nTransverse myelitis\nTemporal arteritis\nEpidural hematoma\n(anticoagulation, hemophilia)\nCervical disk herniation\nBlunt neck trauma\nAnterior horn disease\nCervical fractures and dislocations\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Neck_pain": {
+      "text": "Musculoskeletal\nTorticollis\nDystonic reaction\nCervical spondylosis\nCervical stenosis\nCancer\nEpidural abscess\nVertebral\nosteomyelitis\nTransverse myelitis\nTemporal arteritis\nEpidural hematoma\n(anticoagulation, hemophilia)\nCervical disk herniation\nBlunt neck trauma\nAnterior horn disease\nCervical fractures and dislocations\nCervical radiculopathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "MRI required for definitive diagnosis; indicated if neurologic signs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "In consultation with Neurosurg, admit if progression of neurologic signs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neck pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        }
+      ]
+    },
+    "References": {
+      "text": "Orthobullets",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

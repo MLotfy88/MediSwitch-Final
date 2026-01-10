@@ -1,0 +1,1333 @@
+{
+  "drug_name": "Caustic_keratoconjunctivitis",
+  "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis",
+  "scraped_at": "2026-01-10T07:49:56.377470",
+  "sections": {
+    "Background": {
+      "text": "Chemical burn to eye\nAlkali injuries are more severe than acidic injuries, and are considered an\nophthalmologic emergency\nPrognosis is determined by the extent of injury at the limbus and area/depth of injury to cornea",
+      "subsections": {
+        "Caustics": {
+          "text": "Substances that cause damage on contact with body surfaces\nDegree of injury determined by pH, concentration, volume, duration of contact\nAcidic agents cause coagulative necrosis\nAlkaline agents cause liquefactive necrosis (considered more damaging to most tissues)\nCorrosive agents have reducing, oxidising, denaturing or defatting potential",
+          "tables": []
+        },
+        "Alkalis": {
+          "text": "Accepts protons → free hydroxide ion, which easily penetrates tissue → cellular destruction\nLiquefactive necrosis and protein disruption may allow for deep penetration into surrounding tissues\nExamples\nSodium hydroxide (NaOH), potassium hydroxide (KOH)\nLye present in drain cleaners, hair relaxers, grease remover\nBleach (sodium hypochlorite) and Ammonia (NH3)\nCleaning products such as oven cleaners, swimming pool chlorinator\nHousehold bleach ingestion (4-6% sodium hypochlorite) rarely causes significant esophageal injury\n[1]\n[2]",
+          "tables": []
+        },
+        "Acids": {
+          "text": "Proton donor → free hydrogen ion → cell death via denatured protein → coagulation necrosis and eschar formation, which limits deeper involvement\nHowever, due to pylorospasm and pooling of acid, high-grade gastric injuries are common\nMortality rate is higher compared to strong alkali ingestions\nCan be systemically absorbed and →\nmetabolic acidosis\n, hemolysis, AKI\nExamples\nHydrochloric acid (HCl),\nhydrofluoric acid\n(HF), Sulfuric acid (H2SO4), Phosphoric acid, Oxalic Acid, Acetic acid\nFound in: auto batteries, drain openers, toilet bowl, metal cleaners, swimming pool cleaners, rust remover, nail primer",
+          "tables": []
+        },
+        "Keratoconjunctivitis_Types": {
+          "text": "Atopic keratoconjunctivitis\nCommon in patients with atopy (ie:\neczema\n, allergies,\nasthma\n, rhinitis)\nCaustic keratoconjunctivitis\nSecondary to chemical orbital exposure\nEpidemic keratoconjunctivitis\nHighly contagious viral (\nadenovirus\n)\nconjunctivitis\n, associated with watery discharge\nUltraviolet keratitis\nSecondary to UV light exposure\nKeratoconjunctivitis sicca\nAssociated with autoimmune disorders such as\nSjögren syndrome\n,\nsarcoidosis\n,\nrheumatoid arthritis\n, and\nscleroderma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        }
+      ]
+    },
+    "Caustics": {
+      "text": "Substances that cause damage on contact with body surfaces\nDegree of injury determined by pH, concentration, volume, duration of contact\nAcidic agents cause coagulative necrosis\nAlkaline agents cause liquefactive necrosis (considered more damaging to most tissues)\nCorrosive agents have reducing, oxidising, denaturing or defatting potential",
+      "subsections": {
+        "Alkalis": {
+          "text": "Accepts protons → free hydroxide ion, which easily penetrates tissue → cellular destruction\nLiquefactive necrosis and protein disruption may allow for deep penetration into surrounding tissues\nExamples\nSodium hydroxide (NaOH), potassium hydroxide (KOH)\nLye present in drain cleaners, hair relaxers, grease remover\nBleach (sodium hypochlorite) and Ammonia (NH3)\nCleaning products such as oven cleaners, swimming pool chlorinator\nHousehold bleach ingestion (4-6% sodium hypochlorite) rarely causes significant esophageal injury\n[1]\n[2]",
+          "tables": []
+        },
+        "Acids": {
+          "text": "Proton donor → free hydrogen ion → cell death via denatured protein → coagulation necrosis and eschar formation, which limits deeper involvement\nHowever, due to pylorospasm and pooling of acid, high-grade gastric injuries are common\nMortality rate is higher compared to strong alkali ingestions\nCan be systemically absorbed and →\nmetabolic acidosis\n, hemolysis, AKI\nExamples\nHydrochloric acid (HCl),\nhydrofluoric acid\n(HF), Sulfuric acid (H2SO4), Phosphoric acid, Oxalic Acid, Acetic acid\nFound in: auto batteries, drain openers, toilet bowl, metal cleaners, swimming pool cleaners, rust remover, nail primer",
+          "tables": []
+        },
+        "Keratoconjunctivitis_Types": {
+          "text": "Atopic keratoconjunctivitis\nCommon in patients with atopy (ie:\neczema\n, allergies,\nasthma\n, rhinitis)\nCaustic keratoconjunctivitis\nSecondary to chemical orbital exposure\nEpidemic keratoconjunctivitis\nHighly contagious viral (\nadenovirus\n)\nconjunctivitis\n, associated with watery discharge\nUltraviolet keratitis\nSecondary to UV light exposure\nKeratoconjunctivitis sicca\nAssociated with autoimmune disorders such as\nSjögren syndrome\n,\nsarcoidosis\n,\nrheumatoid arthritis\n, and\nscleroderma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        }
+      ]
+    },
+    "Keratoconjunctivitis_Types": {
+      "text": "Atopic keratoconjunctivitis\nCommon in patients with atopy (ie:\neczema\n, allergies,\nasthma\n, rhinitis)\nCaustic keratoconjunctivitis\nSecondary to chemical orbital exposure\nEpidemic keratoconjunctivitis\nHighly contagious viral (\nadenovirus\n)\nconjunctivitis\n, associated with watery discharge\nUltraviolet keratitis\nSecondary to UV light exposure\nKeratoconjunctivitis sicca\nAssociated with autoimmune disorders such as\nSjögren syndrome\n,\nsarcoidosis\n,\nrheumatoid arthritis\n, and\nscleroderma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Severe\nocular pain\n, blepharospasm, reduced\nvisual acuity\nAltered ocular pH (normal = 7.0-7.2)\nAppearance\nConjunctival injection\nOR\nblnnching\nChemosis, hemorrhage, epithelial defects\nCorneal loss\nOR\nedema\nPerilimbal ischemia (white ring around iris)\nConcerning due to co-location of corneal stem cell layer (re-epitheliazation relies on migration of limbal stem cells)",
+      "subsections": {
+        "Alkali_Burns": {
+          "text": "Rapid penetration through cornea and anterior chamber\nCauses liquefaction necrosis from hydroxyl ions combining with fatty acids\nElevated\nIOP\nmay be seen in alkali injury\n[3]\nAcute injury liquefaction necrosis and ischemia which can be graded on degree of limbal and corneal involvement\nEarly sequelae corneal edema and elevated IOP\nLater injury after one week - corneal breakdown,\nulceration\n, perforation because of collagenase activity exceeds synthesis",
+          "tables": []
+        },
+        "Acid_Exposure": {
+          "text": "Injury related to length of exposure and concentration of chemical\nCauses coagulation necrosis and protein precipitation thus limits depth of penetration\nDelayed complications corneal and conjunctival scarring, vascularization,\nglaucoma\n,\nuveitis",
+          "tables": []
+        },
+        "Other_Chemicals": {
+          "text": "Most exposures produce only simple irritation",
+          "tables": []
+        },
+        "Roper-Hall_classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Grade": "I",
+                "Cornea Appearance": "Clear",
+                "Limbal Ischemia": "None",
+                "Prognosis": "Good"
+              },
+              {
+                "Grade": "II",
+                "Cornea Appearance": "Hazy/iris details visible",
+                "Limbal Ischemia": "<1/3",
+                "Prognosis": "Good"
+              },
+              {
+                "Grade": "III",
+                "Cornea Appearance": "Opaque/iris details obscured",
+                "Limbal Ischemia": "1/3-1/2",
+                "Prognosis": "Guarded"
+              },
+              {
+                "Grade": "IV",
+                "Cornea Appearance": "Opaque/iris details obscured",
+                "Limbal Ischemia": ">1/2",
+                "Prognosis": "Poor"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ocular pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "visual acuity",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "Conjunctival injection",
+          "url": "https://wikem.org/wiki/Red_eye"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "ulceration",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        }
+      ]
+    },
+    "Alkali_Burns": {
+      "text": "Rapid penetration through cornea and anterior chamber\nCauses liquefaction necrosis from hydroxyl ions combining with fatty acids\nElevated\nIOP\nmay be seen in alkali injury\n[3]\nAcute injury liquefaction necrosis and ischemia which can be graded on degree of limbal and corneal involvement\nEarly sequelae corneal edema and elevated IOP\nLater injury after one week - corneal breakdown,\nulceration\n, perforation because of collagenase activity exceeds synthesis",
+      "subsections": {
+        "Acid_Exposure": {
+          "text": "Injury related to length of exposure and concentration of chemical\nCauses coagulation necrosis and protein precipitation thus limits depth of penetration\nDelayed complications corneal and conjunctival scarring, vascularization,\nglaucoma\n,\nuveitis",
+          "tables": []
+        },
+        "Other_Chemicals": {
+          "text": "Most exposures produce only simple irritation",
+          "tables": []
+        },
+        "Roper-Hall_classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Grade": "I",
+                "Cornea Appearance": "Clear",
+                "Limbal Ischemia": "None",
+                "Prognosis": "Good"
+              },
+              {
+                "Grade": "II",
+                "Cornea Appearance": "Hazy/iris details visible",
+                "Limbal Ischemia": "<1/3",
+                "Prognosis": "Good"
+              },
+              {
+                "Grade": "III",
+                "Cornea Appearance": "Opaque/iris details obscured",
+                "Limbal Ischemia": "1/3-1/2",
+                "Prognosis": "Guarded"
+              },
+              {
+                "Grade": "IV",
+                "Cornea Appearance": "Opaque/iris details obscured",
+                "Limbal Ischemia": ">1/2",
+                "Prognosis": "Poor"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "ulceration",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        }
+      ]
+    },
+    "Acid_Exposure": {
+      "text": "Injury related to length of exposure and concentration of chemical\nCauses coagulation necrosis and protein precipitation thus limits depth of penetration\nDelayed complications corneal and conjunctival scarring, vascularization,\nglaucoma\n,\nuveitis",
+      "subsections": {
+        "Other_Chemicals": {
+          "text": "Most exposures produce only simple irritation",
+          "tables": []
+        },
+        "Roper-Hall_classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Grade": "I",
+                "Cornea Appearance": "Clear",
+                "Limbal Ischemia": "None",
+                "Prognosis": "Good"
+              },
+              {
+                "Grade": "II",
+                "Cornea Appearance": "Hazy/iris details visible",
+                "Limbal Ischemia": "<1/3",
+                "Prognosis": "Good"
+              },
+              {
+                "Grade": "III",
+                "Cornea Appearance": "Opaque/iris details obscured",
+                "Limbal Ischemia": "1/3-1/2",
+                "Prognosis": "Guarded"
+              },
+              {
+                "Grade": "IV",
+                "Cornea Appearance": "Opaque/iris details obscured",
+                "Limbal Ischemia": ">1/2",
+                "Prognosis": "Poor"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        }
+      ]
+    },
+    "Other_Chemicals": {
+      "text": "Most exposures produce only simple irritation",
+      "subsections": {
+        "Roper-Hall_classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Grade": "I",
+                "Cornea Appearance": "Clear",
+                "Limbal Ischemia": "None",
+                "Prognosis": "Good"
+              },
+              {
+                "Grade": "II",
+                "Cornea Appearance": "Hazy/iris details visible",
+                "Limbal Ischemia": "<1/3",
+                "Prognosis": "Good"
+              },
+              {
+                "Grade": "III",
+                "Cornea Appearance": "Opaque/iris details obscured",
+                "Limbal Ischemia": "1/3-1/2",
+                "Prognosis": "Guarded"
+              },
+              {
+                "Grade": "IV",
+                "Cornea Appearance": "Opaque/iris details obscured",
+                "Limbal Ischemia": ">1/2",
+                "Prognosis": "Poor"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Roper-Hall_classification": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Grade": "I",
+            "Cornea Appearance": "Clear",
+            "Limbal Ischemia": "None",
+            "Prognosis": "Good"
+          },
+          {
+            "Grade": "II",
+            "Cornea Appearance": "Hazy/iris details visible",
+            "Limbal Ischemia": "<1/3",
+            "Prognosis": "Good"
+          },
+          {
+            "Grade": "III",
+            "Cornea Appearance": "Opaque/iris details obscured",
+            "Limbal Ischemia": "1/3-1/2",
+            "Prognosis": "Guarded"
+          },
+          {
+            "Grade": "IV",
+            "Cornea Appearance": "Opaque/iris details obscured",
+            "Limbal Ischemia": ">1/2",
+            "Prognosis": "Poor"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Caustic_Burns": {
+          "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+          "tables": []
+        },
+        "Conjunctivitis_Types": {
+          "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+          "tables": []
+        },
+        "Unilateral_red_eye": {
+          "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Caustic_Burns": {
+      "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+      "subsections": {
+        "Conjunctivitis_Types": {
+          "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+          "tables": []
+        },
+        "Unilateral_red_eye": {
+          "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Conjunctivitis_Types": {
+      "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+      "subsections": {
+        "Unilateral_red_eye": {
+          "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Unilateral_red_eye": {
+      "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Generally a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Caustic_Ocular_Exposure_Management": {
+          "text": "Eye irrigation\nImmediate irrigation is the most important treatment for caustic ocular injury, and should be started before comprehensive evaluation\nIrrigate affected eye(s) with copious amounts of fluid (no consensus on volume or length of time)\n[5]\nNS, LR, or BSS (Buffered Saline Solution) preferred in the hospital setting\n[6]\n, but tap water is acceptable, especially in pre-hospital setting.\nGoal is to remove caustic agent and restore normal ocular pH (7.0-7.2)\nDo NOT attempt to neutralize pH by adding base to an acidic burn or acid to an alkali burn\nUse of morgan lens or eyelid speculum will assist with getting more fluid in contact with cornea\nRemove particulate matter\nEvert both lids, remove any visible particulate matter with cotton-tipped applicator\nAnesthesia\nTopical anesthetic (e.g.\ntetracaine\n) to help with discomfort.\nOther options include cycloplegics (e.g.\natropine\n,\ncyclopentolate\n), IV/IM/PO\nanalgesics\nAntibiotics\nErythromycin\nophthalmic ointment QID for minor burns\nTopical\nfluoroquinolone\nfor more severe burns\nControl inflammation\nTopical steroids\n-\nprednisolone\n1% ophthalmic QID for 1 week\n[7]\nLimit topical steroid use to 10 days to avoid corneal breakdown.\n[8]\nOphthalmology consultation for all but minor burns (Severe exposures may require debridement or other surgical intervention)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "analgesics",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Caustic_Ocular_Exposure_Management": {
+      "text": "Eye irrigation\nImmediate irrigation is the most important treatment for caustic ocular injury, and should be started before comprehensive evaluation\nIrrigate affected eye(s) with copious amounts of fluid (no consensus on volume or length of time)\n[5]\nNS, LR, or BSS (Buffered Saline Solution) preferred in the hospital setting\n[6]\n, but tap water is acceptable, especially in pre-hospital setting.\nGoal is to remove caustic agent and restore normal ocular pH (7.0-7.2)\nDo NOT attempt to neutralize pH by adding base to an acidic burn or acid to an alkali burn\nUse of morgan lens or eyelid speculum will assist with getting more fluid in contact with cornea\nRemove particulate matter\nEvert both lids, remove any visible particulate matter with cotton-tipped applicator\nAnesthesia\nTopical anesthetic (e.g.\ntetracaine\n) to help with discomfort.\nOther options include cycloplegics (e.g.\natropine\n,\ncyclopentolate\n), IV/IM/PO\nanalgesics\nAntibiotics\nErythromycin\nophthalmic ointment QID for minor burns\nTopical\nfluoroquinolone\nfor more severe burns\nControl inflammation\nTopical steroids\n-\nprednisolone\n1% ophthalmic QID for 1 week\n[7]\nLimit topical steroid use to 10 days to avoid corneal breakdown.\n[8]\nOphthalmology consultation for all but minor burns (Severe exposures may require debridement or other surgical intervention)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "analgesics",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit": {
+          "text": "Pediatric patient\nCorneal haziness, opacity, or limbal ischemia (paleness at limbus)",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "With 24hr ophthalmology follow-up\nIf only has corneal epithelial injury\nEncourage use of artificial tears and other lubricating eyedrops",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admit": {
+      "text": "Pediatric patient\nCorneal haziness, opacity, or limbal ischemia (paleness at limbus)",
+      "subsections": {
+        "Discharge": {
+          "text": "With 24hr ophthalmology follow-up\nIf only has corneal epithelial injury\nEncourage use of artificial tears and other lubricating eyedrops",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "With 24hr ophthalmology follow-up\nIf only has corneal epithelial injury\nEncourage use of artificial tears and other lubricating eyedrops",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Eye Algorithms (Main)\nCaustic burns\nKeratoconjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Eye Algorithms (Main)",
+          "url": "https://wikem.org/wiki/Eye_Algorithms_(Main)"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        }
+      ]
+    }
+  }
+}

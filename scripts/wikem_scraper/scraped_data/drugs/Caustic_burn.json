@@ -1,0 +1,436 @@
+{
+  "drug_name": "Caustic_burn",
+  "url": "https://wikem.org/wiki/Caustic_burn",
+  "scraped_at": "2026-01-10T07:50:01.541651",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Caustics": {
+          "text": "Substances that cause damage on contact with body surfaces\nDegree of injury determined by pH, concentration, volume, duration of contact\nAcidic agents cause coagulative necrosis\nAlkaline agents cause liquefactive necrosis (considered more damaging to most tissues)\nCorrosive agents have reducing, oxidising, denaturing or defatting potential",
+          "tables": []
+        },
+        "Alkalis": {
+          "text": "Accepts protons → free hydroxide ion, which easily penetrates tissue → cellular destruction\nLiquefactive necrosis and protein disruption may allow for deep penetration into surrounding tissues\nExamples\nSodium hydroxide (NaOH), potassium hydroxide (KOH)\nLye present in drain cleaners, hair relaxers, grease remover\nBleach (sodium hypochlorite) and Ammonia (NH3)\nCleaning products such as oven cleaners, swimming pool chlorinator\nHousehold bleach ingestion (4-6% sodium hypochlorite) rarely causes significant esophageal injury\n[1]\n[2]",
+          "tables": []
+        },
+        "Acids": {
+          "text": "Proton donor → free hydrogen ion → cell death via denatured protein → coagulation necrosis and eschar formation, which limits deeper involvement\nHowever, due to pylorospasm and pooling of acid, high-grade gastric injuries are common\nMortality rate is higher compared to strong alkali ingestions\nCan be systemically absorbed and →\nmetabolic acidosis\n, hemolysis, AKI\nExamples\nHydrochloric acid (HCl),\nhydrofluoric acid\n(HF), Sulfuric acid (H2SO4), Phosphoric acid, Oxalic Acid, Acetic acid\nFound in: auto batteries, drain openers, toilet bowl, metal cleaners, swimming pool cleaners, rust remover, nail primer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        }
+      ]
+    },
+    "Caustics": {
+      "text": "Substances that cause damage on contact with body surfaces\nDegree of injury determined by pH, concentration, volume, duration of contact\nAcidic agents cause coagulative necrosis\nAlkaline agents cause liquefactive necrosis (considered more damaging to most tissues)\nCorrosive agents have reducing, oxidising, denaturing or defatting potential",
+      "subsections": {
+        "Alkalis": {
+          "text": "Accepts protons → free hydroxide ion, which easily penetrates tissue → cellular destruction\nLiquefactive necrosis and protein disruption may allow for deep penetration into surrounding tissues\nExamples\nSodium hydroxide (NaOH), potassium hydroxide (KOH)\nLye present in drain cleaners, hair relaxers, grease remover\nBleach (sodium hypochlorite) and Ammonia (NH3)\nCleaning products such as oven cleaners, swimming pool chlorinator\nHousehold bleach ingestion (4-6% sodium hypochlorite) rarely causes significant esophageal injury\n[1]\n[2]",
+          "tables": []
+        },
+        "Acids": {
+          "text": "Proton donor → free hydrogen ion → cell death via denatured protein → coagulation necrosis and eschar formation, which limits deeper involvement\nHowever, due to pylorospasm and pooling of acid, high-grade gastric injuries are common\nMortality rate is higher compared to strong alkali ingestions\nCan be systemically absorbed and →\nmetabolic acidosis\n, hemolysis, AKI\nExamples\nHydrochloric acid (HCl),\nhydrofluoric acid\n(HF), Sulfuric acid (H2SO4), Phosphoric acid, Oxalic Acid, Acetic acid\nFound in: auto batteries, drain openers, toilet bowl, metal cleaners, swimming pool cleaners, rust remover, nail primer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Signs and symptoms are inadequate to predict presence or severity of injury after caustic ingestion\n[3]\nExam eyes and skin (splash and dribble injuries may easily be missed)\nGI tract injury\nDysphagia\n, odynophagia,\nepigastric pain\n,\nvomiting\nLaryngotracheal injury\nDysphonia\n,\nstridor\n,\nrespiratory distress\nOccurs via aspiration of caustic or vomitus or inhalation of acidic fumes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Caustic_Burns": {
+          "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+          "tables": []
+        },
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Caustic_Burns": {
+      "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+      "subsections": {
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Burns": {
+      "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {
+        "Work-up": {
+          "text": "Only necessary in patients with significant injury or volume of ingestion\nConsider:\nCBC\nMetabolic panel\nLactate\nCalcium level (if\nHydrofluoric acid\nexposure)\nECG\nMay show QT-prolongation if hypocalcemic secondary to Hydrofluoric acid\nAPAP/ASA levels if concerned about coingestion (suicidal patients)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "Only necessary in patients with significant injury or volume of ingestion\nConsider:\nCBC\nMetabolic panel\nLactate\nCalcium level (if\nHydrofluoric acid\nexposure)\nECG\nMay show QT-prolongation if hypocalcemic secondary to Hydrofluoric acid\nAPAP/ASA levels if concerned about coingestion (suicidal patients)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "First prevent personal exposure to the caustic agent by removing all clothing and decontaminating the patient\nBrush any dry chemicals off the patient\nIrrigate all wounds and areas of exposure with copious amounts of water\nException: dry lime, phenol, metals such as potassium and sodium, causes harmful exothermic reaction",
+      "subsections": {
+        "Acidic_injuries_(except_Hydrofluoric_acid)": {
+          "text": "May also have\nnon anion gap acidosis\n(e.g. HCl)\nRespond well to copious saline or water irrigation",
+          "tables": []
+        },
+        "Alkali_injuries": {
+          "text": "May appear superficial but often are deeper with ongoing burn\nTreat with copious irrigation and local wound debridement to remove residual compound",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "non anion gap acidosis",
+          "url": "https://wikem.org/wiki/Non_anion_gap_acidosis"
+        }
+      ]
+    },
+    "Alkali_injuries": {
+      "text": "May appear superficial but often are deeper with ongoing burn\nTreat with copious irrigation and local wound debridement to remove residual compound",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit the following:\nInjuries that cross flexor or extensor surfaces\nFacial injuries\nPerineum injuries\nPartial-thickness injuries >10-15% of\nBSA\nAll full-thickness burns",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Burns\nCaustic keratoconjunctivitis\nCaustic ingestion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        }
+      ]
+    }
+  }
+}

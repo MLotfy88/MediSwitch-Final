@@ -1,0 +1,874 @@
+{
+  "drug_name": "Cefuroxime",
+  "url": "https://wikem.org/wiki/Cefuroxime",
+  "scraped_at": "2026-01-10T07:50:02.209467",
+  "sections": {
+    "General": {
+      "text": "Type: 2nd generation\ncephalosporin\nDosage Forms: tablet, powder for injection\nDosage Strength: tablet: 250mg, 500mg; powder for injection: 750mg, 1.5g, 7.5g, 75g, 225g\nRoutes of Administration: PO, IV, IM\nCommon Trade Names: Ceftin, Zinacef, Kefurox",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Mild-Moderate_Bacterial_infections": {
+          "text": "250-500mg PO BID x5-10 days",
+          "tables": []
+        },
+        "Steptococcal_Pharyngitis/Tonsillitis": {
+          "text": "250mg PO BID x10 days",
+          "tables": []
+        },
+        "Acute_Maxillary_Sinusitis": {
+          "text": "250mg PO BID x10 days; Info: not recommended per IDSA guidelines",
+          "tables": []
+        },
+        "Uncomplicated_Gonococcal_Infections": {
+          "text": "1000mg PO x1; Info: for infections of cervix, urethra, rectum; dual treatment for chlamydial co-infection recommended",
+          "tables": []
+        },
+        "Early_Lyme_Disease": {
+          "text": "500mg PO BID x20 days",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mild-Moderate_Bacterial_infections": {
+      "text": "250-500mg PO BID x5-10 days",
+      "subsections": {
+        "Steptococcal_Pharyngitis/Tonsillitis": {
+          "text": "250mg PO BID x10 days",
+          "tables": []
+        },
+        "Acute_Maxillary_Sinusitis": {
+          "text": "250mg PO BID x10 days; Info: not recommended per IDSA guidelines",
+          "tables": []
+        },
+        "Uncomplicated_Gonococcal_Infections": {
+          "text": "1000mg PO x1; Info: for infections of cervix, urethra, rectum; dual treatment for chlamydial co-infection recommended",
+          "tables": []
+        },
+        "Early_Lyme_Disease": {
+          "text": "500mg PO BID x20 days",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Steptococcal_Pharyngitis/Tonsillitis": {
+      "text": "250mg PO BID x10 days",
+      "subsections": {
+        "Acute_Maxillary_Sinusitis": {
+          "text": "250mg PO BID x10 days; Info: not recommended per IDSA guidelines",
+          "tables": []
+        },
+        "Uncomplicated_Gonococcal_Infections": {
+          "text": "1000mg PO x1; Info: for infections of cervix, urethra, rectum; dual treatment for chlamydial co-infection recommended",
+          "tables": []
+        },
+        "Early_Lyme_Disease": {
+          "text": "500mg PO BID x20 days",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acute_Maxillary_Sinusitis": {
+      "text": "250mg PO BID x10 days; Info: not recommended per IDSA guidelines",
+      "subsections": {
+        "Uncomplicated_Gonococcal_Infections": {
+          "text": "1000mg PO x1; Info: for infections of cervix, urethra, rectum; dual treatment for chlamydial co-infection recommended",
+          "tables": []
+        },
+        "Early_Lyme_Disease": {
+          "text": "500mg PO BID x20 days",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Uncomplicated_Gonococcal_Infections": {
+      "text": "1000mg PO x1; Info: for infections of cervix, urethra, rectum; dual treatment for chlamydial co-infection recommended",
+      "subsections": {
+        "Early_Lyme_Disease": {
+          "text": "500mg PO BID x20 days",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Early_Lyme_Disease": {
+      "text": "500mg PO BID x20 days",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Mild-Moderate_Bacterial_Infections_2": {
+          "text": "3 mo-12 yo: Dose: 30mg/kg/day susp PO divided q12h x10 days; Max: 1000mg/day; Alt: 250mg tab PO BID x10 days; Info: give susp with food\n>13 yo: Dose: 250-500mg tab PO BID x5-10 days; Info: dose, duration varies by infection type, severity",
+          "tables": []
+        },
+        "Acute_Otitis_Media": {
+          "text": "2 mo-5 yo Dose: 30mg/kg/day susp PO divided q12h x10 days; Max: 1000mg/day; Alt: 250mg tab PO BID x10 days; Info: give susp with food\n6-12 yo: Dose: 30mg/kg/day susp PO divided q12h x5-10 days; Max: 1000mg/day; Alt: 250mg tab PO BID x5-10 days; Info: give susp with food",
+          "tables": []
+        },
+        "Acute_Maxillary_Sinusitis_2": {
+          "text": "3 mo-12 yo: Dose: 30mg/kg/day susp PO divided q12h x10 days; Max: 1000mg/day; Alt: 250mg tab PO BID x10 days; Info: not recommended per IDSA guidelines; give susp with food\n>13 yo: Dose: 250mg tab PO BID x10 days; Info: not recommended per IDSA guidelines",
+          "tables": []
+        },
+        "Streptococcal_Pharyngitis/Tonsillitis": {
+          "text": "3 mo-12 yo: Dose: 20mg/kg/day susp PO divided q12h x10 days; Max: 500mg/day; Info: give with food\n>13 yo: Dose: 250mg tab PO BID x10 days",
+          "tables": []
+        },
+        "Uncomplicated_Gonococcal_Infections_2": {
+          "text": "adolescents: Dose: 1000mg tab PO x1; Info: for infections of cervix, urethra, rectum; dual treatment for\nchlamydial\nco-infection recommended",
+          "tables": []
+        },
+        "Early_Lyme_Disease_2": {
+          "text": ">13 yo: Dose: 500mg tab PO BID x20 days",
+          "tables": []
+        },
+        "Renal_Dosing_2": {
+          "text": "3 mo-12 yo: CrCl <10: 15mg/kg PO susp q24h; HD: give dose after dialysis, no supplement; PD: no supplement\n>13 yo: renal impairment: no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing_2": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chlamydial",
+          "url": "https://wikem.org/wiki/Chlamydial"
+        }
+      ]
+    },
+    "Mild-Moderate_Bacterial_Infections_2": {
+      "text": "3 mo-12 yo: Dose: 30mg/kg/day susp PO divided q12h x10 days; Max: 1000mg/day; Alt: 250mg tab PO BID x10 days; Info: give susp with food\n>13 yo: Dose: 250-500mg tab PO BID x5-10 days; Info: dose, duration varies by infection type, severity",
+      "subsections": {
+        "Acute_Otitis_Media": {
+          "text": "2 mo-5 yo Dose: 30mg/kg/day susp PO divided q12h x10 days; Max: 1000mg/day; Alt: 250mg tab PO BID x10 days; Info: give susp with food\n6-12 yo: Dose: 30mg/kg/day susp PO divided q12h x5-10 days; Max: 1000mg/day; Alt: 250mg tab PO BID x5-10 days; Info: give susp with food",
+          "tables": []
+        },
+        "Acute_Maxillary_Sinusitis_2": {
+          "text": "3 mo-12 yo: Dose: 30mg/kg/day susp PO divided q12h x10 days; Max: 1000mg/day; Alt: 250mg tab PO BID x10 days; Info: not recommended per IDSA guidelines; give susp with food\n>13 yo: Dose: 250mg tab PO BID x10 days; Info: not recommended per IDSA guidelines",
+          "tables": []
+        },
+        "Streptococcal_Pharyngitis/Tonsillitis": {
+          "text": "3 mo-12 yo: Dose: 20mg/kg/day susp PO divided q12h x10 days; Max: 500mg/day; Info: give with food\n>13 yo: Dose: 250mg tab PO BID x10 days",
+          "tables": []
+        },
+        "Uncomplicated_Gonococcal_Infections_2": {
+          "text": "adolescents: Dose: 1000mg tab PO x1; Info: for infections of cervix, urethra, rectum; dual treatment for\nchlamydial\nco-infection recommended",
+          "tables": []
+        },
+        "Early_Lyme_Disease_2": {
+          "text": ">13 yo: Dose: 500mg tab PO BID x20 days",
+          "tables": []
+        },
+        "Renal_Dosing_2": {
+          "text": "3 mo-12 yo: CrCl <10: 15mg/kg PO susp q24h; HD: give dose after dialysis, no supplement; PD: no supplement\n>13 yo: renal impairment: no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing_2": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chlamydial",
+          "url": "https://wikem.org/wiki/Chlamydial"
+        }
+      ]
+    },
+    "Acute_Otitis_Media": {
+      "text": "2 mo-5 yo Dose: 30mg/kg/day susp PO divided q12h x10 days; Max: 1000mg/day; Alt: 250mg tab PO BID x10 days; Info: give susp with food\n6-12 yo: Dose: 30mg/kg/day susp PO divided q12h x5-10 days; Max: 1000mg/day; Alt: 250mg tab PO BID x5-10 days; Info: give susp with food",
+      "subsections": {
+        "Acute_Maxillary_Sinusitis_2": {
+          "text": "3 mo-12 yo: Dose: 30mg/kg/day susp PO divided q12h x10 days; Max: 1000mg/day; Alt: 250mg tab PO BID x10 days; Info: not recommended per IDSA guidelines; give susp with food\n>13 yo: Dose: 250mg tab PO BID x10 days; Info: not recommended per IDSA guidelines",
+          "tables": []
+        },
+        "Streptococcal_Pharyngitis/Tonsillitis": {
+          "text": "3 mo-12 yo: Dose: 20mg/kg/day susp PO divided q12h x10 days; Max: 500mg/day; Info: give with food\n>13 yo: Dose: 250mg tab PO BID x10 days",
+          "tables": []
+        },
+        "Uncomplicated_Gonococcal_Infections_2": {
+          "text": "adolescents: Dose: 1000mg tab PO x1; Info: for infections of cervix, urethra, rectum; dual treatment for\nchlamydial\nco-infection recommended",
+          "tables": []
+        },
+        "Early_Lyme_Disease_2": {
+          "text": ">13 yo: Dose: 500mg tab PO BID x20 days",
+          "tables": []
+        },
+        "Renal_Dosing_2": {
+          "text": "3 mo-12 yo: CrCl <10: 15mg/kg PO susp q24h; HD: give dose after dialysis, no supplement; PD: no supplement\n>13 yo: renal impairment: no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing_2": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chlamydial",
+          "url": "https://wikem.org/wiki/Chlamydial"
+        }
+      ]
+    },
+    "Acute_Maxillary_Sinusitis_2": {
+      "text": "3 mo-12 yo: Dose: 30mg/kg/day susp PO divided q12h x10 days; Max: 1000mg/day; Alt: 250mg tab PO BID x10 days; Info: not recommended per IDSA guidelines; give susp with food\n>13 yo: Dose: 250mg tab PO BID x10 days; Info: not recommended per IDSA guidelines",
+      "subsections": {
+        "Streptococcal_Pharyngitis/Tonsillitis": {
+          "text": "3 mo-12 yo: Dose: 20mg/kg/day susp PO divided q12h x10 days; Max: 500mg/day; Info: give with food\n>13 yo: Dose: 250mg tab PO BID x10 days",
+          "tables": []
+        },
+        "Uncomplicated_Gonococcal_Infections_2": {
+          "text": "adolescents: Dose: 1000mg tab PO x1; Info: for infections of cervix, urethra, rectum; dual treatment for\nchlamydial\nco-infection recommended",
+          "tables": []
+        },
+        "Early_Lyme_Disease_2": {
+          "text": ">13 yo: Dose: 500mg tab PO BID x20 days",
+          "tables": []
+        },
+        "Renal_Dosing_2": {
+          "text": "3 mo-12 yo: CrCl <10: 15mg/kg PO susp q24h; HD: give dose after dialysis, no supplement; PD: no supplement\n>13 yo: renal impairment: no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing_2": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chlamydial",
+          "url": "https://wikem.org/wiki/Chlamydial"
+        }
+      ]
+    },
+    "Streptococcal_Pharyngitis/Tonsillitis": {
+      "text": "3 mo-12 yo: Dose: 20mg/kg/day susp PO divided q12h x10 days; Max: 500mg/day; Info: give with food\n>13 yo: Dose: 250mg tab PO BID x10 days",
+      "subsections": {
+        "Uncomplicated_Gonococcal_Infections_2": {
+          "text": "adolescents: Dose: 1000mg tab PO x1; Info: for infections of cervix, urethra, rectum; dual treatment for\nchlamydial\nco-infection recommended",
+          "tables": []
+        },
+        "Early_Lyme_Disease_2": {
+          "text": ">13 yo: Dose: 500mg tab PO BID x20 days",
+          "tables": []
+        },
+        "Renal_Dosing_2": {
+          "text": "3 mo-12 yo: CrCl <10: 15mg/kg PO susp q24h; HD: give dose after dialysis, no supplement; PD: no supplement\n>13 yo: renal impairment: no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing_2": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chlamydial",
+          "url": "https://wikem.org/wiki/Chlamydial"
+        }
+      ]
+    },
+    "Uncomplicated_Gonococcal_Infections_2": {
+      "text": "adolescents: Dose: 1000mg tab PO x1; Info: for infections of cervix, urethra, rectum; dual treatment for\nchlamydial\nco-infection recommended",
+      "subsections": {
+        "Early_Lyme_Disease_2": {
+          "text": ">13 yo: Dose: 500mg tab PO BID x20 days",
+          "tables": []
+        },
+        "Renal_Dosing_2": {
+          "text": "3 mo-12 yo: CrCl <10: 15mg/kg PO susp q24h; HD: give dose after dialysis, no supplement; PD: no supplement\n>13 yo: renal impairment: no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing_2": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chlamydial",
+          "url": "https://wikem.org/wiki/Chlamydial"
+        }
+      ]
+    },
+    "Early_Lyme_Disease_2": {
+      "text": ">13 yo: Dose: 500mg tab PO BID x20 days",
+      "subsections": {
+        "Renal_Dosing_2": {
+          "text": "3 mo-12 yo: CrCl <10: 15mg/kg PO susp q24h; HD: give dose after dialysis, no supplement; PD: no supplement\n>13 yo: renal impairment: no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing_2": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing_2": {
+      "text": "3 mo-12 yo: CrCl <10: 15mg/kg PO susp q24h; HD: give dose after dialysis, no supplement; PD: no supplement\n>13 yo: renal impairment: no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement",
+      "subsections": {
+        "Hepatic_Dosing_2": {
+          "text": "not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing_2": {
+      "text": "not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy: B\nLactation: Probably Safe\nRenal Dosing\nAdult: no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement\nPediatric: 3 mo-12 yo: CrCl <10: 15mg/kg susp q24h; HD: give dose after dialysis, no supplement; PD: no supplement; >13 yo: renal impairment: no adjustment; HD: give dose after dialysis, no supplement; PD: no supplement\nHepatic Dosing\nAdult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug (See\nCephalosporin Cross-reactivity\n)\nCaution if hypersensitive to\nPCN\nCaution if renal impairment\nCaution if hepatic impairment\nCaution if seizure disorder\nCaution if malnutrition\nCaution if recent antibiotic-associated colitis history",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalosporin Cross-reactivity",
+          "url": "https://wikem.org/wiki/Cephalosporin_Cross-reactivity"
+        },
+        {
+          "text": "PCN",
+          "url": "https://wikem.org/wiki/PCN"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nAngioedema\nToxic epidermal necrolysis\nStevens-Johnson syndrome\nInterstitial nephritis\nPancytopenia\nThrombocytopenia\nAgranulocytosis\nLeukopenia\nNeutropenia\nHemolytic Anemia\nSeizures\nClostridium difficile\nassociated diarrhea",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\nNausea/Vomiting\nJarisch-Herxheimer reaction\nVaginitis\nDiaper Rash\nALT, AST elevated\nRenal Impairment\nAnemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/TEN"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nAngioedema\nToxic epidermal necrolysis\nStevens-Johnson syndrome\nInterstitial nephritis\nPancytopenia\nThrombocytopenia\nAgranulocytosis\nLeukopenia\nNeutropenia\nHemolytic Anemia\nSeizures\nClostridium difficile\nassociated diarrhea",
+      "subsections": {
+        "Common": {
+          "text": "Diarrhea\nNausea/Vomiting\nJarisch-Herxheimer reaction\nVaginitis\nDiaper Rash\nALT, AST elevated\nRenal Impairment\nAnemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/TEN"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Diarrhea\nNausea/Vomiting\nJarisch-Herxheimer reaction\nVaginitis\nDiaper Rash\nALT, AST elevated\nRenal Impairment\nAnemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1.4 hours, 3.5 hours (CrCl 35),\nMetabolism: Minimal; CYP 450: unknown\nExcretion: Urinary primarily (Up to 100% unchanged)\nMechanism of Action: Bactericidal; inhibits cell wall mucopeptide synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "drug_name": "Ceftolozane/tazobactam",
+  "url": "https://wikem.org/wiki/Ceftolozane/tazobactam",
+  "scraped_at": "2026-01-10T07:50:06.076793",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntibiotic\n(cephalosporin/beta-lactamase inhibitor combination)\nDosage Forms: IV\nCommon Trade Names: Zerbaxa",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "1.5 grams (1gm ceftolozane/0.5gm tazobactam) IV q8H",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in children",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Infant risk cannot be ruled out\nRenal Dosing: 750mg IV q8hr for moderate renal impairment, 375mg IV q8hr for severe impairment\nHepatic Dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "C. difficile diarrhea\nRenal impairment\nHypersensitivity",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea, diarrhea\nHeadache\nFever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "C. difficile diarrhea\nRenal impairment\nHypersensitivity",
+      "subsections": {
+        "Common": {
+          "text": "Nausea, diarrhea\nHeadache\nFever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Nausea, diarrhea\nHeadache\nFever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Ceftolozane- ~3h, Tazobactam- ~1h\nMetabolism: N/A\nExcretion: Renal (100%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Ceftolozane: cephalosporin- binds to bacterial PCN-binding proteins, thus inhibiting bacterial cell wall synthesis\nTazobactam: irreversibly inhibits some penicillinases and cephalosporinases and binds to some chromosomal and plasmid-mediated bacterial beta-lactamases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

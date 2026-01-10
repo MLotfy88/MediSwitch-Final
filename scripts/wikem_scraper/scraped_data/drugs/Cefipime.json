@@ -1,0 +1,117 @@
+{
+  "drug_name": "Cefipime",
+  "url": "https://wikem.org/wiki/Cefipime",
+  "scraped_at": "2026-01-10T07:49:58.393757",
+  "sections": {
+    "General": {
+      "text": "Type: Fourth generation\ncephalosporin\nDosage Forms: infusion solution, powder for injection\nDosage Strengths: infusion solution: 1g/50mL, 2g/100mL; powder for injection: 1g, 2g\nRoutes of Administration: IV, IM\nCommon Trade Names: Maxipime",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporins"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "1-2 g IV q12h",
+      "subsections": {
+        "febrile_neutropenia": {
+          "text": "2g IV q8h",
+          "tables": []
+        },
+        "UTI,_mild-mod": {
+          "text": "0.5g - 1g q12h x 7-10days",
+          "tables": []
+        },
+        "UTI,_severe": {
+          "text": "2g IV q12h x 10days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "infection,_bacterial": {
+          "text": ">2 months\n50mg/kg IV/IM q12hr, max 2g/dose",
+          "tables": []
+        },
+        "febrile_neutropenia_2": {
+          "text": ">2 months\n50mg/kg IV/IM q8h; max 2g/dose",
+          "tables": []
+        },
+        "resp._infection,_cystic_fibrosis_patients": {
+          "text": "> 2 months\n50mg/kg IV/IM q8h; max 2g/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy: Category B (no evidence of risk in humans)\nLactation: very small amount excreted, adverse effects unlikely, infant should be monitored closely\nRenal Dosing\nAdult\nfebrile neutropenia\nGFR 30-60: 2g q12h\nGFR 11-29: 2g q24h\nGFR < 11: 2g x1, then 1g q24h\nHD: 1g q24, give after dialysis\nPD: 2g q24h\nall other infections\nGFR 30-60: q24h dosing\nGFR 11-29: give usual dose x1, then 0.5-1g q24\nGFR < 11: give usual dose x1, then 250-500mg q24h\nHD: 1g x1, then 500mg q24h, give after dialysis\nPD: usual dose q48h\nPediatric\nfebrile neutropenia, cystic fibrosis\nGFR 30-60: 50mg/kg q12h\nGFR 11-29: 50mg/kg q24h\nGFR < 11: 50mg/kg x1, then 25mg/kg q24\nHD: 25mg/kg q24, give after dialysis\nPD: 50mg/kg q48\nall other infections\nGFR 30-60: 50mg/kg q24\nGFR 11-29: 50mg/kg x1, then 25-50mg/kg q24\nGFR < 11: 50mg/kg x1, then 12.5-25mg/kg q24h\nHD: 50mg/kg x1, then 25mg/kg q24h, give after dialysis\nPD: 50mg/kg q48h\nHepatic Dosing\nAdult: no adjustment\nPediatric: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "anaphylaxis\nencephalopathy\nseizures\nnon-convulsive status epilepticus\nleukopenia\nthrombocytopenia\nagranulocytosis\nanemia, hemolytic\naplastic anemia\nhemorrhage\nStevens Johnson Syndrome\ntoxic epidermal necrolysis\nerythema multiforme\nC.difficile associated diarrhea",
+          "tables": []
+        },
+        "Common": {
+          "text": "rash\ninfection site reaction\ndiarrhea\nhypophosphatemia\nALT, AST elevation\nnausea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "anaphylaxis\nencephalopathy\nseizures\nnon-convulsive status epilepticus\nleukopenia\nthrombocytopenia\nagranulocytosis\nanemia, hemolytic\naplastic anemia\nhemorrhage\nStevens Johnson Syndrome\ntoxic epidermal necrolysis\nerythema multiforme\nC.difficile associated diarrhea",
+      "subsections": {
+        "Common": {
+          "text": "rash\ninfection site reaction\ndiarrhea\nhypophosphatemia\nALT, AST elevation\nnausea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "rash\ninfection site reaction\ndiarrhea\nhypophosphatemia\nALT, AST elevation\nnausea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\n2h, 13.5h (HD), 19h(CAPD)\nMetabolism:\nminimal, site unknown\nExcretion:\nurine primarily (85% unchanged)\nMechanism of Action:\nbacteriacidal, inhibits cell wall mucopeptide synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

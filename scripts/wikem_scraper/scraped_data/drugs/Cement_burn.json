@@ -1,0 +1,158 @@
+{
+  "drug_name": "Cement_burn",
+  "url": "https://wikem.org/wiki/Cement_burn",
+  "scraped_at": "2026-01-10T07:50:09.140552",
+  "sections": {
+    "Background": {
+      "text": "Widely used in construction, under recognized as a caustic agent able to cause severe skin injury\nCalcium hydroxide very strong corrosive alkali\npH of 10-12 that can increase to pH 14 during hydrolysis/setting process",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Most often on lower legs/knees given nature of work\nKneeling down in cement, walking in cement without protection, spilling over top of work boots\nSymptom onset several hours after exposure - may not start to feel until 3-4 hours after initial exposure\nCan have partial to full thickness burn",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Lye Burn",
+      "subsections": {
+        "Caustic_Burns": {
+          "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        }
+      ]
+    },
+    "Caustic_Burns": {
+      "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Causes a liquefactive necrosis via protein denaturation (not a thermal burn)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Copious water irrigation for at least 30 mins\nMay cause circumferential burns\nCounsel about skin protection in future if occupational",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "As can look benign in first few hours, admission, may need burn center if full thickness, circumferential, involving feet",
+      "subsections": {
+        "Burn_Center_Transfer_Criteria": {
+          "text": "Partial thickness >20% BSA (10-50 years old)\nPartial thickness >10% BSA (<10 or > 50 yrs old)\nFull thickness >5% BSA (any age)\nBurns involving face, eyes, ears, genitalia, joints, hands, feet\nBurns with\ninhalation injury\nHigh voltage electrical burn\nChemical burns\nBurns complicated by\nfracture\nor other trauma (in which burn is main cause of morbidity)\nBurns in high-risk patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        }
+      ]
+    },
+    "Burn_Center_Transfer_Criteria": {
+      "text": "Partial thickness >20% BSA (10-50 years old)\nPartial thickness >10% BSA (<10 or > 50 yrs old)\nFull thickness >5% BSA (any age)\nBurns involving face, eyes, ears, genitalia, joints, hands, feet\nBurns with\ninhalation injury\nHigh voltage electrical burn\nChemical burns\nBurns complicated by\nfracture\nor other trauma (in which burn is main cause of morbidity)\nBurns in high-risk patients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Burns",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    },
+    "References": {
+      "text": "Spoo J, Elsner P. Cement burns: a review 1960-2000. Contact Dermatitis 2001; 45:68.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

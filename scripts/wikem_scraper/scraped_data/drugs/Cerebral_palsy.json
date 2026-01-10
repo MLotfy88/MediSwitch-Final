@@ -1,0 +1,230 @@
+{
+  "drug_name": "Cerebral_palsy",
+  "url": "https://wikem.org/wiki/Cerebral_palsy",
+  "scraped_at": "2026-01-10T07:50:10.569689",
+  "sections": {
+    "Background": {
+      "text": "Leading cause of childhood disability effecting function and development.\nDefined as a group of disorders involving motor or postural abnormalities that are noted during early development\n[1]\nInjury occurs during fetal or neonatal period up to 3 yrs. Official diagnosis may not be made until 3 years of age\n[2]\nAssociated with\nBirth:\nhypoxia\n,\nplacental abruption\n, prolonged labor,\nuterine rupture\nChild:\njaundice\n/kernicterus, low-birth weight, prematurity\nMother: infection (prenatal), infertility treatment, multiple births,\nthyroid disorder\n,\nseizure\ndisorder",
+      "subsections": {
+        "Classification": {
+          "text": "Spastic cerebral palsy is the most common type, ~80% of cases\nSpastic diplegia (30-40%)\nBilateral lower extremities effected more than upper extremities or sole involvement of lower extremities.\nSpastic hemiplegia (20-30%)\nOne side of the body effected, including an upper and lower extremity\nUpper extremity spasticity effected more than lower extremity\nDouble hemiplegia: when both arms are more involved than the legs\nSpastic quadriplegia (10-15%)\nCerebral palsy affecting all 4 extremities and the trunk (full body)\nDyskinetic cerebral palsy\nAthetoid, choreoathetoid, and dystonic\nExtrapyramidal signs characterized by abnormal movements; hypertonicity\nMixed cerebral palsy\nMixture of spastic and dyskinetic components without predominant area\nHypotonic cerebral palsy\nRare: Truncal and extremity hypotonia with hyperreflexia and persistent primitive reflexes\nMonoplegia\nRare: One limb involved, either an arm or a leg\nMust rule out other causes.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "thyroid disorder",
+          "url": "https://wikem.org/wiki/Thyroid_disorder"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Classification": {
+      "text": "Spastic cerebral palsy is the most common type, ~80% of cases\nSpastic diplegia (30-40%)\nBilateral lower extremities effected more than upper extremities or sole involvement of lower extremities.\nSpastic hemiplegia (20-30%)\nOne side of the body effected, including an upper and lower extremity\nUpper extremity spasticity effected more than lower extremity\nDouble hemiplegia: when both arms are more involved than the legs\nSpastic quadriplegia (10-15%)\nCerebral palsy affecting all 4 extremities and the trunk (full body)\nDyskinetic cerebral palsy\nAthetoid, choreoathetoid, and dystonic\nExtrapyramidal signs characterized by abnormal movements; hypertonicity\nMixed cerebral palsy\nMixture of spastic and dyskinetic components without predominant area\nHypotonic cerebral palsy\nRare: Truncal and extremity hypotonia with hyperreflexia and persistent primitive reflexes\nMonoplegia\nRare: One limb involved, either an arm or a leg\nMust rule out other causes.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abnormal muscle tone (most common)\nHypertonia > hypotonia\nIntellectual disability (30-50%)\n[4]\nSpeech and language impairment\nOphthalmologic impairment\nHearing impairment\nOromotor dysfunction\nEpilepsy\nDisease classified according to resting tone and limb involvement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hearing impairment",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Weakness": {
+          "text": "Neuromuscular weakness\nUMN:\nCVA (Main)\nHemorrhagic stroke\nSpinal cord disease:\nInfection (\nEpidural Abscess (Spinal)\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nTick paralysis\nNMJ disease:\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nNon-neuromuscular weakness\nCan't miss diagnoses:\nsevere infection/\nSepsis (Main)\nHypoglycemia\nPeriodic paralysis (electrolyte disturbance, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere dehydration\nHypothyroidism\nMalignancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA (Main)",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        }
+      ]
+    },
+    "Weakness": {
+      "text": "Neuromuscular weakness\nUMN:\nCVA (Main)\nHemorrhagic stroke\nSpinal cord disease:\nInfection (\nEpidural Abscess (Spinal)\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nTick paralysis\nNMJ disease:\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nNon-neuromuscular weakness\nCan't miss diagnoses:\nsevere infection/\nSepsis (Main)\nHypoglycemia\nPeriodic paralysis (electrolyte disturbance, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere dehydration\nHypothyroidism\nMalignancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA (Main)",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Rule out\nBaclofen withdrawal\nin patient being treated for spasticity with Baclofen pump.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Baclofen withdrawal",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        }
+      ]
+    }
+  }
+}

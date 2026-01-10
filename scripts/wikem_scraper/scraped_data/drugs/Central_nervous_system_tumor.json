@@ -1,0 +1,199 @@
+{
+  "drug_name": "Central_nervous_system_tumor",
+  "url": "https://wikem.org/wiki/Central_nervous_system_tumor",
+  "scraped_at": "2026-01-10T07:50:08.625560",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nCentral nervous system tumor (peds)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Metastatic tumors more common than primary CNS in adults\nCNS tumors are second most common pediatric cancer, leading cause of cancer-related death in children\nMost primary tumors in children are infratentorial, whereas most infratentorial masses in adults are metastases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Depend on location and size of tumor\nFocal neuro deficits\nCranial nerve palsies\nBehavioral changes,\npsychosis\nFocal\nweakness\nFocal\nsensory deficits\nAbnormal\nreflexes\nEndocrinopathies (craniopharyngiomas and other suprasellar tumors)\nBowel/bladder dysfunction\nFeatures of\nelevated ICP\n(from\ncerebral edema\n,\ntumor bleed\n, or mass effect\nHeadache\n(from increased pressure on heavily innervated meninges)\nRed flags: worse in the morning, worse with valsalva, wakes from sleep, daily\nNausea/vomiting\nAlso typically worse in the morning\nPapilledema\n, dilated optic nerve\nCushing's triad:\nBradycardia\n,\nhypertension\n, irregular respirations\nBulging fontanelle\nin infants\nSeizure\nAltered mental status\n, irritability, coma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Focal neuro deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        },
+        {
+          "text": "Cranial nerve palsies",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "sensory deficits",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "reflexes",
+          "url": "https://wikem.org/wiki/Reflexes"
+        },
+        {
+          "text": "elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "cerebral edema",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_brain_cancer"
+        },
+        {
+          "text": "tumor bleed",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Bulging fontanelle",
+          "url": "https://wikem.org/wiki/Bulging_fontanelle"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CT head\nMRI\nrequired for small tumors or areas not well visualized on CT (e.g. posterior fossa)\nEvaluate for other causes of symptoms (i.e.\nstroke\n, metabolic derangement,\nICH\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See\nelevated ICP\nCorticosteroids (reduce tumor capillary permeability, inflammatory cytotoxicity)\nDexamethasone\n10-20mg IV, followed by 4mg IV q6h\nElevate head of bed to 30 degrees, provide adequate sedation in intubated patients\nMaintain cerebral perfusion (euvolemia,\nvasopressors\nif necessary)\nConsider osmotherapy (e.g.\nhypertonic saline\n,\nmannitol\n)\nTreat\nseizure\nwith\nbenzodiazepines\n+/-\nAEDs\n, prophylactic AEDs are not recommended\nConsult neurosurgery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Cerebral edema in brain cancer\nElevated ICP\nBrain herniation syndromes\nOncologic emergencies\nSeizure\n,\nSeizure (peds)\nHeadache\n,\nHeadache (peds)\nCNS tumors (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cerebral edema in brain cancer",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_brain_cancer"
+        },
+        {
+          "text": "Elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "Brain herniation syndromes",
+          "url": "https://wikem.org/wiki/Brain_herniation_syndromes"
+        },
+        {
+          "text": "Oncologic emergencies",
+          "url": "https://wikem.org/wiki/Oncologic_emergencies"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Seizure (peds)",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Headache (peds)",
+          "url": "https://wikem.org/wiki/Headache_(peds)"
+        },
+        {
+          "text": "CNS tumors (peds)",
+          "url": "https://wikem.org/wiki/CNS_tumors_(peds)"
+        }
+      ]
+    }
+  }
+}

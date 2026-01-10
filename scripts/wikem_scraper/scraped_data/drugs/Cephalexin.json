@@ -1,0 +1,683 @@
+{
+  "drug_name": "Cephalexin",
+  "url": "https://wikem.org/wiki/Cephalexin",
+  "scraped_at": "2026-01-10T07:50:08.157416",
+  "sections": {
+    "General": {
+      "text": "Type: 1st generation\ncephalosporin\nDosage forms\nTabs: 250mg, 500mg, 750mg\nLiquid: 125mg/5mL; 250mg/5mL\nCommon Trade Names: Keflex, Keftab, Biocef",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "250-500mg PO q6h\nMax: 4g/day",
+          "tables": []
+        },
+        "Strep_Pharyngitis": {
+          "text": "500mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Uncomplicated_UTI": {
+          "text": "500mg PO q12h x 7-14 days",
+          "tables": []
+        },
+        "Cellulitis_and_Other_Skin_Infections": {
+          "text": "60-120 kg: 500 mg Q6H 1 gram Q8H.\n>120 kg: 1 g Q6H.\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_2": {
+      "text": "250-500mg PO q6h\nMax: 4g/day",
+      "subsections": {
+        "Strep_Pharyngitis": {
+          "text": "500mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Uncomplicated_UTI": {
+          "text": "500mg PO q12h x 7-14 days",
+          "tables": []
+        },
+        "Cellulitis_and_Other_Skin_Infections": {
+          "text": "60-120 kg: 500 mg Q6H 1 gram Q8H.\n>120 kg: 1 g Q6H.\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Strep_Pharyngitis": {
+      "text": "500mg PO q12h x 10 days",
+      "subsections": {
+        "Uncomplicated_UTI": {
+          "text": "500mg PO q12h x 7-14 days",
+          "tables": []
+        },
+        "Cellulitis_and_Other_Skin_Infections": {
+          "text": "60-120 kg: 500 mg Q6H 1 gram Q8H.\n>120 kg: 1 g Q6H.\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Uncomplicated_UTI": {
+      "text": "500mg PO q12h x 7-14 days",
+      "subsections": {
+        "Cellulitis_and_Other_Skin_Infections": {
+          "text": "60-120 kg: 500 mg Q6H 1 gram Q8H.\n>120 kg: 1 g Q6H.\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cellulitis_and_Other_Skin_Infections": {
+      "text": "60-120 kg: 500 mg Q6H 1 gram Q8H.\n>120 kg: 1 g Q6H.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_3": {
+          "text": "25-50mg/kg/day PO divided q6-12h\nMax: 500mg/dose",
+          "tables": []
+        },
+        "Otitis_Media": {
+          "text": "75-100mg/kg/day PO divided q12h x 10 days\nMax: 4,000mg/24h",
+          "tables": []
+        },
+        "Community_Acquired_Pneumonia_(>3_Months)": {
+          "text": "75-100mg/kg/day PO divided q12h x 10 days",
+          "tables": []
+        },
+        "Streptococcal_Pharyngitis_(>1_Year)": {
+          "text": "40mg/kg/day PO divided q12h x 10 days\nMax: 500mg/dose",
+          "tables": []
+        },
+        "Skin_Infections": {
+          "text": "25-50mg/kg/day PO divided q12h\nMax: 500mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_3": {
+      "text": "25-50mg/kg/day PO divided q6-12h\nMax: 500mg/dose",
+      "subsections": {
+        "Otitis_Media": {
+          "text": "75-100mg/kg/day PO divided q12h x 10 days\nMax: 4,000mg/24h",
+          "tables": []
+        },
+        "Community_Acquired_Pneumonia_(>3_Months)": {
+          "text": "75-100mg/kg/day PO divided q12h x 10 days",
+          "tables": []
+        },
+        "Streptococcal_Pharyngitis_(>1_Year)": {
+          "text": "40mg/kg/day PO divided q12h x 10 days\nMax: 500mg/dose",
+          "tables": []
+        },
+        "Skin_Infections": {
+          "text": "25-50mg/kg/day PO divided q12h\nMax: 500mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Otitis_Media": {
+      "text": "75-100mg/kg/day PO divided q12h x 10 days\nMax: 4,000mg/24h",
+      "subsections": {
+        "Community_Acquired_Pneumonia_(>3_Months)": {
+          "text": "75-100mg/kg/day PO divided q12h x 10 days",
+          "tables": []
+        },
+        "Streptococcal_Pharyngitis_(>1_Year)": {
+          "text": "40mg/kg/day PO divided q12h x 10 days\nMax: 500mg/dose",
+          "tables": []
+        },
+        "Skin_Infections": {
+          "text": "25-50mg/kg/day PO divided q12h\nMax: 500mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Skin_Infections": {
+      "text": "25-50mg/kg/day PO divided q12h\nMax: 500mg/dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk categories\n: Enters breast milk/L3\nRenal\nAdult\nCrCl 50-90: give q6-8h\nCrCl 10-50: give q8-12h\nCrCl <10: give q12-24h\nHemodialysis: give dose after dialysis, no supplement\nPeritoneal dialysis: no supplement\nPediatric\nCrCl 30-50: give q8h\nCrCl 10-29: give q12h\nCrCl <10: give q24h\nHemodialysis: give dose after dialysis, no supplement\nPeritoneal dialysis: no supplement\nHepatic (Adult & Pediatric)\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk categories",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSee also\nCephalosporin Cross-reactivity\nCaution advised with contraceptives",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalosporin Cross-reactivity",
+          "url": "https://wikem.org/wiki/Cephalosporin_Cross-reactivity"
+        }
+      ]
+    },
+    "Adverse_Drug_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nAngioedema\nErythema Multiforme\nStevens-Johnson Syndrome\nToxic Epidermal Necrolysis\nClostridium difficile\nNeutropenia\nThrombocytopenia\nHemolytic\nanemia\nHemorrhage\nHepatitis\nCholestatic\njaundice\nSeizures",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\nNausea/vomiting\nRash\nHeadache\nDizziness\nTransaminitis\nEosinophilia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Toxic Epidermal Necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_Epidermal_Necrolysis"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nAngioedema\nErythema Multiforme\nStevens-Johnson Syndrome\nToxic Epidermal Necrolysis\nClostridium difficile\nNeutropenia\nThrombocytopenia\nHemolytic\nanemia\nHemorrhage\nHepatitis\nCholestatic\njaundice\nSeizures",
+      "subsections": {
+        "Common": {
+          "text": "Diarrhea\nNausea/vomiting\nRash\nHeadache\nDizziness\nTransaminitis\nEosinophilia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Toxic Epidermal Necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_Epidermal_Necrolysis"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Diarrhea\nNausea/vomiting\nRash\nHeadache\nDizziness\nTransaminitis\nEosinophilia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1h (~20hr ESRD)\nMetabolism: Minimal\nExcretion: Primarily urine (>90% unchanged)\nMechanism of Action:\nBactericidal, inhibits cell wall",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)\nCephalosporin Cross-reactivity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        },
+        {
+          "text": "Cephalosporin Cross-reactivity",
+          "url": "https://wikem.org/wiki/Cephalosporin_Cross-reactivity"
+        }
+      ]
+    },
+    "References": {
+      "text": "Sanford 2010\nEpocrates\nLexicomp",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

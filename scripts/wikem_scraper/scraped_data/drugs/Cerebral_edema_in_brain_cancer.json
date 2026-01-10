@@ -1,0 +1,90 @@
+{
+  "drug_name": "Cerebral_edema_in_brain_cancer",
+  "url": "https://wikem.org/wiki/Cerebral_edema_in_brain_cancer",
+  "scraped_at": "2026-01-10T07:50:11.501261",
+  "sections": {
+    "Background": {
+      "text": "Classification of malignant tumor type does not typically change emergency care\nMajority of tumors encompassed by\n[1]\n:\nMetastasis\nGliomas\nMeningiomas\nPituitary adenomas\nAcoustic neuromas",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Maintain high index of clinical suspicion\nCerebral edema in itself does not produce neuro findings until ICP elevation causes ischemia\n[2]\nFindings:\nAltered mental status\nExtremity\nsensory\n/\nmotor deficit\nBradycardia\n,\nelevated BP\n, irregular breathing\nEOM abnormalities\nPupillary size abnormalities\nExtensor plantar response\nSee also:\nHerniation Syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "sensory",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "motor deficit",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "elevated BP",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Herniation Syndromes",
+          "url": "https://wikem.org/wiki/Herniation_Syndromes"
+        }
+      ]
+    },
+    "Corticosteroids": {
+      "text": "Reduce tumor capillary permeability, inflammatory cytotoxicity\nDexamethasone\nIV bolus 10-20mg on initial presentation\n[3]\nFollowed by 4mg IV q6hrs\nPO and IV dosing equivalent bioavailability\nMay see improvement within 12-48hrs\nComplications\n[4]\n:\nGI bleeds\n- ensure GI prophylaxis\nOsteoporosis - avoid in pathologic\nfracture\nNeuropsychiatric - avoid in acute\npsychosis\nSteroid myopathy - consider nonfluorinated steroids, such as\nprednisone\n, over dexamethasone",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "GI bleeds",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Elevated intracranial pressure\nCorticosteroids\nBrain tumor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        }
+      ]
+    }
+  }
+}

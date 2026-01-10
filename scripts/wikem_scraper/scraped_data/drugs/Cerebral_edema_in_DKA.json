@@ -1,0 +1,235 @@
+{
+  "drug_name": "Cerebral_edema_in_DKA",
+  "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA",
+  "scraped_at": "2026-01-10T07:50:11.115019",
+  "sections": {
+    "Background": {
+      "text": "1% of patients with DKA\n[1]\nAlmost all affected patients are <20yr\n[2]\nAssociated with initial bicarb level; not rate of glucose drop\nChildren presenting with higher blood urea nitrogen levels and more severe acidosis are at higher risk",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Thought to be due to cerebral hypoperfusion and less likely osmotic shifts with rapid infusion of IVF's\n[3]",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Age <5yo\nSevere hyperosmolality\nFailure of sodium to rise with therapy\nSevere\nacidosis\nPrevious episodes of DKA\nLate presentation for medical evaluation\nOveraggressive fluid resuscitation is\nNOT\na risk factor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Thought to be due to cerebral hypoperfusion and less likely osmotic shifts with rapid infusion of IVF's\n[3]",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Age <5yo\nSevere hyperosmolality\nFailure of sodium to rise with therapy\nSevere\nacidosis\nPrevious episodes of DKA\nLate presentation for medical evaluation\nOveraggressive fluid resuscitation is\nNOT\na risk factor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Age <5yo\nSevere hyperosmolality\nFailure of sodium to rise with therapy\nSevere\nacidosis\nPrevious episodes of DKA\nLate presentation for medical evaluation\nOveraggressive fluid resuscitation is\nNOT\na risk factor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Begins 6-12hr after onset of therapy or may begin before initiation of treatment or up to 48h afterward\nMany appear to be improving from their DKA before deteriorating from cerebral edema\nPremonitory symptoms:\nHeadache\nIncontinence\nSeizure\nAcute\nmental status changes\nSigns of\nherniation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Incontinence",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "mental status changes",
+          "url": "https://wikem.org/wiki/Mental_status_changes"
+        },
+        {
+          "text": "herniation",
+          "url": "https://wikem.org/wiki/Herniation_Syndromes"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hyperglycemia": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Hyperglycemia": {
+      "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Stat\nhead CT\n(non-contrast)\nCapillary glucose measurement to rule out\nhypoglycemia\nas the cause of altered mental status",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/CT_brain"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Head of bed at 30 degrees\nMannitol\n0.5-1gm/kg IV bolus over 20 minutes\nGive a repeat does if there is an inadequate response\nIf 2 doses of mannitol are ineffective, consider 3% saline 10mL/kg over 30min\nFluid restriction - decrease the IVF infusion rate by 30%\nTreat noncardiogenic\npulmonary edema\n, if present\nConsult neurosurgery (and PICU/ICU as appropriate)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit PICU/ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diabetes mellitus (main)\nDKA\nDKA (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "DKA (Peds)",
+          "url": "https://wikem.org/wiki/DKA_(Peds)"
+        }
+      ]
+    }
+  }
+}
