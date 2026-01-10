@@ -1,0 +1,239 @@
+{
+  "drug_name": "Viral_conjunctivitis",
+  "url": "https://wikem.org/wiki/Viral_conjunctivitis",
+  "scraped_at": "2026-01-10T08:05:08.180046",
+  "sections": {
+    "Background": {
+      "text": "Most common cause of infectious conjunctivitis\nOften preceded by\nURI\n(usually\nadenovirus\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Complaint of \"\nred eye\n\" with mild-moderate, watery discharge\nUsually painless unless there is some degree of keratitis\nOften one eye will be involved initially with other eye involved within days\nUnilateral or bilateral conjunctival injection with perilimbal sparing\nChemosis and\nsubconjunctival hemorrhages\nmay be present\nPreauricular\nlymphadenitis\n(adenovirus)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "red eye",
+          "url": "https://wikem.org/wiki/Red_eye"
+        },
+        {
+          "text": "subconjunctival hemorrhages",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Conjunctivitis_Types": {
+          "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Conjunctivitis_Types": {
+      "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Slit lamp\nFollicles on inferior palpebral conjunctival\nMild, punctate fluorescein staining of cornea (occasional)\nMust differentiate from herpetic dendrite",
+      "subsections": {
+        "Clinical_diagnosis_of_conjunctivitis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Bilateral",
+                "Bacterial": "50%",
+                "Viral": "25%",
+                "Allergic": "Mostly"
+              },
+              {
+                "": "Discharge",
+                "Bacterial": "Mucopurulent",
+                "Viral": "Clear, Watery",
+                "Allergic": "Cobblestoning, none"
+              },
+              {
+                "": "Redness",
+                "Bacterial": "Yes",
+                "Viral": "Yes",
+                "Allergic": "Yes"
+              },
+              {
+                "": "Pruritis",
+                "Bacterial": "Rarely",
+                "Viral": "Rarely",
+                "Allergic": "Yes"
+              },
+              {
+                "": "Additional",
+                "Bacterial": "Treatment: Antibiotics",
+                "Viral": "Treatment: Hygiene",
+                "Allergic": "Seasonal"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Slit lamp",
+          "url": "https://wikem.org/wiki/Slit_lamp"
+        }
+      ]
+    },
+    "Clinical_diagnosis_of_conjunctivitis": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Bilateral",
+            "Bacterial": "50%",
+            "Viral": "25%",
+            "Allergic": "Mostly"
+          },
+          {
+            "": "Discharge",
+            "Bacterial": "Mucopurulent",
+            "Viral": "Clear, Watery",
+            "Allergic": "Cobblestoning, none"
+          },
+          {
+            "": "Redness",
+            "Bacterial": "Yes",
+            "Viral": "Yes",
+            "Allergic": "Yes"
+          },
+          {
+            "": "Pruritis",
+            "Bacterial": "Rarely",
+            "Viral": "Rarely",
+            "Allergic": "Yes"
+          },
+          {
+            "": "Additional",
+            "Bacterial": "Treatment: Antibiotics",
+            "Viral": "Treatment: Hygiene",
+            "Allergic": "Seasonal"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Artificial tears 5-6x per day\nNaphazoline/pheniramine 0.025%/0.3% drops 4x daily\nCold compresses\nConsider topical antibiotic if unable to differentiate from bacterial conjunctivitis\nFrequent hand-washing (highly contagious)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Follow-up with ophtho if worsening or no improvement in 7 days\nViral conjunctivitis is highly contagious. Patients may return to work or school after discharge from eye(s) has resolved. Advise good hygiene practices and avoid close contact with very old, very young, or other immunocompromised individuals.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Conjunctivitis\nEye algorithms (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Eye algorithms (main)",
+          "url": "https://wikem.org/wiki/Eye_algorithms_(main)"
+        }
+      ]
+    }
+  }
+}

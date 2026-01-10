@@ -1,0 +1,367 @@
+{
+  "drug_name": "Vasopressors",
+  "url": "https://wikem.org/wiki/Vasopressors",
+  "scraped_at": "2026-01-10T08:04:54.858850",
+  "sections": {
+    "Background": {
+      "text": "Goal is to reach critical organ perfusion pressure\nBrain: MAP of 50 mmHg\n[1]\nHeart: MAP of 65 mmHg\nKidneys: MAP 65-75 mmHg\n[2]\nIV Vasopressor have not been shown to be unsafe when used peripherally\n[3]\nIf running peripherally perform frequent site check via institutional protocol.\n[4]\nIdeally use proximal (antecubital fossa) large-bore IV (at least 18-gauge)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Vasopressors": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Pressor": "Dobutamine",
+                "Initial Dose": "3-5 mcg/kg/min",
+                "Max Dose": "5-15 mcg/kg/min (as high as 200)[5]",
+                "Cardiac Effect": "Strong ß1 agonist +inotrope +chronotrope, Weak ß2 agonist +weak vasodilatation )",
+                "BP Effect": "alpha effect minimal",
+                "Arrhythmias": "HR variable effects.",
+                "Special Notes": "indicated in decompensated systolic HF, Debut Research 1979[6]Isoproterenol has most Β2 vasodilatory and Β1 HR effects"
+              },
+              {
+                "Pressor": "Dopamine",
+                "Initial Dose": "2 mcg/kg/min",
+                "Max Dose": "20-50 mcg/kg/min",
+                "Cardiac Effect": "β1 and NorEpi release",
+                "BP Effect": "α effects if > 20mcg/kg/min",
+                "Arrhythmias": "Arrhythmogenic from β1 effects",
+                "Special Notes": "More adverse events when used in shock compared to Norepi[7]"
+              },
+              {
+                "Pressor": "Epinepherine",
+                "Initial Dose": "0.1-1 mcg/kg/min",
+                "Max Dose": "",
+                "Cardiac Effect": "+ inotropy, + chronotropy",
+                "BP Effect": "",
+                "Arrhythmias": "",
+                "Special Notes": ""
+              },
+              {
+                "Pressor": "Norepinephrine",
+                "Initial Dose": "0.2 mcg/kg/min",
+                "Max Dose": "0.2-1.3 mcg/kg/min (5mcg/kg/min)[8]",
+                "Cardiac Effect": "mild β1 direct effect",
+                "BP Effect": "β1 and strong α1,2 effects",
+                "Arrhythmias": "Less arrhythmias than Dopamine[7]",
+                "Special Notes": "First line for sepsis. Increases MAP with vasoconstriction, increases coronary perfusion pressure, little β2 effects."
+              },
+              {
+                "Pressor": "Milrinone",
+                "Initial Dose": "50 mcg/kg x 10 min",
+                "Max Dose": "0.375-75 mcg/kg/min",
+                "Cardiac Effect": "Direct influx of Ca2+channels",
+                "BP Effect": "Smooth muscle vasodilator",
+                "Arrhythmias": "",
+                "Special Notes": "PDE Inhibitor which increases Ca2+uptake by sarcolemma.  No venodilatory activity"
+              },
+              {
+                "Pressor": "Phenylephrine",
+                "Initial Dose": "100-180 mcg/min then 40-60 mcg/min",
+                "Max Dose": "0.4-9 mcg/kg/min",
+                "Cardiac Effect": "",
+                "BP Effect": "Alpha agonist",
+                "Arrhythmias": "",
+                "Special Notes": "Long half life"
+              },
+              {
+                "Pressor": "Vasopressin",
+                "Initial Dose": "Fixed Dose",
+                "Max Dose": "0.01 to 0.04 U/min",
+                "Cardiac Effect": "unknown",
+                "BP Effect": "increases via ADH peptide",
+                "Arrhythmias": "",
+                "Special Notes": "should not be titrated due to ischemic effects"
+              },
+              {
+                "Pressor": "Methylene blue[9]",
+                "Initial Dose": "IV bolus 2 mg/kg over 15 min",
+                "Max Dose": "1-2 mg/kg/hour",
+                "Cardiac Effect": "Possible increased inotropy, cardiac use of ATP",
+                "BP Effect": "Inhibits NO mediated peripheral vasodilation",
+                "Arrhythmias": "",
+                "Special Notes": "Don't use inG6PD deficiency,ARDS,pulmonary hypertension"
+              }
+            ],
+            [
+              {
+                "Medication": "Norepinephrine(Levophed)",
+                "IV Dose (mcg/kg/min)": "0.1-2 mcg/kg/min",
+                "Concentration": "8mg in 500mL D5W"
+              },
+              {
+                "Medication": "Dopamine",
+                "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+                "Concentration": "400mg in 250 D5W"
+              },
+              {
+                "Medication": "Dobutamine",
+                "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+                "Concentration": "250mg in 250 mg D5W"
+              },
+              {
+                "Medication": "Epinephrine",
+                "IV Dose (mcg/kg/min)": "0.1-1 mcg/kg/min",
+                "Concentration": "1mg in 250 D5W"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Vasopressors": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Pressor": "Dobutamine",
+            "Initial Dose": "3-5 mcg/kg/min",
+            "Max Dose": "5-15 mcg/kg/min (as high as 200)[5]",
+            "Cardiac Effect": "Strong ß1 agonist +inotrope +chronotrope, Weak ß2 agonist +weak vasodilatation )",
+            "BP Effect": "alpha effect minimal",
+            "Arrhythmias": "HR variable effects.",
+            "Special Notes": "indicated in decompensated systolic HF, Debut Research 1979[6]Isoproterenol has most Β2 vasodilatory and Β1 HR effects"
+          },
+          {
+            "Pressor": "Dopamine",
+            "Initial Dose": "2 mcg/kg/min",
+            "Max Dose": "20-50 mcg/kg/min",
+            "Cardiac Effect": "β1 and NorEpi release",
+            "BP Effect": "α effects if > 20mcg/kg/min",
+            "Arrhythmias": "Arrhythmogenic from β1 effects",
+            "Special Notes": "More adverse events when used in shock compared to Norepi[7]"
+          },
+          {
+            "Pressor": "Epinepherine",
+            "Initial Dose": "0.1-1 mcg/kg/min",
+            "Max Dose": "",
+            "Cardiac Effect": "+ inotropy, + chronotropy",
+            "BP Effect": "",
+            "Arrhythmias": "",
+            "Special Notes": ""
+          },
+          {
+            "Pressor": "Norepinephrine",
+            "Initial Dose": "0.2 mcg/kg/min",
+            "Max Dose": "0.2-1.3 mcg/kg/min (5mcg/kg/min)[8]",
+            "Cardiac Effect": "mild β1 direct effect",
+            "BP Effect": "β1 and strong α1,2 effects",
+            "Arrhythmias": "Less arrhythmias than Dopamine[7]",
+            "Special Notes": "First line for sepsis. Increases MAP with vasoconstriction, increases coronary perfusion pressure, little β2 effects."
+          },
+          {
+            "Pressor": "Milrinone",
+            "Initial Dose": "50 mcg/kg x 10 min",
+            "Max Dose": "0.375-75 mcg/kg/min",
+            "Cardiac Effect": "Direct influx of Ca2+channels",
+            "BP Effect": "Smooth muscle vasodilator",
+            "Arrhythmias": "",
+            "Special Notes": "PDE Inhibitor which increases Ca2+uptake by sarcolemma.  No venodilatory activity"
+          },
+          {
+            "Pressor": "Phenylephrine",
+            "Initial Dose": "100-180 mcg/min then 40-60 mcg/min",
+            "Max Dose": "0.4-9 mcg/kg/min",
+            "Cardiac Effect": "",
+            "BP Effect": "Alpha agonist",
+            "Arrhythmias": "",
+            "Special Notes": "Long half life"
+          },
+          {
+            "Pressor": "Vasopressin",
+            "Initial Dose": "Fixed Dose",
+            "Max Dose": "0.01 to 0.04 U/min",
+            "Cardiac Effect": "unknown",
+            "BP Effect": "increases via ADH peptide",
+            "Arrhythmias": "",
+            "Special Notes": "should not be titrated due to ischemic effects"
+          },
+          {
+            "Pressor": "Methylene blue[9]",
+            "Initial Dose": "IV bolus 2 mg/kg over 15 min",
+            "Max Dose": "1-2 mg/kg/hour",
+            "Cardiac Effect": "Possible increased inotropy, cardiac use of ATP",
+            "BP Effect": "Inhibits NO mediated peripheral vasodilation",
+            "Arrhythmias": "",
+            "Special Notes": "Don't use inG6PD deficiency,ARDS,pulmonary hypertension"
+          }
+        ],
+        [
+          {
+            "Medication": "Norepinephrine(Levophed)",
+            "IV Dose (mcg/kg/min)": "0.1-2 mcg/kg/min",
+            "Concentration": "8mg in 500mL D5W"
+          },
+          {
+            "Medication": "Dopamine",
+            "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+            "Concentration": "400mg in 250 D5W"
+          },
+          {
+            "Medication": "Dobutamine",
+            "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+            "Concentration": "250mg in 250 mg D5W"
+          },
+          {
+            "Medication": "Epinephrine",
+            "IV Dose (mcg/kg/min)": "0.1-1 mcg/kg/min",
+            "Concentration": "1mg in 250 D5W"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Causes_of_non-response_to_vasopressors": {
+      "text": "Acidosis\nDx: Blood gas, BMP\nTx: treat underlying cause, consider\nbicarbonate\ngtt\nNote:\nVasopressin (in contrast to catecholamine vasopressors) does not show decreased efficacy in setting of acidosis\nHypothyroidism\nDx: Clinical, TSH\nTx:\nlevothyroxine\nAnaphylaxis\nDx: History\nTx:\nEpinephrine\n,\nmethylene blue\n, ECMO\nAdrenal insufficiency\nDx: Clinical, cortisol level,\nhyperkalemia\n+\nhyponatremia\nTx:\nHydrocortisone\n100-200mg\nHypocalcemia\nDx: ionized calcium,\nprolonged QTc\nTx:\nCalcium chloride\nor\ncalcium gluconate\nOccult bleeding\nDx: Clinical (consider\nGI bleed\nand retroperitoneal hematoma)\nTx: Transfusion, treat coagulopathy, surgery/IR interventions\nToxicologic\nDx: Clinical (consider\nbeta blocker toxicity\n,\ncalcium channel blocker toxicity\n,\nTCA overdose\n, etc)\nTx: Depends on etiology (glucagon, hyperinsulin euglycemia therapy, sodium bicarbonate, ECMO, etc)\n2nd cause of shock\nDx: Clinical, consider\nRUSH exam\nTx: Address underlying cause",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "prolonged QTc",
+          "url": "https://wikem.org/wiki/Prolonged_QTc"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Occult bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "beta blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "calcium channel blocker toxicity",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "TCA overdose",
+          "url": "https://wikem.org/wiki/TCA_overdose"
+        },
+        {
+          "text": "RUSH exam",
+          "url": "https://wikem.org/wiki/RUSH_exam"
+        }
+      ]
+    },
+    "Epinephrine": {
+      "text": "α\n1\n, α\n2\n, β\n1\n, β\n2\neffects\nInopressor\nIncreases heart rate and inotropy and vasoconstricts\n10 cc syringe with 9 cc of NS and draw up 1 mL of 1:10,000 epi (cardiac epinephrine with 10mL of 100 mcg/mL which is 1 mg of epinephrine)\nNow have 10mL of 10mcg/mL (1:100,000)\nUse 0.5-2mL (5-20 mcg) every 1-5min (similar to epinephrine drip)\nCan give peripherally since similar concentrations are give subcutaneously with lidocaine with epinephrine (1:100,000)\nOnset - 1min\nDuration - 10min\nEffects are usually gone within 5 minutes",
+      "subsections": {
+        "Phenylephrine": {
+          "text": "Pure α (no effect on heart) potent vasoconstrictor\nUseful in tachycardic patient since no effect on HR and might even decrease from reflex parasympathetic response\nIncrease in heart perfusion can improve cardiac output\nPlace 1mL of 10mg/mL vial in 100mL NS\nNow have 100mcg/mL with total bag containing 10 mg of phenylephrine\nDraw up 10mL from bag with syringe\nUse 0.5-2mL (50-200mcg) every 1-5 minutes\nCan give peripherally since drug is approved for IM or SQ use\nOnset - 1min\nDuration - 20min\nEffects are usually gone within 5 minutes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Phenylephrine": {
+      "text": "Pure α (no effect on heart) potent vasoconstrictor\nUseful in tachycardic patient since no effect on HR and might even decrease from reflex parasympathetic response\nIncrease in heart perfusion can improve cardiac output\nPlace 1mL of 10mg/mL vial in 100mL NS\nNow have 100mcg/mL with total bag containing 10 mg of phenylephrine\nDraw up 10mL from bag with syringe\nUse 0.5-2mL (50-200mcg) every 1-5 minutes\nCan give peripherally since drug is approved for IM or SQ use\nOnset - 1min\nDuration - 20min\nEffects are usually gone within 5 minutes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Extravasation_Injury": {
+      "text": "Classically norepinephrine drips\nAvoid hand/wrist and ensure peripheral IV quality before starting vasopressors\nMay occur with IO placements as well\nPush dose epinephrine and phenylephrine have low chance of causing extravasation injury\nDermal necrosis\n[14]\n:\nPrevention - phentolamine mesylate 10mg into each liter of norepinephrine solution (pressor effect is not changed)\nTreatment (\n[15]\n)\nIf the pt is relying on the agent for their hemodynamics, switch the pressor to another IV or place an immediate IO or central line\nDo not discontinue the IV\nAspirate as much residual as you can\nAdminister subcutaneous phentolamine mesylate (Regitine) using 25 G or smaller needle\nPlace 5 mg (1 ml) in 9 ml of NS\nA dose of 0.1 to 0.2 mg/kg (up to a maximum of 10 mg) should then be injected through the catheter and subcutaneously around the site\nAdministered as soon as the extravasation is detected, even if the area initially looks just a little white or OK\nShould see near-immediate effects; otherwise consider an additional dose\nDiscontinue the IV/catheter\nMay cause systemic hypotension (but they should be on pressors at another site)\nConsult plastic surgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Critical care quick reference\nUndifferentiated shock\nUndifferentiated shock (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Undifferentiated shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Undifferentiated shock (peds)",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock_(peds)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMCrit Podcast - Vasopressor Basics\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5052865/pdf/ceem-15-010.pdf\nEMCrit Podcast - Push Dose Pressors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

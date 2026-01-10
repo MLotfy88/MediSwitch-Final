@@ -1,0 +1,310 @@
+{
+  "drug_name": "Vestibular_neuritis",
+  "url": "https://wikem.org/wiki/Vestibular_neuritis",
+  "scraped_at": "2026-01-10T08:05:03.620912",
+  "sections": {
+    "Intro": {
+      "text": "Some sources consider vestibular neuritis and\nlabyrinthitis\nto be the same thing (some differentiate based on auditory symptoms)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Also known as vestibular neuronitis\nBenign, self-limited disorder associated with complete recovery in most patients\nMust distinguish from acute vascular lesions of the CNS\nPathophysiology\nMay be\nviral\nor postviral inflammatory disorder affecting vestibular portion of CN VIII\nMay differentiate from\nlabyrinthitis\nwhich technically should have hearing loss\nPrevalence peaks at 40-50 years of age",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Acute, rapid onset of severe\nvertigo\nwith\nnausea/vomiting\nand gait instability\nNystagmus\nUnilateral, horizontal or horizontal-torsional that is suppressed with visual fixation\nDoes not change direction with gaze\nUnlike BPPV and Meniere lasts several days and does not recur",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Cerebellum lesion\nNystagmus\nNot suppressed with visual fixation\nMay be other than horizontal or horizontal-torsional\nMay change direction with gaze\nAtaxia\nPatient may have limb dysmetria, dysarthria, or headache\nHead impulse test usually normal\nBrainstem infarction\nUsually associated with other symptoms of Wallenberg syndrome (lateral medulla infarct)\nIpsilateral\nHorner's\n, loss of corneal reflex,\ndysphagia\n, contralateral\nloss of pain\n/temp",
+      "subsections": {
+        "Vertigo": {
+          "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "loss of pain",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Vertigo": {
+      "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "See\nvertigo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat associated vertigo symptomatically",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vertigo\nDizziness\nLabyrinthitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        }
+      ]
+    }
+  }
+}

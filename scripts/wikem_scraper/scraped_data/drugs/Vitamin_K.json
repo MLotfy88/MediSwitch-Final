@@ -1,0 +1,165 @@
+{
+  "drug_name": "Vitamin_K",
+  "url": "https://wikem.org/wiki/Vitamin_K",
+  "scraped_at": "2026-01-10T08:05:09.613832",
+  "sections": {
+    "Intro": {
+      "text": "Disambiguation: See\nketamine\nfor street name \"vitamin K\"\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "General": {
+      "text": "Lasts up to 2 weeks, possibly making anticoagulation post-bleeding risk difficult\nIV form has small risk of anaphylaxis, but risks/benefits must be weighed in serious bleeding\nType: Vitamin\nDosage Forms: 100 mcg; 5mg; SC; IM; IV; PO\nCommon Trade Names: Generic and Mephyton, K1-1000, Novaplus Vitamin K1",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Vitamin_K_deficiency_hypoprothrombinemia": {
+          "text": "2.5-25mg PO QD PRN\nMax: 25mg/dose",
+          "tables": []
+        },
+        "Anticoagulant-induced_hypoprothrombinemia": {
+          "text": "10mg PO x1\nMax: 25mg/dose",
+          "tables": []
+        },
+        "Warfarin_stabilization": {
+          "text": "100 mcg PO QD-bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Vitamin_K_deficiency_hypoprothrombinemia": {
+      "text": "2.5-25mg PO QD PRN\nMax: 25mg/dose",
+      "subsections": {
+        "Anticoagulant-induced_hypoprothrombinemia": {
+          "text": "10mg PO x1\nMax: 25mg/dose",
+          "tables": []
+        },
+        "Warfarin_stabilization": {
+          "text": "100 mcg PO QD-bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anticoagulant-induced_hypoprothrombinemia": {
+      "text": "10mg PO x1\nMax: 25mg/dose",
+      "subsections": {
+        "Warfarin_stabilization": {
+          "text": "100 mcg PO QD-bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Warfarin_stabilization": {
+      "text": "100 mcg PO QD-bid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Neonatal_deficiency_(hemorrhagic_disease_of_the_newborn)": {
+          "text": "1mg SC for avoidance of anaphylaxis (IV), hematoma (IM). FFP for serious cases.",
+          "tables": []
+        },
+        "Vitamin_K_deficiency_hypoprothrombinemia_2": {
+          "text": "2.5-5mg PO QD PRN",
+          "tables": []
+        },
+        "anticoagulant_induced_hypoprothrombinemia": {
+          "text": "0.5-5mg PO/SC/IM/IV x 1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Vitamin_K_deficiency_hypoprothrombinemia_2": {
+      "text": "2.5-5mg PO QD PRN",
+      "subsections": {
+        "anticoagulant_induced_hypoprothrombinemia": {
+          "text": "0.5-5mg PO/SC/IM/IV x 1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "anticoagulant_induced_hypoprothrombinemia": {
+      "text": "0.5-5mg PO/SC/IM/IV x 1",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Safe\nRenal Dosing\nAdult: not defined\nPediatric: not defined\nHepatic Dosing\nAdult: adjust dose amount\nPediatric: adjust dose amount",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nhereditary hypoprothrombinemia\noveranticoagulation due to heparins\ncaution in neonates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "anticoagulant resistance\nhypersensitivity reaction, severe or life-threatening (SC, IM, or IV use)\nanaphylaxis (SC, IM, or IV use)\nhyperbilirubinemia (neonates)\nhemolytic anemia (neonates)",
+          "tables": []
+        },
+        "Common": {
+          "text": "taste changes (SC, IM, or IV use)\nflushing (SC, IM, or IV use)\ninjection site hematoma\ninjection site pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "anticoagulant resistance\nhypersensitivity reaction, severe or life-threatening (SC, IM, or IV use)\nanaphylaxis (SC, IM, or IV use)\nhyperbilirubinemia (neonates)\nhemolytic anemia (neonates)",
+      "subsections": {
+        "Common": {
+          "text": "taste changes (SC, IM, or IV use)\nflushing (SC, IM, or IV use)\ninjection site hematoma\ninjection site pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "taste changes (SC, IM, or IV use)\nflushing (SC, IM, or IV use)\ninjection site hematoma\ninjection site pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: unknown\nMetabolism: liver, CYP450: unknown\nExcretion: urine, bile\nMechanism of Action: Used by liver for synthesis of some coagulation factors (II,VII,IX,X,C,S). Timing in the synthesis of these factors impacts reversal of elevated INR (~4 hours: F-VII, ~24 hours: F-II).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "drug_name": "Ventilator_associated_pneumonia",
+  "url": "https://wikem.org/wiki/Ventilator_associated_pneumonia",
+  "scraped_at": "2026-01-10T08:04:56.034652",
+  "sections": {
+    "Background": {
+      "text": "Second most common nosocomial illness among the critically ill, up to 27% affected\n[1]\nMortality unclear, ranges from 0-50%\nHigher mortality seen with:\nStenotrophomonas maltophilia\nPseudomonas aeruginosa\nAcinetobacter sp.",
+      "subsections": {
+        "Definition": {
+          "text": "Pneumonia\noccurring >48 hours after intubation and mechanical ventilation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stenotrophomonas maltophilia",
+          "url": "https://wikem.org/wiki/Stenotrophomonas_maltophilia"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Acinetobacter sp.",
+          "url": "https://wikem.org/wiki/Acinetobacter_sp."
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Definition": {
+      "text": "Pneumonia\noccurring >48 hours after intubation and mechanical ventilation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever\n> 38.3\nIncreased FiO2 requirement\nWorsening\nsepsis\nLeukocyte\ncount > 10,000 or <5,000\nNew infiltrate on\nCXR\nDifficult to diagnose with pre-existing infiltrates",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Increased FiO2 requirement",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Leukocyte",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Deterioration After Intubation (DOPE)\nARDS\nPulmonary embolism\nPulmonary infarction\nAnaphylaxis\nTension pneumothorax\nObstruction\nSepsis\nfrom other source\nHeart failure\nTamponade\nPericarditis\nMI\nAbdominal compartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Deterioration After Intubation (DOPE)",
+          "url": "https://wikem.org/wiki/Deterioration_After_Intubation_(DOPE)"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "No widely accepted diagnostic criteria\nCXR\nCBC\nABG\nLactate\nBlood cultures\nBAL culture\nSputum aspirate culture\nPleural effusion culture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Cefipime\n,\nImipenem\n,\nOR\nPiperacillin/Tazobactam\n+ IV\ncipro\n/\nlevo\nCefipime\n,\nimipenem\n,\nOR\npiperacillin-tazobactam\n+\ngent\n+\nazithromycin\nCefipime\n,\nimipenem\n,\nOR\npiperacillin-tazobactam\n+\ngent\n+\ncipro\n/\nlevo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cefipime",
+          "url": "https://wikem.org/wiki/Cefipime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "levo",
+          "url": "https://wikem.org/wiki/Levo"
+        },
+        {
+          "text": "Cefipime",
+          "url": "https://wikem.org/wiki/Cefipime"
+        },
+        {
+          "text": "imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "gent",
+          "url": "https://wikem.org/wiki/Gent"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefipime",
+          "url": "https://wikem.org/wiki/Cefipime"
+        },
+        {
+          "text": "imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "gent",
+          "url": "https://wikem.org/wiki/Gent"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "levo",
+          "url": "https://wikem.org/wiki/Levo"
+        }
+      ]
+    },
+    "Prophylaxis": {
+      "text": "VAP rates decreased with\nchlorhexidine\noral decontamination\nHead of bed at 30 degrees decreases passive aspiration and VAP\n[2]\nStress ulcer prophylaxis likely has small increase in VAP rates",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chlorhexidine",
+          "url": "https://wikem.org/wiki/Chlorhexidine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    }
+  }
+}

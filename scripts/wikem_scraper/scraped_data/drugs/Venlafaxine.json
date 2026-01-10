@@ -1,0 +1,108 @@
+{
+  "drug_name": "Venlafaxine",
+  "url": "https://wikem.org/wiki/Venlafaxine",
+  "scraped_at": "2026-01-10T08:04:56.679455",
+  "sections": {
+    "Administration": {
+      "text": "Type: SNRI\nDosage Forms:\nRoutes of Administration: Oral\nCommon Trade Names: Effexor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Extended release: 37.5-225mg PO daily\nImmediate release: 75-375mg PO daily in 2-3 divided doses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: Infant risk cannot be ruled out\nRenal dosing: decrease dose by 25-50%\nHepatic dosing: decrease dose by 25-50%",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nMAOI use concomitantly or within past 14 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Toxicity": {
+      "text": "Sodium channel blocking properties, similar to\nTCA toxicity\nand should be treated similarly:\nSodium bicarbonate for QRS prolongation\nBenzodiazepines for seizures\nQTc prolongation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Seizure\nNeuroleptic malignant syndrome, serotonin syndrome\nGI bleed\nHepatitis\nHyponatremia\nExacerbation of depression, suicidality, mania",
+          "tables": []
+        },
+        "Common": {
+          "text": "Constipation, nausea, xerostomia, anorexia, weight loss\nDizziness, insomnia, somnolence, dream disorder, tremor, anxiety, blurred vision\nSweating\nHypertension\nSexual dysfunction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Seizure\nNeuroleptic malignant syndrome, serotonin syndrome\nGI bleed\nHepatitis\nHyponatremia\nExacerbation of depression, suicidality, mania",
+      "subsections": {
+        "Common": {
+          "text": "Constipation, nausea, xerostomia, anorexia, weight loss\nDizziness, insomnia, somnolence, dream disorder, tremor, anxiety, blurred vision\nSweating\nHypertension\nSexual dysfunction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Constipation, nausea, xerostomia, anorexia, weight loss\nDizziness, insomnia, somnolence, dream disorder, tremor, anxiety, blurred vision\nSweating\nHypertension\nSexual dysfunction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5-11h\nMetabolism: Hepatic, CYP2D6\nExcretion: Mostly renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits serotonin, norepinephrine and dopamine reuptake",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "SNRI Toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SNRI Toxicity",
+          "url": "https://wikem.org/wiki/SNRI_Toxicity"
+        }
+      ]
+    }
+  }
+}

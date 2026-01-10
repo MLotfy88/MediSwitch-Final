@@ -1,0 +1,223 @@
+{
+  "drug_name": "Vitamin_A_toxicity",
+  "url": "https://wikem.org/wiki/Vitamin_A_toxicity",
+  "scraped_at": "2026-01-10T08:05:09.568045",
+  "sections": {
+    "Background": {
+      "text": "Majority due to chronic ingestion of synthetic vitamin A\nToxic dose is approximately 10x higher than Recommended Dietary Allowance (RDA), totaling ~50,000 units\nProvitamin A (beta-carotene) ingestion very unlikely to cause toxicity\nCarotenemia common in children eating leafy green vegetables or carrots, with spontaneous resolution after cessation of foods",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute_toxicity": {
+          "text": "Single dose >660,000 IU (>200,000 micrograms)\nSymptoms include\nnausea/vomiting\n,\nvertigo\n,\nblurry vision",
+          "tables": []
+        },
+        "Chronic_toxicity": {
+          "text": "Greater than x10 amount of RDA\nSymptoms include: skin irritation, alopecia\narthralgias\n/bone pain, hyperlipidemia,\nhepatotoxicity\n,\nataxia\n,\nvisual impairment\n,\nheadache\n,\npseudotumor cerebri\n,\nelevated ICP",
+          "tables": []
+        },
+        "Retinoic_acid_in_1st_trimester": {
+          "text": "Very teratogenic\nSpontaneous abortions and fetal malformation\nVitamin A in pregnancy safe upper limit 10,000IU",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "blurry vision",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgias"
+        },
+        {
+          "text": "hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "visual impairment",
+          "url": "https://wikem.org/wiki/Visual_loss"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        },
+        {
+          "text": "elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        }
+      ]
+    },
+    "Acute_toxicity": {
+      "text": "Single dose >660,000 IU (>200,000 micrograms)\nSymptoms include\nnausea/vomiting\n,\nvertigo\n,\nblurry vision",
+      "subsections": {
+        "Chronic_toxicity": {
+          "text": "Greater than x10 amount of RDA\nSymptoms include: skin irritation, alopecia\narthralgias\n/bone pain, hyperlipidemia,\nhepatotoxicity\n,\nataxia\n,\nvisual impairment\n,\nheadache\n,\npseudotumor cerebri\n,\nelevated ICP",
+          "tables": []
+        },
+        "Retinoic_acid_in_1st_trimester": {
+          "text": "Very teratogenic\nSpontaneous abortions and fetal malformation\nVitamin A in pregnancy safe upper limit 10,000IU",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "blurry vision",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgias"
+        },
+        {
+          "text": "hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "visual impairment",
+          "url": "https://wikem.org/wiki/Visual_loss"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        },
+        {
+          "text": "elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        }
+      ]
+    },
+    "Chronic_toxicity": {
+      "text": "Greater than x10 amount of RDA\nSymptoms include: skin irritation, alopecia\narthralgias\n/bone pain, hyperlipidemia,\nhepatotoxicity\n,\nataxia\n,\nvisual impairment\n,\nheadache\n,\npseudotumor cerebri\n,\nelevated ICP",
+      "subsections": {
+        "Retinoic_acid_in_1st_trimester": {
+          "text": "Very teratogenic\nSpontaneous abortions and fetal malformation\nVitamin A in pregnancy safe upper limit 10,000IU",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgias"
+        },
+        {
+          "text": "hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "visual impairment",
+          "url": "https://wikem.org/wiki/Visual_loss"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        },
+        {
+          "text": "elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        }
+      ]
+    },
+    "Retinoic_acid_in_1st_trimester": {
+      "text": "Very teratogenic\nSpontaneous abortions and fetal malformation\nVitamin A in pregnancy safe upper limit 10,000IU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Vitamin A stored in liver-circulating vitamin A will likely not reflect vitamin A stores\nMeasurement of serum retinyl esters more accurate in fasting state",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Discontinue high vitamin A intake\nMost fully recover\nVitamin E supplementation\nManage complications of\nliver failure\nLiver transplant may necessary in severe toxicity w/fulminant liver failure\nConsider tox or\npoison control\nconsult",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "poison control",
+          "url": "https://wikem.org/wiki/Poison_control"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Dependant on severity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vitamin A deficiency\nPseudotumor cerebri",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        }
+      ]
+    },
+    "References": {
+      "text": "McCuaig LW, Motzok I (July 1970). \"Excessive dietary vitamin E: its alleviation of hypervitaminosis A and lack of toxicity\". Poultry Science. 49 (4): 1050–1. doi:10.3382/ps.0491050. PMID 5485475.\nSoprano DR, Soprano KJ. Retinoids as teratogens. Annu Rev Nutr 1995; 15:111.\nMahoney CP, Margolis MT, Knauss TA, Labbe RF. Chronic vitamin A intoxication in infants fed chicken liver. Pediatrics 1980; 65:893.\nLam HS, Chow CM, Poon WT, et al. Risk of vitamin A toxicity from candy-like chewable vitamin supplements for children. Pediatrics 2006; 118:820.\nCheruvattath R, Orrego M, Gautam M, et al. Vitamin A toxicity: when one a day doesn't keep the doctor away. Liver Transpl 2006; 12:1888.\nPenniston KL, Tanumihardjo SA. The acute and chronic toxic effects of vitamin A. Am J Clin Nutr 2006; 83:191.\nSmith FR, Goodman DS. Vitamin A transport in human vitamin A toxicity. N Engl J Med 1976; 294:805.\nKrasinski SD, Russell RM, Otradovec CL, et al. Relationship of vitamin A and vitamin E intake to fasting plasma retinol, retinol-binding protein, retinyl esters, carotene, alpha-tocopherol, and cholesterol among elderly people and young adults: increased plasma retinyl esters among vitamin A-supplement users. Am J Clin Nutr 1989; 49:112.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "drug_name": "Ventriculoperitoneal_shunt_overdrainage",
+  "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_overdrainage",
+  "scraped_at": "2026-01-10T08:05:02.119877",
+  "sections": {
+    "Background": {
+      "text": "Overdrainage → tissue occluding the orifices of the proximal shunt apparatus\nAs pressure increases the occluding tissue diesengages allowing drainage to resume\nLeads to cyclic increased ICP complaints that worsen when patient stands\nNewer valve devices with antisiphon features make this less common\nAlso known as \"slit ventricle syndrome\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Vague symptoms of\ndizziness\n,\nvisual disturbances\nWorsened with standing/exertion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Ventriculoperitoneal_shunt_problems": {
+          "text": "Ventriculoperitoneal shunt obstruction\nVentriculoperitoneal shunt overdrainage\n(Slit Ventricle Syndrome)\nVentriculoperitoneal shunt infection\nVentriculoperitoneal shunt mechanical failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt obstruction",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_obstruction"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt infection",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_infection"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt mechanical failure",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_mechanical_failure"
+        }
+      ]
+    },
+    "Ventriculoperitoneal_shunt_problems": {
+      "text": "Ventriculoperitoneal shunt obstruction\nVentriculoperitoneal shunt overdrainage\n(Slit Ventricle Syndrome)\nVentriculoperitoneal shunt infection\nVentriculoperitoneal shunt mechanical failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt obstruction",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_obstruction"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt infection",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_infection"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt mechanical failure",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_mechanical_failure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CT head\nnecessary for shunt placement workup and over-drained ventricles\nPatients at higher risk for\nsubdural hematomas",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "subdural hematomas",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Neurosurgery consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission for shunt revision versus valve adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ventriculoperitoneal shunt problems\nCSF Studies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt problems",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_problems"
+        },
+        {
+          "text": "CSF Studies",
+          "url": "https://wikem.org/wiki/CSF_Studies"
+        }
+      ]
+    }
+  }
+}

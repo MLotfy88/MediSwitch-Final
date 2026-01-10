@@ -1,0 +1,596 @@
+{
+  "drug_name": "Vertebrobasilar_insufficiency",
+  "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency",
+  "scraped_at": "2026-01-10T08:05:05.097913",
+  "sections": {
+    "Background": {
+      "text": "Characterized by diminished blood flow through the vertebral or basilar arteries\nThe two vertebral arteries originally branch proximally from subclavian, travel through vertebrae, and distally join to become basilar artery\nSymptoms result from diminished circulation to the posterior brain, brainstem and cerebellum.\nHead-turning can cause ipsilateral vertebral artery to temporarily occlude\nIf contralateral vertebral artery is stenotic, may lead to\nsyncope\n(known as Bow hunter's syndrome\n[1]\n)\nHead extension may also provoke symptoms\nNeurologic symptoms tend to not present when one vertebral artery remains patent\n[2]\nSymptoms may result secondary to arterial plaques, arterial dissection, compressive lesions, or subclavian steal (see below).  *Posterior strokes encompass 20-30% of all strokes\n[3]\nCervical osteophytes can also directly compress vertebral arteries and cause VBI symptoms\n[4]\n.",
+      "subsections": {
+        "Bow_hunter's_syndrome_(Rotational_vertebral_artery_compression)": {
+          "text": "Head turning causes temporary occlusion of the ipsilateral vertebral artery.  VBI results if the contralateral vertebral artery has a fixed occlusion\n[5]\n.  Improvement of symptoms in neutral position is considered pathognomonic\n[6]",
+          "tables": []
+        },
+        "Subclavian_steal_phenomenon": {
+          "text": "Stenotic lesion in the subclavian, located proximal to the vertebral artery--> reversed flow of blood in the vertebral artery when superimposed with increased arm activity(4).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Subclavian_steal_phenomenon": {
+      "text": "Stenotic lesion in the subclavian, located proximal to the vertebral artery--> reversed flow of blood in the vertebral artery when superimposed with increased arm activity(4).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Symptoms": {
+          "text": "Numbness\n/tingling\nVertigo\n/dizziness\nChanges in vision\nNausea/vomiting\nWeakness\nDysphagia\nDysarthria\nSyncope",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Changes in vision",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Symptoms": {
+      "text": "Numbness\n/tingling\nVertigo\n/dizziness\nChanges in vision\nNausea/vomiting\nWeakness\nDysphagia\nDysarthria\nSyncope",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Changes in vision",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vertigo": {
+          "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Vertigo": {
+      "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Glucose check\nFull\nneuro exam\nTM exam\nCT\nA or\nMRA\n(diagnostic study of choice) of the neck/brain if symptoms consistent with central cause",
+          "tables": [
+            [
+              {
+                "Test": "HINTS",
+                "Sensitivity": "100%"
+              },
+              {
+                "Test": "MRI (24hrs)",
+                "Sensitivity": "68.40%[7]"
+              },
+              {
+                "Test": "MRI (48hrs)",
+                "Sensitivity": "81%[7]"
+              },
+              {
+                "Test": "CT non con",
+                "Sensitivity": "26%[8]"
+              }
+            ]
+          ]
+        },
+        "HINTS_Exam": {
+          "text": "Proposed as method of distinguishing peripheral cause from cerebellar/brain stem CVA in the Emergency Department population\n[9]\n[10]\n[11]",
+          "tables": []
+        },
+        "Inclusion_Criteria": {
+          "text": "HINTS exam should only be used in patient with acute persistent vertigo, nystagmus, and a normal neurological exam.\nHINTS exam, when done correctly, has high sensitivity and specificity in distinguishing peripheral vs central etiologies of vertigo\nNote that the original study was done by neuro-ophthalmologists in a differentiated patient base. This exam has not been studied in a large ED population yet",
+          "tables": []
+        },
+        "The_3_components_of_the_HINTS_exam_include:": {
+          "text": "Always use correct terminology; \"HINTS negative\" does not convey a clear interpretation. State \"HINTS central\" or \"HINTS peripheral\" as suggested in literature\nIf able, specify the exact exam finding as shown by chart above",
+          "tables": [
+            [
+              {
+                "HINTS Test": "Head Impulse Test",
+                "Reassuring Finding": "Abnormal (corrective saccade)"
+              },
+              {
+                "HINTS Test": "Nystagmus",
+                "Reassuring Finding": "Unidirectional, horizontal"
+              },
+              {
+                "HINTS Test": "Test of Skew",
+                "Reassuring Finding": "No skew deviation"
+              }
+            ]
+          ]
+        },
+        "Head_Impulse_Test": {
+          "text": "Test of vestibulo-ocular reflex function\nHave patient fix their eyes on your nose\nMove their head rapidly in the horizontal plane to the left and right\nWhen the head is turned towards the normal side, the vestibular ocular reflex remains intact and eyes continue to fixate on the visual target\nWhen the head is turned towards the affected side, the vestibular ocular reflex fails and the eyes make a visible corrective saccade to re-fixate on the visual target\n[12]\n[13]\nNormally, a functional vestibular system will identify any movement of the head position and instantaneously correct eye movement accordingly so that the center of the vision remains on a target.\nThis reflex fails in peripheral causes of vertigo affecting the vestibulocochlear nerve unilaterally; thus, failure of the reflex unilaterally is reassuring (since the cause is peripheral)\nNote that in central causes of vertigo, test may show normal reflex response OR failure of the reflex BILATERALLY",
+          "tables": []
+        },
+        "Nystagmus": {
+          "text": "Observation for\nnystagmus\nin primary, right, and left gaze\nNo nystagmus (normal) or only horizontal unilateral nystagmus (fast direction only in one direction) is reassuring\nAny other type of nystagmus is abnormal, including vertical or bidirectional nystagmus",
+          "tables": []
+        },
+        "Test_of_Skew": {
+          "text": "Have patient look at your nose with their eyes and then cover one eye\nThen rapidly uncover the eye and quickly look to see if the eye moves to re-align.\nRepeat with on each eye\nSkew deviation is a fairly specific predictor of brainstem involvement in patients with acute vestibular syndrome. The presence of skew may help identify stroke when a positive head impulse test falsely suggests a peripheral lesion.\nSkew is also known vertical dysconjugate gaze and is a sign of a central lesion\nA positive HINTS exam: 100% sensitive and 96% specific for the presence of a central lesion.\nThe HINTS exam was more sensitive than general neurological signs: 100% versus 51%.\nThe\nsensitivity of early MRI with DWI for lateral medullary or pontine stroke was lower than that of the HINTS\nexamination (72% versus 100%, P=0.004) with comparable specificity (100% versus 96%, P=1.0).\nIf any of the above 3 tests are consistent with CVA obtain full work-up (including MRI)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "neuro exam",
+          "url": "https://wikem.org/wiki/Neuro_exam"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRA",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "Glucose check\nFull\nneuro exam\nTM exam\nCT\nA or\nMRA\n(diagnostic study of choice) of the neck/brain if symptoms consistent with central cause",
+      "subsections": {
+        "HINTS_Exam": {
+          "text": "Proposed as method of distinguishing peripheral cause from cerebellar/brain stem CVA in the Emergency Department population\n[9]\n[10]\n[11]",
+          "tables": []
+        },
+        "Inclusion_Criteria": {
+          "text": "HINTS exam should only be used in patient with acute persistent vertigo, nystagmus, and a normal neurological exam.\nHINTS exam, when done correctly, has high sensitivity and specificity in distinguishing peripheral vs central etiologies of vertigo\nNote that the original study was done by neuro-ophthalmologists in a differentiated patient base. This exam has not been studied in a large ED population yet",
+          "tables": []
+        },
+        "The_3_components_of_the_HINTS_exam_include:": {
+          "text": "Always use correct terminology; \"HINTS negative\" does not convey a clear interpretation. State \"HINTS central\" or \"HINTS peripheral\" as suggested in literature\nIf able, specify the exact exam finding as shown by chart above",
+          "tables": [
+            [
+              {
+                "HINTS Test": "Head Impulse Test",
+                "Reassuring Finding": "Abnormal (corrective saccade)"
+              },
+              {
+                "HINTS Test": "Nystagmus",
+                "Reassuring Finding": "Unidirectional, horizontal"
+              },
+              {
+                "HINTS Test": "Test of Skew",
+                "Reassuring Finding": "No skew deviation"
+              }
+            ]
+          ]
+        },
+        "Head_Impulse_Test": {
+          "text": "Test of vestibulo-ocular reflex function\nHave patient fix their eyes on your nose\nMove their head rapidly in the horizontal plane to the left and right\nWhen the head is turned towards the normal side, the vestibular ocular reflex remains intact and eyes continue to fixate on the visual target\nWhen the head is turned towards the affected side, the vestibular ocular reflex fails and the eyes make a visible corrective saccade to re-fixate on the visual target\n[12]\n[13]\nNormally, a functional vestibular system will identify any movement of the head position and instantaneously correct eye movement accordingly so that the center of the vision remains on a target.\nThis reflex fails in peripheral causes of vertigo affecting the vestibulocochlear nerve unilaterally; thus, failure of the reflex unilaterally is reassuring (since the cause is peripheral)\nNote that in central causes of vertigo, test may show normal reflex response OR failure of the reflex BILATERALLY",
+          "tables": []
+        },
+        "Nystagmus": {
+          "text": "Observation for\nnystagmus\nin primary, right, and left gaze\nNo nystagmus (normal) or only horizontal unilateral nystagmus (fast direction only in one direction) is reassuring\nAny other type of nystagmus is abnormal, including vertical or bidirectional nystagmus",
+          "tables": []
+        },
+        "Test_of_Skew": {
+          "text": "Have patient look at your nose with their eyes and then cover one eye\nThen rapidly uncover the eye and quickly look to see if the eye moves to re-align.\nRepeat with on each eye\nSkew deviation is a fairly specific predictor of brainstem involvement in patients with acute vestibular syndrome. The presence of skew may help identify stroke when a positive head impulse test falsely suggests a peripheral lesion.\nSkew is also known vertical dysconjugate gaze and is a sign of a central lesion\nA positive HINTS exam: 100% sensitive and 96% specific for the presence of a central lesion.\nThe HINTS exam was more sensitive than general neurological signs: 100% versus 51%.\nThe\nsensitivity of early MRI with DWI for lateral medullary or pontine stroke was lower than that of the HINTS\nexamination (72% versus 100%, P=0.004) with comparable specificity (100% versus 96%, P=1.0).\nIf any of the above 3 tests are consistent with CVA obtain full work-up (including MRI)",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Test": "HINTS",
+            "Sensitivity": "100%"
+          },
+          {
+            "Test": "MRI (24hrs)",
+            "Sensitivity": "68.40%[7]"
+          },
+          {
+            "Test": "MRI (48hrs)",
+            "Sensitivity": "81%[7]"
+          },
+          {
+            "Test": "CT non con",
+            "Sensitivity": "26%[8]"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "neuro exam",
+          "url": "https://wikem.org/wiki/Neuro_exam"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRA",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "HINTS_Exam": {
+      "text": "Proposed as method of distinguishing peripheral cause from cerebellar/brain stem CVA in the Emergency Department population\n[9]\n[10]\n[11]",
+      "subsections": {
+        "Inclusion_Criteria": {
+          "text": "HINTS exam should only be used in patient with acute persistent vertigo, nystagmus, and a normal neurological exam.\nHINTS exam, when done correctly, has high sensitivity and specificity in distinguishing peripheral vs central etiologies of vertigo\nNote that the original study was done by neuro-ophthalmologists in a differentiated patient base. This exam has not been studied in a large ED population yet",
+          "tables": []
+        },
+        "The_3_components_of_the_HINTS_exam_include:": {
+          "text": "Always use correct terminology; \"HINTS negative\" does not convey a clear interpretation. State \"HINTS central\" or \"HINTS peripheral\" as suggested in literature\nIf able, specify the exact exam finding as shown by chart above",
+          "tables": [
+            [
+              {
+                "HINTS Test": "Head Impulse Test",
+                "Reassuring Finding": "Abnormal (corrective saccade)"
+              },
+              {
+                "HINTS Test": "Nystagmus",
+                "Reassuring Finding": "Unidirectional, horizontal"
+              },
+              {
+                "HINTS Test": "Test of Skew",
+                "Reassuring Finding": "No skew deviation"
+              }
+            ]
+          ]
+        },
+        "Head_Impulse_Test": {
+          "text": "Test of vestibulo-ocular reflex function\nHave patient fix their eyes on your nose\nMove their head rapidly in the horizontal plane to the left and right\nWhen the head is turned towards the normal side, the vestibular ocular reflex remains intact and eyes continue to fixate on the visual target\nWhen the head is turned towards the affected side, the vestibular ocular reflex fails and the eyes make a visible corrective saccade to re-fixate on the visual target\n[12]\n[13]\nNormally, a functional vestibular system will identify any movement of the head position and instantaneously correct eye movement accordingly so that the center of the vision remains on a target.\nThis reflex fails in peripheral causes of vertigo affecting the vestibulocochlear nerve unilaterally; thus, failure of the reflex unilaterally is reassuring (since the cause is peripheral)\nNote that in central causes of vertigo, test may show normal reflex response OR failure of the reflex BILATERALLY",
+          "tables": []
+        },
+        "Nystagmus": {
+          "text": "Observation for\nnystagmus\nin primary, right, and left gaze\nNo nystagmus (normal) or only horizontal unilateral nystagmus (fast direction only in one direction) is reassuring\nAny other type of nystagmus is abnormal, including vertical or bidirectional nystagmus",
+          "tables": []
+        },
+        "Test_of_Skew": {
+          "text": "Have patient look at your nose with their eyes and then cover one eye\nThen rapidly uncover the eye and quickly look to see if the eye moves to re-align.\nRepeat with on each eye\nSkew deviation is a fairly specific predictor of brainstem involvement in patients with acute vestibular syndrome. The presence of skew may help identify stroke when a positive head impulse test falsely suggests a peripheral lesion.\nSkew is also known vertical dysconjugate gaze and is a sign of a central lesion\nA positive HINTS exam: 100% sensitive and 96% specific for the presence of a central lesion.\nThe HINTS exam was more sensitive than general neurological signs: 100% versus 51%.\nThe\nsensitivity of early MRI with DWI for lateral medullary or pontine stroke was lower than that of the HINTS\nexamination (72% versus 100%, P=0.004) with comparable specificity (100% versus 96%, P=1.0).\nIf any of the above 3 tests are consistent with CVA obtain full work-up (including MRI)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Medical_management": {
+          "text": "Lower cholesterol\nControl\nhypertension\nSmoking cessation\nAntiplatelets",
+          "tables": []
+        },
+        "Surgical_management": {
+          "text": "Endarterectomy\nBypass grafting\nStenting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Antiplatelets",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Medical_management": {
+      "text": "Lower cholesterol\nControl\nhypertension\nSmoking cessation\nAntiplatelets",
+      "subsections": {
+        "Surgical_management": {
+          "text": "Endarterectomy\nBypass grafting\nStenting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Antiplatelets",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Surgical_management": {
+      "text": "Endarterectomy\nBypass grafting\nStenting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vertigo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    }
+  }
+}

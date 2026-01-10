@@ -1,0 +1,271 @@
+{
+  "drug_name": "Venous_stasis",
+  "url": "https://wikem.org/wiki/Venous_stasis",
+  "scraped_at": "2026-01-10T08:04:59.440253",
+  "sections": {
+    "Background": {
+      "text": "Decreased rate of return of venous blood flow to heart (most commonly in lower extremities)\nLeads to characteristic vascular and skin changes\nCommon in individuals with chronic vascular disease, diabetes, obesity, smoking history, prolonged immobility",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Venous_stasis_dermatitis": {
+          "text": "Skin becomes darker/purple, dry, tight, and hairless\nIn severe cases may see venous insufficiency ulcers\nPatients may complain of leg heaviness, fatigue, or cramping\nUnlike\ncellulitis\n, erythema from venous stasis tends to change with dependent positioning of the affected limb",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "Venous_stasis_dermatitis": {
+      "text": "Skin becomes darker/purple, dry, tight, and hairless\nIn severe cases may see venous insufficiency ulcers\nPatients may complain of leg heaviness, fatigue, or cramping\nUnlike\ncellulitis\n, erythema from venous stasis tends to change with dependent positioning of the affected limb",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Cellulitis\nDeep venous thrombosis\nCritical limb ischemia\nPeripheral artery disease\nRuptured Baker cyst\nSuperficial thrombophlebitis\nNecrotizing fasciitis\nCompartment syndrome\nComplex regional pain syndrome",
+      "subsections": {
+        "Unilateral_leg_swelling": {
+          "text": "Gravitational\nVenous stasis\nThrombophlebitis\nLymphedema\nMedications\nNSAIDS\nBirth control\nSteroids\nDeep venous thrombosis\n(uncomplicated)\nPhlegmasia alba dolens\nPhlegmasia cerulea dolens\nLeg or\nfoot infection\nCellulitis\nNecrotizing fasciitis\nSeptic Joint\nFracture\nCompartment syndrome\nLimb hypertrophy\nHypertrophy of soft tissue or bone (Klippel-Trenaunay syndrome)\nOvergrowth of body part (Proteus Syndrome)\nLipedema\nTumor\nPost-thrombotic Syndrome\nCauses of\nbilateral pedal edema\nCHF\nPretibial myxedema\nRenal failure\nLiver failure\nHypoalbuminemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Critical limb ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Ruptured Baker cyst",
+          "url": "https://wikem.org/wiki/Popliteal_(Baker)_Cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Complex regional pain syndrome",
+          "url": "https://wikem.org/wiki/Complex_regional_pain_syndrome"
+        },
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Lymphedema",
+          "url": "https://wikem.org/wiki/Lymphedema"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        },
+        {
+          "text": "Phlegmasia cerulea dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_cerulea_dolens"
+        },
+        {
+          "text": "foot infection",
+          "url": "https://wikem.org/wiki/Foot_infection"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Septic Joint",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "bilateral pedal edema",
+          "url": "https://wikem.org/wiki/Bilateral_pedal_edema"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pretibial myxedema",
+          "url": "https://wikem.org/wiki/Pretibial_myxedema"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        }
+      ]
+    },
+    "Unilateral_leg_swelling": {
+      "text": "Gravitational\nVenous stasis\nThrombophlebitis\nLymphedema\nMedications\nNSAIDS\nBirth control\nSteroids\nDeep venous thrombosis\n(uncomplicated)\nPhlegmasia alba dolens\nPhlegmasia cerulea dolens\nLeg or\nfoot infection\nCellulitis\nNecrotizing fasciitis\nSeptic Joint\nFracture\nCompartment syndrome\nLimb hypertrophy\nHypertrophy of soft tissue or bone (Klippel-Trenaunay syndrome)\nOvergrowth of body part (Proteus Syndrome)\nLipedema\nTumor\nPost-thrombotic Syndrome\nCauses of\nbilateral pedal edema\nCHF\nPretibial myxedema\nRenal failure\nLiver failure\nHypoalbuminemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Lymphedema",
+          "url": "https://wikem.org/wiki/Lymphedema"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        },
+        {
+          "text": "Phlegmasia cerulea dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_cerulea_dolens"
+        },
+        {
+          "text": "foot infection",
+          "url": "https://wikem.org/wiki/Foot_infection"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Septic Joint",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "bilateral pedal edema",
+          "url": "https://wikem.org/wiki/Bilateral_pedal_edema"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pretibial myxedema",
+          "url": "https://wikem.org/wiki/Pretibial_myxedema"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Duplex scan if suspicion for DVT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Limb elevation, compression, and increased exercise",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge\nConsiderations for admission to medicine or surgery for ulcers:\n[1]\nPatients with significant occlusive arterial disease require specialist assessment of the severity\nFor treatment of underlying medical problems such as rheumatoid arthritis, peripheral vascular disease, diabetes mellitus, etc.\nUlcers with mixed etiologies, diabetic ulcers\nSuspected malignant ulcers\nNonhealing ulcers (a minimum of at least 6 months of compression and local wound care followed by reassessment of venous function should be done before operative plastic surgical intervention is considered)\nRapid deterioration of the ulcer\nRecurrent ulcers\nReduced ABPI <0.8 or increased ABPI >1.0\nInfected foot\nIschemic foot",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "https://www.uptodate.com/contents/overview-and-management-of-lower-extremity-chronic-venous-disease?search=venous%20stasis&source=search_result&selectedTitle=1~150&usage_type=default&display_rank=1#H10",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "drug_name": "Vascular_ring",
+  "url": "https://wikem.org/wiki/Vascular_ring",
+  "scraped_at": "2026-01-10T08:04:55.460178",
+  "sections": {
+    "Background": {
+      "text": "Congenital anatomic abnormalities of the aortic arch\nCompression of the trachealbronchial tree and esophagus\nLeads to respiratory and GI symptoms.\nAccounts for 1-3 of congenital heart disease\nMale:Female 2:1",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Stridor\nRespiratory infections\nRespiratory distress\nWheezing\nCough\nLess common\nDysphagia\nFeeding difficulty\nVomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor_(Peds)"
+        },
+        {
+          "text": "Respiratory infections",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "Wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Feeding difficulty",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "<6_Months_Old": {
+          "text": "Laryngotracheomalacia\nAccounts for 60%\nUsually exacerbated by viral URI\nDiagnosed with flexible fiberoptic laryngoscopy\nVocal cord paralysis\nStridor associated with feeding problems, hoarse voice, weak and/or changing cry\nMay have cyanosis or apnea if bilateral (less common)\nSubglottic stenosis\nCongenital vs secondary to prolonged intubation in premies\nAirway hemangioma\nUsually regresses by age 5\nAssociated with skin hemangiomas in beard distribution\nVascular ring\n/sling",
+          "tables": []
+        },
+        ">6_Months_Old": {
+          "text": "Croup\nviral laryngotracheobronchitis\n6 mo - 3 yr, peaks at 2 yrs\nMost severe on 3rd-4th day of illness\nSteeple sign not reliable- diagnose clinically\nEpiglottitis\nH flu\ntype B\nHave higher suspicion in unvaccinated children\nRapid onset sore throat, fever, drooling\nDifficult airway- call anesthesia/ ENT early\nBacterial tracheitis\nRare but causes life-threatening obstruction\nSymptoms of croup + toxic-appearing = bacterial tracheitis\nForeign body\n(sudden onset)\nMarked variation in quality or pattern of stridor\nRetropharyngeal abscess\nFever, neck pain, dysphagia, muffled voice, drooling, neck stiffness/torticollis/extension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "H flu",
+          "url": "https://wikem.org/wiki/H_flu"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        }
+      ]
+    },
+    "Pediatric_stridor": {
+      "text": "",
+      "subsections": {
+        "<6_Months_Old": {
+          "text": "Laryngotracheomalacia\nAccounts for 60%\nUsually exacerbated by viral URI\nDiagnosed with flexible fiberoptic laryngoscopy\nVocal cord paralysis\nStridor associated with feeding problems, hoarse voice, weak and/or changing cry\nMay have cyanosis or apnea if bilateral (less common)\nSubglottic stenosis\nCongenital vs secondary to prolonged intubation in premies\nAirway hemangioma\nUsually regresses by age 5\nAssociated with skin hemangiomas in beard distribution\nVascular ring\n/sling",
+          "tables": []
+        },
+        ">6_Months_Old": {
+          "text": "Croup\nviral laryngotracheobronchitis\n6 mo - 3 yr, peaks at 2 yrs\nMost severe on 3rd-4th day of illness\nSteeple sign not reliable- diagnose clinically\nEpiglottitis\nH flu\ntype B\nHave higher suspicion in unvaccinated children\nRapid onset sore throat, fever, drooling\nDifficult airway- call anesthesia/ ENT early\nBacterial tracheitis\nRare but causes life-threatening obstruction\nSymptoms of croup + toxic-appearing = bacterial tracheitis\nForeign body\n(sudden onset)\nMarked variation in quality or pattern of stridor\nRetropharyngeal abscess\nFever, neck pain, dysphagia, muffled voice, drooling, neck stiffness/torticollis/extension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "H flu",
+          "url": "https://wikem.org/wiki/H_flu"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Unlikely to be definitively diagnosed in ED\nCXR\nNot sensitive, but good place to start\nBarium esophagography\nEchocardiography\nBronchoscopy, cardiac catheterization",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Surgical management for all symptomatic patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic or new diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Stridor (Peds)\nStridor\nCongenital heart disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stridor (Peds)",
+          "url": "https://wikem.org/wiki/Stridor_(Peds)"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        }
+      ]
+    }
+  }
+}

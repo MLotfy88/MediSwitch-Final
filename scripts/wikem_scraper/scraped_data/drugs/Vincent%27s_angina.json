@@ -1,0 +1,1180 @@
+{
+  "drug_name": "Vincent%27s_angina",
+  "url": "https://wikem.org/wiki/Vincent%27s_angina",
+  "scraped_at": "2026-01-10T08:05:07.846705",
+  "sections": {
+    "Background": {
+      "text": "Fusospirochetal infection of the pharynx and palatine tonsils, causing \"ulcero-membranous\npharyngitis\nand tonsillitis\"\n[1]\nSame pathogenic organisms as\nacute necrotizing ulcerative gingivitis\n(ANUG)\nVincent's angina is sometimes confused with\nANUG\n, but the former is tonsillitis and pharyngitis, and the latter involves the gums",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "ANUG",
+          "url": "https://wikem.org/wiki/ANUG"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Superficial ulceration and necrosis of the tonsils and pharynx that often results in formation of a pseudomembrane\nFoul smelling breath\nOdynophagia\nSubmandibular\nlymphadenopathy\nExudate\nPatients typically have poor oral hygiene",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[3]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        },
+        "Dentoalveolar_Injuries": {
+          "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+          "tables": []
+        },
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other_2": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        },
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Post-tonsillectomy hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental subluxation",
+          "url": "https://wikem.org/wiki/Dental_subluxation"
+        },
+        {
+          "text": "Dental avulsion",
+          "url": "https://wikem.org/wiki/Dental_avulsion"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        }
+      ]
+    },
+    "Acute_Sore_Throat": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[3]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        },
+        "Dentoalveolar_Injuries": {
+          "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+          "tables": []
+        },
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other_2": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        },
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Post-tonsillectomy hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental subluxation",
+          "url": "https://wikem.org/wiki/Dental_subluxation"
+        },
+        {
+          "text": "Dental avulsion",
+          "url": "https://wikem.org/wiki/Dental_avulsion"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        }
+      ]
+    },
+    "Dentoalveolar_Injuries": {
+      "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+      "subsections": {
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other_2": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        },
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental subluxation",
+          "url": "https://wikem.org/wiki/Dental_subluxation"
+        },
+        {
+          "text": "Dental avulsion",
+          "url": "https://wikem.org/wiki/Dental_avulsion"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        }
+      ]
+    },
+    "Odontogenic_Infections": {
+      "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+      "subsections": {
+        "Other_2": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        },
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        }
+      ]
+    },
+    "Other_2": {
+      "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+      "subsections": {
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        }
+      ]
+    },
+    "Oral_rashes_and_lesions": {
+      "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis based on clinical findings and gram stain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Organisms involved are polymycrobial but often include\nFusobacterium necrophorum\n,\nTreponema\n, Selenomonas, and Prevotella",
+      "subsections": {
+        "Uncomplicated_Disease": {
+          "text": "Amoxicillin\n250mg 3 x daily for 7 days\nAND/OR\nMetronidazole\n250mg 3 x daily for 7 days\n[4]",
+          "tables": []
+        },
+        "Complicated_Disease": {
+          "text": "Penicillin V\n500mg PO q6 hours\nPLUS\nmetronidazole\n500mg PO q8 hours x 10 days\nOR\nAmoxicillin\n500mg PO TID\nPLUS\nmetronidazole\n250mg PO TID for 10d\nOR\nAmoxicillin-clavulanate\n500mg/125mg PO TID or 875mg/125mg PO BID for 10d\nOR\nClindamycin\n150-300mg PO TID for 10d\nOR\nDoxycycline\n100mg PO BID for 10d\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fusobacterium necrophorum",
+          "url": "https://wikem.org/wiki/Fusobacterium_necrophorum"
+        },
+        {
+          "text": "Treponema",
+          "url": "https://wikem.org/wiki/Treponema_pallidum"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Uncomplicated_Disease": {
+      "text": "Amoxicillin\n250mg 3 x daily for 7 days\nAND/OR\nMetronidazole\n250mg 3 x daily for 7 days\n[4]",
+      "subsections": {
+        "Complicated_Disease": {
+          "text": "Penicillin V\n500mg PO q6 hours\nPLUS\nmetronidazole\n500mg PO q8 hours x 10 days\nOR\nAmoxicillin\n500mg PO TID\nPLUS\nmetronidazole\n250mg PO TID for 10d\nOR\nAmoxicillin-clavulanate\n500mg/125mg PO TID or 875mg/125mg PO BID for 10d\nOR\nClindamycin\n150-300mg PO TID for 10d\nOR\nDoxycycline\n100mg PO BID for 10d\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Complicated_Disease": {
+      "text": "Penicillin V\n500mg PO q6 hours\nPLUS\nmetronidazole\n500mg PO q8 hours x 10 days\nOR\nAmoxicillin\n500mg PO TID\nPLUS\nmetronidazole\n250mg PO TID for 10d\nOR\nAmoxicillin-clavulanate\n500mg/125mg PO TID or 875mg/125mg PO BID for 10d\nOR\nClindamycin\n150-300mg PO TID for 10d\nOR\nDoxycycline\n100mg PO BID for 10d\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acute necrotizing ulcerative gingivitis\nPharyngitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        }
+      ]
+    }
+  }
+}

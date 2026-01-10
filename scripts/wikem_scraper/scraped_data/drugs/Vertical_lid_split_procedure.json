@@ -1,0 +1,79 @@
+{
+  "drug_name": "Vertical_lid_split_procedure",
+  "url": "https://wikem.org/wiki/Vertical_lid_split_procedure",
+  "scraped_at": "2026-01-10T08:05:03.672325",
+  "sections": {
+    "Overview": {
+      "text": "The vertical lid split procedure is an alternative to the traditional\nlateral canthotomy\nand allows for equally effective and most likely easier method of orbital decompression.\n[1]\nOriginally described as a surgical approach for gaining anterior access to the orbit for patients with ocular tumors\n[2]\nthe process has less steps and less landmark distortions in patients with\norbital compartment syndrome\n. It is frequently performed for many ocular surgeries.\n[3]\nBy making an 5mm long incision through the upper and lower eyelid on the lateral third, the orbit can move more anteriorly and emergently relieve pressure caused by an retro-orbital hematoma.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lateral canthotomy",
+          "url": "https://wikem.org/wiki/Lateral_canthotomy"
+        },
+        {
+          "text": "orbital compartment syndrome",
+          "url": "https://wikem.org/wiki/Orbital_compartment_syndrome"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Orbital compartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Orbital compartment syndrome",
+          "url": "https://wikem.org/wiki/Orbital_compartment_syndrome"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Globe rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "Foreceps\nIris Scissors\nSedation (if time permits)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "A full-thickness vertical incision using iris scissors is made at the junction of the lateral 1/3 of the upper and lower eyelid. The incision should be 5mm long.\nAlthough incision through the eyelid seems harmful, it. is easily repaired similarly to the ease of repairing the lateral canthus.\nThe modified paracanthal or\n“one-snip” procedure\nfollows the same vertical incision through the upper or lower eyelid rather than through both top and bottom.\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Incomplete incision through the eyelid\nIatrogenic globe or surrounding structure injury (rare)\nBleeding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Canthotomy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Canthotomy",
+          "url": "https://wikem.org/wiki/Canthotomy"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Emcrit - Orbital Compartment Syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

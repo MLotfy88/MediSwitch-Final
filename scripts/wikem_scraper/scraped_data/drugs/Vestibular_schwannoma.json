@@ -1,0 +1,534 @@
+{
+  "drug_name": "Vestibular_schwannoma",
+  "url": "https://wikem.org/wiki/Vestibular_schwannoma",
+  "scraped_at": "2026-01-10T08:05:05.028468",
+  "sections": {
+    "Background": {
+      "text": "As known as \"acoustic neuroma\"\nSchwann cell derived tumor of\ncranial nerve\nVIII\nTypically arise from vestibular division of CN VIII--> expands--> projects from internal auditory canal into cerebellopontine angle--> compresses CN VII and VIII\nLess commonly, can continue to enlarge and compress cerebellum, brain stem, and CN V, IX, and/or XII",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cranial nerve",
+          "url": "https://wikem.org/wiki/Cranial_nerve"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Hearing loss\n, sensorineural, slowly progressive or abrupt\nVertigo\n/dysequilibrium\nTinnitus\n, unilateral\nOtalgia\nor sensation of ear fullness/pressure\nFacial weakness\nor\nnumbness\nif facial nerve involvement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "Otalgia",
+          "url": "https://wikem.org/wiki/Otalgia"
+        },
+        {
+          "text": "Facial weakness",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vertigo": {
+          "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+          "tables": []
+        },
+        "Sensorineural_hearing_loss": {
+          "text": "Sudden Sensorineural Hearing Loss (SSHL)\nInfections: (\nMeningitis\n, Viral cochleitis)\nBarotrauma\nPenetrating trauma\nMeniere Disease\nAutoimmune disease\nMultiple Sclerosis\nCerebrovascular ischemia\nTumors (\nAcoustic neuroma\n, Meningioma)\nHereditary hearing loss\nCongenital\nviral infections\nCongenital malformations\nPresbycusis\nThyrotoxicosis\nOtotoxic drugs:\nAminoglycosides\n,\nErythromycin\n,\nTetracycline\n, chemotherapeutic agents, high-dose\naspirin\n, phosphodiesterase-5 inhibitors (e.g.\nsildenafil\n,\nantimalarial\ndrugs,\nCocaine\n,\nHeavy Metals\nOtologic surgery\nNoise exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Sudden Sensorineural Hearing Loss (SSHL)",
+          "url": "https://wikem.org/wiki/Sudden_Sensorineural_Hearing_Loss_(SSHL)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Penetrating trauma",
+          "url": "https://wikem.org/wiki/Neck_Trauma"
+        },
+        {
+          "text": "Meniere Disease",
+          "url": "https://wikem.org/wiki/Meniere_Disease"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Cerebrovascular ischemia",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Acoustic neuroma",
+          "url": "https://wikem.org/wiki/Acoustic_neuroma"
+        },
+        {
+          "text": "viral infections",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "antimalarial",
+          "url": "https://wikem.org/wiki/Antimalarial"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Heavy Metals",
+          "url": "https://wikem.org/wiki/Heavy_Metals"
+        }
+      ]
+    },
+    "Vertigo": {
+      "text": "Vestibular/otologic\nBenign paroxysmal positional vertigo\n(BPPV)\nTraumatic\n(following head injury)\nInfection\nLabyrinthitis\nVestibular neuritis\nRamsay Hunt syndrome\nMénière's disease\nEar foreign body\nOtic barotrauma\nOtosclerosis\nNeurologic\nCerebellar stroke\nVertebrobasilar insufficiency\nLateral\nWallenberg syndrome\nAnterior inferior cerebellar artery syndrome\nNeoplastic: cerebellopontine angle tumors\nBasal ganglion diseases\nVertebral Artery Dissection\nMultiple sclerosis\nInfections:\nneurosyphilis\n,\ntuberculosis\nEpilepsy\nMigraine\n(basilar)\nOther\nHematologic:\nanemia\n,\npolycythemia\n,\nhyperviscosity syndrome\nToxic\nAlcohol\nAminoglycosides\nChronic\nrenal failure\nMetabolic\nThyroid Disease\nHypoglycemia",
+      "subsections": {
+        "Sensorineural_hearing_loss": {
+          "text": "Sudden Sensorineural Hearing Loss (SSHL)\nInfections: (\nMeningitis\n, Viral cochleitis)\nBarotrauma\nPenetrating trauma\nMeniere Disease\nAutoimmune disease\nMultiple Sclerosis\nCerebrovascular ischemia\nTumors (\nAcoustic neuroma\n, Meningioma)\nHereditary hearing loss\nCongenital\nviral infections\nCongenital malformations\nPresbycusis\nThyrotoxicosis\nOtotoxic drugs:\nAminoglycosides\n,\nErythromycin\n,\nTetracycline\n, chemotherapeutic agents, high-dose\naspirin\n, phosphodiesterase-5 inhibitors (e.g.\nsildenafil\n,\nantimalarial\ndrugs,\nCocaine\n,\nHeavy Metals\nOtologic surgery\nNoise exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Traumatic",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Ramsay Hunt syndrome",
+          "url": "https://wikem.org/wiki/Ramsay_Hunt_syndrome"
+        },
+        {
+          "text": "Ménière's disease",
+          "url": "https://wikem.org/wiki/M%C3%A9ni%C3%A8re%27s_disease"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Cerebellar stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_stroke"
+        },
+        {
+          "text": "Vertebrobasilar insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Wallenberg syndrome",
+          "url": "https://wikem.org/wiki/Wallenberg_syndrome"
+        },
+        {
+          "text": "Vertebral Artery Dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_Disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Sudden Sensorineural Hearing Loss (SSHL)",
+          "url": "https://wikem.org/wiki/Sudden_Sensorineural_Hearing_Loss_(SSHL)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Penetrating trauma",
+          "url": "https://wikem.org/wiki/Neck_Trauma"
+        },
+        {
+          "text": "Meniere Disease",
+          "url": "https://wikem.org/wiki/Meniere_Disease"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Cerebrovascular ischemia",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Acoustic neuroma",
+          "url": "https://wikem.org/wiki/Acoustic_neuroma"
+        },
+        {
+          "text": "viral infections",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "antimalarial",
+          "url": "https://wikem.org/wiki/Antimalarial"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Heavy Metals",
+          "url": "https://wikem.org/wiki/Heavy_Metals"
+        }
+      ]
+    },
+    "Sensorineural_hearing_loss": {
+      "text": "Sudden Sensorineural Hearing Loss (SSHL)\nInfections: (\nMeningitis\n, Viral cochleitis)\nBarotrauma\nPenetrating trauma\nMeniere Disease\nAutoimmune disease\nMultiple Sclerosis\nCerebrovascular ischemia\nTumors (\nAcoustic neuroma\n, Meningioma)\nHereditary hearing loss\nCongenital\nviral infections\nCongenital malformations\nPresbycusis\nThyrotoxicosis\nOtotoxic drugs:\nAminoglycosides\n,\nErythromycin\n,\nTetracycline\n, chemotherapeutic agents, high-dose\naspirin\n, phosphodiesterase-5 inhibitors (e.g.\nsildenafil\n,\nantimalarial\ndrugs,\nCocaine\n,\nHeavy Metals\nOtologic surgery\nNoise exposure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sudden Sensorineural Hearing Loss (SSHL)",
+          "url": "https://wikem.org/wiki/Sudden_Sensorineural_Hearing_Loss_(SSHL)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Penetrating trauma",
+          "url": "https://wikem.org/wiki/Neck_Trauma"
+        },
+        {
+          "text": "Meniere Disease",
+          "url": "https://wikem.org/wiki/Meniere_Disease"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Cerebrovascular ischemia",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Acoustic neuroma",
+          "url": "https://wikem.org/wiki/Acoustic_neuroma"
+        },
+        {
+          "text": "viral infections",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "antimalarial",
+          "url": "https://wikem.org/wiki/Antimalarial"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Heavy Metals",
+          "url": "https://wikem.org/wiki/Heavy_Metals"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Brain MRI\nOutpatient audiogram",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Brain MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Typically monitored without resection unless rapidly growing or bothersome symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hearing loss",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        }
+      ]
+    }
+  }
+}

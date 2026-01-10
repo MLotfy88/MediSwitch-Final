@@ -1,0 +1,257 @@
+{
+  "drug_name": "Verapamil",
+  "url": "https://wikem.org/wiki/Verapamil",
+  "scraped_at": "2026-01-10T08:05:04.914290",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nCalcium channel blocker\nDosage Forms:\nRoutes of Administration: IV, PO\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium channel blocker",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Atrial fibrillation\n, paroxysmal\nSVT\nIV: 5-10mg (0.075-0.15 mg/kg), may give an initial 10mg IV after 30 minutes if inadequate response\nPO: 240-48 mg daily in 3-4 divided doses\nAngina, hypertension: 80-120mg PO 3 times per day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Afib\n/\nflutter\n,\nSVT\nIV 0.1-0.2 (<1yo) or 0.1-0.3 (>1yo) mg/kg. Repeat after 30 minutes if inadequate response\nPO: 4-10 mg/kg/day in 3 divided doses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "flutter",
+          "url": "https://wikem.org/wiki/Flutter"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category C, verapapmil crosses the placenta and can cause adverse fetal effects such as heart block, hypotension, and bradycardia\nLactation risk\n: Present in breast milk with relative infant dose of <1% which is considered safe for the infant.\nRenal dosing: Can accumulate causing increased effects, monitor closely and consider lowering dose.\nHepatic dosing: 20-50% of normal dose",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAfib/flutter associated with accessory bypass tract, e.g.\nWPW\n,\nLown-Ganong-Levine syndrome\nCardiogenic shock\n,\nhypotension\n, EF <30%\n2nd or 3rd degree\nAV block\n,\nsick sinus syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Lown-Ganong-Levine syndrome",
+          "url": "https://wikem.org/wiki/Lown-Ganong-Levine_syndrome"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "AV block\nMI\nPulmonary edema",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypotension\nEdema\nURI\nor\nflu-like symptoms\nDizziness\n,\nheadache\nConstipation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "flu-like symptoms",
+          "url": "https://wikem.org/wiki/Flu-like_symptoms"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "AV block\nMI\nPulmonary edema",
+      "subsections": {
+        "Common": {
+          "text": "Hypotension\nEdema\nURI\nor\nflu-like symptoms\nDizziness\n,\nheadache\nConstipation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "flu-like symptoms",
+          "url": "https://wikem.org/wiki/Flu-like_symptoms"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Hypotension\nEdema\nURI\nor\nflu-like symptoms\nDizziness\n,\nheadache\nConstipation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "flu-like symptoms",
+          "url": "https://wikem.org/wiki/Flu-like_symptoms"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4-20 hours\nMetabolism: Hepatic-\nP450\nCYP3A4, CYP1A2, CYP2C8, CYP2C9 and CYP2C18\nExcretion: Renal primarily. Not dialyzable",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "P450",
+          "url": "https://wikem.org/wiki/P450"
+        }
+      ]
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits L-type (slow) calcium channels, blocking influx of calcium into myocardial cells\nReduces systemic vascular resistance, vasodiolates peripheral arteries",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Calcium channel blockers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium channel blockers",
+          "url": "https://wikem.org/wiki/Calcium_channel_blockers"
+        }
+      ]
+    }
+  }
+}

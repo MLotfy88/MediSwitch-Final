@@ -1,0 +1,32 @@
+{
+  "drug_name": "Vibrio_species",
+  "url": "https://wikem.org/wiki/Vibrio_species",
+  "scraped_at": "2026-01-10T08:05:08.978119",
+  "sections": {
+    "Intro": {
+      "text": "Vibrio cholerae\nVibrio vulnificus\nVibrio parahemolyticus\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Vibrio_species": {
+      "text": "Vibrio cholerae\nVibrio vulnificus\nVibrio parahemolyticus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Vibrio vulnificus",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificus"
+        },
+        {
+          "text": "Vibrio parahemolyticus",
+          "url": "https://wikem.org/wiki/Vibrio_parahemolyticus"
+        }
+      ]
+    }
+  }
+}

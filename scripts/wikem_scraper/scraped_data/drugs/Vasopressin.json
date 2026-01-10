@@ -1,0 +1,143 @@
+{
+  "drug_name": "Vasopressin",
+  "url": "https://wikem.org/wiki/Vasopressin",
+  "scraped_at": "2026-01-10T08:04:56.460018",
+  "sections": {
+    "General": {
+      "text": "Type:\nVasopressors\nDosage Forms:\nCommon Trade Names: Vasostrict (USA)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Dosing": {
+          "text": "0.01-0.04 units/min (typically 0.03 or 0.04 U/min)",
+          "tables": []
+        },
+        "Rate_of_Titration": {
+          "text": "Fixed dose (do not titrate)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dosing": {
+      "text": "0.01-0.04 units/min (typically 0.03 or 0.04 U/min)",
+      "subsections": {
+        "Rate_of_Titration": {
+          "text": "Fixed dose (do not titrate)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rate_of_Titration": {
+      "text": "Fixed dose (do not titrate)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "0.0002–0.008 U/kg/min have been studied although no current consensus on dosage\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation:\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Bradycardia\nLimb ischemia\nMyocardial ischemia\nSplanchnic ischemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: <20 minutes\n[2]\nMetabolism:  liver, kidney extensively; CYP450: unknown\nExcretion:  urine (5-6% unchanged)\nMechanism of Action: \"directly stimulates V1 and V2 receptors, resulting in vasoconstriction and antidiuresis\"\n[3]",
+      "subsections": {
+        "Primary_Receptor": {
+          "text": "V1",
+          "tables": []
+        },
+        "Relative_Effects": {
+          "text": "↑SVR\n↓HR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Primary_Receptor": {
+      "text": "V1",
+      "subsections": {
+        "Relative_Effects": {
+          "text": "↑SVR\n↓HR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Relative_Effects": {
+      "text": "↑SVR\n↓HR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Notes": {
+      "text": "Adverse effects are dose-dependent\nActs on V1 receptors leading to ↑vasoconstriction and\n↑sensitivity to catecholamines in patients with shock\nin contrast to catecholamine vasopressors (e.g.\nepinephrine\n,\nnorepinephrine\n), vasopressin does not lose efficacy at low pH",
+      "subsections": {
+        "Indication": {
+          "text": "Adjunct for septic shock VASST trial\n[4]\nno difference in mortality when vasopressin was added as second line pressor compared to norepinephrine\nsubgroup analysis found that patients with less severe septic shock did better with vasopressin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        }
+      ]
+    },
+    "Indication": {
+      "text": "Adjunct for septic shock VASST trial\n[4]\nno difference in mortality when vasopressin was added as second line pressor compared to norepinephrine\nsubgroup analysis found that patients with less severe septic shock did better with vasopressin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "http://www.atsjournals.org/doi/abs/10.1164/rccm.201006-0972CI?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed#readcube-epdf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "drug_name": "Ventriculoperitoneal_shunt_mechanical_failure",
+  "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_mechanical_failure",
+  "scraped_at": "2026-01-10T08:05:03.787149",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Causes": {
+          "text": "Fracture of tubing\nOccurs many years after shunt placement in distal tubing\nMay present with mild symptoms of increased ICP and local symptoms of pain, erythema, edema\nDisconnection\nOccurs shortly after insertion\nMigration\nPresents as shunt failure\nMisplacement\nUsually manifests postoperatively",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Fracture of tubing\nOccurs many years after shunt placement in distal tubing\nMay present with mild symptoms of increased ICP and local symptoms of pain, erythema, edema\nDisconnection\nOccurs shortly after insertion\nMigration\nPresents as shunt failure\nMisplacement\nUsually manifests postoperatively",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Shunt fractures may present with localized symptoms over the area (pain, erythema, fluid at skin)\nFeatures of\nelevated ICP\nBulging fontanelles\nin infants\nIrritability,\nlethargy\nHeadache\nNausea/vomiting\n, poor feeding\nSeizure\nCushing's triad",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "Bulging fontanelles",
+          "url": "https://wikem.org/wiki/Bulging_fontanelle"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Ventriculoperitoneal_shunt_problems": {
+          "text": "Ventriculoperitoneal shunt obstruction\nVentriculoperitoneal shunt overdrainage\n(Slit Ventricle Syndrome)\nVentriculoperitoneal shunt infection\nVentriculoperitoneal shunt mechanical failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt obstruction",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_obstruction"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt overdrainage",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_overdrainage"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt infection",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_infection"
+        }
+      ]
+    },
+    "Ventriculoperitoneal_shunt_problems": {
+      "text": "Ventriculoperitoneal shunt obstruction\nVentriculoperitoneal shunt overdrainage\n(Slit Ventricle Syndrome)\nVentriculoperitoneal shunt infection\nVentriculoperitoneal shunt mechanical failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt obstruction",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_obstruction"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt overdrainage",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_overdrainage"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt infection",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_infection"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Shunt series (AP and lateral x=rays of skull, AP x-rays of\nchest\nand\nabdomen\n)\nConsider\nCT head\n24% of patients with documented shunt malfunction may show no radiologic evidence of the malfunction on plain films or CT\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chest",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "abdomen",
+          "url": "https://wikem.org/wiki/KUB"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Neurosurgery consult\nIf critically high ICP and no neurosurgeon available, may need to tap shunt as temporizing measure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ventriculoperitoneal shunt problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt problems",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_problems"
+        }
+      ]
+    }
+  }
+}

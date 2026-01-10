@@ -1,0 +1,63 @@
+{
+  "drug_name": "Vestibular_papillomatosis",
+  "url": "https://wikem.org/wiki/Vestibular_papillomatosis",
+  "scraped_at": "2026-01-10T08:05:04.180178",
+  "sections": {
+    "Background": {
+      "text": "Normal anatomical variant commonly mistaken for genital warts/herpes\nBenign and asymptomatic, present in ~1% of women",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Linear, pink,\npapules\nsymmetrically on the inner aspect of labia minora\nPapules are easily separated at the base",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "papules",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Condyloma Acuminata\nVulvar neoplasia\nGenital herpes\n[[Condylomata lata",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Condyloma Acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_Acuminata"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Usually clinical\nContrast with others:\nCondyloma acuminata lesions extend outside the vestibule and fuse at the base\nVulvar neoplasia has variable presentations but most likely to present as one unique patch - decision to refer for biopsy depends on clinical presentation\nGenital herpes usually presents with itch, progression from erythematous to vesicular lesions, then rupture forming superficial ulcers\nCondylomata lata typically involves labia majora and anus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Normal variant",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Camilla Salvini, MD and Angelina De Magnis, MD. Multiple papillae on labia minora. CMAJ. 2008 Oct 7; 179(8): 799–800.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

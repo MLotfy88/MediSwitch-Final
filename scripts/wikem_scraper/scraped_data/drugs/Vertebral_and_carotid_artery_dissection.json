@@ -1,0 +1,529 @@
+{
+  "drug_name": "Vertebral_and_carotid_artery_dissection",
+  "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection",
+  "scraped_at": "2026-01-10T08:05:04.716893",
+  "sections": {
+    "Background": {
+      "text": "Primarily categorized as Spontaneous vs. Traumatic/mechanical\nMost frequent cause of\nCVA\nin young and middle-aged patients (median age - 40yrs)\nHistory pearls\nSymptoms may be transient or persistent\nConsider in trauma patient who has neurologic deficits despite normal head CT\nConsider in patient with CVA +\nneck pain\nPathophysiology: Dissection of arterial vessel wall results in false lumen formation, leading to lumen stenosis and exposure of platelet aggregation factors ---> local thrombus formation ---> possible thromboembolism to intracranial vessels\nLess commonly, dissection of thinner intracranial arteries may lead to SAH through vessel rupture",
+      "subsections": {
+        "Anatomy": {
+          "text": "Vertebral artery comes off the subclavian and runs upward through the formina in the transverses processes of C6 to C2.",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Any mechanical event involving neck; symptoms typically occur 2-3 days after event\nNeck trauma\n(often minor)\nCervical manipulation\nCoughing/sneezing, vigorous exercise, weightlifting, intercourse, etc\nConnective tissue disease\nHistory of\nmigraine\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "Neck trauma",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Anatomy": {
+      "text": "Vertebral artery comes off the subclavian and runs upward through the formina in the transverses processes of C6 to C2.",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Any mechanical event involving neck; symptoms typically occur 2-3 days after event\nNeck trauma\n(often minor)\nCervical manipulation\nCoughing/sneezing, vigorous exercise, weightlifting, intercourse, etc\nConnective tissue disease\nHistory of\nmigraine\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Neck trauma",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Any mechanical event involving neck; symptoms typically occur 2-3 days after event\nNeck trauma\n(often minor)\nCervical manipulation\nCoughing/sneezing, vigorous exercise, weightlifting, intercourse, etc\nConnective tissue disease\nHistory of\nmigraine\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neck trauma",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Internal_Carotid_Dissection": {
+          "text": "Unilateral\nheadache\n, face pain, anterior\nneck pain\nPain can precede other symptoms by hours-days (median 4d)\nHeadache most commonly is frontotemporal; severity may mimic SAH or preexisting migraine\nCranial nerve palsies\nVision loss\nPartial\nHorner syndrome\n(miosis and ptosis) in 50% of cases\nSymptoms of\nStroke\n,\nTransient ischemic attack",
+          "tables": []
+        },
+        "Vertebral_Artery_Dissection": {
+          "text": "Posterior\nneck pain\n,\nheadache\nMay be unilateral or bilateral\nHeadache is typically occipital\nUnilateral facial\nparesthesia\nDizziness\nor\nVertigo\nNausea/vomiting\nDiplopia\n,\nnystagmus\n, and other visual disturbances\nAtaxia\nLateral Medullary Syndrome\nseen in up to 20% of cases of VAD\n[2]\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "Cranial nerve palsies",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Transient ischemic attack",
+          "url": "https://wikem.org/wiki/Transient_ischemic_attack"
+        },
+        {
+          "text": "neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "paresthesia",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Lateral Medullary Syndrome",
+          "url": "https://wikem.org/wiki/Lateral_Medullary_Syndrome"
+        }
+      ]
+    },
+    "Internal_Carotid_Dissection": {
+      "text": "Unilateral\nheadache\n, face pain, anterior\nneck pain\nPain can precede other symptoms by hours-days (median 4d)\nHeadache most commonly is frontotemporal; severity may mimic SAH or preexisting migraine\nCranial nerve palsies\nVision loss\nPartial\nHorner syndrome\n(miosis and ptosis) in 50% of cases\nSymptoms of\nStroke\n,\nTransient ischemic attack",
+      "subsections": {
+        "Vertebral_Artery_Dissection": {
+          "text": "Posterior\nneck pain\n,\nheadache\nMay be unilateral or bilateral\nHeadache is typically occipital\nUnilateral facial\nparesthesia\nDizziness\nor\nVertigo\nNausea/vomiting\nDiplopia\n,\nnystagmus\n, and other visual disturbances\nAtaxia\nLateral Medullary Syndrome\nseen in up to 20% of cases of VAD\n[2]\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "Cranial nerve palsies",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Transient ischemic attack",
+          "url": "https://wikem.org/wiki/Transient_ischemic_attack"
+        },
+        {
+          "text": "neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "paresthesia",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Lateral Medullary Syndrome",
+          "url": "https://wikem.org/wiki/Lateral_Medullary_Syndrome"
+        }
+      ]
+    },
+    "Vertebral_Artery_Dissection": {
+      "text": "Posterior\nneck pain\n,\nheadache\nMay be unilateral or bilateral\nHeadache is typically occipital\nUnilateral facial\nparesthesia\nDizziness\nor\nVertigo\nNausea/vomiting\nDiplopia\n,\nnystagmus\n, and other visual disturbances\nAtaxia\nLateral Medullary Syndrome\nseen in up to 20% of cases of VAD\n[2]\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "paresthesia",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Lateral Medullary Syndrome",
+          "url": "https://wikem.org/wiki/Lateral_Medullary_Syndrome"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Neck_Trauma": {
+          "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Neck_Trauma": {
+      "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Consider noncontrast CTH to assess for concomitant SAH\nDenver screening criteria is one way to evaluate for blunt cerebrovascular injury (BCVI)\nIf positive findings on screening → obtain CTA or MRA (CTA has been shown to be equivalent to MRA)\n[4]",
+      "subsections": {
+        "Denver_screening_criteria_for_blunt_cerebrovascular_injury": {
+          "text": "The\nDenver Screening Criteria\nare divided into risk factors and signs and symptoms",
+          "tables": []
+        },
+        "Signs_and_Symptoms": {
+          "text": "Arterial hemorrhage\nCervical bruit\nExpanding neck hematoma\nFocal neurologic deficit\nNeuro exam inconsistent with head CT\nStroke on head CT",
+          "tables": []
+        },
+        "Risk_Factors_2": {
+          "text": "Midface Fractures\n(Le Fort II or III)\nBasilar Skull Fracture with carotid canal involvement\nDiffuse axonal injury with GCS<6\nCervical spine fracture\nHanging with anoxic brain injury\nSeat belt abrasion or other soft tissue injury of the anterior neck resulting in significant swelling or altered mental status\nIsolated seatbelt sign without other neurologic symptoms has not been identified as a risk factor\n[5]\n[6]\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Denver Screening Criteria",
+          "url": "https://wikem.org/wiki/Denver_Screening_Criteria"
+        },
+        {
+          "text": "Midface Fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        }
+      ]
+    },
+    "Denver_screening_criteria_for_blunt_cerebrovascular_injury": {
+      "text": "The\nDenver Screening Criteria\nare divided into risk factors and signs and symptoms",
+      "subsections": {
+        "Signs_and_Symptoms": {
+          "text": "Arterial hemorrhage\nCervical bruit\nExpanding neck hematoma\nFocal neurologic deficit\nNeuro exam inconsistent with head CT\nStroke on head CT",
+          "tables": []
+        },
+        "Risk_Factors_2": {
+          "text": "Midface Fractures\n(Le Fort II or III)\nBasilar Skull Fracture with carotid canal involvement\nDiffuse axonal injury with GCS<6\nCervical spine fracture\nHanging with anoxic brain injury\nSeat belt abrasion or other soft tissue injury of the anterior neck resulting in significant swelling or altered mental status\nIsolated seatbelt sign without other neurologic symptoms has not been identified as a risk factor\n[5]\n[6]\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Denver Screening Criteria",
+          "url": "https://wikem.org/wiki/Denver_Screening_Criteria"
+        },
+        {
+          "text": "Midface Fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Anticoagulation\n(prevents clot propagation along dissecting lumen) followed by vascular repair is the generally accepted treatment.\n[8]\nObtain emergent vascular surgery or neuro-interventionalist consult for possible endovascular intervention, including mechanical thrombectomy and/or angioplasty or stenting of dissected artery",
+      "subsections": {
+        "tPA": {
+          "text": "Do not give if dissection enters the skull (ie Intracranial), due to risk of SAH or ICH\nDo not give if aorta is involved; may worsen dissection\nOtherwise, give according to same guidelines as for ischemic CVA (see\nCVA (tPA)\n)\nIn a limited meta-analysis, thrombolytics appear equally efficacious in patients presenting with ischemic stroke due to cervical artery dissection vs ischemic stroke from other causes\n[9]",
+          "tables": []
+        },
+        "Antiplatelet_vs_Anticoagulation_Therapy": {
+          "text": "Very controversial with poor data\nSpecific anticoagulation vs antiplatelet therapy is listed below based on expert consensus and theoretical risks\nHeparin\n: If dissection causes neuro deficits and is EXTRACRANIAL\n[10]\nAspirin\n: If dissection is INTRACRANIAL\n[11]\nAnticoagulants are avoided due to the weaker medial walls of intracranial vessels that have a higher theoretical risk for bleeding\nAspirin: If dissection is extracranial but no neuro deficit, for prevention of thromboembolic event\nIn a small RCT study, there is no significant difference between antiplatelets vs anticoagulation in preventing subsequent stroke/death due to carotid/vertebral dissection\n[12]\nIf tPA was given, wait 24hr before starting antiplatelet therapy\nDo not give if NIHSS score ≥ 15 (risk of hemorrhagic transformation)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "CVA (tPA)",
+          "url": "https://wikem.org/wiki/CVA_(tPA)"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        }
+      ]
+    },
+    "tPA": {
+      "text": "Do not give if dissection enters the skull (ie Intracranial), due to risk of SAH or ICH\nDo not give if aorta is involved; may worsen dissection\nOtherwise, give according to same guidelines as for ischemic CVA (see\nCVA (tPA)\n)\nIn a limited meta-analysis, thrombolytics appear equally efficacious in patients presenting with ischemic stroke due to cervical artery dissection vs ischemic stroke from other causes\n[9]",
+      "subsections": {
+        "Antiplatelet_vs_Anticoagulation_Therapy": {
+          "text": "Very controversial with poor data\nSpecific anticoagulation vs antiplatelet therapy is listed below based on expert consensus and theoretical risks\nHeparin\n: If dissection causes neuro deficits and is EXTRACRANIAL\n[10]\nAspirin\n: If dissection is INTRACRANIAL\n[11]\nAnticoagulants are avoided due to the weaker medial walls of intracranial vessels that have a higher theoretical risk for bleeding\nAspirin: If dissection is extracranial but no neuro deficit, for prevention of thromboembolic event\nIn a small RCT study, there is no significant difference between antiplatelets vs anticoagulation in preventing subsequent stroke/death due to carotid/vertebral dissection\n[12]\nIf tPA was given, wait 24hr before starting antiplatelet therapy\nDo not give if NIHSS score ≥ 15 (risk of hemorrhagic transformation)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA (tPA)",
+          "url": "https://wikem.org/wiki/CVA_(tPA)"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        }
+      ]
+    },
+    "Antiplatelet_vs_Anticoagulation_Therapy": {
+      "text": "Very controversial with poor data\nSpecific anticoagulation vs antiplatelet therapy is listed below based on expert consensus and theoretical risks\nHeparin\n: If dissection causes neuro deficits and is EXTRACRANIAL\n[10]\nAspirin\n: If dissection is INTRACRANIAL\n[11]\nAnticoagulants are avoided due to the weaker medial walls of intracranial vessels that have a higher theoretical risk for bleeding\nAspirin: If dissection is extracranial but no neuro deficit, for prevention of thromboembolic event\nIn a small RCT study, there is no significant difference between antiplatelets vs anticoagulation in preventing subsequent stroke/death due to carotid/vertebral dissection\n[12]\nIf tPA was given, wait 24hr before starting antiplatelet therapy\nDo not give if NIHSS score ≥ 15 (risk of hemorrhagic transformation)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "CVA\nRisk of stroke or recurrent stroke is highest in the first 24hr after dissection\nSAH\n(if dissection extends intracranially)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Blunt neck trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        }
+      ]
+    }
+  }
+}

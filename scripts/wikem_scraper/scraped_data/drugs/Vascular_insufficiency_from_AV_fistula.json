@@ -1,0 +1,200 @@
+{
+  "drug_name": "Vascular_insufficiency_from_AV_fistula",
+  "url": "https://wikem.org/wiki/Vascular_insufficiency_from_AV_fistula",
+  "scraped_at": "2026-01-10T08:04:56.593528",
+  "sections": {
+    "Background": {
+      "text": "Steal syndrome = Distal hypoperfusion ischemic syndrome\n[1]\nHigher risk with more proximal fistulas\n[2]\n10–25% of brachiocephalic and basilic artery fistulas\n4.3–6% of forearm prosthetic implants\n1–1.8% of radiocephalic fistulas\nClassically elderly woman with DM\nPatietn history may include revascularization or banding efforts that re-stenose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Distal extremity becomes ischemic due shunting of arterial blood to venous side\nExercise pain, nonhealing ulcers, cool, pulseless digits\n4 Stages\nStage I: pale/blue and/or cold hand without pain\nStage II: pain during exercise and/or hemodialysis\nStage III: rest pain\nStage IV: ulcers/necrosis/gangrene",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "AV_Fistula_Complications": {
+          "text": "Clotting of AV fistula\nInfection of AV fistula\nHemorrhage of AV fistula\nVascular insufficiency from AV fistula\nAV fistula aneurysm/pseudoaneurysm\nHigh-output heart failure from AV fistula",
+          "tables": []
+        },
+        "Blue_Digit": {
+          "text": "Acute arterial ischemia\nAtheroembolism (AKA Blue Toe Syndrome)\nArterial embolism\nArterial thrombosis\nVasospastic Disorders\nRaynaud’s disease\nPrimary erythromelalgia\nAutoimmune\nScleroderma\nSLE\nIdiopathic\nThromboangiitis obliterans\n(Buerger's disease)\nChronic\nperipheral artery disease\nAtherosclerosis obliterans",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotting of AV fistula",
+          "url": "https://wikem.org/wiki/Clotting_of_AV_fistula"
+        },
+        {
+          "text": "Infection of AV fistula",
+          "url": "https://wikem.org/wiki/Infection_of_AV_fistula"
+        },
+        {
+          "text": "Hemorrhage of AV fistula",
+          "url": "https://wikem.org/wiki/Hemorrhage_of_AV_fistula"
+        },
+        {
+          "text": "AV fistula aneurysm/pseudoaneurysm",
+          "url": "https://wikem.org/wiki/AV_fistula_aneurysm/pseudoaneurysm"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Raynaud’s disease",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        }
+      ]
+    },
+    "AV_Fistula_Complications": {
+      "text": "Clotting of AV fistula\nInfection of AV fistula\nHemorrhage of AV fistula\nVascular insufficiency from AV fistula\nAV fistula aneurysm/pseudoaneurysm\nHigh-output heart failure from AV fistula",
+      "subsections": {
+        "Blue_Digit": {
+          "text": "Acute arterial ischemia\nAtheroembolism (AKA Blue Toe Syndrome)\nArterial embolism\nArterial thrombosis\nVasospastic Disorders\nRaynaud’s disease\nPrimary erythromelalgia\nAutoimmune\nScleroderma\nSLE\nIdiopathic\nThromboangiitis obliterans\n(Buerger's disease)\nChronic\nperipheral artery disease\nAtherosclerosis obliterans",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotting of AV fistula",
+          "url": "https://wikem.org/wiki/Clotting_of_AV_fistula"
+        },
+        {
+          "text": "Infection of AV fistula",
+          "url": "https://wikem.org/wiki/Infection_of_AV_fistula"
+        },
+        {
+          "text": "Hemorrhage of AV fistula",
+          "url": "https://wikem.org/wiki/Hemorrhage_of_AV_fistula"
+        },
+        {
+          "text": "AV fistula aneurysm/pseudoaneurysm",
+          "url": "https://wikem.org/wiki/AV_fistula_aneurysm/pseudoaneurysm"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Raynaud’s disease",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        }
+      ]
+    },
+    "Blue_Digit": {
+      "text": "Acute arterial ischemia\nAtheroembolism (AKA Blue Toe Syndrome)\nArterial embolism\nArterial thrombosis\nVasospastic Disorders\nRaynaud’s disease\nPrimary erythromelalgia\nAutoimmune\nScleroderma\nSLE\nIdiopathic\nThromboangiitis obliterans\n(Buerger's disease)\nChronic\nperipheral artery disease\nAtherosclerosis obliterans",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Raynaud’s disease",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Initial diagnosis is clinical\nConfirmation by\n[3]\n:\nDigital blood pressure measurement\nDuplex\nultrasonography\nTranscutaneous PO2 measurement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasonography",
+          "url": "https://wikem.org/wiki/Ultrasonography"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Percutaneous transluminal angioplasty (PTA)\nSurgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dialysis complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis complications",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        }
+      ]
+    }
+  }
+}

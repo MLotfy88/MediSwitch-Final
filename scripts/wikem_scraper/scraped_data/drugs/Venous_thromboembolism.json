@@ -1,0 +1,125 @@
+{
+  "drug_name": "Venous_thromboembolism",
+  "url": "https://wikem.org/wiki/Venous_thromboembolism",
+  "scraped_at": "2026-01-10T08:04:55.757383",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Clinical_Spectrum_of_Venous_thromboembolism": {
+          "text": "Deep venous thrombosis\n(uncomplicated)\nPhlegmasia alba dolens\nPhlegmasia cerulea dolens\nVenous gangrene\nPulmonary embolism\nPulmonary embolism in pregnancy\nIsolated distal deep venous thrombosis\nOnly 40% of ambulatory ED patients with\nPE\nhave concomitant\nDVT\n[1]\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        },
+        {
+          "text": "Phlegmasia cerulea dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_cerulea_dolens"
+        },
+        {
+          "text": "Venous gangrene",
+          "url": "https://wikem.org/wiki/Venous_gangrene"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary embolism in pregnancy",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism_in_pregnancy"
+        },
+        {
+          "text": "Isolated distal deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Isolated_distal_deep_venous_thrombosis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Clinical_Spectrum_of_Venous_thromboembolism": {
+      "text": "Deep venous thrombosis\n(uncomplicated)\nPhlegmasia alba dolens\nPhlegmasia cerulea dolens\nVenous gangrene\nPulmonary embolism\nPulmonary embolism in pregnancy\nIsolated distal deep venous thrombosis\nOnly 40% of ambulatory ED patients with\nPE\nhave concomitant\nDVT\n[1]\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        },
+        {
+          "text": "Phlegmasia cerulea dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_cerulea_dolens"
+        },
+        {
+          "text": "Venous gangrene",
+          "url": "https://wikem.org/wiki/Venous_gangrene"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary embolism in pregnancy",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism_in_pregnancy"
+        },
+        {
+          "text": "Isolated distal deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Isolated_distal_deep_venous_thrombosis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "",
+      "subsections": {
+        "Chemical_Prophylaxis_of_VTE": {
+          "text": "Lovenox\n30mg SubQ q12 hrs (if Cr Clearance > 30)\nCheck Anti-Xa level every week EXACTLY 4 hours after 3rd dose of lovenox\nprophylactic goal: 0.2-0.6\ntherapeutic goal: 0.6-1.2\nRecheck AntiXa level after each 3rd dose if dose is changed until you are at goal\nRecheck level every week (usually qMonday) for all patients\nIf renal dysfunction order heparin 5000 Units SubQ q8 hrs (search “SURG DVT/VTE prophylaxis” order set)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lovenox",
+          "url": "https://wikem.org/wiki/Lovenox"
+        }
+      ]
+    },
+    "Chemical_Prophylaxis_of_VTE": {
+      "text": "Lovenox\n30mg SubQ q12 hrs (if Cr Clearance > 30)\nCheck Anti-Xa level every week EXACTLY 4 hours after 3rd dose of lovenox\nprophylactic goal: 0.2-0.6\ntherapeutic goal: 0.6-1.2\nRecheck AntiXa level after each 3rd dose if dose is changed until you are at goal\nRecheck level every week (usually qMonday) for all patients\nIf renal dysfunction order heparin 5000 Units SubQ q8 hrs (search “SURG DVT/VTE prophylaxis” order set)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lovenox",
+          "url": "https://wikem.org/wiki/Lovenox"
+        }
+      ]
+    }
+  }
+}

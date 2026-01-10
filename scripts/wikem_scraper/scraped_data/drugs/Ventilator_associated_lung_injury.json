@@ -1,0 +1,496 @@
+{
+  "drug_name": "Ventilator_associated_lung_injury",
+  "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury",
+  "scraped_at": "2026-01-10T08:05:00.930998",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: VALI",
+      "subsections": {
+        "Terminology": {
+          "text": "An acute lung injury that is suspected to have developed during mechanical ventilation is termed ventilator-associated lung injury (VALI)\nIf it can be proven that the mechanical ventilation caused the acute lung injury it is termed ventilator-induced lung injury (VILI)\nVALI is the appropriate term in most clinical situations because it is virtually impossible to prove causation outside of the research laboratory",
+          "tables": []
+        },
+        "Epidemiology": {
+          "text": "1 in 4 mechanically ventilated patients will develop VALI for reasons other than acute lung injury (ALI) or\nAcute respiratory distress syndrome\n(ARDS)\n[1]",
+          "tables": []
+        },
+        "Pathogenesis": {
+          "text": "VALI is alveolar injury caused by overexpansion of alveoli (volutrauma), repeated alveolar collapse and expansion (RACE), and cyclic atelectasis\nEventually, in serve VALI/ARDS alveoli edema/bleeding and loss of surfactant can cause complete alveoli collapse\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        }
+      ]
+    },
+    "Terminology": {
+      "text": "An acute lung injury that is suspected to have developed during mechanical ventilation is termed ventilator-associated lung injury (VALI)\nIf it can be proven that the mechanical ventilation caused the acute lung injury it is termed ventilator-induced lung injury (VILI)\nVALI is the appropriate term in most clinical situations because it is virtually impossible to prove causation outside of the research laboratory",
+      "subsections": {
+        "Epidemiology": {
+          "text": "1 in 4 mechanically ventilated patients will develop VALI for reasons other than acute lung injury (ALI) or\nAcute respiratory distress syndrome\n(ARDS)\n[1]",
+          "tables": []
+        },
+        "Pathogenesis": {
+          "text": "VALI is alveolar injury caused by overexpansion of alveoli (volutrauma), repeated alveolar collapse and expansion (RACE), and cyclic atelectasis\nEventually, in serve VALI/ARDS alveoli edema/bleeding and loss of surfactant can cause complete alveoli collapse\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "1 in 4 mechanically ventilated patients will develop VALI for reasons other than acute lung injury (ALI) or\nAcute respiratory distress syndrome\n(ARDS)\n[1]",
+      "subsections": {
+        "Pathogenesis": {
+          "text": "VALI is alveolar injury caused by overexpansion of alveoli (volutrauma), repeated alveolar collapse and expansion (RACE), and cyclic atelectasis\nEventually, in serve VALI/ARDS alveoli edema/bleeding and loss of surfactant can cause complete alveoli collapse\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        }
+      ]
+    },
+    "Pathogenesis": {
+      "text": "VALI is alveolar injury caused by overexpansion of alveoli (volutrauma), repeated alveolar collapse and expansion (RACE), and cyclic atelectasis\nEventually, in serve VALI/ARDS alveoli edema/bleeding and loss of surfactant can cause complete alveoli collapse\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Indistinguishable from\nARDS",
+      "subsections": {
+        "Clinical_signs": {
+          "text": "Hypoxemic - or requiring a greater fraction of inspired oxygen (FiO2) to maintain the same arterial oxygen tension\nTachypneic\nTachycardic\nVALI may also be associated with multiple organ dysfunction syndrome (MODS)\n[3]",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "CXR\n- increased bilateral interstitial or alveolar opacities of any severity.\nComputed tomography (CT) - heterogeneous consolidation and atelectasis, as well as focal hyperlucent areas that represent overdistended lung.\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Clinical_signs": {
+      "text": "Hypoxemic - or requiring a greater fraction of inspired oxygen (FiO2) to maintain the same arterial oxygen tension\nTachypneic\nTachycardic\nVALI may also be associated with multiple organ dysfunction syndrome (MODS)\n[3]",
+      "subsections": {
+        "Imaging": {
+          "text": "CXR\n- increased bilateral interstitial or alveolar opacities of any severity.\nComputed tomography (CT) - heterogeneous consolidation and atelectasis, as well as focal hyperlucent areas that represent overdistended lung.\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "CXR\n- increased bilateral interstitial or alveolar opacities of any severity.\nComputed tomography (CT) - heterogeneous consolidation and atelectasis, as well as focal hyperlucent areas that represent overdistended lung.\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "ARDS\nCardiogenic\nPulmonary Edema\nAcute exacerbation of idiopathic\npulmonary fibrosis\nPneumonia\nPE\nDiffuse alveolar hemorrhage\nDIC\nPneumothorax\nEquipment failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Pulmonary_fibrosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Overview": {
+          "text": "VALI does NOT need to be distinguished from\nAcute respiratory distress syndrome\nbecause evaluation and management are the same\n[6]\nBoth VALI and ARDS are a diagnosis of exclusion\nCheck for\nDeterioration after intubation\nand exclude other etiologies",
+          "tables": []
+        },
+        "Imaging_2": {
+          "text": "CXR\nEchocardiography",
+          "tables": []
+        },
+        "Labs": {
+          "text": "BNP\nBelow 100 pg/mL favors ARDS\nBut higher levels neither confirm heart failure nor exclude ARDS\n[7]\nCBC",
+          "tables": []
+        },
+        "Other": {
+          "text": "Noninvasive respiratory sampling\nLower respiratory tract can be sampled via tracheobronchial aspiration or mini-bronchoalveolar lavage (mini-BAL)\nTracheobronchial aspiration is performed by advancing a catheter through the endotracheal tube until resistance is met and then applying suction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        }
+      ]
+    },
+    "Overview": {
+      "text": "VALI does NOT need to be distinguished from\nAcute respiratory distress syndrome\nbecause evaluation and management are the same\n[6]\nBoth VALI and ARDS are a diagnosis of exclusion\nCheck for\nDeterioration after intubation\nand exclude other etiologies",
+      "subsections": {
+        "Imaging_2": {
+          "text": "CXR\nEchocardiography",
+          "tables": []
+        },
+        "Labs": {
+          "text": "BNP\nBelow 100 pg/mL favors ARDS\nBut higher levels neither confirm heart failure nor exclude ARDS\n[7]\nCBC",
+          "tables": []
+        },
+        "Other": {
+          "text": "Noninvasive respiratory sampling\nLower respiratory tract can be sampled via tracheobronchial aspiration or mini-bronchoalveolar lavage (mini-BAL)\nTracheobronchial aspiration is performed by advancing a catheter through the endotracheal tube until resistance is met and then applying suction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        }
+      ]
+    },
+    "Imaging_2": {
+      "text": "CXR\nEchocardiography",
+      "subsections": {
+        "Labs": {
+          "text": "BNP\nBelow 100 pg/mL favors ARDS\nBut higher levels neither confirm heart failure nor exclude ARDS\n[7]\nCBC",
+          "tables": []
+        },
+        "Other": {
+          "text": "Noninvasive respiratory sampling\nLower respiratory tract can be sampled via tracheobronchial aspiration or mini-bronchoalveolar lavage (mini-BAL)\nTracheobronchial aspiration is performed by advancing a catheter through the endotracheal tube until resistance is met and then applying suction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "BNP\nBelow 100 pg/mL favors ARDS\nBut higher levels neither confirm heart failure nor exclude ARDS\n[7]\nCBC",
+      "subsections": {
+        "Other": {
+          "text": "Noninvasive respiratory sampling\nLower respiratory tract can be sampled via tracheobronchial aspiration or mini-bronchoalveolar lavage (mini-BAL)\nTracheobronchial aspiration is performed by advancing a catheter through the endotracheal tube until resistance is met and then applying suction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Noninvasive respiratory sampling\nLower respiratory tract can be sampled via tracheobronchial aspiration or mini-bronchoalveolar lavage (mini-BAL)\nTracheobronchial aspiration is performed by advancing a catheter through the endotracheal tube until resistance is met and then applying suction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Prevention is key with ventilator lung protective settings\nManagement is the same as\nARDS\n:\nContinue mechanical ventilation\nApply lung protective settings (see Lung Injury Strategy section of\nVentilation (Settings)\n)\nTreat underlying causes\nSupportive care",
+      "subsections": {
+        "Management_by_Injury_Type": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Injury": "Volutrauma & Barotrauma",
+                "Mechanism": "Over-distension alveoli to pressures ≥ 30 cm H20 causing basement membrane stress",
+                "Management": "Maintain Plateau pressure ≤ 30 cm H20Use tidal volume 6ml/kg of PBW (seeEBQ:ARDSnet Trial)"
+              },
+              {
+                "Injury": "Biotrauma",
+                "Mechanism": "Release of chemokines and cytokines cause influx WBC resulting in pulmonary and systemic inflammation and multi-organ dysfunction",
+                "Management": "Protective lung ventilationNeuromuscular blockers may help."
+              },
+              {
+                "Injury": "Atelectotrauma",
+                "Mechanism": "Repeated alveolar collapse and expansion (RACE) with tidal ventilation will contribute to lung injury. Alveoli especially easy to collapse if edematous",
+                "Management": "High PEEP of 5 cm H20Consider prone positioning"
+              },
+              {
+                "Injury": "Oxygen toxicity",
+                "Mechanism": "Higher than needed O2 leads to free radicals with cause oxidative injury",
+                "Management": "Limit FiO2 and maintain higher PEEP.Accept SaO2 at \"shoulder\" of oxyhaemoglobin dissociation curve (SaO2 88-94%)."
+              }
+            ]
+          ]
+        },
+        "Ventilator_Lung_Protective_Settings": {
+          "text": "^Fully supported mode (rather than partially supported) on either volume (better studied) or pressure control (both acceptable).",
+          "tables": [
+            [
+              {
+                "Setting": "Mode",
+                "Parameter": "Assist Control (AC)^"
+              },
+              {
+                "Setting": "Tidal Volume",
+                "Parameter": "6ml/kg ofpredicted body weight(PBW)"
+              },
+              {
+                "Setting": "Respiratory Rate",
+                "Parameter": "12-14bpm"
+              },
+              {
+                "Setting": "PEEP",
+                "Parameter": "5cm H20"
+              },
+              {
+                "Setting": "I:E",
+                "Parameter": "1:2"
+              },
+              {
+                "Setting": "Plateau Pressure",
+                "Parameter": "≤30 cm H2O"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Ventilation (Settings)",
+          "url": "https://wikem.org/wiki/Ventilation_(Settings)"
+        }
+      ]
+    },
+    "Management_by_Injury_Type": {
+      "text": "",
+      "subsections": {
+        "Ventilator_Lung_Protective_Settings": {
+          "text": "^Fully supported mode (rather than partially supported) on either volume (better studied) or pressure control (both acceptable).",
+          "tables": [
+            [
+              {
+                "Setting": "Mode",
+                "Parameter": "Assist Control (AC)^"
+              },
+              {
+                "Setting": "Tidal Volume",
+                "Parameter": "6ml/kg ofpredicted body weight(PBW)"
+              },
+              {
+                "Setting": "Respiratory Rate",
+                "Parameter": "12-14bpm"
+              },
+              {
+                "Setting": "PEEP",
+                "Parameter": "5cm H20"
+              },
+              {
+                "Setting": "I:E",
+                "Parameter": "1:2"
+              },
+              {
+                "Setting": "Plateau Pressure",
+                "Parameter": "≤30 cm H2O"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Injury": "Volutrauma & Barotrauma",
+            "Mechanism": "Over-distension alveoli to pressures ≥ 30 cm H20 causing basement membrane stress",
+            "Management": "Maintain Plateau pressure ≤ 30 cm H20Use tidal volume 6ml/kg of PBW (seeEBQ:ARDSnet Trial)"
+          },
+          {
+            "Injury": "Biotrauma",
+            "Mechanism": "Release of chemokines and cytokines cause influx WBC resulting in pulmonary and systemic inflammation and multi-organ dysfunction",
+            "Management": "Protective lung ventilationNeuromuscular blockers may help."
+          },
+          {
+            "Injury": "Atelectotrauma",
+            "Mechanism": "Repeated alveolar collapse and expansion (RACE) with tidal ventilation will contribute to lung injury. Alveoli especially easy to collapse if edematous",
+            "Management": "High PEEP of 5 cm H20Consider prone positioning"
+          },
+          {
+            "Injury": "Oxygen toxicity",
+            "Mechanism": "Higher than needed O2 leads to free radicals with cause oxidative injury",
+            "Management": "Limit FiO2 and maintain higher PEEP.Accept SaO2 at \"shoulder\" of oxyhaemoglobin dissociation curve (SaO2 88-94%)."
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Ventilator_Lung_Protective_Settings": {
+      "text": "^Fully supported mode (rather than partially supported) on either volume (better studied) or pressure control (both acceptable).",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Setting": "Mode",
+            "Parameter": "Assist Control (AC)^"
+          },
+          {
+            "Setting": "Tidal Volume",
+            "Parameter": "6ml/kg ofpredicted body weight(PBW)"
+          },
+          {
+            "Setting": "Respiratory Rate",
+            "Parameter": "12-14bpm"
+          },
+          {
+            "Setting": "PEEP",
+            "Parameter": "5cm H20"
+          },
+          {
+            "Setting": "I:E",
+            "Parameter": "1:2"
+          },
+          {
+            "Setting": "Plateau Pressure",
+            "Parameter": "≤30 cm H2O"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit to ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "LITFL - VALI\nLITFL - Protective Lung Ventilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Mechanical ventilation (main)\nAcute respiratory distress syndrome\nEBQ:ARDSnet Trial",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "EBQ:ARDSnet Trial",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet_Trial"
+        }
+      ]
+    }
+  }
+}

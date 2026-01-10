@@ -1,0 +1,322 @@
+{
+  "drug_name": "Ventriculoperitoneal_shunt_complications",
+  "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_complications",
+  "scraped_at": "2026-01-10T08:05:05.239644",
+  "sections": {
+    "Background": {
+      "text": "Also called a cerebral sinus fluid (CSF), VP, or cerebral shunt\nHighest incidence of postoperative complications of any neurosurgical procedure\nMajority in the first 2 years (40% in the first year\n[1]\n)\nMay drain into peritoneal cavity or less commonly the right atrium, pleural cavity, ureter, gallbladder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Typically develop over several days",
+      "subsections": {
+        "Adults": {
+          "text": "Cephalgia\n,\nnausea and vomiting\n,\nlethargy\n,\nataxia\n,\naltered mental status\nParalysis of upward gaze (\"sunset eyes\"), dilated pupils,\ncranial nerve palsies",
+          "tables": []
+        },
+        "Infants": {
+          "text": "Vomiting\n, irritability,\nbulging fontanelle\nOften\nvery subtle\n: a caregiver-reported change in behavior predicts malfunction",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Neither sensitive nor specific\nDecreased level of consciousness\n, erythema along shunt tract,\nbulging fontanelle\n,\nnausea/vomiting\n, irritability should raise suspicion\nValve chamber abnormality\nGently compress chamber and observe for refill\nDifficulty compressing chamber indicates distal flow obstruction\nSlow refill (>3s) indicates proximal obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalgia",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "cranial nerve palsies",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "bulging fontanelle",
+          "url": "https://wikem.org/wiki/Bulging_fontanelle"
+        },
+        {
+          "text": "Decreased level of consciousness",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "bulging fontanelle",
+          "url": "https://wikem.org/wiki/Bulging_fontanelle"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Adults": {
+      "text": "Cephalgia\n,\nnausea and vomiting\n,\nlethargy\n,\nataxia\n,\naltered mental status\nParalysis of upward gaze (\"sunset eyes\"), dilated pupils,\ncranial nerve palsies",
+      "subsections": {
+        "Infants": {
+          "text": "Vomiting\n, irritability,\nbulging fontanelle\nOften\nvery subtle\n: a caregiver-reported change in behavior predicts malfunction",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Neither sensitive nor specific\nDecreased level of consciousness\n, erythema along shunt tract,\nbulging fontanelle\n,\nnausea/vomiting\n, irritability should raise suspicion\nValve chamber abnormality\nGently compress chamber and observe for refill\nDifficulty compressing chamber indicates distal flow obstruction\nSlow refill (>3s) indicates proximal obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalgia",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "cranial nerve palsies",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "bulging fontanelle",
+          "url": "https://wikem.org/wiki/Bulging_fontanelle"
+        },
+        {
+          "text": "Decreased level of consciousness",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "bulging fontanelle",
+          "url": "https://wikem.org/wiki/Bulging_fontanelle"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Infants": {
+      "text": "Vomiting\n, irritability,\nbulging fontanelle\nOften\nvery subtle\n: a caregiver-reported change in behavior predicts malfunction",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Neither sensitive nor specific\nDecreased level of consciousness\n, erythema along shunt tract,\nbulging fontanelle\n,\nnausea/vomiting\n, irritability should raise suspicion\nValve chamber abnormality\nGently compress chamber and observe for refill\nDifficulty compressing chamber indicates distal flow obstruction\nSlow refill (>3s) indicates proximal obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "bulging fontanelle",
+          "url": "https://wikem.org/wiki/Bulging_fontanelle"
+        },
+        {
+          "text": "Decreased level of consciousness",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "bulging fontanelle",
+          "url": "https://wikem.org/wiki/Bulging_fontanelle"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Physical_Exam": {
+      "text": "Neither sensitive nor specific\nDecreased level of consciousness\n, erythema along shunt tract,\nbulging fontanelle\n,\nnausea/vomiting\n, irritability should raise suspicion\nValve chamber abnormality\nGently compress chamber and observe for refill\nDifficulty compressing chamber indicates distal flow obstruction\nSlow refill (>3s) indicates proximal obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Decreased level of consciousness",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "bulging fontanelle",
+          "url": "https://wikem.org/wiki/Bulging_fontanelle"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Ventriculoperitoneal_shunt_problems": {
+          "text": "Ventriculoperitoneal shunt obstruction\nVentriculoperitoneal shunt overdrainage\n(Slit Ventricle Syndrome)\nVentriculoperitoneal shunt infection\nVentriculoperitoneal shunt mechanical failure",
+          "tables": []
+        },
+        "Loculation_of_Ventricles": {
+          "text": "Separate, noncommunicating CSF accumulations may develop within a ventricle\nShunt device unable to drain entire ventricular system leading to increased ICP",
+          "tables": []
+        },
+        "Abdominal_Complications": {
+          "text": "Pseudocyst may form around the peritoneal catheter\nCan lead to occlusion and/or abdominal pain (depending on size)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt obstruction",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_obstruction"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt overdrainage",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_overdrainage"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt infection",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_infection"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt mechanical failure",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_mechanical_failure"
+        }
+      ]
+    },
+    "Ventriculoperitoneal_shunt_problems": {
+      "text": "Ventriculoperitoneal shunt obstruction\nVentriculoperitoneal shunt overdrainage\n(Slit Ventricle Syndrome)\nVentriculoperitoneal shunt infection\nVentriculoperitoneal shunt mechanical failure",
+      "subsections": {
+        "Loculation_of_Ventricles": {
+          "text": "Separate, noncommunicating CSF accumulations may develop within a ventricle\nShunt device unable to drain entire ventricular system leading to increased ICP",
+          "tables": []
+        },
+        "Abdominal_Complications": {
+          "text": "Pseudocyst may form around the peritoneal catheter\nCan lead to occlusion and/or abdominal pain (depending on size)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt obstruction",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_obstruction"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt overdrainage",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_overdrainage"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt infection",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_infection"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt mechanical failure",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_mechanical_failure"
+        }
+      ]
+    },
+    "Loculation_of_Ventricles": {
+      "text": "Separate, noncommunicating CSF accumulations may develop within a ventricle\nShunt device unable to drain entire ventricular system leading to increased ICP",
+      "subsections": {
+        "Abdominal_Complications": {
+          "text": "Pseudocyst may form around the peritoneal catheter\nCan lead to occlusion and/or abdominal pain (depending on size)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abdominal_Complications": {
+      "text": "Pseudocyst may form around the peritoneal catheter\nCan lead to occlusion and/or abdominal pain (depending on size)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "CBC, Chem7, coags\nBlood cultures\nShunt tap if concerned for infection (this is usually done by or in consultation with neurosurgery)\nA normal lumbar puncture does not rule out ventriculitis (shunt infection)\nImaging\nShunt series\nAP and lateral skull, AP chest and abdomen\nIdentifies kinking, migration, or disconnection\nCT\nNeeded to evaluate ventricular size (if larger, concerning for elevated ICP)\nVery helpful to compare to previous study (many patients with shunts have abnormal baseline)\nOne-third of patients with shunt malfunction will have normal head CT\n[\ncitation needed\n]\nUltrasound\nIf the baby has an open fontanelle, you may use US\nSome literature for\nultrasound\nof optic nerve diameter (if normal (3.3cm), lower chance of elevated ICP)\n[\ncitation needed\n]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "citation needed",
+          "url": "https://wikem.org/wiki/WikEM:Citation_needed"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "citation needed",
+          "url": "https://wikem.org/wiki/WikEM:Citation_needed"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Assume shunt malfunction in patients with suggestive features regardless of findings on imaging\nRevisions are extremely common, low threshold to contact Neurosurgery\nVentriculoperitoneal shunt drainage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt drainage",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_drainage"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "CSF Studies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CSF Studies",
+          "url": "https://wikem.org/wiki/CSF_Studies"
+        }
+      ]
+    }
+  }
+}

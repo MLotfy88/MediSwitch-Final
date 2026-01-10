@@ -1,0 +1,541 @@
+{
+  "drug_name": "Vasculitis_syndromes",
+  "url": "https://wikem.org/wiki/Vasculitis_syndromes",
+  "scraped_at": "2026-01-10T08:04:56.974879",
+  "sections": {
+    "Background": {
+      "text": "Heterogenous group of disorders, clinico-pathologic process characterized by inflammation within walls of blood vessels,  compromise of vessel lumen, and resulting ischemia\nPresentation varies greatly depending on etiology and specific vessels affected\nClassification by size of vessels predominantly involved",
+      "subsections": {
+        "Vasculitis_Syndrome_Types": {
+          "text": "Large vessel\nTakayasu arteritis\nGiant cell arteritis\n(temporal arteritis)\nMedium-vessel\nKawasaki disease\nPolyarteritis nodosa\nThromboangiitis obliterans\n(Buerger's disease)\nPrimary angiitis of the central nervous system\nSmall-vessel\nHenoch-Schönlein purpura\nANCA-associated vasculitides\nGranulomatosis with polyangiitis\n(Wegner's)\nEosinophilic granulomatosis with polyangiitis\n(Churg-Strauss)\nMicroscopic polyangiitis\nCutaneous leukocytoclastic angiitis (“hypersensitivity vasculitis”)\nEssential cryoglobulinemia, cryoglobulinemic vasculitis due to\nhepatitis C\nBehçet's disease\n]\nSecondary vasculitides and other/miscellaneous\nDrug-induced vasculitis\nSerum sickness\nVasculitis associated with other rheumatic diseases (e.g.\nSLE\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "Henoch-Schönlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Sch%C3%B6nlein_purpura"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Eosinophilic granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Eosinophilic_granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Behçet's disease",
+          "url": "https://wikem.org/wiki/Beh%C3%A7et%27s_disease"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Vasculitis_Syndrome_Types": {
+      "text": "Large vessel\nTakayasu arteritis\nGiant cell arteritis\n(temporal arteritis)\nMedium-vessel\nKawasaki disease\nPolyarteritis nodosa\nThromboangiitis obliterans\n(Buerger's disease)\nPrimary angiitis of the central nervous system\nSmall-vessel\nHenoch-Schönlein purpura\nANCA-associated vasculitides\nGranulomatosis with polyangiitis\n(Wegner's)\nEosinophilic granulomatosis with polyangiitis\n(Churg-Strauss)\nMicroscopic polyangiitis\nCutaneous leukocytoclastic angiitis (“hypersensitivity vasculitis”)\nEssential cryoglobulinemia, cryoglobulinemic vasculitis due to\nhepatitis C\nBehçet's disease\n]\nSecondary vasculitides and other/miscellaneous\nDrug-induced vasculitis\nSerum sickness\nVasculitis associated with other rheumatic diseases (e.g.\nSLE\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "Henoch-Schönlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Sch%C3%B6nlein_purpura"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Eosinophilic granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Eosinophilic_granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Behçet's disease",
+          "url": "https://wikem.org/wiki/Beh%C3%A7et%27s_disease"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever\nArthralgias\n/\narthritis\nMalaise, fatigue, weight loss",
+      "subsections": {
+        "Large_Vessel_Vasculitis": {
+          "text": "Limb claudication\nAsymmetric blood pressures\nDiminished or absent peripheral pulses\nBruits\nAortic regurgitation\nSudden\nblindness\n(giant cell arteritis)",
+          "tables": []
+        },
+        "Medium_Vessel_Vasculitis": {
+          "text": "Cutaneous nodules, livedo reticularis\nUlcers\nDigital\ngangrene\nMononeuritis multiplex (asynchronous/asymmetric peripheral neuropathy)\nMicroaneurysms",
+          "tables": []
+        },
+        "Small_Vessel_Vasculitis": {
+          "text": "Purpura\n,\nurticaria\n, cutaneous necrotizing granulomas, splinter hemorrhages\nUveitis\n(ciliary spasm, visual changes, limbic redness),\nscleritis\n/\nepiscleritis\n(ocular pain, photophobia)\nGlomerulonephritis\n(\nhematuria\n,\nproteinuria\nHemoptysis\n,\nDiffuse alveolar hemorrhage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "blindness",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        }
+      ]
+    },
+    "Large_Vessel_Vasculitis": {
+      "text": "Limb claudication\nAsymmetric blood pressures\nDiminished or absent peripheral pulses\nBruits\nAortic regurgitation\nSudden\nblindness\n(giant cell arteritis)",
+      "subsections": {
+        "Medium_Vessel_Vasculitis": {
+          "text": "Cutaneous nodules, livedo reticularis\nUlcers\nDigital\ngangrene\nMononeuritis multiplex (asynchronous/asymmetric peripheral neuropathy)\nMicroaneurysms",
+          "tables": []
+        },
+        "Small_Vessel_Vasculitis": {
+          "text": "Purpura\n,\nurticaria\n, cutaneous necrotizing granulomas, splinter hemorrhages\nUveitis\n(ciliary spasm, visual changes, limbic redness),\nscleritis\n/\nepiscleritis\n(ocular pain, photophobia)\nGlomerulonephritis\n(\nhematuria\n,\nproteinuria\nHemoptysis\n,\nDiffuse alveolar hemorrhage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "blindness",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        }
+      ]
+    },
+    "Medium_Vessel_Vasculitis": {
+      "text": "Cutaneous nodules, livedo reticularis\nUlcers\nDigital\ngangrene\nMononeuritis multiplex (asynchronous/asymmetric peripheral neuropathy)\nMicroaneurysms",
+      "subsections": {
+        "Small_Vessel_Vasculitis": {
+          "text": "Purpura\n,\nurticaria\n, cutaneous necrotizing granulomas, splinter hemorrhages\nUveitis\n(ciliary spasm, visual changes, limbic redness),\nscleritis\n/\nepiscleritis\n(ocular pain, photophobia)\nGlomerulonephritis\n(\nhematuria\n,\nproteinuria\nHemoptysis\n,\nDiffuse alveolar hemorrhage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        }
+      ]
+    },
+    "Small_Vessel_Vasculitis": {
+      "text": "Purpura\n,\nurticaria\n, cutaneous necrotizing granulomas, splinter hemorrhages\nUveitis\n(ciliary spasm, visual changes, limbic redness),\nscleritis\n/\nepiscleritis\n(ocular pain, photophobia)\nGlomerulonephritis\n(\nhematuria\n,\nproteinuria\nHemoptysis\n,\nDiffuse alveolar hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Petechiae/Purpura_(by_cause)": {
+          "text": "Abnormal\nplatelet count\nand/or\ncoagulation\nSepticemia\nIdiopathic thrombocytopenic purpura\n(ITP)\nHemolytic uremic syndrome\nLeukemia\nCoagulopathies\n(e.g.\nhemophilia\n)\nHenoch-Schonlein Purpura (HSP)\nAcute hemorrhagic edema of infancy (AHEI)\nHypersensitivity\nvasculitis\nPrimary\nvasculitides\nWegener\n's\nMicroscopic polyangiitis\nEosinophilic granulomatosis with polyangiitis (\nChurg-Strauss syndrome\n)\nSecondary\nvasculitides\nHenoch-Schonlein purpura\nConnective tissue disorder\nSystemic lupus erythematosus\nScurvy\nInfectious disease\nHepatitis B\nHepatitis C\nTrauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "platelet count",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "coagulation",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Septicemia",
+          "url": "https://wikem.org/wiki/Septicemia"
+        },
+        {
+          "text": "Idiopathic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Idiopathic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Hemolytic uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic_uremic_syndrome"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Coagulopathies",
+          "url": "https://wikem.org/wiki/Coagulopathies"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Henoch-Schonlein Purpura (HSP)",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_Purpura_(HSP)"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "vasculitides",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Wegener",
+          "url": "https://wikem.org/wiki/Wegener%27s_Granulomatosis"
+        },
+        {
+          "text": "Churg-Strauss syndrome",
+          "url": "https://wikem.org/wiki/Churg-Strauss_syndrome"
+        },
+        {
+          "text": "vasculitides",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Connective tissue disorder",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Workup dependent on presentation, likely to include at least CBC, ESR, BMP, UA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying illness, if known\nManage critical complications: see treatment section of\ndiffuse alveolar hemorrhage\n,\nacute limb ischemia\n,\nKawasaki\nFor primary vasculitides, this will likely involve an immunosuppressive agent, such as:\nPrednisone\n/\nMethylprednisolone\nCyclophosphamide\n,\nmethotrexate\n,\nazathioprine\nRituximab\nMay consider\nplasmapheresis\nfor severe or rapidly progressive",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "acute limb ischemia",
+          "url": "https://wikem.org/wiki/Acute_limb_ischemia"
+        },
+        {
+          "text": "Kawasaki",
+          "url": "https://wikem.org/wiki/Kawasaki"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Rituximab",
+          "url": "https://wikem.org/wiki/Rituximab"
+        },
+        {
+          "text": "plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Immunocompromised antibiotics\nBiologic immunomodulators",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Biologic immunomodulators",
+          "url": "https://wikem.org/wiki/Biologic_immunomodulators"
+        }
+      ]
+    }
+  }
+}

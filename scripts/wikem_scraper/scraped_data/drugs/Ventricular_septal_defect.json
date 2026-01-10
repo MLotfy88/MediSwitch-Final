@@ -1,0 +1,393 @@
+{
+  "drug_name": "Ventricular_septal_defect",
+  "url": "https://wikem.org/wiki/Ventricular_septal_defect",
+  "scraped_at": "2026-01-10T08:05:00.534534",
+  "sections": {
+    "Background": {
+      "text": "Defect in septum separating left and right ventricles\nSecond most common congenital heart defect\nCan be isolated, due to chromosomal abnormalities (5%), or coexist with other heart defects such as\nTetralogy of Fallot\nClinical presentations vary depending on comorbid conditions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetralogy of Fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_Fallot"
+        }
+      ]
+    },
+    "Clinical_Presentation": {
+      "text": "Small VSDs\nGenerally asymptomatic\nModerate Size VSDs\nMay be asymptomatic\n+/-\nheart failure\nsymptoms in childhood or early adulthood\nMay decrease in size without intervention as patient ages\nLarge VSDs\nLeft-to-right shunts causing\nheart failure\nin infancy\nCyanosis,\ndyspnea\n, poor feeding, or\nfailure to thrive\nVSD\nmurmur\nBest heard over the lower left sternal boarder\nCharacterized as a holosystolic murmur\nSmaller defects produce louder murmurs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "failure to thrive",
+          "url": "https://wikem.org/wiki/Failure_to_thrive"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Non-Congenital_Presentations": {
+          "text": "Tricuspid regurgitation\nMitral regurgitation\nHypertrophic cardiomyopathy",
+          "tables": []
+        },
+        "Congenital_Heart_Disease_Types": {
+          "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[1]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Non-Congenital_Presentations": {
+      "text": "Tricuspid regurgitation\nMitral regurgitation\nHypertrophic cardiomyopathy",
+      "subsections": {
+        "Congenital_Heart_Disease_Types": {
+          "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[1]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Congenital_Heart_Disease_Types": {
+      "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[1]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Echocardiography\nMost important clinical test\nHigh detection rate for VSD\nAllows operator to visualize the defect and assess how much bloodflow is crossing the defect by using color flow Doppler\nAllows for detection of other possible structural defects\nOften used to follow VSDs for spontaneous closure\nEKG\nMost patients with have normal EKGs\nLarge defects may produce conduction delays or RBBB\nCXR\nUsually normal\nMay show cardiomegaly with enlarged left ventricle and atrium\nMay show signs of CHF",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "40-60% require no intervention, will spontaneously close in early childhood\nSurgical closure (often done percutaneously)\nDefinitive treatment for defects that do not spontaneously close and cause disability\nPatients with unrepaired VSDs at increased risk for:\nEndocarditis\nArrhythmia\nPremature ventricular contractions\n(PVCs)\nVentricular tachyarrhythmias\nSudden death\nCongestive heart failure\nAortic regurgitation\nCOPD\nPulmonary hypertension\nTreatment aimed at reducing complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Premature ventricular contractions",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contractions"
+        },
+        {
+          "text": "Ventricular tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Suspected VSDs require workup by a cardiologist\nOnce surgery becomes an option, surgical consultation is recommended",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Congenital heart disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Ventricular septal defects | circulation Retrieved 8/18/2017, 2017, from\nhttp://circ.ahajournals.org/content/114/20/2190\nDu ZD, Roguin N, Wu XJ. Spontaneous closure of muscular ventricular septal defect identified by echocardiography in neonates. Cardiol Young 1998; 8:500.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

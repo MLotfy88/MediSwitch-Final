@@ -1,0 +1,116 @@
+{
+  "drug_name": "Vecuronium",
+  "url": "https://wikem.org/wiki/Vecuronium",
+  "scraped_at": "2026-01-10T08:04:56.568775",
+  "sections": {
+    "General": {
+      "text": "Type:\nNeuromuscular blocker\n, nondepolarizing, fast\nDosage Forms: IV\nCommon Trade Names: Norcuron",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neuromuscular blocker",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocker"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Not recommended for\nRSI\n0.15mg/kg IV based on ideal body weight, can prime with 0.01mg/kg IV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "RSI",
+          "url": "https://wikem.org/wiki/RSI"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Not recommended for\nRSI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "RSI",
+          "url": "https://wikem.org/wiki/RSI"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Infant risk cannot be ruled out\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Varies, from 30-60 minutes\nMetabolism: Hepatic\nExcretion: Renal\nMechanism of Action:  Non-depolarizing neuromuscular blocking agent. Long duration with slow onset. Competes for cholinergic receptors at the motor end-plate.\nAcetylcholinesterase inhibitors\nlike those found in organophosphates antagonize this action",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Critical care quick reference\nReversal agent:\nSugammadex",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Sugammadex",
+          "url": "https://wikem.org/wiki/Sugammadex"
+        }
+      ]
+    },
+    "References": {
+      "text": "Micromedex",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

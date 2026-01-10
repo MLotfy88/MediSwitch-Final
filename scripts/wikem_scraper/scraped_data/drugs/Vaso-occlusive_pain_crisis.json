@@ -1,0 +1,476 @@
+{
+  "drug_name": "Vaso-occlusive_pain_crisis",
+  "url": "https://wikem.org/wiki/Vaso-occlusive_pain_crisis",
+  "scraped_at": "2026-01-10T08:04:56.903797",
+  "sections": {
+    "Background": {
+      "text": "Common complication of\nsickle cell anemia\n, constituting 79-91% of ED visits\n[1]\nSickled red blood cells obstruct vasculature, causing ischemic injury and pain\nProvider misconceptions can interfere with adequate pain assessment and can lead to insufficient treatment. Avoid use of the terms \"sickler\" or \"frequent flier.\" Early, adequate, and aggressive pain treatment is essential.\n[2]",
+      "subsections": {
+        "Precipitating_Factors": {
+          "text": "Stress\nCold weather\nDehydration\nHypoxia\nInfection\nAcidosis\nAlcohol intoxication\nPregnancy\nExertional stress",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sickle cell anemia",
+          "url": "https://wikem.org/wiki/Sickle_cell_anemia"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Precipitating_Factors": {
+      "text": "Stress\nCold weather\nDehydration\nHypoxia\nInfection\nAcidosis\nAlcohol intoxication\nPregnancy\nExertional stress",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sickle_cell_crisis": {
+          "text": "Vaso-occlusive pain crisis\nBony infarction\nDactylitis\nAvascular necrosis\nof femoral head\nAcute chest syndrome\nAsthma\nPulmonary hypertension\nGallbladder disease\nAcute hepatic sequestration\nInfection\nMeningitis\nPneumonia\nSeptic joint\nOsteomyelitis\nParvovirus B19\nSplenic sequestration\nCVA\nCerebral aneurysm and\nICH\nPriapism\nPapillary necrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bony infarction",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Dactylitis",
+          "url": "https://wikem.org/wiki/Dactylitis"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Acute chest syndrome",
+          "url": "https://wikem.org/wiki/Acute_chest_syndrome"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Splenic sequestration",
+          "url": "https://wikem.org/wiki/Splenic_sequestration"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        }
+      ]
+    },
+    "Sickle_cell_crisis": {
+      "text": "Vaso-occlusive pain crisis\nBony infarction\nDactylitis\nAvascular necrosis\nof femoral head\nAcute chest syndrome\nAsthma\nPulmonary hypertension\nGallbladder disease\nAcute hepatic sequestration\nInfection\nMeningitis\nPneumonia\nSeptic joint\nOsteomyelitis\nParvovirus B19\nSplenic sequestration\nCVA\nCerebral aneurysm and\nICH\nPriapism\nPapillary necrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bony infarction",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Dactylitis",
+          "url": "https://wikem.org/wiki/Dactylitis"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Acute chest syndrome",
+          "url": "https://wikem.org/wiki/Acute_chest_syndrome"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Splenic sequestration",
+          "url": "https://wikem.org/wiki/Splenic_sequestration"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nBecause anemia can precipitate a crisis, must check for acute hemoglobin drop\nRetic count (if aplastic crisis considered - rare in adults)\nShould be >0.5%\nConsider:\nChemistry /\nLFTs\n/ lipase\nIf abdominal pain, may be cholecystitis, mesenteric ischemia, or perforation\nT&S/T&C\nUrine pregnancy\nCXR\nIf cough, shortness of breath, or febrile",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Analgesia\nPain assessment comes from the patient or patient family. No lab or clinical findings determine, confirm, or change if a patient has pain. Absence of hemolysis or baseline hemoglobin level should not be used to withhold or decrease pain medication dosing.\n[2]\nAsk the patient what medications have worked for them in the past\nPain medication should be dosed within 30 minutes, IV route preferred with SC or IN routes for those with access issues\n[2]\nIV\nopioids\n(\nmorphine\nor\nhydromorphone\n)\nRedose in 30min if inadequate\nCan also use IN fentanyl particularly in pediatric patients. Restrict to 2 doses in the ED. See below.\n[2]\nNon-opioid analgesia\nNSAIDs\n(e.g.\nketorolac\n15mg q6h)\nAcetaminophen\nIV/IM\nhaloperidol\nor\ndroperidol\n5-10mg\n[3]\nKetamine\n(IN 1mg/kg 1ml per nostril or IV 0.3mg/kg)\n[3]\nNonpharmacologic measures (e.g. heating packs, distraction)\nHydration\nControversial\nDehydration promotes sickling\nIVF\nbolus may lead to atelectasis, pulmonary edema, and acute chest syndrome. Hyperchloremic metabolic acidosis due to normal saline may further precipitate sickling.\n[4]\n[5]\n[6]\nThere are no randomized controlled trials that have assessed the safety and efficacy of different routes, types or quantities of fluid.\n[7]\nO2 if\nhypoxia\n; otherwise may inhibit erythropoiesis",
+      "subsections": {
+        "Anemia": {
+          "text": "Transfusion\nPRBCs\n10 mL/kg over 2hr period\nIndications:\nAplastic crisis\nSequestration crisis\nhemoglobin <6 with inappropriately low retic count\nTransfusion is not a treatment for vast-occlusive pain without anemia\n[2]",
+          "tables": []
+        },
+        "Pediatric_Pain_Crisis": {
+          "text": "Ideally should have institutional protocols to initiate pain management at triage\nConsider early intranasal\nfentanyl\neven prior to establishing IV\nDosage 2 mcg/kg intraNASAL\nIV pain medication options\nMorphine 0.1 mg/kg\nHydromorphone 0.02 mg/kg\nToradol 0.5 mg/kg\nPO options\nOxycodone 0.1 mg/kg\nMorphine 0.5 mg/kg\nHydromorphone 0.05 mg/kg\nIbuprofen 10 mg/kg\nRepeat pain medications q20 minutes at 50% of initial loading dose until adequate pain control achieved",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "PRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Aplastic crisis",
+          "url": "https://wikem.org/wiki/Aplastic_crisis"
+        },
+        {
+          "text": "Sequestration crisis",
+          "url": "https://wikem.org/wiki/Splenic_sequestration"
+        },
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        }
+      ]
+    },
+    "Anemia": {
+      "text": "Transfusion\nPRBCs\n10 mL/kg over 2hr period\nIndications:\nAplastic crisis\nSequestration crisis\nhemoglobin <6 with inappropriately low retic count\nTransfusion is not a treatment for vast-occlusive pain without anemia\n[2]",
+      "subsections": {
+        "Pediatric_Pain_Crisis": {
+          "text": "Ideally should have institutional protocols to initiate pain management at triage\nConsider early intranasal\nfentanyl\neven prior to establishing IV\nDosage 2 mcg/kg intraNASAL\nIV pain medication options\nMorphine 0.1 mg/kg\nHydromorphone 0.02 mg/kg\nToradol 0.5 mg/kg\nPO options\nOxycodone 0.1 mg/kg\nMorphine 0.5 mg/kg\nHydromorphone 0.05 mg/kg\nIbuprofen 10 mg/kg\nRepeat pain medications q20 minutes at 50% of initial loading dose until adequate pain control achieved",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Aplastic crisis",
+          "url": "https://wikem.org/wiki/Aplastic_crisis"
+        },
+        {
+          "text": "Sequestration crisis",
+          "url": "https://wikem.org/wiki/Splenic_sequestration"
+        },
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        }
+      ]
+    },
+    "Pediatric_Pain_Crisis": {
+      "text": "Ideally should have institutional protocols to initiate pain management at triage\nConsider early intranasal\nfentanyl\neven prior to establishing IV\nDosage 2 mcg/kg intraNASAL\nIV pain medication options\nMorphine 0.1 mg/kg\nHydromorphone 0.02 mg/kg\nToradol 0.5 mg/kg\nPO options\nOxycodone 0.1 mg/kg\nMorphine 0.5 mg/kg\nHydromorphone 0.05 mg/kg\nIbuprofen 10 mg/kg\nRepeat pain medications q20 minutes at 50% of initial loading dose until adequate pain control achieved",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Consider_admission": {
+          "text": "Acute chest syndrome\nis suspected\nSepsis\n,\nosteomyelitis\n, or other serious infection is suspected\nPriapism\n,\naplastic crisis\n,\nhypoxia\n, splenic sequestration\nWBC >30K\nPlatelet <100K\nPain is not under control after 3 rounds of analgesics in ED\n<1yr old",
+          "tables": []
+        },
+        "Consider_discharge": {
+          "text": "Pain is under control and patient can take oral fluids and medications\nEnsure appropriate oral analgesics are available\nProvide home care instructions\nEnsure resource for follow-up",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute chest syndrome",
+          "url": "https://wikem.org/wiki/Acute_chest_syndrome"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "aplastic crisis",
+          "url": "https://wikem.org/wiki/Aplastic_crisis"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "WBC >30K",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "Platelet <100K",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Consider_admission": {
+      "text": "Acute chest syndrome\nis suspected\nSepsis\n,\nosteomyelitis\n, or other serious infection is suspected\nPriapism\n,\naplastic crisis\n,\nhypoxia\n, splenic sequestration\nWBC >30K\nPlatelet <100K\nPain is not under control after 3 rounds of analgesics in ED\n<1yr old",
+      "subsections": {
+        "Consider_discharge": {
+          "text": "Pain is under control and patient can take oral fluids and medications\nEnsure appropriate oral analgesics are available\nProvide home care instructions\nEnsure resource for follow-up",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute chest syndrome",
+          "url": "https://wikem.org/wiki/Acute_chest_syndrome"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "aplastic crisis",
+          "url": "https://wikem.org/wiki/Aplastic_crisis"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "WBC >30K",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "Platelet <100K",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Consider_discharge": {
+      "text": "Pain is under control and patient can take oral fluids and medications\nEnsure appropriate oral analgesics are available\nProvide home care instructions\nEnsure resource for follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sickle cell crisis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        }
+      ]
+    }
+  }
+}

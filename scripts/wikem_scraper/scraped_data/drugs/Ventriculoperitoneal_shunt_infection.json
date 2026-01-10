@@ -1,0 +1,251 @@
+{
+  "drug_name": "Ventriculoperitoneal_shunt_infection",
+  "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_infection",
+  "scraped_at": "2026-01-10T08:05:01.435233",
+  "sections": {
+    "Background": {
+      "text": "Occurrence\n50% within first 2 weeks of placement/manipulation\n70% within 2 months of placement/manipulation\n80% within 6 months of placement/manipulation\n10% present >1 year after surgery",
+      "subsections": {
+        "Types": {
+          "text": "External Infection\nInvolve the subcutaneous tract around the shunt\nInternal Infection\nInvolves the shunt and CSF contained within the shunt",
+          "tables": []
+        },
+        "Bacteriology": {
+          "text": "50% of cases caused by\nS. epidermidis\nAlso caused by\nS. aureus\n,\nGram-negatives\n,\nanaerobes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. epidermidis",
+          "url": "https://wikem.org/wiki/S._epidermidis"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Gram-negatives",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        }
+      ]
+    },
+    "Types": {
+      "text": "External Infection\nInvolve the subcutaneous tract around the shunt\nInternal Infection\nInvolves the shunt and CSF contained within the shunt",
+      "subsections": {
+        "Bacteriology": {
+          "text": "50% of cases caused by\nS. epidermidis\nAlso caused by\nS. aureus\n,\nGram-negatives\n,\nanaerobes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. epidermidis",
+          "url": "https://wikem.org/wiki/S._epidermidis"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Gram-negatives",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        }
+      ]
+    },
+    "Bacteriology": {
+      "text": "50% of cases caused by\nS. epidermidis\nAlso caused by\nS. aureus\n,\nGram-negatives\n,\nanaerobes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "S. epidermidis",
+          "url": "https://wikem.org/wiki/S._epidermidis"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Gram-negatives",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Internal Infection\nMental status changes\n,\nheadache\n,\nnausea and vomiting\n, irritability\nNeck stiffness (33% of patients)\nFever\nis often absent\nAbdominal pain\n(VP shunt)\nExternal Infection\nSwelling, erythema, tenderness along site of shunt tubing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mental status changes",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Ventriculoperitoneal_shunt_problems": {
+          "text": "Ventriculoperitoneal shunt obstruction\nVentriculoperitoneal shunt overdrainage\n(Slit Ventricle Syndrome)\nVentriculoperitoneal shunt infection\nVentriculoperitoneal shunt mechanical failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt obstruction",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_obstruction"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt overdrainage",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_overdrainage"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt mechanical failure",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_mechanical_failure"
+        }
+      ]
+    },
+    "Ventriculoperitoneal_shunt_problems": {
+      "text": "Ventriculoperitoneal shunt obstruction\nVentriculoperitoneal shunt overdrainage\n(Slit Ventricle Syndrome)\nVentriculoperitoneal shunt infection\nVentriculoperitoneal shunt mechanical failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt obstruction",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_obstruction"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt overdrainage",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_overdrainage"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt mechanical failure",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_mechanical_failure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Shunt tap (only done by neurosurgeon unless critically high ICP and no surgeon available)\nLP\noften misses CSF shunt infections and has no role when shunt infection is suspected\nImaging\nUseful to exclude mechanical shunt malfunction (often coexists with infection)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Emergent neurosurgical consultation and admission\nAntibiotics\nCefepime\n/\nCeftazidime\nor\ncarbapenem\n+\nvancomycin",
+      "subsections": {
+        "Pediatric": {
+          "text": "Empiric therapy:\nVancomycin\nAND\nCefotaxime\n200 mg/kg/day IV div Q6 OR\nceftriaxone\n100 mg/kg/day IV div Q12-24\nAlways involved neurosurgery in management\nTailor antimicrobial therapy to culture results",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "carbapenem",
+          "url": "https://wikem.org/wiki/Carbapenem"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Pediatric": {
+      "text": "Empiric therapy:\nVancomycin\nAND\nCefotaxime\n200 mg/kg/day IV div Q6 OR\nceftriaxone\n100 mg/kg/day IV div Q12-24\nAlways involved neurosurgery in management\nTailor antimicrobial therapy to culture results",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ventriculoperitoneal shunt problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt problems",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_problems"
+        }
+      ]
+    }
+  }
+}

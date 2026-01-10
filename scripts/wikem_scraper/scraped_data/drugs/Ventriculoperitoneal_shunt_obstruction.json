@@ -1,0 +1,140 @@
+{
+  "drug_name": "Ventriculoperitoneal_shunt_obstruction",
+  "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_obstruction",
+  "scraped_at": "2026-01-10T08:05:01.555160",
+  "sections": {
+    "Background": {
+      "text": "Most common type of shunt malfunction\nUsually occurs at proximal tubing, followed by distal tubing followed by valve chamber\nProximal obstructions usually occurs within first years of insertion\nDistal obstruction usually occurs only with shunts in place for >2yr\n60% of children suffer malfunction within lifetime",
+      "subsections": {
+        "Causes": {
+          "text": "Proximal obstruction\nTissue debris\nChoroid plexus\nClot\nInfection\nCatheter-tip migration\nLocalized immune response to the tubing\nDistal obstruction\nKinking or disconnection of the tube\nPseudocyst formation\nInfection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/VP_shunt_infections"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/VP_shunt_infections"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Proximal obstruction\nTissue debris\nChoroid plexus\nClot\nInfection\nCatheter-tip migration\nLocalized immune response to the tubing\nDistal obstruction\nKinking or disconnection of the tube\nPseudocyst formation\nInfection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/VP_shunt_infections"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/VP_shunt_infections"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Infants with\nbulging fontanelles\nand suture diastasis\nIrritability\nChange in level of consciousness\nNausea/vomiting\n, poor feeding\nSeizure\nCushing's triad",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bulging fontanelles",
+          "url": "https://wikem.org/wiki/Bulging_fontanelle"
+        },
+        {
+          "text": "Change in level of consciousness",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Ventriculoperitoneal_shunt_problems": {
+          "text": "Ventriculoperitoneal shunt obstruction\nVentriculoperitoneal shunt overdrainage\n(Slit Ventricle Syndrome)\nVentriculoperitoneal shunt infection\nVentriculoperitoneal shunt mechanical failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt overdrainage",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_overdrainage"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt infection",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_infection"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt mechanical failure",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_mechanical_failure"
+        }
+      ]
+    },
+    "Ventriculoperitoneal_shunt_problems": {
+      "text": "Ventriculoperitoneal shunt obstruction\nVentriculoperitoneal shunt overdrainage\n(Slit Ventricle Syndrome)\nVentriculoperitoneal shunt infection\nVentriculoperitoneal shunt mechanical failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt overdrainage",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_overdrainage"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt infection",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_infection"
+        },
+        {
+          "text": "Ventriculoperitoneal shunt mechanical failure",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_mechanical_failure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Shunt series\nCT\nscan without contrast\nVentricular tap\nMRI\n, unless patient has programmable shunt (Can be recalibrated by Neurosurgery if needed)\nPumping shunt (institution dependent) - may pull choroid plexus into shunt or cause intraparenchymal bleed",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Rapid deterioration and NSGY capability distant, may require shunt tap until pressure < 15 mmHg\nIf pressure not relieved by shunt tap, obstruction likely proximal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hydrocephalus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        }
+      ]
+    }
+  }
+}

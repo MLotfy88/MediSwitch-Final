@@ -1,0 +1,52 @@
+{
+  "drug_name": "Ventriculoperitoneal_shunt_drainage",
+  "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_drainage",
+  "scraped_at": "2026-01-10T08:05:01.458886",
+  "sections": {
+    "Indications": {
+      "text": "Should only be performed by emergency physician in an emergency\nAlleviates\nincreased ICP\nand helps make definitive diagnosis\nCan also attempt medical management (mannitol and hyperventilation).",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "LP kit\n25 gauge butterfly needle or 23 gauge needle\nTopical\nLidocaine\n(if time)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Prep\nHave patient seated upright\nPrepare tap site in sterile manner using iodine (hair does not need to be shaved)\n23ga needle or butterfly attached to a manometer is inserted into the reservoir\nIf no fluid returns or flow ceases, a proximal obstruction is likely\nMeasure opening pressure (nl = 12 +/- 2)\nMeasure while reservoir outflow is occluded\nOpening pressure >20 indicates distal obstruction; low pressure indicates proximal\nFluid removal (for increased ICP)\nRemove slowly to avoid choroid plexus bleeding\nRemove until pressure is 10-20",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "If no fluid can be drained, be concerned for proximal obstruction and is a surgical emergency due to risk for herniation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ventriculoperitoneal shunt problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventriculoperitoneal shunt problems",
+          "url": "https://wikem.org/wiki/Ventriculoperitoneal_shunt_problems"
+        }
+      ]
+    }
+  }
+}

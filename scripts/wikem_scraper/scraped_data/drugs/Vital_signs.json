@@ -1,0 +1,63 @@
+{
+  "drug_name": "Vital_signs",
+  "url": "https://wikem.org/wiki/Vital_signs",
+  "scraped_at": "2026-01-10T08:05:10.381886",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nvital signs (peds)\n. See\ncritical care quick reference\nfor vital signs by weight.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Normal_Adult_Vital_Signs": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Heart Rate": "Respiratory Rate",
+            "60 - 100 bmp": "10 - 20 rpm"
+          },
+          {
+            "Heart Rate": "Systolic BP",
+            "60 - 100 bmp": "90 - 140 mmHg"
+          },
+          {
+            "Heart Rate": "SaO2",
+            "60 - 100 bmp": "≥95%[1]"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Corrections": {
+      "text": "Fever directly causes an increase in:\n[2]\nHeart rate: 10 beats per minute per degree centigrade\nRespiratory rate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediatric vital signs\nMaternal vitals and labs in pregnancy\nIdeal body weight estimation\nNormal urine output",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric vital signs",
+          "url": "https://wikem.org/wiki/Pediatric_vital_signs"
+        },
+        {
+          "text": "Maternal vitals and labs in pregnancy",
+          "url": "https://wikem.org/wiki/Maternal_vitals_and_labs_in_pregnancy"
+        },
+        {
+          "text": "Ideal body weight estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "Normal urine output",
+          "url": "https://wikem.org/wiki/Normal_urine_output"
+        }
+      ]
+    }
+  }
+}

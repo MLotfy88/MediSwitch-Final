@@ -1,0 +1,323 @@
+{
+  "drug_name": "Ventilator_high_pressures",
+  "url": "https://wikem.org/wiki/Ventilator_high_pressures",
+  "scraped_at": "2026-01-10T08:04:57.977096",
+  "sections": {
+    "High_Pressure_Alarms": {
+      "text": "In volume control mode, (high)pressure alarm sounds. In pressure control mode (low) volume alarm sounds--BOTH signify similar problems and troubleshoot with the following 4 maneuvers.",
+      "subsections": {
+        "Measure_Peak_Plateau_Pressure": {
+          "text": "Need to measure peak plateau pressure P(Plat) not only peak airway pressure P(Peak).\nPress and hold the “inspiratory hold” button-waveform shows peak pressure and then lower plateau.\nP(Plat) >30 thought to be potentially injurious to lung.\nP(Plat) reflects equilibration of airway pressures without flow, accounts for airway resistance.",
+          "tables": []
+        },
+        "Determine_Airway_Resistance": {
+          "text": "When airway resistance high, P(Peak)>> P(Plat)\nNormal P(Peak)-P(Plat) < 5cm H2O\nAirway resistance increased with: asthma, mucus plugging, small tube, tube kinking, tube obstructed",
+          "tables": []
+        },
+        "Eval_for_Dynamic_Hyperinflation": {
+          "text": "Flow at end of expiration has not stopped, ie breath stacking, ie need more time to exhale and each breath adding volume to lungs\nConsequence of dynamic hyperinflation\nHarder to trigger vent- dys-synchrony\nIncreased dead space- hypoxic/hypercapneic\nElevated intra-thoracic pressures decrease venous return\nLook to make sure expiratory flow returns to baseline.",
+          "tables": []
+        },
+        "Measure_Hyperinflation": {
+          "text": "If you suspect dynamic hyperinflation, perform “expiratory hold”, then PEEP on ventilator may be higher than PEEP on ventilator settings\nDifferences in PEEP with “expiratory hold” and PEEP set on ventilator suggest hyperinflation.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Measure_Peak_Plateau_Pressure": {
+      "text": "Need to measure peak plateau pressure P(Plat) not only peak airway pressure P(Peak).\nPress and hold the “inspiratory hold” button-waveform shows peak pressure and then lower plateau.\nP(Plat) >30 thought to be potentially injurious to lung.\nP(Plat) reflects equilibration of airway pressures without flow, accounts for airway resistance.",
+      "subsections": {
+        "Determine_Airway_Resistance": {
+          "text": "When airway resistance high, P(Peak)>> P(Plat)\nNormal P(Peak)-P(Plat) < 5cm H2O\nAirway resistance increased with: asthma, mucus plugging, small tube, tube kinking, tube obstructed",
+          "tables": []
+        },
+        "Eval_for_Dynamic_Hyperinflation": {
+          "text": "Flow at end of expiration has not stopped, ie breath stacking, ie need more time to exhale and each breath adding volume to lungs\nConsequence of dynamic hyperinflation\nHarder to trigger vent- dys-synchrony\nIncreased dead space- hypoxic/hypercapneic\nElevated intra-thoracic pressures decrease venous return\nLook to make sure expiratory flow returns to baseline.",
+          "tables": []
+        },
+        "Measure_Hyperinflation": {
+          "text": "If you suspect dynamic hyperinflation, perform “expiratory hold”, then PEEP on ventilator may be higher than PEEP on ventilator settings\nDifferences in PEEP with “expiratory hold” and PEEP set on ventilator suggest hyperinflation.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Determine_Airway_Resistance": {
+      "text": "When airway resistance high, P(Peak)>> P(Plat)\nNormal P(Peak)-P(Plat) < 5cm H2O\nAirway resistance increased with: asthma, mucus plugging, small tube, tube kinking, tube obstructed",
+      "subsections": {
+        "Eval_for_Dynamic_Hyperinflation": {
+          "text": "Flow at end of expiration has not stopped, ie breath stacking, ie need more time to exhale and each breath adding volume to lungs\nConsequence of dynamic hyperinflation\nHarder to trigger vent- dys-synchrony\nIncreased dead space- hypoxic/hypercapneic\nElevated intra-thoracic pressures decrease venous return\nLook to make sure expiratory flow returns to baseline.",
+          "tables": []
+        },
+        "Measure_Hyperinflation": {
+          "text": "If you suspect dynamic hyperinflation, perform “expiratory hold”, then PEEP on ventilator may be higher than PEEP on ventilator settings\nDifferences in PEEP with “expiratory hold” and PEEP set on ventilator suggest hyperinflation.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Eval_for_Dynamic_Hyperinflation": {
+      "text": "Flow at end of expiration has not stopped, ie breath stacking, ie need more time to exhale and each breath adding volume to lungs\nConsequence of dynamic hyperinflation\nHarder to trigger vent- dys-synchrony\nIncreased dead space- hypoxic/hypercapneic\nElevated intra-thoracic pressures decrease venous return\nLook to make sure expiratory flow returns to baseline.",
+      "subsections": {
+        "Measure_Hyperinflation": {
+          "text": "If you suspect dynamic hyperinflation, perform “expiratory hold”, then PEEP on ventilator may be higher than PEEP on ventilator settings\nDifferences in PEEP with “expiratory hold” and PEEP set on ventilator suggest hyperinflation.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Measure_Hyperinflation": {
+      "text": "If you suspect dynamic hyperinflation, perform “expiratory hold”, then PEEP on ventilator may be higher than PEEP on ventilator settings\nDifferences in PEEP with “expiratory hold” and PEEP set on ventilator suggest hyperinflation.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "High_P(Peak),_Low_P(Plat)": {
+          "text": "Suggests increased airway resistance, not compliance problem\nKinked tube- pass suction catheter?\nMucus plug- pass suction catheter and suction\nBronchospasm- inhaled\nbronchodilators\nTube too small- swap tube",
+          "tables": []
+        },
+        "High_P(Peak),_High_P(Plat)": {
+          "text": "Suggests decreased compliance, not an isolated resistance problem\nMainstem bronchus- pull back ETT,\nCXR\n?\nAtelectasis- bronchoscopy\nCardiogenic [[[pulmonary edema]]-\ndiuretics\nvs\ninotropes\nARDS\n- lower Vt\nPneumothorax\n-\nChest tube\nPneumonia\n-\nAntibiotics",
+          "tables": []
+        },
+        "PEEP_measured_>_PEEP_Vent_Setting": {
+          "text": "Suggests Dynamic Hyperinflation\nRemove from vent, allow complete exhalation\nLower ventilator rate\nShorten I-time to change I:E around 1:4\nTidal volume 6-8mL/kg\npredicted body weight\nIncrease inspiratory flow rate to 60-80L/min to allow more exhalation time\nOpioid\nsedation blunts intrinsic tachypnea\nTreat bronchospasm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "inotropes",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "predicted body weight",
+          "url": "https://wikem.org/wiki/Predicted_body_weight"
+        },
+        {
+          "text": "Opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        }
+      ]
+    },
+    "PEEP_measured_>_PEEP_Vent_Setting": {
+      "text": "Suggests Dynamic Hyperinflation\nRemove from vent, allow complete exhalation\nLower ventilator rate\nShorten I-time to change I:E around 1:4\nTidal volume 6-8mL/kg\npredicted body weight\nIncrease inspiratory flow rate to 60-80L/min to allow more exhalation time\nOpioid\nsedation blunts intrinsic tachypnea\nTreat bronchospasm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "predicted body weight",
+          "url": "https://wikem.org/wiki/Predicted_body_weight"
+        },
+        {
+          "text": "Opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation\nEBQ:ARDSnet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        }
+      ]
+    },
+    "Mechanical_Ventilation_Pages": {
+      "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation\nEBQ:ARDSnet",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        }
+      ]
+    }
+  }
+}

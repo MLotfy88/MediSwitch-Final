@@ -1,0 +1,234 @@
+{
+  "drug_name": "Venous_cutdown",
+  "url": "https://wikem.org/wiki/Venous_cutdown",
+  "scraped_at": "2026-01-10T08:04:57.330129",
+  "sections": {
+    "Indications": {
+      "text": "As an alternative to venipuncture in critically ill patients in need of vascular access, and in whom venipuncture may be difficult\nShock\nAsystole\nor\nPEA\nSclerosed veins in IVDA\nExtensive\nburns\nor other injuries\nSmall children",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "PEA",
+          "url": "https://wikem.org/wiki/PEA"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "",
+      "subsections": {
+        "Absolute": {
+          "text": "When less invasive options for venous access exist\nMajor trauma at target site",
+          "tables": []
+        },
+        "Relative": {
+          "text": "Overlying soft tissue infection\nBleeding diathesis\nImmunocompromise\nExtremity injury proximal to the site",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Absolute": {
+      "text": "When less invasive options for venous access exist\nMajor trauma at target site",
+      "subsections": {
+        "Relative": {
+          "text": "Overlying soft tissue infection\nBleeding diathesis\nImmunocompromise\nExtremity injury proximal to the site",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Relative": {
+      "text": "Overlying soft tissue infection\nBleeding diathesis\nImmunocompromise\nExtremity injury proximal to the site",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Scalpel with 11-blade\nCurved hemostat\nIris scissors\n0-0 silk sutures\nPlastic venous dilator\nLarge bore IV catheter\nIV tubing\nTape",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Choose site\nGreat saphenous vein (most common, usually at the ankle)\nBasilic vein\nCephalic vein\nApply tourniquet\nClean skin\nMake shallow incision perpendicular to vein course\nBluntly dissect, isolate and mobilize the vein\nUse a hemostat to isolate the vein, and pass silk ties under it, proximal and distal to the proposed cannulation site\nTie the distal suture only (or just apply traction without tying)\nIncise the vein while retracting the proximal ligature, cutting through 1/3 to 1/2 the diameter of the vein\nUse the venous dilator to lift the flap and then advance the catheter into the vein\nAttach IV tubing to the catheter\nTie the proximal suture around the vein and catheter\nIf distal suture not tied, remove it\nTape catheter to skin, close incision",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Transection of the vein\nTransection of the artery\nBleeding\nHematoma\nPhlebitis\nSepsis\nThrombus formation\nInjury to surrounding structures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Vascular_access_types": {
+          "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Pediatric central line",
+          "url": "https://wikem.org/wiki/Pediatric_central_line"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "Umbilical vein catheterization",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "External jugular vein cannulation",
+          "url": "https://wikem.org/wiki/External_jugular_vein_cannulation"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    },
+    "Vascular_access_types": {
+      "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Pediatric central line",
+          "url": "https://wikem.org/wiki/Pediatric_central_line"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "Umbilical vein catheterization",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "External jugular vein cannulation",
+          "url": "https://wikem.org/wiki/External_jugular_vein_cannulation"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMCrit - Rapid Saphenous Vein Cutdown",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=sYIDyz396Bo}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=sYIDyz396Bo}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Roberts & Hedges 6e, pp 432-439",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

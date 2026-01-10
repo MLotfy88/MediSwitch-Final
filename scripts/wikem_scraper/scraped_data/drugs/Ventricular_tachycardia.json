@@ -1,0 +1,1218 @@
+{
+  "drug_name": "Ventricular_tachycardia",
+  "url": "https://wikem.org/wiki/Ventricular_tachycardia",
+  "scraped_at": "2026-01-10T08:04:58.080382",
+  "sections": {
+    "Background": {
+      "text": "3 wide complexes in a row is considered ventricular tachycardia\nNon-sustained if lasts < 30 seconds\nSustained if lasts >30 seconds",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Syncope\nPalpitations\nAltered level of consciousness\nMay present with\ncardiac arrest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Altered level of consciousness",
+          "url": "https://wikem.org/wiki/Altered_level_of_consciousness"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        },
+        "Narrow-complex_tachycardia": {
+          "text": "Regular\nAV Node Independent\nSinus tachycardia\nAtrial tachycardia\n(uni-focal or multi-focal)\nAtrial fibrillation\nAtrial flutter\nIdiopathic fascicular left ventricular tachycardia\nAV Node Dependent\nParoxysmal supraventricular tachycardia\n(PSVT)\nAV node re-entry tachycardia\n(AVNRT)\nAV re-entry tachycardia\n(AVRT)\nLown-Ganong-Levine syndrome\nWolff–Parkinson–White syndrome\nJunctional tachycardia\nIrregular\nMultifocal atrial tachycardia\n(MAT)\nSinus tachycardia\nwith frequent\nPACs\n,\nPJCs\n,\nPVCs\nAtrial fibrillation\nAtrial fibrillation with RVR\nAtrial flutter\nwith variable conduction\nDigoxin Toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial tachycardia",
+          "url": "https://wikem.org/wiki/Atrial_tachycardia"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Idiopathic fascicular left ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Idiopathic_fascicular_left_ventricular_tachycardia"
+        },
+        {
+          "text": "Paroxysmal supraventricular tachycardia",
+          "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia"
+        },
+        {
+          "text": "AV node re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_node_re-entry_tachycardia"
+        },
+        {
+          "text": "AV re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_re-entry_tachycardia"
+        },
+        {
+          "text": "Lown-Ganong-Levine syndrome",
+          "url": "https://wikem.org/wiki/Lown-Ganong-Levine_syndrome"
+        },
+        {
+          "text": "Wolff–Parkinson–White syndrome",
+          "url": "https://wikem.org/wiki/Wolff%E2%80%93Parkinson%E2%80%93White_syndrome"
+        },
+        {
+          "text": "Junctional tachycardia",
+          "url": "https://wikem.org/wiki/Junctional_tachycardia"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "PJCs",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "PVCs",
+          "url": "https://wikem.org/wiki/PVCs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial fibrillation with RVR",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_with_RVR"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Digoxin Toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        }
+      ]
+    },
+    "Wide-complex_tachycardia": {
+      "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+      "subsections": {
+        "Narrow-complex_tachycardia": {
+          "text": "Regular\nAV Node Independent\nSinus tachycardia\nAtrial tachycardia\n(uni-focal or multi-focal)\nAtrial fibrillation\nAtrial flutter\nIdiopathic fascicular left ventricular tachycardia\nAV Node Dependent\nParoxysmal supraventricular tachycardia\n(PSVT)\nAV node re-entry tachycardia\n(AVNRT)\nAV re-entry tachycardia\n(AVRT)\nLown-Ganong-Levine syndrome\nWolff–Parkinson–White syndrome\nJunctional tachycardia\nIrregular\nMultifocal atrial tachycardia\n(MAT)\nSinus tachycardia\nwith frequent\nPACs\n,\nPJCs\n,\nPVCs\nAtrial fibrillation\nAtrial fibrillation with RVR\nAtrial flutter\nwith variable conduction\nDigoxin Toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial tachycardia",
+          "url": "https://wikem.org/wiki/Atrial_tachycardia"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Idiopathic fascicular left ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Idiopathic_fascicular_left_ventricular_tachycardia"
+        },
+        {
+          "text": "Paroxysmal supraventricular tachycardia",
+          "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia"
+        },
+        {
+          "text": "AV node re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_node_re-entry_tachycardia"
+        },
+        {
+          "text": "AV re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_re-entry_tachycardia"
+        },
+        {
+          "text": "Lown-Ganong-Levine syndrome",
+          "url": "https://wikem.org/wiki/Lown-Ganong-Levine_syndrome"
+        },
+        {
+          "text": "Wolff–Parkinson–White syndrome",
+          "url": "https://wikem.org/wiki/Wolff%E2%80%93Parkinson%E2%80%93White_syndrome"
+        },
+        {
+          "text": "Junctional tachycardia",
+          "url": "https://wikem.org/wiki/Junctional_tachycardia"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "PJCs",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "PVCs",
+          "url": "https://wikem.org/wiki/PVCs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial fibrillation with RVR",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_with_RVR"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Digoxin Toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        }
+      ]
+    },
+    "Narrow-complex_tachycardia": {
+      "text": "Regular\nAV Node Independent\nSinus tachycardia\nAtrial tachycardia\n(uni-focal or multi-focal)\nAtrial fibrillation\nAtrial flutter\nIdiopathic fascicular left ventricular tachycardia\nAV Node Dependent\nParoxysmal supraventricular tachycardia\n(PSVT)\nAV node re-entry tachycardia\n(AVNRT)\nAV re-entry tachycardia\n(AVRT)\nLown-Ganong-Levine syndrome\nWolff–Parkinson–White syndrome\nJunctional tachycardia\nIrregular\nMultifocal atrial tachycardia\n(MAT)\nSinus tachycardia\nwith frequent\nPACs\n,\nPJCs\n,\nPVCs\nAtrial fibrillation\nAtrial fibrillation with RVR\nAtrial flutter\nwith variable conduction\nDigoxin Toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial tachycardia",
+          "url": "https://wikem.org/wiki/Atrial_tachycardia"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Idiopathic fascicular left ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Idiopathic_fascicular_left_ventricular_tachycardia"
+        },
+        {
+          "text": "Paroxysmal supraventricular tachycardia",
+          "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia"
+        },
+        {
+          "text": "AV node re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_node_re-entry_tachycardia"
+        },
+        {
+          "text": "AV re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_re-entry_tachycardia"
+        },
+        {
+          "text": "Lown-Ganong-Levine syndrome",
+          "url": "https://wikem.org/wiki/Lown-Ganong-Levine_syndrome"
+        },
+        {
+          "text": "Wolff–Parkinson–White syndrome",
+          "url": "https://wikem.org/wiki/Wolff%E2%80%93Parkinson%E2%80%93White_syndrome"
+        },
+        {
+          "text": "Junctional tachycardia",
+          "url": "https://wikem.org/wiki/Junctional_tachycardia"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "PJCs",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "PVCs",
+          "url": "https://wikem.org/wiki/PVCs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial fibrillation with RVR",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_with_RVR"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Digoxin Toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Assume ventricular tachycardia until proven otherwise\nSee also\nrhythm diagnosis in regular wide complex tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rhythm diagnosis in regular wide complex tachycardia",
+          "url": "https://wikem.org/wiki/Rhythm_diagnosis_in_regular_wide_complex_tachycardia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Wide_Regular_Tachycardia": {
+          "text": "Pulseless: see\nAdult pulseless arrest\nUnstable\n: Hypotension, altered mental status, shock, ischemic chest discomfort, acute heart failure\nSynchronized cardioversion\n100-200J\nStable\n:\nMedications\nProcainamide\n(first-line drug of choice)\n20-50 mg/min until arrhythmia suppressed (max 17mg/kg or 1 gram); then, maintenance infusion of 1-4mg/min x 6hr\nAlternative administration: 100 mg q5min at max rate of 25-50 mg/min\n[2]\nStop if QRS duration increases >50% or\nhypotension\nAvoid if\nprolonged QT\nor\nCHF\nFavored over Amiodarone in PROCAMIO trial; termination of tachycardia in 67% of procainamide group vs 38% of amiodarone group, adverse cardiac events 9% vs 41%, respectively\n[3]\nAmiodarone\n(agent of choice in setting of\nAMI\nor LV dysfunction)\n150 mg over 10min (15 mg/min), followed by 1 mg/min drip over 6hrs (360 mg total)\n[4]\nThen 0.5 mg/min drip over next 18 hrs (540 mg total)\nOral dosage after IV infusion is 400 -800 mg PO daily\nConsider\nadenosine\nConsider for diagnosis and treatment, if rhythm is regular and monomorphic (see\nrhythm diagnosis in regular wide complex tachycardia\n)\n6 mg IV as a rapid IV push followed by a 20 mL saline flush; repeat if required as 12 mg IV push\nSynchronized\ncardioversion\n(100J)",
+          "tables": []
+        },
+        "Wide_Irregular_Tachycardia": {
+          "text": "DO NOT use AV nodal blockers as they can precipitate\nV-Fib\nPulseless: see\nAdult pulseless arrest\nUnstable\n: Hypotension, altered mental status, shock, ischemic chest discomfort, acute heart failure\nUnsynchronized cardioversion\n(defibrillation) 200J\nStable\n:\nA fib\nwith preexcitation\n1st line - Electric\nCardioversion\n2nd line -\nProcainamide\n,\namiodarone\n, or\nsotalol\nA fib\nwith aberrancy\nPolymorphic\nV-Tach\n/\nTorsades De Pointes\nGive IV\nMgSO4\nEmergent defibrillation (NOT synchronized)\nCorrect\nelectrolyte abnormalities\n(esp\nhypoK\n,\nhypoMg\n)\nStop\nprolonged QT\nmeds",
+          "tables": []
+        },
+        "Recurrent": {
+          "text": "≥3 episodes within 24 hours considered\nelectrical storm\nand may require alternate treatment (i.e. beta blockade, sedation, ablation)",
+          "tables": []
+        },
+        "Other_considerations": {
+          "text": "True Vtach generally has rate >120bpm. If rate <120bpm or refractory to other therapy, consider other causes\nWhen in doubt, use cardioversion for treatment of regular WCT. In irregular WCT, consider Afib with\nWPW\nin which\nProcainamide\nis the treatment of choice.\nIn very wide complex (>0.2 msec) and <120 bpm in a patient with significant history, consider giving\ncalcium chloride\nto treat\nhyperkalemia\nConsider\nAcidosis\nSodium channel blockade (e.g. from\nbenadryl\n,\nTCA\n, or\ncocaine\ntoxicity) may cause very wide complex (>0.2msec) tachycardia with rate <120bpm\nTreat with\nsodium bicarbonate\nProcainamide\n,\nFlecanide\n,\nAmiodarone\nall block Na channels and may result in\nasystole\nin patients with intrinsic or extrinsic Na-channel blockade.\nLidocaine\ncan be considered in for ventricular dysrhythmias in\nTCA toxicity\nif\nbicarbonate\nis ineffective, as it inhibits the sodium channel blockade effects of TCAs.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Adult pulseless arrest",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "adenosine",
+          "url": "https://wikem.org/wiki/Adenosine"
+        },
+        {
+          "text": "rhythm diagnosis in regular wide complex tachycardia",
+          "url": "https://wikem.org/wiki/Rhythm_diagnosis_in_regular_wide_complex_tachycardia"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "V-Fib",
+          "url": "https://wikem.org/wiki/V-Fib"
+        },
+        {
+          "text": "Adult pulseless arrest",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Unsynchronized cardioversion",
+          "url": "https://wikem.org/wiki/Unsynchronized_cardioversion"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "V-Tach",
+          "url": "https://wikem.org/wiki/V-Tach"
+        },
+        {
+          "text": "Torsades De Pointes",
+          "url": "https://wikem.org/wiki/Torsades_De_Pointes"
+        },
+        {
+          "text": "MgSO4",
+          "url": "https://wikem.org/wiki/MgSO4"
+        },
+        {
+          "text": "electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "hypoK",
+          "url": "https://wikem.org/wiki/HypoK"
+        },
+        {
+          "text": "hypoMg",
+          "url": "https://wikem.org/wiki/HypoMg"
+        },
+        {
+          "text": "prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "benadryl",
+          "url": "https://wikem.org/wiki/Benadryl"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "Wide_Regular_Tachycardia": {
+      "text": "Pulseless: see\nAdult pulseless arrest\nUnstable\n: Hypotension, altered mental status, shock, ischemic chest discomfort, acute heart failure\nSynchronized cardioversion\n100-200J\nStable\n:\nMedications\nProcainamide\n(first-line drug of choice)\n20-50 mg/min until arrhythmia suppressed (max 17mg/kg or 1 gram); then, maintenance infusion of 1-4mg/min x 6hr\nAlternative administration: 100 mg q5min at max rate of 25-50 mg/min\n[2]\nStop if QRS duration increases >50% or\nhypotension\nAvoid if\nprolonged QT\nor\nCHF\nFavored over Amiodarone in PROCAMIO trial; termination of tachycardia in 67% of procainamide group vs 38% of amiodarone group, adverse cardiac events 9% vs 41%, respectively\n[3]\nAmiodarone\n(agent of choice in setting of\nAMI\nor LV dysfunction)\n150 mg over 10min (15 mg/min), followed by 1 mg/min drip over 6hrs (360 mg total)\n[4]\nThen 0.5 mg/min drip over next 18 hrs (540 mg total)\nOral dosage after IV infusion is 400 -800 mg PO daily\nConsider\nadenosine\nConsider for diagnosis and treatment, if rhythm is regular and monomorphic (see\nrhythm diagnosis in regular wide complex tachycardia\n)\n6 mg IV as a rapid IV push followed by a 20 mL saline flush; repeat if required as 12 mg IV push\nSynchronized\ncardioversion\n(100J)",
+      "subsections": {
+        "Wide_Irregular_Tachycardia": {
+          "text": "DO NOT use AV nodal blockers as they can precipitate\nV-Fib\nPulseless: see\nAdult pulseless arrest\nUnstable\n: Hypotension, altered mental status, shock, ischemic chest discomfort, acute heart failure\nUnsynchronized cardioversion\n(defibrillation) 200J\nStable\n:\nA fib\nwith preexcitation\n1st line - Electric\nCardioversion\n2nd line -\nProcainamide\n,\namiodarone\n, or\nsotalol\nA fib\nwith aberrancy\nPolymorphic\nV-Tach\n/\nTorsades De Pointes\nGive IV\nMgSO4\nEmergent defibrillation (NOT synchronized)\nCorrect\nelectrolyte abnormalities\n(esp\nhypoK\n,\nhypoMg\n)\nStop\nprolonged QT\nmeds",
+          "tables": []
+        },
+        "Recurrent": {
+          "text": "≥3 episodes within 24 hours considered\nelectrical storm\nand may require alternate treatment (i.e. beta blockade, sedation, ablation)",
+          "tables": []
+        },
+        "Other_considerations": {
+          "text": "True Vtach generally has rate >120bpm. If rate <120bpm or refractory to other therapy, consider other causes\nWhen in doubt, use cardioversion for treatment of regular WCT. In irregular WCT, consider Afib with\nWPW\nin which\nProcainamide\nis the treatment of choice.\nIn very wide complex (>0.2 msec) and <120 bpm in a patient with significant history, consider giving\ncalcium chloride\nto treat\nhyperkalemia\nConsider\nAcidosis\nSodium channel blockade (e.g. from\nbenadryl\n,\nTCA\n, or\ncocaine\ntoxicity) may cause very wide complex (>0.2msec) tachycardia with rate <120bpm\nTreat with\nsodium bicarbonate\nProcainamide\n,\nFlecanide\n,\nAmiodarone\nall block Na channels and may result in\nasystole\nin patients with intrinsic or extrinsic Na-channel blockade.\nLidocaine\ncan be considered in for ventricular dysrhythmias in\nTCA toxicity\nif\nbicarbonate\nis ineffective, as it inhibits the sodium channel blockade effects of TCAs.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Adult pulseless arrest",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "adenosine",
+          "url": "https://wikem.org/wiki/Adenosine"
+        },
+        {
+          "text": "rhythm diagnosis in regular wide complex tachycardia",
+          "url": "https://wikem.org/wiki/Rhythm_diagnosis_in_regular_wide_complex_tachycardia"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "V-Fib",
+          "url": "https://wikem.org/wiki/V-Fib"
+        },
+        {
+          "text": "Adult pulseless arrest",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Unsynchronized cardioversion",
+          "url": "https://wikem.org/wiki/Unsynchronized_cardioversion"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "V-Tach",
+          "url": "https://wikem.org/wiki/V-Tach"
+        },
+        {
+          "text": "Torsades De Pointes",
+          "url": "https://wikem.org/wiki/Torsades_De_Pointes"
+        },
+        {
+          "text": "MgSO4",
+          "url": "https://wikem.org/wiki/MgSO4"
+        },
+        {
+          "text": "electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "hypoK",
+          "url": "https://wikem.org/wiki/HypoK"
+        },
+        {
+          "text": "hypoMg",
+          "url": "https://wikem.org/wiki/HypoMg"
+        },
+        {
+          "text": "prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "benadryl",
+          "url": "https://wikem.org/wiki/Benadryl"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "Wide_Irregular_Tachycardia": {
+      "text": "DO NOT use AV nodal blockers as they can precipitate\nV-Fib\nPulseless: see\nAdult pulseless arrest\nUnstable\n: Hypotension, altered mental status, shock, ischemic chest discomfort, acute heart failure\nUnsynchronized cardioversion\n(defibrillation) 200J\nStable\n:\nA fib\nwith preexcitation\n1st line - Electric\nCardioversion\n2nd line -\nProcainamide\n,\namiodarone\n, or\nsotalol\nA fib\nwith aberrancy\nPolymorphic\nV-Tach\n/\nTorsades De Pointes\nGive IV\nMgSO4\nEmergent defibrillation (NOT synchronized)\nCorrect\nelectrolyte abnormalities\n(esp\nhypoK\n,\nhypoMg\n)\nStop\nprolonged QT\nmeds",
+      "subsections": {
+        "Recurrent": {
+          "text": "≥3 episodes within 24 hours considered\nelectrical storm\nand may require alternate treatment (i.e. beta blockade, sedation, ablation)",
+          "tables": []
+        },
+        "Other_considerations": {
+          "text": "True Vtach generally has rate >120bpm. If rate <120bpm or refractory to other therapy, consider other causes\nWhen in doubt, use cardioversion for treatment of regular WCT. In irregular WCT, consider Afib with\nWPW\nin which\nProcainamide\nis the treatment of choice.\nIn very wide complex (>0.2 msec) and <120 bpm in a patient with significant history, consider giving\ncalcium chloride\nto treat\nhyperkalemia\nConsider\nAcidosis\nSodium channel blockade (e.g. from\nbenadryl\n,\nTCA\n, or\ncocaine\ntoxicity) may cause very wide complex (>0.2msec) tachycardia with rate <120bpm\nTreat with\nsodium bicarbonate\nProcainamide\n,\nFlecanide\n,\nAmiodarone\nall block Na channels and may result in\nasystole\nin patients with intrinsic or extrinsic Na-channel blockade.\nLidocaine\ncan be considered in for ventricular dysrhythmias in\nTCA toxicity\nif\nbicarbonate\nis ineffective, as it inhibits the sodium channel blockade effects of TCAs.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "V-Fib",
+          "url": "https://wikem.org/wiki/V-Fib"
+        },
+        {
+          "text": "Adult pulseless arrest",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest"
+        },
+        {
+          "text": "Unsynchronized cardioversion",
+          "url": "https://wikem.org/wiki/Unsynchronized_cardioversion"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "A fib",
+          "url": "https://wikem.org/wiki/A_fib"
+        },
+        {
+          "text": "V-Tach",
+          "url": "https://wikem.org/wiki/V-Tach"
+        },
+        {
+          "text": "Torsades De Pointes",
+          "url": "https://wikem.org/wiki/Torsades_De_Pointes"
+        },
+        {
+          "text": "MgSO4",
+          "url": "https://wikem.org/wiki/MgSO4"
+        },
+        {
+          "text": "electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "hypoK",
+          "url": "https://wikem.org/wiki/HypoK"
+        },
+        {
+          "text": "hypoMg",
+          "url": "https://wikem.org/wiki/HypoMg"
+        },
+        {
+          "text": "prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "benadryl",
+          "url": "https://wikem.org/wiki/Benadryl"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "Recurrent": {
+      "text": "≥3 episodes within 24 hours considered\nelectrical storm\nand may require alternate treatment (i.e. beta blockade, sedation, ablation)",
+      "subsections": {
+        "Other_considerations": {
+          "text": "True Vtach generally has rate >120bpm. If rate <120bpm or refractory to other therapy, consider other causes\nWhen in doubt, use cardioversion for treatment of regular WCT. In irregular WCT, consider Afib with\nWPW\nin which\nProcainamide\nis the treatment of choice.\nIn very wide complex (>0.2 msec) and <120 bpm in a patient with significant history, consider giving\ncalcium chloride\nto treat\nhyperkalemia\nConsider\nAcidosis\nSodium channel blockade (e.g. from\nbenadryl\n,\nTCA\n, or\ncocaine\ntoxicity) may cause very wide complex (>0.2msec) tachycardia with rate <120bpm\nTreat with\nsodium bicarbonate\nProcainamide\n,\nFlecanide\n,\nAmiodarone\nall block Na channels and may result in\nasystole\nin patients with intrinsic or extrinsic Na-channel blockade.\nLidocaine\ncan be considered in for ventricular dysrhythmias in\nTCA toxicity\nif\nbicarbonate\nis ineffective, as it inhibits the sodium channel blockade effects of TCAs.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "benadryl",
+          "url": "https://wikem.org/wiki/Benadryl"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "Other_considerations": {
+      "text": "True Vtach generally has rate >120bpm. If rate <120bpm or refractory to other therapy, consider other causes\nWhen in doubt, use cardioversion for treatment of regular WCT. In irregular WCT, consider Afib with\nWPW\nin which\nProcainamide\nis the treatment of choice.\nIn very wide complex (>0.2 msec) and <120 bpm in a patient with significant history, consider giving\ncalcium chloride\nto treat\nhyperkalemia\nConsider\nAcidosis\nSodium channel blockade (e.g. from\nbenadryl\n,\nTCA\n, or\ncocaine\ntoxicity) may cause very wide complex (>0.2msec) tachycardia with rate <120bpm\nTreat with\nsodium bicarbonate\nProcainamide\n,\nFlecanide\n,\nAmiodarone\nall block Na channels and may result in\nasystole\nin patients with intrinsic or extrinsic Na-channel blockade.\nLidocaine\ncan be considered in for ventricular dysrhythmias in\nTCA toxicity\nif\nbicarbonate\nis ineffective, as it inhibits the sodium channel blockade effects of TCAs.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "benadryl",
+          "url": "https://wikem.org/wiki/Benadryl"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit all patients (even if converted to normal sinus rhythm in ED)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ACLS: Tachycardia\nWide-complex tachycardia\nRhythm diagnosis in regular wide complex tachycardia\nNonsustained ventricular tachycardia\nPolymorphic ventricular tachycardia\nElectrical storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS: Tachycardia",
+          "url": "https://wikem.org/wiki/ACLS:_Tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardia",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "Rhythm diagnosis in regular wide complex tachycardia",
+          "url": "https://wikem.org/wiki/Rhythm_diagnosis_in_regular_wide_complex_tachycardia"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        }
+      ]
+    }
+  }
+}

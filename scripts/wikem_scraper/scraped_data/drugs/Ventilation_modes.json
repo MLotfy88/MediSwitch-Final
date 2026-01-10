@@ -1,0 +1,218 @@
+{
+  "drug_name": "Ventilation_modes",
+  "url": "https://wikem.org/wiki/Ventilation_modes",
+  "scraped_at": "2026-01-10T08:04:59.025534",
+  "sections": {
+    "Modes": {
+      "text": "",
+      "subsections": {
+        "Volume_Assist_Control_(AC)": {
+          "text": "The most common mode for ED ventilation\nPrevents patient fatigue by offering full respiratory support\nThe safety and ease of this mode typically outweighs the theoretical benefits of other modes (primarily a perception of increased patient comfort)\n[1]\nPreset rate and TV\nPatient able to trigger additional breaths (full assisted tidal volume)\nSpontaneous breathing (above rate) is not allowed\nBeneficial for patients requiring a high minute-ventilation (reduces oxygen consumption and CO2 production of the respiratory muscles)\nMay worsen obstructive airway disease by air trapping or breath stacking\nSet: RR, FiO2, PEEP, TV, I:E ratio",
+          "tables": []
+        },
+        "Synchronous_Intermittent_Mandatory_Ventilation_(SIMV)": {
+          "text": "Senses not to give with breathing if present, extra breaths of patient's TV\nPreset breaths in coordination with the respiratory effort\nSpontaneous breathing allowed between breaths\nSynchronization attempts to limit the barotrauma by not delivering a breath when already maximally inhaled (vs. IMV)\nFor each additional breath triggered by pt, ventilator delivers variable TV depending on patient effort and condition of lung\nBecause of need for patient effort, not recommended for tired or septic pt\nSet: RR, FiO2, PEEP, TV, I:E ratio\n^For the paralyzed patient, there is no difference in minute-ventilation or airway pressures between A/C and SIMV",
+          "tables": []
+        },
+        "Pressure_Support_(PS)": {
+          "text": "Controls via pressure, good if pressures getting too high\nLimits barotrauma and decreases the work of breathing in the spontaneously breathing patient\nLevel of pressure set (not TV) to assist spontaneous efforts\nMost ventilators allow back-up respiratory rate (in case of apnea)\nMode of choice in patients whose respiratory failure is not severe and who have an adequate respiratory drive (improved patient comfort, reduced cardiovascular effects, reduced risk of barotrauma, and improved distribution of gas)\nSet: RR, FiO2, PEEP, PS, I:E ratio",
+          "tables": []
+        },
+        "Pressure_Regulated_Volume_Control_(PRVC)": {
+          "text": "Provides constant pressure through inspiration with decelerating inspiratory flow pattern\nVentilator adjusts pressure breath to breath based on patient’s airway resistance and compliance\nBenefits: minimum PIP, guaranteed tidal volume, patient can trigger more breaths, improved oxygenation, breath by breath changes\nNot recommended for asthma or COPD\nSet: FiO2, RR, TV, upper pressure limit, I:E ratio, PEEP",
+          "tables": []
+        },
+        "CPAP": {
+          "text": "Needs spont breathing pt\nNot for fatiguing pt\nSet: FiO2, PEEP, back up RR",
+          "tables": []
+        },
+        "Control_Mode": {
+          "text": "only in OR\nmachine initiates and delivers breath\nfixed rate and TV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "CPAP": {
+      "text": "Needs spont breathing pt\nNot for fatiguing pt\nSet: FiO2, PEEP, back up RR",
+      "subsections": {
+        "Control_Mode": {
+          "text": "only in OR\nmachine initiates and delivers breath\nfixed rate and TV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Control_Mode": {
+      "text": "only in OR\nmachine initiates and delivers breath\nfixed rate and TV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation\nEBQ:ARDSnet",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        }
+      ]
+    },
+    "Mechanical_Ventilation_Pages": {
+      "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation\nEBQ:ARDSnet",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        }
+      ]
+    }
+  }
+}

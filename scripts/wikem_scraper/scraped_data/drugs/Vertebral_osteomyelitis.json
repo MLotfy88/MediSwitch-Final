@@ -1,0 +1,92 @@
+{
+  "drug_name": "Vertebral_osteomyelitis",
+  "url": "https://wikem.org/wiki/Vertebral_osteomyelitis",
+  "scraped_at": "2026-01-10T08:05:02.558556",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Usually have had prolonged symptoms (pain >3mo)\nAt risk for recent\nbacteremia\nFever\nis a feature - however, often\nafebrile\nVertebral body tenderness\nParavertebral muscle spasm unresponsive to conservative therapy\nParavertebral or\nepidural abscess\nmay develop",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Spinal_infection": {
+          "text": "Epidural Abscess (Spinal)\nDiscitis\nVertebral osteomyelitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        }
+      ]
+    },
+    "Spinal_infection": {
+      "text": "Epidural Abscess (Spinal)\nDiscitis\nVertebral osteomyelitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ESR (almost always elevated)\nBlood cultures\nImaging\nMay take 2-8 weeks to see changes\nBony destruction, irregularity of vertebral end places, disk space narrowing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Antibiotics\nUsually requires IV antibiotic x6wk, then PO antibiotic x 4-8wk\nConsult with spine surgeon before starting antibiotics (may interfere with biopsy culture)\nPiperacillin-tazobactam\n3.375gm IV +\nvancomycin\n1gm IV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Normally, initially inpatient treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
