@@ -1,0 +1,205 @@
+{
+  "drug_name": "Buccal_space_infections",
+  "url": "https://wikem.org/wiki/Buccal_space_infections",
+  "scraped_at": "2026-01-10T07:49:19.575956",
+  "sections": {
+    "Background": {
+      "text": "Cellulitis\nor\nabscess\nin buccal space\nSpace between buccinator and superficial fascia/skin\nOdontogenic source\nMaxillary second and third molars most common",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Ovoid cheek swelling with odontogenic disease\nCT not always necessary, but can define abscess",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Facial_Swelling": {
+          "text": "Buccal space infections\nDental problems\nCanine space infection\nFacial\ncellulitis\nHerpes zoster\nMasticator space infections\nMaxillofacial trauma\nNeoplasm\nParapharyngeal space infection\nSalivary gland diagnoses\nParotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis\nSuperior vena cava syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Masticator space infections",
+          "url": "https://wikem.org/wiki/Masticator_space_infections"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        }
+      ]
+    },
+    "Facial_Swelling": {
+      "text": "Buccal space infections\nDental problems\nCanine space infection\nFacial\ncellulitis\nHerpes zoster\nMasticator space infections\nMaxillofacial trauma\nNeoplasm\nParapharyngeal space infection\nSalivary gland diagnoses\nParotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis\nSuperior vena cava syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Masticator space infections",
+          "url": "https://wikem.org/wiki/Masticator_space_infections"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Parenteral Antibiotics coveral oral flora\nClindamycin\n,\nPenicillin V\n,\n3rd gen Cephalosporin\nOMFS consult for\nabscess\ndrainage, if present, and tooth extraction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "3rd gen Cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "OMFS/ENT consult\nAdmit diabetics,immunocompompromised, discuss others with consultant",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Salivary Gland Infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salivary Gland Infections",
+          "url": "https://wikem.org/wiki/Salivary_Gland_Infections"
+        }
+      ]
+    },
+    "References": {
+      "text": "ER Atlas\nRosen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

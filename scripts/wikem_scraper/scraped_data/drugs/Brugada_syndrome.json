@@ -1,0 +1,648 @@
+{
+  "drug_name": "Brugada_syndrome",
+  "url": "https://wikem.org/wiki/Brugada_syndrome",
+  "scraped_at": "2026-01-10T07:49:20.635957",
+  "sections": {
+    "Background": {
+      "text": "Brugada syndrome is a rare, inherited arrhythmic disorder causing an increased risk of syncope and sudden death due to ventricular fibrillation.\nConsider as cause of syncope in patients with family history of sudden death\n80% of Brugada syndrome diagnosed only after a cardiac arrest\n[1]\nAutosomal dominant Na-channelopathy which increases the risk of sudden cardiac death (~10%/yr)\n[2]\nMuch more common in men (up to 9x), particularly Southeast Asian males\nECG\nshows incomplete\nRBBB\nwith\nST elevation\nin V1-V3\nIn uncomplicated RBBB, usually there is no ST change to slight ST depression\nIf presenting symptom is chest pain rather than syncope, consider strongly STEMI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "ST elevation",
+          "url": "https://wikem.org/wiki/ST_elevation"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Typically asymptomatic\nPatients may have\nVfib\ncardiac arrest\nor sudden death\nDiagnostic\nECG\nfindings transient and variable, with only 1/3 of serial ECGs diagnostic in confirmed spontaneous coved-type Brugada syndrome patients\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vfib",
+          "url": "https://wikem.org/wiki/Vfib"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "ST_Elevation": {
+          "text": "Cardiac\nST-segment elevation myocardial infarction\n(STEMI)\nPost-MI (ventricular aneurysm pattern)\nPrevious MI with recurrent ischemia in same area\nWellens' syndrome\nCoronary artery vasospasm\n(eg, Prinzmetal's angina)\nCoronary artery dissection\nPericarditis\nMyocarditis\nAortic dissection\nin to coronary\nLeft ventricular aneurysm\nLeft ventricular pseudoaneurysm\nEarly repolarization\nLeft bundle branch block\nLeft ventricular hypertrophy (LVH)\nMyocardial tumor\nMyocardial trauma\nRV pacing (appears as\nLeft bundle branch block\n)\nBrugada syndrome\nTakotsubo cardiomyopathy\nAVR ST elevation\nOther thoracic\nPneumomediastinum\nPneumothorax\nPulmonary embolism\nMetabolic\nDrugs of abuse\n(eg, cocaine, crack, meth)\nCocaine chest pain\nHyperkalemia\n(only leads V1 and V2)\nHypothermia\n(\"Osborn J waves\")\nMedications\nTricyclic (TCA) toxicity\nDigoxin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "Coronary artery vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Left ventricular aneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_aneurysm"
+        },
+        {
+          "text": "Left ventricular pseudoaneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_pseudoaneurysm"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Left ventricular hypertrophy (LVH)",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Myocardial trauma",
+          "url": "https://wikem.org/wiki/Myocardial_trauma"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "AVR ST elevation",
+          "url": "https://wikem.org/wiki/AVR_ST_elevation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "ST_Elevation": {
+      "text": "Cardiac\nST-segment elevation myocardial infarction\n(STEMI)\nPost-MI (ventricular aneurysm pattern)\nPrevious MI with recurrent ischemia in same area\nWellens' syndrome\nCoronary artery vasospasm\n(eg, Prinzmetal's angina)\nCoronary artery dissection\nPericarditis\nMyocarditis\nAortic dissection\nin to coronary\nLeft ventricular aneurysm\nLeft ventricular pseudoaneurysm\nEarly repolarization\nLeft bundle branch block\nLeft ventricular hypertrophy (LVH)\nMyocardial tumor\nMyocardial trauma\nRV pacing (appears as\nLeft bundle branch block\n)\nBrugada syndrome\nTakotsubo cardiomyopathy\nAVR ST elevation\nOther thoracic\nPneumomediastinum\nPneumothorax\nPulmonary embolism\nMetabolic\nDrugs of abuse\n(eg, cocaine, crack, meth)\nCocaine chest pain\nHyperkalemia\n(only leads V1 and V2)\nHypothermia\n(\"Osborn J waves\")\nMedications\nTricyclic (TCA) toxicity\nDigoxin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "Coronary artery vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Left ventricular aneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_aneurysm"
+        },
+        {
+          "text": "Left ventricular pseudoaneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_pseudoaneurysm"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Left ventricular hypertrophy (LVH)",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Myocardial trauma",
+          "url": "https://wikem.org/wiki/Myocardial_trauma"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "AVR ST elevation",
+          "url": "https://wikem.org/wiki/AVR_ST_elevation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "ECG_Criteria": {
+          "text": "Type 1\nElevated ST segment (>2mm)\nDescends with upward convexity to a TWI\nType 2\nElevated ST segment (>1mm)\nDescends toward baseline then rises again (saddleback) to upright T wave\nType 3\nElevated ST segment (<1mm)\nDescends toward baseline then rises again to upright T wave\nv1-v2 lead placement in 2nd or 3rd IC spaces (rather than conventional 4th IC space) increases chance of recording type I pattern\n[4]",
+          "tables": []
+        },
+        "ECG_Unmasking_Factors[5][6][7]": {
+          "text": "Type 1 ECG findings can be transient and \"unmasked\" by the following:\nFever\nNight time\nAfter heavy meals\nRecovery phase of exercise\n[9]",
+          "tables": []
+        },
+        "Higher_Risk_ECG_Features": {
+          "text": "Early repolarization\nwith J-point elevation in inferior leads (seen in 10% of Brugada syndrome)\n[10]\nQRS widening > 120 ms in V2\n[11]\nQRS fragmentation\n(additional QRS complex spikes)\n[12]\n[13]\nST elevation\nduring recovery after exercise",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosed when a patient has Burdada's ECG pattern (see above) AND documented ventricular tachydysrhythia or history consistent with ventricular tachydysrythmia (e.g.\nsyncope\n, sudden cardiac death)\n[14]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "ST elevation",
+          "url": "https://wikem.org/wiki/ST_elevation"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "ECG_Criteria": {
+      "text": "Type 1\nElevated ST segment (>2mm)\nDescends with upward convexity to a TWI\nType 2\nElevated ST segment (>1mm)\nDescends toward baseline then rises again (saddleback) to upright T wave\nType 3\nElevated ST segment (<1mm)\nDescends toward baseline then rises again to upright T wave\nv1-v2 lead placement in 2nd or 3rd IC spaces (rather than conventional 4th IC space) increases chance of recording type I pattern\n[4]",
+      "subsections": {
+        "ECG_Unmasking_Factors[5][6][7]": {
+          "text": "Type 1 ECG findings can be transient and \"unmasked\" by the following:\nFever\nNight time\nAfter heavy meals\nRecovery phase of exercise\n[9]",
+          "tables": []
+        },
+        "Higher_Risk_ECG_Features": {
+          "text": "Early repolarization\nwith J-point elevation in inferior leads (seen in 10% of Brugada syndrome)\n[10]\nQRS widening > 120 ms in V2\n[11]\nQRS fragmentation\n(additional QRS complex spikes)\n[12]\n[13]\nST elevation\nduring recovery after exercise",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosed when a patient has Burdada's ECG pattern (see above) AND documented ventricular tachydysrhythia or history consistent with ventricular tachydysrythmia (e.g.\nsyncope\n, sudden cardiac death)\n[14]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "ST elevation",
+          "url": "https://wikem.org/wiki/ST_elevation"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Diagnosed when a patient has Burdada's ECG pattern (see above) AND documented ventricular tachydysrhythia or history consistent with ventricular tachydysrythmia (e.g.\nsyncope\n, sudden cardiac death)\n[14]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Acute ED management depends on presenting symptoms",
+      "subsections": {
+        "Incidental_Brugada_Pattern_on_ECG_(Otherwise_Asymptomatic)": {
+          "text": "No acute treatment",
+          "tables": []
+        },
+        "Concerning_Cardiac_Symptoms": {
+          "text": "Cardiology consultation and likely admission\nConsider EP consult and VF-inducing electrophysiologic study (EPS), though EPS is controversial prognosticator\n[15]",
+          "tables": []
+        },
+        "Active_Tachydysrhythmia": {
+          "text": "Antidysrhythmics trials have inconsistently shown clinical benefit, but potential VF-terminating and prevention meds may include\nquinidine\n,\nisoproterenol\n[16]\nSee\nelectrical storm\nfor 3 or more episodes of sustained\nventricular tachycardia\n,\nventricular fibrilation\n, or ICD shocks within 24 hours",
+          "tables": []
+        },
+        "Drugs_to_be_Avoided": {
+          "text": "If starting or using new med, check\nwww.brugadadrugs.org drug list\nCommonly used meds to avoid include:\nProcainamide\nBupivacaine\nPropofol\nKetamine\nTramadol\nLithium\nExcept for quinidine, class I antiarrhythmic drugs, particularly sodium channel blockers such as procainamide and flecainide should be avoided\nCertain\nantiepileptic\nmedications\nCertain\ntricyclic antidepressants\nCertain\nSSRIs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular fibrilation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrilation"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Bupivacaine",
+          "url": "https://wikem.org/wiki/Bupivacaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "antiepileptic",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "tricyclic antidepressants",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressants"
+        },
+        {
+          "text": "SSRIs",
+          "url": "https://wikem.org/wiki/SSRIs"
+        }
+      ]
+    },
+    "Concerning_Cardiac_Symptoms": {
+      "text": "Cardiology consultation and likely admission\nConsider EP consult and VF-inducing electrophysiologic study (EPS), though EPS is controversial prognosticator\n[15]",
+      "subsections": {
+        "Active_Tachydysrhythmia": {
+          "text": "Antidysrhythmics trials have inconsistently shown clinical benefit, but potential VF-terminating and prevention meds may include\nquinidine\n,\nisoproterenol\n[16]\nSee\nelectrical storm\nfor 3 or more episodes of sustained\nventricular tachycardia\n,\nventricular fibrilation\n, or ICD shocks within 24 hours",
+          "tables": []
+        },
+        "Drugs_to_be_Avoided": {
+          "text": "If starting or using new med, check\nwww.brugadadrugs.org drug list\nCommonly used meds to avoid include:\nProcainamide\nBupivacaine\nPropofol\nKetamine\nTramadol\nLithium\nExcept for quinidine, class I antiarrhythmic drugs, particularly sodium channel blockers such as procainamide and flecainide should be avoided\nCertain\nantiepileptic\nmedications\nCertain\ntricyclic antidepressants\nCertain\nSSRIs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular fibrilation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrilation"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Bupivacaine",
+          "url": "https://wikem.org/wiki/Bupivacaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "antiepileptic",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "tricyclic antidepressants",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressants"
+        },
+        {
+          "text": "SSRIs",
+          "url": "https://wikem.org/wiki/SSRIs"
+        }
+      ]
+    },
+    "Active_Tachydysrhythmia": {
+      "text": "Antidysrhythmics trials have inconsistently shown clinical benefit, but potential VF-terminating and prevention meds may include\nquinidine\n,\nisoproterenol\n[16]\nSee\nelectrical storm\nfor 3 or more episodes of sustained\nventricular tachycardia\n,\nventricular fibrilation\n, or ICD shocks within 24 hours",
+      "subsections": {
+        "Drugs_to_be_Avoided": {
+          "text": "If starting or using new med, check\nwww.brugadadrugs.org drug list\nCommonly used meds to avoid include:\nProcainamide\nBupivacaine\nPropofol\nKetamine\nTramadol\nLithium\nExcept for quinidine, class I antiarrhythmic drugs, particularly sodium channel blockers such as procainamide and flecainide should be avoided\nCertain\nantiepileptic\nmedications\nCertain\ntricyclic antidepressants\nCertain\nSSRIs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular fibrilation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrilation"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Bupivacaine",
+          "url": "https://wikem.org/wiki/Bupivacaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "antiepileptic",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "tricyclic antidepressants",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressants"
+        },
+        {
+          "text": "SSRIs",
+          "url": "https://wikem.org/wiki/SSRIs"
+        }
+      ]
+    },
+    "Drugs_to_be_Avoided": {
+      "text": "If starting or using new med, check\nwww.brugadadrugs.org drug list\nCommonly used meds to avoid include:\nProcainamide\nBupivacaine\nPropofol\nKetamine\nTramadol\nLithium\nExcept for quinidine, class I antiarrhythmic drugs, particularly sodium channel blockers such as procainamide and flecainide should be avoided\nCertain\nantiepileptic\nmedications\nCertain\ntricyclic antidepressants\nCertain\nSSRIs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Bupivacaine",
+          "url": "https://wikem.org/wiki/Bupivacaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "antiepileptic",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "tricyclic antidepressants",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressants"
+        },
+        {
+          "text": "SSRIs",
+          "url": "https://wikem.org/wiki/SSRIs"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Incidental finding with no suggestive family or patient history (e.g. syncope, tachydysrhythmia, sudden cardiac death)--> education and general cardiology referral\n[17]\nSuggestive family or patient history --> disposition in consultation with cardiology\n[18]\nActive tachydysrhythmia --> admission\n[19]",
+      "subsections": {
+        "Inpatient_vs_Outpatient_ICD_Placement": {
+          "text": "Prophylactic ICDs may have risks of complications greater than benefits conferred\n[20]\n[21]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Inpatient_vs_Outpatient_ICD_Placement": {
+      "text": "Prophylactic ICDs may have risks of complications greater than benefits conferred\n[20]\n[21]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Amal Mattu ECG Case: March 4 2012\nemDocs - ECG Pointers: Syncope and Brugada Syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ST elevation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ST elevation",
+          "url": "https://wikem.org/wiki/ST_elevation"
+        }
+      ]
+    }
+  }
+}

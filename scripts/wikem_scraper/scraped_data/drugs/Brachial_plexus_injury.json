@@ -1,0 +1,758 @@
+{
+  "drug_name": "Brachial_plexus_injury",
+  "url": "https://wikem.org/wiki/Brachial_plexus_injury",
+  "scraped_at": "2026-01-10T07:49:09.451942",
+  "sections": {
+    "Background": {
+      "text": "Injuries can be penetrating, compression, or closed traction:\nSupraclavicular (roots and trunks)\nInfraclavicular (cords and terminal nerves)",
+      "subsections": {
+        "Causes_of_Brachial_plexopathy": {
+          "text": "Idiopathic\nPost-infectious\nViral\nEpstein-Barr\n,\nCMV\n,\ninfluenza\n,\nparvovirus\n,\ncoxsackie\n,\nHIV\n,\nPolio\nBacterial\nLyme\n,\nLeptospirosis\n,\nTB\n,\nSalmonella\nPost-immunization\nCompressive\nNeoplasm\nPancoast tumor\nPost-traumatic\nPenetrating or blunt neck/shoulder trauma\nTraction injury\nBirth trauma\nErb's palsy\nKlumpke's paralysis\nConnective tissue disorders\nAutoimmune disorders\nLupus\nPolyarteritis nodosa\nTemporal arteritis\nIatrogenic\nPost-surgical\nMedication induced\nRadiation\nHereditary Neuralgic Amyotrophy\nRotator Cuff Injury\nAdhesive capsulitis\nCalcific tendinitis\nThoracic outlet syndrome\nALS\nPoliomyelitis\nParsonage-Turner syndrome",
+          "tables": []
+        },
+        "Anatomy": {
+          "text": "Roots:\nC5\nC6\nC7\nC8\nT1\nTrunks:\nUpper\nMiddle\nLower\nCords:\nLateral\nPosterior\nMedial\nTerminal Nerves:\nMusculocutaneous\nMedian\nAxillary\nRadial\nUlnar",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epstein-Barr",
+          "url": "https://wikem.org/wiki/Infectious_Mononucleosis"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "parvovirus",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Polio",
+          "url": "https://wikem.org/wiki/Polio"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_Syndrome"
+        },
+        {
+          "text": "Connective tissue disorders",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Rotator Cuff Injury",
+          "url": "https://wikem.org/wiki/Rotator_Cuff_Injury"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Poliomyelitis",
+          "url": "https://wikem.org/wiki/Poliomyelitis"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        }
+      ]
+    },
+    "Causes_of_Brachial_plexopathy": {
+      "text": "Idiopathic\nPost-infectious\nViral\nEpstein-Barr\n,\nCMV\n,\ninfluenza\n,\nparvovirus\n,\ncoxsackie\n,\nHIV\n,\nPolio\nBacterial\nLyme\n,\nLeptospirosis\n,\nTB\n,\nSalmonella\nPost-immunization\nCompressive\nNeoplasm\nPancoast tumor\nPost-traumatic\nPenetrating or blunt neck/shoulder trauma\nTraction injury\nBirth trauma\nErb's palsy\nKlumpke's paralysis\nConnective tissue disorders\nAutoimmune disorders\nLupus\nPolyarteritis nodosa\nTemporal arteritis\nIatrogenic\nPost-surgical\nMedication induced\nRadiation\nHereditary Neuralgic Amyotrophy\nRotator Cuff Injury\nAdhesive capsulitis\nCalcific tendinitis\nThoracic outlet syndrome\nALS\nPoliomyelitis\nParsonage-Turner syndrome",
+      "subsections": {
+        "Anatomy": {
+          "text": "Roots:\nC5\nC6\nC7\nC8\nT1\nTrunks:\nUpper\nMiddle\nLower\nCords:\nLateral\nPosterior\nMedial\nTerminal Nerves:\nMusculocutaneous\nMedian\nAxillary\nRadial\nUlnar",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epstein-Barr",
+          "url": "https://wikem.org/wiki/Infectious_Mononucleosis"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "parvovirus",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Polio",
+          "url": "https://wikem.org/wiki/Polio"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_Syndrome"
+        },
+        {
+          "text": "Connective tissue disorders",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Rotator Cuff Injury",
+          "url": "https://wikem.org/wiki/Rotator_Cuff_Injury"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Poliomyelitis",
+          "url": "https://wikem.org/wiki/Poliomyelitis"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        }
+      ]
+    },
+    "Anatomy": {
+      "text": "Roots:\nC5\nC6\nC7\nC8\nT1\nTrunks:\nUpper\nMiddle\nLower\nCords:\nLateral\nPosterior\nMedial\nTerminal Nerves:\nMusculocutaneous\nMedian\nAxillary\nRadial\nUlnar",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Arm pain (constant, burning)\nC5 injury:\nweakness of deltoid and infraspinatus causes adducted, internally rotated shoulder\nC6 injury:\nweakness of biceps causes elbow extension\nC7 injury:\nweakness of extensor muscles causes wrist and digit flexion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Rucksack paralysis",
+      "subsections": {
+        "Shoulder_and_Upper_Arm_Diagnoses": {
+          "text": "Traumatic/Acute:\nShoulder Dislocation\nAnterior shoulder dislocation\nPosterior shoulder dislocation\nInferior shoulder dislocation\nClavicle fracture\nHumerus fracture\nScapula fracture\nAcromioclavicular joint injury\nGlenohumeral instability\nRotator cuff tear\nBiceps tendon rupture\nTriceps tendon rupture\nSeptic joint\nNontraumatic/Chronic:\nRotator cuff tear\nImpingement syndrome\nCalcific tendinitis\nAdhesive capsulitis\nBiceps tendinitis\nSubacromial bursitis\nCervical radiculopathy\nRefered pain & non-orthopedic causes:\nReferred pain from\nNeck\nDiaphragm (e.g.\ngallbladder disease\n)\nBrachial plexus injury\nRucksack paralysis\nAxillary artery thrombosis\nThoracic outlet syndrome\nSubclavian steal syndrome\nPancoast tumor\nMyocardial infarction\nPneumonia\nPulmonary embolism",
+          "tables": []
+        },
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rucksack paralysis",
+          "url": "https://wikem.org/wiki/Rucksack_paralysis"
+        },
+        {
+          "text": "Shoulder Dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_Dislocation"
+        },
+        {
+          "text": "Anterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "Posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Humerus fracture",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Acromioclavicular joint injury",
+          "url": "https://wikem.org/wiki/Acromioclavicular_joint_injury"
+        },
+        {
+          "text": "Glenohumeral instability",
+          "url": "https://wikem.org/wiki/Glenohumeral_instability"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Triceps tendon rupture",
+          "url": "https://wikem.org/wiki/Triceps_tendon_rupture"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Impingement syndrome",
+          "url": "https://wikem.org/wiki/Impingement_syndrome"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Biceps tendinitis",
+          "url": "https://wikem.org/wiki/Biceps_tendinitis"
+        },
+        {
+          "text": "Subacromial bursitis",
+          "url": "https://wikem.org/wiki/Subacromial_bursitis"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Neck_diagnoses"
+        },
+        {
+          "text": "gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Rucksack paralysis",
+          "url": "https://wikem.org/wiki/Rucksack_paralysis"
+        },
+        {
+          "text": "Axillary artery thrombosis",
+          "url": "https://wikem.org/wiki/Axillary_artery_thrombosis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Subclavian steal syndrome",
+          "url": "https://wikem.org/wiki/Subclavian_steal_syndrome"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_syndrome"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Suprascapular neuropathy",
+          "url": "https://wikem.org/wiki/Suprascapular_neuropathy"
+        },
+        {
+          "text": "Long thoracic neuropathy",
+          "url": "https://wikem.org/wiki/Long_thoracic_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Shoulder_and_Upper_Arm_Diagnoses": {
+      "text": "Traumatic/Acute:\nShoulder Dislocation\nAnterior shoulder dislocation\nPosterior shoulder dislocation\nInferior shoulder dislocation\nClavicle fracture\nHumerus fracture\nScapula fracture\nAcromioclavicular joint injury\nGlenohumeral instability\nRotator cuff tear\nBiceps tendon rupture\nTriceps tendon rupture\nSeptic joint\nNontraumatic/Chronic:\nRotator cuff tear\nImpingement syndrome\nCalcific tendinitis\nAdhesive capsulitis\nBiceps tendinitis\nSubacromial bursitis\nCervical radiculopathy\nRefered pain & non-orthopedic causes:\nReferred pain from\nNeck\nDiaphragm (e.g.\ngallbladder disease\n)\nBrachial plexus injury\nRucksack paralysis\nAxillary artery thrombosis\nThoracic outlet syndrome\nSubclavian steal syndrome\nPancoast tumor\nMyocardial infarction\nPneumonia\nPulmonary embolism",
+      "subsections": {
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Shoulder Dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_Dislocation"
+        },
+        {
+          "text": "Anterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "Posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Humerus fracture",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Acromioclavicular joint injury",
+          "url": "https://wikem.org/wiki/Acromioclavicular_joint_injury"
+        },
+        {
+          "text": "Glenohumeral instability",
+          "url": "https://wikem.org/wiki/Glenohumeral_instability"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Triceps tendon rupture",
+          "url": "https://wikem.org/wiki/Triceps_tendon_rupture"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Impingement syndrome",
+          "url": "https://wikem.org/wiki/Impingement_syndrome"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Biceps tendinitis",
+          "url": "https://wikem.org/wiki/Biceps_tendinitis"
+        },
+        {
+          "text": "Subacromial bursitis",
+          "url": "https://wikem.org/wiki/Subacromial_bursitis"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Neck_diagnoses"
+        },
+        {
+          "text": "gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Rucksack paralysis",
+          "url": "https://wikem.org/wiki/Rucksack_paralysis"
+        },
+        {
+          "text": "Axillary artery thrombosis",
+          "url": "https://wikem.org/wiki/Axillary_artery_thrombosis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Subclavian steal syndrome",
+          "url": "https://wikem.org/wiki/Subclavian_steal_syndrome"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_syndrome"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Suprascapular neuropathy",
+          "url": "https://wikem.org/wiki/Suprascapular_neuropathy"
+        },
+        {
+          "text": "Long thoracic neuropathy",
+          "url": "https://wikem.org/wiki/Long_thoracic_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Upper_extremity_peripheral_nerve_syndromes": {
+      "text": "",
+      "subsections": {
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Suprascapular neuropathy",
+          "url": "https://wikem.org/wiki/Suprascapular_neuropathy"
+        },
+        {
+          "text": "Long thoracic neuropathy",
+          "url": "https://wikem.org/wiki/Long_thoracic_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinically evaluate for concurrent phrenic nerve injury and diaphragmatic paresis\nMRI\nCT myelography\nEMG\nSurgical exploration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Early neurosurgical consultation\nPT / OT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Spinal cord levels\nNeurologic Exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Spinal cord levels",
+          "url": "https://wikem.org/wiki/Spinal_cord_levels"
+        },
+        {
+          "text": "Neurologic Exam",
+          "url": "https://wikem.org/wiki/Neurologic_Exam"
+        }
+      ]
+    }
+  }
+}

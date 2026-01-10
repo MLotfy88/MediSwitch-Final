@@ -1,0 +1,367 @@
+{
+  "drug_name": "Box_jellyfish_envenomation",
+  "url": "https://wikem.org/wiki/Box_jellyfish_envenomation",
+  "scraped_at": "2026-01-10T07:49:07.915992",
+  "sections": {
+    "Background": {
+      "text": "Cnidarian invertebrates distinguished by their cube-shaped medusae\nChironex fleckeri\nor\nsea wasp\nis cause of most deaths\nLargely restricted to the Indo-Pacific Ocean/Australian waters but various species can be found widely\n83% occur in < 1m of water.\nMost stings are benign (requiring local treatment only), recent data suggests fatality rate is much lower than the 20% previously reported.\nMorbidity and Mortality are dose- and time-dependent, which explains why majority of deaths have been children.",
+      "subsections": {
+        "Mechanism": {
+          "text": "Has about 15 tentacles (measure up to 3m in length) that contain millions of \"stinging cells\" called nematocysts.\nContact with the tentacles cause rapid onset of pruritic/burning\nThought to affect sodium/potassium/calcium channels\nRhabodmyolysis can occur from sustained muscle contractions caused by myotoxins in venom.\nCardiovascular collapse can occur d/t dysrhythmia (from hyperkalemia) and osmotic dysregulation of endothelial and cardiac tissues from pore-forming toxins within the venom.\nChironex fleckeri\nvenom causes cell membranes to become porous allowing K+ influx/hyperkalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp"
+        },
+        {
+          "text": "Chironex fleckeri",
+          "url": "https://wikem.org/wiki/Sea_wasp"
+        }
+      ]
+    },
+    "Mechanism": {
+      "text": "Has about 15 tentacles (measure up to 3m in length) that contain millions of \"stinging cells\" called nematocysts.\nContact with the tentacles cause rapid onset of pruritic/burning\nThought to affect sodium/potassium/calcium channels\nRhabodmyolysis can occur from sustained muscle contractions caused by myotoxins in venom.\nCardiovascular collapse can occur d/t dysrhythmia (from hyperkalemia) and osmotic dysregulation of endothelial and cardiac tissues from pore-forming toxins within the venom.\nChironex fleckeri\nvenom causes cell membranes to become porous allowing K+ influx/hyperkalemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chironex fleckeri",
+          "url": "https://wikem.org/wiki/Sea_wasp"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Stings associated with immediate pain, lasting up to 8 hours, and linear welts in a cross-hatched \"ladder-rung\" pattern\nErythematous maculopapular rash\nMay progress to blisters/necrosis\n25-30% may still have tentacles attached\nSystemic envenomation (usually >10%\nBSA\n) can manifest as cardiac\narrhythmias\n,\nrespiratory dysfunction\n, death\nUsually manifests within 5 minutes of sting\nDelayed\nhypersensitivity reactions\noccur in >50%\nItching\n, redness at sting sites 7-14d after initial incidence",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "respiratory dysfunction",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "hypersensitivity reactions",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Itching",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Marine_toxins,_envenomations,_and_bites": {
+          "text": "Toxins\nCiguatera\nScombroid\nTetrodotoxin\n(e.g. pufferfish)\nShellfish poisoning\nAmnesic shellfish poisoning\nDiarrheal shellfish poisoning\nNeurotoxic shellfish poisoning\nParalytic shellfish poisoning\nStingers\nStingray injury\nVenomous fish\nCone shell\nLionfish\nSea urchins\nCrown-of-Thorns Starfish\nStonefish\nOther: Catfish, zebrafish, scorpion fish\nNematocysts\nCoral reef\nFire coral\nJellyfish (Cnidaria)\nBox jellyfish\nIrukandji syndrome\nSea wasp\nPortuguese man-of-war\nSea anemones\nSeabather's eruption\nPhylum porifera\n(sponges)\nBites\nAlligator and crocodile attacks\nOctopus bite\nShark bite\nInfections\nVibrio\nspecies in saltwater\nAeromonas\nspecies in freshwater",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "Cone shell",
+          "url": "https://wikem.org/wiki/Cone_shell_envenomation"
+        },
+        {
+          "text": "Lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "Sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Crown-of-Thorns Starfish",
+          "url": "https://wikem.org/wiki/Crown-of-Thorns_Starfish"
+        },
+        {
+          "text": "Stonefish",
+          "url": "https://wikem.org/wiki/Stonefish"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "Fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral"
+        },
+        {
+          "text": "Box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "Irukandji syndrome",
+          "url": "https://wikem.org/wiki/Irukandji_syndrome"
+        },
+        {
+          "text": "Sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "Sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "Alligator and crocodile attacks",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "Octopus bite",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "Shark bite",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "Aeromonas",
+          "url": "https://wikem.org/wiki/Aeromonas"
+        }
+      ]
+    },
+    "Marine_toxins,_envenomations,_and_bites": {
+      "text": "Toxins\nCiguatera\nScombroid\nTetrodotoxin\n(e.g. pufferfish)\nShellfish poisoning\nAmnesic shellfish poisoning\nDiarrheal shellfish poisoning\nNeurotoxic shellfish poisoning\nParalytic shellfish poisoning\nStingers\nStingray injury\nVenomous fish\nCone shell\nLionfish\nSea urchins\nCrown-of-Thorns Starfish\nStonefish\nOther: Catfish, zebrafish, scorpion fish\nNematocysts\nCoral reef\nFire coral\nJellyfish (Cnidaria)\nBox jellyfish\nIrukandji syndrome\nSea wasp\nPortuguese man-of-war\nSea anemones\nSeabather's eruption\nPhylum porifera\n(sponges)\nBites\nAlligator and crocodile attacks\nOctopus bite\nShark bite\nInfections\nVibrio\nspecies in saltwater\nAeromonas\nspecies in freshwater",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "Cone shell",
+          "url": "https://wikem.org/wiki/Cone_shell_envenomation"
+        },
+        {
+          "text": "Lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "Sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Crown-of-Thorns Starfish",
+          "url": "https://wikem.org/wiki/Crown-of-Thorns_Starfish"
+        },
+        {
+          "text": "Stonefish",
+          "url": "https://wikem.org/wiki/Stonefish"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "Fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral"
+        },
+        {
+          "text": "Box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "Irukandji syndrome",
+          "url": "https://wikem.org/wiki/Irukandji_syndrome"
+        },
+        {
+          "text": "Sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "Sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "Alligator and crocodile attacks",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "Octopus bite",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "Shark bite",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "Aeromonas",
+          "url": "https://wikem.org/wiki/Aeromonas"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Generally a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "First remove any tentacles\ntentacles separated from medusae can still emit venom\n4-5% acetic acid/vinegar solution should be applied to the injured area for at least 30 seconds.\n[2]\nPain control\nSupportive measures for minor envenomations\nIce recommended but heat may actually work better\nAntihistamines\nand\nsteroids\nfor\nhypersensitivity reaction\nDo NOT pressure bandage\nAntivenom for life-threatening envenomations\nBovine IgG Fab with 20,000 units/ampule\nAvoid treating with fresh water, alcohol, methylated spirits, or urine as these have shown to increase nematocyst firing.\n[3]",
+      "subsections": {
+        "Antivenom_Indications^": {
+          "text": "Cardiac arrest\nundiluted antivenom administered as an IV Push: up to 6 vials\nif no response then give\nmagnesium\nIV (0.2mmol/kg, max 10mmol in adults)\nHypotension\n,\ntachycardia\n,\nshock\n,\narrhythmia\ndilute 3 amps antivenom in 100mL\nNS\nand run over 20 minutes\ncan repeat for a total of 6 vials\nIntractable pain\ngive 1 amp diluted in 100mL\nNS\nrun over 20 minutes\nAnti-venom can cause\nserum sickness\n4-14 days after administration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pain control",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Marine toxins and envenomations\nSea wasp sting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "Sea wasp sting",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        }
+      ]
+    },
+    "References": {
+      "text": "Bastian Bentlage, Paulyn Cartwright, Angel A. Yanagihara, Cheryl Lewis, Gemma S. Richards and Allen G. Collins.Evolution of box jellyfishes (Cnidaria: Cubozoa), a group of highly toxic invertebrates. Proceedings of the Royal Society, November 18, 2009 DOI:10.1098/rspb.2009.1707\nCurrie BJ, Jacups SP. Prospective study of Chironex fleckeri and other box jellyfish stings in the “Top End” of Australia’s Northern Territory. Med J Aust 2005; 183: 631-636\nHughes RJ, Angus JA, Winkel KD, Wright CE. A pharmacological investigation of the venom extract of the Australian box jellyfish, Chironex fleckeri, in cardiac and vascular tissues. Toxicol Lett. 2012 Feb 25;209(1):11-20. Epub 2011 Dec 2.\nhttp://www.toxinology.com/generic_static_files/cslavh_antivenom_boxjelly.html",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

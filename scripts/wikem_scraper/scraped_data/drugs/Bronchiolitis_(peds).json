@@ -1,0 +1,785 @@
+{
+  "drug_name": "Bronchiolitis_(peds)",
+  "url": "https://wikem.org/wiki/Bronchiolitis_(peds)",
+  "scraped_at": "2026-01-10T07:49:18.130223",
+  "sections": {
+    "Background": {
+      "text": "Most common reason for infant hospitalizations in the US\n[1]\nRespiratory syncytial virus\n(RSV) causes ~70% of cases of bronchiolitis\n[2]\n<2yr old (peak 2-6mo age)\nPreemies, neonates,\ncongenital heart disease\nare at risk for serious disease\nPeaks in winter (November to March)\nDuration = 7-14d (worst during days 3-5)\nInflammation, edema, mucus production, and epithelial necrosis of bronchioles lead to lower airway obstruction\nHypoxemia due to V/Q mismatch of poorly ventilated alveolar units",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Symptoms\nRhinorrhea\n,\ncough\n, irritability, apnea (neonates)\nSigns\nTachypnea\n, cyanosis,\nwheezing\n, respiratory distress (retractions, nasal flaring)\nFever\nis usually low-grade or absent\nIf high-grade fever consider\notitis media\n,\nUTI\n, or other bacterial infections\nAssess for\ndehydration\n(tachypnea may interfere with feeding)\nSunken fontanelle, decreased PO intake, decreased wet diapers, and lethargy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rhinorrhea",
+          "url": "https://wikem.org/wiki/Rhinorrhea"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI_(peds)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\nAngioedema\nAspirated foreign body\nAsthma exacerbation\nStructural\nBronchopulmonary dysplasia\nChoanal atresia\nNeoplasm\nSubglottic stenosis\nTracheoesophageal fistula\nTracheomalacia\nSpontaneous pneumothorax\nInfectious\nBacterial tracheitis\nBronchiolitis (peds)\n,\nURI\nCroup\nEpiglottitis\nPertussis\nPneumonia\nCystic fibrosis\nexacerbation\nTrauma\nRib fractures\nFlail chest\nTraumatic pneumothorax\nPulmonary contusion\nOther\nInhalation exposure\nMeconium aspiration syndrome\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nRespiratory distress syndrome",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nCongestive Heart Failure (peds)\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nAbdominal distension (e.g.\nSBO\n,\nliver failure\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nOrganophosphate toxicity\nTick paralysis\nFever (Peds)\nPanic attack\nPorphyria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Congestive Heart Failure (peds)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(peds)"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Pediatric_Shortness_of_Breath": {
+      "text": "",
+      "subsections": {
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\nAngioedema\nAspirated foreign body\nAsthma exacerbation\nStructural\nBronchopulmonary dysplasia\nChoanal atresia\nNeoplasm\nSubglottic stenosis\nTracheoesophageal fistula\nTracheomalacia\nSpontaneous pneumothorax\nInfectious\nBacterial tracheitis\nBronchiolitis (peds)\n,\nURI\nCroup\nEpiglottitis\nPertussis\nPneumonia\nCystic fibrosis\nexacerbation\nTrauma\nRib fractures\nFlail chest\nTraumatic pneumothorax\nPulmonary contusion\nOther\nInhalation exposure\nMeconium aspiration syndrome\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nRespiratory distress syndrome",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nCongestive Heart Failure (peds)\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nAbdominal distension (e.g.\nSBO\n,\nliver failure\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nOrganophosphate toxicity\nTick paralysis\nFever (Peds)\nPanic attack\nPorphyria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Congestive Heart Failure (peds)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(peds)"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Bronchiolitis is a clinical diagnosis\nConsider rapid RSV testing\nHowever, RSV is NOT linked to apnea or acute severity (compared to other causes of bronchiolitis)\n[3]\n[4]\nYou should NOT use RSV status to drive admission decisions and admission locations (eg, ward, step-down unit, ICU)\n[5]\n[6]\nConsider CBC and CRP to assess the risk of superimposed bacterial infection\nCXR\nNot routinely necessary : May lead to unnecessary use of\nantibiotics\n(atelectasis from airway plugging mimics infiltrate)\nConsider if patient is critically ill or diagnosis unclear",
+      "subsections": {
+        "Concurrent_infection_risk": {
+          "text": "Infants <60 days with RSV bronchiolitis and fever\nLow risk of bacteremia and\nmeningitis\nin RSV+, still appreciable\nUTI\nrisk\nUTI\n5.4% in RSV+, 10.1% RSV-\nBacteremia\n1.1% RSV+, 2.3% RSV-\nMeningitis\n0% RSV+, 0.9% RSV-\nRecommended to still obtain UA in cases of bronchiolitis w/ fever. BCx and CSF not necessary if >28 days old",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Concurrent_infection_risk": {
+      "text": "Infants <60 days with RSV bronchiolitis and fever\nLow risk of bacteremia and\nmeningitis\nin RSV+, still appreciable\nUTI\nrisk\nUTI\n5.4% in RSV+, 10.1% RSV-\nBacteremia\n1.1% RSV+, 2.3% RSV-\nMeningitis\n0% RSV+, 0.9% RSV-\nRecommended to still obtain UA in cases of bronchiolitis w/ fever. BCx and CSF not necessary if >28 days old",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Note that supportive care remains the mainstay of therapy\nHydration for all infants",
+      "subsections": {
+        "Oxygen/High_Flow": {
+          "text": "It is reasonable to not perform continuous oximetry on infants and children with bronchiolitis\n[7]\nO2 (maintain SaO2 >90%)\nOxygen saturation alone should not dictate admission (for patients with O2 sat of 88% or above)\n[8]\nHigh flow nasal cannula\nMulticenter randomized trial showed infants with bronchiolitis and hypoxemia required less escalation of therapy than standard oxygen\n[9]\nPrimary benefits is from the high flow rate; optimize the flow upon initiation.\nInitial Settings\nTemperature: 37C (usually)\nInitial flow rate: Based on age/weight. Can be started at 1-2 L/kg per min.\nOxygen (FiO2): 21% to 100%, based on patient’s prior oxygenation; goal of 94% to 99%.\nNasal CPAP or intubation may be necessary for evolving respiratory failure",
+          "tables": []
+        },
+        "Suctioning": {
+          "text": "There is insufficient data to make an evidence-based recommendation about suctioning.\nNasopharyngeal suctioning may temporarily relieve symptoms due to decrease in total airway resistance\nThe use of routine “deep” suctioning may lead to increased length of stay based on one small study\n[7]",
+          "tables": []
+        },
+        "Nebulized_Hypertonic_Saline_(3%)": {
+          "text": "AAP recommends as a possible intervention, but 2014 SABRE trial found no change in discharge or adverse events with nebulised HS.\n[10]\nNo decrease in hospital admission in 2017 multi-center, RCT for moderate-severe bronchiolitis, with mild adverse events such as worsening of cough were significantly higher in the HS group\n[11]\nOnly consider administering to infants who require hospitalization\n[7]\n(\nClass B\n))\nSuction nares / nasal saline drops",
+          "tables": []
+        },
+        "Not_Indicated": {
+          "text": "Randomized controlled trials of bronchodilator or corticosteroid therapy have shown mixed results.  Bronchodilators could aggravate the symptoms.\n[12]\n[13]\n[14]\nAlbuterol\n/bronchodilator (\nClass B\n)\n[7]\nMay trial if strong family hx of asthma/atopy in older infants, as this may present a greater reactive airway component\nRacemic\nEpinephrine\n(\nClass B\n)\n[7]\nSteroids\n[7]\n[15]\nConsider\ndexamethasone\n0.6-1mg/kg PO or IM x1 in severe cases\nNote that AAP recommends against systemic steroids in any settings\n[16]\nAntibiotics\nOnly indicated if there is strong suspicion of, or proven bacterial infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Class B",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Class B",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Class B",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Oxygen/High_Flow": {
+      "text": "It is reasonable to not perform continuous oximetry on infants and children with bronchiolitis\n[7]\nO2 (maintain SaO2 >90%)\nOxygen saturation alone should not dictate admission (for patients with O2 sat of 88% or above)\n[8]\nHigh flow nasal cannula\nMulticenter randomized trial showed infants with bronchiolitis and hypoxemia required less escalation of therapy than standard oxygen\n[9]\nPrimary benefits is from the high flow rate; optimize the flow upon initiation.\nInitial Settings\nTemperature: 37C (usually)\nInitial flow rate: Based on age/weight. Can be started at 1-2 L/kg per min.\nOxygen (FiO2): 21% to 100%, based on patient’s prior oxygenation; goal of 94% to 99%.\nNasal CPAP or intubation may be necessary for evolving respiratory failure",
+      "subsections": {
+        "Suctioning": {
+          "text": "There is insufficient data to make an evidence-based recommendation about suctioning.\nNasopharyngeal suctioning may temporarily relieve symptoms due to decrease in total airway resistance\nThe use of routine “deep” suctioning may lead to increased length of stay based on one small study\n[7]",
+          "tables": []
+        },
+        "Nebulized_Hypertonic_Saline_(3%)": {
+          "text": "AAP recommends as a possible intervention, but 2014 SABRE trial found no change in discharge or adverse events with nebulised HS.\n[10]\nNo decrease in hospital admission in 2017 multi-center, RCT for moderate-severe bronchiolitis, with mild adverse events such as worsening of cough were significantly higher in the HS group\n[11]\nOnly consider administering to infants who require hospitalization\n[7]\n(\nClass B\n))\nSuction nares / nasal saline drops",
+          "tables": []
+        },
+        "Not_Indicated": {
+          "text": "Randomized controlled trials of bronchodilator or corticosteroid therapy have shown mixed results.  Bronchodilators could aggravate the symptoms.\n[12]\n[13]\n[14]\nAlbuterol\n/bronchodilator (\nClass B\n)\n[7]\nMay trial if strong family hx of asthma/atopy in older infants, as this may present a greater reactive airway component\nRacemic\nEpinephrine\n(\nClass B\n)\n[7]\nSteroids\n[7]\n[15]\nConsider\ndexamethasone\n0.6-1mg/kg PO or IM x1 in severe cases\nNote that AAP recommends against systemic steroids in any settings\n[16]\nAntibiotics\nOnly indicated if there is strong suspicion of, or proven bacterial infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Class B",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Class B",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Class B",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Suctioning": {
+      "text": "There is insufficient data to make an evidence-based recommendation about suctioning.\nNasopharyngeal suctioning may temporarily relieve symptoms due to decrease in total airway resistance\nThe use of routine “deep” suctioning may lead to increased length of stay based on one small study\n[7]",
+      "subsections": {
+        "Nebulized_Hypertonic_Saline_(3%)": {
+          "text": "AAP recommends as a possible intervention, but 2014 SABRE trial found no change in discharge or adverse events with nebulised HS.\n[10]\nNo decrease in hospital admission in 2017 multi-center, RCT for moderate-severe bronchiolitis, with mild adverse events such as worsening of cough were significantly higher in the HS group\n[11]\nOnly consider administering to infants who require hospitalization\n[7]\n(\nClass B\n))\nSuction nares / nasal saline drops",
+          "tables": []
+        },
+        "Not_Indicated": {
+          "text": "Randomized controlled trials of bronchodilator or corticosteroid therapy have shown mixed results.  Bronchodilators could aggravate the symptoms.\n[12]\n[13]\n[14]\nAlbuterol\n/bronchodilator (\nClass B\n)\n[7]\nMay trial if strong family hx of asthma/atopy in older infants, as this may present a greater reactive airway component\nRacemic\nEpinephrine\n(\nClass B\n)\n[7]\nSteroids\n[7]\n[15]\nConsider\ndexamethasone\n0.6-1mg/kg PO or IM x1 in severe cases\nNote that AAP recommends against systemic steroids in any settings\n[16]\nAntibiotics\nOnly indicated if there is strong suspicion of, or proven bacterial infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Class B",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Class B",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Class B",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Not_Indicated": {
+      "text": "Randomized controlled trials of bronchodilator or corticosteroid therapy have shown mixed results.  Bronchodilators could aggravate the symptoms.\n[12]\n[13]\n[14]\nAlbuterol\n/bronchodilator (\nClass B\n)\n[7]\nMay trial if strong family hx of asthma/atopy in older infants, as this may present a greater reactive airway component\nRacemic\nEpinephrine\n(\nClass B\n)\n[7]\nSteroids\n[7]\n[15]\nConsider\ndexamethasone\n0.6-1mg/kg PO or IM x1 in severe cases\nNote that AAP recommends against systemic steroids in any settings\n[16]\nAntibiotics\nOnly indicated if there is strong suspicion of, or proven bacterial infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Class B",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Class B",
+          "url": "https://wikem.org/wiki/Evidence_Based_Recommendation_Levels"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Consider_Admission": {
+          "text": "Age <3 months\nPreterm (<34wks)\nUnderlying heart/lung disease\nInitial SaO2 <88%\n[8]\nSa02 alone should not alone be used as a factor for admission\nUnable to tolerate PO\nTachypnea with accessory muscle use\nCaregiver unreliable or otherwise unstable home situation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Consider_Admission": {
+      "text": "Age <3 months\nPreterm (<34wks)\nUnderlying heart/lung disease\nInitial SaO2 <88%\n[8]\nSa02 alone should not alone be used as a factor for admission\nUnable to tolerate PO\nTachypnea with accessory muscle use\nCaregiver unreliable or otherwise unstable home situation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Croup",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast: Bronchiolitis\nPEM Morsels: Bronchiolitis Archives\nCDC: Respiratory Syncytial Virus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "drug_name": "Bone_tumors_and_their_mimics",
+  "url": "https://wikem.org/wiki/Bone_tumors_and_their_mimics",
+  "scraped_at": "2026-01-10T07:49:03.343180",
+  "sections": {
+    "Benign": {
+      "text": "Giant cell tumor",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Name": "Chondroblastoma",
+            "Presentation": "Bone or joint pain in adolescent",
+            "Radiograph Findings/Location": "Epiphysis of long bones, may cross growth plate",
+            "Clinical Importance": "Growth disturbance, arthritis"
+          },
+          {
+            "Name": "Enchondroma",
+            "Presentation": "Soft tissue mass in hands or feet of adolescent; seen in Ollier Disease or Mafucci Syndrome",
+            "Radiograph Findings/Location": "Metaphysis of long bones in hands or feet; oval lesion with sclerotic edges and central lucency",
+            "Clinical Importance": "Malignant transformation to chondrosarcoma if multiple lesions present"
+          },
+          {
+            "Name": "Langerhans cell histiocytosis of bone",
+            "Presentation": "Painful swelling of skull in children, typically frontal bone, or long bones",
+            "Radiograph Findings/Location": "Lytic, punched out lesion",
+            "Clinical Importance": "Lesion of skull can be associated with diabetes insipidus or other CNS disease; pathological fracture of long bone"
+          },
+          {
+            "Name": "Osteoblastoma",
+            "Presentation": "Adolescent male with chronic pain in spine, most often seen in posterior column",
+            "Radiograph Findings/Location": "Similar to osteoid osteoma but typically > 2cm",
+            "Clinical Importance": "May appear like osteoid osteoma on plain film but DOES NOT respond to Aspirin/NSAIDs"
+          },
+          {
+            "Name": "Osteochondroma",
+            "Presentation": "Adolescent male with painless mass over distal femur",
+            "Radiograph Findings/Location": "Osseous spur that arises from cortex pointing away from joint",
+            "Clinical Importance": "Observation without treatment; small risk of transformation to chondrosarcoma"
+          },
+          {
+            "Name": "Osteoid Osteoma",
+            "Presentation": "Adolescent male with bone pain over femur; pain worse at night and unrelated to activity",
+            "Radiograph Findings/Location": "Radiolucent nidus with sclerotic edges most often seen in proximal femur",
+            "Clinical Importance": "Nidus produces prostaglandins, Aspirin/NSAIDs can relieve pain; most soft resolve"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        }
+      ]
+    },
+    "Malignant": {
+      "text": "Multiple myeloma\nOsteosarcoma\nChondrosarcoma\nEwing sarcoma",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Name": "Adamantinoma",
+            "Presentation": "Bone pain over anterior tibia in adolescent or young adult",
+            "Radiograph Findings": "Soap bubble osteolytic appearance on plain radiograph",
+            "Clinical Importance": "Metastasis to lungs; may need amputation"
+          },
+          {
+            "Name": "Chordoma",
+            "Presentation": "Constant pain if in sacrum; neurological deficits if at base of skull, most commonly in cranial nerves to the eye",
+            "Radiograph Findings": "Plain radiograph will show a destructive bone lesion often with an associated soft tissue mass",
+            "Clinical Importance": "Slow growing but locally aggressive; metastasis is uncommon, local recurrence is much more likely"
+          },
+          {
+            "Name": "Fibrosarcoma and Undifferentiated pleomorphic sarcoma",
+            "Presentation": "Similar to osteosarcoma except malignant fibroblasts but less common",
+            "Radiograph Findings": "Most common in distal femur and proximal tibia",
+            "Clinical Importance": "Similar outcome to osteosarcoma"
+          },
+          {
+            "Name": "Primary bone lymphoma",
+            "Presentation": "Adult > 40 years of age with bone pain or pathologic fracture",
+            "Radiograph Findings": "Bone destruction; soft tissue mass",
+            "Clinical Importance": "5 year survival is greater than 50% with radiation and chemotherapy"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Ewing sarcoma",
+          "url": "https://wikem.org/wiki/Ewing_sarcoma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Bone_tumors_and_their_mimics": {
+      "text": "",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Benign bone tumors\nMalignant bone tumors",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign bone tumors",
+          "url": "https://wikem.org/wiki/Benign_bone_tumors"
+        },
+        {
+          "text": "Malignant bone tumors",
+          "url": "https://wikem.org/wiki/Malignant_bone_tumors"
+        }
+      ]
+    }
+  }
+}

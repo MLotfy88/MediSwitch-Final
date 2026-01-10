@@ -1,0 +1,280 @@
+{
+  "drug_name": "Budesonide",
+  "url": "https://wikem.org/wiki/Budesonide",
+  "scraped_at": "2026-01-10T07:49:21.117202",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nInhaled corticosteroid\nDosage Forms: 3 DR\nRoutes of Administration: Inhaled\nCommon Trade Names: Pulmicort",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Inhaled corticosteroid",
+          "url": "https://wikem.org/wiki/Inhaled_corticosteroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "1.5-2 mg NEB q 6 hr\nDo not mix with other nebulized medications and rinse mouth after use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Asthma\nmaintenance\n1-8 yo with prior bronchodilator alone\n0.25-0.5 mg/day NEB divided QD-BID\nStart: 0.5 mg/day\nMax: 0.5 mg/day. Titrate to lowest effective dose.\n1-8 yo with prior inhaled steroid\n0.25-1 mg/day NEB divided QD-BID\nStart: 0.5mg/day\nMax: 1 mg/day. Titrate to lowest effective dose.\n1-8 yo with prior oral steroid\n0.25-1 mg/day NEB divided QD-BID\nStart: 1 mg/day\nMax: 1 mg/day. Titrate to lowest effective dose. Taper oral steroid gradually after >1 week.\nEosinophilic esophagitis\n<11 yo: 1 mg PO QD x4-12 weeks\nMix 1 mg/2mL NEB with 5 g sucralose to form PO slurry.\nAvoid food/drink x30 min after each dose\n11+ yo: 2 mg PO QD x4-12 weeks\nMix 2 mg/4mL NEB with 10 g sucralose to form PO slurry.\nAvoid food/drink x30 min after each dose",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B; drug of choice for pregnant patients with persistent asthma\nLactation risk\n: L3; Safety unknown\nRenal dosing: not defined\nHepatic dosing: not defined, monitor closely",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAsthma\n, acute\nAcute asthma exacerbation\nBronchospasm, acute\nAvoid abrupt withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Acute asthma exacerbation",
+          "url": "https://wikem.org/wiki/Acute_asthma_exacerbation"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nBronchospasm\nHypersensitivty reaction, incl. rash\nAngioedema\nAdrenal suppression\nCushing syndrome\nHypercorticism\nGrowth suppression\nEosinophilia\nChurg-Strauss syndrome\nGlaucoma\nCataracts\nOsteoporosis",
+          "tables": []
+        },
+        "Common": {
+          "text": "[Upper respiratory infection]]\nRhinitis\nCough\nOtitis media\nViral infection\nCandidiasis\n, oral\nGastroenteritis\nVomiting\nDiarrhea\nAbdominal pain\nEpistaxis\nConjunctivitis\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Cushing syndrome",
+          "url": "https://wikem.org/wiki/Cushing_syndrome"
+        },
+        {
+          "text": "Eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "Churg-Strauss syndrome",
+          "url": "https://wikem.org/wiki/Churg-Strauss_syndrome"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nBronchospasm\nHypersensitivty reaction, incl. rash\nAngioedema\nAdrenal suppression\nCushing syndrome\nHypercorticism\nGrowth suppression\nEosinophilia\nChurg-Strauss syndrome\nGlaucoma\nCataracts\nOsteoporosis",
+      "subsections": {
+        "Common": {
+          "text": "[Upper respiratory infection]]\nRhinitis\nCough\nOtitis media\nViral infection\nCandidiasis\n, oral\nGastroenteritis\nVomiting\nDiarrhea\nAbdominal pain\nEpistaxis\nConjunctivitis\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Cushing syndrome",
+          "url": "https://wikem.org/wiki/Cushing_syndrome"
+        },
+        {
+          "text": "Eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "Churg-Strauss syndrome",
+          "url": "https://wikem.org/wiki/Churg-Strauss_syndrome"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Common": {
+      "text": "[Upper respiratory infection]]\nRhinitis\nCough\nOtitis media\nViral infection\nCandidiasis\n, oral\nGastroenteritis\nVomiting\nDiarrhea\nAbdominal pain\nEpistaxis\nConjunctivitis\nRash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.3 hr\nMetabolism: Liver; CYP450: 3A4 substrate\nExcretion: Urine 60%, feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits multiple inflammatory cytokines and produces multiple glucocorticoid and mineralcorticoid effects. Exact mechanism unknown.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

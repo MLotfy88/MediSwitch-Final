@@ -1,0 +1,114 @@
+{
+  "drug_name": "Breech_delivery",
+  "url": "https://wikem.org/wiki/Breech_delivery",
+  "scraped_at": "2026-01-10T07:49:14.325685",
+  "sections": {
+    "Background": {
+      "text": "3-4% of term deliveries.\n[1]\n(Most common fetal malpresentation\n[2]\n)\nIn normal delivery, head dilates cervix and allows body to pass relatively easily.\nIn breech delivery, body does not first maximally dilate cervix → higher risk of head entrapment, cord prolapse, and death.\nBreech presentations occur most commonly in preterm infants (25-30% of preterm deliveries <28 wks gestation).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Three Types\n[1]\nFrank\n- Buttocks deliver first, hips flexed, knees extended (most common type)\nComplete\n- Buttocks deliver first, hips and knees flexed\nIncomplete\n- (aka \"footling\") One or both feet deliver first",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Emergent_delivery_and_related_complications": {
+          "text": "Emergent delivery\nUmbilical cord prolapse\nBreech delivery\nShoulder dystocia\nPerimortem cesarean delivery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Umbilical cord prolapse",
+          "url": "https://wikem.org/wiki/Umbilical_cord_prolapse"
+        },
+        {
+          "text": "Shoulder dystocia",
+          "url": "https://wikem.org/wiki/Shoulder_dystocia"
+        },
+        {
+          "text": "Perimortem cesarean delivery",
+          "url": "https://wikem.org/wiki/Perimortem_cesarean_delivery"
+        }
+      ]
+    },
+    "Emergent_delivery_and_related_complications": {
+      "text": "Emergent delivery\nUmbilical cord prolapse\nBreech delivery\nShoulder dystocia\nPerimortem cesarean delivery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Umbilical cord prolapse",
+          "url": "https://wikem.org/wiki/Umbilical_cord_prolapse"
+        },
+        {
+          "text": "Shoulder dystocia",
+          "url": "https://wikem.org/wiki/Shoulder_dystocia"
+        },
+        {
+          "text": "Perimortem cesarean delivery",
+          "url": "https://wikem.org/wiki/Perimortem_cesarean_delivery"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "In ED precipitous delivery, this is a clinical diagnosis.\nIf time allows, ultrasound can reveal position of fetus, but often not possible in ED deliveries.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Immediate OB/Gyn consult\nIf OB/Gyn immediately available and delivery has not progressed, Zavanelli maneuver has been described for breech births and may be considered.\nZavanelli maneuver - pushing presenting fetal part back into vagina until C-Section can be performed\n[3]\n, though is associated with increased risk of soft tissue damage and sepsis\n[4]\nPlace patient in lithotomy position\nHave assistant maintain fundal pressure throughout delivery\nGrab legs together with one hand if feet deliver spontaneously\nMake sure baby is sacral anterior - meaning baby's back to mother's anterior\nHead will need to be delivered with baby's face looking to mother's posterior\nIf not sacral anterior, make it that way along delivery\nIf legs and feet are still extended, perform Pinard maneuver to deliver fetal legs\n[1]\nPlace hand behind and parallel to fetal leg, then sweep laterally (away from midline) to deliver leg\nRepeat for opposite leg\nCheck for cord:\nIf around the neck, try to reduce it by pushing it over baby's head or just deliver baby through quickly\nIf between the legs, this must be reduced around the foot as it will definitely avulse if delivery continues\nAllow delivery to proceed spontaneously until fetal umbilicus is at perineum\nOnce torso begins to deliver, hold legs in one hand and hold bony pelvis with other (do not rupture spleen)\nAllow delivery to progress until axilla is visible\nIf shoulders do not deliver spontaneously, apply gentle upward traction on fetal body using other hand to apply leverage and deliver posterior shoulder/arm/hand, then apply downward traction on fetal body to deliver anterior shoulder/arm/hand\n[2]\nIf posterior arm and hand do not deliver spontaneously, grasp humerus and sweep downwards while still applying upward traction on fetal body.\nIf anterior arm and hand do not deliver spontaneously, grasp humerus and sweet downwards over thorax while maintaining downward traction on fetal body.\nTo deliver head, have assistant apply suprapubic pressure and rest fetal body on provider's forearm while reaching into vaginal canal to grasp fetal maxillae in order to flex head. (Mauriceau maneuver) - stabilize with other hand/forearm on fetal back and shoulders - avoid excessive angulation or traction of fetal body.\nIf fetal head becomes entrapped, administer\nterbutaline\n(0.25mg SQ\nor\n2.5-10 μg/min IV) to relax uterus\nNitroglycerin\n(50 to 200 mcg IV) is an alternative.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit to L&D",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Emergent delivery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "YouTube: Assisted Breech Delivery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

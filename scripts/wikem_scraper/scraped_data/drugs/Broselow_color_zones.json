@@ -1,0 +1,156 @@
+{
+  "drug_name": "Broselow_color_zones",
+  "url": "https://wikem.org/wiki/Broselow_color_zones",
+  "scraped_at": "2026-01-10T07:49:12.928086",
+  "sections": {
+    "Color_Categories": {
+      "text": "Grey: 3-5 kg\nPink: 6-7 kg\nRed: 8-9 kg\nPurple: 10-11 kg\nYellow: 12-14 kg\nWhite: 15-18 kg\nBlue: 19-23 kg\nOrange: 24-29 kg\nGreen: 30-36 kg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Quick_Reference_Groups": {
+          "text": "ACLS (Main)\nPALS (Main)",
+          "tables": [
+            [
+              {
+                "Adult": "Category"
+              },
+              {
+                "Adult": "Large adult"
+              },
+              {
+                "Adult": "ADULT"
+              },
+              {
+                "Adult": "Small adult"
+              },
+              {
+                "Adult": "Pediatric"
+              },
+              {
+                "Adult": "Broslow Color"
+              },
+              {
+                "Adult": "Green"
+              },
+              {
+                "Adult": "Orange"
+              },
+              {
+                "Adult": "Blue"
+              },
+              {
+                "Adult": "White"
+              },
+              {
+                "Adult": "Yellow"
+              },
+              {
+                "Adult": "Purple"
+              },
+              {
+                "Adult": "Red"
+              },
+              {
+                "Adult": "Pink"
+              },
+              {
+                "Adult": "Gray"
+              },
+              {
+                "Adult": "3.5kg (newborn)"
+              },
+              {
+                "Adult": "Preemie"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        }
+      ]
+    },
+    "Quick_Reference_Groups": {
+      "text": "ACLS (Main)\nPALS (Main)",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Adult": "Category"
+          },
+          {
+            "Adult": "Large adult"
+          },
+          {
+            "Adult": "ADULT"
+          },
+          {
+            "Adult": "Small adult"
+          },
+          {
+            "Adult": "Pediatric"
+          },
+          {
+            "Adult": "Broslow Color"
+          },
+          {
+            "Adult": "Green"
+          },
+          {
+            "Adult": "Orange"
+          },
+          {
+            "Adult": "Blue"
+          },
+          {
+            "Adult": "White"
+          },
+          {
+            "Adult": "Yellow"
+          },
+          {
+            "Adult": "Purple"
+          },
+          {
+            "Adult": "Red"
+          },
+          {
+            "Adult": "Pink"
+          },
+          {
+            "Adult": "Gray"
+          },
+          {
+            "Adult": "3.5kg (newborn)"
+          },
+          {
+            "Adult": "Preemie"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        }
+      ]
+    }
+  }
+}

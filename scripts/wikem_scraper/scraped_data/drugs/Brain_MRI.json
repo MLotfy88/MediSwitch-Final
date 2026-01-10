@@ -1,0 +1,131 @@
+{
+  "drug_name": "Brain_MRI",
+  "url": "https://wikem.org/wiki/Brain_MRI",
+  "scraped_at": "2026-01-10T07:49:07.526460",
+  "sections": {
+    "Background": {
+      "text": "MRI uses magnetic fields and radiowaves to develop high definition imaging of the brain and excellent tissue contrast\nNo radiation associated with imaging\nIdeal for looking at brain parenchyma and midbrain\nContrast is commented on by signal intensity\nDark areas are hypointense\nBright areas are hyperintense",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Ordering_Studies": {
+      "text": "",
+      "subsections": {
+        "MR_Imaging_(for_Rule-Out_CVA_or_TIA)": {
+          "text": "MRI Brain\nwith DWI, ADC (without contrast)\nAND\nCervical vascular imaging (ACEP Level B in patients with high short-term risk for stroke):\n[1]\nMRA brain (without contrast)\nAND\nMRA neck (without contrast)\nMay instead use Carotid CTA or US (Carotid US slightly less sensitive than MRA)\n[2]\n(ACEP Level C)\nContrast only needed if concern for malignancy/mass",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/MRI_Brain"
+        }
+      ]
+    },
+    "MRI_Modalities": {
+      "text": "",
+      "subsections": {
+        "T1_Weighted_Imaging": {
+          "text": "Ideal for brain parenchyma\nWith the addition of contrast, this can differentiate causes of inflammation\nFluid is hypointense (similar to CT imaging)\nMethemoglobin, fat, and protein are hyperintense",
+          "tables": []
+        },
+        "T2_Weighted_Imaging": {
+          "text": "Highlights CSF\nGood for identifying tissue edema around pathologic areas\nFluid is hyperintense (reverse of T1)\nTissue tends to be more hypointense",
+          "tables": []
+        },
+        "Fluid_Attenuation_Inversion_Recovery_(FLAIR)": {
+          "text": "Appears as T2 images with hypointense CSF- cancels out CSF so you can differentiate CSF from other fluid\nIdeal for identifying tumors/GBS\nAlso used to identify leptomeningeal enhancement in meningitis",
+          "tables": []
+        },
+        "Diffusion_Weighted_Imaging_(DWI)": {
+          "text": "A method of measuring the Brownian motion of water molecules\nDiffusion within the intracellular fluid, diffusion within extracellular fluid, and between these areas will differ depending on pathology\nIdeal for cellular swelling especially in acute ischemic stroke which will be hyperintense",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "T1_Weighted_Imaging": {
+      "text": "Ideal for brain parenchyma\nWith the addition of contrast, this can differentiate causes of inflammation\nFluid is hypointense (similar to CT imaging)\nMethemoglobin, fat, and protein are hyperintense",
+      "subsections": {
+        "T2_Weighted_Imaging": {
+          "text": "Highlights CSF\nGood for identifying tissue edema around pathologic areas\nFluid is hyperintense (reverse of T1)\nTissue tends to be more hypointense",
+          "tables": []
+        },
+        "Fluid_Attenuation_Inversion_Recovery_(FLAIR)": {
+          "text": "Appears as T2 images with hypointense CSF- cancels out CSF so you can differentiate CSF from other fluid\nIdeal for identifying tumors/GBS\nAlso used to identify leptomeningeal enhancement in meningitis",
+          "tables": []
+        },
+        "Diffusion_Weighted_Imaging_(DWI)": {
+          "text": "A method of measuring the Brownian motion of water molecules\nDiffusion within the intracellular fluid, diffusion within extracellular fluid, and between these areas will differ depending on pathology\nIdeal for cellular swelling especially in acute ischemic stroke which will be hyperintense",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "T2_Weighted_Imaging": {
+      "text": "Highlights CSF\nGood for identifying tissue edema around pathologic areas\nFluid is hyperintense (reverse of T1)\nTissue tends to be more hypointense",
+      "subsections": {
+        "Fluid_Attenuation_Inversion_Recovery_(FLAIR)": {
+          "text": "Appears as T2 images with hypointense CSF- cancels out CSF so you can differentiate CSF from other fluid\nIdeal for identifying tumors/GBS\nAlso used to identify leptomeningeal enhancement in meningitis",
+          "tables": []
+        },
+        "Diffusion_Weighted_Imaging_(DWI)": {
+          "text": "A method of measuring the Brownian motion of water molecules\nDiffusion within the intracellular fluid, diffusion within extracellular fluid, and between these areas will differ depending on pathology\nIdeal for cellular swelling especially in acute ischemic stroke which will be hyperintense",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Blood": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age of Blood": "Hyperacute",
+            "T1 Imaging": "Iso",
+            "T2 Imaging": "Bright"
+          },
+          {
+            "Age of Blood": "Acute",
+            "T1 Imaging": "Iso/Dark",
+            "T2 Imaging": "Dark"
+          },
+          {
+            "Age of Blood": "1-3 Days",
+            "T1 Imaging": "Bright",
+            "T2 Imaging": "Dark"
+          },
+          {
+            "Age of Blood": "1-2 Wks",
+            "T1 Imaging": "Bright",
+            "T2 Imaging": "Bright"
+          },
+          {
+            "Age of Blood": "2-3 Wks",
+            "T1 Imaging": "Iso/Dark",
+            "T2 Imaging": "Dark"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "MRI (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI (main)",
+          "url": "https://wikem.org/wiki/MRI_(main)"
+        }
+      ]
+    }
+  }
+}

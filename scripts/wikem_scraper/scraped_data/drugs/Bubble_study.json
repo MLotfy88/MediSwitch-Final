@@ -1,0 +1,30 @@
+{
+  "drug_name": "Bubble_study",
+  "url": "https://wikem.org/wiki/Bubble_study",
+  "scraped_at": "2026-01-10T07:49:17.952146",
+  "sections": {
+    "Background": {
+      "text": "A\npatent foramen ovale\n(PFO) is a flaplike opening between the atrial septa primum and secundum at the location of the fossa ovalis that persists after 1 year of age. With increasing evidence being found that PFO is the culprit in paradoxical embolic events, the relative importance of the anomaly is being reevaluated.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "patent foramen ovale",
+          "url": "https://wikem.org/wiki/Patent_foramen_ovale"
+        }
+      ]
+    },
+    "Diagnostics": {
+      "text": "Contrast echocardiography (Bubble Study): After obtaining optimal visualization of atrial septum on TTE or TEE, a bolus of agitated saline is injected to an antecubital vein. Subsequently, microbubbles appear in the right atrium. The study is positive for PFO if microbubbles appear in left atrium within 3 cardiac cycles of their appearance in the right atrium. Valsalva increases right atrial pressure and facilitates\n2D TEE with contrast provides superior visualization and is therefore preferred for detecting PFO. When clinically indicated, 2D TEE with contrast is strongly recommended if transthoracic echo is negative.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "emedicine.Medscape.com",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

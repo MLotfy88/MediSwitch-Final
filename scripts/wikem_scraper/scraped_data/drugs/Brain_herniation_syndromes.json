@@ -1,0 +1,57 @@
+{
+  "drug_name": "Brain_herniation_syndromes",
+  "url": "https://wikem.org/wiki/Brain_herniation_syndromes",
+  "scraped_at": "2026-01-10T07:49:08.872337",
+  "sections": {
+    "Types": {
+      "text": "Uncal\nBlown pupil (\nthird nerve palsy\n, compression from uncus into tentorium cerebelli\nHemiparesis\n/babinski (75% contralateral)\nCentral Transtentorial\nPinpoint → nonresponsive midpoint pupils\nMotor\nweakness\n→ increased tone  → flexor, then extensor posturing\nCerebellotonsilar (posterior fossa pressure)\nPinpoint pupils\nSudden\nrespiratory\nand\ncardiovascular collapse\nFlaccid\nquadriplegia\nUpward Transtentorial\nPinpoint pupils\nDownward conjugate gaze\nSubfalcine herniation (cerebral mass lesion causes medial surface of affected hemisphere to push against rigid falx cerebri, then herniate underneath)\nCingulate gyrus most commonly affected\nOften clinically silent",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "third nerve palsy",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "Hemiparesis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "respiratory",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "cardiovascular collapse",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "quadriplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Elevated intracranial pressure\nHead trauma (main)\nIntracranial hemorrhage (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Intracranial hemorrhage (main)",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        }
+      ]
+    }
+  }
+}

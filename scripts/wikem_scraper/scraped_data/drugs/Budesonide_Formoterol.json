@@ -1,0 +1,404 @@
+{
+  "drug_name": "Budesonide/Formoterol",
+  "url": "https://wikem.org/wiki/Budesonide/Formoterol",
+  "scraped_at": "2026-01-10T07:49:17.309381",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nInhaled corticosteroid\nDosage Forms: 80/4.5, 160/4.5 mcg/spray MDI\nRoutes of Administration: Inhaled\nCommon Trade Names: Symbicort",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Inhaled corticosteroid",
+          "url": "https://wikem.org/wiki/Inhaled_corticosteroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Asthma\n, maintenance\n2 puffs inhaled BID\nStart: Dependent on severity of asthma\nMax: 640 mcg/18 mcg/day\nMay increase to 160 mcg/4.5 mcg/day per spray after 1-2 weeks if started at 80 mcg/4.5 mcg/spray.\nTaper to lowest effective dose.\nCOPD\n, maintenance\n2 puffs (160 mcg/4.5 mcg/ spray) inhaled BID\nMax: 640 mcg/18 mcg/day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "5-11 yo\n2 puffs inhaled BID\nStart: Dependent on severity of asthma\nMax: 320 mcg/18 mcg/day\nTaper to lowest effective dose. Use shortest effective treatment duration.\n12+ yo\n2 puffs inhaled BID\nStart: Dependent on severity of asthma\nMax: 640 mcg/18 mcg/day\nTaper to lowest effective dose. Use shortest effect treatment duration.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C; Possible risk of delayed ossification based on animal data at 80x MRHD and risk with uterine contractility.\nLactation risk\n: L3; Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined. Caution in severe hepatic impairment.\nPediatric: Not defined. Caution in severe hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined. Caution in severe hepatic impairment.\nPediatric: Not defined. Caution in severe hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined. Caution in severe hepatic impairment.\nPediatric: Not defined. Caution in severe hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAsthma\n, acute\nBronchospasm, acute\nCOPD\n, acute deteriorating",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bronchospasm, paradoxial\nAsthma\nexacerbation\nDeath, asthma-related\nPneumonia\nHypersensitivity Reaction\nAnaphylaxis\nHypertension\nAngina\nHypotension\nCardiac arrest\nArrhythmia\nHypokalemia\nHyperglycemia\nGlaucoma\nin long-term use\nCataracts in long-term use\nOsteoporosis in long-term use\nGrowth suppression in peds pts\nHypercorticism\nAdrenal suppression\nBehavioral distrubance",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nasopharyngitis\nHeadache\nURI\nPharyngolaryngeal pain\nSinusitis\nInfluenza\nBack pain\nNasal congestion\nDyspepsia\nNausea\nVomiting\nCandidiasis\n, oral\nBP changes\nChest pain\nPalpitations\nTachycardia\nMuscle cramps\nTremor\nNervousness\nInsomnia\nCough\nBronchitis\nRespiratory infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bronchospasm, paradoxial\nAsthma\nexacerbation\nDeath, asthma-related\nPneumonia\nHypersensitivity Reaction\nAnaphylaxis\nHypertension\nAngina\nHypotension\nCardiac arrest\nArrhythmia\nHypokalemia\nHyperglycemia\nGlaucoma\nin long-term use\nCataracts in long-term use\nOsteoporosis in long-term use\nGrowth suppression in peds pts\nHypercorticism\nAdrenal suppression\nBehavioral distrubance",
+      "subsections": {
+        "Common": {
+          "text": "Nasopharyngitis\nHeadache\nURI\nPharyngolaryngeal pain\nSinusitis\nInfluenza\nBack pain\nNasal congestion\nDyspepsia\nNausea\nVomiting\nCandidiasis\n, oral\nBP changes\nChest pain\nPalpitations\nTachycardia\nMuscle cramps\nTremor\nNervousness\nInsomnia\nCough\nBronchitis\nRespiratory infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nasopharyngitis\nHeadache\nURI\nPharyngolaryngeal pain\nSinusitis\nInfluenza\nBack pain\nNasal congestion\nDyspepsia\nNausea\nVomiting\nCandidiasis\n, oral\nBP changes\nChest pain\nPalpitations\nTachycardia\nMuscle cramps\nTremor\nNervousness\nInsomnia\nCough\nBronchitis\nRespiratory infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Budesonide: 2.3 hr, Formoterol: 10 hr.\nMetabolism: Budesonide: Liver, CYP450: 3A4 substreate. Formoterol: Liver extensively, CYP450: 2A6, 2C9/19, 2D6 substrate.\nExcretion: Budesonide: Urine 60%, feces. Formoterol: Urine 59-62% (10% unchanged), feces 32-24%.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Budesonide: Inhibits multiple inflammatory cytokine sand produces multiple glucocorticoid and mineralcorticoid effects. Exact mechanism unknown.\nFormoterol: Selectively stimulates beta-2 adrenergic receptors, relaxing airway smooth muscle.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Black Box Warning: Long acting beta-2 adrenergic agonists (LABA) increase risk of asthma-related death. LABA use may increase risk of asthma-related hospitalization in pediatric and adolescent patients. Do not use corticosteroid/LABA combo if asthma adequately controlled on low-or medium-dose inhaled corticosteroids.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "drug_name": "Bowel_perforation",
+  "url": "https://wikem.org/wiki/Bowel_perforation",
+  "scraped_at": "2026-01-10T07:49:08.317868",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Definition: a full-thickness breach of the intestinal wall, allowing air and/or gastrointestinal contents to enter the surrounding peritoneal cavity\nCan be a potentially life-threatening cause of\nsepsis\nTypically presents acutely (i.e.,\nappendicitis\n,\ndiverticulitis\n, perforated\npeptic ulcer\n, penetrating\ntrauma\n) and often requires immediate surgical intervention.\nWhen the perforation is immediately contained (i.e., by the omentum or retroperitoneum), it may occasionally present with a more indolent course\nImmunosuppression or systemic corticosteroid therapy may also blunt the inflammatory response resulting in a protracted, indolent presentation.",
+      "subsections": {
+        "Causes[1]": {
+          "text": "Peptic ulcer disease\nMalignancy\nDiverticulitis\nAppendicitis\nAbdominal trauma\n(penetrating > blunt)\nBowel obstruction\nIntestinal ischemia\nForeign body ingestion\nNecrotizing enterocolitis\n(premature infants)\nIatrogenic (i.e., endoscopy)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Primary_Features": {
+          "text": "History\nAbdominal pain\n, abdominal distention / rigidity\nOccasionally focal if regionally confined (less common)\nNausea\n,\nvomiting\n,\nfever\n, and anorexia often present\nPhysical exam\nPerforation with\nperitonitis\nAbdominal tenderness, distention\nInvoluntary guarding\nRebound tenderness\nPerforation without peritonitis\nAbdominal tenderness\nVoluntary guarding",
+          "tables": []
+        },
+        "Secondary_Features": {
+          "text": "Sepsis\n(\nfever\n,\nleukocytosis\n,\ntachycardia\n,\nhypotension\n)\nPossible\nsepsis\n-related end-organ dysfunction (i.e.,\nARDS\n,\nrenal failure\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Primary_Features": {
+      "text": "History\nAbdominal pain\n, abdominal distention / rigidity\nOccasionally focal if regionally confined (less common)\nNausea\n,\nvomiting\n,\nfever\n, and anorexia often present\nPhysical exam\nPerforation with\nperitonitis\nAbdominal tenderness, distention\nInvoluntary guarding\nRebound tenderness\nPerforation without peritonitis\nAbdominal tenderness\nVoluntary guarding",
+      "subsections": {
+        "Secondary_Features": {
+          "text": "Sepsis\n(\nfever\n,\nleukocytosis\n,\ntachycardia\n,\nhypotension\n)\nPossible\nsepsis\n-related end-organ dysfunction (i.e.,\nARDS\n,\nrenal failure\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Secondary_Features": {
+      "text": "Sepsis\n(\nfever\n,\nleukocytosis\n,\ntachycardia\n,\nhypotension\n)\nPossible\nsepsis\n-related end-organ dysfunction (i.e.,\nARDS\n,\nrenal failure\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Acute myocardial infarction\nIntestinal obstruction\nAcute\nmesenteric ischemia\nMesenteric venous thrombosis\nPelvic inflammatory disease\nTubo-ovarian abscess\nPancreatitis\nRuptured\nectopic pregnancy\nSpontaneous bacterial peritonitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CBC, BMP, PT/PTT,\nLFTs\n, lipase, T&S\nBlood cultures (as long as this does not delay the initiation of antimicrobial therapy)\nImaging (use only if physical exam is non-specific, exam findings of peritonitis warrant immediate surgical consultation):\nX-ray vs CT abdomen/pelvis with IV contrast (and PO contrast if possible)\nIV contrast improves soft tissue resolution and improves diagnostic accuracy and should be considered even in the presence of acute kidney injury.\nPO contrast improves bowel resolution and identification of perforation. Presence of PO contrast may help to distinguish intra-abdominal abscesses from adjacent bowel.",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Physical exam vs. imaging",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Physical exam vs. imaging",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Treatment": {
+          "text": "NPO\n[8]\nSurgical consult\n[9]\nIV\nfluid resuscitation\n[10]\nResuscitation guidelines for\nsepsis\n(taken from the Surviving Sepsis Campaign 2016 recommendations):\nFor sepsis-induced hypoperfusion, administration of 30 mL/kg of IV isotonic crystalloid within first 3 hrs\nAdditional fluid resuscitation should be guided by frequent reassessment of hemodynamic status\nGuide resuscitation to normalize lactate in patients with elevated lactate levels as a marker of tissue hypoperfusion\nInitial target mean arterial pressure (MAP) of 65 mmHg in patients with\nseptic shock\nrequiring vasopressors",
+          "tables": []
+        },
+        "Broad-Spectrum_Antibiotics": {
+          "text": "Start as soon as possible; ideally within the first hour\nCommunity-acquired:\nTherapy should target enteric gram-negative aerobic and facultative bacilli, obligate anaerobic bacilli, and enteric gram-positive streptococci\nAdult regimen:\nMild to moderate severity community acquired GI perforation\n:\nSingle agent\n:\nCefoxitin\n,\nertapenem\n,\nmoxifloxacin\n,\ntigecycline\n, or\nticarcillin/clavulanic acid\nCombination therapy\n:\nCefazolin\n,\ncefuroxime\n,\nceftriaxone\n,\ncefotaxime\n,\nciprofloxacin\n, or\nlevofloxacin\n-AND-\nMetronidazole\nHigh risk/severity community acquired GI perforation\n:\nSingle agent\n:\nImipenem-cilastatin\n,\nmeropenem\n,\ndoripenem\n, or\npiperacillin/tazobactam\nCombination therapy\n:\nCefepime\n,\nceftazidime\n,\nciprofloxacin\n, or\nlevofloxacin\n-AND-\nMetronidazole\nPediatric regimen:\nCommunity acquired GI perforation\n:\nSingle agent\n:\nErtapenem\n,\nmeropenem\n,\nimipenem-cilastatin\n,\nticarcillin/clavulanate\n, and\npiperacillin/tazobactam\nCombination therapy\n:\nCeftriaxone\n,\ncefotaxime\n,\ncefepime\n, or\nceftazidime\n, each in combination with\nmetronidazole\nGentamicin\nor\ntobramycin\n, each in combination with\nmetronidazole\nor\nclindamycin\n, and with or without\nampicillin\nIatrogenic/hospital-associated perforation: Therapy should be driven by local microbiologic results.\nDrug-resistant bacteria regimen (common in hospital-associated perforation):\n<20% Resistant\nPseudomonas aeruginosa\n, ESBL-producing\nEnterobacteriaceae\n,\nAcinetobacter\n, or other MDR\nGNB\n:\nSingle agent\n:\nCarbapenem\n,\npiperacillin-tazobactam\nCeftazidime\nor\ncefepime\n, each in combination with\nmetronidazole\nESBL-producing\nEnterobacteriaceae\n:\nCarbapenem\n,\npiperacillin/tazobactam\n, or\naminoglycoside\nP. aeruginosa\n>20% resistant to\nceftazidime\n:\nCarbapenem\n,\npiperacillin/tazobactam\n, or\naminoglycoside\nMRSA\n:\nVancomycin\nonly\nFungal infection\n: Antifungal therapy for patients with severe community-acquired or health care-associated infection is recommended if candida is grown from intra-abdominal cultures (\nfluconazole\n; echinocandins for triazole-resistant species)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_Treatment": {
+      "text": "NPO\n[8]\nSurgical consult\n[9]\nIV\nfluid resuscitation\n[10]\nResuscitation guidelines for\nsepsis\n(taken from the Surviving Sepsis Campaign 2016 recommendations):\nFor sepsis-induced hypoperfusion, administration of 30 mL/kg of IV isotonic crystalloid within first 3 hrs\nAdditional fluid resuscitation should be guided by frequent reassessment of hemodynamic status\nGuide resuscitation to normalize lactate in patients with elevated lactate levels as a marker of tissue hypoperfusion\nInitial target mean arterial pressure (MAP) of 65 mmHg in patients with\nseptic shock\nrequiring vasopressors",
+      "subsections": {
+        "Broad-Spectrum_Antibiotics": {
+          "text": "Start as soon as possible; ideally within the first hour\nCommunity-acquired:\nTherapy should target enteric gram-negative aerobic and facultative bacilli, obligate anaerobic bacilli, and enteric gram-positive streptococci\nAdult regimen:\nMild to moderate severity community acquired GI perforation\n:\nSingle agent\n:\nCefoxitin\n,\nertapenem\n,\nmoxifloxacin\n,\ntigecycline\n, or\nticarcillin/clavulanic acid\nCombination therapy\n:\nCefazolin\n,\ncefuroxime\n,\nceftriaxone\n,\ncefotaxime\n,\nciprofloxacin\n, or\nlevofloxacin\n-AND-\nMetronidazole\nHigh risk/severity community acquired GI perforation\n:\nSingle agent\n:\nImipenem-cilastatin\n,\nmeropenem\n,\ndoripenem\n, or\npiperacillin/tazobactam\nCombination therapy\n:\nCefepime\n,\nceftazidime\n,\nciprofloxacin\n, or\nlevofloxacin\n-AND-\nMetronidazole\nPediatric regimen:\nCommunity acquired GI perforation\n:\nSingle agent\n:\nErtapenem\n,\nmeropenem\n,\nimipenem-cilastatin\n,\nticarcillin/clavulanate\n, and\npiperacillin/tazobactam\nCombination therapy\n:\nCeftriaxone\n,\ncefotaxime\n,\ncefepime\n, or\nceftazidime\n, each in combination with\nmetronidazole\nGentamicin\nor\ntobramycin\n, each in combination with\nmetronidazole\nor\nclindamycin\n, and with or without\nampicillin\nIatrogenic/hospital-associated perforation: Therapy should be driven by local microbiologic results.\nDrug-resistant bacteria regimen (common in hospital-associated perforation):\n<20% Resistant\nPseudomonas aeruginosa\n, ESBL-producing\nEnterobacteriaceae\n,\nAcinetobacter\n, or other MDR\nGNB\n:\nSingle agent\n:\nCarbapenem\n,\npiperacillin-tazobactam\nCeftazidime\nor\ncefepime\n, each in combination with\nmetronidazole\nESBL-producing\nEnterobacteriaceae\n:\nCarbapenem\n,\npiperacillin/tazobactam\n, or\naminoglycoside\nP. aeruginosa\n>20% resistant to\nceftazidime\n:\nCarbapenem\n,\npiperacillin/tazobactam\n, or\naminoglycoside\nMRSA\n:\nVancomycin\nonly\nFungal infection\n: Antifungal therapy for patients with severe community-acquired or health care-associated infection is recommended if candida is grown from intra-abdominal cultures (\nfluconazole\n; echinocandins for triazole-resistant species)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Broad-Spectrum_Antibiotics": {
+      "text": "Start as soon as possible; ideally within the first hour\nCommunity-acquired:\nTherapy should target enteric gram-negative aerobic and facultative bacilli, obligate anaerobic bacilli, and enteric gram-positive streptococci\nAdult regimen:\nMild to moderate severity community acquired GI perforation\n:\nSingle agent\n:\nCefoxitin\n,\nertapenem\n,\nmoxifloxacin\n,\ntigecycline\n, or\nticarcillin/clavulanic acid\nCombination therapy\n:\nCefazolin\n,\ncefuroxime\n,\nceftriaxone\n,\ncefotaxime\n,\nciprofloxacin\n, or\nlevofloxacin\n-AND-\nMetronidazole\nHigh risk/severity community acquired GI perforation\n:\nSingle agent\n:\nImipenem-cilastatin\n,\nmeropenem\n,\ndoripenem\n, or\npiperacillin/tazobactam\nCombination therapy\n:\nCefepime\n,\nceftazidime\n,\nciprofloxacin\n, or\nlevofloxacin\n-AND-\nMetronidazole\nPediatric regimen:\nCommunity acquired GI perforation\n:\nSingle agent\n:\nErtapenem\n,\nmeropenem\n,\nimipenem-cilastatin\n,\nticarcillin/clavulanate\n, and\npiperacillin/tazobactam\nCombination therapy\n:\nCeftriaxone\n,\ncefotaxime\n,\ncefepime\n, or\nceftazidime\n, each in combination with\nmetronidazole\nGentamicin\nor\ntobramycin\n, each in combination with\nmetronidazole\nor\nclindamycin\n, and with or without\nampicillin\nIatrogenic/hospital-associated perforation: Therapy should be driven by local microbiologic results.\nDrug-resistant bacteria regimen (common in hospital-associated perforation):\n<20% Resistant\nPseudomonas aeruginosa\n, ESBL-producing\nEnterobacteriaceae\n,\nAcinetobacter\n, or other MDR\nGNB\n:\nSingle agent\n:\nCarbapenem\n,\npiperacillin-tazobactam\nCeftazidime\nor\ncefepime\n, each in combination with\nmetronidazole\nESBL-producing\nEnterobacteriaceae\n:\nCarbapenem\n,\npiperacillin/tazobactam\n, or\naminoglycoside\nP. aeruginosa\n>20% resistant to\nceftazidime\n:\nCarbapenem\n,\npiperacillin/tazobactam\n, or\naminoglycoside\nMRSA\n:\nVancomycin\nonly\nFungal infection\n: Antifungal therapy for patients with severe community-acquired or health care-associated infection is recommended if candida is grown from intra-abdominal cultures (\nfluconazole\n; echinocandins for triazole-resistant species)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission (typically directly to operating room)\n[12]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sepsis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "drug_name": "Brain_death",
+  "url": "https://wikem.org/wiki/Brain_death",
+  "scraped_at": "2026-01-10T07:49:06.647589",
+  "sections": {
+    "Criteria": {
+      "text": "Known proximate cause of condition\nCerebral unresponsiveness\nAbsence of brain stem relexes (see below)\nApneic (see below)\nIrreversible condition (+/- repeat exam in 6hrs)\nExclusion of complicating medical conditions:\nSevere electrolyte abnormalities\nAcid-base derrangement\nEndocrine disturbance\nHemodynamic compromise, with age-adjusted vital sign \"normals\" in pediatric patients\nDrug intoxication/poisoning\nCore temperature < 32 C (90 F)\nLocked-in syndrome\nGuillain-Barre syndrome\ninvolving all peripheral and cranial nerves\nBe aware of hospital or state regulations such as:\nTwo separate clinical exams performed by two different physicians at least one hour apart\nAgreement of brain death between two physicians documenting findings from exam, apnea testing, confirmatory testing\nObservation period between clinical exams varies when brain death determined in children < 1 year of age\n[1]\n2 mo - 1 yr, waiting period between exams should be at least 24 hours\n7 days - 2 mo, waiting period should be at least 48 hours\nNo reliable criteria for children < 7 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        }
+      ]
+    },
+    "Brain_Stem_Reflexes": {
+      "text": "Severe facial trauma may make CN testing difficult\nPupils (CN 2 sensory, CN 3 constriction)\nNo response to light (fixed and mid-dilated)\nOcular movement (CN 8 sensory, CN 6 lateral rectus)\nOculocephalic reflex (positive Doll's Eyes)\nEyes should move to maintain forward fixation as head is turned\nDo not perform if cervical spine injury is suspected\nOculovestibular reflex (aka \"Cold Calorics\")\n(Irrigation with 60cc cold water to ears on intact tympanic membrane and observe for deviation of eyes/fast beat nystagmus. Allow 5 minutes between either side.\nif brainstem reflex is intact, fast beating nystagmus to the opposite side\nif brainstem reflex is not intact, eye deviation towards the side of irrigation\nClotted blood or cerumen in auditory canal may influence response to cold calorics\nCortex injured but brainstem intact = eyes deviate toward cold ear\nBrainstem injured = no eye deviation at all\nCorneal reflex (CN 5 sensory, CN 7 motor/blinking)\nDrip saline flush into eye\nProgress to direct stimulation on sclera with gauze if no response above (DO NOT scrape cornea)\nPharyngeal (CN 9/10)\nGag (tongue blade) or suction.\nTracheal (CN 10)\nEndotracheal suction (In intubated patients only)\nSpontaneous body movements observed at any point during the brain death exam may represent spinal reflexes, up to ~20%\n[2]\nMay be difficult to discern from respiratory effort\nFindings may include pronation-extension reflex, abdominal reflex, flexion reflex, the Lazarus sign, periodic leg movements\nShould not be misinterpreted as brain stem function\nEvidence of brain death comes from consistent clinical exam and imaging",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Apnea_Testing": {
+      "text": "Prerequisites:\nClinical Criteria\nCore temperature >32 C (actual temperature value > 32 varies by institution) with corrected electrolytes\n> 36.5 C is preferred\nSBP >90\nNl PaCO2 (>40)\nNl PaO2 (preoxygenate >200)\nTest:\nCheck baseline ABG (ensure PaCO2 < 40 mmHg to maximize target PaCO2 rise)\nConnect pulse ox, disconnect ventilator, place nasal cannula in ET (at carrina), and place on 100% O2 at 6 LPM\nPhysician able to declare brain death (typically neurology/neurosurgery) will  observe for respiratory movements\nDraw\nABG\nat 8 min. Observe for PaCO2 rise >20 mmHg over 8 minutes with no respiratory movement →positive apnea test (supports brain death)\nPositive test = 20 increase over baseline (typically 60) ensure to blow down CO2 to ~40 to enable 20 mmHg rise. Typical rise is 3 mmHg per minute\nConsiderations\nAbort the test (reconnect ventilator) if SBP <90 or significant SpO2 desat (can draw\nABG\nat that time, with same criteria as above)\nMust perform 2 exams 6 hours apart in addition to apnea test",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        }
+      ]
+    },
+    "Confirmatory_Studies": {
+      "text": "When apnea testing or CN testing difficult\nSevere facial trauma preventing CN testing\nHigh cervical cord injury making apnea testing impossible\nHemodynamically too unstable or significant lung injury making apnea testing impossible\nDiagnostics must be done to evaluate for cerebral blood flow or activity\nCerebral angiography, nuclear imaging, CTA, or MRA\nEEG monitoring",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Organ_Donation": {
+      "text": "Decisions over suitability of a donor typically are left to established organizations that differ for each hospital\nGeneral contraindications\nAny kind of cancer (EXCEPT skin cancers other than melanoma, certain primary brain tumors). Essentially this means only cancers with very low risk of metastasis are acceptable\nAny kind of systemic infection or communicable incurable disease\nActive Fungal disease (Cryptoccous, Aspergillus, Histoplasma, Coccidioides, Candidemia, invasive yeast)\nActive Bacterial infection (Tb, sepsis)\nViral infections (HIV, HTLV, rabies, reactive HbsAg, West nile, SARS, enterovirus, HSV, VZV, EBC etc)\nThe general goals with organ donation are organ preservation by maintaining: 1) Physiologic levels of neuro mediated hormones, 2) Blood pressure, 3) Obtaining Screening labs\nPan-hypopituitary state\nDiabetes insipidus\nClinical: DI typically presents with UOP >5cc/kg/hr. Urine Spec Grav: < 1.005, serum Na > 145 or serum osmolality > 305mg/dL\nTreatment: Frequent Na monitoring. Bolus vasopressin 0.5U IV then drip with goal of 0.5U/h. Titrate to UOP 1-2ml/kg/h\nHypothyroidism\n- 20 mcg T4 IV bolus, then T4 at 10 mcg/hr, which may cause hyperkalemia so administer 10 U regular insulin with 1 amp 50% dextrose before IV bolus\nHypoinsulinemia - Insulin drip, titrate to maintain glucose 80-110 with q1 hr checks\nHypocortisol,\nadrenal insufficiency\n- treatment - 15 mg/kg IV bolus QD empirically\nHypotension\nPlace arterial line with goal SBP > 90, MAP > 60\nIf goals are not met. a continuous cardiac index monitor (Vigileo or PICCO) may be indicated. Goals are CI > 2.5 and UOP > 1 ml/kg/hr\nConsider starting inotropes, to include\ndobutamine\nor\nmilrinone\nIf MAP < 60 despite adequate CI, start peripheral pressor (\nphenylephrine\nor\nnorepinepherine\n)\nPlace central line with CVP goals > 5 mmHg\nMaintain fluids at 1.5-2 ml/kg/hr. Choice of fluids include NS for Na < 155, 1/2-NS for Na 156-165, D5W if Na > 165\nScreening labs\nHIV 1/2, HTLV 1 and 2, RPR, Toxoplasma IgG, CMV IgG, EBV IgG, VZV IgG, HSV 1 and 2, Hepatitis A/B/C\nLFTs, amylase, lipase, CBC, coagulation profile\nSpecial Considerations\nHeart often experiences stunning myocardium secondary to neurogenic sympathetic surge. Often will lower EF with some myocyte necrosis and\ntroponin\nleak. Order q6hr serial cardiac enzymes, then repeat echo. Very often heart will recover after initial stunning period",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "norepinepherine",
+          "url": "https://wikem.org/wiki/Norepinepherine"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Post Cardiac Arrest\nDelivering bad news\nDiagnosis of death",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Post Cardiac Arrest",
+          "url": "https://wikem.org/wiki/Post_Cardiac_Arrest"
+        },
+        {
+          "text": "Delivering bad news",
+          "url": "https://wikem.org/wiki/Delivering_bad_news"
+        },
+        {
+          "text": "Diagnosis of death",
+          "url": "https://wikem.org/wiki/Diagnosis_of_death"
+        }
+      ]
+    }
+  }
+}

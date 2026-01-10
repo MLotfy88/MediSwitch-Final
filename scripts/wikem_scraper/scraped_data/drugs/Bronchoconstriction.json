@@ -1,0 +1,76 @@
+{
+  "drug_name": "Bronchoconstriction",
+  "url": "https://wikem.org/wiki/Bronchoconstriction",
+  "scraped_at": "2026-01-10T07:49:12.668057",
+  "sections": {
+    "Intro": {
+      "text": "COPD\nAsthma\nBronchiolitis (peds)\nOthers\nIntrathoracic lower airway\nAspirated foreign body\nBronchiectasis\nBronchiolitis\nBronchiolitis obliterans\nCHF\n(\"Cardiac asthma\")\nCarcinoid\ntumors\nEnvironmental - silo farmers\nParasitic\nin endemic\nReactive airway\nIntrathoracic central airway\nForeign body\nTracheal stenosis/tumors\nTracheomalacia\nMucus plugs\nVascular rings\n/aneurysms\nMediastinal mass\nExtra-thoracic\nForeign body\nAnaphylaxis\nVocal cord edema/paralysis\nParadoxical vocal cord motion\nLaryngeal stenosis\nTonsillar hypertrophy\nGoiter\nPostnasal drip\nIntrathoracic lower airway\nAspirated foreign body\nBronchiectasis\nBronchiolitis\nBronchiolitis obliterans\nCHF\n(\"Cardiac asthma\")\nCarcinoid\ntumors\nEnvironmental - silo farmers\nParasitic\nin endemic\nReactive airway\nIntrathoracic central airway\nForeign body\nTracheal stenosis/tumors\nTracheomalacia\nMucus plugs\nVascular rings\n/aneurysms\nMediastinal mass\nExtra-thoracic\nForeign body\nAnaphylaxis\nVocal cord edema/paralysis\nParadoxical vocal cord motion\nLaryngeal stenosis\nTonsillar hypertrophy\nGoiter\nPostnasal drip\nAspirated foreign body\nBronchiectasis\nBronchiolitis\nBronchiolitis obliterans\nCHF\n(\"Cardiac asthma\")\nCarcinoid\ntumors\nEnvironmental - silo farmers\nParasitic\nin endemic\nReactive airway\nForeign body\nTracheal stenosis/tumors\nTracheomalacia\nMucus plugs\nVascular rings\n/aneurysms\nMediastinal mass\nForeign body\nAnaphylaxis\nVocal cord edema/paralysis\nParadoxical vocal cord motion\nLaryngeal stenosis\nTonsillar hypertrophy\nGoiter\nPostnasal drip\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Bronchoconstriction": {
+      "text": "COPD\nAsthma\nBronchiolitis (peds)\nOthers\nIntrathoracic lower airway\nAspirated foreign body\nBronchiectasis\nBronchiolitis\nBronchiolitis obliterans\nCHF\n(\"Cardiac asthma\")\nCarcinoid\ntumors\nEnvironmental - silo farmers\nParasitic\nin endemic\nReactive airway\nIntrathoracic central airway\nForeign body\nTracheal stenosis/tumors\nTracheomalacia\nMucus plugs\nVascular rings\n/aneurysms\nMediastinal mass\nExtra-thoracic\nForeign body\nAnaphylaxis\nVocal cord edema/paralysis\nParadoxical vocal cord motion\nLaryngeal stenosis\nTonsillar hypertrophy\nGoiter\nPostnasal drip",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Bronchiectasis",
+          "url": "https://wikem.org/wiki/Bronchiectasis"
+        },
+        {
+          "text": "Bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Carcinoid",
+          "url": "https://wikem.org/wiki/Carcinoid"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic_infection"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Vascular rings",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    }
+  }
+}

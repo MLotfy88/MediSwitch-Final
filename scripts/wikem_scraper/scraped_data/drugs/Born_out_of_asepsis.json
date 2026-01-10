@@ -1,0 +1,24 @@
+{
+  "drug_name": "Born_out_of_asepsis",
+  "url": "https://wikem.org/wiki/Born_out_of_asepsis",
+  "scraped_at": "2026-01-10T07:49:03.142739",
+  "sections": {
+    "Intro": {
+      "text": "Emergent delivery\nNewborn resuscitation\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Postpartum emergencies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Postpartum emergencies",
+          "url": "https://wikem.org/wiki/Postpartum_emergencies"
+        }
+      ]
+    }
+  }
+}

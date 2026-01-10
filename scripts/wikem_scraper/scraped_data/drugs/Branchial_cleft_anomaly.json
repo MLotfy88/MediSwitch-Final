@@ -1,0 +1,218 @@
+{
+  "drug_name": "Branchial_cleft_anomaly",
+  "url": "https://wikem.org/wiki/Branchial_cleft_anomaly",
+  "scraped_at": "2026-01-10T07:49:14.148208",
+  "sections": {
+    "Background": {
+      "text": "During 4th week of embryonic development, five branchial arches grow into distinct parts of head and neck\nAll consist of arteries, nerves, muscle, skeletal tissue\nIf arches fail to fuse--> soft tissue anomaly on lateral neck may form, called branchial cleft anomaly\nAnomalies include cysts (most common), fistulas, sinus tracts\n2nd branchial cleft anomalies most common",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Lateral neck soft tissue anatomy\nTypically asymptomatic unless superinfected causing cellulitis or abscess formation\nFirst branchial cleft cyst\nLump in parotid/auricular region\nFacial nerve palsy\nMay drain through neck and external auditory canal\nSecond branchial cleft cyst\nMost common\nPresent in late childhood or early adulthood\nSwelling below angle of mandible and anterior to sternocleidomastoid\nSinus tracts travel into the deep neck structures and drain into tonsillar fossa\nFistulae cause mucus drainage from cutaneous opening at lateral neck\nVery rarely become\nsquamous cell carcinoma\nThird and fourth branchial cleft cyst\nDifficult to differentiate between the two\nLocated lower in neck, anterior or posterior to sternocleidomastoid\nPreference for left side",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Facial nerve palsy",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Reactive\nlymphadenopathy\n- most common\nViral\nURI\nEBV\nCMV\nStrep\n/\nstaph\nHIV\nToxoplasmosis\nBartonella henselae\n- kitten or flea exposure\nTuberculous lymphadenitis\n(scrofula)\nDescending infections from oral cavity\nLudwig's angina\nSialoadenitis\n(can also be chronic)\nTrauma-related\nHematoma\nPseudoaneurysm or AV fistula",
+          "tables": []
+        },
+        "Subacute_(weeks_to_months)": {
+          "text": "Cancer\nHPV-related\nsquamous cell carcinoma\nUpper aerodigestive tract\nsquamous cell carcinoma\nMetastatic disease\nLymphoma\nParotid tumors\nSystemic diseases\nAmyloidosis\nSarcoidosis\nSjögren syndrome",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Thyroid\nnodules or cancer\nGoiters\nGraves' disease\nHashimoto\nthyroiditis\nIodine deficiency\nLithium\nuse\nToxic multinodular\nCongenital cysts\nThyroglossal duct cyst- 2nd most common benign neck mass\nDermoid cyst\nCarotid body tumor\nGlomus jugulare or vagale tumor\nLaryngocele\nLipoma/liposarcoma\nParathyroid cysts or cancer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Bartonella henselae",
+          "url": "https://wikem.org/wiki/Bartonella_henselae"
+        },
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        },
+        {
+          "text": "squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Graves' disease",
+          "url": "https://wikem.org/wiki/Graves%27_disease"
+        },
+        {
+          "text": "thyroiditis",
+          "url": "https://wikem.org/wiki/Thyroiditis"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Consider one of the following:\nUltrasound\nCT\nMRI",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically via imaging (see workup for options)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Consider one of the following:\nUltrasound\nCT\nMRI",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically via imaging (see workup for options)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Typically via imaging (see workup for options)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Surgical excision is definitive treatment (high risk of recurrence if not completely excised)\nAntibiotics\nif superinfection present",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with outpatient surgical referral (if no systemic signs of infection present)\nAdmit for sepsis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "cellulitis\nneck mass",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "neck mass",
+          "url": "https://wikem.org/wiki/Neck_mass"
+        }
+      ]
+    }
+  }
+}

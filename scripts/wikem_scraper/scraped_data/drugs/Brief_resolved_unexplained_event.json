@@ -1,0 +1,823 @@
+{
+  "drug_name": "Brief_resolved_unexplained_event",
+  "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event",
+  "scraped_at": "2026-01-10T07:49:12.542757",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: BRUE\nBRUE was formerly known as Apparent life-threatening event (ALTE)\n[1]\nBRUE definition has a strict age limit (<1 y/o) and should only be considered if no other likely explanation\nPeak incidence: 1 wk - 2 mo\nBRUE is a symptom and requires evaluation for the actual diagnosis causing the event\nOnly 10% have repeat events\nBRUE is not related to\nSIDS",
+      "subsections": {
+        "Definition": {
+          "text": "BRUE diagnosis is only made by a clinician based on the features and is not based on the caregiver's perception of what happened. BRUE is an event occurring in an infant <1 year of age  when an observer reports a sudden, brief\n( <1 minute but typically <20–30 seconds)\n, and now resolved episode of ≥1 of the following:\n[1]\nCyanosis or pallor\nAbsent, decreased, or irregular breathing\nMarked change in tone (hyper or hypotonia)\nAltered level of responsiveness\nMust have returned to baseline\nA BRUE should only be diagnosed when there is no alternative explanation for a the event after completing full history and physical.",
+          "tables": []
+        },
+        "ALTE_to_BRUE_Definiton_Changes": {
+          "text": "BRUE has a strict age limit < 1yo\nThere must be no other explanation for the event (not something as simple as nasal congestion, choking, viral infection or vomiting)\nCaregiver's perception of a BRUE does not make an event a BRUE without clinical suspicion\nAltered responsiveness is a new criteria",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "RSV\ninfection\nPrematurity\nRecent anesthesia\nGERD\nAirway/maxillofacial anomalies\nAge < 10 wks\nHistory of apnea\nPallor, cyanosis, feeding difficulties\nFamily hx of sudden cardiac death",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SIDS",
+          "url": "https://wikem.org/wiki/SIDS"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        }
+      ]
+    },
+    "Definition": {
+      "text": "BRUE diagnosis is only made by a clinician based on the features and is not based on the caregiver's perception of what happened. BRUE is an event occurring in an infant <1 year of age  when an observer reports a sudden, brief\n( <1 minute but typically <20–30 seconds)\n, and now resolved episode of ≥1 of the following:\n[1]\nCyanosis or pallor\nAbsent, decreased, or irregular breathing\nMarked change in tone (hyper or hypotonia)\nAltered level of responsiveness\nMust have returned to baseline\nA BRUE should only be diagnosed when there is no alternative explanation for a the event after completing full history and physical.",
+      "subsections": {
+        "ALTE_to_BRUE_Definiton_Changes": {
+          "text": "BRUE has a strict age limit < 1yo\nThere must be no other explanation for the event (not something as simple as nasal congestion, choking, viral infection or vomiting)\nCaregiver's perception of a BRUE does not make an event a BRUE without clinical suspicion\nAltered responsiveness is a new criteria",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "RSV\ninfection\nPrematurity\nRecent anesthesia\nGERD\nAirway/maxillofacial anomalies\nAge < 10 wks\nHistory of apnea\nPallor, cyanosis, feeding difficulties\nFamily hx of sudden cardiac death",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        }
+      ]
+    },
+    "ALTE_to_BRUE_Definiton_Changes": {
+      "text": "BRUE has a strict age limit < 1yo\nThere must be no other explanation for the event (not something as simple as nasal congestion, choking, viral infection or vomiting)\nCaregiver's perception of a BRUE does not make an event a BRUE without clinical suspicion\nAltered responsiveness is a new criteria",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "RSV\ninfection\nPrematurity\nRecent anesthesia\nGERD\nAirway/maxillofacial anomalies\nAge < 10 wks\nHistory of apnea\nPallor, cyanosis, feeding difficulties\nFamily hx of sudden cardiac death",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "RSV\ninfection\nPrematurity\nRecent anesthesia\nGERD\nAirway/maxillofacial anomalies\nAge < 10 wks\nHistory of apnea\nPallor, cyanosis, feeding difficulties\nFamily hx of sudden cardiac death",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "See definition above\nExtensive list of historical features to be considered from\nTable 2 of the original BRUE article.\n[1]\nExtensive list of physical exam features be considered from\nTable 3 of the original BRUE article.\n[1]",
+      "subsections": {
+        "Past_Medical_History": {
+          "text": "The history in an BRUE should focus extensively on the details surrounding the event, need for resuscitation, prior events, possible related medical conditions, or historic findings that may indicate prior events.\nPrematurity, history of apnea, prior resp/feeding difficulties\nImmunization status (particularly pertussis)",
+          "tables": []
+        },
+        "Family_History": {
+          "text": "History of\nSIDS\n, cardiac abnormalities, seizures, or metabolic disease",
+          "tables": []
+        },
+        "Event": {
+          "text": "Duration of the BRUE\nWas resuscitation with CPR and rescue breaths required?\nTemporal relationship with feeding, sleeping, crying, vomiting, or choking\nAny episodes concerning for central versus obstructive patterns of apnea\nAny progressive or episodic changes in mental status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SIDS",
+          "url": "https://wikem.org/wiki/SIDS"
+        }
+      ]
+    },
+    "Past_Medical_History": {
+      "text": "The history in an BRUE should focus extensively on the details surrounding the event, need for resuscitation, prior events, possible related medical conditions, or historic findings that may indicate prior events.\nPrematurity, history of apnea, prior resp/feeding difficulties\nImmunization status (particularly pertussis)",
+      "subsections": {
+        "Family_History": {
+          "text": "History of\nSIDS\n, cardiac abnormalities, seizures, or metabolic disease",
+          "tables": []
+        },
+        "Event": {
+          "text": "Duration of the BRUE\nWas resuscitation with CPR and rescue breaths required?\nTemporal relationship with feeding, sleeping, crying, vomiting, or choking\nAny episodes concerning for central versus obstructive patterns of apnea\nAny progressive or episodic changes in mental status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SIDS",
+          "url": "https://wikem.org/wiki/SIDS"
+        }
+      ]
+    },
+    "Family_History": {
+      "text": "History of\nSIDS\n, cardiac abnormalities, seizures, or metabolic disease",
+      "subsections": {
+        "Event": {
+          "text": "Duration of the BRUE\nWas resuscitation with CPR and rescue breaths required?\nTemporal relationship with feeding, sleeping, crying, vomiting, or choking\nAny episodes concerning for central versus obstructive patterns of apnea\nAny progressive or episodic changes in mental status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SIDS",
+          "url": "https://wikem.org/wiki/SIDS"
+        }
+      ]
+    },
+    "Event": {
+      "text": "Duration of the BRUE\nWas resuscitation with CPR and rescue breaths required?\nTemporal relationship with feeding, sleeping, crying, vomiting, or choking\nAny episodes concerning for central versus obstructive patterns of apnea\nAny progressive or episodic changes in mental status",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "The differential diagnosis is extensive, and although a broad workup is often started in the ED including evaluation for sepsis, occult infection, and metabolic disorders, a cause is infrequently found\n[2]",
+      "subsections": {
+        "Common": {
+          "text": "Idiopathic (~50%)\nGERD\nSeizure\nRespiratory tract infection (e.g.\nbronchiolitis\n)\nMisinterpretation of benign process (e.g. periodic breathing)\nVomiting\n/choking episode",
+          "tables": []
+        },
+        "Less_Common": {
+          "text": "Pertussis\nNonaccidental trauma\nPoisoning\nSerious bacterial infection (e.g.\nmeningitis\n,\npneumonia\n,\nBacteremia\n,\nUTI)\n)\nMust consider in all febrile patients with BRUE\nElectrolyte abnormalities\n(including\nhypoglycemia\nand other glucose abnormalities)",
+          "tables": []
+        },
+        "Uncommon": {
+          "text": "Arrhythmia\nAnemia\nBreath-holding spell\n(6mo - 4yrs)\nMetabolic disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        },
+        {
+          "text": "Poisoning",
+          "url": "https://wikem.org/wiki/Toxicity"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(Peds)"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(Peds)"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "UTI)",
+          "url": "https://wikem.org/wiki/UTI_(Peds)"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Peds)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Metabolic disease",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Idiopathic (~50%)\nGERD\nSeizure\nRespiratory tract infection (e.g.\nbronchiolitis\n)\nMisinterpretation of benign process (e.g. periodic breathing)\nVomiting\n/choking episode",
+      "subsections": {
+        "Less_Common": {
+          "text": "Pertussis\nNonaccidental trauma\nPoisoning\nSerious bacterial infection (e.g.\nmeningitis\n,\npneumonia\n,\nBacteremia\n,\nUTI)\n)\nMust consider in all febrile patients with BRUE\nElectrolyte abnormalities\n(including\nhypoglycemia\nand other glucose abnormalities)",
+          "tables": []
+        },
+        "Uncommon": {
+          "text": "Arrhythmia\nAnemia\nBreath-holding spell\n(6mo - 4yrs)\nMetabolic disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        },
+        {
+          "text": "Poisoning",
+          "url": "https://wikem.org/wiki/Toxicity"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(Peds)"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(Peds)"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "UTI)",
+          "url": "https://wikem.org/wiki/UTI_(Peds)"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Peds)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Metabolic disease",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    },
+    "Less_Common": {
+      "text": "Pertussis\nNonaccidental trauma\nPoisoning\nSerious bacterial infection (e.g.\nmeningitis\n,\npneumonia\n,\nBacteremia\n,\nUTI)\n)\nMust consider in all febrile patients with BRUE\nElectrolyte abnormalities\n(including\nhypoglycemia\nand other glucose abnormalities)",
+      "subsections": {
+        "Uncommon": {
+          "text": "Arrhythmia\nAnemia\nBreath-holding spell\n(6mo - 4yrs)\nMetabolic disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        },
+        {
+          "text": "Poisoning",
+          "url": "https://wikem.org/wiki/Toxicity"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(Peds)"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(Peds)"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "UTI)",
+          "url": "https://wikem.org/wiki/UTI_(Peds)"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Peds)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Metabolic disease",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    },
+    "Uncommon": {
+      "text": "Arrhythmia\nAnemia\nBreath-holding spell\n(6mo - 4yrs)\nMetabolic disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Metabolic disease",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Low_Risk": {
+          "text": "Individualize testing by history and exam. These are\ngenerally not needed\nfor the low risk patients.\nConsider:\nObtain\npertussis\nECG\nBriefly observe on pulse oximetry (e.g. 1-3 hours)",
+          "tables": []
+        },
+        "Moderate_or_Higher_Risk": {
+          "text": "CBC\nChem 10\nUrinalysis\nCXR\nPertussis\nnasal swab\nRSV\nnasal swab\nConsider:\nUrine culture /BC\nECG\nLP\nLFTs\nMRI Brain",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "See Definition in Background section",
+          "tables": []
+        },
+        "Low_Risk_Criteria": {
+          "text": "Age >60 days\nGestational age > 32 weeks and post-conceptional age >= 45 weeks\nFirst BRUE ever\nNo prior BRUE or BRUE in clusters\nBRUE duration <1 minute\nNo CPR by a medical provider\nNo concern for\nchild abuse\n, family history of sudden unexplained death,or toxic exposures\nNo abnormal physical findings: (bruising, cardiac\nmurmurs\n,\norganomegaly\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "murmurs",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "organomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "",
+      "subsections": {
+        "Low_Risk": {
+          "text": "Individualize testing by history and exam. These are\ngenerally not needed\nfor the low risk patients.\nConsider:\nObtain\npertussis\nECG\nBriefly observe on pulse oximetry (e.g. 1-3 hours)",
+          "tables": []
+        },
+        "Moderate_or_Higher_Risk": {
+          "text": "CBC\nChem 10\nUrinalysis\nCXR\nPertussis\nnasal swab\nRSV\nnasal swab\nConsider:\nUrine culture /BC\nECG\nLP\nLFTs\nMRI Brain",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "See Definition in Background section",
+          "tables": []
+        },
+        "Low_Risk_Criteria": {
+          "text": "Age >60 days\nGestational age > 32 weeks and post-conceptional age >= 45 weeks\nFirst BRUE ever\nNo prior BRUE or BRUE in clusters\nBRUE duration <1 minute\nNo CPR by a medical provider\nNo concern for\nchild abuse\n, family history of sudden unexplained death,or toxic exposures\nNo abnormal physical findings: (bruising, cardiac\nmurmurs\n,\norganomegaly\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "murmurs",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "organomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "See Definition in Background section",
+      "subsections": {
+        "Low_Risk_Criteria": {
+          "text": "Age >60 days\nGestational age > 32 weeks and post-conceptional age >= 45 weeks\nFirst BRUE ever\nNo prior BRUE or BRUE in clusters\nBRUE duration <1 minute\nNo CPR by a medical provider\nNo concern for\nchild abuse\n, family history of sudden unexplained death,or toxic exposures\nNo abnormal physical findings: (bruising, cardiac\nmurmurs\n,\norganomegaly\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "murmurs",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "organomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Low_Risk_2": {
+          "text": "Low Risk infants can be safely discharged but there should be shared decision making with parents.\nAlso offer the family CPR training resources\nConsider pertussis swab, ECG, and brief monitored observation in the ED.\nNo other consults, metabolic or hematologic labs or medications are necessary for discharge",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Low_Risk_2": {
+      "text": "Low Risk infants can be safely discharged but there should be shared decision making with parents.\nAlso offer the family CPR training resources\nConsider pertussis swab, ECG, and brief monitored observation in the ED.\nNo other consults, metabolic or hematologic labs or medications are necessary for discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Low_Risk_3": {
+          "text": "Discharged with shared parental decision making, CPR instructions, and close outpatient follow-up",
+          "tables": []
+        },
+        "Not_Low_Risk": {
+          "text": "Admission in most cases\nEspecially for:\n<30 weeks preterm\n[4]\nIll-appearing or abnormal vitals (including pulse ox)\n[5]\nBronchiolitis\nor\npertussis\nwith apnea\n>1 event in past 24hr or multiple BRUE\nAbnormalities in past medical history\nProlonged central apnea >20 seconds\nNeed for resuscitation\nFamily history of SIDS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        }
+      ]
+    },
+    "Low_Risk_3": {
+      "text": "Discharged with shared parental decision making, CPR instructions, and close outpatient follow-up",
+      "subsections": {
+        "Not_Low_Risk": {
+          "text": "Admission in most cases\nEspecially for:\n<30 weeks preterm\n[4]\nIll-appearing or abnormal vitals (including pulse ox)\n[5]\nBronchiolitis\nor\npertussis\nwith apnea\n>1 event in past 24hr or multiple BRUE\nAbnormalities in past medical history\nProlonged central apnea >20 seconds\nNeed for resuscitation\nFamily history of SIDS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        }
+      ]
+    },
+    "Not_Low_Risk": {
+      "text": "Admission in most cases\nEspecially for:\n<30 weeks preterm\n[4]\nIll-appearing or abnormal vitals (including pulse ox)\n[5]\nBronchiolitis\nor\npertussis\nwith apnea\n>1 event in past 24hr or multiple BRUE\nAbnormalities in past medical history\nProlonged central apnea >20 seconds\nNeed for resuscitation\nFamily history of SIDS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        }
+      ]
+    },
+    "Current_Research": {
+      "text": "Neither of these decision rules have been validated",
+      "subsections": {
+        "Mittal_ALTE_Decision_Rule": {
+          "text": "300 Infants in a single center with 76% admission rate with 37 (12%) required significant intervention\nPredictors for requiring intervention\nPrematurity\nAbnormal physical examination\nColor change to cyanosis,\nAbsence of upper respiratory infection symptoms and the absence of choking\nNegative predictive value: 96%\nSpecificity of 70.5%\n7 out of the 184 (3.8%) were incorrectly discharged",
+          "tables": []
+        },
+        "Kaji_ALTE_Decision_Rule": {
+          "text": "832 patients from 4 different study sites, with a 79.2% admission rate\nPredictors for requiring admission\nObvious need for admission:\nSupplemental Oxygen\nrequirement\nResuscitation\nHemodynamic Instability\nPositive\nRSV\nor\nPertussis\ntest\nSignificant past medical history\nCongenital heart disease\nDown syndrome\nPrevious\nintubation\nChromosomal abnormality\nChronic lung disease (e.g.\nbronchopulmonary dysplasia\n)\n> 1 BRUE in 24 hours\nNegative predictive value of 96.5%\nSensitivity of 89% , a Specificity of 61.9% , and a calculated\n14 (2%) patients were incorrectly discharged",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Supplemental Oxygen",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hemodynamic Instability",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Down syndrome",
+          "url": "https://wikem.org/wiki/Down_syndrome"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        }
+      ]
+    },
+    "Mittal_ALTE_Decision_Rule": {
+      "text": "300 Infants in a single center with 76% admission rate with 37 (12%) required significant intervention\nPredictors for requiring intervention\nPrematurity\nAbnormal physical examination\nColor change to cyanosis,\nAbsence of upper respiratory infection symptoms and the absence of choking\nNegative predictive value: 96%\nSpecificity of 70.5%\n7 out of the 184 (3.8%) were incorrectly discharged",
+      "subsections": {
+        "Kaji_ALTE_Decision_Rule": {
+          "text": "832 patients from 4 different study sites, with a 79.2% admission rate\nPredictors for requiring admission\nObvious need for admission:\nSupplemental Oxygen\nrequirement\nResuscitation\nHemodynamic Instability\nPositive\nRSV\nor\nPertussis\ntest\nSignificant past medical history\nCongenital heart disease\nDown syndrome\nPrevious\nintubation\nChromosomal abnormality\nChronic lung disease (e.g.\nbronchopulmonary dysplasia\n)\n> 1 BRUE in 24 hours\nNegative predictive value of 96.5%\nSensitivity of 89% , a Specificity of 61.9% , and a calculated\n14 (2%) patients were incorrectly discharged",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Supplemental Oxygen",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hemodynamic Instability",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Down syndrome",
+          "url": "https://wikem.org/wiki/Down_syndrome"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        }
+      ]
+    },
+    "Kaji_ALTE_Decision_Rule": {
+      "text": "832 patients from 4 different study sites, with a 79.2% admission rate\nPredictors for requiring admission\nObvious need for admission:\nSupplemental Oxygen\nrequirement\nResuscitation\nHemodynamic Instability\nPositive\nRSV\nor\nPertussis\ntest\nSignificant past medical history\nCongenital heart disease\nDown syndrome\nPrevious\nintubation\nChromosomal abnormality\nChronic lung disease (e.g.\nbronchopulmonary dysplasia\n)\n> 1 BRUE in 24 hours\nNegative predictive value of 96.5%\nSensitivity of 89% , a Specificity of 61.9% , and a calculated\n14 (2%) patients were incorrectly discharged",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Supplemental Oxygen",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hemodynamic Instability",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Down syndrome",
+          "url": "https://wikem.org/wiki/Down_syndrome"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Neonatal resuscitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neonatal resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_resuscitation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Brue - Don't forget the bubbles\nSGEM Xtra: Strange Brue from The Sketics' Guide to EM",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "drug_name": "Brash_syndrome",
+  "url": "https://wikem.org/wiki/Brash_syndrome",
+  "scraped_at": "2026-01-10T07:49:13.057050",
+  "sections": {
+    "Background": {
+      "text": "Combination of:\nBradycardia\nRenal failure\nAV node blocker:\nbeta-blocker\n,\nverapamil\nor\ndiltiazem\n- typically adherent with medication but an overdose\nShock\nHyperkalemia\nVicious cycle: in setting of medications, hyperkalemia, renal failure\nOften initiated by an episode of hypovolemia, hypoperfusion, or uptitration of antihypertensives or K sparing diuretics\nRenal failure causes hyperkalemia (+/- accumulation of AV node blockers), hyperkalemia synergizes with AV node blockers to cause bradycardia and hypoperfusion, hypoperfusion worsens renal failure\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "beta-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker"
+        },
+        {
+          "text": "verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Asymptomatic or symptomatic\nbradycardia\nTypically appear more well than vitals/labs suggest\nMultisystem organ failure (\nshock\n,\npulmonary edema\n,\nrenal failure\n, shock liver)\nAltered mental status",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Symptomatic_bradycardia": {
+          "text": "Cardiac\nInferior\nMI\n(involving RCA)\nSick sinus syndrome\nNeurocardiogenic/reflex-mediated\nIncreased ICP\nVasovagal reflex\nHypersensitive carotid sinus syndrome\nIntra-abdominal hemorrhage (i.e. ruptured\nectopic\n)\nMetabolic/endocrine/environmental\nHyperkalemia\nHypothermia\n(Osborn waves on ECG)\nHypothyroidism\nMyxedema coma\nHypoglycemia\n(neonates)\nToxicologic\nB-blocker\nCa-channel blocker\nClonidine\nDigoxin toxicity\nEthanol\nOpioids\nOrganophosphates\nXylazine toxicity\nInfectious/Postinfectious\nChagas disease\nLyme disease\nSyphilis\nOther\nBrash syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Ca-channel blocker",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Chagas disease",
+          "url": "https://wikem.org/wiki/Chagas_disease"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Symptomatic_bradycardia": {
+      "text": "Cardiac\nInferior\nMI\n(involving RCA)\nSick sinus syndrome\nNeurocardiogenic/reflex-mediated\nIncreased ICP\nVasovagal reflex\nHypersensitive carotid sinus syndrome\nIntra-abdominal hemorrhage (i.e. ruptured\nectopic\n)\nMetabolic/endocrine/environmental\nHyperkalemia\nHypothermia\n(Osborn waves on ECG)\nHypothyroidism\nMyxedema coma\nHypoglycemia\n(neonates)\nToxicologic\nB-blocker\nCa-channel blocker\nClonidine\nDigoxin toxicity\nEthanol\nOpioids\nOrganophosphates\nXylazine toxicity\nInfectious/Postinfectious\nChagas disease\nLyme disease\nSyphilis\nOther\nBrash syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Ca-channel blocker",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Chagas disease",
+          "url": "https://wikem.org/wiki/Chagas_disease"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "May have only mild hyperkalemia, with bradycardia out of proportion to degree of hyperK\nEKG\n: may mot have typical findings of hyperkalemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Hyperkalemia\ntreatment (e.g. IV\ninsulin\n/\ndextrose\n,\nalbuterol\n, IV calcium, kaliuresis or dialysis)\nIVF\nresuscitation for hypovolemia\nCatecholamines (e.g.\nepinepherine\n) for persistent bradycardia/shock\nConsider\nisoproterenol\nTargeted treatments for beta-blocker or CCB overdose not helpful\nMay not respond well to\natropine\nor transcutaneous pacing\nAggressive early diuresis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "epinepherine",
+          "url": "https://wikem.org/wiki/Epinepherine"
+        },
+        {
+          "text": "isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit, typically to ICU setting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Renal failure\nPure\nhyperkalemia\nPure AV node blocker intoxication (e.g.\ncalcium channel blocker toxicity\n,\nbeta-blocker toxicity\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "calcium channel blocker toxicity",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "beta-blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMCrit - BRASH Syndrome: Bradycardia, Renal Failure, AV Blocker, Shock, Hyperkalemia\nLITFL - BRASH Syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

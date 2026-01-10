@@ -1,0 +1,97 @@
+{
+  "drug_name": "Bosentan",
+  "url": "https://wikem.org/wiki/Bosentan",
+  "scraped_at": "2026-01-10T07:49:05.637517",
+  "sections": {
+    "Administration": {
+      "text": "Type: Endothelin receptor antagonists\nDosage Forms: tablet, tablet for oral suspension\nDosage Strengths: tablet: 62.5, 125 mg; tablet for oral suspension: 32mg\nRoutes of Administration: PO\nCommon Trade Names: Tracleer",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "62.5-125mg PO BID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: X\nLactation risk: Infant risk cannot be ruled out\nRenal dosing:\nHepatic dosing: avoid in moderate-severe disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nConcomitant administration with cyclosporine A or glyburide\nPregnancy or potential pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anemia\nCirrhosis, liver failure\nOligozoospermia\nEdema, fluid retention",
+          "tables": []
+        },
+        "Common": {
+          "text": "Anemia\nRespiratory tract infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Anemia\nCirrhosis, liver failure\nOligozoospermia\nEdema, fluid retention",
+      "subsections": {
+        "Common": {
+          "text": "Anemia\nRespiratory tract infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Anemia\nRespiratory tract infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5h\nMetabolism: Hepatic: via CYP3A4 and CYP2C9\nExcretion: Biliary, renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Dual endothelin receptor antagonist, inhibits vasoconstriction → vasodilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pulmonary hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        }
+      ]
+    }
+  }
+}

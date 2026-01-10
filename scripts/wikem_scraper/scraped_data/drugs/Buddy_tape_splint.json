@@ -1,0 +1,59 @@
+{
+  "drug_name": "Buddy_tape_splint",
+  "url": "https://wikem.org/wiki/Buddy_tape_splint",
+  "scraped_at": "2026-01-10T07:49:20.748158",
+  "sections": {
+    "Background": {
+      "text": "Utilize adjacent digits to stabilize fractured digit and maintain anatomically functional position during healing\nShould remain in place until patient can move digit through full range of motion without pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indication": {
+      "text": "Finger sprain, particularly of the proximal interphalangeal (PIP) joint.\nStable, non-displaced, minor\nfinger\nand\ntoe fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "finger",
+          "url": "https://wikem.org/wiki/Finger_(phalanx)_fracture"
+        },
+        {
+          "text": "toe fractures",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Assess distal pulse, motor, and sensation\nPlace soft padding such as gauze between digits (optional)\nUsing tape, secure fractured digit to adjacent digit, preferably at multiple points\nReassess pulse, motor, and sensation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Skin necrosis\nLoss of fixation\nLimited joint motion\nInfection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Splinting\nFinger splint\nHand and finger fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        },
+        {
+          "text": "Finger splint",
+          "url": "https://wikem.org/wiki/Finger_splint"
+        },
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        }
+      ]
+    }
+  }
+}

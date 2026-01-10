@@ -1,0 +1,190 @@
+{
+  "drug_name": "Brain_natriuretic_peptide",
+  "url": "https://wikem.org/wiki/Brain_natriuretic_peptide",
+  "scraped_at": "2026-01-10T07:49:11.505487",
+  "sections": {
+    "Background": {
+      "text": "Biologically active metabolite of proBNP (released from ventricles in response to increased volume/pressure)\nUtility is controversial and may not affect patient centered outcomes\n[1]\nMay be trended to gauge treatment response in acute decompensated CHF\nMay have false negative with isolated diastolic dysfunction\nN-terminal proBNP is a biologically inert metabolite of proBNP",
+      "subsections": {
+        "Indications_for_Use": {
+          "text": "American College of Cardiology, American Heart Association, Heart Failure Society of America guidelines as of May 2017\n[2]\nBNP should be measured in patients presenting with dyspnea to help diagnose or exclude heart failure\nBNP or nt-pro-BNP should be measured to determine prognosis or disease severity in chronic heart failure\nBaseline BNP, cardiac troponin, or both should be measured upon hospital admission to determine prognosis in patients with acutely decompensated heart failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Indications_for_Use": {
+      "text": "American College of Cardiology, American Heart Association, Heart Failure Society of America guidelines as of May 2017\n[2]\nBNP should be measured in patients presenting with dyspnea to help diagnose or exclude heart failure\nBNP or nt-pro-BNP should be measured to determine prognosis or disease severity in chronic heart failure\nBaseline BNP, cardiac troponin, or both should be measured upon hospital admission to determine prognosis in patients with acutely decompensated heart failure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Interpretation": {
+      "text": "",
+      "subsections": {
+        "Brain_natriuretic_peptide_(BNP)": {
+          "text": "Measurement\n<100 pg/mL\n: Negative for acute CHF (Sn 90%, NPV 89%)\n100-500 pg/mL\n: Indeterminate (Consider differential diagnosis and pre-test probability)\n>500 pg/mL\n: Positive for acute CHF (Sp 87%, PPV 90%)\nCombination of BNP with clinician judgment 94% sensitive 70% specific (compared to 49% sn and 96% spec clinical judgement alone)\n[4]",
+          "tables": []
+        },
+        "NT-proBNP[5][6]": {
+          "text": "<300 pg/mL →\nCHF\nunlikely\nCHF\nlikely in:\n>450 pg/mL\nin age < 50 years old\n>900 pg/mL\nin 50-75 years old\n>1800 pg/mL\nin > 75 years old",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Special_Patient_Populations": {
+      "text": "",
+      "subsections": {
+        "BNP_In_Obese_Patients": {
+          "text": "Visceral fat expansion leads to increased clearance of active natriuretic peptides\n[8]\nObese patients also frequently treated for hypertension or coronary artery disease which may also contribute to lower BNP levels",
+          "tables": []
+        },
+        "Interpretation_2": {
+          "text": "In one study of 204 patients with acute CHF, an inverse relationship between BMI and BNP was noted. The standard cutoff of 100pg/mL resulted in a 20% false-negative rate\n[9]\nAnalysis of a subgroup of patients with documented BMI from the Breathing Not Properly study showed that a lower cutoff was more appropriate to maintain 90% sensitivity in obese and morbidly obese patients (54pg/mL)\n[10]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "BNP_In_Obese_Patients": {
+      "text": "Visceral fat expansion leads to increased clearance of active natriuretic peptides\n[8]\nObese patients also frequently treated for hypertension or coronary artery disease which may also contribute to lower BNP levels",
+      "subsections": {
+        "Interpretation_2": {
+          "text": "In one study of 204 patients with acute CHF, an inverse relationship between BMI and BNP was noted. The standard cutoff of 100pg/mL resulted in a 20% false-negative rate\n[9]\nAnalysis of a subgroup of patients with documented BMI from the Breathing Not Properly study showed that a lower cutoff was more appropriate to maintain 90% sensitivity in obese and morbidly obese patients (54pg/mL)\n[10]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Elevated_BNP": {
+          "text": "CHF\n/\nACS\n/\nCardiogenic shock\nPulmonary embolism\nPulmonary hypertension\nRenal failure\nLeft ventricular hypertrophy\nSepsis\n[11]\nSubarachnoid hemorrhage\nLiver cirrhosis\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Liver cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        }
+      ]
+    },
+    "Elevated_BNP": {
+      "text": "CHF\n/\nACS\n/\nCardiogenic shock\nPulmonary embolism\nPulmonary hypertension\nRenal failure\nLeft ventricular hypertrophy\nSepsis\n[11]\nSubarachnoid hemorrhage\nLiver cirrhosis\n[12]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Liver cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Congestive heart failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast: Big Labs, Little People\nhttp://lifeinthefastlane.com/ccc/brain-natriuretic-peptide-bnp/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
