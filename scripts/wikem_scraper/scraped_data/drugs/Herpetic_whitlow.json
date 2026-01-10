@@ -1,0 +1,312 @@
+{
+  "drug_name": "Herpetic_whitlow",
+  "url": "https://wikem.org/wiki/Herpetic_whitlow",
+  "scraped_at": "2026-01-10T07:54:46.592206",
+  "sections": {
+    "Background": {
+      "text": "HSV\ninfection of distal finger\n[1]\nUsually occurs from contact with oral herpes, or autoinoculation from genital herpes\nIncubation period of 2-20 days, with possible prodrome of fever or malaise\n60% due to HSV-1, 40% due to HSV-2",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Same burning, pruritic sensation as from other herpes infections\nVesicular bullae\nFinger may be indurated and tender (but should not be tense, as in a felon)\nRash develops over 7-10 days, with possible ulceration and rupture\nSymptoms improve, crust over, and heal after 10-14 days with viral shedding terminating at this point\nComplete resolution by 15-21 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        },
+        "Herpes_Simplex_Virus-1": {
+          "text": "Eczema herpeticum\nHerpes gingivostomatitis\nHerpes keratitis\nHerpes labialis\n(cold sore)\nHerpes simplex encephalitis\nHerpetic whitlow",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        },
+        {
+          "text": "Eczema herpeticum",
+          "url": "https://wikem.org/wiki/Eczema_herpeticum"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes keratitis",
+          "url": "https://wikem.org/wiki/Herpes_keratitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Herpes simplex encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Hand_and_finger_infections": {
+      "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+      "subsections": {
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        },
+        "Herpes_Simplex_Virus-1": {
+          "text": "Eczema herpeticum\nHerpes gingivostomatitis\nHerpes keratitis\nHerpes labialis\n(cold sore)\nHerpes simplex encephalitis\nHerpetic whitlow",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        },
+        {
+          "text": "Eczema herpeticum",
+          "url": "https://wikem.org/wiki/Eczema_herpeticum"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes keratitis",
+          "url": "https://wikem.org/wiki/Herpes_keratitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Herpes simplex encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Herpes_Simplex_Virus-1": {
+      "text": "Eczema herpeticum\nHerpes gingivostomatitis\nHerpes keratitis\nHerpes labialis\n(cold sore)\nHerpes simplex encephalitis\nHerpetic whitlow",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Eczema herpeticum",
+          "url": "https://wikem.org/wiki/Eczema_herpeticum"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Herpes keratitis",
+          "url": "https://wikem.org/wiki/Herpes_keratitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Herpes simplex encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis, based on history and physical exam\nAvailable laboratory studies (not required for diagnosis)\n[2]\n:\nViral culture (gold standard)\nDirect immunofluorescence\nTzanck smear (poor specificity)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Immobilization, elevation,\nanalgesia",
+      "subsections": {
+        "Antivirals": {
+          "text": "Antivirals such as\nAcyclovir\nor\nValacyclovir\nmay shorten duration of infection\n[3]\nTopical\nacyclovir\n5% shortens duration and viral shedding in primary infection\n[3]\nOral\nacyclovir\ndosing - 800mg BID initiated during prodrome may prevent recurrence",
+          "tables": []
+        },
+        "Secondary_Prevention": {
+          "text": "Application of clean dressings to involved digits is important to prevent autoinoculation or spread to other individuals",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        }
+      ]
+    },
+    "Antivirals": {
+      "text": "Antivirals such as\nAcyclovir\nor\nValacyclovir\nmay shorten duration of infection\n[3]\nTopical\nacyclovir\n5% shortens duration and viral shedding in primary infection\n[3]\nOral\nacyclovir\ndosing - 800mg BID initiated during prodrome may prevent recurrence",
+      "subsections": {
+        "Secondary_Prevention": {
+          "text": "Application of clean dressings to involved digits is important to prevent autoinoculation or spread to other individuals",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        }
+      ]
+    },
+    "Secondary_Prevention": {
+      "text": "Application of clean dressings to involved digits is important to prevent autoinoculation or spread to other individuals",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient managment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger infections\nHerpesvirus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpesvirus"
+        }
+      ]
+    }
+  }
+}

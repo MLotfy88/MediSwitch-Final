@@ -1,0 +1,237 @@
+{
+  "drug_name": "High_altitude_pharyngitis_and_bronchitis",
+  "url": "https://wikem.org/wiki/High_altitude_pharyngitis_and_bronchitis",
+  "scraped_at": "2026-01-10T07:54:47.618627",
+  "sections": {
+    "Background": {
+      "text": "One of the most common conditions at high altitude\n[1]\nPossibly due to hyperventilation of altitude, dry & cold air of altitude",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Dry, hacking\ncough\nis common at > 8000ft (~2500m)\nPurulent\nbronchitis\n/painful\npharyngitis\ncommon with prolonged periods at extreme altitude\nSevere coughing spasms can result in cough\nfracture of ribs\nMay be confused with\nHAPE",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "fracture of ribs",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "HAPE",
+          "url": "https://wikem.org/wiki/HAPE"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "High_Altitude_Illnesses": {
+          "text": "Acute mountain sickness\nChronic mountain sickness\nHigh altitude cerebral edema\nHigh altitude pulmonary edema\nHigh altitude peripheral edema\nHigh altitude retinopathy\nHigh altitude pharyngitis and bronchitis\nUltraviolet keratitis\nPneumonia\nViral etiology\nCHF\nCOPD\nPneumonitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute mountain sickness",
+          "url": "https://wikem.org/wiki/Acute_mountain_sickness"
+        },
+        {
+          "text": "Chronic mountain sickness",
+          "url": "https://wikem.org/wiki/Chronic_mountain_sickness"
+        },
+        {
+          "text": "High altitude cerebral edema",
+          "url": "https://wikem.org/wiki/High_altitude_cerebral_edema"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "High altitude peripheral edema",
+          "url": "https://wikem.org/wiki/High_altitude_peripheral_edema"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        }
+      ]
+    },
+    "High_Altitude_Illnesses": {
+      "text": "Acute mountain sickness\nChronic mountain sickness\nHigh altitude cerebral edema\nHigh altitude pulmonary edema\nHigh altitude peripheral edema\nHigh altitude retinopathy\nHigh altitude pharyngitis and bronchitis\nUltraviolet keratitis\nPneumonia\nViral etiology\nCHF\nCOPD\nPneumonitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute mountain sickness",
+          "url": "https://wikem.org/wiki/Acute_mountain_sickness"
+        },
+        {
+          "text": "Chronic mountain sickness",
+          "url": "https://wikem.org/wiki/Chronic_mountain_sickness"
+        },
+        {
+          "text": "High altitude cerebral edema",
+          "url": "https://wikem.org/wiki/High_altitude_cerebral_edema"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "High altitude peripheral edema",
+          "url": "https://wikem.org/wiki/High_altitude_peripheral_edema"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis after exclusion of other etiologies (e.g. infection)\nRule out\nHAPE",
+      "subsections": {
+        "Expected_SpO2_and_PaO2_levels_at_altitude": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Altitude": "1,500 to 3,500 m (4,900 to 11,500 ft)",
+                "SpO2": "about 90%",
+                "PaO2(mm Hg)": "55-75"
+              },
+              {
+                "Altitude": "3,500 to 5,500 m (11,500 to 18,000 ft)",
+                "SpO2": "75-85%",
+                "PaO2(mm Hg)": "40-60"
+              },
+              {
+                "Altitude": "5,500 to 8,850 m (18,000 to 29,000 ft)",
+                "SpO2": "58-75%",
+                "PaO2(mm Hg)": "28-40"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HAPE",
+          "url": "https://wikem.org/wiki/HAPE"
+        }
+      ]
+    },
+    "Expected_SpO2_and_PaO2_levels_at_altitude": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Altitude": "1,500 to 3,500 m (4,900 to 11,500 ft)",
+            "SpO2": "about 90%",
+            "PaO2(mm Hg)": "55-75"
+          },
+          {
+            "Altitude": "3,500 to 5,500 m (11,500 to 18,000 ft)",
+            "SpO2": "75-85%",
+            "PaO2(mm Hg)": "40-60"
+          },
+          {
+            "Altitude": "5,500 to 8,850 m (18,000 to 29,000 ft)",
+            "SpO2": "58-75%",
+            "PaO2(mm Hg)": "28-40"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Symptomatic treatment\nAlbuterol\nBreathing steam, wearing a face mask, sucking on hard candies, forcing hydration\nAntibiotics\nare NOT helpful",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally treated as an outpatient as long as alternative etiologies are excluded",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "High Altitude Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "High Altitude Medicine",
+          "url": "https://wikem.org/wiki/High_Altitude_Medicine"
+        }
+      ]
+    }
+  }
+}

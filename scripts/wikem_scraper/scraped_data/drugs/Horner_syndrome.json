@@ -1,0 +1,112 @@
+{
+  "drug_name": "Horner_syndrome",
+  "url": "https://wikem.org/wiki/Horner_syndrome",
+  "scraped_at": "2026-01-10T07:54:51.378486",
+  "sections": {
+    "Background": {
+      "text": "Involves lesion anywhere along the sympathetic tract:\nCentral (Hypothalamus, brainstem, spinal cord)\nPreganglionic (Pulmonary apex)\nPostganglionic (Superior cervical ganglion, ICA, skull base, cavernous sinus)",
+      "subsections": {
+        "Causes": {
+          "text": "Adults\nCVA\nBrain tumor\n, lung mass\nICA dissection\nZoster\nTrauma\nPeds\nNeuroblastoma\nLymphoma\nMets",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "ICA dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Zoster",
+          "url": "https://wikem.org/wiki/Zoster"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Neuroblastoma",
+          "url": "https://wikem.org/wiki/Neuroblastoma_(peds)"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Adults\nCVA\nBrain tumor\n, lung mass\nICA dissection\nZoster\nTrauma\nPeds\nNeuroblastoma\nLymphoma\nMets",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "ICA dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Zoster",
+          "url": "https://wikem.org/wiki/Zoster"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Neuroblastoma",
+          "url": "https://wikem.org/wiki/Neuroblastoma_(peds)"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Ipsilateral ptosis, miosis, anhidrosis\nNeck pain\nsuggest\ncarotid artery dissection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CXR\nCT brain\nCT Angiography head and neck, MRI, or MRA if concern for carotid artery dissection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "CT brain",
+          "url": "https://wikem.org/wiki/CT_brain"
+        }
+      ]
+    }
+  }
+}

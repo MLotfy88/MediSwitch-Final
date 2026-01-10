@@ -1,0 +1,53 @@
+{
+  "drug_name": "High_dose_insulin_therapy",
+  "url": "https://wikem.org/wiki/High_dose_insulin_therapy",
+  "scraped_at": "2026-01-10T07:54:44.552283",
+  "sections": {
+    "Background": {
+      "text": "Used in\nβ-blocker\nand\ncalcium channel blocker toxicity\nResponse is delayed for 30 to 60 minutes\nRecommend simultaneous implementation of other therapies to support the patient's pulse and blood pressure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "β-blocker",
+          "url": "https://wikem.org/wiki/%CE%92-blocker_toxicity"
+        },
+        {
+          "text": "calcium channel blocker toxicity",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        }
+      ]
+    },
+    "Dosing": {
+      "text": "Hypoglycemia and hypokalemia must be corrected prior to initiating HDI\nIf glucose <150mg/dl, give 50mL of D50W\nPeds: 0.25g/kg, usually given as 2.5mL/kg of D10\nIf potassium 3mEq/L, give 20meq of potassium IV\nHigh-dose insulin therapy\nBolus of 1 unit/kg of regular, short-acting insulin IV\nthen 0.5 units/kg per hour IV, uptitrate until hypotension is corrected (max 10 units/kg per hour)\nMaintain euglycemia by infusion of D5 or D10\nInitial rate 0.5 to 1g of dextrose/kg/hr\nCheck POC glucose q15-30 minutes until stable glucose concentration, then check q1hour\nCheck serum potassium q 30 minutes until stable, then q 1-2 hours, replete as necessary\nRepletion of magnesium may also be needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Mechanism not fully understood\nThought to optimize use of carbohydrates for fuel by cardiac myocytes and modulate intracellular calcium\nImproves cardiac output by increasing stroke volume",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Beta blocker toxicity\nCalcium channel blocker toxicity\nLipid emulsion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "Calcium channel blocker toxicity",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "Lipid emulsion",
+          "url": "https://wikem.org/wiki/Lipid_emulsion"
+        }
+      ]
+    }
+  }
+}

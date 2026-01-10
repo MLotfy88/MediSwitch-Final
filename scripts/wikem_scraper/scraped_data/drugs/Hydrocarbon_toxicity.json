@@ -1,0 +1,962 @@
+{
+  "drug_name": "Hydrocarbon_toxicity",
+  "url": "https://wikem.org/wiki/Hydrocarbon_toxicity",
+  "scraped_at": "2026-01-10T07:54:55.360825",
+  "sections": {
+    "Background": {
+      "text": "Typical exposures:\nUnintentional exposure (generally young children)\nIntentional abuse (generally adolescents, young adults)\nOccupational exposure - dermal, inhalation\nIntentional abuse methods:\nHuffing\n= hydrocarbon soaked into rag and placed over mouth and nose\nBagging\n= hydrocarbon placed in a bag and fumes inhaled\nSniffing\n= hydrocarbon inhaled directly\nHigh volatility, low viscosity → high risk for aspiration despite \"simple ingestion\"\nEasily washes out pulmonary surfactant if aspirated",
+      "subsections": {
+        "Examples": {
+          "text": "Gasoline\nLighter fluid\nLamp oil\nPetroleum jelly (Vaseline)\nPaint\nPaint thinners\nPolish\nToluene",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Examples": {
+      "text": "Gasoline\nLighter fluid\nLamp oil\nPetroleum jelly (Vaseline)\nPaint\nPaint thinners\nPolish\nToluene",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Pulmonary": {
+          "text": "Aspiration\nLow viscosity and surface tension of hydrocarbons make them high aspiration risk\nAdditional risk factors: high volume, vomiting, gagging, choking, coughing\nCXR\non presentation nonpredictive, but usually appear by 6hrs\nARDS",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Arrhythmias\n,\nAfib\n, PVCs,\nVtach\n,\ntorsades\n\"Sudden sniffing death syndrome\"= suspected cardiac sensitization to catecholamines\nClassic scenario: Sniffer is startled during use, collapses and dies",
+          "tables": []
+        },
+        "CNS/PNS_": {
+          "text": "Stage 1:\nheadache\n,\ndizziness\n,\nnausea\n, tinnitus\nStage 2: Slurred speech, confusion,\nhallucinations\n,\ndiplopia\n,\nataxia\nStage 3: Obtundation,\nseizure\n, death",
+          "tables": []
+        },
+        "Renal": {
+          "text": "Toluene in particular may cause weakness secondary to severe\nhypokalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "Vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        }
+      ]
+    },
+    "Pulmonary": {
+      "text": "Aspiration\nLow viscosity and surface tension of hydrocarbons make them high aspiration risk\nAdditional risk factors: high volume, vomiting, gagging, choking, coughing\nCXR\non presentation nonpredictive, but usually appear by 6hrs\nARDS",
+      "subsections": {
+        "Cardiac": {
+          "text": "Arrhythmias\n,\nAfib\n, PVCs,\nVtach\n,\ntorsades\n\"Sudden sniffing death syndrome\"= suspected cardiac sensitization to catecholamines\nClassic scenario: Sniffer is startled during use, collapses and dies",
+          "tables": []
+        },
+        "CNS/PNS_": {
+          "text": "Stage 1:\nheadache\n,\ndizziness\n,\nnausea\n, tinnitus\nStage 2: Slurred speech, confusion,\nhallucinations\n,\ndiplopia\n,\nataxia\nStage 3: Obtundation,\nseizure\n, death",
+          "tables": []
+        },
+        "Renal": {
+          "text": "Toluene in particular may cause weakness secondary to severe\nhypokalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "Vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        }
+      ]
+    },
+    "Cardiac": {
+      "text": "Arrhythmias\n,\nAfib\n, PVCs,\nVtach\n,\ntorsades\n\"Sudden sniffing death syndrome\"= suspected cardiac sensitization to catecholamines\nClassic scenario: Sniffer is startled during use, collapses and dies",
+      "subsections": {
+        "CNS/PNS_": {
+          "text": "Stage 1:\nheadache\n,\ndizziness\n,\nnausea\n, tinnitus\nStage 2: Slurred speech, confusion,\nhallucinations\n,\ndiplopia\n,\nataxia\nStage 3: Obtundation,\nseizure\n, death",
+          "tables": []
+        },
+        "Renal": {
+          "text": "Toluene in particular may cause weakness secondary to severe\nhypokalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "Vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        }
+      ]
+    },
+    "CNS/PNS_": {
+      "text": "Stage 1:\nheadache\n,\ndizziness\n,\nnausea\n, tinnitus\nStage 2: Slurred speech, confusion,\nhallucinations\n,\ndiplopia\n,\nataxia\nStage 3: Obtundation,\nseizure\n, death",
+      "subsections": {
+        "Renal": {
+          "text": "Toluene in particular may cause weakness secondary to severe\nhypokalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        }
+      ]
+    },
+    "Renal": {
+      "text": "Toluene in particular may cause weakness secondary to severe\nhypokalemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Drugs_of_abuse": {
+          "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+          "tables": []
+        },
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Drugs_of_abuse": {
+      "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+      "subsections": {
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Toxic_gas_exposure": {
+      "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CXR\n: immediately if symptomatic, otherwise early CXR not predictive of pneumonitis. Observe for 4-6hrs then obtain CXR\nLabs: as needed to evaluate for acidosis, anemia, renal/hepatic toxicity, coagulation, methemoglobinemia, carboxyhemoglobinemia depending on specific exposure\nECG",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Clinical diagnosis, based on history and physical exam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CXR\n: immediately if symptomatic, otherwise early CXR not predictive of pneumonitis. Observe for 4-6hrs then obtain CXR\nLabs: as needed to evaluate for acidosis, anemia, renal/hepatic toxicity, coagulation, methemoglobinemia, carboxyhemoglobinemia depending on specific exposure\nECG",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Clinical diagnosis, based on history and physical exam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Clinical diagnosis, based on history and physical exam",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Pulmonary_2": {
+          "text": "Secure airway, if needed.\nBeta2 agonist if wheezing (not proven benefit), consider\nBiPAP\n/\nCPAP\n(may further barotrauma)\nSevere toxicity will need\nintubation\n, high PEEP, possibly high frequency jet ventilation, and ECMO for refractory hypoxemia\nAntibiotic prophylaxis show no benefit, but use if superinfection present\nSteroids not recommended  for chemical pneumonitis and can lead to increased superinfection",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Treat hypotension with aggressive\nIVF\nAvoid\ndopamine\n,\nepinephrine\n,\nnorepinephrine\n(may cause\ndysrhythmias\n),\nprocainamide\n(may cause\narrhythmias\n), and\namiodarone\n(\nQT prolongation\n)\nTreat ventricular dysrhythmias with\npropranolol\n,\nesmolol\n, or\nlidocaine\nDue to overstimulation of beta receptors by hydrocarbon",
+          "tables": []
+        },
+        "Dermal": {
+          "text": "Pre-arrival decontamination, remove clothing\nSoap and water, saline for eye exposure",
+          "tables": []
+        },
+        "GI": {
+          "text": "GI decontamination\ncontroversial\nMajority do not benefit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "BiPAP",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "GI decontamination",
+          "url": "https://wikem.org/wiki/GI_decontamination"
+        }
+      ]
+    },
+    "Pulmonary_2": {
+      "text": "Secure airway, if needed.\nBeta2 agonist if wheezing (not proven benefit), consider\nBiPAP\n/\nCPAP\n(may further barotrauma)\nSevere toxicity will need\nintubation\n, high PEEP, possibly high frequency jet ventilation, and ECMO for refractory hypoxemia\nAntibiotic prophylaxis show no benefit, but use if superinfection present\nSteroids not recommended  for chemical pneumonitis and can lead to increased superinfection",
+      "subsections": {
+        "Cardiovascular": {
+          "text": "Treat hypotension with aggressive\nIVF\nAvoid\ndopamine\n,\nepinephrine\n,\nnorepinephrine\n(may cause\ndysrhythmias\n),\nprocainamide\n(may cause\narrhythmias\n), and\namiodarone\n(\nQT prolongation\n)\nTreat ventricular dysrhythmias with\npropranolol\n,\nesmolol\n, or\nlidocaine\nDue to overstimulation of beta receptors by hydrocarbon",
+          "tables": []
+        },
+        "Dermal": {
+          "text": "Pre-arrival decontamination, remove clothing\nSoap and water, saline for eye exposure",
+          "tables": []
+        },
+        "GI": {
+          "text": "GI decontamination\ncontroversial\nMajority do not benefit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "BiPAP",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "GI decontamination",
+          "url": "https://wikem.org/wiki/GI_decontamination"
+        }
+      ]
+    },
+    "Cardiovascular": {
+      "text": "Treat hypotension with aggressive\nIVF\nAvoid\ndopamine\n,\nepinephrine\n,\nnorepinephrine\n(may cause\ndysrhythmias\n),\nprocainamide\n(may cause\narrhythmias\n), and\namiodarone\n(\nQT prolongation\n)\nTreat ventricular dysrhythmias with\npropranolol\n,\nesmolol\n, or\nlidocaine\nDue to overstimulation of beta receptors by hydrocarbon",
+      "subsections": {
+        "Dermal": {
+          "text": "Pre-arrival decontamination, remove clothing\nSoap and water, saline for eye exposure",
+          "tables": []
+        },
+        "GI": {
+          "text": "GI decontamination\ncontroversial\nMajority do not benefit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "GI decontamination",
+          "url": "https://wikem.org/wiki/GI_decontamination"
+        }
+      ]
+    },
+    "Dermal": {
+      "text": "Pre-arrival decontamination, remove clothing\nSoap and water, saline for eye exposure",
+      "subsections": {
+        "GI": {
+          "text": "GI decontamination\ncontroversial\nMajority do not benefit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GI decontamination",
+          "url": "https://wikem.org/wiki/GI_decontamination"
+        }
+      ]
+    },
+    "GI": {
+      "text": "GI decontamination\ncontroversial\nMajority do not benefit",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GI decontamination",
+          "url": "https://wikem.org/wiki/GI_decontamination"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Discharge": {
+          "text": "After 6 hour observation if:\nAsymptomatic\nNormal vital signs (including SpO2)\nNo abnormal pulmonary findings\nNormal CXR at 6hrs post exposure\nIf asymptomatic but radiographic evidence of pneumonitis, consider discharge with 24-hour follow-up.",
+          "tables": []
+        },
+        "Admit": {
+          "text": "Clinical evidence of toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "After 6 hour observation if:\nAsymptomatic\nNormal vital signs (including SpO2)\nNo abnormal pulmonary findings\nNormal CXR at 6hrs post exposure\nIf asymptomatic but radiographic evidence of pneumonitis, consider discharge with 24-hour follow-up.",
+      "subsections": {
+        "Admit": {
+          "text": "Clinical evidence of toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admit": {
+      "text": "Clinical evidence of toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (Main)\nInhalants",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Inhalants",
+          "url": "https://wikem.org/wiki/Inhalants"
+        }
+      ]
+    }
+  }
+}

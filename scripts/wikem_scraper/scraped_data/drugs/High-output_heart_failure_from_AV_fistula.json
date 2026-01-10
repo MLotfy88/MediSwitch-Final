@@ -1,0 +1,205 @@
+{
+  "drug_name": "High-output_heart_failure_from_AV_fistula",
+  "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula",
+  "scraped_at": "2026-01-10T07:54:46.762040",
+  "sections": {
+    "Background": {
+      "text": "High-output heart failure\nthat occurs when >20% of cardiac output is diverted through the dialysis access",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "High-output heart failure",
+          "url": "https://wikem.org/wiki/High-output_heart_failure"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Branham sign (drop in HR after temporary access occlusion) is diagnostic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "AV_Fistula_Complications": {
+          "text": "Clotting of AV fistula\nInfection of AV fistula\nHemorrhage of AV fistula\nVascular insufficiency from AV fistula\nAV fistula aneurysm/pseudoaneurysm\nHigh-output heart failure from AV fistula",
+          "tables": []
+        },
+        "High-output_heart_failure": {
+          "text": "Hyperthyroidism\nBeriberi\nHigh-output heart failure from AV fistula\nAVM\nPaget disease\nAnemia\nPregnancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotting of AV fistula",
+          "url": "https://wikem.org/wiki/Clotting_of_AV_fistula"
+        },
+        {
+          "text": "Infection of AV fistula",
+          "url": "https://wikem.org/wiki/Infection_of_AV_fistula"
+        },
+        {
+          "text": "Hemorrhage of AV fistula",
+          "url": "https://wikem.org/wiki/Hemorrhage_of_AV_fistula"
+        },
+        {
+          "text": "Vascular insufficiency from AV fistula",
+          "url": "https://wikem.org/wiki/Vascular_insufficiency_from_AV_fistula"
+        },
+        {
+          "text": "AV fistula aneurysm/pseudoaneurysm",
+          "url": "https://wikem.org/wiki/AV_fistula_aneurysm/pseudoaneurysm"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget_disease"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "AV_Fistula_Complications": {
+      "text": "Clotting of AV fistula\nInfection of AV fistula\nHemorrhage of AV fistula\nVascular insufficiency from AV fistula\nAV fistula aneurysm/pseudoaneurysm\nHigh-output heart failure from AV fistula",
+      "subsections": {
+        "High-output_heart_failure": {
+          "text": "Hyperthyroidism\nBeriberi\nHigh-output heart failure from AV fistula\nAVM\nPaget disease\nAnemia\nPregnancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotting of AV fistula",
+          "url": "https://wikem.org/wiki/Clotting_of_AV_fistula"
+        },
+        {
+          "text": "Infection of AV fistula",
+          "url": "https://wikem.org/wiki/Infection_of_AV_fistula"
+        },
+        {
+          "text": "Hemorrhage of AV fistula",
+          "url": "https://wikem.org/wiki/Hemorrhage_of_AV_fistula"
+        },
+        {
+          "text": "Vascular insufficiency from AV fistula",
+          "url": "https://wikem.org/wiki/Vascular_insufficiency_from_AV_fistula"
+        },
+        {
+          "text": "AV fistula aneurysm/pseudoaneurysm",
+          "url": "https://wikem.org/wiki/AV_fistula_aneurysm/pseudoaneurysm"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget_disease"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "High-output_heart_failure": {
+      "text": "Hyperthyroidism\nBeriberi\nHigh-output heart failure from AV fistula\nAVM\nPaget disease\nAnemia\nPregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget_disease"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Doppler\nultrasound\ncan accurately measure access flow rate and establish the diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Surgical banding of the access",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dialysis complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis complications",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        }
+      ]
+    }
+  }
+}

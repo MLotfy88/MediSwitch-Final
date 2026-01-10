@@ -1,0 +1,104 @@
+{
+  "drug_name": "Hydrocodone",
+  "url": "https://wikem.org/wiki/Hydrocodone",
+  "scraped_at": "2026-01-10T07:54:57.974103",
+  "sections": {
+    "General": {
+      "text": "Type:\nOpioid\nDosage Forms: PO\nCommon Trade Names: Zohydro, Hysingla\nCommonly combined with\nacetaminophen\nas Norco and Vicodin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "For Pain, severe chronic: Individualize dose PO q12h; start 10mg PO q12h, may increase by 10mg PO q12h q3-7 days. Titrate slowly in elderly patients.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_2": {
+      "text": "For Pain, severe chronic: Individualize dose PO q12h; start 10mg PO q12h, may increase by 10mg PO q12h q3-7 days. Titrate slowly in elderly patients.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Currently not recommended",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation Risk Categories\n: possibly unsafe\nRenal Dosing\nAdult: none\nPediatric: none\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation Risk Categories",
+          "url": "https://wikem.org/wiki/Lactation_Risk_Categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nlabor and delivery\nGI obstruction\nparalytic ileus\nacute asthma exacerbation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "respiratory depression\napnea\nhypotension, severe\nparalytic ileus\nbradycardia\nanaphylaxis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Constipation\nnausea\nfatigue\nvomiting\nxerostomia\nheadache\nURI\ntremor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "respiratory depression\napnea\nhypotension, severe\nparalytic ileus\nbradycardia\nanaphylaxis",
+      "subsections": {
+        "Common": {
+          "text": "Constipation\nnausea\nfatigue\nvomiting\nxerostomia\nheadache\nURI\ntremor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Constipation\nnausea\nfatigue\nvomiting\nxerostomia\nheadache\nURI\ntremor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8 hour\nMetabolism: Liver\nExcretion: urine\nMechanism of Action: bind to various opioid receptors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

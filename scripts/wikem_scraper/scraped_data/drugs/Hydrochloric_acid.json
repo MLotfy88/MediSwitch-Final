@@ -1,0 +1,579 @@
+{
+  "drug_name": "Hydrochloric_acid",
+  "url": "https://wikem.org/wiki/Hydrochloric_acid",
+  "scraped_at": "2026-01-10T07:54:58.022513",
+  "sections": {
+    "Background": {
+      "text": "Strong acid, causes coagulation necrosis due to denaturation of proteins\nPatients may have occupational exposures if working in steel picking, chemical manufacturing, oil/gas-well acidizing, and food processing\nHCl is combustion product of polyvinyl chloride (PVC), can cause chemical\ninhalation injury\n, can persist in air for up to an hour after fire extinguished",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Can be systemically absorbed and →\nmetabolic acidosis\n, hemolysis,\nAKI\nDermal\ncaustic burns\nIngestion\nAll patients with serious esophageal injuries have\nsome\ninitial sign/symptom\nDysphagia\n, odynophagia,\nepigastric pain\n,\nvomiting\nLaryngotracheal injury:\ndysphonia\n,\nstridor\n,\nrespiratory distress\nOccurs via aspiration of caustic or vomitus or inhalation of acidic fumes\ninhalation injury\nPVCs and other\narrhythmias\nDelayed onset (2-12 hours)\npulmonary edema\nDyspnea\n,\nchest pain\nCaustic keratoconjunctivitis\nSevere\neye pain\n, blepharospasm,\nreduced visual acuity\nAltered ocular pH (normal = 7.0-7.2)\nConjunctival injection\nOR\nblanching, chemosis, hemorrhage, epithelial defects, corneal loss\nOR\nedema, perilimbal ischemia (white ring around iris)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "epigastric pain",
+          "url": "https://wikem.org/wiki/Epigastric_pain"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "eye pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "reduced visual acuity",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Caustic_Burns": {
+          "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        }
+      ]
+    },
+    "Caustic_Burns": {
+      "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {
+        "Work-up": {
+          "text": "Only necessary in patients with significant injury or volume of ingestion\nCBC, metabolic panel,\nlactate\n, serum calcium (if concern for\nhydrofluoric acid\nexposure\nECG\nTylenol/ASA levels if concerned about coingestion (suicidal patients)\nIngestion, consider:\n3-View\nCXR\n: look for free air under diaphragm or mediastinal free air\nCT: if suspect perforation but CXR negative",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "Only necessary in patients with significant injury or volume of ingestion\nCBC, metabolic panel,\nlactate\n, serum calcium (if concern for\nhydrofluoric acid\nexposure\nECG\nTylenol/ASA levels if concerned about coingestion (suicidal patients)\nIngestion, consider:\n3-View\nCXR\n: look for free air under diaphragm or mediastinal free air\nCT: if suspect perforation but CXR negative",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Decontaminate\nfirst: use appropriate personal protective equipment, remove all patient's clothing, decontaminate patient\nIrrigate areas of dermal or ocular exposure, early and copiously!\nAirway management\nMonitor closely for\nstridor\n, airway edema, hoarseness, or other signs of airway injury\nIntubate\nearly if signs of airway injury exist, before airway becomes more difficult to manage.\nConsider awake fiberoptic or video laryngoscopy if concern for difficult airway\nBlind nasotracheal intubation is contraindicated in caustic ingestion due to the potential for perforations and false passages\nBronchodilators\nfor bronchospasm if concern for inhalational injury",
+      "subsections": {
+        "Systemic_Exposure": {
+          "text": "Metabolic acidosis\n: consider\nbicarbonate\nfor severe acidosis\nSevere hemolysis may require\nexchange transfusion",
+          "tables": []
+        },
+        "Ingestion": {
+          "text": "Airway management\nespecially important!\nEndoscopy\nIndications:\nAll\nintentional ingestions (higher likelihood of high volume ingestion)\nAny ingestion with\nstridor\n, drooling, significant oropharyngeal burns,\nvomiting\n, food refusal\nPerform within 12-24 hours of ingestion (too early can underestimate extent of injury, too late increases risk of wound softening and perforation)\nEsophageal stricture mitigation\n[1]\nDiscuss with GI or toxicologist\nGrade IIb or higher esophageal burns:\nMethylprednisolone\n(1 g/1.73 m2 per day for 3 days),\nranitidine\n,\nceftriaxone\n, total parenteral nutrition\nSurgical intervention: indicated if perforation or peritoneal signs\nContraindicated\n(or controversial) therapies:\nAntibiotics\n(unless giving steroids]]\nActivated charcoal\n(may consider when coingestants pose a risk for severe systemic toxicity)\nGastric lavage\n: contraindicated due to potential to cause reflux of caustic agent into esophagus, creating more damage\nDilution with water or milk: causes vomiting, elevating risk for perforation\nNeutralization (e.g. with milk or mag citrate): generates excess heat",
+          "tables": []
+        },
+        "Caustic_Ocular_Exposure_Management": {
+          "text": "Eye irrigation\nImmediate irrigation is the most important treatment for caustic ocular injury, and should be started before comprehensive evaluation\nIrrigate affected eye(s) with copious amounts of fluid (no consensus on volume or length of time)\n[2]\nNS, LR, or BSS (Buffered Saline Solution) preferred in the hospital setting\n[3]\n, but tap water is acceptable, especially in pre-hospital setting.\nGoal is to remove caustic agent and restore normal ocular pH (7.0-7.2)\nDo NOT attempt to neutralize pH by adding base to an acidic burn or acid to an alkali burn\nUse of morgan lens or eyelid speculum will assist with getting more fluid in contact with cornea\nRemove particulate matter\nEvert both lids, remove any visible particulate matter with cotton-tipped applicator\nAnesthesia\nTopical anesthetic (e.g.\ntetracaine\n) to help with discomfort.\nOther options include cycloplegics (e.g.\natropine\n,\ncyclopentolate\n), IV/IM/PO\nanalgesics\nAntibiotics\nErythromycin\nophthalmic ointment QID for minor burns\nTopical\nfluoroquinolone\nfor more severe burns\nControl inflammation\nTopical steroids\n-\nprednisolone\n1% ophthalmic QID for 1 week\n[4]\nLimit topical steroid use to 10 days to avoid corneal breakdown.\n[5]\nOphthalmology consultation for all but minor burns (Severe exposures may require debridement or other surgical intervention)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        },
+        {
+          "text": "Bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "exchange transfusion",
+          "url": "https://wikem.org/wiki/Exchange_transfusion"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "Gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "analgesics",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Systemic_Exposure": {
+      "text": "Metabolic acidosis\n: consider\nbicarbonate\nfor severe acidosis\nSevere hemolysis may require\nexchange transfusion",
+      "subsections": {
+        "Ingestion": {
+          "text": "Airway management\nespecially important!\nEndoscopy\nIndications:\nAll\nintentional ingestions (higher likelihood of high volume ingestion)\nAny ingestion with\nstridor\n, drooling, significant oropharyngeal burns,\nvomiting\n, food refusal\nPerform within 12-24 hours of ingestion (too early can underestimate extent of injury, too late increases risk of wound softening and perforation)\nEsophageal stricture mitigation\n[1]\nDiscuss with GI or toxicologist\nGrade IIb or higher esophageal burns:\nMethylprednisolone\n(1 g/1.73 m2 per day for 3 days),\nranitidine\n,\nceftriaxone\n, total parenteral nutrition\nSurgical intervention: indicated if perforation or peritoneal signs\nContraindicated\n(or controversial) therapies:\nAntibiotics\n(unless giving steroids]]\nActivated charcoal\n(may consider when coingestants pose a risk for severe systemic toxicity)\nGastric lavage\n: contraindicated due to potential to cause reflux of caustic agent into esophagus, creating more damage\nDilution with water or milk: causes vomiting, elevating risk for perforation\nNeutralization (e.g. with milk or mag citrate): generates excess heat",
+          "tables": []
+        },
+        "Caustic_Ocular_Exposure_Management": {
+          "text": "Eye irrigation\nImmediate irrigation is the most important treatment for caustic ocular injury, and should be started before comprehensive evaluation\nIrrigate affected eye(s) with copious amounts of fluid (no consensus on volume or length of time)\n[2]\nNS, LR, or BSS (Buffered Saline Solution) preferred in the hospital setting\n[3]\n, but tap water is acceptable, especially in pre-hospital setting.\nGoal is to remove caustic agent and restore normal ocular pH (7.0-7.2)\nDo NOT attempt to neutralize pH by adding base to an acidic burn or acid to an alkali burn\nUse of morgan lens or eyelid speculum will assist with getting more fluid in contact with cornea\nRemove particulate matter\nEvert both lids, remove any visible particulate matter with cotton-tipped applicator\nAnesthesia\nTopical anesthetic (e.g.\ntetracaine\n) to help with discomfort.\nOther options include cycloplegics (e.g.\natropine\n,\ncyclopentolate\n), IV/IM/PO\nanalgesics\nAntibiotics\nErythromycin\nophthalmic ointment QID for minor burns\nTopical\nfluoroquinolone\nfor more severe burns\nControl inflammation\nTopical steroids\n-\nprednisolone\n1% ophthalmic QID for 1 week\n[4]\nLimit topical steroid use to 10 days to avoid corneal breakdown.\n[5]\nOphthalmology consultation for all but minor burns (Severe exposures may require debridement or other surgical intervention)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "exchange transfusion",
+          "url": "https://wikem.org/wiki/Exchange_transfusion"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "Gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "analgesics",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Ingestion": {
+      "text": "Airway management\nespecially important!\nEndoscopy\nIndications:\nAll\nintentional ingestions (higher likelihood of high volume ingestion)\nAny ingestion with\nstridor\n, drooling, significant oropharyngeal burns,\nvomiting\n, food refusal\nPerform within 12-24 hours of ingestion (too early can underestimate extent of injury, too late increases risk of wound softening and perforation)\nEsophageal stricture mitigation\n[1]\nDiscuss with GI or toxicologist\nGrade IIb or higher esophageal burns:\nMethylprednisolone\n(1 g/1.73 m2 per day for 3 days),\nranitidine\n,\nceftriaxone\n, total parenteral nutrition\nSurgical intervention: indicated if perforation or peritoneal signs\nContraindicated\n(or controversial) therapies:\nAntibiotics\n(unless giving steroids]]\nActivated charcoal\n(may consider when coingestants pose a risk for severe systemic toxicity)\nGastric lavage\n: contraindicated due to potential to cause reflux of caustic agent into esophagus, creating more damage\nDilution with water or milk: causes vomiting, elevating risk for perforation\nNeutralization (e.g. with milk or mag citrate): generates excess heat",
+      "subsections": {
+        "Caustic_Ocular_Exposure_Management": {
+          "text": "Eye irrigation\nImmediate irrigation is the most important treatment for caustic ocular injury, and should be started before comprehensive evaluation\nIrrigate affected eye(s) with copious amounts of fluid (no consensus on volume or length of time)\n[2]\nNS, LR, or BSS (Buffered Saline Solution) preferred in the hospital setting\n[3]\n, but tap water is acceptable, especially in pre-hospital setting.\nGoal is to remove caustic agent and restore normal ocular pH (7.0-7.2)\nDo NOT attempt to neutralize pH by adding base to an acidic burn or acid to an alkali burn\nUse of morgan lens or eyelid speculum will assist with getting more fluid in contact with cornea\nRemove particulate matter\nEvert both lids, remove any visible particulate matter with cotton-tipped applicator\nAnesthesia\nTopical anesthetic (e.g.\ntetracaine\n) to help with discomfort.\nOther options include cycloplegics (e.g.\natropine\n,\ncyclopentolate\n), IV/IM/PO\nanalgesics\nAntibiotics\nErythromycin\nophthalmic ointment QID for minor burns\nTopical\nfluoroquinolone\nfor more severe burns\nControl inflammation\nTopical steroids\n-\nprednisolone\n1% ophthalmic QID for 1 week\n[4]\nLimit topical steroid use to 10 days to avoid corneal breakdown.\n[5]\nOphthalmology consultation for all but minor burns (Severe exposures may require debridement or other surgical intervention)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "Gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "analgesics",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Caustic_Ocular_Exposure_Management": {
+      "text": "Eye irrigation\nImmediate irrigation is the most important treatment for caustic ocular injury, and should be started before comprehensive evaluation\nIrrigate affected eye(s) with copious amounts of fluid (no consensus on volume or length of time)\n[2]\nNS, LR, or BSS (Buffered Saline Solution) preferred in the hospital setting\n[3]\n, but tap water is acceptable, especially in pre-hospital setting.\nGoal is to remove caustic agent and restore normal ocular pH (7.0-7.2)\nDo NOT attempt to neutralize pH by adding base to an acidic burn or acid to an alkali burn\nUse of morgan lens or eyelid speculum will assist with getting more fluid in contact with cornea\nRemove particulate matter\nEvert both lids, remove any visible particulate matter with cotton-tipped applicator\nAnesthesia\nTopical anesthetic (e.g.\ntetracaine\n) to help with discomfort.\nOther options include cycloplegics (e.g.\natropine\n,\ncyclopentolate\n), IV/IM/PO\nanalgesics\nAntibiotics\nErythromycin\nophthalmic ointment QID for minor burns\nTopical\nfluoroquinolone\nfor more severe burns\nControl inflammation\nTopical steroids\n-\nprednisolone\n1% ophthalmic QID for 1 week\n[4]\nLimit topical steroid use to 10 days to avoid corneal breakdown.\n[5]\nOphthalmology consultation for all but minor burns (Severe exposures may require debridement or other surgical intervention)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "analgesics",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Dependant on severity of exposure and complications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Caustic burns\n,\nCaustic ingestion\n,\nCaustic keratoconjunctivitis\n,\nInhalation exposure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        }
+      ]
+    }
+  }
+}

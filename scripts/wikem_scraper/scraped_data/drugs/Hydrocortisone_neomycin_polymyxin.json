@@ -1,0 +1,134 @@
+{
+  "drug_name": "Hydrocortisone/neomycin/polymyxin",
+  "url": "https://wikem.org/wiki/Hydrocortisone/neomycin/polymyxin",
+  "scraped_at": "2026-01-10T07:54:58.111754",
+  "sections": {
+    "Administration": {
+      "text": "Type: topical\nantibiotic\n/\nsteroid\nDosage Forms: 3.5 mg/10,000 units/10 mg per mL\nRoutes of Administration: topical, otic\nCommon Trade Names: Cortisporin otic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "4 drops in ear q6-8hr\nMax: 10 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "3 drops in ear q6-8hr\nMax: 10 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category C\nLactation risk\n: Unknown whether drug is excreted in milk; use with caution",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: n/a\nPediatric: n/a",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: n/a\nPediatric: n/a",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Pregnancy_Rating"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: n/a\nPediatric: n/a",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: n/a\nPediatric: n/a",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: n/a\nPediatric: n/a",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCutaneous viral infection of the external auditory canal (e.g. patients with herpes simplex, vaccinia, and varicella infections)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Ototoxicity\nNeomycin sensitization with itching, reddening, edema, and failure to heal\nSystemic absorption of topical corticosteroids--> HPA axis suppression --> adrenal crisis\nProlonged use of corticosteroids may lead to increase incidence of infection, masking of infection, limited response to vaccines\nProlonged use of corticosteroids associated with development of Kaposi sarcoma",
+          "tables": []
+        },
+        "Common": {
+          "text": "Itching\nRedness\nRash\nSwelling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Ototoxicity\nNeomycin sensitization with itching, reddening, edema, and failure to heal\nSystemic absorption of topical corticosteroids--> HPA axis suppression --> adrenal crisis\nProlonged use of corticosteroids may lead to increase incidence of infection, masking of infection, limited response to vaccines\nProlonged use of corticosteroids associated with development of Kaposi sarcoma",
+      "subsections": {
+        "Common": {
+          "text": "Itching\nRedness\nRash\nSwelling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Itching\nRedness\nRash\nSwelling",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Hydrocortisone: Suppresses inflammatory response\nPolymyxin: disrupts bacterial cytoplasmic membrane permeability allowing leakage of intracellular contents--> bactericidal\nNeomycin: Inhibits protein synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Otitis externa\nTympanic membrane perforation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Tympanic membrane perforation",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_perforation"
+        }
+      ]
+    }
+  }
+}

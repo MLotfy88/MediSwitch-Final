@@ -1,0 +1,219 @@
+{
+  "drug_name": "High_frequency_oscillation_ventilation",
+  "url": "https://wikem.org/wiki/High_frequency_oscillation_ventilation",
+  "scraped_at": "2026-01-10T07:54:45.900760",
+  "sections": {
+    "Background": {
+      "text": "High Frequency Oscillation Ventilation (HFOV) is an alternative method for mechanical ventilation in difficult to oxygenate in critically ill\nARDS\npatients.\nStudied in patients with PaO2/FiO2 < 200\nGoal is to maintain alveolar recruitment for adequate gas exchange and decrease lung injury/atelectrauma\nLow tidal volumes based around mean airway pressures to keep alveoli open\nDelivered at high frequency",
+      "subsections": {
+        "Pros": {
+          "text": "Limits VILI\nMay improve oxygenation when ECMO not available",
+          "tables": []
+        },
+        "Cons": {
+          "text": "No difference or likely to cause harm in adult ARDS patients\nRequires heavy sedation\nIncrease mean airway pressures may result in more hemodynamic instability",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "Pros": {
+      "text": "Limits VILI\nMay improve oxygenation when ECMO not available",
+      "subsections": {
+        "Cons": {
+          "text": "No difference or likely to cause harm in adult ARDS patients\nRequires heavy sedation\nIncrease mean airway pressures may result in more hemodynamic instability",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cons": {
+      "text": "No difference or likely to cause harm in adult ARDS patients\nRequires heavy sedation\nIncrease mean airway pressures may result in more hemodynamic instability",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Example protocol from Oscillate trial\n[1]\nSet FiO2 at 100%\nRecruitment maneuver of 40 cmH2O PEEP for 40 seconds\nI:E time of 1:2\nInitiate high frequency ventilation → 3-15 Hz\nVT minimized to keep pH >7.25\nGoal of 1-4 ml/Kg\nMaintain mean airway pressure of 30 cmH2O with pressure adjusted to maintain a PaO2 of 55-80 mmHg\nReversion to standard ventilation of mean airway pressure was ≤24 cmH2O for 12 hours or anytime when ≤20 cmH2O\nRe-initiation of HFOV if FIO2 >0.4 or PEEP >14 cmH2O for >1 hour in the subsequent 48 hours\nTargets\npH>7.25\nSpO2 >88% or PaO2 >55mmHg\nOxygenation\naltered by:\nFiO2\nMean airway pressures\nVentilation\naltered by:\nFrequency\nDecrease frequency to increase TV and ventilation\nInspiratory time\nAmplitude of oscillations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Mechanical_Ventilation_Pages": {
+      "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Life in the Fast Lane\n- for an excellent review and tutorial\nOscillate\nOSCAR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

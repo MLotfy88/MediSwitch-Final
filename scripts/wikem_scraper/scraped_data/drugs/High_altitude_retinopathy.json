@@ -1,0 +1,189 @@
+{
+  "drug_name": "High_altitude_retinopathy",
+  "url": "https://wikem.org/wiki/High_altitude_retinopathy",
+  "scraped_at": "2026-01-10T07:54:46.947027",
+  "sections": {
+    "Background": {
+      "text": "Retinal hemorrhages\nare common at sleeping altitudes > 5000m (16,000ft)\nIncidence increases with higher altitude\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Retinal hemorrhages",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Roth Spots\n: retinal hemorrhages with white center, seen on\nfundoscopy\nCotton wool spots on\nfundoscopy\nMay be asymptomatic, or cause\nvisual loss",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fundoscopy",
+          "url": "https://wikem.org/wiki/Fundoscopy"
+        },
+        {
+          "text": "fundoscopy",
+          "url": "https://wikem.org/wiki/Fundoscopy"
+        },
+        {
+          "text": "visual loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        },
+        "High_Altitude_Illnesses": {
+          "text": "Acute mountain sickness\nChronic mountain sickness\nHigh altitude cerebral edema\nHigh altitude pulmonary edema\nHigh altitude peripheral edema\nHigh altitude retinopathy\nHigh altitude pharyngitis and bronchitis\nUltraviolet keratitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Amaurosis fugax",
+          "url": "https://wikem.org/wiki/Amaurosis_fugax"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Acute mountain sickness",
+          "url": "https://wikem.org/wiki/Acute_mountain_sickness"
+        },
+        {
+          "text": "Chronic mountain sickness",
+          "url": "https://wikem.org/wiki/Chronic_mountain_sickness"
+        },
+        {
+          "text": "High altitude cerebral edema",
+          "url": "https://wikem.org/wiki/High_altitude_cerebral_edema"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "High altitude peripheral edema",
+          "url": "https://wikem.org/wiki/High_altitude_peripheral_edema"
+        },
+        {
+          "text": "High altitude pharyngitis and bronchitis",
+          "url": "https://wikem.org/wiki/High_altitude_pharyngitis_and_bronchitis"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "High_Altitude_Illnesses": {
+      "text": "Acute mountain sickness\nChronic mountain sickness\nHigh altitude cerebral edema\nHigh altitude pulmonary edema\nHigh altitude peripheral edema\nHigh altitude retinopathy\nHigh altitude pharyngitis and bronchitis\nUltraviolet keratitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute mountain sickness",
+          "url": "https://wikem.org/wiki/Acute_mountain_sickness"
+        },
+        {
+          "text": "Chronic mountain sickness",
+          "url": "https://wikem.org/wiki/Chronic_mountain_sickness"
+        },
+        {
+          "text": "High altitude cerebral edema",
+          "url": "https://wikem.org/wiki/High_altitude_cerebral_edema"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "High altitude peripheral edema",
+          "url": "https://wikem.org/wiki/High_altitude_peripheral_edema"
+        },
+        {
+          "text": "High altitude pharyngitis and bronchitis",
+          "url": "https://wikem.org/wiki/High_altitude_pharyngitis_and_bronchitis"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Not considered an indication for descent unless vision changes are present",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Generally improves with descent. If persistent visual loss, referral to ophthalmology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "High altitude medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "High altitude medicine",
+          "url": "https://wikem.org/wiki/High_altitude_medicine"
+        }
+      ]
+    }
+  }
+}

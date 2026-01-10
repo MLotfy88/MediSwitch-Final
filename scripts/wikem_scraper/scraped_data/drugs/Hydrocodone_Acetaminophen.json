@@ -1,0 +1,104 @@
+{
+  "drug_name": "Hydrocodone/Acetaminophen",
+  "url": "https://wikem.org/wiki/Hydrocodone/Acetaminophen",
+  "scraped_at": "2026-01-10T07:54:58.748083",
+  "sections": {
+    "General": {
+      "text": "Type:\nopioid\n(\nhydrocodone\n) + acetaminophen\nDosage Forms: PO\nCommon Trade Names: Norco",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "hydrocodone",
+          "url": "https://wikem.org/wiki/Hydrocodone"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "Pain:\n2.5-10mg hydrocodone/325mg Acetaminophen PO q4-6h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_2": {
+      "text": "Pain:\n2.5-10mg hydrocodone/325mg Acetaminophen PO q4-6h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Not Currently recommended",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation Risk Categories\n: possibly unsafe\nRenal Dosing\nAdult: none\nPediatric: none\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation Risk Categories",
+          "url": "https://wikem.org/wiki/Lactation_Risk_Categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Respiratory Depression\nApnea\nsyncope\nbradycardia\nSeizures\nanaphylaxis\nacetaminophen toxicity",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea\nRash\nHeadache\nFatigue\nxerostomia\nconstipation\nTremor\ntransaminitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Respiratory Depression\nApnea\nsyncope\nbradycardia\nSeizures\nanaphylaxis\nacetaminophen toxicity",
+      "subsections": {
+        "Common": {
+          "text": "Nausea\nRash\nHeadache\nFatigue\nxerostomia\nconstipation\nTremor\ntransaminitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Nausea\nRash\nHeadache\nFatigue\nxerostomia\nconstipation\nTremor\ntransaminitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4-5 hour\nMetabolism: Liver\nExcretion: urine\nMechanism of Action:binds to various opioid receptors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

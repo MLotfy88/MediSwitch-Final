@@ -1,0 +1,163 @@
+{
+  "drug_name": "Hydroxychloroquine",
+  "url": "https://wikem.org/wiki/Hydroxychloroquine",
+  "scraped_at": "2026-01-10T07:55:00.862176",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntimalarial\n, anti-inflammatory\nDosage Forms:\nRoutes of Administration: Oral\nCommon Trade Names: Plaquenil",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antimalarial",
+          "url": "https://wikem.org/wiki/Antimalarial"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Malaria": {
+          "text": "Most malaria-endemic areas have high rates of chloroquine resistance. Per the CDC, chloroquine-sensitive areas include: Central America west of the Panama Canal, Haiti, the Dominican Republic, and most of the Middle East. See [\nCDC malaria information by country\n] for details\nMalaria treatment: 800 mg PO, then 400 mg PO at 6, 24, and 48 hours after initial dose\nMalaria prophylaxis: 400 mg PO weekly beginning 1 to 2 weeks prior to travel to malarious area through 4 weeks after departure",
+          "tables": []
+        },
+        "Other_indications": {
+          "text": "Lupus\n: 200-400mg PO 1-2 times per day\nRheumatoid Arthritis\n: 200-600mg PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Rheumatoid Arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_Arthritis"
+        }
+      ]
+    },
+    "Malaria": {
+      "text": "Most malaria-endemic areas have high rates of chloroquine resistance. Per the CDC, chloroquine-sensitive areas include: Central America west of the Panama Canal, Haiti, the Dominican Republic, and most of the Middle East. See [\nCDC malaria information by country\n] for details\nMalaria treatment: 800 mg PO, then 400 mg PO at 6, 24, and 48 hours after initial dose\nMalaria prophylaxis: 400 mg PO weekly beginning 1 to 2 weeks prior to travel to malarious area through 4 weeks after departure",
+      "subsections": {
+        "Other_indications": {
+          "text": "Lupus\n: 200-400mg PO 1-2 times per day\nRheumatoid Arthritis\n: 200-600mg PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Rheumatoid Arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_Arthritis"
+        }
+      ]
+    },
+    "Other_indications": {
+      "text": "Lupus\n: 200-400mg PO 1-2 times per day\nRheumatoid Arthritis\n: 200-600mg PO daily",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Rheumatoid Arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_Arthritis"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Malaria treatment: 12.9 mg/kg (max 800mg) PO, then 6.45 mg/kg PO at 6, 24, and 48 hours after initial dose\nMalaria prophylaxis: 6.45 mg/kg PO weekly beginning 1 to 2 weeks prior to travel to malarious area through 4 weeks after departure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation risk\n: Infant risk minimal\nRenal dosing:\nHepatic dosing:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nRetinal or visual field changes from prior 4-aminoquinoline compound\nProlonged use in children",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Torsades de pointes\nAgranulocytosis, leukopenia, thrombocytopenia, aplastic anemia\nFulminant hepatic failure\nMyopathy\nSeizure\nRetinopathy\nHearing loss\nAngioedema",
+          "tables": []
+        },
+        "Common": {
+          "text": "Corneal disorder",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Torsades de pointes\nAgranulocytosis, leukopenia, thrombocytopenia, aplastic anemia\nFulminant hepatic failure\nMyopathy\nSeizure\nRetinopathy\nHearing loss\nAngioedema",
+      "subsections": {
+        "Common": {
+          "text": "Corneal disorder",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Corneal disorder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 7-50 days\nMetabolism: Hepatic\nExcretion: Mostly renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Precise mechanism unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antimalarial medications\nMalaria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antimalarial medications",
+          "url": "https://wikem.org/wiki/Antimalarial_medications"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        }
+      ]
+    }
+  }
+}

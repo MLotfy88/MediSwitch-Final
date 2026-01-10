@@ -1,0 +1,333 @@
+{
+  "drug_name": "Hidradenitis_suppurativa",
+  "url": "https://wikem.org/wiki/Hidradenitis_suppurativa",
+  "scraped_at": "2026-01-10T07:54:47.328366",
+  "sections": {
+    "Background": {
+      "text": "Inflammatory condition involving the apocrine gland-bearing areas of skin, characterized by recurrent painful draining nodules.\n[1]\nMore common in women and black or biracial individuals.\n[2]\nRarely occurs before puberty.  Peak age of onset is 11–20 yo in women and 21–30 yo in men.\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Tender, nodular lesions most often in the axillae (can also affect gluteal folds, inframammary areas, perianal area, and pubic/genitofemoral areas)\nMalodorous drainage\nPruritis\nBurning\nErythema\nHyperhidrosis\nScarring\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pruritis",
+          "url": "https://wikem.org/wiki/Pruritis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Epidermoid or dermoid cyst\nInflammatory acne\nGranuloma inguinale\nLymphogranuloma venereum",
+      "subsections": {
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Skin_and_Soft_Tissue_Infection": {
+      "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+      "subsections": {
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Look-A-Likes": {
+      "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis: skin nodules in characteristic sites, may have malodorous drainage\nDiagnosis may be difficult in the ED if single nodule is present.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Clindamycin\n1% topic\nAntibacterial soaps\nSystemic treatments (typically prescribed by specialist): acitretin, finasteride,\nprednisone\nIncision and drainage\nshould be avoided if possible due to risk of scarring\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Incision and drainage",
+          "url": "https://wikem.org/wiki/Incision_and_drainage"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with primary care/dermatology followup",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abscess\nCellulitis\nLymphadenopathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        }
+      ]
+    }
+  }
+}

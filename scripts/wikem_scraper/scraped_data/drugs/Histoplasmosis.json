@@ -1,0 +1,630 @@
+{
+  "drug_name": "Histoplasmosis",
+  "url": "https://wikem.org/wiki/Histoplasmosis",
+  "scraped_at": "2026-01-10T07:54:54.365921",
+  "sections": {
+    "Background": {
+      "text": "Fungal infection caused by\nHistoplasma capsulatum\n[1]\nEndemic to the Ohio, Missouri, and Mississippi River valleys in the United States\n[2]\nExposure from disruption of soil containing organisms leads to aerosolization\n[3]\nActivities associated with high-level exposure include spelunking, excavation, and demolition of old buildings",
+      "subsections": {
+        "Pathogenesis": {
+          "text": "Infection occurs via inhalation\n[4]\nIn immunocompetent patients:\nPhagocytes and epithelial cells eventually organize and form granulomas that go on to fibrose and calcify\nIn immunocompromised patients:\nThe infection is not contained and can disseminate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pathogenesis": {
+      "text": "Infection occurs via inhalation\n[4]\nIn immunocompetent patients:\nPhagocytes and epithelial cells eventually organize and form granulomas that go on to fibrose and calcify\nIn immunocompromised patients:\nThe infection is not contained and can disseminate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Disease manifestation depends on intensity of exposure, immune status, and underlying lung architecture",
+      "subsections": {
+        "Acute_Pulmonary_Histoplasmosis": {
+          "text": "90% asymptomatic, and usually self-limited\nSymptoms 1-4 weeks after exposure and consist of flu-like illness\n[5]\nFever/chills\nHeadache\nMalaise\nMyalgias\nAbdominal pain\nArthralgias\nDyspnea\nCough, hemoptysis\nHilar/mediastinal lymphadenopathy on CXR",
+          "tables": []
+        },
+        "Chronic_Pulmonary_Histoplasmosis": {
+          "text": "Mostly older patients or smokers with underlying structural lung disease\n[6]\nSymptoms:\nCough\nWeight loss\nLow-grade fever\nMalaise\nNight sweats\nSometimes hemoptysis, sputum production, dyspnea\nCXR\nmay show:\nUpper lobe infiltrates\nFibrosis, scarring\nCavitations",
+          "tables": []
+        },
+        "Progressive_Disseminated_Histoplasmosis": {
+          "text": "Seen in immunocompromised patients\nSIRS\nAcute form:\nDiffuse interstitial or reticulonodular lung infiltrates\nRespiratory failure\nCoagulopathy\nMultiorgan failure\nSubacute form depends on focal organ system affected:\nFever\nWeight loss\nHepatosplenomegaly\nMeningitis, brain lesions\nMucosal or GI ulcerations\nAdrenal insufficiency\nPericarditis\nChronic form: constitutional sx",
+          "tables": []
+        },
+        "Mediastinitis": {
+          "text": "Enlarged lymph nodes that may undergo necrosis\nThis leads to granulomatous mediastinitis\nCan lead to:\nSuperior vena cava syndrome\nObstruction of pulmonary vessels\nAirway obstruction\nRecurrent pneumonia\nHemoptysis\nRespiratory failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Acute_Pulmonary_Histoplasmosis": {
+      "text": "90% asymptomatic, and usually self-limited\nSymptoms 1-4 weeks after exposure and consist of flu-like illness\n[5]\nFever/chills\nHeadache\nMalaise\nMyalgias\nAbdominal pain\nArthralgias\nDyspnea\nCough, hemoptysis\nHilar/mediastinal lymphadenopathy on CXR",
+      "subsections": {
+        "Chronic_Pulmonary_Histoplasmosis": {
+          "text": "Mostly older patients or smokers with underlying structural lung disease\n[6]\nSymptoms:\nCough\nWeight loss\nLow-grade fever\nMalaise\nNight sweats\nSometimes hemoptysis, sputum production, dyspnea\nCXR\nmay show:\nUpper lobe infiltrates\nFibrosis, scarring\nCavitations",
+          "tables": []
+        },
+        "Progressive_Disseminated_Histoplasmosis": {
+          "text": "Seen in immunocompromised patients\nSIRS\nAcute form:\nDiffuse interstitial or reticulonodular lung infiltrates\nRespiratory failure\nCoagulopathy\nMultiorgan failure\nSubacute form depends on focal organ system affected:\nFever\nWeight loss\nHepatosplenomegaly\nMeningitis, brain lesions\nMucosal or GI ulcerations\nAdrenal insufficiency\nPericarditis\nChronic form: constitutional sx",
+          "tables": []
+        },
+        "Mediastinitis": {
+          "text": "Enlarged lymph nodes that may undergo necrosis\nThis leads to granulomatous mediastinitis\nCan lead to:\nSuperior vena cava syndrome\nObstruction of pulmonary vessels\nAirway obstruction\nRecurrent pneumonia\nHemoptysis\nRespiratory failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Chronic_Pulmonary_Histoplasmosis": {
+      "text": "Mostly older patients or smokers with underlying structural lung disease\n[6]\nSymptoms:\nCough\nWeight loss\nLow-grade fever\nMalaise\nNight sweats\nSometimes hemoptysis, sputum production, dyspnea\nCXR\nmay show:\nUpper lobe infiltrates\nFibrosis, scarring\nCavitations",
+      "subsections": {
+        "Progressive_Disseminated_Histoplasmosis": {
+          "text": "Seen in immunocompromised patients\nSIRS\nAcute form:\nDiffuse interstitial or reticulonodular lung infiltrates\nRespiratory failure\nCoagulopathy\nMultiorgan failure\nSubacute form depends on focal organ system affected:\nFever\nWeight loss\nHepatosplenomegaly\nMeningitis, brain lesions\nMucosal or GI ulcerations\nAdrenal insufficiency\nPericarditis\nChronic form: constitutional sx",
+          "tables": []
+        },
+        "Mediastinitis": {
+          "text": "Enlarged lymph nodes that may undergo necrosis\nThis leads to granulomatous mediastinitis\nCan lead to:\nSuperior vena cava syndrome\nObstruction of pulmonary vessels\nAirway obstruction\nRecurrent pneumonia\nHemoptysis\nRespiratory failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Progressive_Disseminated_Histoplasmosis": {
+      "text": "Seen in immunocompromised patients\nSIRS\nAcute form:\nDiffuse interstitial or reticulonodular lung infiltrates\nRespiratory failure\nCoagulopathy\nMultiorgan failure\nSubacute form depends on focal organ system affected:\nFever\nWeight loss\nHepatosplenomegaly\nMeningitis, brain lesions\nMucosal or GI ulcerations\nAdrenal insufficiency\nPericarditis\nChronic form: constitutional sx",
+      "subsections": {
+        "Mediastinitis": {
+          "text": "Enlarged lymph nodes that may undergo necrosis\nThis leads to granulomatous mediastinitis\nCan lead to:\nSuperior vena cava syndrome\nObstruction of pulmonary vessels\nAirway obstruction\nRecurrent pneumonia\nHemoptysis\nRespiratory failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mediastinitis": {
+      "text": "Enlarged lymph nodes that may undergo necrosis\nThis leads to granulomatous mediastinitis\nCan lead to:\nSuperior vena cava syndrome\nObstruction of pulmonary vessels\nAirway obstruction\nRecurrent pneumonia\nHemoptysis\nRespiratory failure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Carcinoid\nLung Tumors\nLung Cancer, Small Cell\nLymphoma, Mediastinal\nMediastinal Cysts\nLung Abscess\nPancoast Syndrome\nSarcoidosis\nTuberculosis",
+      "subsections": {
+        "Bacteria": {
+          "text": "Gram-positive\nStreptococcus pneumoniae\nStaphylococcus aureus\nGram-negative\nHaemophilus influenzae\nKlebsiella pneumoniae\nEscherichia coli\nPseudomonas aeruginosa\nMoraxella catarrhalis\nAtypical pneumonia\nChlamydophila pneumoniae\nChlamydophila psittaci\nMycoplasma pneumoniae\nCoxiella burnetti\nLegionella pneumophila",
+          "tables": []
+        },
+        "Viral": {
+          "text": "Common\nInfluenza\nRespiratory syncytial virus\nParainfluenza\nRarer\nAdenovirus\nMetapneumovirus\nSevere acute respiratory syndrome\n(SARS)\nMiddle east respiratory syndrome coronavirus\n(MERS)\n2019-nCoV (\nCOVID-19\n)\nCause other diseases, but sometimes cause pneumonia\nHerpes simplex virus\nVaricella-zoster\n(VZV)\nMeasles\nRubella\nCytomegalovirus\nSmallpox\nDengue",
+          "tables": []
+        },
+        "Fungal": {
+          "text": "Histoplasmosis\nCoccidioidomycosis\nBlastomycosis\nPneumocystis jirovecii pneumonia\n(PCP)\nSporotrichosis\nCryptococcosis\nAspergillosis\nCandidiasis",
+          "tables": []
+        },
+        "Parasitic": {
+          "text": "Ascariasis\nSchistosomiasis\nToxoplasma gondii",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carcinoid",
+          "url": "https://wikem.org/wiki/Carcinoid"
+        },
+        {
+          "text": "Lung Abscess",
+          "url": "https://wikem.org/wiki/Lung_Abscess"
+        },
+        {
+          "text": "Pancoast Syndrome",
+          "url": "https://wikem.org/wiki/Pancoast_Syndrome"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Klebsiella pneumoniae",
+          "url": "https://wikem.org/wiki/Klebsiella_pneumoniae"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Atypical pneumonia",
+          "url": "https://wikem.org/wiki/Atypical_pneumonia"
+        },
+        {
+          "text": "Chlamydophila pneumoniae",
+          "url": "https://wikem.org/wiki/Chlamydophila_pneumoniae"
+        },
+        {
+          "text": "Chlamydophila psittaci",
+          "url": "https://wikem.org/wiki/Chlamydophila_psittaci"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "Coxiella burnetti",
+          "url": "https://wikem.org/wiki/Coxiella_burnetti"
+        },
+        {
+          "text": "Legionella pneumophila",
+          "url": "https://wikem.org/wiki/Legionella_pneumophila"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Severe acute respiratory syndrome",
+          "url": "https://wikem.org/wiki/Severe_acute_respiratory_syndrome"
+        },
+        {
+          "text": "Middle east respiratory syndrome coronavirus",
+          "url": "https://wikem.org/wiki/Middle_east_respiratory_syndrome_coronavirus"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        }
+      ]
+    },
+    "Causes_of_Pneumonia": {
+      "text": "",
+      "subsections": {
+        "Bacteria": {
+          "text": "Gram-positive\nStreptococcus pneumoniae\nStaphylococcus aureus\nGram-negative\nHaemophilus influenzae\nKlebsiella pneumoniae\nEscherichia coli\nPseudomonas aeruginosa\nMoraxella catarrhalis\nAtypical pneumonia\nChlamydophila pneumoniae\nChlamydophila psittaci\nMycoplasma pneumoniae\nCoxiella burnetti\nLegionella pneumophila",
+          "tables": []
+        },
+        "Viral": {
+          "text": "Common\nInfluenza\nRespiratory syncytial virus\nParainfluenza\nRarer\nAdenovirus\nMetapneumovirus\nSevere acute respiratory syndrome\n(SARS)\nMiddle east respiratory syndrome coronavirus\n(MERS)\n2019-nCoV (\nCOVID-19\n)\nCause other diseases, but sometimes cause pneumonia\nHerpes simplex virus\nVaricella-zoster\n(VZV)\nMeasles\nRubella\nCytomegalovirus\nSmallpox\nDengue",
+          "tables": []
+        },
+        "Fungal": {
+          "text": "Histoplasmosis\nCoccidioidomycosis\nBlastomycosis\nPneumocystis jirovecii pneumonia\n(PCP)\nSporotrichosis\nCryptococcosis\nAspergillosis\nCandidiasis",
+          "tables": []
+        },
+        "Parasitic": {
+          "text": "Ascariasis\nSchistosomiasis\nToxoplasma gondii",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Klebsiella pneumoniae",
+          "url": "https://wikem.org/wiki/Klebsiella_pneumoniae"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Atypical pneumonia",
+          "url": "https://wikem.org/wiki/Atypical_pneumonia"
+        },
+        {
+          "text": "Chlamydophila pneumoniae",
+          "url": "https://wikem.org/wiki/Chlamydophila_pneumoniae"
+        },
+        {
+          "text": "Chlamydophila psittaci",
+          "url": "https://wikem.org/wiki/Chlamydophila_psittaci"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "Coxiella burnetti",
+          "url": "https://wikem.org/wiki/Coxiella_burnetti"
+        },
+        {
+          "text": "Legionella pneumophila",
+          "url": "https://wikem.org/wiki/Legionella_pneumophila"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Severe acute respiratory syndrome",
+          "url": "https://wikem.org/wiki/Severe_acute_respiratory_syndrome"
+        },
+        {
+          "text": "Middle east respiratory syndrome coronavirus",
+          "url": "https://wikem.org/wiki/Middle_east_respiratory_syndrome_coronavirus"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CXR\nNormal in 40-70% of cases\nPneumonitis with hilar adenopathy\nFocal pulmonary infiltrates with light exposure\nDiffuse infiltrates with heavy exposure\nCBC - mild anemia in chronic disease\nLiver panel - alkaline phosphatase elevated in disseminated and chronic disease\nLDH - elevated in AIDS patients with disseminated disease\nDefinitive diagnosis by:\nSputum cultures\nBlood cultures\nAntibody testing\nSerum/urine antigen testing\nFurther imaging if concerned for specific organ involvement in disseminated disease (Head CT, Abdominal CT or\nLumbar puncture\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CXR\nNormal in 40-70% of cases\nPneumonitis with hilar adenopathy\nFocal pulmonary infiltrates with light exposure\nDiffuse infiltrates with heavy exposure\nCBC - mild anemia in chronic disease\nLiver panel - alkaline phosphatase elevated in disseminated and chronic disease\nLDH - elevated in AIDS patients with disseminated disease\nDefinitive diagnosis by:\nSputum cultures\nBlood cultures\nAntibody testing\nSerum/urine antigen testing\nFurther imaging if concerned for specific organ involvement in disseminated disease (Head CT, Abdominal CT or\nLumbar puncture\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Acute_Pulmonary_Histoplasmosis_2": {
+          "text": "Do not treat if asymptomatic\nNot progressive, resolves without treatment, only rarely reactivates",
+          "tables": []
+        },
+        "Progressive_Disseminated_Histoplasmosis_2": {
+          "text": "Pulmonary cases: Itraconazole x 6-12 weeks\n[7]\nSevere disease:\nAmphotericin B\nx 1 week then Itraconazole x 1 year\n[8]\nSurgical intervention may be necessary in some cases",
+          "tables": []
+        },
+        "Chronic_Pulmonary_Histoplasmosis_2": {
+          "text": "Itraconazole\nx 1 year",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        }
+      ]
+    },
+    "Acute_Pulmonary_Histoplasmosis_2": {
+      "text": "Do not treat if asymptomatic\nNot progressive, resolves without treatment, only rarely reactivates",
+      "subsections": {
+        "Progressive_Disseminated_Histoplasmosis_2": {
+          "text": "Pulmonary cases: Itraconazole x 6-12 weeks\n[7]\nSevere disease:\nAmphotericin B\nx 1 week then Itraconazole x 1 year\n[8]\nSurgical intervention may be necessary in some cases",
+          "tables": []
+        },
+        "Chronic_Pulmonary_Histoplasmosis_2": {
+          "text": "Itraconazole\nx 1 year",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        }
+      ]
+    },
+    "Progressive_Disseminated_Histoplasmosis_2": {
+      "text": "Pulmonary cases: Itraconazole x 6-12 weeks\n[7]\nSevere disease:\nAmphotericin B\nx 1 week then Itraconazole x 1 year\n[8]\nSurgical intervention may be necessary in some cases",
+      "subsections": {
+        "Chronic_Pulmonary_Histoplasmosis_2": {
+          "text": "Itraconazole\nx 1 year",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        }
+      ]
+    },
+    "Chronic_Pulmonary_Histoplasmosis_2": {
+      "text": "Itraconazole\nx 1 year",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge asymptomatic cases\nDischarge mildly symptomatic immunocompetent patients with primary care follow up\nAdmit severe symptoms or symptomatic immunocompromised patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fungal infections\nAntifungals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC: Histoplasmosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

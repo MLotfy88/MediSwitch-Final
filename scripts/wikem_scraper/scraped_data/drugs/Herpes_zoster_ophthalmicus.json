@@ -1,0 +1,746 @@
+{
+  "drug_name": "Herpes_zoster_ophthalmicus",
+  "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus",
+  "scraped_at": "2026-01-10T07:54:44.263642",
+  "sections": {
+    "Background": {
+      "text": "Occurs when\nvaricella zoster virus\nis reactivated in the ophthalmic division (V1) of trigeminal nerve\n50% of cases associated with ocular involvement\nHighly suggested by vesicles at tip of nose (Hutchinson's sign)\nNasociliary branch of V1 innervates both the lateral/tip of nose as well as the cornea\nConsider immunocompromise in patients <40yrs",
+      "subsections": {
+        "Herpes_Virus_Types": {
+          "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        }
+      ]
+    },
+    "Herpes_Virus_Types": {
+      "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Prodrome of\nheadache\n, malaise, photophobia,\nfever\nUnilateral\npain\nor hypesthesia in V1 distribution\nHyperemic\nconjunctivitis\n,\nepiscleritis\n, lid droop\nVesicular\nrash\nin V1 distribution\nSlit-lamp exam\n:\nInitial finding of punctate epithelial keratitis that then evolves into pseudodendrite\n[1]\nPseudodendrite (poorly staining mucous plaque with no epithelial erosion)\nIn contrast to\nHSV\nwhich has true dendrite with epithelial erosion and staining\nCell and flare",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Slit-lamp exam",
+          "url": "https://wikem.org/wiki/Slit-lamp_exam"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Conjunctivitis_Types": {
+          "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+          "tables": []
+        },
+        "Varicella_zoster_virus": {
+          "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)",
+          "tables": []
+        },
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[2]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Conjunctivitis_Types": {
+      "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+      "subsections": {
+        "Varicella_zoster_virus": {
+          "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)",
+          "tables": []
+        },
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[2]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Varicella_zoster_virus": {
+      "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)",
+      "subsections": {
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[2]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "HIV_associated_conditions": {
+      "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[2]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Cool compresses/lubrication drops\nTopical\nantibiotics\nto skin to prevent secondary infection\nAntiviral therapy indicated for rash <1wk duration\nAcyclovir\nIV 10mg/kg q8hrs x7-10 days\n[3]\nOR\nFamciclovir\n500mg PO q8hrs x14 days\nOR\nValacyclovir\n1g PO q8hrs\nPrevention of reactivation\nAcyclovir\nPO 500mg 5x per day\nOphtho consultation regarding steroid use",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Immunocompetent patient: Oral antiviral.\nImmunocompromised patient: ”IV acyclovir and hospitalization is recommended. Neuroimaging is advised in patients with vision loss.”\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Herpes zoster oticus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        }
+      ]
+    }
+  }
+}

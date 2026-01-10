@@ -1,0 +1,189 @@
+{
+  "drug_name": "Hydrogen_sulfide_toxicity",
+  "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity",
+  "scraped_at": "2026-01-10T07:55:00.133502",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "General_Information": {
+          "text": "Colorless, flammable gas\nEncountered in following industries: oil, gas, organic decomposition (sewer and manure), roofing asphalt tanks\nMost common fatal gas exposure\n“Rotten egg” smell which diminishes with high concentrations or prolonged low concentration exposure\nOften used in suicide attempts: acidic detergent (toilet bowl cleaner) is mixed with bath salts or pesticides\n[1]",
+          "tables": []
+        },
+        "Mechanisms_of_toxicity": {
+          "text": "Highly lipid soluble\nDisrupts oxidative phosphorylation by inhibiting cytochrome oxidase aa3 (toxicity through cellular asphyxia and impairs ATP production) => lactate accumulation and metabolic acidosis\nCauses hyperpolarization of potassium-mediated channels in neurons\nPotentiates neuronal inhibitory mechanisms\nAlters brain neurotransmitter content and release",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_Information": {
+      "text": "Colorless, flammable gas\nEncountered in following industries: oil, gas, organic decomposition (sewer and manure), roofing asphalt tanks\nMost common fatal gas exposure\n“Rotten egg” smell which diminishes with high concentrations or prolonged low concentration exposure\nOften used in suicide attempts: acidic detergent (toilet bowl cleaner) is mixed with bath salts or pesticides\n[1]",
+      "subsections": {
+        "Mechanisms_of_toxicity": {
+          "text": "Highly lipid soluble\nDisrupts oxidative phosphorylation by inhibiting cytochrome oxidase aa3 (toxicity through cellular asphyxia and impairs ATP production) => lactate accumulation and metabolic acidosis\nCauses hyperpolarization of potassium-mediated channels in neurons\nPotentiates neuronal inhibitory mechanisms\nAlters brain neurotransmitter content and release",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanisms_of_toxicity": {
+      "text": "Highly lipid soluble\nDisrupts oxidative phosphorylation by inhibiting cytochrome oxidase aa3 (toxicity through cellular asphyxia and impairs ATP production) => lactate accumulation and metabolic acidosis\nCauses hyperpolarization of potassium-mediated channels in neurons\nPotentiates neuronal inhibitory mechanisms\nAlters brain neurotransmitter content and release",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Respiratory: dyspnea, cyanosis, hemoptysis, rales, delayed pulmonary edema\nOphthalmic: conjunctivitis, corneal ulceration, corneal scarring\nCentral nervous system: headache, weakness, disequilibrium, intention tremor, muscle rigidity, loss of consciousness, seizures, coma\nGastrointestinal: green-gray line on gingiva, nausea, vomiting\nCardiovascular:\nchest pain\n,\nbradycardia\nNeuropsychiatric: amnesia, lack of insight, disorientation, delirium, dementia\nDeath",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Toxic_gas_exposure": {
+      "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "No single test to verify exposure or levels\nABG Interpretation\n: metabolic acidosis and normal oxygen saturation (unless pulmonary edema present)\nElevated lactate\nDiscolored copper coins found on patient may be helpful in diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ABG Interpretation",
+          "url": "https://wikem.org/wiki/ABG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Removal from source\n100% oxygen\nHydroxocobalamin\n(Cyanokit)\n5 g over 15 min to start, followed by a second dose PRN\nIf given as early as possible, has been shown in animal models to prevent PEA\n[2]\nCobinamide\n, a vitamin B12 analog, shows promise as first line for H2S toxicity\n[3]\n[4]\nCan give nitrite component of cyanide antidote kit (do NOT give the thiosulfate portion):\nTheoretically increasing methemoglobin formation in blood will cause conversion of sulfide to sulfmethemoglonin (less toxic)\nAmyl nitrite\nSodium nitrite\n(3% NaNO2) IV over 2-4 minutes; adult dose 10 mL\nObtain methemoglobin level 30 minutes after dose (desired level < 30%)\nHyperbaric oxygen therapy (though not proven to have any benefit)\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydroxocobalamin",
+          "url": "https://wikem.org/wiki/Hydroxocobalamin"
+        },
+        {
+          "text": "Amyl nitrite",
+          "url": "https://wikem.org/wiki/Amyl_nitrite"
+        },
+        {
+          "text": "Sodium nitrite",
+          "url": "https://wikem.org/wiki/Sodium_nitrite"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission, likely to MICU\nToxicology consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

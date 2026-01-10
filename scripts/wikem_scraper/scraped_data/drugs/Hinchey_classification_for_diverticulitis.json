@@ -1,0 +1,51 @@
+{
+  "drug_name": "Hinchey_classification_for_diverticulitis",
+  "url": "https://wikem.org/wiki/Hinchey_classification_for_diverticulitis",
+  "scraped_at": "2026-01-10T07:54:49.524558",
+  "sections": {
+    "Background": {
+      "text": "Diverticulitis\ncan present with range of severities and thus need for inpatient vs outpatient management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Classifications": {
+      "text": "",
+      "subsections": {
+        "Hinchey_Classification": {
+          "text": "Based on radiographic features\nStage 1a- phlegmon\nStage 1b- diverticulitis with pericolic or mesenteric abscess\nStage 2 - diverticulitis with walled off pelvic abscess\nStage 3 - diverticulitis with generalised purulent peritonitis\nStage 4 - diverticulitis with generalised faecal peritonitis",
+          "tables": []
+        },
+        "Modified_Hinchey_Classification": {
+          "text": "0\tMild clinical diverticulitis\nIa\tConfined pericolic inflammation or phlegmon\nIb\tPericolic or mesocolic abscess\nII\tPelvic, distant intraabdominal, or retroperitoneal abscess\nIII\tGeneralized purulent peritonitis\nIV\tGeneralized fecal peritonitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hinchey_Classification": {
+      "text": "Based on radiographic features\nStage 1a- phlegmon\nStage 1b- diverticulitis with pericolic or mesenteric abscess\nStage 2 - diverticulitis with walled off pelvic abscess\nStage 3 - diverticulitis with generalised purulent peritonitis\nStage 4 - diverticulitis with generalised faecal peritonitis",
+      "subsections": {
+        "Modified_Hinchey_Classification": {
+          "text": "0\tMild clinical diverticulitis\nIa\tConfined pericolic inflammation or phlegmon\nIb\tPericolic or mesocolic abscess\nII\tPelvic, distant intraabdominal, or retroperitoneal abscess\nIII\tGeneralized purulent peritonitis\nIV\tGeneralized fecal peritonitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Modified_Hinchey_Classification": {
+      "text": "0\tMild clinical diverticulitis\nIa\tConfined pericolic inflammation or phlegmon\nIb\tPericolic or mesocolic abscess\nII\tPelvic, distant intraabdominal, or retroperitoneal abscess\nIII\tGeneralized purulent peritonitis\nIV\tGeneralized fecal peritonitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diverticulitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

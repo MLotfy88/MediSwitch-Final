@@ -1,0 +1,80 @@
+{
+  "drug_name": "High-output_heart_failure",
+  "url": "https://wikem.org/wiki/High-output_heart_failure",
+  "scraped_at": "2026-01-10T07:54:43.630154",
+  "sections": {
+    "Background": {
+      "text": "High metabolic state or shunting of blood increasing cardiac demand",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Dyspnea, fatigue,\nperipheral edema\nWarm and well-perfused extremities\nBounding pulse with wide pulse pressure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "peripheral edema",
+          "url": "https://wikem.org/wiki/Bilateral_pedal_edema"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Hyperthyroidism\nBeriberi\nHigh-output heart failure from AV fistula\nAVM\nPaget disease\nAnemia\nPregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget_disease"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Heart failure\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    }
+  }
+}

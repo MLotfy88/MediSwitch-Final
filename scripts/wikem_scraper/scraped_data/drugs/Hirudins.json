@@ -1,0 +1,60 @@
+{
+  "drug_name": "Hirudins",
+  "url": "https://wikem.org/wiki/Hirudins",
+  "scraped_at": "2026-01-10T07:54:49.578101",
+  "sections": {
+    "Background": {
+      "text": "Direct thrombin inhibitors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Drugs": {
+      "text": "Hirudin\nLepirudin\nArgatroban",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "HIT\nUnstable angina\n/\nNSTEMI\n/PCI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "NSTEMI",
+          "url": "https://wikem.org/wiki/NSTEMI"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Bleeding\nMajority of bleeding events occur at invasive sites\nNo antidote available\nMinor bleeding\nStop infusion\nMajor bleeding\nGive\nFFP\nor PCC",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life is ~2hr",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

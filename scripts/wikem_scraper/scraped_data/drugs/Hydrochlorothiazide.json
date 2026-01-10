@@ -1,0 +1,101 @@
+{
+  "drug_name": "Hydrochlorothiazide",
+  "url": "https://wikem.org/wiki/Hydrochlorothiazide",
+  "scraped_at": "2026-01-10T07:54:59.889549",
+  "sections": {
+    "General": {
+      "text": "Type:\ndiuretic\nDosage Forms: 12.5mg, 25mg, 50mg\nCommon Trade Names: Microzide, Esidrix\nCommonly abbreviated HCTZ\nMust check chem 10 before prescribing in ED",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diuretic",
+          "url": "https://wikem.org/wiki/Diuretic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Hypertension\n: 12.5 - 50 MG PO QDAY",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "< 6 months: 2-4mg/kg/day PO BID\n6 mo - 2 yo: 1-2mg/kg/day PO BID, max 37.5mg/day\n2 - 12 y/o: 1-2mg/kg/day PO qday-bid, max 100mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n:B\nLactation: probably safe\nRenal Dosing\nAdult: caution advised\nPediatric: caution advised\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAnuria\nneonatal jaundice",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "hypokalemia, severe\narrythmias\ncholestatic jaundice\npancreatitis\nsteven johnson syndrome\nrenal failure\nleukopenia",
+          "tables": []
+        },
+        "Common": {
+          "text": "hypokalemia\nhypochloremia\nhyponatremia\nhypomagnesium\nhypercalcemia\nhyperglycemia\nhyperlipidemia\ndizziness\ndiarrhea\nheadache\nmuscle cramps",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "hypokalemia, severe\narrythmias\ncholestatic jaundice\npancreatitis\nsteven johnson syndrome\nrenal failure\nleukopenia",
+      "subsections": {
+        "Common": {
+          "text": "hypokalemia\nhypochloremia\nhyponatremia\nhypomagnesium\nhypercalcemia\nhyperglycemia\nhyperlipidemia\ndizziness\ndiarrhea\nheadache\nmuscle cramps",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "hypokalemia\nhypochloremia\nhyponatremia\nhypomagnesium\nhypercalcemia\nhyperglycemia\nhyperlipidemia\ndizziness\ndiarrhea\nheadache\nmuscle cramps",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5.6 - 14.8 hours\nMetabolism: none\nExcretion: urine\nMechanism of Action: inhibits distal convoluted tubule sodium and chloride resorption",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antihypertensives",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihypertensives",
+          "url": "https://wikem.org/wiki/Antihypertensives"
+        }
+      ]
+    }
+  }
+}

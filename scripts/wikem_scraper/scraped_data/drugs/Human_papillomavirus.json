@@ -1,0 +1,276 @@
+{
+  "drug_name": "Human_papillomavirus",
+  "url": "https://wikem.org/wiki/Human_papillomavirus",
+  "scraped_at": "2026-01-10T07:54:54.953011",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: HPV\nMost common\nSTI\nin US.\nOver 200 HPV types, with 40 that infect the genital mucosa\n[1]\nAssociated with cervical, vulvar, penile, anal and oropharyngeal cancer.\nVaccine available for adolescents 11 and older, and immunocompromised patients.",
+      "subsections": {
+        "HPV_Types_and_Associated_Disease_Entities": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Disease": "Commonwarts",
+                "HPV type": "2, 7, 22"
+              },
+              {
+                "Disease": "Plantar warts",
+                "HPV type": "1, 2, 4, 63"
+              },
+              {
+                "Disease": "Verruca plana (flat)",
+                "HPV type": "3, 10, 28"
+              },
+              {
+                "Disease": "Condyloma acuminata(anogenital)",
+                "HPV type": "6, 11, 42, 44 and others"
+              },
+              {
+                "Disease": "Anal dysplasia (lesions)",
+                "HPV type": "6, 16, 18, 31, 53, 58"
+              },
+              {
+                "Disease": "Genital cancers",
+                "HPV type": "Highest risk: 16, 18, 31, 45Other high-risk: 33, 35, 39, 51, 52, 56, 58, 59Probably high-risk: 26, 53, 66, 68, 73, 82"
+              },
+              {
+                "Disease": "Epidermodysplasia verruciformis",
+                "HPV type": "more than 15 types"
+              },
+              {
+                "Disease": "Focal epithelial hyperplasia (mouth)",
+                "HPV type": "13, 32"
+              },
+              {
+                "Disease": "Mouth papillomas",
+                "HPV type": "6, 7, 11, 16, 32"
+              },
+              {
+                "Disease": "Oropharyngeal cancer",
+                "HPV type": "16"
+              },
+              {
+                "Disease": "Verrucous cyst",
+                "HPV type": "60"
+              },
+              {
+                "Disease": "Laryngeal papillomatosis",
+                "HPV type": "6, 11"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        }
+      ]
+    },
+    "HPV_Types_and_Associated_Disease_Entities": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Disease": "Commonwarts",
+            "HPV type": "2, 7, 22"
+          },
+          {
+            "Disease": "Plantar warts",
+            "HPV type": "1, 2, 4, 63"
+          },
+          {
+            "Disease": "Verruca plana (flat)",
+            "HPV type": "3, 10, 28"
+          },
+          {
+            "Disease": "Condyloma acuminata(anogenital)",
+            "HPV type": "6, 11, 42, 44 and others"
+          },
+          {
+            "Disease": "Anal dysplasia (lesions)",
+            "HPV type": "6, 16, 18, 31, 53, 58"
+          },
+          {
+            "Disease": "Genital cancers",
+            "HPV type": "Highest risk: 16, 18, 31, 45Other high-risk: 33, 35, 39, 51, 52, 56, 58, 59Probably high-risk: 26, 53, 66, 68, 73, 82"
+          },
+          {
+            "Disease": "Epidermodysplasia verruciformis",
+            "HPV type": "more than 15 types"
+          },
+          {
+            "Disease": "Focal epithelial hyperplasia (mouth)",
+            "HPV type": "13, 32"
+          },
+          {
+            "Disease": "Mouth papillomas",
+            "HPV type": "6, 7, 11, 16, 32"
+          },
+          {
+            "Disease": "Oropharyngeal cancer",
+            "HPV type": "16"
+          },
+          {
+            "Disease": "Verrucous cyst",
+            "HPV type": "60"
+          },
+          {
+            "Disease": "Laryngeal papillomatosis",
+            "HPV type": "6, 11"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Most infections asymptomatic\nAnogenital warts (\nCondyloma acuminata\n)\npainless flesh-colored papules or cauliflower-like projections\nContagious via skin contact\nCervical cancer",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sexually_transmitted_diseases": {
+          "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Sexually_transmitted_diseases": {
+      "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nPap smear for cervical lesions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Safe-sex counseling (HPV-2)\nFor genital warts can use:\nPodofilox\nImiquimod\nCryotherapy\nTrichloroacetic acid\nSurgical removal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sexually Transmitted Diseases (STD)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sexually Transmitted Diseases (STD)",
+          "url": "https://wikem.org/wiki/Sexually_Transmitted_Diseases_(STD)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "http://www.cdc.gov/std/hpv/stdfact-hpv.htm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

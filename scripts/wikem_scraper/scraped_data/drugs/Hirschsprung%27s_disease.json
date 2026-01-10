@@ -1,0 +1,134 @@
+{
+  "drug_name": "Hirschsprung%27s_disease",
+  "url": "https://wikem.org/wiki/Hirschsprung%27s_disease",
+  "scraped_at": "2026-01-10T07:54:55.824511",
+  "sections": {
+    "Background": {
+      "text": "Congenital aganglionosis of colon\nUsually affects rectosigmoid area\nShort segment affects rectum and small amount of distal colon\nLong segment affects more of colon, proximal intestine\nRarely involves more proximal intestine\n30% associated with a syndrome\n1:5,000 live births",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Delayed meconium passage after birth\n80% present within first month of life\nMay have delayed presentation in milder disease\nChronic\nconstipation\nEncopresis\nRectal prolapse\nObstruction\nsymptoms\nNeonatal\ntoxic megacolon\nmay occur\nDistended abdomen,\nbilious vomiting\n, enterocolitis\nEnterocolitis\nDiarrhea\n,\nrectal bleeding\n, abdominal distention,\nfever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infant_Constipation": {
+          "text": "Constipation\nHirschsprung's disease\nCongenital anorectal malformations\nImperforate anus\nBowel obstruction\nNeurologic disorders\nEncephalopathy\nSpinal cord abnormalities: myelomeningocele, spina bifida, tethered cord\nMeconium ileus\nCystic fibrosis\nMetabolic causes\nHypothyroidism\nHypercalcemia\nHypokalemia\nDiabetes insipidus\nHeavy-metal poisoning\nMedication side effects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Heavy-metal poisoning",
+          "url": "https://wikem.org/wiki/Heavy-metal_poisoning"
+        }
+      ]
+    },
+    "Infant_Constipation": {
+      "text": "Constipation\nHirschsprung's disease\nCongenital anorectal malformations\nImperforate anus\nBowel obstruction\nNeurologic disorders\nEncephalopathy\nSpinal cord abnormalities: myelomeningocele, spina bifida, tethered cord\nMeconium ileus\nCystic fibrosis\nMetabolic causes\nHypothyroidism\nHypercalcemia\nHypokalemia\nDiabetes insipidus\nHeavy-metal poisoning\nMedication side effects",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Heavy-metal poisoning",
+          "url": "https://wikem.org/wiki/Heavy-metal_poisoning"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "KUB\ndistended colon, empty rectum\nEnterocolitis: distention, bowel wall thickening\nObstruction: air fluid levels\nBarium/contrast enema will show narrowed colon and dilated intestine above\nSensitivity 70% and specificity of 83%\nDiagnosis requires rectal biopsy (consult GI)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consult pediatric surgeon for operative management\nED management may include gastric and rectal decompression\nTreat enterocolitis with broad spectrum\nantibiotics\nSupportive fluid and electrolyte replacement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptoms of obstruction, enterocolitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Constipation (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

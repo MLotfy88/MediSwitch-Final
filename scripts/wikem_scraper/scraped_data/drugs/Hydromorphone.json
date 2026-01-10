@@ -1,0 +1,126 @@
+{
+  "drug_name": "Hydromorphone",
+  "url": "https://wikem.org/wiki/Hydromorphone",
+  "scraped_at": "2026-01-10T07:55:02.487984",
+  "sections": {
+    "General": {
+      "text": "Type:\nOpioids\nDosage Forms: PO, SC, IM, IV, PR, PCA\nCommon Trade Names: Dilaudid, Exalgo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Severe_Pain": {
+          "text": "Oral: 2-4mg PO q4-6h PRN\nIV: 0.2-1mg IV q2-3h PRN\nIM: 1-2mg IM q2-3h PRN (not recommended secondary to variable absorption)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Severe_Pain": {
+      "text": "Oral: 2-4mg PO q4-6h PRN\nIV: 0.2-1mg IV q2-3h PRN\nIM: 1-2mg IM q2-3h PRN (not recommended secondary to variable absorption)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Severe_Pain_2": {
+          "text": "> 6 months, > 50 kg: 0.5 - 2mg PO/SC/IM/IV q3-6h.\nAlternatively: 15-20 mcg/kg q3-6h.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Severe_Pain_2": {
+      "text": "> 6 months, > 50 kg: 0.5 - 2mg PO/SC/IM/IV q3-6h.\nAlternatively: 15-20 mcg/kg q3-6h.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation Risk Categories\n: probably safe\nRenal Dosing\nAdult: mod-severe impairment: decrease start dose, amount not defined\nPediatric: mod-severe impairment: decrease start dose, amount not defined\nHepatic Dosing\nAdult: Child-pugh class B: decrease start dose 50-75%\nPediatric: Child-pugh class B:decrease start dose 50-75%",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation Risk Categories",
+          "url": "https://wikem.org/wiki/Lactation_Risk_Categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nRespiratory depression\nCNS depression\nMAO inhibitor use in prior 2 weeks\nGI obstruction or ileus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CNS depression",
+          "url": "https://wikem.org/wiki/CNS_depression"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Respiratory Depression\nApnea\nHypotension\nSyncope\nBradycardia\nUrinary retention\nSeizures\nAnaphylaxis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea\nRash\nHeadache\nFatigue\nxerostomia\nconstipation\nTremor\nurinary retention",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Respiratory Depression\nApnea\nHypotension\nSyncope\nBradycardia\nUrinary retention\nSeizures\nAnaphylaxis",
+      "subsections": {
+        "Common": {
+          "text": "Nausea\nRash\nHeadache\nFatigue\nxerostomia\nconstipation\nTremor\nurinary retention",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea\nRash\nHeadache\nFatigue\nxerostomia\nconstipation\nTremor\nurinary retention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.3 hour\nMetabolism: Liver\nExcretion: urine\nMechanism of Action:binds to various opioid receptors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

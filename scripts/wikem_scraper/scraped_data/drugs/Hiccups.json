@@ -1,0 +1,65 @@
+{
+  "drug_name": "Hiccups",
+  "url": "https://wikem.org/wiki/Hiccups",
+  "scraped_at": "2026-01-10T07:54:45.727003",
+  "sections": {
+    "Background": {
+      "text": "Usually initiated by gastric distention from food, carbonated beverage, or air\nAlso known as Singultus",
+      "subsections": {
+        "Definitions": {
+          "text": "Hiccup bout: <48 hours\nPersistent hiccups: 48 hours to 1 month\nIntractable hiccups: >1 month",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Definitions": {
+      "text": "Hiccup bout: <48 hours\nPersistent hiccups: 48 hours to 1 month\nIntractable hiccups: >1 month",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Hiccups",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hiccups": {
+          "text": "Central nervous system disorders\nVascular\nIschemic/hemorrhagic\nstroke\nAV malformations\nTemporal arteritis\nInfections\nEncephalitis\nMeningitis\nBrain abscess\nNeurosyphilis\nSubphrenic abscess\nStructural\nHead trauma\nIntracranial neoplasm\nBrainstem neoplasms\nMultiple sclerosis\nSyringomyelia\nHydrocephalus\nVagus and phrenic nerve irritation\nGoiter\nPharyngitis\nLaryngitis\nHair or foreign body irritation of tympanic membrane\nNeck cyst or other tumor\nGastrointestinal disorders\nGastric distention\nGastritis\nPeptic ulcer disease\nPancreatitis\nPancreatic cancer\nGastric carcinoma\nAbdominal abscesses\nGallbladder disease\nInflammatory bowel disease\nHepatitis\nAerophagia\nEsophageal distention\nEsophagitis\nBowel obstruction\nThoracic disorders\nEnlarged lymph nodes secondary to infection or neoplasm\nPneumonia\nEmpyema\nBronchitis\nAsthma\nPleuritis\nAortic dissection\nMediastinitis\nMediastinal tumors\nChest trauma\nPulmonary embolism\nCardiovascular disorders\nMyocardial infarction\nPericarditis\nToxic-metabolic\nAlcohol intoxication\nDiabetes mellitus\nHerpes zoster\nHypocalcemia\nHypocapnia\nHyponatremia\nInfluenza\nMalaria\nTuberculosis\nUremia\nPostoperative\nGeneral anesthesia\nIntubation\n(stimulation of glottis)\nNeck extension (stretching phrenic nerve roots)\nGastric distention\nTraction on viscera\nDrugs\nAlpha methyldopa\nShort-acting\nbarbiturates\nChemotherapeutic agents (eg, carboplatin)\nDexamethasone\nDiazepam\nPsychogenic\nAnorexia nervosa\nConversion reaction\nExcitement\nMalingering\nSchizophrenia\nStress",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hiccups": {
+      "text": "Central nervous system disorders\nVascular\nIschemic/hemorrhagic\nstroke\nAV malformations\nTemporal arteritis\nInfections\nEncephalitis\nMeningitis\nBrain abscess\nNeurosyphilis\nSubphrenic abscess\nStructural\nHead trauma\nIntracranial neoplasm\nBrainstem neoplasms\nMultiple sclerosis\nSyringomyelia\nHydrocephalus\nVagus and phrenic nerve irritation\nGoiter\nPharyngitis\nLaryngitis\nHair or foreign body irritation of tympanic membrane\nNeck cyst or other tumor\nGastrointestinal disorders\nGastric distention\nGastritis\nPeptic ulcer disease\nPancreatitis\nPancreatic cancer\nGastric carcinoma\nAbdominal abscesses\nGallbladder disease\nInflammatory bowel disease\nHepatitis\nAerophagia\nEsophageal distention\nEsophagitis\nBowel obstruction\nThoracic disorders\nEnlarged lymph nodes secondary to infection or neoplasm\nPneumonia\nEmpyema\nBronchitis\nAsthma\nPleuritis\nAortic dissection\nMediastinitis\nMediastinal tumors\nChest trauma\nPulmonary embolism\nCardiovascular disorders\nMyocardial infarction\nPericarditis\nToxic-metabolic\nAlcohol intoxication\nDiabetes mellitus\nHerpes zoster\nHypocalcemia\nHypocapnia\nHyponatremia\nInfluenza\nMalaria\nTuberculosis\nUremia\nPostoperative\nGeneral anesthesia\nIntubation\n(stimulation of glottis)\nNeck extension (stretching phrenic nerve roots)\nGastric distention\nTraction on viscera\nDrugs\nAlpha methyldopa\nShort-acting\nbarbiturates\nChemotherapeutic agents (eg, carboplatin)\nDexamethasone\nDiazepam\nPsychogenic\nAnorexia nervosa\nConversion reaction\nExcitement\nMalingering\nSchizophrenia\nStress",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nConsider auditory canal exam (foreign body against TM can trigger hiccups)\nConsider\nHyponatremia\nand\nHypocalcemia\nConsider\nCXR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Physical Maneuvers (stimulating pharynx blocks the vagal portion of the reflex arc)\nRemove\nforeign body\nfrom ear\nSwallow teaspoon of sugar\nSip ice water\nDrink water quickly\nMeds\nChlorpromazine\n25–50mg IV; 25–50mg PO TID\nMetoclopramide\n10mg IV or IM; 10–20mg PO TID x 10d\nInitiating pharmacologic treatment with a\nproton pump inhibitor\n. Alternative first-line agents include\nbaclofen\n,\ngabapentin\n, and\nmetoclopramide\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge for uncomplicated hiccups",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

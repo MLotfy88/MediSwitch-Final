@@ -1,0 +1,175 @@
+{
+  "drug_name": "Hydrops_fetalis",
+  "url": "https://wikem.org/wiki/Hydrops_fetalis",
+  "scraped_at": "2026-01-10T07:55:02.023534",
+  "sections": {
+    "Background": {
+      "text": "Accumulation of edema in at least two fetal compartments\nUsually stems from fetal anemia\nImmune vs Non-Immune",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Occurs during gestation, may be maternally asymptomatic or present as\nspontaneous abortion\n, or patient (mother) may have sings/symptoms of pathology that caused hydrops\nFetal/neonatal edema is typically located in:\nSubcutaneous tissue/scalp\nPleura (\npleural effusion\n)\nPericardium (\npericardial effusion\n)\nAbdomen (\nascites\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Spontaneous abortions\nPoor fetal outcomes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "",
+      "subsections": {
+        "Immune": {
+          "text": "Rh disease\nRhD-negative mothers during pregnancy and/or within 72 hours of the delivery\nOR\nvaginal bleeding\nPrevention with administration of anti-D IgG (\nRho(D) Immune Globulin\n) injections",
+          "tables": []
+        },
+        "Non-Immune": {
+          "text": "Iron deficiency\nanemia\nParvovirus B19\n(Fifth's Disease)\nCMV\nSyphilis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rho(D) Immune Globulin",
+          "url": "https://wikem.org/wiki/Rho(D)_Immune_Globulin"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Immune": {
+      "text": "Rh disease\nRhD-negative mothers during pregnancy and/or within 72 hours of the delivery\nOR\nvaginal bleeding\nPrevention with administration of anti-D IgG (\nRho(D) Immune Globulin\n) injections",
+      "subsections": {
+        "Non-Immune": {
+          "text": "Iron deficiency\nanemia\nParvovirus B19\n(Fifth's Disease)\nCMV\nSyphilis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rho(D) Immune Globulin",
+          "url": "https://wikem.org/wiki/Rho(D)_Immune_Globulin"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Non-Immune": {
+      "text": "Iron deficiency\nanemia\nParvovirus B19\n(Fifth's Disease)\nCMV\nSyphilis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Ultrasound\nscreening",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "OBGYN Consultation/Referral\nRh Status\nIron for all pregnant women",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Also_See": {
+      "text": "Erythema Infectiosum (Fifth disease)\nKawasaki Disease\nRho(D) Immune Globulin (RhoGAM)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema Infectiosum (Fifth disease)",
+          "url": "https://wikem.org/wiki/Erythema_Infectiosum_(Fifth_disease)"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Rho(D) Immune Globulin (RhoGAM)",
+          "url": "https://wikem.org/wiki/Rho(D)_Immune_Globulin_(RhoGAM)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Uptodate\nBellini C, Hennekam RC. Non-immune hydrops fetalis: a short review of etiology and pathophysiology. Am J Med Genet A 2012; 158A:597.\nHaile-Mariam T, Polis MA: Viral Illnesses, in Marx JA, Hockberger RS, Walls RM, et al (eds): Emergency Medicine: Concepts and Clinical Practice, ed. 7. St. Louis, Mosby, Inc., 2010, (Ch) 128: p.1712.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

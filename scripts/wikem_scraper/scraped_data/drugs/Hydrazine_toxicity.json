@@ -1,0 +1,715 @@
+{
+  "drug_name": "Hydrazine_toxicity",
+  "url": "https://wikem.org/wiki/Hydrazine_toxicity",
+  "scraped_at": "2026-01-10T07:54:57.554303",
+  "sections": {
+    "Background": {
+      "text": "Clear, colorless liquid that has an ammonia-like odor\nPowerful reducing agent that is highly reactive\nExposure to metal oxides makes it highly exothermic and combustible\nUsed in rocket fuels, missile fuels, aircraft emergency power unit fuel (notably the F-16)\nUsed in chemical manufacturing (intermediate for insecticides/herbicides/dyes, polymerization catalyst for making plastics, used to manufacture sodium azide [air bag propellant], used to make isoniazid and fluconazole\nHydrazine is used as a propellant in the International Space Station",
+      "subsections": {
+        "Toxic_Dose": {
+          "text": "OSHA limit 1 ppm in air for 8-hour workday\nNIOSH recommends 0.03 ppm in air for 2-hour period\nOdor threshold 3.7 ppm in air",
+          "tables": []
+        },
+        "Routes_of_Exposure": {
+          "text": "Inhalation\nSkin contact / absorption (rapid within 30 seconds of contact)\nIngestion",
+          "tables": []
+        },
+        "Mechanism_of_Action": {
+          "text": "Hydrazine + ketone/aldehyde = hydrazones + B6 = hydrazones of pryidoxine\n\"consumes\" B6 in body\nfunctional B6 deficiency results\nMetabolism of hydrazine produces free radical intermediates\nInhibits pyridoxine kinase as well as glutamic acid decarboxylase which results in decrease production of GABA neurotransmitter",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxic_Dose": {
+      "text": "OSHA limit 1 ppm in air for 8-hour workday\nNIOSH recommends 0.03 ppm in air for 2-hour period\nOdor threshold 3.7 ppm in air",
+      "subsections": {
+        "Routes_of_Exposure": {
+          "text": "Inhalation\nSkin contact / absorption (rapid within 30 seconds of contact)\nIngestion",
+          "tables": []
+        },
+        "Mechanism_of_Action": {
+          "text": "Hydrazine + ketone/aldehyde = hydrazones + B6 = hydrazones of pryidoxine\n\"consumes\" B6 in body\nfunctional B6 deficiency results\nMetabolism of hydrazine produces free radical intermediates\nInhibits pyridoxine kinase as well as glutamic acid decarboxylase which results in decrease production of GABA neurotransmitter",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Routes_of_Exposure": {
+      "text": "Inhalation\nSkin contact / absorption (rapid within 30 seconds of contact)\nIngestion",
+      "subsections": {
+        "Mechanism_of_Action": {
+          "text": "Hydrazine + ketone/aldehyde = hydrazones + B6 = hydrazones of pryidoxine\n\"consumes\" B6 in body\nfunctional B6 deficiency results\nMetabolism of hydrazine produces free radical intermediates\nInhibits pyridoxine kinase as well as glutamic acid decarboxylase which results in decrease production of GABA neurotransmitter",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Hydrazine + ketone/aldehyde = hydrazones + B6 = hydrazones of pryidoxine\n\"consumes\" B6 in body\nfunctional B6 deficiency results\nMetabolism of hydrazine produces free radical intermediates\nInhibits pyridoxine kinase as well as glutamic acid decarboxylase which results in decrease production of GABA neurotransmitter",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Short term inhalation exposure may cause:\nCough\n, oropharyngeal/pulmonary irritation\nPulmonary edema\nCNS Depression\n,\nseizure\n,\ntremor\nLong term inhalation exposure:\nAbove, plus may cause\nliver\nand\nkidney damage\nIngestion\nNausea/vomiting\nUncontrollable shaking,\nseizure\n, nerve inflammation/polyneuritis,\ncoma\nContact exposure\nDermatitis\n,\nchemical burns\nIf absorbed systemically, can ->\nhemolytic anemia\n,\nmethemoglobinemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "CNS Depression",
+          "url": "https://wikem.org/wiki/CNS_Depression"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "liver",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "kidney damage",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Space_medicine": {
+          "text": "Anemia of spaceflight\nContact dermatitis of spaceflight\nGeneral physics of spaceflight\nHEENT\nAcoustics and noise\nBarotrauma\nEar infections (Otitis Media)\nDental barotrauma\nInner ear dysfunction\nOcular foreign body (microgravity)\nSinus infection\nTaste reduction\nImmunology in spaceflight\nCytokines and immune function\nInfectious disease\nHypersensitivity and allergic reactions\nViral reactivation\nInterpersonal conflicts in spaceflight\nMusculoskeletal effects of spaceflight\nBone loss\nMuscle loss\nSpinal decompression\nTrauma\nPulmonary disorders of spaceflight\nEbullism syndrome\nHyperoxia\nHypercarbia\nHypoxia\nParticulate exposure\nToxic exposure\nAirborne carcinogens\nAmmonia\nCarbon dioxide\nCarbon monoxide\nFormaldehyde\nFreons\nHypergolic propellant\nHydrazine toxicity\nNitrogen tetroxide toxicity\nSulfurous compounds\nRadiation exposure\nSinus congestion (Rhinitis) in spaceflight\nSinus infection (Acute rhinosinusitis) in spaceflight\nSleep disorders of spaceflight\nSpace adaptation syndrome\nSpace dentistry\nSpace motion sickness\nSpaceflight headache\nSpaceflight genitourinary\nKidney stones (Nephrolithiasis)\nTesticular torsion\nUrinary retention/incontinence\nUrinary tract infection",
+          "tables": []
+        },
+        "Inhalation_injury": {
+          "text": "Unintentional\nSmoke inhalation injury\nCyanide\nCarbon monoxide\nChloramine\nHydrocarbons\nSewer gas\nHydrogen Sulfide\nAmmonia toxicity\nMethane\nCarbon monoxide\nHydrazine toxicity\nNitrogen tetroxide\nMetal fume fever\nTerrorism\nPulmonary chemical agents\nAmmonia\nMethyl isocyanate\nmethyl bromide\nHydrochloric acid\nChlorine\nPhosgene\nBioterrorism\nAnthrax\nSmallpox\nPlague\nTularemia\nBotulinum toxin\nViral hemorrhagic fever\nRicin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia of spaceflight",
+          "url": "https://wikem.org/wiki/Anemia_of_spaceflight"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Ocular foreign body (microgravity)",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body_(microgravity)"
+        },
+        {
+          "text": "Interpersonal conflicts in spaceflight",
+          "url": "https://wikem.org/wiki/Interpersonal_conflicts_in_spaceflight"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pulmonary disorders of spaceflight",
+          "url": "https://wikem.org/wiki/Pulmonary_disorders_of_spaceflight"
+        },
+        {
+          "text": "Ebullism syndrome",
+          "url": "https://wikem.org/wiki/Ebullism_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Nitrogen tetroxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide_toxicity"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Space dentistry",
+          "url": "https://wikem.org/wiki/Space_dentistry"
+        },
+        {
+          "text": "Space motion sickness",
+          "url": "https://wikem.org/wiki/Space_motion_sickness"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Chloramine",
+          "url": "https://wikem.org/wiki/Chloramine"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methane",
+          "url": "https://wikem.org/wiki/Methane"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Nitrogen tetroxide",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide"
+        },
+        {
+          "text": "Metal fume fever",
+          "url": "https://wikem.org/wiki/Metal_fume_fever"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        }
+      ]
+    },
+    "Space_medicine": {
+      "text": "Anemia of spaceflight\nContact dermatitis of spaceflight\nGeneral physics of spaceflight\nHEENT\nAcoustics and noise\nBarotrauma\nEar infections (Otitis Media)\nDental barotrauma\nInner ear dysfunction\nOcular foreign body (microgravity)\nSinus infection\nTaste reduction\nImmunology in spaceflight\nCytokines and immune function\nInfectious disease\nHypersensitivity and allergic reactions\nViral reactivation\nInterpersonal conflicts in spaceflight\nMusculoskeletal effects of spaceflight\nBone loss\nMuscle loss\nSpinal decompression\nTrauma\nPulmonary disorders of spaceflight\nEbullism syndrome\nHyperoxia\nHypercarbia\nHypoxia\nParticulate exposure\nToxic exposure\nAirborne carcinogens\nAmmonia\nCarbon dioxide\nCarbon monoxide\nFormaldehyde\nFreons\nHypergolic propellant\nHydrazine toxicity\nNitrogen tetroxide toxicity\nSulfurous compounds\nRadiation exposure\nSinus congestion (Rhinitis) in spaceflight\nSinus infection (Acute rhinosinusitis) in spaceflight\nSleep disorders of spaceflight\nSpace adaptation syndrome\nSpace dentistry\nSpace motion sickness\nSpaceflight headache\nSpaceflight genitourinary\nKidney stones (Nephrolithiasis)\nTesticular torsion\nUrinary retention/incontinence\nUrinary tract infection",
+      "subsections": {
+        "Inhalation_injury": {
+          "text": "Unintentional\nSmoke inhalation injury\nCyanide\nCarbon monoxide\nChloramine\nHydrocarbons\nSewer gas\nHydrogen Sulfide\nAmmonia toxicity\nMethane\nCarbon monoxide\nHydrazine toxicity\nNitrogen tetroxide\nMetal fume fever\nTerrorism\nPulmonary chemical agents\nAmmonia\nMethyl isocyanate\nmethyl bromide\nHydrochloric acid\nChlorine\nPhosgene\nBioterrorism\nAnthrax\nSmallpox\nPlague\nTularemia\nBotulinum toxin\nViral hemorrhagic fever\nRicin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia of spaceflight",
+          "url": "https://wikem.org/wiki/Anemia_of_spaceflight"
+        },
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Ocular foreign body (microgravity)",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body_(microgravity)"
+        },
+        {
+          "text": "Interpersonal conflicts in spaceflight",
+          "url": "https://wikem.org/wiki/Interpersonal_conflicts_in_spaceflight"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pulmonary disorders of spaceflight",
+          "url": "https://wikem.org/wiki/Pulmonary_disorders_of_spaceflight"
+        },
+        {
+          "text": "Ebullism syndrome",
+          "url": "https://wikem.org/wiki/Ebullism_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Nitrogen tetroxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide_toxicity"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Space dentistry",
+          "url": "https://wikem.org/wiki/Space_dentistry"
+        },
+        {
+          "text": "Space motion sickness",
+          "url": "https://wikem.org/wiki/Space_motion_sickness"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Chloramine",
+          "url": "https://wikem.org/wiki/Chloramine"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methane",
+          "url": "https://wikem.org/wiki/Methane"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Nitrogen tetroxide",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide"
+        },
+        {
+          "text": "Metal fume fever",
+          "url": "https://wikem.org/wiki/Metal_fume_fever"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        }
+      ]
+    },
+    "Inhalation_injury": {
+      "text": "Unintentional\nSmoke inhalation injury\nCyanide\nCarbon monoxide\nChloramine\nHydrocarbons\nSewer gas\nHydrogen Sulfide\nAmmonia toxicity\nMethane\nCarbon monoxide\nHydrazine toxicity\nNitrogen tetroxide\nMetal fume fever\nTerrorism\nPulmonary chemical agents\nAmmonia\nMethyl isocyanate\nmethyl bromide\nHydrochloric acid\nChlorine\nPhosgene\nBioterrorism\nAnthrax\nSmallpox\nPlague\nTularemia\nBotulinum toxin\nViral hemorrhagic fever\nRicin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Chloramine",
+          "url": "https://wikem.org/wiki/Chloramine"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methane",
+          "url": "https://wikem.org/wiki/Methane"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Nitrogen tetroxide",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide"
+        },
+        {
+          "text": "Metal fume fever",
+          "url": "https://wikem.org/wiki/Metal_fume_fever"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "BMP\nLFTs\nCBC\nUA\nVBG\n, MetHb\nLactate\nCXR\nif inhalational exposure or pulmonary symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Mild_to_Moderate_Exposure": {
+          "text": "Ensure patient has been decontaminated\nIrrigate eyes with normal saline or water if exposed\nTreat\nchemical burns\nif present\nMonitor pulmonary status\nMonitor for development of\nmethemoglobinemia",
+          "tables": []
+        },
+        "Severe_Exposure": {
+          "text": "Seizures\n-\npyridoxine\n25 mg/kg IM or IV up to 5 grams plus\nbenzodiazepine\nRespiratory distress - secure airway and assist ventilation\nMethemoglobinemia\n- initiate oxygen therapy, give methylene blue if patient is symptomatic; Methylene blue dose 1 mg/kg IV over 5 to 30 minutes repeat dose may be given 1 hour after first if symptoms persist\nConsider\nhemodialysis\nand acidification of urine if member has severe CNS depression\nHypoglycemia\ntreat with D10 and\nthiamine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        }
+      ]
+    },
+    "Mild_to_Moderate_Exposure": {
+      "text": "Ensure patient has been decontaminated\nIrrigate eyes with normal saline or water if exposed\nTreat\nchemical burns\nif present\nMonitor pulmonary status\nMonitor for development of\nmethemoglobinemia",
+      "subsections": {
+        "Severe_Exposure": {
+          "text": "Seizures\n-\npyridoxine\n25 mg/kg IM or IV up to 5 grams plus\nbenzodiazepine\nRespiratory distress - secure airway and assist ventilation\nMethemoglobinemia\n- initiate oxygen therapy, give methylene blue if patient is symptomatic; Methylene blue dose 1 mg/kg IV over 5 to 30 minutes repeat dose may be given 1 hour after first if symptoms persist\nConsider\nhemodialysis\nand acidification of urine if member has severe CNS depression\nHypoglycemia\ntreat with D10 and\nthiamine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        }
+      ]
+    },
+    "Severe_Exposure": {
+      "text": "Seizures\n-\npyridoxine\n25 mg/kg IM or IV up to 5 grams plus\nbenzodiazepine\nRespiratory distress - secure airway and assist ventilation\nMethemoglobinemia\n- initiate oxygen therapy, give methylene blue if patient is symptomatic; Methylene blue dose 1 mg/kg IV over 5 to 30 minutes repeat dose may be given 1 hour after first if symptoms persist\nConsider\nhemodialysis\nand acidification of urine if member has severe CNS depression\nHypoglycemia\ntreat with D10 and\nthiamine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Home in cases of mild skin exposure without burns\nObservation for patients with inhalation or ingestion exposure for at least 12 hours to ensure no serious symptoms develop\nAdmit patients with CNS symptoms or persistent pulmonary/gastrointestinal symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pyridoxine\nMethylene blue",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        }
+      ]
+    }
+  }
+}

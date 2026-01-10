@@ -1,0 +1,80 @@
+{
+  "drug_name": "Hydralazine",
+  "url": "https://wikem.org/wiki/Hydralazine",
+  "scraped_at": "2026-01-10T07:54:55.855228",
+  "sections": {
+    "General": {
+      "text": "Type: Vasodilator\nDosage Forms: 10, 25, 50, 100; PO, IM, IV\nCommon Trade Names: Apresoline",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "hypertension: 10 - 50mg PO QID\nHypertensive crisis: 10-20mg IM/IV q2-4h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Hypertensive Crisis:\n1 mo - 12 years: 0.1 - 0.5mg/kg IM/IV q4-6h, max dose of 20mg\n> 12 years old: 10 - 20mg IV q2-4h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Probably Safe\nRenal Dosing\nAdult: CrCl 10-50: give q8h, CrCl <10, give q8-16h\nPediatric: CrCl 10-50: give q8h, CrCl <10, give q8-16h\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nmitral valvular rheumatic heart disease\nCaution if renal impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "MI\nneutropenia\nlupus erythematosus (SLE)\nperipheral neuritis",
+          "tables": []
+        },
+        "Common": {
+          "text": "headache\ntachycardia\nangina\nnausea/vomiting\nrash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "MI\nneutropenia\nlupus erythematosus (SLE)\nperipheral neuritis",
+      "subsections": {
+        "Common": {
+          "text": "headache\ntachycardia\nangina\nnausea/vomiting\nrash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "headache\ntachycardia\nangina\nnausea/vomiting\nrash",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3-7 hours\nMetabolism: liver\nExcretion: urine, feces\nMechanism of Action: directly dilates peripheral vessels",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

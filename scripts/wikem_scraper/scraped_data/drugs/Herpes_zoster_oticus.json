@@ -1,0 +1,605 @@
+{
+  "drug_name": "Herpes_zoster_oticus",
+  "url": "https://wikem.org/wiki/Herpes_zoster_oticus",
+  "scraped_at": "2026-01-10T07:54:44.219172",
+  "sections": {
+    "Background": {
+      "text": "Also know as \"Ramsay Hunt syndrome\"\nAcute peripheral facial neuropathy associated with erythematous vesicular rash of the skin of the ear canal, auricle, or mucous membrane of the oropharynx\nAssociated facial paralysis usually involving\nCN VII\nbut may involve\nCN VIII\ngeniculate ganglion: movements of the facial muscles, sensation of parts of the ear and ear canal, taste function of the tongue, and lubrication of the eyes and oral mucosa\nvestibulocochlear nerve is close to the geniculate ganglion, patients may complain of tinnitus, hearing loss, and vertigo\nCaused by\nherpes zoster",
+      "subsections": {
+        "Herpes_Virus_Types": {
+          "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CN VII",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "CN VIII",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        }
+      ]
+    },
+    "Herpes_Virus_Types": {
+      "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "URI\nsymptoms common for 1-3 days prior\nParoxysmal\npain\ndeep within ear: radiates outward into the pinna of the ear\n[1]\nUsually precedes the rash by several hours and even days\nErythema and Swelling of auricle\nVesicles within external ear canal and on auricle\nFacial pain\nDevelop over 3-7 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "pain",
+          "url": "https://wikem.org/wiki/Earache"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Facial_paralysis": {
+          "text": "Bell's palsy\nCVA\nTrigeminal neuralgia\nTick paralysis\nLyme disease\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nCNS tumor\nAcoustic neuroma or other cerebellopontine angle lesions\nMeningioma\nCerebellar pontine angle\nFacial nerve schwannoma\nParotid\nSarcoma\nAnesthesia nerve blocks\nCerebral Aneurysms (vertebral, basilar, or carotid)",
+          "tables": []
+        },
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        },
+        "Varicella_zoster_virus": {
+          "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bell's palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_palsy"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumor"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        }
+      ]
+    },
+    "Facial_paralysis": {
+      "text": "Bell's palsy\nCVA\nTrigeminal neuralgia\nTick paralysis\nLyme disease\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nCNS tumor\nAcoustic neuroma or other cerebellopontine angle lesions\nMeningioma\nCerebellar pontine angle\nFacial nerve schwannoma\nParotid\nSarcoma\nAnesthesia nerve blocks\nCerebral Aneurysms (vertebral, basilar, or carotid)",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        },
+        "Varicella_zoster_virus": {
+          "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bell's palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_palsy"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumor"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        }
+      ]
+    },
+    "Ear_Diagnoses": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        },
+        "Varicella_zoster_virus": {
+          "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        }
+      ]
+    },
+    "Varicella_zoster_virus": {
+      "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Otoscopy\nNeuro exam\nfocusing on Cranial nerve, crossed findings, upper and lower motor neuron involvement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neuro exam",
+          "url": "https://wikem.org/wiki/Neuro_exam"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Most effective when started within 3 days of symptom onset\nOral\nanalgesia\nAntiviral\nOptions\n[2]\nAcyclovir\n800mg 5 times a day x 7 days\nFamciclovir\n500mg TID x 7 days\nValacyclovir\n1000mg TID x 7 days\nPrednisone\n60mg qday x 7 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient primary care follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Poor prognostic factors for good functional recovery include\n[3]\nage older than 50 years\ncomplete facial paralysis\nlack of CN VII nerve excitability",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Herpes zoster ophthalmicus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "drug_name": "Human_african_trypansomiasis_(sleeping_sickness)",
+  "url": "https://wikem.org/wiki/Human_african_trypansomiasis_(sleeping_sickness)",
+  "scraped_at": "2026-01-10T07:54:50.702193",
+  "sections": {
+    "Background": {
+      "text": "Caused by the protozoan parasite Trypanosoma brucei\nTwo distinct sub-species exist T. brucei rhodesiense and T. brucei gambiense\nrhodesiense - Eastern and Southeastern Africa\nTransmitted by tsetse flies that live in woodlands on the savanah\ngambiense - Central and Western Africa\n(More common of the two infections)\nTransmitted by tsetse flies that live in denser vegetation and along rivers\nCrude demarcation line runs through the Great Rift Valley\nEndemic in 36 countries in Sub-Saharan Africa and about 30,000 are currently infected\nSpread by the Tsetse fly\nData from 2009 and 2011 suggest that the prevalence is decreasing\nThe Democratic Republic of the Congo reported about 80% of new cases in 2012\nVertical Transmission (Mother to fetus) is also possible",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Clinical syndromes produced by T. brucei gambiense and T. brucei rhodesiense are similar in nature, however the rhodesience strain is much more rapidly progressive and can present with fulminant disease over the course of a few months, not years like the gambiense strain\nMay present differently in travelers",
+      "subsections": {
+        "Early_symptoms": {
+          "text": "Known as the hemolymphatic stage\nChancre\nMay be earliest sign\nPainless, well circumscribed,\nrubbery lesion\n.  (More common with rhodesiense sp.)\nWinterbottom's sign\nLymphadenopathy\nof posterior cervical lymph nodes-characteristic but not always present\nIntermittent symptoms corresponding to waves of parasitemia\nFever\n,\nheadache\n, malaise,\narthralgias\n,\nrash\n,\npruritus",
+          "tables": []
+        },
+        "Late_symptoms": {
+          "text": "100% fatal if untreated\nInvolvement of the CNS\nProgressive\nmeningoencephalitis\nBrain edema\nCerebral microhemorrhages\nMultifocal white matter demyelination\nMott cells in CSF\nActivated plasma cells with IgM inclusions\nNeurologic symptoms\nHeadache\n, personality changes, inability to concentrate, difficulty with complex mental tasks,\npsychosis\n,\nataxia\n, alteration of wake/sleep cycles, parkinsonian like movements\nEventually progresses to the point where the patient is stuporous and/or in a\ncomatose\nstate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rubbery lesion",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "meningoencephalitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "comatose",
+          "url": "https://wikem.org/wiki/Coma"
+        }
+      ]
+    },
+    "Early_symptoms": {
+      "text": "Known as the hemolymphatic stage\nChancre\nMay be earliest sign\nPainless, well circumscribed,\nrubbery lesion\n.  (More common with rhodesiense sp.)\nWinterbottom's sign\nLymphadenopathy\nof posterior cervical lymph nodes-characteristic but not always present\nIntermittent symptoms corresponding to waves of parasitemia\nFever\n,\nheadache\n, malaise,\narthralgias\n,\nrash\n,\npruritus",
+      "subsections": {
+        "Late_symptoms": {
+          "text": "100% fatal if untreated\nInvolvement of the CNS\nProgressive\nmeningoencephalitis\nBrain edema\nCerebral microhemorrhages\nMultifocal white matter demyelination\nMott cells in CSF\nActivated plasma cells with IgM inclusions\nNeurologic symptoms\nHeadache\n, personality changes, inability to concentrate, difficulty with complex mental tasks,\npsychosis\n,\nataxia\n, alteration of wake/sleep cycles, parkinsonian like movements\nEventually progresses to the point where the patient is stuporous and/or in a\ncomatose\nstate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rubbery lesion",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "meningoencephalitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "comatose",
+          "url": "https://wikem.org/wiki/Coma"
+        }
+      ]
+    },
+    "Late_symptoms": {
+      "text": "100% fatal if untreated\nInvolvement of the CNS\nProgressive\nmeningoencephalitis\nBrain edema\nCerebral microhemorrhages\nMultifocal white matter demyelination\nMott cells in CSF\nActivated plasma cells with IgM inclusions\nNeurologic symptoms\nHeadache\n, personality changes, inability to concentrate, difficulty with complex mental tasks,\npsychosis\n,\nataxia\n, alteration of wake/sleep cycles, parkinsonian like movements\nEventually progresses to the point where the patient is stuporous and/or in a\ncomatose\nstate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "meningoencephalitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "comatose",
+          "url": "https://wikem.org/wiki/Coma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Altered_mental_status_and_fever": {
+      "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Direct visualization of the trypanosomes\n(Gold Standard)\nBlood smears with either Giemsa or Wright's stain\nSamples can include CSF, blood, lymph node aspirates, and chancre aspirates\nMust\nexamine CSF to staging and treatment purposes\nLow levels of parasitemia may require concentration of sample\nSerologic testing\nCard agglutination test for trypanosomiasis (CATT)\nAgglutination of freeze dried trypanosomes\nUseful for epidemiologic studies\nCSF\nanalysis\nPleocytosis\nElevated protein levels\nMott cells\nDirect visualization of trypanosome\nImaging\nMRI\n- hyperintense signals in periventricular white matter\nEEG - Delta waves",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Early_treatment_(Hemolymphatic_stage)": {
+          "text": "Pentamidine\n(T.b. gambiense)\nSumarin\n(T.b. rhodesience)",
+          "tables": []
+        },
+        "Late_Treatment_(Neurologic_stage)": {
+          "text": "Eflornithine (DMFO) for 14 days\n(T.b. gambiense only, no activity against T.b. rhodesience)\nCan combo with\nnifurtimox\nMore effective than Eflornithine alone\nMelarsoprol for 12 days\n(T.b. rhodesience)\nCan combo with nifurtimox also\nLess effective than Eflornithine",
+          "tables": []
+        },
+        "Research_and_Development": {
+          "text": "DB289, a new drug that acts like pentamidine with less side effects",
+          "tables": []
+        },
+        "Monitoring": {
+          "text": "Repeat LP Q 6months for 2 years",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pentamidine",
+          "url": "https://wikem.org/wiki/Pentamidine"
+        },
+        {
+          "text": "nifurtimox",
+          "url": "https://wikem.org/wiki/Nifurtimox"
+        }
+      ]
+    },
+    "Research_and_Development": {
+      "text": "DB289, a new drug that acts like pentamidine with less side effects",
+      "subsections": {
+        "Monitoring": {
+          "text": "Repeat LP Q 6months for 2 years",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Monitoring": {
+      "text": "Repeat LP Q 6months for 2 years",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neglected Tropical Diseases\nChagas Disease\n(American Trypanosomiasis)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neglected Tropical Diseases",
+          "url": "https://wikem.org/wiki/Neglected_Tropical_Diseases"
+        },
+        {
+          "text": "Chagas Disease",
+          "url": "https://wikem.org/wiki/Chagas_Disease"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "http://www.who.int/trypanosomiasis_african/en/\nhttp://www.cdc.gov/parasites/sleepingsickness/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
