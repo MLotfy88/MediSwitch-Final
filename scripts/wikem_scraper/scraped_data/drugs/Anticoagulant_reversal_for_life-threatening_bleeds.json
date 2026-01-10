@@ -1,0 +1,478 @@
+{
+  "drug_name": "Anticoagulant_reversal_for_life-threatening_bleeds",
+  "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds",
+  "scraped_at": "2026-01-10T07:47:51.246058",
+  "sections": {
+    "Factor_Xa_Inhibitor_Reversal": {
+      "text": "^Off-label",
+      "subsections": {
+        "Andexanet_alfa": {
+          "text": "FDA approved in May 2018, limited availability June 2018\nCost is $20,000 to $55,000 per dose\nTrial that led to FDA approval does not have the most sound evidence behind it\n[4]\n:\nProspective single center single group study of 352 patients receiving a Factor Xa Inhibitor (\napixaban\n,\nrivaroxaban\n,\nedoxaban\n,\nenoxaparin\n) with life threatening bleed (those with expected survival <1 month were excluded).\nAnti-Factor Xa activity was decreased in all groups. 82% were judged to have excellent hemostatic control. 14% mortality rate at 30 days.\nNo comparison group available. It is unlikely that following anti-Factor Xa activity as a lab value is clinically important. High mortality rate even after excluding sick patients.",
+          "tables": []
+        },
+        "Low_Dose": {
+          "text": "400\nmg IV bolus at rate of ~30 mg/minute, followed 2 minutes later by\n4\nmg/minute for up to 120 minutes",
+          "tables": []
+        },
+        "High_Dose": {
+          "text": "800\nmg IV bolus at rate of ~30 mg/minute, followed 2 minutes later by\n8\nmg/minute for up to 120 minutes",
+          "tables": []
+        },
+        "Direct_Thrombin_Inhibitor": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Anticoagulants": "Argatroban",
+                "Half-life": "40-50 min",
+                "Removed by HD": "~ 20%",
+                "Strategies to reverse or minimize anticoagulant effects": "Turn off infusion"
+              },
+              {
+                "Anticoagulants": "Bivalirudin(Angiomax®)",
+                "Half-life": "25 min (up to 1 hr in severe renal impairment)",
+                "Removed by HD": "~ 25%",
+                "Strategies to reverse or minimize anticoagulant effects": "As above"
+              },
+              {
+                "Anticoagulants": "Dabigatran[5](Pradaxa®)",
+                "Half-life": "14-17 hrs (up to 34 hrs in severe renal impairment)",
+                "Removed by HD": "~ 65%",
+                "Strategies to reverse or minimize anticoagulant effects": "If ingested within 2 hours, administeractivated charcoalIdarucizumab(Praxbind®) 5g IVFor end stage renal disease patient with pre-existing vascular access, consult nephrology to consider dialysis."
+              }
+            ]
+          ]
+        },
+        "Heparins": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Anticoagulants": "Dalteparin(Fragmin®)",
+                "Half-life": "3-5 hrs (longer in renal impairment)",
+                "Removed by HD": "~ 20%",
+                "Strategies to reverse or minimize anticoagulant effects": "Use protamine for partial neutralization (~60%)ProtamineIV:< 8 hours since last dose:Protamine50mg8-12 hours since last dose:Protamine25mg>12 hours since last dose: Unlikely useful unless CrCl < 30 mL/min (or 25mg fixed dose)Dose of protamine for each 100 units dalteparin or 1mg of enoxaparin administeredObtain baseline anti-Xa activity levelMonitor anti-Xa activity level to confirm reversal"
+              },
+              {
+                "Anticoagulants": "Enoxaparin(Lovenox®)",
+                "Half-life": "3-5 hrs (longer in renal impairment)",
+                "Removed by HD": "~ 20%",
+                "Strategies to reverse or minimize anticoagulant effects": "As above"
+              },
+              {
+                "Anticoagulants": "Unfractionated heparin",
+                "Half-life": "30-90 min (dose dependent)",
+                "Removed by HD": "Partial",
+                "Strategies to reverse or minimize anticoagulant effects": "Turn off infusionProtamine50mg IV"
+              }
+            ]
+          ]
+        },
+        "Warfarin_(Coumadin®)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "INR": "Any",
+                "Clinical scenario": "Serious or life-threatening bleed",
+                "Management": "HoldwarfarinGivevitamin K10mg IV infusion over 30 minutesGiveFFP/plasma orConsider 4-factorPCC(Kcentra™)—preferred for life-threatening bleeds"
+              },
+              {
+                "INR": "> 10",
+                "Clinical scenario": "No bleeding",
+                "Management": "Hold warfarin until INR in therapeutic rangeConsidervitamin K2.5mg oral or 1-2mg IV infusion over 30 minutes (IV administration of vitamin K has faster onset of action)"
+              },
+              {
+                "INR": "",
+                "Clinical scenario": "Rapid reversal required",
+                "Management": "Hold warfarinConsidervitamin K2.5mg oral or 1-2mg IV infusion over 30 minutes (IV administration of vitamin K has faster onset of action)"
+              },
+              {
+                "INR": "4.5-10",
+                "Clinical scenario": "No bleeding",
+                "Management": "Hold warfarin until INR in therapeutic rangeConsidervitamin K2.5mg oral"
+              },
+              {
+                "INR": "",
+                "Clinical scenario": "Rapid reversal required",
+                "Management": "Hold warfarinConsidervitamin K2.5mg oral or 1mg IV infusion (IV administration of vitamin K has faster onset of action)"
+              },
+              {
+                "INR": "< 4.5",
+                "Clinical scenario": "No bleeding",
+                "Management": "Hold warfarin until INR in therapeutic range"
+              },
+              {
+                "INR": "",
+                "Clinical scenario": "Rapid reversal required",
+                "Management": "Hold warfarinConsidervitamin K2.5mg oral"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Anticoagulant": "Apixaban[1](Eliquis®)",
+            "Half-life": "8-15 hrs (longer in renal impairment)",
+            "Removed by HD": "No",
+            "Strategies to reverse or minimize anticoagulant effects": "If ingested within 2 hours, administer activated charcoal4-factorPCC(Kcentra™)^25units/kg—max 2500 units for treatment of documented intracranial hemorrhage50 units/kg—max 5000 units for all other life-threatening bleeds"
+          },
+          {
+            "Anticoagulant": "Edoxaban[2](Savaysa®)",
+            "Half-life": "10-14 hrs (longer in renal impairment)",
+            "Removed by HD": "~ 25%",
+            "Strategies to reverse or minimize anticoagulant effects": "As above"
+          },
+          {
+            "Anticoagulant": "Rivaroxaban[3](Xarelto®)",
+            "Half-life": "9-13 hrs (longer in renal impairment)",
+            "Removed by HD": "No",
+            "Strategies to reverse or minimize anticoagulant effects": "As above"
+          },
+          {
+            "Anticoagulant": "Fondaparinux(Arixtra®)",
+            "Half-life": "17-21 hrs (significantly longer in renal impairment)",
+            "Removed by HD": "No",
+            "Strategies to reverse or minimize anticoagulant effects": "4-factorPCC(Kcentra™)^ 50 units/kg—max 5000 units"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        }
+      ]
+    },
+    "Andexanet_alfa": {
+      "text": "FDA approved in May 2018, limited availability June 2018\nCost is $20,000 to $55,000 per dose\nTrial that led to FDA approval does not have the most sound evidence behind it\n[4]\n:\nProspective single center single group study of 352 patients receiving a Factor Xa Inhibitor (\napixaban\n,\nrivaroxaban\n,\nedoxaban\n,\nenoxaparin\n) with life threatening bleed (those with expected survival <1 month were excluded).\nAnti-Factor Xa activity was decreased in all groups. 82% were judged to have excellent hemostatic control. 14% mortality rate at 30 days.\nNo comparison group available. It is unlikely that following anti-Factor Xa activity as a lab value is clinically important. High mortality rate even after excluding sick patients.",
+      "subsections": {
+        "Low_Dose": {
+          "text": "400\nmg IV bolus at rate of ~30 mg/minute, followed 2 minutes later by\n4\nmg/minute for up to 120 minutes",
+          "tables": []
+        },
+        "High_Dose": {
+          "text": "800\nmg IV bolus at rate of ~30 mg/minute, followed 2 minutes later by\n8\nmg/minute for up to 120 minutes",
+          "tables": []
+        },
+        "Direct_Thrombin_Inhibitor": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Anticoagulants": "Argatroban",
+                "Half-life": "40-50 min",
+                "Removed by HD": "~ 20%",
+                "Strategies to reverse or minimize anticoagulant effects": "Turn off infusion"
+              },
+              {
+                "Anticoagulants": "Bivalirudin(Angiomax®)",
+                "Half-life": "25 min (up to 1 hr in severe renal impairment)",
+                "Removed by HD": "~ 25%",
+                "Strategies to reverse or minimize anticoagulant effects": "As above"
+              },
+              {
+                "Anticoagulants": "Dabigatran[5](Pradaxa®)",
+                "Half-life": "14-17 hrs (up to 34 hrs in severe renal impairment)",
+                "Removed by HD": "~ 65%",
+                "Strategies to reverse or minimize anticoagulant effects": "If ingested within 2 hours, administeractivated charcoalIdarucizumab(Praxbind®) 5g IVFor end stage renal disease patient with pre-existing vascular access, consult nephrology to consider dialysis."
+              }
+            ]
+          ]
+        },
+        "Heparins": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Anticoagulants": "Dalteparin(Fragmin®)",
+                "Half-life": "3-5 hrs (longer in renal impairment)",
+                "Removed by HD": "~ 20%",
+                "Strategies to reverse or minimize anticoagulant effects": "Use protamine for partial neutralization (~60%)ProtamineIV:< 8 hours since last dose:Protamine50mg8-12 hours since last dose:Protamine25mg>12 hours since last dose: Unlikely useful unless CrCl < 30 mL/min (or 25mg fixed dose)Dose of protamine for each 100 units dalteparin or 1mg of enoxaparin administeredObtain baseline anti-Xa activity levelMonitor anti-Xa activity level to confirm reversal"
+              },
+              {
+                "Anticoagulants": "Enoxaparin(Lovenox®)",
+                "Half-life": "3-5 hrs (longer in renal impairment)",
+                "Removed by HD": "~ 20%",
+                "Strategies to reverse or minimize anticoagulant effects": "As above"
+              },
+              {
+                "Anticoagulants": "Unfractionated heparin",
+                "Half-life": "30-90 min (dose dependent)",
+                "Removed by HD": "Partial",
+                "Strategies to reverse or minimize anticoagulant effects": "Turn off infusionProtamine50mg IV"
+              }
+            ]
+          ]
+        },
+        "Warfarin_(Coumadin®)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "INR": "Any",
+                "Clinical scenario": "Serious or life-threatening bleed",
+                "Management": "HoldwarfarinGivevitamin K10mg IV infusion over 30 minutesGiveFFP/plasma orConsider 4-factorPCC(Kcentra™)—preferred for life-threatening bleeds"
+              },
+              {
+                "INR": "> 10",
+                "Clinical scenario": "No bleeding",
+                "Management": "Hold warfarin until INR in therapeutic rangeConsidervitamin K2.5mg oral or 1-2mg IV infusion over 30 minutes (IV administration of vitamin K has faster onset of action)"
+              },
+              {
+                "INR": "",
+                "Clinical scenario": "Rapid reversal required",
+                "Management": "Hold warfarinConsidervitamin K2.5mg oral or 1-2mg IV infusion over 30 minutes (IV administration of vitamin K has faster onset of action)"
+              },
+              {
+                "INR": "4.5-10",
+                "Clinical scenario": "No bleeding",
+                "Management": "Hold warfarin until INR in therapeutic rangeConsidervitamin K2.5mg oral"
+              },
+              {
+                "INR": "",
+                "Clinical scenario": "Rapid reversal required",
+                "Management": "Hold warfarinConsidervitamin K2.5mg oral or 1mg IV infusion (IV administration of vitamin K has faster onset of action)"
+              },
+              {
+                "INR": "< 4.5",
+                "Clinical scenario": "No bleeding",
+                "Management": "Hold warfarin until INR in therapeutic range"
+              },
+              {
+                "INR": "",
+                "Clinical scenario": "Rapid reversal required",
+                "Management": "Hold warfarinConsidervitamin K2.5mg oral"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        }
+      ]
+    },
+    "Direct_Thrombin_Inhibitor": {
+      "text": "",
+      "subsections": {
+        "Heparins": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Anticoagulants": "Dalteparin(Fragmin®)",
+                "Half-life": "3-5 hrs (longer in renal impairment)",
+                "Removed by HD": "~ 20%",
+                "Strategies to reverse or minimize anticoagulant effects": "Use protamine for partial neutralization (~60%)ProtamineIV:< 8 hours since last dose:Protamine50mg8-12 hours since last dose:Protamine25mg>12 hours since last dose: Unlikely useful unless CrCl < 30 mL/min (or 25mg fixed dose)Dose of protamine for each 100 units dalteparin or 1mg of enoxaparin administeredObtain baseline anti-Xa activity levelMonitor anti-Xa activity level to confirm reversal"
+              },
+              {
+                "Anticoagulants": "Enoxaparin(Lovenox®)",
+                "Half-life": "3-5 hrs (longer in renal impairment)",
+                "Removed by HD": "~ 20%",
+                "Strategies to reverse or minimize anticoagulant effects": "As above"
+              },
+              {
+                "Anticoagulants": "Unfractionated heparin",
+                "Half-life": "30-90 min (dose dependent)",
+                "Removed by HD": "Partial",
+                "Strategies to reverse or minimize anticoagulant effects": "Turn off infusionProtamine50mg IV"
+              }
+            ]
+          ]
+        },
+        "Warfarin_(Coumadin®)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "INR": "Any",
+                "Clinical scenario": "Serious or life-threatening bleed",
+                "Management": "HoldwarfarinGivevitamin K10mg IV infusion over 30 minutesGiveFFP/plasma orConsider 4-factorPCC(Kcentra™)—preferred for life-threatening bleeds"
+              },
+              {
+                "INR": "> 10",
+                "Clinical scenario": "No bleeding",
+                "Management": "Hold warfarin until INR in therapeutic rangeConsidervitamin K2.5mg oral or 1-2mg IV infusion over 30 minutes (IV administration of vitamin K has faster onset of action)"
+              },
+              {
+                "INR": "",
+                "Clinical scenario": "Rapid reversal required",
+                "Management": "Hold warfarinConsidervitamin K2.5mg oral or 1-2mg IV infusion over 30 minutes (IV administration of vitamin K has faster onset of action)"
+              },
+              {
+                "INR": "4.5-10",
+                "Clinical scenario": "No bleeding",
+                "Management": "Hold warfarin until INR in therapeutic rangeConsidervitamin K2.5mg oral"
+              },
+              {
+                "INR": "",
+                "Clinical scenario": "Rapid reversal required",
+                "Management": "Hold warfarinConsidervitamin K2.5mg oral or 1mg IV infusion (IV administration of vitamin K has faster onset of action)"
+              },
+              {
+                "INR": "< 4.5",
+                "Clinical scenario": "No bleeding",
+                "Management": "Hold warfarin until INR in therapeutic range"
+              },
+              {
+                "INR": "",
+                "Clinical scenario": "Rapid reversal required",
+                "Management": "Hold warfarinConsidervitamin K2.5mg oral"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Anticoagulants": "Argatroban",
+            "Half-life": "40-50 min",
+            "Removed by HD": "~ 20%",
+            "Strategies to reverse or minimize anticoagulant effects": "Turn off infusion"
+          },
+          {
+            "Anticoagulants": "Bivalirudin(Angiomax®)",
+            "Half-life": "25 min (up to 1 hr in severe renal impairment)",
+            "Removed by HD": "~ 25%",
+            "Strategies to reverse or minimize anticoagulant effects": "As above"
+          },
+          {
+            "Anticoagulants": "Dabigatran[5](Pradaxa®)",
+            "Half-life": "14-17 hrs (up to 34 hrs in severe renal impairment)",
+            "Removed by HD": "~ 65%",
+            "Strategies to reverse or minimize anticoagulant effects": "If ingested within 2 hours, administeractivated charcoalIdarucizumab(Praxbind®) 5g IVFor end stage renal disease patient with pre-existing vascular access, consult nephrology to consider dialysis."
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Heparins": {
+      "text": "",
+      "subsections": {
+        "Warfarin_(Coumadin®)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "INR": "Any",
+                "Clinical scenario": "Serious or life-threatening bleed",
+                "Management": "HoldwarfarinGivevitamin K10mg IV infusion over 30 minutesGiveFFP/plasma orConsider 4-factorPCC(Kcentra™)—preferred for life-threatening bleeds"
+              },
+              {
+                "INR": "> 10",
+                "Clinical scenario": "No bleeding",
+                "Management": "Hold warfarin until INR in therapeutic rangeConsidervitamin K2.5mg oral or 1-2mg IV infusion over 30 minutes (IV administration of vitamin K has faster onset of action)"
+              },
+              {
+                "INR": "",
+                "Clinical scenario": "Rapid reversal required",
+                "Management": "Hold warfarinConsidervitamin K2.5mg oral or 1-2mg IV infusion over 30 minutes (IV administration of vitamin K has faster onset of action)"
+              },
+              {
+                "INR": "4.5-10",
+                "Clinical scenario": "No bleeding",
+                "Management": "Hold warfarin until INR in therapeutic rangeConsidervitamin K2.5mg oral"
+              },
+              {
+                "INR": "",
+                "Clinical scenario": "Rapid reversal required",
+                "Management": "Hold warfarinConsidervitamin K2.5mg oral or 1mg IV infusion (IV administration of vitamin K has faster onset of action)"
+              },
+              {
+                "INR": "< 4.5",
+                "Clinical scenario": "No bleeding",
+                "Management": "Hold warfarin until INR in therapeutic range"
+              },
+              {
+                "INR": "",
+                "Clinical scenario": "Rapid reversal required",
+                "Management": "Hold warfarinConsidervitamin K2.5mg oral"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Anticoagulants": "Dalteparin(Fragmin®)",
+            "Half-life": "3-5 hrs (longer in renal impairment)",
+            "Removed by HD": "~ 20%",
+            "Strategies to reverse or minimize anticoagulant effects": "Use protamine for partial neutralization (~60%)ProtamineIV:< 8 hours since last dose:Protamine50mg8-12 hours since last dose:Protamine25mg>12 hours since last dose: Unlikely useful unless CrCl < 30 mL/min (or 25mg fixed dose)Dose of protamine for each 100 units dalteparin or 1mg of enoxaparin administeredObtain baseline anti-Xa activity levelMonitor anti-Xa activity level to confirm reversal"
+          },
+          {
+            "Anticoagulants": "Enoxaparin(Lovenox®)",
+            "Half-life": "3-5 hrs (longer in renal impairment)",
+            "Removed by HD": "~ 20%",
+            "Strategies to reverse or minimize anticoagulant effects": "As above"
+          },
+          {
+            "Anticoagulants": "Unfractionated heparin",
+            "Half-life": "30-90 min (dose dependent)",
+            "Removed by HD": "Partial",
+            "Strategies to reverse or minimize anticoagulant effects": "Turn off infusionProtamine50mg IV"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Coagulopathy (main)\nAnti-platelet agent reversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(main)"
+        },
+        {
+          "text": "Anti-platelet agent reversal",
+          "url": "https://wikem.org/wiki/Anti-platelet_agent_reversal"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "JournalFeed Summary with Flowsheet\nof ”Anticoagulant Reversal Strategies in the Emergency Department Setting: Recommendations of a Multidisciplinary Expert Panel.” by Baugh et. al. from Annals 2019\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Harbor-UCLA Medical Center Guidelines Approved by Anticoagulation Subcommittee on 3/17/2016 Approved by Pharmacy and Therapeutic Committee on 3/17/2016\nHatfield L and Chen SL. University of North Carolina Healthcare Anticoagulation Reversal Guidelines. June 2014.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

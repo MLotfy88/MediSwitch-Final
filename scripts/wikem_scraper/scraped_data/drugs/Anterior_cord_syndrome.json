@@ -1,0 +1,294 @@
+{
+  "drug_name": "Anterior_cord_syndrome",
+  "url": "https://wikem.org/wiki/Anterior_cord_syndrome",
+  "scraped_at": "2026-01-10T07:47:47.248337",
+  "sections": {
+    "Background": {
+      "text": "Etiology\nDirect anterior\nCord Compression\n(e.g. disc protrusion, posterior\nabdominal aortic aneurysm\n, mass)\nHyperflexion injury of cervical spine\nThrombosis of anterior spinal artery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cord Compression",
+          "url": "https://wikem.org/wiki/Cord_Compression"
+        },
+        {
+          "text": "abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Paraplegia\nbelow level of lesion (corticospinal)\nLoss of pain\n/temperature (lateral spinothalamic)\nAutonomic dysfunction,\northostasis\nBowel, bladder, sexual dysfunction\nPreservation of modalities carried by dorsal columns i.e. vibration, proprioception, 2-point discrimination",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Paraplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Loss of pain",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "orthostasis",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Spinal_Cord_Syndromes": {
+          "text": "Complete spinal cord transection syndrome\nAnterior cord syndrome\nCentral cord syndrome\nBrown-Séquard syndrome\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nEtiologies\nTrauma\n,\nvertebral fractures\nIschemia, atherosclerosis, anterior spinal artery\nMalignancy\nInfection\nSpondylosis, disk herniation\nAortic disease -\naneurysm\n,\ndissection\nIatrogenic - spinal injections, epidural catheters, aortic cross-clamp",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Complete spinal cord transection syndrome",
+          "url": "https://wikem.org/wiki/Complete_spinal_cord_transection_syndrome"
+        },
+        {
+          "text": "Central cord syndrome",
+          "url": "https://wikem.org/wiki/Central_cord_syndrome"
+        },
+        {
+          "text": "Brown-Séquard syndrome",
+          "url": "https://wikem.org/wiki/Brown-S%C3%A9quard_syndrome"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "vertebral fractures",
+          "url": "https://wikem.org/wiki/Vertebral_fractures"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "aneurysm",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "dissection",
+          "url": "https://wikem.org/wiki/Dissection"
+        }
+      ]
+    },
+    "Spinal_Cord_Syndromes": {
+      "text": "Complete spinal cord transection syndrome\nAnterior cord syndrome\nCentral cord syndrome\nBrown-Séquard syndrome\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nEtiologies\nTrauma\n,\nvertebral fractures\nIschemia, atherosclerosis, anterior spinal artery\nMalignancy\nInfection\nSpondylosis, disk herniation\nAortic disease -\naneurysm\n,\ndissection\nIatrogenic - spinal injections, epidural catheters, aortic cross-clamp",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Complete spinal cord transection syndrome",
+          "url": "https://wikem.org/wiki/Complete_spinal_cord_transection_syndrome"
+        },
+        {
+          "text": "Central cord syndrome",
+          "url": "https://wikem.org/wiki/Central_cord_syndrome"
+        },
+        {
+          "text": "Brown-Séquard syndrome",
+          "url": "https://wikem.org/wiki/Brown-S%C3%A9quard_syndrome"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "vertebral fractures",
+          "url": "https://wikem.org/wiki/Vertebral_fractures"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "aneurysm",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "dissection",
+          "url": "https://wikem.org/wiki/Dissection"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Labs based on severity\nABG\nif lesion affects above C5\nShock labs if\nneurogenic shock\nTrend CBC to rule out\nhemorrhagic shock\nImaging with CT and MRI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Acute_Management_of_Spinal_Cord_Injury": {
+          "text": "Neurogenic shock\nmanagement\nConsider intubation injuries at C5 or above\nManual in-line stabilization reduces cervical movement better than C-collar, but be careful of tracheal pressures inadvertently applied which can worsen laryngeal visualization\n[1]\n[2]\nDirect laryngoscopy causes C-spine extension at atlanto-occipital junction, C1-C2, and C4-C7 in order from most to least\nConsider video laryngoscopy with hyperangulated stylet or bougie assisted DL to intubate higher-grade laryngoscopy views of vocal cords without C-spine overextension\n[3]\nPost-intubation sedation takes into consideration hemodynamics and potential intraoperative EMG and evoked potential monitoring by anesthesia\nOpioids\ndo not impact evoked potential monitoring\nKetamine\nmay enhance evoked potential monitoring\n[4]\nConsider\ndexmedetomidine\nas a\nPropofol\nsparing medication in TIVA\n[5]\nConsider surgical intervention for:\nProgressive neurologic deficits\nUnstable spine fractures\nSteroids are no longer recommended\nAdministration of methylprednisolone (MP) for the treatment of acute spinal cord injury (SCI) is not recommended. Clinicians considering MP therapy should bear in mind that the drug is NOT approved by the FDA for this indication. There is no Class I or Class II medical evidence supporting the clinical benefit of MP in the treatment of acute SCI. Scattered reports of Class III evidence claim inconsistent effects likely related to random chance or selection bias. However, Class I, II, and III evidence exists that high-dose steroids are associated with harmful side effects including death.\n[6]\nSee\nEBQ:High Dose Steroids in Cord Injury\nfor further discussion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Unstable spine fractures",
+          "url": "https://wikem.org/wiki/Unstable_spine_fractures"
+        },
+        {
+          "text": "EBQ:High Dose Steroids in Cord Injury",
+          "url": "https://wikem.org/wiki/EBQ:High_Dose_Steroids_in_Cord_Injury"
+        }
+      ]
+    },
+    "Acute_Management_of_Spinal_Cord_Injury": {
+      "text": "Neurogenic shock\nmanagement\nConsider intubation injuries at C5 or above\nManual in-line stabilization reduces cervical movement better than C-collar, but be careful of tracheal pressures inadvertently applied which can worsen laryngeal visualization\n[1]\n[2]\nDirect laryngoscopy causes C-spine extension at atlanto-occipital junction, C1-C2, and C4-C7 in order from most to least\nConsider video laryngoscopy with hyperangulated stylet or bougie assisted DL to intubate higher-grade laryngoscopy views of vocal cords without C-spine overextension\n[3]\nPost-intubation sedation takes into consideration hemodynamics and potential intraoperative EMG and evoked potential monitoring by anesthesia\nOpioids\ndo not impact evoked potential monitoring\nKetamine\nmay enhance evoked potential monitoring\n[4]\nConsider\ndexmedetomidine\nas a\nPropofol\nsparing medication in TIVA\n[5]\nConsider surgical intervention for:\nProgressive neurologic deficits\nUnstable spine fractures\nSteroids are no longer recommended\nAdministration of methylprednisolone (MP) for the treatment of acute spinal cord injury (SCI) is not recommended. Clinicians considering MP therapy should bear in mind that the drug is NOT approved by the FDA for this indication. There is no Class I or Class II medical evidence supporting the clinical benefit of MP in the treatment of acute SCI. Scattered reports of Class III evidence claim inconsistent effects likely related to random chance or selection bias. However, Class I, II, and III evidence exists that high-dose steroids are associated with harmful side effects including death.\n[6]\nSee\nEBQ:High Dose Steroids in Cord Injury\nfor further discussion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Unstable spine fractures",
+          "url": "https://wikem.org/wiki/Unstable_spine_fractures"
+        },
+        {
+          "text": "EBQ:High Dose Steroids in Cord Injury",
+          "url": "https://wikem.org/wiki/EBQ:High_Dose_Steroids_in_Cord_Injury"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {
+        "Prognosis": {
+          "text": "Poor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Poor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Spinal cord syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Spinal cord syndromes",
+          "url": "https://wikem.org/wiki/Spinal_cord_syndromes"
+        }
+      ]
+    }
+  }
+}

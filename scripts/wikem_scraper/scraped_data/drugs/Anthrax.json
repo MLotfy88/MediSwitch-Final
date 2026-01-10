@@ -1,0 +1,724 @@
+{
+  "drug_name": "Anthrax",
+  "url": "https://wikem.org/wiki/Anthrax",
+  "scraped_at": "2026-01-10T07:47:50.729387",
+  "sections": {
+    "Background": {
+      "text": "Gram positive rod, Bacillus anthracis, which is capable of surviving inhospitable conditions through the formation of endospores\nIncubation period is 10 days with no ability for human to human transmission and therefore, no need for respiratory isolation\nThough human to human transmission does not occur, potential harbors of spores (patient clothes) need to be isolated and decontaminated with 10% bleach\n[1]\nIn general there is cutaneous, inhalational, and gastrointesinal anthrax.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Inhalational_(5%)": {
+          "text": "Biphasic course",
+          "tables": []
+        },
+        "Prodrome_Period": {
+          "text": "Early prodromal period often appears as an\nflu-like illness\nFever\n, dry\ncough\n,\nmyalgia\n, malaise\nTransient clinical improvement followed by rapid decline",
+          "tables": []
+        },
+        "Acute_phase": {
+          "text": "Severe\nrespiratory distress\nwith symptoms consisting of\n[2]\n:\nHypoxia\n, tachypnea, cyanosis\nSevere dyspnea, chest pain\nShock\nMediastinitis",
+          "tables": []
+        },
+        "Cutaneous_(95%)": {
+          "text": "The disease will start as an area of erythema and edema and progress to a vesicle which ruptures forming a central black eschar which eventually falls off\nTotal course of lesion evolution occurs over 1 week\nSmall minority of untreated patients develop rapidly fatal bacteremia\n[3]",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Over the course of 7 days, nonspecific\nabdominal pain\n,\nnausea and vomiting\nwith progress to severe abdominal pain,\nbloody emesis\nand\ndiarrhea\n(usually bloody)\n[4]\nMay present as oropharyngeal ulcers with\ndysphagia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "flu-like illness",
+          "url": "https://wikem.org/wiki/Flu-like_illness"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "bloody emesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        }
+      ]
+    },
+    "Gastrointestinal": {
+      "text": "Over the course of 7 days, nonspecific\nabdominal pain\n,\nnausea and vomiting\nwith progress to severe abdominal pain,\nbloody emesis\nand\ndiarrhea\n(usually bloody)\n[4]\nMay present as oropharyngeal ulcers with\ndysphagia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "bloody emesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Cutaneous_(painless)": {
+          "text": "Ecthyma gangrenosum\nRat-bite fever\n(Streptobacillus monilifomis and Spirillum minus)\nUlceroglandular\ntularemia\nPlague\nGlanders\n(Pseudomonas peudomallei)\nRickettsial\npox (Rickettsia akari)\nOrf (parapox virus)\nStaph\nlymphadenitis\nTB\nLeprosy\nBuruli ulcer\n(Mycobact ulcerans)",
+          "tables": []
+        },
+        "Inhalational": {
+          "text": "Acute bacterial\nmediastinitis\nMycoplasma\nLegionnaire's\nPsittacosis\nTularemia\nQ fever\n(Coxiella burnetti)\nViral\npneumonia\nHistoplasmosis\nCoccidiomycosis\nRuptured\nAortic Dissection\nSVC syndrome\nSilicosis\nSarcoidosis",
+          "tables": []
+        },
+        "Lower_Respiratory_Zoonotic_Infections": {
+          "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+          "tables": []
+        },
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Rickettsial",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Leprosy",
+          "url": "https://wikem.org/wiki/Leprosy"
+        },
+        {
+          "text": "Buruli ulcer",
+          "url": "https://wikem.org/wiki/Buruli_ulcer"
+        },
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Legionnaire's",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Coccidiomycosis",
+          "url": "https://wikem.org/wiki/Coccidiomycosis"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "SVC syndrome",
+          "url": "https://wikem.org/wiki/SVC_Syndrome"
+        },
+        {
+          "text": "Silicosis",
+          "url": "https://wikem.org/wiki/Pneumoconiosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Inhalational": {
+      "text": "Acute bacterial\nmediastinitis\nMycoplasma\nLegionnaire's\nPsittacosis\nTularemia\nQ fever\n(Coxiella burnetti)\nViral\npneumonia\nHistoplasmosis\nCoccidiomycosis\nRuptured\nAortic Dissection\nSVC syndrome\nSilicosis\nSarcoidosis",
+      "subsections": {
+        "Lower_Respiratory_Zoonotic_Infections": {
+          "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+          "tables": []
+        },
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Legionnaire's",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Coccidiomycosis",
+          "url": "https://wikem.org/wiki/Coccidiomycosis"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "SVC syndrome",
+          "url": "https://wikem.org/wiki/SVC_Syndrome"
+        },
+        {
+          "text": "Silicosis",
+          "url": "https://wikem.org/wiki/Pneumoconiosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Lower_Respiratory_Zoonotic_Infections": {
+      "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+      "subsections": {
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Bioterrorism_Agents": {
+      "text": "",
+      "subsections": {
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CXR\n/CT\nWidened mediastinum representing hemorrhagic mediastinitis\nInfiltrate, pleural effusion\nHyperdense mediastinal lymphadenopathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Contact CDC Emergency Hotline 1-707-488-7100 for all suspected bioterrorism cases",
+      "subsections": {
+        "Postexposure_Prophylaxis": {
+          "text": "Patient should be vaccinated at day #0, #14, #28\nCiprofloxacin\n500mg PO q12hrs daily x 60 days\nOR\nDoxycycline\n100mg PO q12hrs x 60 days",
+          "tables": []
+        },
+        "Cutaneous_Anthrax_(not_systemically_ill)": {
+          "text": "Ciprofloxacin 500mg PO q12hrs x 60 days\nDoxycycline 100mg PO q12hrs x 60 days",
+          "tables": []
+        },
+        "Inhalation_or_Cutaneous_with_systemic_illness": {
+          "text": "Ciprofloxacin\n400mg IV q12hrs x 60 days (1st line)\nOR\nDoxycycline\n100mg IV q12hrs x 60days (only if allergic to ciprofloxacin)\nPLUS\nClindamycin\n900mg IV q8hrs",
+          "tables": []
+        },
+        "Pediatric_Postexpsoure_Prophylaxis": {
+          "text": "Ciprofloxacin\n15mg/kg PO q12hrs x 60 days\nDoxycycline\n2.2mg/kg PO q12hrs x 60 days",
+          "tables": []
+        },
+        "Pediatric_Cutaneous_Anthrax_(not_ill)": {
+          "text": "Same as post exposure dosing and duration",
+          "tables": []
+        },
+        "Pediatric_Inhalational_or_Cutaneous_(systemically_ill": {
+          "text": "Ciprofloxacin\n15mg/kg IV q12hrs (1st line)\nOR\nDoxycycline\n2.2mg/kg IV q12hrs (only if allergic to cipro)\nPLUS\nClindamycin\n7.5mg/kg q6hrs daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Bioterrorism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        }
+      ]
+    }
+  }
+}

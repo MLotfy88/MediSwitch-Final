@@ -1,0 +1,476 @@
+{
+  "drug_name": "Anemia_of_spaceflight",
+  "url": "https://wikem.org/wiki/Anemia_of_spaceflight",
+  "scraped_at": "2026-01-10T07:47:35.101051",
+  "sections": {
+    "Background": {
+      "text": "The anemia of space flight (1% Hb loss per day)\n[1]\n[2]\n[3]\nIt was first described in relation to the Gemini astronauts.\n[4]\nReports describe from 10% to 15% of Hb decrease from preflight levels within 10 to 14 days of space flight\n[5]\n[6]\nThe Anemia may develop due to one or more of the following processes:\n[7]\n[8]\nPoor erythrocyte production or marrow dysfunction\nFluid Shifts\nFluid distributes to a greater extent in the upper body and this distends the carotid and aortic baroreceptors giving the false signal of \"volume overload\"\n[9]\nLow EPO levels\nAbnormally-shaped erythrocytes\nSplenic sequestration\nShortened RBC lifespan.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "General_Anemia_Symptoms": {
+          "text": "Most patients begin to be symptomatic at ~7gm/dL\nWeakness\n,\nfatigue\n,\nlethargy\n,\ndyspnea\non exertion,\npalpitations\nSkin, nail bed, mucosal pallor\nWidened pulse pressure\nJaundice\n,\nhepatosplenomegaly\n(\nhemolysis\n)\nPeripheral neuropathy (\nB12 deficiency\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        }
+      ]
+    },
+    "General_Anemia_Symptoms": {
+      "text": "Most patients begin to be symptomatic at ~7gm/dL\nWeakness\n,\nfatigue\n,\nlethargy\n,\ndyspnea\non exertion,\npalpitations\nSkin, nail bed, mucosal pallor\nWidened pulse pressure\nJaundice\n,\nhepatosplenomegaly\n(\nhemolysis\n)\nPeripheral neuropathy (\nB12 deficiency\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Space_medicine": {
+          "text": "Anemia of spaceflight\nContact dermatitis of spaceflight\nGeneral physics of spaceflight\nHEENT\nAcoustics and noise\nBarotrauma\nEar infections (Otitis Media)\nDental barotrauma\nInner ear dysfunction\nOcular foreign body (microgravity)\nSinus infection\nTaste reduction\nImmunology in spaceflight\nCytokines and immune function\nInfectious disease\nHypersensitivity and allergic reactions\nViral reactivation\nInterpersonal conflicts in spaceflight\nMusculoskeletal effects of spaceflight\nBone loss\nMuscle loss\nSpinal decompression\nTrauma\nPulmonary disorders of spaceflight\nEbullism syndrome\nHyperoxia\nHypercarbia\nHypoxia\nParticulate exposure\nToxic exposure\nAirborne carcinogens\nAmmonia\nCarbon dioxide\nCarbon monoxide\nFormaldehyde\nFreons\nHypergolic propellant\nHydrazine toxicity\nNitrogen tetroxide toxicity\nSulfurous compounds\nRadiation exposure\nSinus congestion (Rhinitis) in spaceflight\nSinus infection (Acute rhinosinusitis) in spaceflight\nSleep disorders of spaceflight\nSpace adaptation syndrome\nSpace dentistry\nSpace motion sickness\nSpaceflight headache\nSpaceflight genitourinary\nKidney stones (Nephrolithiasis)\nTesticular torsion\nUrinary retention/incontinence\nUrinary tract infection",
+          "tables": []
+        },
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12\n/\nfolate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Ocular foreign body (microgravity)",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body_(microgravity)"
+        },
+        {
+          "text": "Interpersonal conflicts in spaceflight",
+          "url": "https://wikem.org/wiki/Interpersonal_conflicts_in_spaceflight"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pulmonary disorders of spaceflight",
+          "url": "https://wikem.org/wiki/Pulmonary_disorders_of_spaceflight"
+        },
+        {
+          "text": "Ebullism syndrome",
+          "url": "https://wikem.org/wiki/Ebullism_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide_toxicity"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Space dentistry",
+          "url": "https://wikem.org/wiki/Space_dentistry"
+        },
+        {
+          "text": "Space motion sickness",
+          "url": "https://wikem.org/wiki/Space_motion_sickness"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Space_medicine": {
+      "text": "Anemia of spaceflight\nContact dermatitis of spaceflight\nGeneral physics of spaceflight\nHEENT\nAcoustics and noise\nBarotrauma\nEar infections (Otitis Media)\nDental barotrauma\nInner ear dysfunction\nOcular foreign body (microgravity)\nSinus infection\nTaste reduction\nImmunology in spaceflight\nCytokines and immune function\nInfectious disease\nHypersensitivity and allergic reactions\nViral reactivation\nInterpersonal conflicts in spaceflight\nMusculoskeletal effects of spaceflight\nBone loss\nMuscle loss\nSpinal decompression\nTrauma\nPulmonary disorders of spaceflight\nEbullism syndrome\nHyperoxia\nHypercarbia\nHypoxia\nParticulate exposure\nToxic exposure\nAirborne carcinogens\nAmmonia\nCarbon dioxide\nCarbon monoxide\nFormaldehyde\nFreons\nHypergolic propellant\nHydrazine toxicity\nNitrogen tetroxide toxicity\nSulfurous compounds\nRadiation exposure\nSinus congestion (Rhinitis) in spaceflight\nSinus infection (Acute rhinosinusitis) in spaceflight\nSleep disorders of spaceflight\nSpace adaptation syndrome\nSpace dentistry\nSpace motion sickness\nSpaceflight headache\nSpaceflight genitourinary\nKidney stones (Nephrolithiasis)\nTesticular torsion\nUrinary retention/incontinence\nUrinary tract infection",
+      "subsections": {
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12\n/\nfolate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "Ocular foreign body (microgravity)",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body_(microgravity)"
+        },
+        {
+          "text": "Interpersonal conflicts in spaceflight",
+          "url": "https://wikem.org/wiki/Interpersonal_conflicts_in_spaceflight"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pulmonary disorders of spaceflight",
+          "url": "https://wikem.org/wiki/Pulmonary_disorders_of_spaceflight"
+        },
+        {
+          "text": "Ebullism syndrome",
+          "url": "https://wikem.org/wiki/Ebullism_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide_toxicity"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Space dentistry",
+          "url": "https://wikem.org/wiki/Space_dentistry"
+        },
+        {
+          "text": "Space motion sickness",
+          "url": "https://wikem.org/wiki/Space_motion_sickness"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Anemia": {
+      "text": "",
+      "subsections": {
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12\n/\nfolate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Upon return to earth, compensatory fluid shifts may temporarily exacerbate anemia via dilution.\n[10]",
+      "subsections": {
+        "Workup": {
+          "text": "CBC",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CBC",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Space medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Space medicine",
+          "url": "https://wikem.org/wiki/Space_medicine"
+        }
+      ]
+    }
+  }
+}

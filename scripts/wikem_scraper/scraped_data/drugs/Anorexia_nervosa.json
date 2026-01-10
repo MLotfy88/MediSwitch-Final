@@ -1,0 +1,294 @@
+{
+  "drug_name": "Anorexia_nervosa",
+  "url": "https://wikem.org/wiki/Anorexia_nervosa",
+  "scraped_at": "2026-01-10T07:47:48.092756",
+  "sections": {
+    "Background": {
+      "text": "Associated with body image disturbance\nUsually seen in adolescent girls\n3rd most common chronic condition in adolescent girls\nLife long risk\nBody image is predominate measure of self worth\nMortality 6-20%, highest of any psychiatric disorder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Diagnostic_Criteria": {
+          "text": "Restriction of energy intake relative to requirements, leading to a significantly low body weight in the context of age, sex, developmental trajectory, and physical  health. Significantly low weight is  defined as a weight that is less than minimally normal or, for children and adolescents, less than that minimally expected.\n[1]\nIntense fear of gaining weight or of becoming fat, or persistent behavior that interferes with weight gain, even though at a significantly low weight.\nDisturbance in the way in which one’s body weight or shape is experienced, undue influence of body weight or shape on self-evaluation, or persistent lack of recognition of the seriousness of the current low body weight.",
+          "tables": []
+        },
+        "Symptoms": {
+          "text": "Constipation\nAbdominal pain\nFatigue\nWeakness\nAmenorrhea\nDepression\nHair loss",
+          "tables": []
+        },
+        "Signs": {
+          "text": "Fine facial and body hair (lanugo)\nBrittle hair and nails\nDry, scaly skin\nLoss of subcutaneous fat\nBreast and vaginal atrophy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        }
+      ]
+    },
+    "Diagnostic_Criteria": {
+      "text": "Restriction of energy intake relative to requirements, leading to a significantly low body weight in the context of age, sex, developmental trajectory, and physical  health. Significantly low weight is  defined as a weight that is less than minimally normal or, for children and adolescents, less than that minimally expected.\n[1]\nIntense fear of gaining weight or of becoming fat, or persistent behavior that interferes with weight gain, even though at a significantly low weight.\nDisturbance in the way in which one’s body weight or shape is experienced, undue influence of body weight or shape on self-evaluation, or persistent lack of recognition of the seriousness of the current low body weight.",
+      "subsections": {
+        "Symptoms": {
+          "text": "Constipation\nAbdominal pain\nFatigue\nWeakness\nAmenorrhea\nDepression\nHair loss",
+          "tables": []
+        },
+        "Signs": {
+          "text": "Fine facial and body hair (lanugo)\nBrittle hair and nails\nDry, scaly skin\nLoss of subcutaneous fat\nBreast and vaginal atrophy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        }
+      ]
+    },
+    "Symptoms": {
+      "text": "Constipation\nAbdominal pain\nFatigue\nWeakness\nAmenorrhea\nDepression\nHair loss",
+      "subsections": {
+        "Signs": {
+          "text": "Fine facial and body hair (lanugo)\nBrittle hair and nails\nDry, scaly skin\nLoss of subcutaneous fat\nBreast and vaginal atrophy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        }
+      ]
+    },
+    "Signs": {
+      "text": "Fine facial and body hair (lanugo)\nBrittle hair and nails\nDry, scaly skin\nLoss of subcutaneous fat\nBreast and vaginal atrophy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Gastrointestinal disease\nHyperthyroidism\nOccult malignancies\nAIDS\nMajor depressive disorder\nSchizophrenia\nSubstance abuse\nSocial\nanxiety\ndisorder\nObsessive-compulsive disorder\nBulimia nervosa",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Substance abuse",
+          "url": "https://wikem.org/wiki/Substance_abuse"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Bulimia nervosa",
+          "url": "https://wikem.org/wiki/Bulimia_nervosa"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Exclude: Inflammatory bowel disease, hyperthyroidism, chronic infection, diabetes mellitus, and Addison’s disease\n[2]\nCBC\nAnemia\n,\nleukopenia\nin severe disease\nChem 10\nHypoglycemia\n,\nhypophosphatemia\nin severe disease\nECG",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hypophosphatemia",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat medical complications\n[3]\nCardiovascular\nBradycardia\ndue to increased vagal tone\nOther serious\ndysrhythmias\nDecreased cardiac muscle from malnutrition --> cardiac dysfunction,\nmitral valve prolapse\nCaution with rate of\nIVF\n(risk of\npulmonary edema\n)\nFluid/Electrolytes\nSerious\nelectrolyte abnormalities\ncan occur\nHypophosphatemia\ncan impair cardiac and diaphragmatic muscle contractions-->\nrespiratory\n/\ncardiac arrest\nHypomagnesemia\n,\nhypokalemia\nand alterations with refeeding can cause\narrhythmia\nRefeeding syndrome\nrisk\nEven 1L of d5 NS could harm patient subsisting on <400kcal daily\nGastrointestinal\nDelayed gastric/colonic emptying-->\ngastroparesis\n, distension,\nGERD\n,\nconstipation\n,\nSMA syndrome\nMSK\nOsteoporosis due to HPA dysfunction\nRisk of fracture with minimal or no trauma\nMust avoid use of\nbupropion\nas it may lead to seizures in patients with eating disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypophosphatemia",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        },
+        {
+          "text": "respiratory",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Refeeding syndrome",
+          "url": "https://wikem.org/wiki/Refeeding_syndrome"
+        },
+        {
+          "text": "gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Inpatient management for:\nExtremely low weight (<75% of expected body weight) or rapid weight loss\nHypotension\n(<80/50 mmHg)\nHypothermia\n(<96 degrees F)\nSevere\nelectrolyte imbalances\nCardiac disturbances\nBradycardia\n<50\nAcute medical disorders\nSevere or intractable purging\nPsychosis or a high risk of\nsuicide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "electrolyte imbalances",
+          "url": "https://wikem.org/wiki/Electrolyte_imbalances"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "suicide",
+          "url": "https://wikem.org/wiki/Suicide"
+        }
+      ]
+    },
+    "Also_See": {
+      "text": "Bulimia nervosa\nGeneral psychiatric workup",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bulimia nervosa",
+          "url": "https://wikem.org/wiki/Bulimia_nervosa"
+        },
+        {
+          "text": "General psychiatric workup",
+          "url": "https://wikem.org/wiki/General_psychiatric_workup"
+        }
+      ]
+    }
+  }
+}

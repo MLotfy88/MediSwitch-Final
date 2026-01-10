@@ -1,0 +1,706 @@
+{
+  "drug_name": "Anticholinergic_toxicity",
+  "url": "https://wikem.org/wiki/Anticholinergic_toxicity",
+  "scraped_at": "2026-01-10T07:47:51.830241",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Anticholinergic_toxicity_Causes": {
+          "text": "Medications\n[1]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Selective serotonin reuptake inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Selective_serotonin_reuptake_inhibitor_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Jimson weed",
+          "url": "https://wikem.org/wiki/Jimson_weed"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        }
+      ]
+    },
+    "Anticholinergic_toxicity_Causes": {
+      "text": "Medications\n[1]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Selective serotonin reuptake inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Selective_serotonin_reuptake_inhibitor_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Jimson weed",
+          "url": "https://wikem.org/wiki/Jimson_weed"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Red as a beet\n: cutaneous vasodilation\nBlind as a bat\n: nonreactive mydriasis (often delayed 12-24hr)\nMad as a hatter\n: delirium; attention deficit; hallucinations; dysarthria; lethargy\nFull as a flask\n: urinary retention\nHot as a hare\n: anhydrotic hyperthermia (may become severe w/ agitation)\nDry as a bone\n: anhidrosis (esp axillae, mouth)\nAnd the heart runs alone\n: Tachycardia (HR 120-160) and decreased/absent bowel sounds\nECG\nSinus tachycardia\nQRS widening in some cases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Sympathomimetic toxicity\nRed, dry skin and absent bowel sounds favors anticholinergic toxicity\nEncephalitis\nHead trauma\nETOH/sedative withdrawal\nNeuroleptic Malignant Syndrome (NMS)\nAcute psychotic disorder\nHypoglycemia",
+      "subsections": {
+        "Toxidrome_Chart": {
+          "text": "^Consider Sympatholytic when looking at Sedative OD or someone who doesn't respond to Narcan\nWithdrawal from substances have the opposite effect",
+          "tables": [
+            [
+              {
+                "Finding": "Example",
+                "Cholinergic": "Organophosphates",
+                "Anticholinergic": "TCAs",
+                "Sympathomimetic": "Cocaine",
+                "Sympatholytic^": "Clonidine",
+                "Sedative/Hypnotic": "ETOH"
+              },
+              {
+                "Finding": "Temp",
+                "Cholinergic": "Nl",
+                "Anticholinergic": "Nl / ↑",
+                "Sympathomimetic": "Nl / ↑",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "RR",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "Nl / ↓",
+                "Sympathomimetic": "Variable",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "HR",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "↑",
+                "Sympathomimetic": "↑ (sig)",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "BP",
+                "Cholinergic": "↑",
+                "Anticholinergic": "↑",
+                "Sympathomimetic": "↑",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "LOC",
+                "Cholinergic": "Nl / Lethargic",
+                "Anticholinergic": "Nl, agitated, psychotic, comatose",
+                "Sympathomimetic": "Nl, agitated, psychotic",
+                "Sympatholytic^": "Nl, Lethargic, or Comatose",
+                "Sedative/Hypnotic": "Nl, Lethargic, or Comatose"
+              },
+              {
+                "Finding": "Pupils",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "Mydriatic",
+                "Sympathomimetic": "Mydriatic",
+                "Sympatholytic^": "Nl / Miotic",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Motor",
+                "Cholinergic": "Fasciculations, Flacid Paralysis",
+                "Anticholinergic": "Nl",
+                "Sympathomimetic": "Nl / Agitated",
+                "Sympatholytic^": "Nl",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Skin",
+                "Cholinergic": "Sweating (sig)",
+                "Anticholinergic": "Hot, dry",
+                "Sympathomimetic": "Sweating",
+                "Sympatholytic^": "Dry",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Lungs",
+                "Cholinergic": "Bronchospasm / rhinorrhea",
+                "Anticholinergic": "Nl",
+                "Sympathomimetic": "Nl",
+                "Sympatholytic^": "Nl",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Bowel Sounds",
+                "Cholinergic": "Hyperactive (SLUDGE)",
+                "Anticholinergic": "↓ / Absent",
+                "Sympathomimetic": "Nl / ↓",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": ""
+              }
+            ]
+          ]
+        },
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Neuroleptic Malignant Syndrome (NMS)",
+          "url": "https://wikem.org/wiki/Neuroleptic_Malignant_Syndrome_(NMS)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Toxidrome_Chart": {
+      "text": "^Consider Sympatholytic when looking at Sedative OD or someone who doesn't respond to Narcan\nWithdrawal from substances have the opposite effect",
+      "subsections": {
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Finding": "Example",
+            "Cholinergic": "Organophosphates",
+            "Anticholinergic": "TCAs",
+            "Sympathomimetic": "Cocaine",
+            "Sympatholytic^": "Clonidine",
+            "Sedative/Hypnotic": "ETOH"
+          },
+          {
+            "Finding": "Temp",
+            "Cholinergic": "Nl",
+            "Anticholinergic": "Nl / ↑",
+            "Sympathomimetic": "Nl / ↑",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "RR",
+            "Cholinergic": "Variable",
+            "Anticholinergic": "Nl / ↓",
+            "Sympathomimetic": "Variable",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "HR",
+            "Cholinergic": "Variable",
+            "Anticholinergic": "↑",
+            "Sympathomimetic": "↑ (sig)",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "BP",
+            "Cholinergic": "↑",
+            "Anticholinergic": "↑",
+            "Sympathomimetic": "↑",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "LOC",
+            "Cholinergic": "Nl / Lethargic",
+            "Anticholinergic": "Nl, agitated, psychotic, comatose",
+            "Sympathomimetic": "Nl, agitated, psychotic",
+            "Sympatholytic^": "Nl, Lethargic, or Comatose",
+            "Sedative/Hypnotic": "Nl, Lethargic, or Comatose"
+          },
+          {
+            "Finding": "Pupils",
+            "Cholinergic": "Variable",
+            "Anticholinergic": "Mydriatic",
+            "Sympathomimetic": "Mydriatic",
+            "Sympatholytic^": "Nl / Miotic",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Motor",
+            "Cholinergic": "Fasciculations, Flacid Paralysis",
+            "Anticholinergic": "Nl",
+            "Sympathomimetic": "Nl / Agitated",
+            "Sympatholytic^": "Nl",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Skin",
+            "Cholinergic": "Sweating (sig)",
+            "Anticholinergic": "Hot, dry",
+            "Sympathomimetic": "Sweating",
+            "Sympatholytic^": "Dry",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Lungs",
+            "Cholinergic": "Bronchospasm / rhinorrhea",
+            "Anticholinergic": "Nl",
+            "Sympathomimetic": "Nl",
+            "Sympatholytic^": "Nl",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Bowel Sounds",
+            "Cholinergic": "Hyperactive (SLUDGE)",
+            "Anticholinergic": "↓ / Absent",
+            "Sympathomimetic": "Nl / ↓",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Altered_mental_status_and_fever": {
+      "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Treatment": {
+      "text": "Consider GI decon with\nActivated Charcoal\nif patient presents <2 hours after ingestion and remains cooperative",
+      "subsections": {
+        "Sedation": {
+          "text": "Decreases the risk of\nhyperthermia\n,\nrhabdo\n, traumatic injuries\nBenzos\nare agents of choice especially increase seizure threshold\n[2]\nRepeat boluses every 5-15 minutes as needed to halt seizures and provide adequate sedation\nGoal: QRS duration < 110 msec",
+          "tables": []
+        },
+        "Cholinesterase_inhibition": {
+          "text": "Indicated for severe agitation or delirium (esp if unresponsive to\nbenzos\n)\nContraindicated in QRS>100 or Na blockade signs (R' in aVR) and in narrow angle glaucoma\nRelatively contraindicated in asthma or ileus\nPhysostigmine\n- strongly consider poison control consult before giving\nCrosses blood brain barrier, can be used to help make dx\nDosing: 0.5mg-1mg IV over 5min (repeat dosing up to 2mg in first hour)\n[3]\nOnset of action: 5-10min\nIf partial response, repeat x3\nIf 3 or more administrations are needed over a 6-hour period, start IV infusion (bolus 1-2 mg followed by 1 mg/hour)\nStop infusion every 12 hours to determine resolution of the toxidrome\nSide effects: bradycardia, dysrhythmias, cholinergic excess\n[4]\nAlways have\natropine\nat the bedside for bradycardia or cholinergic excess</ref>\n[5]\nContraindicated\nin\nTCA toxicity\n(associated with cardiac arrest) and in the presence of bradycardia or AV block",
+          "tables": []
+        },
+        "Other_therapies": {
+          "text": "Sodium bicarbonate\nfor conduction abnormalities (QRS prolongation)\n2 mEq/kg bolus (typically 2-3 amps of bicarb)\nBegin continuous NaCO3 infusion at 250mL/hr if bolus effective\nSolution preparation = 1L D5W mixed with 3 ampules NaHCO3",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated Charcoal",
+          "url": "https://wikem.org/wiki/Activated_Charcoal"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "rhabdo",
+          "url": "https://wikem.org/wiki/Rhabdo"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Physostigmine",
+          "url": "https://wikem.org/wiki/Physostigmine"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        }
+      ]
+    },
+    "Sedation": {
+      "text": "Decreases the risk of\nhyperthermia\n,\nrhabdo\n, traumatic injuries\nBenzos\nare agents of choice especially increase seizure threshold\n[2]\nRepeat boluses every 5-15 minutes as needed to halt seizures and provide adequate sedation\nGoal: QRS duration < 110 msec",
+      "subsections": {
+        "Cholinesterase_inhibition": {
+          "text": "Indicated for severe agitation or delirium (esp if unresponsive to\nbenzos\n)\nContraindicated in QRS>100 or Na blockade signs (R' in aVR) and in narrow angle glaucoma\nRelatively contraindicated in asthma or ileus\nPhysostigmine\n- strongly consider poison control consult before giving\nCrosses blood brain barrier, can be used to help make dx\nDosing: 0.5mg-1mg IV over 5min (repeat dosing up to 2mg in first hour)\n[3]\nOnset of action: 5-10min\nIf partial response, repeat x3\nIf 3 or more administrations are needed over a 6-hour period, start IV infusion (bolus 1-2 mg followed by 1 mg/hour)\nStop infusion every 12 hours to determine resolution of the toxidrome\nSide effects: bradycardia, dysrhythmias, cholinergic excess\n[4]\nAlways have\natropine\nat the bedside for bradycardia or cholinergic excess</ref>\n[5]\nContraindicated\nin\nTCA toxicity\n(associated with cardiac arrest) and in the presence of bradycardia or AV block",
+          "tables": []
+        },
+        "Other_therapies": {
+          "text": "Sodium bicarbonate\nfor conduction abnormalities (QRS prolongation)\n2 mEq/kg bolus (typically 2-3 amps of bicarb)\nBegin continuous NaCO3 infusion at 250mL/hr if bolus effective\nSolution preparation = 1L D5W mixed with 3 ampules NaHCO3",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "rhabdo",
+          "url": "https://wikem.org/wiki/Rhabdo"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Physostigmine",
+          "url": "https://wikem.org/wiki/Physostigmine"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        }
+      ]
+    },
+    "Cholinesterase_inhibition": {
+      "text": "Indicated for severe agitation or delirium (esp if unresponsive to\nbenzos\n)\nContraindicated in QRS>100 or Na blockade signs (R' in aVR) and in narrow angle glaucoma\nRelatively contraindicated in asthma or ileus\nPhysostigmine\n- strongly consider poison control consult before giving\nCrosses blood brain barrier, can be used to help make dx\nDosing: 0.5mg-1mg IV over 5min (repeat dosing up to 2mg in first hour)\n[3]\nOnset of action: 5-10min\nIf partial response, repeat x3\nIf 3 or more administrations are needed over a 6-hour period, start IV infusion (bolus 1-2 mg followed by 1 mg/hour)\nStop infusion every 12 hours to determine resolution of the toxidrome\nSide effects: bradycardia, dysrhythmias, cholinergic excess\n[4]\nAlways have\natropine\nat the bedside for bradycardia or cholinergic excess</ref>\n[5]\nContraindicated\nin\nTCA toxicity\n(associated with cardiac arrest) and in the presence of bradycardia or AV block",
+      "subsections": {
+        "Other_therapies": {
+          "text": "Sodium bicarbonate\nfor conduction abnormalities (QRS prolongation)\n2 mEq/kg bolus (typically 2-3 amps of bicarb)\nBegin continuous NaCO3 infusion at 250mL/hr if bolus effective\nSolution preparation = 1L D5W mixed with 3 ampules NaHCO3",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Physostigmine",
+          "url": "https://wikem.org/wiki/Physostigmine"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        }
+      ]
+    },
+    "Other_therapies": {
+      "text": "Sodium bicarbonate\nfor conduction abnormalities (QRS prolongation)\n2 mEq/kg bolus (typically 2-3 amps of bicarb)\nBegin continuous NaCO3 infusion at 250mL/hr if bolus effective\nSolution preparation = 1L D5W mixed with 3 ampules NaHCO3",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider discharge for patients with mild symptoms after 6hr obs if their symptoms resolve\nLong-acting agents, plant seeds and large ingestions should have extended observation up to 24-48 hours even if asymptomatic due to decreased gastrointestinal motility\nAdmit if physostigmine was given (half-life of physo is often shorter than the ingested drug)\nPatients may be cleared if symptoms do not recur within 6 hours of the last antidote dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        }
+      ]
+    }
+  }
+}

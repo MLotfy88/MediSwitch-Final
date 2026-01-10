@@ -1,0 +1,865 @@
+{
+  "drug_name": "Analgesics_and_sedatives_(peds)",
+  "url": "https://wikem.org/wiki/Analgesics_and_sedatives_(peds)",
+  "scraped_at": "2026-01-10T07:47:36.236731",
+  "sections": {
+    "Background": {
+      "text": "Requires a more careful approach than typically needed in the adult population.\nChildren may require sedation for procedures that are done with topical anesthetic in the adult population and evaluation of pain in infants and young children can be challenging.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "There are a number of well established frameworks for evaluating pain that are helpful in the pediatric ED; which framework works best is dependent on the age of the patient and provider preference\n[1]\n.",
+      "subsections": {
+        "Neonates": {
+          "text": "CRIES Scale (used to establish baseline and assess discomfort over time):",
+          "tables": [
+            [
+              {
+                "": "Crying",
+                "0": "None",
+                "1": "High-pitched",
+                "2": "Inconsolable"
+              },
+              {
+                "": "Requires O2",
+                "0": "None",
+                "1": "<30% FiO2needed",
+                "2": ">30% FiO2needed"
+              },
+              {
+                "": "Increased Vital Signs",
+                "0": "Normal HR and BP",
+                "1": "Increased HR and BP <20%",
+                "2": "Increased HR and BP >20%"
+              },
+              {
+                "": "Expression",
+                "0": "Normal",
+                "1": "Grimace",
+                "2": "Grimace and Grunt"
+              },
+              {
+                "": "Sleeplessness",
+                "0": "None",
+                "1": "Wakes frequently",
+                "2": "Awake constantly"
+              }
+            ]
+          ]
+        },
+        "Infants": {
+          "text": "<1yo: Neonatal Infant Pain (NIPS) Scale (score of >5 generally should be treated pharmacologically)\n>1yo: FLACC Scale",
+          "tables": [
+            [
+              {
+                "": "Facial Expression",
+                "0": "Relaxed",
+                "1": "Grimace",
+                "2": ""
+              },
+              {
+                "": "Cry",
+                "0": "None",
+                "1": "Whimper",
+                "2": "Vigorous Cry"
+              },
+              {
+                "": "Breathing Pattern",
+                "0": "Relaxed",
+                "1": "Variable Breathing",
+                "2": ""
+              },
+              {
+                "": "Arms",
+                "0": "Relaxed",
+                "1": "Restrained",
+                "2": ""
+              },
+              {
+                "": "Legs",
+                "0": "Relaxed",
+                "1": "Restrained",
+                "2": ""
+              },
+              {
+                "": "State of Arousal",
+                "0": "Not fussy",
+                "1": "Fussy",
+                "2": ""
+              }
+            ],
+            [
+              {
+                "": "Face",
+                "0": "No expression or smile",
+                "1": "Grimace, frown, or withdrawn",
+                "2": "Quivering chin, clenched jaw"
+              },
+              {
+                "": "Legs",
+                "0": "Relaxed",
+                "1": "Restless, tense",
+                "2": "Kicking, drawn up"
+              },
+              {
+                "": "Activity",
+                "0": "Lying quietly or easy movement",
+                "1": "Squirming, tense",
+                "2": "Arched, rigid, or jerking"
+              },
+              {
+                "": "Cry",
+                "0": "None",
+                "1": "Moaning, whimpering, complaining",
+                "2": "Steady crying or screaming"
+              },
+              {
+                "": "Consolability",
+                "0": "Relaxed",
+                "1": "Distractable",
+                "2": "Difficult to console or comfort"
+              }
+            ]
+          ]
+        },
+        "Verbal_Children_>3yo": {
+          "text": "For pain assessment in the verbal child who is >3yo, consider using a visual pain scale such as the Wong-Baker scale (shown below).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Neonates": {
+      "text": "CRIES Scale (used to establish baseline and assess discomfort over time):",
+      "subsections": {
+        "Infants": {
+          "text": "<1yo: Neonatal Infant Pain (NIPS) Scale (score of >5 generally should be treated pharmacologically)\n>1yo: FLACC Scale",
+          "tables": [
+            [
+              {
+                "": "Facial Expression",
+                "0": "Relaxed",
+                "1": "Grimace",
+                "2": ""
+              },
+              {
+                "": "Cry",
+                "0": "None",
+                "1": "Whimper",
+                "2": "Vigorous Cry"
+              },
+              {
+                "": "Breathing Pattern",
+                "0": "Relaxed",
+                "1": "Variable Breathing",
+                "2": ""
+              },
+              {
+                "": "Arms",
+                "0": "Relaxed",
+                "1": "Restrained",
+                "2": ""
+              },
+              {
+                "": "Legs",
+                "0": "Relaxed",
+                "1": "Restrained",
+                "2": ""
+              },
+              {
+                "": "State of Arousal",
+                "0": "Not fussy",
+                "1": "Fussy",
+                "2": ""
+              }
+            ],
+            [
+              {
+                "": "Face",
+                "0": "No expression or smile",
+                "1": "Grimace, frown, or withdrawn",
+                "2": "Quivering chin, clenched jaw"
+              },
+              {
+                "": "Legs",
+                "0": "Relaxed",
+                "1": "Restless, tense",
+                "2": "Kicking, drawn up"
+              },
+              {
+                "": "Activity",
+                "0": "Lying quietly or easy movement",
+                "1": "Squirming, tense",
+                "2": "Arched, rigid, or jerking"
+              },
+              {
+                "": "Cry",
+                "0": "None",
+                "1": "Moaning, whimpering, complaining",
+                "2": "Steady crying or screaming"
+              },
+              {
+                "": "Consolability",
+                "0": "Relaxed",
+                "1": "Distractable",
+                "2": "Difficult to console or comfort"
+              }
+            ]
+          ]
+        },
+        "Verbal_Children_>3yo": {
+          "text": "For pain assessment in the verbal child who is >3yo, consider using a visual pain scale such as the Wong-Baker scale (shown below).",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "": "Crying",
+            "0": "None",
+            "1": "High-pitched",
+            "2": "Inconsolable"
+          },
+          {
+            "": "Requires O2",
+            "0": "None",
+            "1": "<30% FiO2needed",
+            "2": ">30% FiO2needed"
+          },
+          {
+            "": "Increased Vital Signs",
+            "0": "Normal HR and BP",
+            "1": "Increased HR and BP <20%",
+            "2": "Increased HR and BP >20%"
+          },
+          {
+            "": "Expression",
+            "0": "Normal",
+            "1": "Grimace",
+            "2": "Grimace and Grunt"
+          },
+          {
+            "": "Sleeplessness",
+            "0": "None",
+            "1": "Wakes frequently",
+            "2": "Awake constantly"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Infants": {
+      "text": "<1yo: Neonatal Infant Pain (NIPS) Scale (score of >5 generally should be treated pharmacologically)\n>1yo: FLACC Scale",
+      "subsections": {
+        "Verbal_Children_>3yo": {
+          "text": "For pain assessment in the verbal child who is >3yo, consider using a visual pain scale such as the Wong-Baker scale (shown below).",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "": "Facial Expression",
+            "0": "Relaxed",
+            "1": "Grimace",
+            "2": ""
+          },
+          {
+            "": "Cry",
+            "0": "None",
+            "1": "Whimper",
+            "2": "Vigorous Cry"
+          },
+          {
+            "": "Breathing Pattern",
+            "0": "Relaxed",
+            "1": "Variable Breathing",
+            "2": ""
+          },
+          {
+            "": "Arms",
+            "0": "Relaxed",
+            "1": "Restrained",
+            "2": ""
+          },
+          {
+            "": "Legs",
+            "0": "Relaxed",
+            "1": "Restrained",
+            "2": ""
+          },
+          {
+            "": "State of Arousal",
+            "0": "Not fussy",
+            "1": "Fussy",
+            "2": ""
+          }
+        ],
+        [
+          {
+            "": "Face",
+            "0": "No expression or smile",
+            "1": "Grimace, frown, or withdrawn",
+            "2": "Quivering chin, clenched jaw"
+          },
+          {
+            "": "Legs",
+            "0": "Relaxed",
+            "1": "Restless, tense",
+            "2": "Kicking, drawn up"
+          },
+          {
+            "": "Activity",
+            "0": "Lying quietly or easy movement",
+            "1": "Squirming, tense",
+            "2": "Arched, rigid, or jerking"
+          },
+          {
+            "": "Cry",
+            "0": "None",
+            "1": "Moaning, whimpering, complaining",
+            "2": "Steady crying or screaming"
+          },
+          {
+            "": "Consolability",
+            "0": "Relaxed",
+            "1": "Distractable",
+            "2": "Difficult to console or comfort"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Verbal_Children_>3yo": {
+      "text": "For pain assessment in the verbal child who is >3yo, consider using a visual pain scale such as the Wong-Baker scale (shown below).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Escalation_of_Care": {
+      "text": "Escalation of care generally depends on the source and severity of pain that the patient is experiencing. Consider starting with non-pharmacologic interventions and escalating to topical, oral, or IV as appropriate.",
+      "subsections": {
+        "Non-pharmacologic_methods": {
+          "text": "First line of care for an uncomfortable infant or child in the ED should include non-pharmacologic methods such as heat or icing. Distraction can also be a useful technique for consolation, including:\nPacifiers\nMultimedia displays/videos\nEngagement with Child Life Specialist",
+          "tables": []
+        },
+        "Topical_Anesthetics": {
+          "text": "While not as frequently used in the adult context, topical anesthetics play a major role in pain management in pediatrics. The most frequent uses for topical anesthetics are enable PIV placement and to \"pre-treat\" open wounds prior to bedside evaluation and repair. Common options include:",
+          "tables": [
+            [
+              {
+                "Name": "LET",
+                "Principal Indication": "Use on open wound for laceration repair",
+                "Onset/Duration": "30-45 minutes/variable"
+              },
+              {
+                "Name": "EMLA",
+                "Principal Indication": "Use on intact skin. Can assist with PIV placement, LP, or abscesses",
+                "Onset/Duration": "45-60 minutes/~120 minutes"
+              },
+              {
+                "Name": "LMX",
+                "Principal Indication": "Use on intact skin. Can assist with PIV placement, LP, or abscesses",
+                "Onset/Duration": "20-30 minutes/~60 minutes"
+              }
+            ]
+          ]
+        },
+        "Intranasal_and_IV_analgesia": {
+          "text": "If the above are not adequate or appropriate for the patient at hand, providers can consider inhaled analgesics or, if IV access is available, IV analgesia. As with adult patients, it is recommended to avoid opioids when possible. See below for common dose ranges for analgesics in the pediatric population.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Non-pharmacologic_methods": {
+      "text": "First line of care for an uncomfortable infant or child in the ED should include non-pharmacologic methods such as heat or icing. Distraction can also be a useful technique for consolation, including:\nPacifiers\nMultimedia displays/videos\nEngagement with Child Life Specialist",
+      "subsections": {
+        "Topical_Anesthetics": {
+          "text": "While not as frequently used in the adult context, topical anesthetics play a major role in pain management in pediatrics. The most frequent uses for topical anesthetics are enable PIV placement and to \"pre-treat\" open wounds prior to bedside evaluation and repair. Common options include:",
+          "tables": [
+            [
+              {
+                "Name": "LET",
+                "Principal Indication": "Use on open wound for laceration repair",
+                "Onset/Duration": "30-45 minutes/variable"
+              },
+              {
+                "Name": "EMLA",
+                "Principal Indication": "Use on intact skin. Can assist with PIV placement, LP, or abscesses",
+                "Onset/Duration": "45-60 minutes/~120 minutes"
+              },
+              {
+                "Name": "LMX",
+                "Principal Indication": "Use on intact skin. Can assist with PIV placement, LP, or abscesses",
+                "Onset/Duration": "20-30 minutes/~60 minutes"
+              }
+            ]
+          ]
+        },
+        "Intranasal_and_IV_analgesia": {
+          "text": "If the above are not adequate or appropriate for the patient at hand, providers can consider inhaled analgesics or, if IV access is available, IV analgesia. As with adult patients, it is recommended to avoid opioids when possible. See below for common dose ranges for analgesics in the pediatric population.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Topical_Anesthetics": {
+      "text": "While not as frequently used in the adult context, topical anesthetics play a major role in pain management in pediatrics. The most frequent uses for topical anesthetics are enable PIV placement and to \"pre-treat\" open wounds prior to bedside evaluation and repair. Common options include:",
+      "subsections": {
+        "Intranasal_and_IV_analgesia": {
+          "text": "If the above are not adequate or appropriate for the patient at hand, providers can consider inhaled analgesics or, if IV access is available, IV analgesia. As with adult patients, it is recommended to avoid opioids when possible. See below for common dose ranges for analgesics in the pediatric population.",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Name": "LET",
+            "Principal Indication": "Use on open wound for laceration repair",
+            "Onset/Duration": "30-45 minutes/variable"
+          },
+          {
+            "Name": "EMLA",
+            "Principal Indication": "Use on intact skin. Can assist with PIV placement, LP, or abscesses",
+            "Onset/Duration": "45-60 minutes/~120 minutes"
+          },
+          {
+            "Name": "LMX",
+            "Principal Indication": "Use on intact skin. Can assist with PIV placement, LP, or abscesses",
+            "Onset/Duration": "20-30 minutes/~60 minutes"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Intranasal_and_IV_analgesia": {
+      "text": "If the above are not adequate or appropriate for the patient at hand, providers can consider inhaled analgesics or, if IV access is available, IV analgesia. As with adult patients, it is recommended to avoid opioids when possible. See below for common dose ranges for analgesics in the pediatric population.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Considerations_for_Sedation": {
+      "text": "In general, the indications for pediatric sedation are to relieve pain, reduce anxiety, and ensure cooperation/patient safety during a procedure. Once it is determined that a pediatric patient will need sedation, the evaluation of said patient is essentially the same as for adults. Collect a medication list and determine allergies before conducting an airway evaluation. Consent the parent(s) prior to sedation. The following are a set of commonly used sedatives along with their indications, courtesy of Dr. Michael Mojica's PEM Guides.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Class": "Pharmacology",
+            "Imidazole sedative hypnotic": "Onset: 1 minute, Duration: 3-12 minutes"
+          },
+          {
+            "Class": "Benefits",
+            "Imidazole sedative hypnotic": "Cardiovascular stability, decreases intracranial pressure"
+          },
+          {
+            "Class": "Adverse Effects",
+            "Imidazole sedative hypnotic": "Transient cortisol depression, myoclonic activity"
+          },
+          {
+            "Class": "Indications",
+            "Imidazole sedative hypnotic": "Non-painful radiologic procedures (e.g. head CT)"
+          },
+          {
+            "Class": "Contraindications",
+            "Imidazole sedative hypnotic": "Adrenal insufficiency, chronic steroid use"
+          },
+          {
+            "Class": "Dose",
+            "Imidazole sedative hypnotic": "0.2-0.4 mg/kg"
+          },
+          {
+            "Class": "Comments",
+            "Imidazole sedative hypnotic": "Notify parents and CT technicians before administration that myoclonic jerks may occur, that they do not represent seizure activity and that they are typically is very brief in duration"
+          }
+        ],
+        [
+          {
+            "Class": "Pharmacology",
+            "Sedative-hypnotic": "Onset 1-2 minutes, Duration 3-5 minutes"
+          },
+          {
+            "Class": "Benefits",
+            "Sedative-hypnotic": "Titratable, decreases ICP, Antiemetic, Anticonvulsant"
+          },
+          {
+            "Class": "Adverse Effects",
+            "Sedative-hypnotic": "Respiratory depressionApnea (usually resolves with jaw thrust)\nCardiovascular depression: Hypotension\nNo analgesic properties, painful administration"
+          },
+          {
+            "Class": "Indications",
+            "Sedative-hypnotic": "Long duration nonpainful, radiologic procedures (e.g. MRI), post rapid sequence intubation for head trauma"
+          },
+          {
+            "Class": "Contraindications",
+            "Sedative-hypnotic": "Hypotension: Maximize volume status prior to use. < 6 months associated with high rate of complications, Egg/Soy allergies are no longer considered a contraindication"
+          },
+          {
+            "Class": "Dose",
+            "Sedative-hypnotic": "Initial dose: 1.5–2.0 mg/kgSubsequent dose: 0.5-1.0 mg/kg Q1-3 minutes to effect\nInfusion: 250 µg/kg/minute (0.25 mg/kg/min)"
+          },
+          {
+            "Class": "Comments",
+            "Sedative-hypnotic": "An IV fluid bolus should be readily available for hypotension"
+          }
+        ],
+        [
+          {
+            "Class": "Pharmacology",
+            "Opioid": "Onset 2-3 minutes, Duration 20-60 minutes"
+          },
+          {
+            "Class": "Benefits",
+            "Opioid": "Analgesic, Hemodynamic stability (Less histamine release), Reversible with Naloxone"
+          },
+          {
+            "Class": "Adverse Effects",
+            "Opioid": "Respiratory depressionChest wall rigidity with high doses or rapid administration"
+          },
+          {
+            "Class": "Indications",
+            "Opioid": "Painful conditions and procedures"
+          },
+          {
+            "Class": "Contraindications",
+            "Opioid": "Pt with poor respiratory drive"
+          },
+          {
+            "Class": "Dose",
+            "Opioid": "IV: 1 mcg/kg, maximum dose 100 mcgIN: 1-2 mcg/kg, maximum dose 100 mcg"
+          },
+          {
+            "Class": "Comments",
+            "Opioid": "Chest wall rigidity may require Naloxone or a paralytic"
+          }
+        ],
+        [
+          {
+            "Class": "Pharmacology",
+            "Opiate": "Onset 5-10 minutes, Duration 2-4 hours"
+          },
+          {
+            "Class": "Benefits",
+            "Opiate": "Analgesic, Reversible with Naloxone"
+          },
+          {
+            "Class": "Adverse Effects",
+            "Opiate": "Respiratory depression, Hypotension (histamine release)"
+          },
+          {
+            "Class": "Indications",
+            "Opiate": "Painful conditions and procedures"
+          },
+          {
+            "Class": "Contraindications",
+            "Opiate": "Pt with poor respiratory drive"
+          },
+          {
+            "Class": "Dose",
+            "Opiate": "0.1 mg/kg"
+          }
+        ],
+        [
+          {
+            "Class": "Pharmacology",
+            "Benzodiazapine": "IV: Onset 1-2 min, Duration 30-60 min"
+          },
+          {
+            "Class": "Benefits",
+            "Benzodiazapine": "Amnestic, anxiolysis, anticonvulsant, Reversible with Flumazenil"
+          },
+          {
+            "Class": "Adverse Effects",
+            "Benzodiazapine": "Respiratory depressionParadoxical agitation in children"
+          },
+          {
+            "Class": "Indications",
+            "Benzodiazapine": "AnxiolysisUse in conjunction with an opioid for painful procedures"
+          },
+          {
+            "Class": "Contraindications",
+            "Benzodiazapine": "Pt with poor respiratory drive"
+          },
+          {
+            "Class": "Dose",
+            "Benzodiazapine": "IV: 0.1 mg/kgIN: 0.3-0.5 mg/kg, maximum dose 10 mg"
+          }
+        ],
+        [
+          {
+            "Class": "Pharmacology",
+            "Alpha 2 agonist": "Sedative, anxiolytic and mild analgesic propertiesLipid soluble: Readily cross the blood brain barrier"
+          },
+          {
+            "Class": "Benefits",
+            "Alpha 2 agonist": "Minimal effects on respiratory function"
+          },
+          {
+            "Class": "Adverse Effects",
+            "Alpha 2 agonist": "Cardiovascular effects: Hypotension, bradycardiaUse with caution in patients with liver and renal disease"
+          },
+          {
+            "Class": "Indications",
+            "Alpha 2 agonist": "Non-invasive imaging"
+          },
+          {
+            "Class": "Dose",
+            "Alpha 2 agonist": "Loading: 1-3 mcg/kg over 10 minutes, may be repeatedInfusion: 0.5-2 mcg/kg/hour\nCan be given orally and intranasally as well"
+          },
+          {
+            "Class": "Comments",
+            "Alpha 2 agonist": "Compared to Propofol:Similar cardiovascular adverse events without respiratory depression\nAnalgesic \nLonger induction, recovery and discharge times\nAn IV fluid bolus should be readily available for hypotension"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Pediatric patients are generally safe to be discharged home if their pain is well-controlled, they can walk unsupported (if appropriate for age), and can tolerate fluids. If pain is uncontrolled after escalation of care in the emergency department (particularly if a clear source of pain has not been identified), consider admission for further workup and management.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_doses_for_Common_Analgesics": {
+      "text": "",
+      "subsections": {
+        "Non-Opioid": {
+          "text": "Acetaminophen\nPO/PR: 10-15mg/kg/dose q4-6hrs\nChildren’s Tylenol is 160mg/5ml\nMax: 75mg/kg/day or 4000mg/day\nIbuprofen\nPO: 4-10mg/kg/dose q6-8hrs\nChildren’s Motrin is 100mg/5ml\nMax: 40mg/kg/day\nKetorolac\nIM/IV: 0.5mg/kg/dose q6hrs\nTramadol\nPO: 1-2mg/kg/dose q4-6hrs",
+          "tables": []
+        },
+        "Opioid": {
+          "text": "Naloxone\n(\nopioid overdose\nreversal)\nIV/IM: 0.001-0.02mg/kg/dose\nMorphine\nIM/IV: 0.05-0.2mg/kg/dose q2-4hrs\nHydromorphone\nIV: 0.015mg/kg/dose q4-6hrs\nPO: 0.03-0.08mg/kg/dose q3-4hrs\nFentanyl\nIV: 1-2 mcg/kg/dose q1-2hrs\nIN: 1-2 mcg/kg/dose via atomizer\nOxycodone\nPO: 0.05-0.15mg/kg/dose q4-6hrs\nCodeine\nPO: 0.5=1mg/kg/dose q4-6hrs\nMethadone\nIV/PO: 0.05-0.1mg/kg/dose q6hrs",
+          "tables": []
+        },
+        "Combination_Medication": {
+          "text": "Acetaminophen with Codeine\nPO: 0.5-1mg/kg/dose of codeine q4-6hrs\nAcetaminophen with Hydrocodone\nPO: 0.15mg/kg/dose of hydrocodone q4-6hrs\nAcetaminophen with Oxycodone\nPO: 0.05-0.15mg/kg/dose of oxycodone 14-6hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "opioid overdose",
+          "url": "https://wikem.org/wiki/Opioid_overdose"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Oxycodone",
+          "url": "https://wikem.org/wiki/Oxycodone"
+        },
+        {
+          "text": "Codeine",
+          "url": "https://wikem.org/wiki/Codeine"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        }
+      ]
+    },
+    "Non-Opioid": {
+      "text": "Acetaminophen\nPO/PR: 10-15mg/kg/dose q4-6hrs\nChildren’s Tylenol is 160mg/5ml\nMax: 75mg/kg/day or 4000mg/day\nIbuprofen\nPO: 4-10mg/kg/dose q6-8hrs\nChildren’s Motrin is 100mg/5ml\nMax: 40mg/kg/day\nKetorolac\nIM/IV: 0.5mg/kg/dose q6hrs\nTramadol\nPO: 1-2mg/kg/dose q4-6hrs",
+      "subsections": {
+        "Opioid": {
+          "text": "Naloxone\n(\nopioid overdose\nreversal)\nIV/IM: 0.001-0.02mg/kg/dose\nMorphine\nIM/IV: 0.05-0.2mg/kg/dose q2-4hrs\nHydromorphone\nIV: 0.015mg/kg/dose q4-6hrs\nPO: 0.03-0.08mg/kg/dose q3-4hrs\nFentanyl\nIV: 1-2 mcg/kg/dose q1-2hrs\nIN: 1-2 mcg/kg/dose via atomizer\nOxycodone\nPO: 0.05-0.15mg/kg/dose q4-6hrs\nCodeine\nPO: 0.5=1mg/kg/dose q4-6hrs\nMethadone\nIV/PO: 0.05-0.1mg/kg/dose q6hrs",
+          "tables": []
+        },
+        "Combination_Medication": {
+          "text": "Acetaminophen with Codeine\nPO: 0.5-1mg/kg/dose of codeine q4-6hrs\nAcetaminophen with Hydrocodone\nPO: 0.15mg/kg/dose of hydrocodone q4-6hrs\nAcetaminophen with Oxycodone\nPO: 0.05-0.15mg/kg/dose of oxycodone 14-6hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "opioid overdose",
+          "url": "https://wikem.org/wiki/Opioid_overdose"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Oxycodone",
+          "url": "https://wikem.org/wiki/Oxycodone"
+        },
+        {
+          "text": "Codeine",
+          "url": "https://wikem.org/wiki/Codeine"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        }
+      ]
+    },
+    "Opioid": {
+      "text": "Naloxone\n(\nopioid overdose\nreversal)\nIV/IM: 0.001-0.02mg/kg/dose\nMorphine\nIM/IV: 0.05-0.2mg/kg/dose q2-4hrs\nHydromorphone\nIV: 0.015mg/kg/dose q4-6hrs\nPO: 0.03-0.08mg/kg/dose q3-4hrs\nFentanyl\nIV: 1-2 mcg/kg/dose q1-2hrs\nIN: 1-2 mcg/kg/dose via atomizer\nOxycodone\nPO: 0.05-0.15mg/kg/dose q4-6hrs\nCodeine\nPO: 0.5=1mg/kg/dose q4-6hrs\nMethadone\nIV/PO: 0.05-0.1mg/kg/dose q6hrs",
+      "subsections": {
+        "Combination_Medication": {
+          "text": "Acetaminophen with Codeine\nPO: 0.5-1mg/kg/dose of codeine q4-6hrs\nAcetaminophen with Hydrocodone\nPO: 0.15mg/kg/dose of hydrocodone q4-6hrs\nAcetaminophen with Oxycodone\nPO: 0.05-0.15mg/kg/dose of oxycodone 14-6hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "opioid overdose",
+          "url": "https://wikem.org/wiki/Opioid_overdose"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Oxycodone",
+          "url": "https://wikem.org/wiki/Oxycodone"
+        },
+        {
+          "text": "Codeine",
+          "url": "https://wikem.org/wiki/Codeine"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        }
+      ]
+    },
+    "Combination_Medication": {
+      "text": "Acetaminophen with Codeine\nPO: 0.5-1mg/kg/dose of codeine q4-6hrs\nAcetaminophen with Hydrocodone\nPO: 0.15mg/kg/dose of hydrocodone q4-6hrs\nAcetaminophen with Oxycodone\nPO: 0.05-0.15mg/kg/dose of oxycodone 14-6hrs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_doses_for_Common_Sedatives": {
+      "text": "Midazolam\nIM: 0.05-0.15mg/kg; max 10mg\nIV:\n6mo-5yr: 0.05-0.1mg/kg initially with up to 0.6mg/kg needed; max 6mg\n6yr-12yr: 0.025-0.05mg/kg initially with up to 0.4mg/kg needed; max 10mg\n12yr-16yr:1-2mg initially with up to 2.4-5mg needed; max 10mg\nPO: 0.25-0.5mg/kg; max 20mg\nLorazepam\nIV/PO: 0.05-0.1mg/kg q4-8hrs\nKetamine\nIV: 0.5-2mg/kg\nIM: 3-7mg/kg\nChloral hydrate\nPO: 25-50mg/kg\nPropofol\nIV: 1-2mg/kg over 30 seconds\nEtomidate\nIV: 0.3mg/kg",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pediatric Emergency Drug Reference Card\nAcute Pain Management\nPain Management in Infants & Children\nProcedural sedation (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric Emergency Drug Reference Card",
+          "url": "https://wikem.org/wiki/Pediatric_Emergency_Drug_Reference_Card"
+        },
+        {
+          "text": "Acute Pain Management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Pain Management in Infants & Children",
+          "url": "https://wikem.org/wiki/Pain_management_in_infants_and_children"
+        },
+        {
+          "text": "Procedural sedation (peds)",
+          "url": "https://wikem.org/wiki/Procedural_sedation_(peds)"
+        }
+      ]
+    }
+  }
+}

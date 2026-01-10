@@ -1,0 +1,665 @@
+{
+  "drug_name": "Anemia",
+  "url": "https://wikem.org/wiki/Anemia",
+  "scraped_at": "2026-01-10T07:47:39.865785",
+  "sections": {
+    "Background": {
+      "text": "Anemia is a condition of decreased hemoglobin (Hb) concentration compared to age-matched and gender-matched controls.\nMales: Hb < 13 g/dL\nNon-Pregnant Females: Hb < 12 g/dL\nPregnant-Females: Hb < 11g/dL\nChildren: Hb <  <11-12 g/dL (depends on age)\nAffects 1/3 of the world's population\nMost common causes are\nuterine\nand\nGI bleeding",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "4 mechanisms:\nLoss of RBCs by hemorrhage (e.g.\nGI bleed\n,\ntrauma\n)\nIncreased destruction (\nSCD\n,\nhemolytic anemia\n)\nImpaired production (iron deficiency,\nfolate deficiency\n,\nB12 deficiency\n,\naplastic anemia\n/\nmyelodysplastic syndrome\n)\nDilutional (rapid\nIVF\ninfusion)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "uterine",
+          "url": "https://wikem.org/wiki/Vaginal_Bleed_Non-Pregnant"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "SCD",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "myelodysplastic syndrome",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "4 mechanisms:\nLoss of RBCs by hemorrhage (e.g.\nGI bleed\n,\ntrauma\n)\nIncreased destruction (\nSCD\n,\nhemolytic anemia\n)\nImpaired production (iron deficiency,\nfolate deficiency\n,\nB12 deficiency\n,\naplastic anemia\n/\nmyelodysplastic syndrome\n)\nDilutional (rapid\nIVF\ninfusion)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "SCD",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "myelodysplastic syndrome",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "General_Anemia_Symptoms": {
+          "text": "Most patients begin to be symptomatic at ~7gm/dL\nWeakness\n,\nfatigue\n,\nlethargy\n,\ndyspnea\non exertion,\npalpitations\nSkin, nail bed, mucosal pallor\nWidened pulse pressure\nJaundice\n,\nhepatosplenomegaly\n(\nhemolysis\n)\nPeripheral neuropathy (\nB12 deficiency\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        }
+      ]
+    },
+    "General_Anemia_Symptoms": {
+      "text": "Most patients begin to be symptomatic at ~7gm/dL\nWeakness\n,\nfatigue\n,\nlethargy\n,\ndyspnea\non exertion,\npalpitations\nSkin, nail bed, mucosal pallor\nWidened pulse pressure\nJaundice\n,\nhepatosplenomegaly\n(\nhemolysis\n)\nPeripheral neuropathy (\nB12 deficiency\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12\n/\nfolate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Anemia": {
+      "text": "",
+      "subsections": {
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12\n/\nfolate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Severe anemia is defined as a hemoglobin level of 5 to 7 g/dL with symptoms of hypoperfusion including\nlactic acidosis\n, base deficit, shock, hemodynamic instability, or\ncoronary\nischemia\n[1]",
+      "subsections": {
+        "Acute_Anemia": {
+          "text": "Assess for any signs of bleeding or trauma before considering other causes of chronic anemia.",
+          "tables": []
+        },
+        "Chronic_Anemia": {
+          "text": "CBC for evaluation, look at MCV\nMicrocytic: Iron Levels, Reticulocyte Count, Ferritin, TIBC\nMacrocytic: Folate Level, B12 Level, Reticulocyte Count",
+          "tables": []
+        },
+        "Microcytic_Anemia_(<81_fL)": {
+          "text": "RDW high → evaluate Ferritin, which is a measurement of iron storage\nFerritin low: Iron deficiency anemia\nFerritin normal: Anemia chronic disease or sideroblastic anemia (e.g.\nlead poisoning\n)\nRDW normal\nRBC count low: Anemia chronic disease,\nhypothyroidism\n,\nVitamin C deficiency\nRBC count normal or high:\nThalassemia",
+          "tables": []
+        },
+        "Normocytic_Anemia_(81-100_fL)": {
+          "text": "Retic count normal\nRDW normal: Anemia chronic disease, anemia of renal insufficiency\nRDW high: Iron, Vit\nB12\n, or\nfolate deficiency\nRetic count high\nCoombs Positive: Autoimmune cause\nCoombs negative:\nG6PD\n,\nSCD\n, spherocytosis,\nmicroangiopathic hemolysis",
+          "tables": []
+        },
+        "Macrocytic_Anemia_(MCV>100_fL)": {
+          "text": "RDW high:\nVit B12\nor\nfolate deficiency\nRDW normal:\nETOH abuse\n,\nliver disease\n,\nhypothyroidism\n, drug induced,\nmyelodysplasia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "coronary",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "lead poisoning",
+          "url": "https://wikem.org/wiki/Lead_poisoning"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Vitamin C deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_C_deficiency"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "B12",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "SCD",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "microangiopathic hemolysis",
+          "url": "https://wikem.org/wiki/Microangiopathic_hemolytic_anemia"
+        },
+        {
+          "text": "Vit B12",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "ETOH abuse",
+          "url": "https://wikem.org/wiki/ETOH_abuse"
+        },
+        {
+          "text": "liver disease",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "myelodysplasia",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        }
+      ]
+    },
+    "Acute_Anemia": {
+      "text": "Assess for any signs of bleeding or trauma before considering other causes of chronic anemia.",
+      "subsections": {
+        "Chronic_Anemia": {
+          "text": "CBC for evaluation, look at MCV\nMicrocytic: Iron Levels, Reticulocyte Count, Ferritin, TIBC\nMacrocytic: Folate Level, B12 Level, Reticulocyte Count",
+          "tables": []
+        },
+        "Microcytic_Anemia_(<81_fL)": {
+          "text": "RDW high → evaluate Ferritin, which is a measurement of iron storage\nFerritin low: Iron deficiency anemia\nFerritin normal: Anemia chronic disease or sideroblastic anemia (e.g.\nlead poisoning\n)\nRDW normal\nRBC count low: Anemia chronic disease,\nhypothyroidism\n,\nVitamin C deficiency\nRBC count normal or high:\nThalassemia",
+          "tables": []
+        },
+        "Normocytic_Anemia_(81-100_fL)": {
+          "text": "Retic count normal\nRDW normal: Anemia chronic disease, anemia of renal insufficiency\nRDW high: Iron, Vit\nB12\n, or\nfolate deficiency\nRetic count high\nCoombs Positive: Autoimmune cause\nCoombs negative:\nG6PD\n,\nSCD\n, spherocytosis,\nmicroangiopathic hemolysis",
+          "tables": []
+        },
+        "Macrocytic_Anemia_(MCV>100_fL)": {
+          "text": "RDW high:\nVit B12\nor\nfolate deficiency\nRDW normal:\nETOH abuse\n,\nliver disease\n,\nhypothyroidism\n, drug induced,\nmyelodysplasia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lead poisoning",
+          "url": "https://wikem.org/wiki/Lead_poisoning"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Vitamin C deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_C_deficiency"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "B12",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "SCD",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "microangiopathic hemolysis",
+          "url": "https://wikem.org/wiki/Microangiopathic_hemolytic_anemia"
+        },
+        {
+          "text": "Vit B12",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "ETOH abuse",
+          "url": "https://wikem.org/wiki/ETOH_abuse"
+        },
+        {
+          "text": "liver disease",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "myelodysplasia",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        }
+      ]
+    },
+    "Chronic_Anemia": {
+      "text": "CBC for evaluation, look at MCV\nMicrocytic: Iron Levels, Reticulocyte Count, Ferritin, TIBC\nMacrocytic: Folate Level, B12 Level, Reticulocyte Count",
+      "subsections": {
+        "Microcytic_Anemia_(<81_fL)": {
+          "text": "RDW high → evaluate Ferritin, which is a measurement of iron storage\nFerritin low: Iron deficiency anemia\nFerritin normal: Anemia chronic disease or sideroblastic anemia (e.g.\nlead poisoning\n)\nRDW normal\nRBC count low: Anemia chronic disease,\nhypothyroidism\n,\nVitamin C deficiency\nRBC count normal or high:\nThalassemia",
+          "tables": []
+        },
+        "Normocytic_Anemia_(81-100_fL)": {
+          "text": "Retic count normal\nRDW normal: Anemia chronic disease, anemia of renal insufficiency\nRDW high: Iron, Vit\nB12\n, or\nfolate deficiency\nRetic count high\nCoombs Positive: Autoimmune cause\nCoombs negative:\nG6PD\n,\nSCD\n, spherocytosis,\nmicroangiopathic hemolysis",
+          "tables": []
+        },
+        "Macrocytic_Anemia_(MCV>100_fL)": {
+          "text": "RDW high:\nVit B12\nor\nfolate deficiency\nRDW normal:\nETOH abuse\n,\nliver disease\n,\nhypothyroidism\n, drug induced,\nmyelodysplasia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lead poisoning",
+          "url": "https://wikem.org/wiki/Lead_poisoning"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Vitamin C deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_C_deficiency"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "B12",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "SCD",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "microangiopathic hemolysis",
+          "url": "https://wikem.org/wiki/Microangiopathic_hemolytic_anemia"
+        },
+        {
+          "text": "Vit B12",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "ETOH abuse",
+          "url": "https://wikem.org/wiki/ETOH_abuse"
+        },
+        {
+          "text": "liver disease",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "myelodysplasia",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Transfusions\nConsider if patient is symptomatic, hemodynamically unstable, hypoxic, or acidotic\nUsing a restrictive transfusion strategy (transfusing <6-8) has found to be beneficial, as liberal transfusion strategy (transfusing <10) not showing any benefit and has shown harm\nGI bleeds using restrictive transfusion strategy saw a decreased mortality and rebleed rate\nAlways draw labs necessary for diagnosis prior to transfusing\n1 unit PRBCs should raise the Hgb by 1gm/dL\nIron-deficiency anemia\nPO: Ferrous sulfate 325mg (65mg elemental iron) with Vitamin C (to aid in absorption)\nIV: Ferrous Sucrose 300mg in 250mL NS over 2hrs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Iron-deficiency anemia",
+          "url": "https://wikem.org/wiki/Iron_supplementation"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on underlying cause of anemia",
+      "subsections": {
+        "Admission": {
+          "text": "Evidence or potential for ongoing blood loss\nSigns of end-organ dysfunction (altered mental status, cardiac ischemia, etc.)",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Most stable patients can be discharged w/ outpatient follow-up if they are asymptomatic or only mildly symptomatic following an incidental finding of anemia.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admission": {
+      "text": "Evidence or potential for ongoing blood loss\nSigns of end-organ dysfunction (altered mental status, cardiac ischemia, etc.)",
+      "subsections": {
+        "Discharge": {
+          "text": "Most stable patients can be discharged w/ outpatient follow-up if they are asymptomatic or only mildly symptomatic following an incidental finding of anemia.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Most stable patients can be discharged w/ outpatient follow-up if they are asymptomatic or only mildly symptomatic following an incidental finding of anemia.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transfusions\nMyelophthisic Anemia\nMicroangiopathic Hemolytic Anemia (MAHA)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Myelophthisic Anemia",
+          "url": "https://wikem.org/wiki/Myelophthisic_Anemia"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: Differential Diagnosis of Anemia\nemDOCS - Anemia in the ED Setting: Pearls and Pitfalls",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

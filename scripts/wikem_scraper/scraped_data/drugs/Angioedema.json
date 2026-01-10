@@ -1,0 +1,777 @@
+{
+  "drug_name": "Angioedema",
+  "url": "https://wikem.org/wiki/Angioedema",
+  "scraped_at": "2026-01-10T07:47:42.916129",
+  "sections": {
+    "Background": {
+      "text": "Angioedema is paroxysmal, nondemarcated swelling of dermal or submucosal layers of skin or mucosa\nSwelling is asymmetric, nonpitting, and nonpruritic, however can be associated with allergic features depending on cause\nIsolated uvular angioedema, or Quincke's disease, is a relatively rare presentation of angioedema of the upper airway",
+      "subsections": {
+        "Etiologies": {
+          "text": "Histamine-mediated\nAllergic angioedema:\nIgE–mediated type I\nhypersensitivity reaction\nBradykinin-mediated\nHereditary angioedema: Congenital or acquired loss of C1 esterase inhibitor\nDue to C1 esterase inhibitor deficiency\nLeads to unregulated activity of vasoactive mediators (bradykinin) associated with complement pathway\nAutosomal dominant\nACE-I\n-induced angioedema: ACE-I adverse reaction from excessive bradykinin\nIdiopathic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IgE–mediated type I",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_Reaction"
+        },
+        {
+          "text": "ACE-I",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        }
+      ]
+    },
+    "Etiologies": {
+      "text": "Histamine-mediated\nAllergic angioedema:\nIgE–mediated type I\nhypersensitivity reaction\nBradykinin-mediated\nHereditary angioedema: Congenital or acquired loss of C1 esterase inhibitor\nDue to C1 esterase inhibitor deficiency\nLeads to unregulated activity of vasoactive mediators (bradykinin) associated with complement pathway\nAutosomal dominant\nACE-I\n-induced angioedema: ACE-I adverse reaction from excessive bradykinin\nIdiopathic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IgE–mediated type I",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_Reaction"
+        },
+        {
+          "text": "ACE-I",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Non-pitting edema that most often affects face, lips, and/or tongue\nMay also involve\n[1]\n:\nUpper airway -->\nrespiratory distress\n,\nstridor\nSkin --> urticaria suggests histamine-mediated\nFace, hands, genitals\nIntestines -->\nnausea/vomiting\n,\nabdominal pain\n,\ndiarrhea\n, SBO-like presentation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_allergic_reaction": {
+          "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Acute_allergic_reaction": {
+      "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Hereditary_angioedema": {
+          "text": "Suspect in patients with history of recurrent peripheral angioedema and abdominal pain\n75% experience onset of symptoms before age 15yr\nC4 level screens for HAE (suspect if low)\nDecreased levels of C1 and C4 esterase inhibitors confirms diagnosis",
+          "tables": []
+        },
+        "ACE_inhibitor-induced_angioedema": {
+          "text": "Incidence is highest within the first month; however, may occur at anytime\n40% present months to years after initial dose\n[2]\nIncidence is 0.1-2.2% (more common in blacks)\nPhysiology more closely related to bradykinin-mediated pathway than IgE-mediated pathway, therefore current treatments may be insufficient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hereditary_angioedema": {
+      "text": "Suspect in patients with history of recurrent peripheral angioedema and abdominal pain\n75% experience onset of symptoms before age 15yr\nC4 level screens for HAE (suspect if low)\nDecreased levels of C1 and C4 esterase inhibitors confirms diagnosis",
+      "subsections": {
+        "ACE_inhibitor-induced_angioedema": {
+          "text": "Incidence is highest within the first month; however, may occur at anytime\n40% present months to years after initial dose\n[2]\nIncidence is 0.1-2.2% (more common in blacks)\nPhysiology more closely related to bradykinin-mediated pathway than IgE-mediated pathway, therefore current treatments may be insufficient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "ACE_inhibitor-induced_angioedema": {
+      "text": "Incidence is highest within the first month; however, may occur at anytime\n40% present months to years after initial dose\n[2]\nIncidence is 0.1-2.2% (more common in blacks)\nPhysiology more closely related to bradykinin-mediated pathway than IgE-mediated pathway, therefore current treatments may be insufficient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "Consider\nEpinephrine\n0.3mg IM if there is any concern this could be allergic in nature\nConsider\nGlucagon\n1-5mg IV if patient is on beta-blockers and not responding to Epinephrine\nConsider\nTranexamic acid\n(1 g IV, over 10 min) for bradykinin-mediated angioedema\n[3]\n[4]\nFFP\nfor possible etiology related to bradykinin or C1-esterase deficiency\n[5]\n2 units\nConsider definitive airway if voice change, hoarseness, stridor, dyspnea\nPrepare for a\ndifficult airway\nwhich can include need for\nfiberoptics\n, ENT/anesthesia assistance,\nsurgical airway\n, or transfer to the OR",
+          "tables": []
+        },
+        "First-Line_Therapies": {
+          "text": "C1 inhibitor\n(C1INH)\n[6]\n1000 units if ≤50kg\n1500 units if >50-75kg\n2000 units if >75-100kg\n2500 units if >100kg\nEcallantide\n10mg SQ x 3 in different anatomical locations (30mg in total)\nIcatibant\n30mg SQ",
+          "tables": []
+        },
+        "ACE-I_Induced_Angioedema": {
+          "text": "Typical anaphylaxis medications do not affect bradykinin levels\n[7]\n, but consider:\nEpinephrine\n0.3mg IM\nDiphenhydramine\n50mg IV\nMethylprednisolone\n125mg IV\nConsider\nTranexamic acid\n(1 g IV, over 10 min) for bradykinin-mediated angioedema\n[8]\n[9]\nIcatibant\n30mg SQ\nSignificantly decreases time to complete resolution (8 hrs vs 27.1 hrs)\n[10]\nNote: control group did not receive FFP\nConsider\nEcallantide\n10mg SQ x 3 in different anatomical locations (30mg in total)\nA 2015 trial showed a non-statistically significant trend towards increased rate of ED discharge\n[11]\nNo benefit seen in mild-moderate cases in multi-center, double blind study\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "difficult airway",
+          "url": "https://wikem.org/wiki/Difficult_airway"
+        },
+        {
+          "text": "fiberoptics",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "surgical airway",
+          "url": "https://wikem.org/wiki/Surgical_airway"
+        },
+        {
+          "text": "C1 inhibitor",
+          "url": "https://wikem.org/wiki/C1_inhibitor"
+        },
+        {
+          "text": "Ecallantide",
+          "url": "https://wikem.org/wiki/Ecallantide"
+        },
+        {
+          "text": "Icatibant",
+          "url": "https://wikem.org/wiki/Icatibant"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "Icatibant",
+          "url": "https://wikem.org/wiki/Icatibant"
+        },
+        {
+          "text": "Ecallantide",
+          "url": "https://wikem.org/wiki/Ecallantide"
+        }
+      ]
+    },
+    "General": {
+      "text": "Consider\nEpinephrine\n0.3mg IM if there is any concern this could be allergic in nature\nConsider\nGlucagon\n1-5mg IV if patient is on beta-blockers and not responding to Epinephrine\nConsider\nTranexamic acid\n(1 g IV, over 10 min) for bradykinin-mediated angioedema\n[3]\n[4]\nFFP\nfor possible etiology related to bradykinin or C1-esterase deficiency\n[5]\n2 units\nConsider definitive airway if voice change, hoarseness, stridor, dyspnea\nPrepare for a\ndifficult airway\nwhich can include need for\nfiberoptics\n, ENT/anesthesia assistance,\nsurgical airway\n, or transfer to the OR",
+      "subsections": {
+        "First-Line_Therapies": {
+          "text": "C1 inhibitor\n(C1INH)\n[6]\n1000 units if ≤50kg\n1500 units if >50-75kg\n2000 units if >75-100kg\n2500 units if >100kg\nEcallantide\n10mg SQ x 3 in different anatomical locations (30mg in total)\nIcatibant\n30mg SQ",
+          "tables": []
+        },
+        "ACE-I_Induced_Angioedema": {
+          "text": "Typical anaphylaxis medications do not affect bradykinin levels\n[7]\n, but consider:\nEpinephrine\n0.3mg IM\nDiphenhydramine\n50mg IV\nMethylprednisolone\n125mg IV\nConsider\nTranexamic acid\n(1 g IV, over 10 min) for bradykinin-mediated angioedema\n[8]\n[9]\nIcatibant\n30mg SQ\nSignificantly decreases time to complete resolution (8 hrs vs 27.1 hrs)\n[10]\nNote: control group did not receive FFP\nConsider\nEcallantide\n10mg SQ x 3 in different anatomical locations (30mg in total)\nA 2015 trial showed a non-statistically significant trend towards increased rate of ED discharge\n[11]\nNo benefit seen in mild-moderate cases in multi-center, double blind study\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "difficult airway",
+          "url": "https://wikem.org/wiki/Difficult_airway"
+        },
+        {
+          "text": "fiberoptics",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "surgical airway",
+          "url": "https://wikem.org/wiki/Surgical_airway"
+        },
+        {
+          "text": "C1 inhibitor",
+          "url": "https://wikem.org/wiki/C1_inhibitor"
+        },
+        {
+          "text": "Ecallantide",
+          "url": "https://wikem.org/wiki/Ecallantide"
+        },
+        {
+          "text": "Icatibant",
+          "url": "https://wikem.org/wiki/Icatibant"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "Icatibant",
+          "url": "https://wikem.org/wiki/Icatibant"
+        },
+        {
+          "text": "Ecallantide",
+          "url": "https://wikem.org/wiki/Ecallantide"
+        }
+      ]
+    },
+    "Hereditary_Angioedema_2": {
+      "text": "",
+      "subsections": {
+        "First-Line_Therapies": {
+          "text": "C1 inhibitor\n(C1INH)\n[6]\n1000 units if ≤50kg\n1500 units if >50-75kg\n2000 units if >75-100kg\n2500 units if >100kg\nEcallantide\n10mg SQ x 3 in different anatomical locations (30mg in total)\nIcatibant\n30mg SQ",
+          "tables": []
+        },
+        "ACE-I_Induced_Angioedema": {
+          "text": "Typical anaphylaxis medications do not affect bradykinin levels\n[7]\n, but consider:\nEpinephrine\n0.3mg IM\nDiphenhydramine\n50mg IV\nMethylprednisolone\n125mg IV\nConsider\nTranexamic acid\n(1 g IV, over 10 min) for bradykinin-mediated angioedema\n[8]\n[9]\nIcatibant\n30mg SQ\nSignificantly decreases time to complete resolution (8 hrs vs 27.1 hrs)\n[10]\nNote: control group did not receive FFP\nConsider\nEcallantide\n10mg SQ x 3 in different anatomical locations (30mg in total)\nA 2015 trial showed a non-statistically significant trend towards increased rate of ED discharge\n[11]\nNo benefit seen in mild-moderate cases in multi-center, double blind study\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "C1 inhibitor",
+          "url": "https://wikem.org/wiki/C1_inhibitor"
+        },
+        {
+          "text": "Ecallantide",
+          "url": "https://wikem.org/wiki/Ecallantide"
+        },
+        {
+          "text": "Icatibant",
+          "url": "https://wikem.org/wiki/Icatibant"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "Icatibant",
+          "url": "https://wikem.org/wiki/Icatibant"
+        },
+        {
+          "text": "Ecallantide",
+          "url": "https://wikem.org/wiki/Ecallantide"
+        }
+      ]
+    },
+    "ACE-I_Induced_Angioedema": {
+      "text": "Typical anaphylaxis medications do not affect bradykinin levels\n[7]\n, but consider:\nEpinephrine\n0.3mg IM\nDiphenhydramine\n50mg IV\nMethylprednisolone\n125mg IV\nConsider\nTranexamic acid\n(1 g IV, over 10 min) for bradykinin-mediated angioedema\n[8]\n[9]\nIcatibant\n30mg SQ\nSignificantly decreases time to complete resolution (8 hrs vs 27.1 hrs)\n[10]\nNote: control group did not receive FFP\nConsider\nEcallantide\n10mg SQ x 3 in different anatomical locations (30mg in total)\nA 2015 trial showed a non-statistically significant trend towards increased rate of ED discharge\n[11]\nNo benefit seen in mild-moderate cases in multi-center, double blind study\n[12]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "Icatibant",
+          "url": "https://wikem.org/wiki/Icatibant"
+        },
+        {
+          "text": "Ecallantide",
+          "url": "https://wikem.org/wiki/Ecallantide"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider discharge after 4-6 hrs observation  if there is no airway edema and patient improves or swelling remains isolated to face and lips only\n24 hrs obs if epinephrine given",
+      "subsections": {
+        "Ishoo_Staging": {
+          "text": "Ishoo Staging may predict severity of disease to help stratify disposition. It is based on retrospective study\n[13]",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Area": "Face/lip",
+                "Outpatient": "48%",
+                "Floor": "52%",
+                "ICU": "0%",
+                "Advanced Airway": "0%"
+              },
+              {
+                "Stage": "2",
+                "Area": "Soft palate",
+                "Outpatient": "60%",
+                "Floor": "40%",
+                "ICU": "0%",
+                "Advanced Airway": "0%"
+              },
+              {
+                "Stage": "3",
+                "Area": "Tongue",
+                "Outpatient": "26%",
+                "Floor": "7%",
+                "ICU": "67%",
+                "Advanced Airway": "7%"
+              },
+              {
+                "Stage": "4",
+                "Area": "Larynx",
+                "Outpatient": "0%",
+                "Floor": "0%",
+                "ICU": "100%",
+                "Advanced Airway": "24%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ishoo_Staging": {
+      "text": "Ishoo Staging may predict severity of disease to help stratify disposition. It is based on retrospective study\n[13]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Stage": "1",
+            "Area": "Face/lip",
+            "Outpatient": "48%",
+            "Floor": "52%",
+            "ICU": "0%",
+            "Advanced Airway": "0%"
+          },
+          {
+            "Stage": "2",
+            "Area": "Soft palate",
+            "Outpatient": "60%",
+            "Floor": "40%",
+            "ICU": "0%",
+            "Advanced Airway": "0%"
+          },
+          {
+            "Stage": "3",
+            "Area": "Tongue",
+            "Outpatient": "26%",
+            "Floor": "7%",
+            "ICU": "67%",
+            "Advanced Airway": "7%"
+          },
+          {
+            "Stage": "4",
+            "Area": "Larynx",
+            "Outpatient": "0%",
+            "Floor": "0%",
+            "ICU": "100%",
+            "Advanced Airway": "24%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anaphylaxis\nTongue Diagnoses",
+      "subsections": {
+        "Airway_Pages": {
+          "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Tongue Diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_Diagnoses"
+        },
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "Airway_Pages": {
+      "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    }
+  }
+}

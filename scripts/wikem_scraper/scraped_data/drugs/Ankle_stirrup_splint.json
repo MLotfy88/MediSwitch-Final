@@ -1,0 +1,98 @@
+{
+  "drug_name": "Ankle_stirrup_splint",
+  "url": "https://wikem.org/wiki/Ankle_stirrup_splint",
+  "scraped_at": "2026-01-10T07:47:42.232229",
+  "sections": {
+    "Background": {
+      "text": "Less inversion/eversion and less plantar flexion compared to posterior splint.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Similiar to\nPosterior ankle splint\nGreat for\nankle sprain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior ankle splint",
+          "url": "https://wikem.org/wiki/Posterior_ankle_splint"
+        },
+        {
+          "text": "ankle sprain",
+          "url": "https://wikem.org/wiki/Ankle_sprain"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Splint_Application_General_Procedure": {
+          "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[1]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+          "tables": []
+        },
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure\nIf combining with\nposterior ankle splint\n, place\nposterior ankle splint\nfirst\nSplint course:\nStart laterally 3–4 cm below the level of fibular head on one side (i.e., medial or lateral)\nExtend under the plantar surface of foot\nEnd at at other side at same hight level\nKey anatomic positions\nAnkle should be in neutral position at 90 degrees",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "posterior ankle splint",
+          "url": "https://wikem.org/wiki/Posterior_ankle_splint"
+        },
+        {
+          "text": "posterior ankle splint",
+          "url": "https://wikem.org/wiki/Posterior_ankle_splint"
+        }
+      ]
+    },
+    "Splint_Application_General_Procedure": {
+      "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[1]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+      "subsections": {
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure\nIf combining with\nposterior ankle splint\n, place\nposterior ankle splint\nfirst\nSplint course:\nStart laterally 3–4 cm below the level of fibular head on one side (i.e., medial or lateral)\nExtend under the plantar surface of foot\nEnd at at other side at same hight level\nKey anatomic positions\nAnkle should be in neutral position at 90 degrees",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "posterior ankle splint",
+          "url": "https://wikem.org/wiki/Posterior_ankle_splint"
+        },
+        {
+          "text": "posterior ankle splint",
+          "url": "https://wikem.org/wiki/Posterior_ankle_splint"
+        }
+      ]
+    },
+    "Splint-Specific_Details": {
+      "text": "Apply padding and splint material as shown in figure\nIf combining with\nposterior ankle splint\n, place\nposterior ankle splint\nfirst\nSplint course:\nStart laterally 3–4 cm below the level of fibular head on one side (i.e., medial or lateral)\nExtend under the plantar surface of foot\nEnd at at other side at same hight level\nKey anatomic positions\nAnkle should be in neutral position at 90 degrees",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "posterior ankle splint",
+          "url": "https://wikem.org/wiki/Posterior_ankle_splint"
+        },
+        {
+          "text": "posterior ankle splint",
+          "url": "https://wikem.org/wiki/Posterior_ankle_splint"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Splinting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    }
+  }
+}

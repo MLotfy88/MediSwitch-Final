@@ -1,0 +1,101 @@
+{
+  "drug_name": "Anoscopy",
+  "url": "https://wikem.org/wiki/Anoscopy",
+  "scraped_at": "2026-01-10T07:47:50.226437",
+  "sections": {
+    "Overview": {
+      "text": "The use of an anoscope to visually inspect the anus, anal canal, and internal sphincter\nHelpful in identifying causes of rectal bleeding\nUp to 50% of rectal bleeding is falsely attributed to hemorrhoids when internal examination is not used\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Evaluation of bright red bleeding\nEvaluation anorectal symptoms (anal pain, discharge, protrusions, or pruritus)\nEvaluation/treatment of rectal foreign bodies",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "",
+      "subsections": {
+        "Absolute_Contraindications": {
+          "text": "Imperforate anus\nBowel Perforation\nSignificant active bleeding",
+          "tables": []
+        },
+        "Relative_Contraindications": {
+          "text": "Severe anal pain\nRecent anal surgery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Absolute_Contraindications": {
+      "text": "Imperforate anus\nBowel Perforation\nSignificant active bleeding",
+      "subsections": {
+        "Relative_Contraindications": {
+          "text": "Severe anal pain\nRecent anal surgery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Relative_Contraindications": {
+      "text": "Severe anal pain\nRecent anal surgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Gloves\nAnoscope (Reusable or disposable)\nAdults: 7-cm (typically 19-mm diameter) anoscope; slotted or non-slotted\nPediatrics: 8-mm to 14-mm diameter\nLight source (often built into disposable anoscopes)\nLubricating jelly (and topical anesthetic jelly if patient has severe anal pain)\nCotton swabs\nIf needed:\nFecal occult blood test\nCulture tube and swab\nBiopsy forceps",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Position the patient (lithotomy position or left lateral decubitus w/ knees flexed toward chest)\nPull buttock apart, inspect the external area\nPerform digital rectal exam with lubricated, gloved finger (use topical anesthetic jelly if needed and wait 1-2 minutes prior to anoscopy)\nLubricate the anoscope and the central guide plug (obturator)\nSlowly insert the anoscope fully, maintaining pressure on the obturator.\nIf obturator slips or falls out during insertion, remove anoscope completely and repeat procedure\nOnce inserted, remove the obturator (keep it nearby if needed again)\nSlowly withdraw, rotate (if non-slotted anoscope), and visual the entire circumference of the canal\nPerform any biopsies (if above dentate line) or cultures as needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Tearing of perianal skin/mucosa\nAbrasion or tearing of hemorrhoidal tissue\nInfection (rare)\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Rectal Foreign Body\nAnorectal Disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rectal Foreign Body",
+          "url": "https://wikem.org/wiki/Rectal_Foreign_Body"
+        },
+        {
+          "text": "Anorectal Disorders",
+          "url": "https://wikem.org/wiki/Anorectal_Disorders"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merk Manual - How To Do Anoscopy\nEmergency Medicine News - The Anoscope for Foreign Bodies in the Rectum",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=DraK34z4lFk}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=DraK34z4lFk}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

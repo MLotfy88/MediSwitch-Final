@@ -1,0 +1,287 @@
+{
+  "drug_name": "Ankylosing_spondylitis",
+  "url": "https://wikem.org/wiki/Ankylosing_spondylitis",
+  "scraped_at": "2026-01-10T07:47:46.007235",
+  "sections": {
+    "Background": {
+      "text": "Ankylosing spondylitis (AS) is a chronic inflammatory disease of the axial skeleton with variable involvement of other joints or even nonarticular structures\n3x more common in males than females\nTypically diagnosed in young adults between the ages of 20 and 30 yrs\nOften associated with other autoimmune disorders\n90% of people with AS express the HLA-B27 genotype\nUveitis\nis common extra-articular manifestation, seen in 30% of patients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Spinal pain\n, particularly in the lower back, is usually the first and most common symptom of AS\nBegins in early adulthood (before 45 yrs)\nHas a gradual onset\nLasts longer than three months\nIs worse after rest (for example, in the morning) but improves with activity\nCan cause morning stiffness lasting more than 30 minutes\nFatigue\nCan also be associated with anterior\nuveitis\n,\narthritis\n,\npsoriasis\n, enthesitis,\nIBD\nand\nspine fractures\n(4 times more common in patients with AS\n[1]\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Spinal pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "spine fractures",
+          "url": "https://wikem.org/wiki/Spine_fractures"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Lower_Back_Pain": {
+          "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Lower_Back_Pain": {
+      "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "There is no direct test for AS\nESR, CRP can be elevated but not sensitive or specific\nXray lumbar/sacroiliac: The earliest changes in the sacroiliac joints shows erosions and sclerosis\nProgression of erosions leads to pseudo widening of the joint space and bony ankylosis AKA \"Bamboo Spine\"\nOften X-ray findings lag about 10 years from initial progression of disease\nCBC\nChem 10\nUrinalysis\nGenetic testing for HLA B27 ( > 90% of people with AS have this gene, though by itself is not specific)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "There is no cure for AS, although treatments (e.g. exercise, posture training) and medications can reduce symptoms and pain\nNSAIDS\nSulfasalazine\ncan be used in people with peripheral arthritis, but for axial involvement, evidence does not support it\n[2]\n.\nLack of evidence for methotrexate\n[3]\nor steroids.\nTumor necrosis factor-alpha blockers, such as the biologics etanercept, infliximab, golimumab and adalimumab, provide good short-term effectiveness though long term management is currently being studied",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "Sulfasalazine",
+          "url": "https://wikem.org/wiki/Sulfasalazine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Often diagnosis will not be made in ED but if made in ED often can be discharged home with primary care follow up or rheumatology follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Arthritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        }
+      ]
+    }
+  }
+}

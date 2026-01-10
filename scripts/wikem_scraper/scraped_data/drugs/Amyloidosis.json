@@ -1,0 +1,61 @@
+{
+  "drug_name": "Amyloidosis",
+  "url": "https://wikem.org/wiki/Amyloidosis",
+  "scraped_at": "2026-01-10T07:47:34.975331",
+  "sections": {
+    "Background": {
+      "text": "Accumulation of proteins (amyloid fibrils) in tissues\nHeart and kidneys most commonly affected organs\nCauses:\nPrimary amyloidosis, hereditary amyloidosis\nSecondary (due to systemic inflammatory condition)\nESRD\n-associated (caused by β2-microglobulin amyloids, not filtered out by dialysis membranes))\nSenile amyloidosis (causes cardiac amyloid)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Nephrotic syndrome\nwith kidney involvement\nRestrictive\ncardiomyopathy\nSensory and autonomic neuropathies (no CNS involvement)\nSensory neuropathy\n: symmetrical pattern, progresses distal to proximal\nAutonomic neuropathy: orthostatic\nhypotension\nor nonspecific GI symptoms\nHepatomegaly\n, elevated serum AST and AlkPhos\nDiabetes\nsecondary to pancreatic infiltration\nMacroglossia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Sensory neuropathy",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for other causes of symptoms\nDiagnosis via fat pad biopsy: apple-green birefringence with Congo red stain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Varies depending on underlying etiology and organ systems involved",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

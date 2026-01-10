@@ -1,0 +1,578 @@
+{
+  "drug_name": "Ankle_sprain",
+  "url": "https://wikem.org/wiki/Ankle_sprain",
+  "scraped_at": "2026-01-10T07:47:44.685160",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Ankle_stabilization_anatomy": {
+          "text": "Syndesmosis\nLigaments\nMedial: Medial collateral (deltoid) ligament (tibia to talus and calcaneus)\nLateral: Anterior/posterior talofibular, calcaneofibular ligaments",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ankle_stabilization_anatomy": {
+      "text": "Syndesmosis\nLigaments\nMedial: Medial collateral (deltoid) ligament (tibia to talus and calcaneus)\nLateral: Anterior/posterior talofibular, calcaneofibular ligaments",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Lateral_Ankle_Sprain": {
+          "text": "Most common\nDue to inversion of plantarflexed ankle\nAnterior talofibular ligament (ATFL) is most commonly injured ligament",
+          "tables": []
+        },
+        "Medial_Ankle_Sprain": {
+          "text": "Isolated sprain is unusual; often associated with fibular fracture or syndesmosis injury\nAlways rule-out\nMaisonneuve\nfracture by evaluating proximal fibula",
+          "tables": []
+        },
+        "Syndesmotic_Sprain_(\"High-ankle_sprain\")": {
+          "text": "Associated with with hyperdorsiflexion when talus moves superiorly and separates tibia/fibula\nPain just above talus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Maisonneuve",
+          "url": "https://wikem.org/wiki/Maisonneuve"
+        }
+      ]
+    },
+    "Lateral_Ankle_Sprain": {
+      "text": "Most common\nDue to inversion of plantarflexed ankle\nAnterior talofibular ligament (ATFL) is most commonly injured ligament",
+      "subsections": {
+        "Medial_Ankle_Sprain": {
+          "text": "Isolated sprain is unusual; often associated with fibular fracture or syndesmosis injury\nAlways rule-out\nMaisonneuve\nfracture by evaluating proximal fibula",
+          "tables": []
+        },
+        "Syndesmotic_Sprain_(\"High-ankle_sprain\")": {
+          "text": "Associated with with hyperdorsiflexion when talus moves superiorly and separates tibia/fibula\nPain just above talus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Maisonneuve",
+          "url": "https://wikem.org/wiki/Maisonneuve"
+        }
+      ]
+    },
+    "Medial_Ankle_Sprain": {
+      "text": "Isolated sprain is unusual; often associated with fibular fracture or syndesmosis injury\nAlways rule-out\nMaisonneuve\nfracture by evaluating proximal fibula",
+      "subsections": {
+        "Syndesmotic_Sprain_(\"High-ankle_sprain\")": {
+          "text": "Associated with with hyperdorsiflexion when talus moves superiorly and separates tibia/fibula\nPain just above talus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Maisonneuve",
+          "url": "https://wikem.org/wiki/Maisonneuve"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Other_Ankle_Injuries": {
+          "text": "Ankle sprain\nAnkle dislocation\nAnkle syndesmosis injury\nRadiograph-negative ankle injury (peds)",
+          "tables": []
+        },
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        },
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle dislocation",
+          "url": "https://wikem.org/wiki/Ankle_dislocation"
+        },
+        {
+          "text": "Ankle syndesmosis injury",
+          "url": "https://wikem.org/wiki/Ankle_syndesmosis_injury"
+        },
+        {
+          "text": "Radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Other_Ankle_Injuries": {
+      "text": "Ankle sprain\nAnkle dislocation\nAnkle syndesmosis injury\nRadiograph-negative ankle injury (peds)",
+      "subsections": {
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        },
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle dislocation",
+          "url": "https://wikem.org/wiki/Ankle_dislocation"
+        },
+        {
+          "text": "Ankle syndesmosis injury",
+          "url": "https://wikem.org/wiki/Ankle_syndesmosis_injury"
+        },
+        {
+          "text": "Radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Distal_Leg_Fracture_Types": {
+      "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Foot_and_Toe_Fracture_Types": {
+      "text": "",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Anterior drawer test\nTests anterior talofibular ligament\nCup heel with one hand and and pull anteriorly while pushing tibia posteriorly\nTalar tilt test\nTests for combined injury of anterior talofibular and calcaneofibular ligaments\nInversion at the ankle causes tilting/lifting of the mortise joint",
+      "subsections": {
+        "Ottawa_ankle_rule": {
+          "text": "Ankle x-ray needed if:\nPain near the maleoli\nAND\nInability to bear weight immediately and in the ED (4 steps)\nOR\nTenderness at posterior edge or tip of lateral malleolus\nOR\nTenderness at posterior edge or tip of medial malleolus",
+          "tables": []
+        },
+        "Ottawa_foot_rules": {
+          "text": "Foot x-ray series needed if:\nPain in the midfoot\nAND\nInability to bear weight both immediately and in the ED (4 steps)\nOR\nTenderness at the navicular\nOR\nTenderness at the base of the 5th metatarsal",
+          "tables": []
+        },
+        "Exceptions": {
+          "text": "Age <6 or >55\nOnly for blunt trauma mechanism\nDoes not apply to subacute/chronic injuries\nDoes not apply to injuries of the hindfoot or forefoot",
+          "tables": []
+        },
+        "Classification": {
+          "text": "Grade I\nNo tearing of ligaments\nMinimal pain, swelling, ecchymosis; weightbearing is tolerable\nNo splinting/casting; weight bearing as tolerated, isometric exercises, full ROM and stretching/strengthening exercises\nGrade II\nPartial ligament tear; possible instability\nIncreased pain, swelling, ecchymosis; difficulty bearing weight\nImmobilize with air splint; PT with ROM/stretching/strengthening exercises\nGrade III\nComplete ligament tear; significant instability\nSevere pain, swelling, ecchymosis; inability to bear weight\nImmobilization and possible surgery; PT same as grade 2 but longer time period",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "",
+      "subsections": {
+        "Ottawa_ankle_rule": {
+          "text": "Ankle x-ray needed if:\nPain near the maleoli\nAND\nInability to bear weight immediately and in the ED (4 steps)\nOR\nTenderness at posterior edge or tip of lateral malleolus\nOR\nTenderness at posterior edge or tip of medial malleolus",
+          "tables": []
+        },
+        "Ottawa_foot_rules": {
+          "text": "Foot x-ray series needed if:\nPain in the midfoot\nAND\nInability to bear weight both immediately and in the ED (4 steps)\nOR\nTenderness at the navicular\nOR\nTenderness at the base of the 5th metatarsal",
+          "tables": []
+        },
+        "Exceptions": {
+          "text": "Age <6 or >55\nOnly for blunt trauma mechanism\nDoes not apply to subacute/chronic injuries\nDoes not apply to injuries of the hindfoot or forefoot",
+          "tables": []
+        },
+        "Classification": {
+          "text": "Grade I\nNo tearing of ligaments\nMinimal pain, swelling, ecchymosis; weightbearing is tolerable\nNo splinting/casting; weight bearing as tolerated, isometric exercises, full ROM and stretching/strengthening exercises\nGrade II\nPartial ligament tear; possible instability\nIncreased pain, swelling, ecchymosis; difficulty bearing weight\nImmobilize with air splint; PT with ROM/stretching/strengthening exercises\nGrade III\nComplete ligament tear; significant instability\nSevere pain, swelling, ecchymosis; inability to bear weight\nImmobilization and possible surgery; PT same as grade 2 but longer time period",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ottawa_ankle_rule": {
+      "text": "Ankle x-ray needed if:\nPain near the maleoli\nAND\nInability to bear weight immediately and in the ED (4 steps)\nOR\nTenderness at posterior edge or tip of lateral malleolus\nOR\nTenderness at posterior edge or tip of medial malleolus",
+      "subsections": {
+        "Ottawa_foot_rules": {
+          "text": "Foot x-ray series needed if:\nPain in the midfoot\nAND\nInability to bear weight both immediately and in the ED (4 steps)\nOR\nTenderness at the navicular\nOR\nTenderness at the base of the 5th metatarsal",
+          "tables": []
+        },
+        "Exceptions": {
+          "text": "Age <6 or >55\nOnly for blunt trauma mechanism\nDoes not apply to subacute/chronic injuries\nDoes not apply to injuries of the hindfoot or forefoot",
+          "tables": []
+        },
+        "Classification": {
+          "text": "Grade I\nNo tearing of ligaments\nMinimal pain, swelling, ecchymosis; weightbearing is tolerable\nNo splinting/casting; weight bearing as tolerated, isometric exercises, full ROM and stretching/strengthening exercises\nGrade II\nPartial ligament tear; possible instability\nIncreased pain, swelling, ecchymosis; difficulty bearing weight\nImmobilize with air splint; PT with ROM/stretching/strengthening exercises\nGrade III\nComplete ligament tear; significant instability\nSevere pain, swelling, ecchymosis; inability to bear weight\nImmobilization and possible surgery; PT same as grade 2 but longer time period",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ottawa_foot_rules": {
+      "text": "Foot x-ray series needed if:\nPain in the midfoot\nAND\nInability to bear weight both immediately and in the ED (4 steps)\nOR\nTenderness at the navicular\nOR\nTenderness at the base of the 5th metatarsal",
+      "subsections": {
+        "Exceptions": {
+          "text": "Age <6 or >55\nOnly for blunt trauma mechanism\nDoes not apply to subacute/chronic injuries\nDoes not apply to injuries of the hindfoot or forefoot",
+          "tables": []
+        },
+        "Classification": {
+          "text": "Grade I\nNo tearing of ligaments\nMinimal pain, swelling, ecchymosis; weightbearing is tolerable\nNo splinting/casting; weight bearing as tolerated, isometric exercises, full ROM and stretching/strengthening exercises\nGrade II\nPartial ligament tear; possible instability\nIncreased pain, swelling, ecchymosis; difficulty bearing weight\nImmobilize with air splint; PT with ROM/stretching/strengthening exercises\nGrade III\nComplete ligament tear; significant instability\nSevere pain, swelling, ecchymosis; inability to bear weight\nImmobilization and possible surgery; PT same as grade 2 but longer time period",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classification": {
+      "text": "Grade I\nNo tearing of ligaments\nMinimal pain, swelling, ecchymosis; weightbearing is tolerable\nNo splinting/casting; weight bearing as tolerated, isometric exercises, full ROM and stretching/strengthening exercises\nGrade II\nPartial ligament tear; possible instability\nIncreased pain, swelling, ecchymosis; difficulty bearing weight\nImmobilize with air splint; PT with ROM/stretching/strengthening exercises\nGrade III\nComplete ligament tear; significant instability\nSevere pain, swelling, ecchymosis; inability to bear weight\nImmobilization and possible surgery; PT same as grade 2 but longer time period",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Stable joint and ability to bear weight: (Likely Grade I)\nNSAIDs\n, RICE (rest, ice, compression, elevation)\n1 week follow up if no improvement\nStable joint but unable to bear weight or unstable joint (Grades II and III) :\nAnkle cast immobilization or a removable walking boot for 7-10 days for grades II and III. Follow up at 5 days with ortho/podiatry.\n[1]\nPosterior mold splint\nand ortho consult/referral",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Posterior mold splint",
+          "url": "https://wikem.org/wiki/Splinting#Lower_Extremity"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ankle (Main)\nAnkle Fracture\nOttawa Ankle Rules",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle (Main)",
+          "url": "https://wikem.org/wiki/Ankle_(Main)"
+        },
+        {
+          "text": "Ankle Fracture",
+          "url": "https://wikem.org/wiki/Ankle_Fracture"
+        },
+        {
+          "text": "Ottawa Ankle Rules",
+          "url": "https://wikem.org/wiki/Ottawa_Ankle_Rules"
+        }
+      ]
+    }
+  }
+}

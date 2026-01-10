@@ -1,0 +1,615 @@
+{
+  "drug_name": "Anion_Gap_and_Osmolar_Gap_(High)",
+  "url": "https://wikem.org/wiki/Anion_Gap_and_Osmolar_Gap_(High)",
+  "scraped_at": "2026-01-10T07:47:41.353630",
+  "sections": {
+    "Calculations": {
+      "text": "",
+      "subsections": {
+        "Anion_Gap": {
+          "text": "AG = Na - (Cl  +  HCO3)",
+          "tables": []
+        },
+        "Calculated_Osm": {
+          "text": "Calculated Osm = 2 x Na + (glu/18) + (BUN/2.8) + (ethanol/4.6) + (methanol/2.6) + (ethylene glycol/5) + (acetone/5.5) + (isopropanol/5.9)\nNormal = 275-295",
+          "tables": []
+        },
+        "Osmolal_Gap": {
+          "text": "Osmolal Gap = measured osm - calculated osm\nNormal = (-)14-10 mOsm/L",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anion_Gap": {
+      "text": "AG = Na - (Cl  +  HCO3)",
+      "subsections": {
+        "Calculated_Osm": {
+          "text": "Calculated Osm = 2 x Na + (glu/18) + (BUN/2.8) + (ethanol/4.6) + (methanol/2.6) + (ethylene glycol/5) + (acetone/5.5) + (isopropanol/5.9)\nNormal = 275-295",
+          "tables": []
+        },
+        "Osmolal_Gap": {
+          "text": "Osmolal Gap = measured osm - calculated osm\nNormal = (-)14-10 mOsm/L",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Calculated_Osm": {
+      "text": "Calculated Osm = 2 x Na + (glu/18) + (BUN/2.8) + (ethanol/4.6) + (methanol/2.6) + (ethylene glycol/5) + (acetone/5.5) + (isopropanol/5.9)\nNormal = 275-295",
+      "subsections": {
+        "Osmolal_Gap": {
+          "text": "Osmolal Gap = measured osm - calculated osm\nNormal = (-)14-10 mOsm/L",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Osmolal_Gap": {
+      "text": "Osmolal Gap = measured osm - calculated osm\nNormal = (-)14-10 mOsm/L",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Toxicological": {
+          "text": "Methanol\nEthanol glycol\nAspirin (Salicylate) Toxicity\nIron\nINH\nParaldehyde\nAlcoholic Ketoacidosis\nInhalants -\nCN\n,\nCO\n,\nHydrogen Sulfide\nToluene",
+          "tables": []
+        },
+        "Non-Toxicological": {
+          "text": "Lactic Acidosis\nDKA\nUremia",
+          "tables": []
+        },
+        "CAT_MUDPILERS": {
+          "text": "C-\nCyanide\nA-\nASA\n,\nAlcohol\nT-\nToluene\nM-\nMethanol\n,\nMetformin\nU-\nUremia\nD-\nDKA\nP-Paraldehyde, Post-ictal\nlactic acidosis\n(transient, 60-90 min), Phenformin (withdrawn in 1970s)\nI-\nIron\n,\nINH\n, Inhalants, Inborn Errors\nL-\nLactic Acidosis\nE-\nEthylene glycol\n,\nEthanol\nR-\nRhabdomyolysis\nS-\nSalicylates\n, Solvents, Starvation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_Poisoning"
+        },
+        {
+          "text": "Ethanol glycol",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Poisoning"
+        },
+        {
+          "text": "Aspirin (Salicylate) Toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_Toxicity"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Alcoholic Ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_Ketoacidosis"
+        },
+        {
+          "text": "CN",
+          "url": "https://wikem.org/wiki/CN"
+        },
+        {
+          "text": "CO",
+          "url": "https://wikem.org/wiki/CO"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Toluene",
+          "url": "https://wikem.org/wiki/Toluene_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_Poisoning"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        }
+      ]
+    },
+    "Toxicological": {
+      "text": "Methanol\nEthanol glycol\nAspirin (Salicylate) Toxicity\nIron\nINH\nParaldehyde\nAlcoholic Ketoacidosis\nInhalants -\nCN\n,\nCO\n,\nHydrogen Sulfide\nToluene",
+      "subsections": {
+        "Non-Toxicological": {
+          "text": "Lactic Acidosis\nDKA\nUremia",
+          "tables": []
+        },
+        "CAT_MUDPILERS": {
+          "text": "C-\nCyanide\nA-\nASA\n,\nAlcohol\nT-\nToluene\nM-\nMethanol\n,\nMetformin\nU-\nUremia\nD-\nDKA\nP-Paraldehyde, Post-ictal\nlactic acidosis\n(transient, 60-90 min), Phenformin (withdrawn in 1970s)\nI-\nIron\n,\nINH\n, Inhalants, Inborn Errors\nL-\nLactic Acidosis\nE-\nEthylene glycol\n,\nEthanol\nR-\nRhabdomyolysis\nS-\nSalicylates\n, Solvents, Starvation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_Poisoning"
+        },
+        {
+          "text": "Ethanol glycol",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Poisoning"
+        },
+        {
+          "text": "Aspirin (Salicylate) Toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_Toxicity"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Alcoholic Ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_Ketoacidosis"
+        },
+        {
+          "text": "CN",
+          "url": "https://wikem.org/wiki/CN"
+        },
+        {
+          "text": "CO",
+          "url": "https://wikem.org/wiki/CO"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Toluene",
+          "url": "https://wikem.org/wiki/Toluene_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_Poisoning"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        }
+      ]
+    },
+    "Non-Toxicological": {
+      "text": "Lactic Acidosis\nDKA\nUremia",
+      "subsections": {
+        "CAT_MUDPILERS": {
+          "text": "C-\nCyanide\nA-\nASA\n,\nAlcohol\nT-\nToluene\nM-\nMethanol\n,\nMetformin\nU-\nUremia\nD-\nDKA\nP-Paraldehyde, Post-ictal\nlactic acidosis\n(transient, 60-90 min), Phenformin (withdrawn in 1970s)\nI-\nIron\n,\nINH\n, Inhalants, Inborn Errors\nL-\nLactic Acidosis\nE-\nEthylene glycol\n,\nEthanol\nR-\nRhabdomyolysis\nS-\nSalicylates\n, Solvents, Starvation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Toluene",
+          "url": "https://wikem.org/wiki/Toluene_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_Poisoning"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        }
+      ]
+    },
+    "CAT_MUDPILERS": {
+      "text": "C-\nCyanide\nA-\nASA\n,\nAlcohol\nT-\nToluene\nM-\nMethanol\n,\nMetformin\nU-\nUremia\nD-\nDKA\nP-Paraldehyde, Post-ictal\nlactic acidosis\n(transient, 60-90 min), Phenformin (withdrawn in 1970s)\nI-\nIron\n,\nINH\n, Inhalants, Inborn Errors\nL-\nLactic Acidosis\nE-\nEthylene glycol\n,\nEthanol\nR-\nRhabdomyolysis\nS-\nSalicylates\n, Solvents, Starvation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Toluene",
+          "url": "https://wikem.org/wiki/Toluene_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_Poisoning"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+ (if ketoacidosis)",
+            "Ketones": "+",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "",
+            "Management": "Mainly supportive"
+          },
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+",
+            "Ketones": "-",
+            "Ca Oxolate stones": "+",
+            "Reduced vision": "-",
+            "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+          },
+          {
+            "Osmolar gap": "+ (early on, then disappears)",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+",
+            "Ketones": "-",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "+",
+            "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+          },
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "-",
+            "Anion gap": "-",
+            "Ketones": "+",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "+",
+            "Management": "Mainly supportive"
+          },
+          {
+            "Osmolar gap": "+ (initially)",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+ (converted to lactate)",
+            "Ketones": "-",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "-",
+            "Management": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Osmolal or Osmolar Gap\nAnion Gap (High)\nToxidromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Osmolal or Osmolar Gap",
+          "url": "https://wikem.org/wiki/Osmolal_or_Osmolar_Gap"
+        },
+        {
+          "text": "Anion Gap (High)",
+          "url": "https://wikem.org/wiki/Anion_Gap_(High)"
+        },
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Serum Osmolality/Osmolarity\nMDCalc - Anion Gap",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

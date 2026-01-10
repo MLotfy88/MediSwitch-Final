@@ -1,0 +1,1034 @@
+{
+  "drug_name": "Anaphylaxis_(peds)",
+  "url": "https://wikem.org/wiki/Anaphylaxis_(peds)",
+  "scraped_at": "2026-01-10T07:47:36.146033",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nAnaphylaxis\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Type I\nhypersensitivity reaction\nthat is either severe in nature or having two or more organ systems  involved.\nClinically\nAnaphylaxis\nand its treatment is virtually identical whether it is the traditional IgE dependent anaphylaxis reaction (vast majority), or the IgE independent\nanaphylactoid\nreaction\nPrecipitants\nFood (most common)\nMedications\nInsect stings\nLatex\nAerobic exercise\nIdiopathic (rare)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_Reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Cutaneous symptoms (90%)\nHives\nAngioedema\nItching\nMorbilliform rash\nRespiratory symptoms (70%)\nWheezing\nShortness of breath\nThroat itching or tightness\nHoarseness\nStridor\nHypoxia, cyanosis\nGastrointestinal symptoms (40%)\nAbdominal pain\nNausea, vomiting\nDiarrhea\nCardiovascular symptoms (35%)\nHypotension\nChest pain\nPalpitations\nCentral Nervous System\nUneasiness\nAltered mental status\nHeadache, dizziness, confusion\nSyncope",
+      "subsections": {
+        "Uniphasic_(80-90%)": {
+          "text": "Symptoms peak within 30 minutes to 1 hour after onset, resolve within 30 minutes to 1 hour of receiving treatment\n[1]",
+          "tables": []
+        },
+        "Biphasic_(10-20%)": {
+          "text": "Biphasic reactions are rare and can occur anywhere from 10 minutes up to six days after an initial reaction.\n[2]\nUniphasic response, followed by asymptomatic period of hour or more, then return of symptoms\nThe second phase does not necessarily resemble the first!\nMore likely with a severe initial presentation or repeated epinephrine doses. Additionally hypotension, widened pulse pressure, unknown trigger, and drug trigger in children\n[3]\n[4]\nLittle evidence to support the use of discharge steroids to prevent a biphasic reaction\n0.4% of patients with anaphylaxis had a rebound event while in the ED\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hives",
+          "url": "https://wikem.org/wiki/Hives"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Expected_Course": {
+      "text": "",
+      "subsections": {
+        "Uniphasic_(80-90%)": {
+          "text": "Symptoms peak within 30 minutes to 1 hour after onset, resolve within 30 minutes to 1 hour of receiving treatment\n[1]",
+          "tables": []
+        },
+        "Biphasic_(10-20%)": {
+          "text": "Biphasic reactions are rare and can occur anywhere from 10 minutes up to six days after an initial reaction.\n[2]\nUniphasic response, followed by asymptomatic period of hour or more, then return of symptoms\nThe second phase does not necessarily resemble the first!\nMore likely with a severe initial presentation or repeated epinephrine doses. Additionally hypotension, widened pulse pressure, unknown trigger, and drug trigger in children\n[3]\n[4]\nLittle evidence to support the use of discharge steroids to prevent a biphasic reaction\n0.4% of patients with anaphylaxis had a rebound event while in the ED\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_allergic_reaction": {
+          "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+          "tables": []
+        },
+        "Shock": {
+          "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+          "tables": []
+        },
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        },
+        {
+          "text": "Cardiogenic",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Acute_allergic_reaction": {
+      "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+      "subsections": {
+        "Shock": {
+          "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+          "tables": []
+        },
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        },
+        {
+          "text": "Cardiogenic",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Shock": {
+      "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+      "subsections": {
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Erythematous_rash": {
+      "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Anaphylaxis\nis highly likely when ANY ONE of the following criteria is fulfilled\n[6]\n[7]",
+      "subsections": {
+        "Criterion_1_(90%_of_patients)": {
+          "text": "Acute onset of an illness involving the skin, mucosal tissue, or both AND at least one of the following:\nRespiratory Compromise\nReduced blood pressure or associated symptoms (\nSyncope\n,\nDizziness\n)",
+          "tables": []
+        },
+        "Criterion_2_(10-20%_of_patients)": {
+          "text": "TWO OR MORE of the following that occur rapidly after exposure to a LIKELY allergen for that patient\nInvolvement of the skin-mucosal tissue (hives, swollen lips-tongue-uvula)\nRespiratory compromise\nHypotension\nor associated symptoms\nPersistent gastrointestinal symptoms: (\nvomiting\n,\ndiarrhea\n, crampy\nabdominal pain\n)",
+          "tables": []
+        },
+        "Criterion_3": {
+          "text": "Hypotension\nafter exposure to a KNOWN allergy for that patient (minutes to hours):\nAdults: systolic blood pressure (SBP) <90 mmHg or >30% reduction from baseline\nPediatrics\n1 month - 1 year: SBP <70 mmHg\n1 year - 10 years: SBP <(70 mmHg + [2 x age])\n11 years - 17 years: SBP <90 mmHg",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Reduced_BP"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abd_Pain"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Reduced_BP"
+        }
+      ]
+    },
+    "Criterion_3": {
+      "text": "Hypotension\nafter exposure to a KNOWN allergy for that patient (minutes to hours):\nAdults: systolic blood pressure (SBP) <90 mmHg or >30% reduction from baseline\nPediatrics\n1 month - 1 year: SBP <70 mmHg\n1 year - 10 years: SBP <(70 mmHg + [2 x age])\n11 years - 17 years: SBP <90 mmHg",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Reduced_BP"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Epinephrine\n1:1000\nIM\n0.3 - 0.5mg (0.3 - 0.5mL) every 5 - 15 minutes\n[8]\n[9]\nGive as soon as possible\nAlways IM initially\n[10]\nIf response to IM is inadequate: give epinephrine infusion 1:10,000 2 - 10 µg/min\nHow to make a quick epinephrine drip:\nTake your code-cart epinephrine (it does not matter if it is 1:1,000 or 1:10,000) and inject 1mg into a liter bag of NS.  Final concentration is 1mcg/ml.  Run at 1cc/min and titrate to effect\n.\nPediatric:\nEpinephrine\n1:1000 0.01mg/kg (max 0.5mg) IM\nevery 5 to 15 minutes\nIV infusion: 0.05 - 1 mcg/kg/min\nSupplemental oxygen\nConsider\nendotracheal intubation\nif airway edema present\nNormal saline bolus\nIf unresponsive to\nepinephrine\nassume distributive\nshock\nand give 1 - 2 liters of normal saline\nAlso consider\nAlbuterol\nfor bronchospasm resistant to IM epinephrine\nAntihistamines\n(for symptom control AFTER hemodynamically stable)\nDiphenhydramine\n: 25 to 50mg IV (1mg/kg in children)\nRanitidine\n: 50mg IV (0.5mg/kg in children) (has been found to improve urticaria but not angioedema at 2 hours\n[11]\n)\nAVOID promethazine as this can worsen hypotension\nGlucocorticoid\nMAY blunt biphasic reaction although little evidence to support usage\n[12]\nMethylprednisolone\n: 125mg IV (2mg/kg in children)\nDexamethasone\n: 10mg IV or PO (0.6mg/kg in children)\nGlucagon\n1 - 5mg IV over 5 minutes followed by infusion of 5 - 15 µg/min\n[13]\nIf taking beta-blocker AND unresponsive to\nepinephrine\nConsider adding additional pressor support if persistent hypotension present\nFor example:\nvasopressin\n2-8 units for persistent refractory shock (case series only)\n[14]\n[15]\nNorepinephrine\n0.05 to 0.5 mcg/kg per minute",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "endotracheal intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epi"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit": {
+          "text": "Severe and moderate presentations, especially if symptoms did not respond promptly to epinephrine or required repeat dosing\nLabs that may be requested by allergist/admitting team if uncertain diagnosis\nHistamine level - serum elevation 30-60 min following anaphylaxis, window easily missed\nTryptase - peaks at 2-4 hrs, remains elevated 6-12 hrs",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Consider discharge after 1 hour observation, if no severe symptoms and no repeat epinephrine doses (AAAAI recommendations)\n[4]\nNPV of 1-hour observation was 95%, with NPV for biphasic anaphylaxis after >6 hours of observation of 97.3%\n[16]\nSend home with an\nepinephrine\nautoinjector! (Epi-Pen)\nUp to 6% of the people with anaphylaxis have a repeat ED visit for anaphylaxis within 7 days\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Admit": {
+      "text": "Severe and moderate presentations, especially if symptoms did not respond promptly to epinephrine or required repeat dosing\nLabs that may be requested by allergist/admitting team if uncertain diagnosis\nHistamine level - serum elevation 30-60 min following anaphylaxis, window easily missed\nTryptase - peaks at 2-4 hrs, remains elevated 6-12 hrs",
+      "subsections": {
+        "Discharge": {
+          "text": "Consider discharge after 1 hour observation, if no severe symptoms and no repeat epinephrine doses (AAAAI recommendations)\n[4]\nNPV of 1-hour observation was 95%, with NPV for biphasic anaphylaxis after >6 hours of observation of 97.3%\n[16]\nSend home with an\nepinephrine\nautoinjector! (Epi-Pen)\nUp to 6% of the people with anaphylaxis have a repeat ED visit for anaphylaxis within 7 days\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Discharge": {
+      "text": "Consider discharge after 1 hour observation, if no severe symptoms and no repeat epinephrine doses (AAAAI recommendations)\n[4]\nNPV of 1-hour observation was 95%, with NPV for biphasic anaphylaxis after >6 hours of observation of 97.3%\n[16]\nSend home with an\nepinephrine\nautoinjector! (Epi-Pen)\nUp to 6% of the people with anaphylaxis have a repeat ED visit for anaphylaxis within 7 days\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Allergic Reaction\nAngioedema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic Reaction",
+          "url": "https://wikem.org/wiki/Allergic_Reaction"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        }
+      ]
+    }
+  }
+}

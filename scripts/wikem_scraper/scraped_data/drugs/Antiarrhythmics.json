@@ -1,0 +1,90 @@
+{
+  "drug_name": "Antiarrhythmics",
+  "url": "https://wikem.org/wiki/Antiarrhythmics",
+  "scraped_at": "2026-01-10T07:47:50.053232",
+  "sections": {
+    "Table": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Class": "Ia",
+            "Known as": "fast-channel blockers-Affect QRS complex",
+            "Examples": "QuinidineProcainamideDisopyramide",
+            "Mechanism": "(Na+) channel block (intermediate association/dissociation)",
+            "Clinical uses": "Ventricular arrhythmiasprevention of paroxysmal Recurrent atrial fibrillation (triggered by Vagus nerve overactivity)procainamide inWolf Parkinson White (WPW)"
+          },
+          {
+            "Class": "Ib- Do not affect QRS complex",
+            "Known as": "",
+            "Examples": "LidocainePhenytoinMexiletineTocainide",
+            "Mechanism": "(Na+) channel block (fast association/dissociation)",
+            "Clinical uses": "treatment and prevention during and immediately after Myocardial infarction, though this practice is now discouraged given the increased risk of AsystoleVentricular tachycardiaAtrial fibrillation"
+          },
+          {
+            "Class": "Ic",
+            "Known as": "",
+            "Examples": "FlecainidePropafenoneMoricizine",
+            "Mechanism": "(Na+) channel block (slow association/dissociation)",
+            "Clinical uses": "prevents Paroxysmal atrial fibrillationtreats Recurrent tachyarrhythmias of abnormal conduction system.contraindicated immediately post-myocardial infarction."
+          },
+          {
+            "Class": "II",
+            "Known as": "Beta-blockers",
+            "Examples": "PropranololEsmololTimololMetoprololAtenololBisoprololLabetalol",
+            "Mechanism": "beta blockingPropranolol also shows some class I action",
+            "Clinical uses": "decrease Myocardial infarction mortalityprevent recurrence of Tachyarrhythmias"
+          },
+          {
+            "Class": "III",
+            "Known as": "",
+            "Examples": "AmiodaroneSotalolIbutilideDofetilideDronedaroneE-4031",
+            "Mechanism": "K+channel blockerSotalol is also a β-blockerAmiodarone has Class I, II, and III activity",
+            "Clinical uses": "InWolf Parkinson White (WPW)(sotalol:) Ventricular tachycardias and Atrial fibrillation(Ibutilide:) Atrial flutter andAtrial fibrillation"
+          },
+          {
+            "Class": "IV",
+            "Known as": "slow-channel blockers",
+            "Examples": "VerapamilDiltiazem",
+            "Mechanism": "Ca2+channel blocker",
+            "Clinical uses": "prevent recurrence of Paroxysmal supraventricular tachycardiareduce Ventricular rate in patients withAtrial fibrillation"
+          },
+          {
+            "Class": "V",
+            "Known as": "",
+            "Examples": "AdenosineDigoxinMagnesium sulfate",
+            "Mechanism": "Work by other or unknown mechanisms (Direct nodal inhibition).",
+            "Clinical uses": "Used in supraventricular arrhythmias,Or in the case ofmagnesium sulfate, used intorsade de pointes."
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Arrhythmias (DDX)\nAtropine\nIsoproterenol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Arrhythmias (DDX)",
+          "url": "https://wikem.org/wiki/Arrhythmias_(DDX)"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        }
+      ]
+    },
+    "References": {
+      "text": "Katzung & Trevor's Pharmacology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

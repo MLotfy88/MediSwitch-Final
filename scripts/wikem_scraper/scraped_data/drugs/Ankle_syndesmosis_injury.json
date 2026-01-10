@@ -1,0 +1,440 @@
+{
+  "drug_name": "Ankle_syndesmosis_injury",
+  "url": "https://wikem.org/wiki/Ankle_syndesmosis_injury",
+  "scraped_at": "2026-01-10T07:47:40.436662",
+  "sections": {
+    "Background": {
+      "text": "5-18% of all\nankle sprains\ninjure the distal tibiofibular syndesmosis\n[1]\nHighly unstable if the deltoid ligament is injured as well\nMechanism is via external rotation and hyperdorsiflexion\nAssociated with\nMaisonneuve fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ankle sprains",
+          "url": "https://wikem.org/wiki/Ankle_sprain"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Toe walking: to prevent painful dorsiflexion\nExternal rotation stress test: flex knee at 90 degrees then externally rotate the foot\nSqueeze/Hopkin's test: compress mid/proximal calf to separate the tibia and fibula distally",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Other_Ankle_Injuries": {
+          "text": "Ankle sprain\nAnkle dislocation\nAnkle syndesmosis injury\nRadiograph-negative ankle injury (peds)",
+          "tables": []
+        },
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        },
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle sprain",
+          "url": "https://wikem.org/wiki/Ankle_sprain"
+        },
+        {
+          "text": "Ankle dislocation",
+          "url": "https://wikem.org/wiki/Ankle_dislocation"
+        },
+        {
+          "text": "Radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Other_Ankle_Injuries": {
+      "text": "Ankle sprain\nAnkle dislocation\nAnkle syndesmosis injury\nRadiograph-negative ankle injury (peds)",
+      "subsections": {
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        },
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle sprain",
+          "url": "https://wikem.org/wiki/Ankle_sprain"
+        },
+        {
+          "text": "Ankle dislocation",
+          "url": "https://wikem.org/wiki/Ankle_dislocation"
+        },
+        {
+          "text": "Radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Distal_Leg_Fracture_Types": {
+      "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Foot_and_Toe_Fracture_Types": {
+      "text": "",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Decreased tibio-fibular overlap (normally >6mm on AP films measured 1 cm proximal from the tibial plafond)\n[2]\nIncreased tibio-fibular syndesmosis clear space (normally <6mm on AP films measured 1 cm proximal from the tibial plafond)\nIncreased medial clear space (normally <5mm)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Non weight bearing\nPosterior ankle splint",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior ankle splint",
+          "url": "https://wikem.org/wiki/Posterior_ankle_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Orthopedic follow up. May need screw fixation if joint is subluxed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ankle diagnoses\nMaisonneuve fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle diagnoses",
+          "url": "https://wikem.org/wiki/Ankle_diagnoses"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://emergencymedicinecases.com/episode-58-tendons-ligaments-missed-orthopedic-injuries/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

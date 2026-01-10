@@ -1,0 +1,688 @@
+{
+  "drug_name": "Anorectal_abscess/en",
+  "url": "https://wikem.org/wiki/Anorectal_abscess/en",
+  "scraped_at": "2026-01-10T07:47:49.606072",
+  "sections": {
+    "Intro": {
+      "text": "English\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Usually begin via blocked anal gland (leads to infection/\nabscess\nformation)\nCan progress to involve any of the potential spaces.",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Crohn's disease\nChronic\nconstipation\nDiabetes mellitus\nChronic\ncorticosteroid\nuse",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "": "Epidemiology",
+            "Perianal": "Most common",
+            "Ischiorectal": "Second most common",
+            "Intersphincteric, deep postanal, pelvirectal": "Least common"
+          },
+          {
+            "": "Symptoms",
+            "Perianal": "Located close to anal verge, posterior midline, superficial tender mass",
+            "Ischiorectal": "Larger, indurated, well-circumscribed, located laterally on medial aspect of buttocks",
+            "Intersphincteric, deep postanal, pelvirectal": "Rectal pain, skin signs may not be present"
+          },
+          {
+            "": "Comments",
+            "Perianal": "High incidence offistulaformation even with drainage",
+            "Ischiorectal": "",
+            "Intersphincteric, deep postanal, pelvirectal": "Constitutional symptoms often present"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Crohn's disease\nChronic\nconstipation\nDiabetes mellitus\nChronic\ncorticosteroid\nuse",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Worsening pain around bowel movement, with decreased pain post rectal evacuation\nPerirectal abscesses often accompanied by\nfever\n,\nleukocytosis\nMay only be palpable via digital rectal exam\nPerianal abscesses typically do not cause fever in immunocompetent individuals\nTender inguinal\nlymphadenopathy\nmay be only clue to deeper abscesses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Anorectal_Disorders": {
+          "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+          "tables": []
+        },
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        },
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Anorectal_Disorders": {
+      "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+      "subsections": {
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        },
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Skin_and_Soft_Tissue_Infection": {
+      "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+      "subsections": {
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Look-A-Likes": {
+      "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CT with IV contrast can be useful to define deep abscesses (especially with pain out of proportion to exam)\nMay consider\nultrasound\nor MRI as alternatives",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Isolated perianal\nabscess\nis only type of anorectal\nabscess\nthat should be treated in ED\nConsider either linear incision with packing, elliptical incision, or cruciate incision without packing\nFrequent sitz baths\nAll perirectal abscesses (ischiorectal, intersphincteric, supralevator) should be drained in the OR\nAll anorectal abscesses require surgical referral and follow up",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Causative organisms: Mixed infection with fecal flora for\nanaerobes\nand\nGram Negatives\n(\nBacteroides fragilis\nand\nEscherichia coli\n)\nUse is controversial\nOnly recommended in high risk patients:\n[1]\n[2]\nElderly\nDiabetics\nSystemic signs (\nfever\n,\nleukocytosis\n)\nValvular heart disease\nCellulitis\nImmunosuppression\nPossibly prevent\nfistula\nformation in otherwise healthy patients\n[3]\nTreatment options:\nAugmentin\nCiprofloxacin\n500mg PO BID\nand\nMetronidazole\n500mg PO TID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Antibiotics": {
+      "text": "Causative organisms: Mixed infection with fecal flora for\nanaerobes\nand\nGram Negatives\n(\nBacteroides fragilis\nand\nEscherichia coli\n)\nUse is controversial\nOnly recommended in high risk patients:\n[1]\n[2]\nElderly\nDiabetics\nSystemic signs (\nfever\n,\nleukocytosis\n)\nValvular heart disease\nCellulitis\nImmunosuppression\nPossibly prevent\nfistula\nformation in otherwise healthy patients\n[3]\nTreatment options:\nAugmentin\nCiprofloxacin\n500mg PO BID\nand\nMetronidazole\n500mg PO TID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Discharge": {
+          "text": "Perianal abscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Perianal abscess",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anorectal Disorders",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Rob Orman Lecture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

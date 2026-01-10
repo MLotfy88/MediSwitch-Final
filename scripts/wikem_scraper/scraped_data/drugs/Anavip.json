@@ -1,0 +1,200 @@
+{
+  "drug_name": "Anavip",
+  "url": "https://wikem.org/wiki/Anavip",
+  "scraped_at": "2026-01-10T07:47:39.341293",
+  "sections": {
+    "Background": {
+      "text": "Equine-derived F(ab')2 antibody segment targeted against the venom of North American pit viper species\nLonger half life may confer a reduced risk of recurrent subacute coagulopathy and bleeding in patients with crotaline envenomation when compared to Crofab\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Progression of swelling\nAbnormal results on lab tests (platelets < 100,000 or fibrinogen < 100)\nSystemic manifestations (unstable vitals or altered mental status)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Administration": {
+      "text": "Crotaline (Pit Vipers)\nequine immune F(ab')2 antivenom\nType: Antivenom\nRoutes of Administration: IV\nCommon Trade Names: Anavip",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Administer as soon as possible following North American Pit Viper bite with signs of envenomation.",
+      "subsections": {
+        "Initial_Loading_Dose": {
+          "text": "10 vials IV\nMay repeat with an additional 10-vial dose every hour as needed until local signs of envenomation are not progressing, systemic symptoms are resolved, and coagulation and other laboratory parameters have normalized or are trending toward normal.",
+          "tables": []
+        },
+        "Maintenance_Therapy": {
+          "text": "4 vials IV PRN for any reemerging symptoms\nThere is no known maximum dose.",
+          "tables": []
+        },
+        "Administration_2": {
+          "text": "IV: Infuse IV over 60 minutes. Infuse at a rate of 25 to 50 mL/hour for the first 10 minutes, carefully monitoring for any allergic reactions. If no reactions occur, increase the infusion rate incrementally to 250 mL/hour until completion.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Initial_Loading_Dose": {
+      "text": "10 vials IV\nMay repeat with an additional 10-vial dose every hour as needed until local signs of envenomation are not progressing, systemic symptoms are resolved, and coagulation and other laboratory parameters have normalized or are trending toward normal.",
+      "subsections": {
+        "Maintenance_Therapy": {
+          "text": "4 vials IV PRN for any reemerging symptoms\nThere is no known maximum dose.",
+          "tables": []
+        },
+        "Administration_2": {
+          "text": "IV: Infuse IV over 60 minutes. Infuse at a rate of 25 to 50 mL/hour for the first 10 minutes, carefully monitoring for any allergic reactions. If no reactions occur, increase the infusion rate incrementally to 250 mL/hour until completion.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Maintenance_Therapy": {
+      "text": "4 vials IV PRN for any reemerging symptoms\nThere is no known maximum dose.",
+      "subsections": {
+        "Administration_2": {
+          "text": "IV: Infuse IV over 60 minutes. Infuse at a rate of 25 to 50 mL/hour for the first 10 minutes, carefully monitoring for any allergic reactions. If no reactions occur, increase the infusion rate incrementally to 250 mL/hour until completion.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Administration_2": {
+      "text": "IV: Infuse IV over 60 minutes. Infuse at a rate of 25 to 50 mL/hour for the first 10 minutes, carefully monitoring for any allergic reactions. If no reactions occur, increase the infusion rate incrementally to 250 mL/hour until completion.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Identical to adult dosing as above",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "No known Pregnancy category\nIn general, antidotes should not be withheld if indicated for treatment of the mother for fears of teratogenicity.",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "It is not known if Crotalidae Immune F(ab’)2 (Equine) is present in breast milk.\nAccording to the manufacturer, the decision to continue or discontinue breastfeeding during therapy should consider the risk of infant exposure, the benefits of breastfeeding to the infant, and the benefits of treatment to the mother.",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult/Pediatric: There are no dosage adjustments provided in the manufacturer's labeling.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult/Pediatric: There are no dosage adjustments provided in the manufacturer's labeling.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "No known Pregnancy category\nIn general, antidotes should not be withheld if indicated for treatment of the mother for fears of teratogenicity.",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "It is not known if Crotalidae Immune F(ab’)2 (Equine) is present in breast milk.\nAccording to the manufacturer, the decision to continue or discontinue breastfeeding during therapy should consider the risk of infant exposure, the benefits of breastfeeding to the infant, and the benefits of treatment to the mother.",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult/Pediatric: There are no dosage adjustments provided in the manufacturer's labeling.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult/Pediatric: There are no dosage adjustments provided in the manufacturer's labeling.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "It is not known if Crotalidae Immune F(ab’)2 (Equine) is present in breast milk.\nAccording to the manufacturer, the decision to continue or discontinue breastfeeding during therapy should consider the risk of infant exposure, the benefits of breastfeeding to the infant, and the benefits of treatment to the mother.",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult/Pediatric: There are no dosage adjustments provided in the manufacturer's labeling.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult/Pediatric: There are no dosage adjustments provided in the manufacturer's labeling.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult/Pediatric: There are no dosage adjustments provided in the manufacturer's labeling.",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult/Pediatric: There are no dosage adjustments provided in the manufacturer's labeling.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult/Pediatric: There are no dosage adjustments provided in the manufacturer's labeling.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "The most common reported side effects in clinical trials include: pruritis, rash, arthralgia, and nausea\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5.5 days\nMetabolism: unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Contains venom-specific F(ab’)2 fragments of immunoglobulin G (IgG) that bind and neutralize venom toxins of North American pit vipers",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Crotaline envenomation\nCrofab",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Crotaline envenomation",
+          "url": "https://wikem.org/wiki/Crotaline_envenomation"
+        },
+        {
+          "text": "Crofab",
+          "url": "https://wikem.org/wiki/Crofab"
+        }
+      ]
+    }
+  }
+}

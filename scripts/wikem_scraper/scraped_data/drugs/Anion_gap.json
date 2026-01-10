@@ -1,0 +1,396 @@
+{
+  "drug_name": "Anion_gap",
+  "url": "https://wikem.org/wiki/Anion_gap",
+  "scraped_at": "2026-01-10T07:47:40.966982",
+  "sections": {
+    "Background": {
+      "text": "A normal gap is 12 +/- 4 (i.e. 8 to 16).  The anion gap is the difference between measured cations and measured anions in serum.  This difference does not  reflect a true disparity between positive and negative charges, given that serum actually \nis electrically neutral when all serum cations and anions are measured.  Rather, the anion gap is a measurement artifact resulting \nfrom the fact that only certain cations and anions are routinely measured.  Anion gap metabolic acidosis is secondary to the addition of endogenous or exogenous acid\nAG = Na - (Cl  +  HCO3)\nNormal Anion Gap = 12+/-4 (8-16)\n12-20 mEq/L when including K+\nCutoffs for \"normal\" Anion Gap are laboratory and equipment specific.  Newer technology and equipment have been shown to measure \"low\" AG in otherwise normal, healthy people.\n[1]\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Elevated_Anion_Gap": {
+      "text": "",
+      "subsections": {
+        "Differential_Diagnosis": {
+          "text": "MUDPILES\nM -\nMethanol\n,\nmetformin\nU -\nUremia\nD -\nDKA\nP - Paraldehyde, phenformin\nI -\nIron\n, INH,\nibuprofen\n(large ingestions)\nL -\nLactic acidosis\nE -\nEthylene glycol\nS -\nSalicylates\nAlso:\nStarvation/\nETOH ketoacidosis\nCarbon Monoxide (CO)\n,\nCN poisoning\n(increased\nlactate\n),\ncolchicine\nToluene\nChronic\nacetaminophen\nuse\nKILR\nK –\nKetoacidosis\n- (\ndiabetic\n,\nAlcohol\n, Starvation)\nI –\nIngestion\n- (\nSalicylates\n,\nAcetaminophen\n,\nMethanol\n,\nEthylene glycol\n,\nCO\n,\nCN\n,\nIron\n,\nINH\n)\nL –\nLactic acidosis\n- (infection, hemorrhage, hypoperfusion,\nAlcohol\n,\nMetformin\n)\nR – Renal - (\nUremia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/Diabetic_Ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_Toxicity"
+        },
+        {
+          "text": "ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "ETOH ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Carbon Monoxide (CO)",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "CN poisoning",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "colchicine",
+          "url": "https://wikem.org/wiki/Colchicine"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketoacidosis",
+          "url": "https://wikem.org/wiki/Ketoacidosis"
+        },
+        {
+          "text": "diabetic",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "CO",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "CN",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "MUDPILES\nM -\nMethanol\n,\nmetformin\nU -\nUremia\nD -\nDKA\nP - Paraldehyde, phenformin\nI -\nIron\n, INH,\nibuprofen\n(large ingestions)\nL -\nLactic acidosis\nE -\nEthylene glycol\nS -\nSalicylates\nAlso:\nStarvation/\nETOH ketoacidosis\nCarbon Monoxide (CO)\n,\nCN poisoning\n(increased\nlactate\n),\ncolchicine\nToluene\nChronic\nacetaminophen\nuse\nKILR\nK –\nKetoacidosis\n- (\ndiabetic\n,\nAlcohol\n, Starvation)\nI –\nIngestion\n- (\nSalicylates\n,\nAcetaminophen\n,\nMethanol\n,\nEthylene glycol\n,\nCO\n,\nCN\n,\nIron\n,\nINH\n)\nL –\nLactic acidosis\n- (infection, hemorrhage, hypoperfusion,\nAlcohol\n,\nMetformin\n)\nR – Renal - (\nUremia\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/Diabetic_Ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_Toxicity"
+        },
+        {
+          "text": "ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "ETOH ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Carbon Monoxide (CO)",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "CN poisoning",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "colchicine",
+          "url": "https://wikem.org/wiki/Colchicine"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketoacidosis",
+          "url": "https://wikem.org/wiki/Ketoacidosis"
+        },
+        {
+          "text": "diabetic",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "CO",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "CN",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        }
+      ]
+    },
+    "Low_Anion_Gap": {
+      "text": "",
+      "subsections": {
+        "Differential_Diagnosis_2": {
+          "text": "Lab error\nDecreased \"unmeasured\" anions\nHypoalbuminemia\nIncreased \"unmeasured\" cations\nHyperkalemia\nHypercalcemia\nHypermagnesemia\nLithium Toxicity\nIncreased cationic paraprotein\nMultiple myeloma\nPolyclonal IgG gammopathy\nPseudo\nSevere\nHypernatremia\n(>170 meq/L)\nTrue conc of Na is underestimated\nMarked hyperlipidemia\nLeads to overestimation of plasma Cl conc)\nBromide toxicity\n(e.g. for\nmyasthenia gravis\nand some herbal medications)\nAssay mistakenly reads Br as Cl\nMay have negative anion gap\nElevated serum iodide\nAG falls by 2.5 meq/L for every 1 g/dL reduction in albumin concentration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypermagnesemia",
+          "url": "https://wikem.org/wiki/Hypermagnesemia"
+        },
+        {
+          "text": "Lithium Toxicity",
+          "url": "https://wikem.org/wiki/Lithium_Toxicity"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        }
+      ]
+    },
+    "Differential_Diagnosis_2": {
+      "text": "Lab error\nDecreased \"unmeasured\" anions\nHypoalbuminemia\nIncreased \"unmeasured\" cations\nHyperkalemia\nHypercalcemia\nHypermagnesemia\nLithium Toxicity\nIncreased cationic paraprotein\nMultiple myeloma\nPolyclonal IgG gammopathy\nPseudo\nSevere\nHypernatremia\n(>170 meq/L)\nTrue conc of Na is underestimated\nMarked hyperlipidemia\nLeads to overestimation of plasma Cl conc)\nBromide toxicity\n(e.g. for\nmyasthenia gravis\nand some herbal medications)\nAssay mistakenly reads Br as Cl\nMay have negative anion gap\nElevated serum iodide\nAG falls by 2.5 meq/L for every 1 g/dL reduction in albumin concentration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypermagnesemia",
+          "url": "https://wikem.org/wiki/Hypermagnesemia"
+        },
+        {
+          "text": "Lithium Toxicity",
+          "url": "https://wikem.org/wiki/Lithium_Toxicity"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Anion Gap and Osmolar Gap (High)\nAnion Gap (High)\nOsmolal or Osmolar Gap\nToxidromes\nAcidosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anion Gap and Osmolar Gap (High)",
+          "url": "https://wikem.org/wiki/Anion_Gap_and_Osmolar_Gap_(High)"
+        },
+        {
+          "text": "Anion Gap (High)",
+          "url": "https://wikem.org/wiki/Anion_Gap_(High)"
+        },
+        {
+          "text": "Osmolal or Osmolar Gap",
+          "url": "https://wikem.org/wiki/Osmolal_or_Osmolar_Gap"
+        },
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Serum Osmolality/Osmolarity\nMDCalc - Anion Gap",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

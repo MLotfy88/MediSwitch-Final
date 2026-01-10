@@ -1,0 +1,22 @@
+{
+  "drug_name": "Antibiomania",
+  "url": "https://wikem.org/wiki/Antibiomania",
+  "scraped_at": "2026-01-10T07:47:49.239183",
+  "sections": {
+    "Background": {
+      "text": "First coined in 2002, in Journal of Clinical Pharmacology as a condition where antibiotics are associated with psychological changes, specifically mania. 21 cases were reported with\nclarithromycin\nbeing the most common and often prescribed for\nH. pylori\ntreatment\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "H. pylori",
+          "url": "https://wikem.org/wiki/H._pylori"
+        }
+      ]
+    }
+  }
+}

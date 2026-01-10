@@ -1,0 +1,146 @@
+{
+  "drug_name": "Angiotensin_II_receptor_antagonists",
+  "url": "https://wikem.org/wiki/Angiotensin_II_receptor_antagonists",
+  "scraped_at": "2026-01-10T07:47:39.242233",
+  "sections": {
+    "Background": {
+      "text": "Also known as angiotensin receptor blockers (ARBs), AT\n1\n-receptor antagonists or sartans\nA group of pharmaceuticals that modulate the renin–angiotensin system, they block activation of angiotensin II AT\n1\nreceptors, thus preventing angiotensin II from binding\nMain uses are in the treatment of\nhypertension\n, diabetic nephropathy and\ncongestive heart failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        }
+      ]
+    },
+    "Medications": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Drug": "Losartan",
+            "Trade Name": "Cozaar",
+            "Biological half-life [h]": "6-9 h",
+            "Protein binding [%]": "98.7%",
+            "Bioavailability [%]": "33%",
+            "Renal/hepatic clearance [%]": "10%/90%",
+            "Food effect": "Minimal",
+            "Daily dosage [mg]": "50–100 mg"
+          },
+          {
+            "Drug": "EXP 3174",
+            "Trade Name": "",
+            "Biological half-life [h]": "6–9 h",
+            "Protein binding [%]": "99.8%",
+            "Bioavailability [%]": "–",
+            "Renal/hepatic clearance [%]": "50%/50%",
+            "Food effect": "–",
+            "Daily dosage [mg]": "–"
+          },
+          {
+            "Drug": "Candesartan",
+            "Trade Name": "Atacand",
+            "Biological half-life [h]": "9h",
+            "Protein binding [%]": ">99%",
+            "Bioavailability [%]": "15%",
+            "Renal/hepatic clearance [%]": "60%/40%",
+            "Food effect": "No",
+            "Daily dosage [mg]": "4–32 mg"
+          },
+          {
+            "Drug": "Valsartan",
+            "Trade Name": "Diovan",
+            "Biological half-life [h]": "6 h",
+            "Protein binding [%]": "95%",
+            "Bioavailability [%]": "25%",
+            "Renal/hepatic clearance [%]": "30%/70%",
+            "Food effect": "No",
+            "Daily dosage [mg]": "80–320 mg"
+          },
+          {
+            "Drug": "Irbesartan",
+            "Trade Name": "Avapro",
+            "Biological half-life [h]": "11–15 h",
+            "Protein binding [%]": "90–95%",
+            "Bioavailability [%]": "70%",
+            "Renal/hepatic clearance [%]": "1%/99%",
+            "Food effect": "No",
+            "Daily dosage [mg]": "150–300 mg"
+          },
+          {
+            "Drug": "Telmisartan",
+            "Trade Name": "Micardis",
+            "Biological half-life [h]": "24 h",
+            "Protein binding [%]": ">99%",
+            "Bioavailability [%]": "42–58%",
+            "Renal/hepatic clearance [%]": "1%/99%",
+            "Food effect": "No",
+            "Daily dosage [mg]": "40–80 mg"
+          },
+          {
+            "Drug": "Eprosartan",
+            "Trade Name": "Teveten",
+            "Biological half-life [h]": "5 h",
+            "Protein binding [%]": "98%",
+            "Bioavailability [%]": "13%",
+            "Renal/hepatic clearance [%]": "30%/70%",
+            "Food effect": "No",
+            "Daily dosage [mg]": "400–800 mg"
+          },
+          {
+            "Drug": "Olmesartan",
+            "Trade Name": "Benicar/Olmetec",
+            "Biological half-life [h]": "14–16 h",
+            "Protein binding [%]": ">99%",
+            "Bioavailability [%]": "29%",
+            "Renal/hepatic clearance [%]": "40%/60%",
+            "Food effect": "No",
+            "Daily dosage [mg]": "10–40 mg"
+          },
+          {
+            "Drug": "Azilsartan",
+            "Trade Name": "Edarbi",
+            "Biological half-life [h]": "11 h",
+            "Protein binding [%]": ">99%",
+            "Bioavailability [%]": "60%",
+            "Renal/hepatic clearance [%]": "55%/42%",
+            "Food effect": "No",
+            "Daily dosage [mg]": "40–80 mg"
+          },
+          {
+            "Drug": "Fimasartan",
+            "Trade Name": "Kanarb",
+            "Biological half-life [h]": "7-11 h",
+            "Protein binding [%]": ">97%",
+            "Bioavailability [%]": "30-40%",
+            "Renal/hepatic clearance [%]": "-",
+            "Food effect": "-",
+            "Daily dosage [mg]": "30–120 mg"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antihypertensive medications\nAngioedema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihypertensive medications",
+          "url": "https://wikem.org/wiki/Antihypertensive_medications"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        }
+      ]
+    }
+  }
+}

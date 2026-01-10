@@ -1,0 +1,28 @@
+{
+  "drug_name": "Angina",
+  "url": "https://wikem.org/wiki/Angina",
+  "scraped_at": "2026-01-10T07:47:36.264065",
+  "sections": {
+    "Intro": {
+      "text": "Chest pain\ndue cardiac ischemia\nClassified as either\nStable angina\nUnstable angina\nUnstable Angina - NSTEMI\nStable angina\nUnstable angina\nUnstable Angina - NSTEMI\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also=": {
+      "text": "Chest pain\nSTEMI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        }
+      ]
+    }
+  }
+}

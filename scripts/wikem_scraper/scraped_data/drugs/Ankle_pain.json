@@ -1,0 +1,1097 @@
+{
+  "drug_name": "Ankle_pain",
+  "url": "https://wikem.org/wiki/Ankle_pain",
+  "scraped_at": "2026-01-10T07:47:45.781570",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nAnkle pain (peds)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Ankle pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Other_Ankle_Injuries": {
+          "text": "Ankle sprain\nAnkle dislocation\nAnkle syndesmosis injury\nRadiograph-negative ankle injury (peds)",
+          "tables": []
+        },
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        },
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        },
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle sprain",
+          "url": "https://wikem.org/wiki/Ankle_sprain"
+        },
+        {
+          "text": "Ankle dislocation",
+          "url": "https://wikem.org/wiki/Ankle_dislocation"
+        },
+        {
+          "text": "Ankle syndesmosis injury",
+          "url": "https://wikem.org/wiki/Ankle_syndesmosis_injury"
+        },
+        {
+          "text": "Radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Other_Ankle_Injuries": {
+      "text": "Ankle sprain\nAnkle dislocation\nAnkle syndesmosis injury\nRadiograph-negative ankle injury (peds)",
+      "subsections": {
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        },
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        },
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle sprain",
+          "url": "https://wikem.org/wiki/Ankle_sprain"
+        },
+        {
+          "text": "Ankle dislocation",
+          "url": "https://wikem.org/wiki/Ankle_dislocation"
+        },
+        {
+          "text": "Ankle syndesmosis injury",
+          "url": "https://wikem.org/wiki/Ankle_syndesmosis_injury"
+        },
+        {
+          "text": "Radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Distal_Leg_Fracture_Types": {
+      "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        },
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Foot_and_Toe_Fracture_Types": {
+      "text": "",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        },
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Foot_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Acute_traumatic": {
+          "text": "Consider x-rays\nUse\nOttawa Ankle Rules\nfor acute ankle injuries to determine need for x-rays",
+          "tables": []
+        },
+        "Atraumatic_/_Subacute": {
+          "text": "Consider x-rays\nConsider labs for infectious workup (i.e.\nseptic joint\n)\nCBC\nChemistry\nCoags\nESR/CRP\nConsider\narthrocentesis",
+          "tables": []
+        },
+        "Acute_traumatic_2": {
+          "text": "Typically determined by imaging",
+          "tables": []
+        },
+        "Atraumatic_/_Subacute_2": {
+          "text": "See following for analysis of synovial fluid, if indicated",
+          "tables": []
+        },
+        "Arthrocentesis_of_synoval_fluid": {
+          "text": "Viscosity of synovial fluid may actually be decreased in inflammatory or infectious etiologies, as hyaluronic acid concentrations decrease\nThe presence of crystals does not rule out septic arthritis; however, the diagnosis is highly unlikely with synovial WBC < 50,000\n[1]",
+          "tables": [
+            [
+              {
+                "Synovium": "Clarity",
+                "Normal": "Transparent",
+                "Noninflammatory": "Transparent",
+                "Inflammatory": "Cloudy",
+                "Septic": "Cloudy"
+              },
+              {
+                "Synovium": "Color",
+                "Normal": "Clear",
+                "Noninflammatory": "Yellow",
+                "Inflammatory": "Yellow",
+                "Septic": "Yellow"
+              },
+              {
+                "Synovium": "WBC",
+                "Normal": "<200",
+                "Noninflammatory": "<200-2000",
+                "Inflammatory": "200-50,000",
+                "Septic": ">1,100 (prosthetic joint)>25,000; LR=2.9>50,000; LR=7.7>100,000; LR=28"
+              },
+              {
+                "Synovium": "PMN",
+                "Normal": "<25%",
+                "Noninflammatory": "<25%",
+                "Inflammatory": ">50%",
+                "Septic": ">64% (prosthetic joint)>90%"
+              },
+              {
+                "Synovium": "Culture",
+                "Normal": "Neg",
+                "Noninflammatory": "Neg",
+                "Inflammatory": "Neg",
+                "Septic": ">50% positive"
+              },
+              {
+                "Synovium": "Lactate",
+                "Normal": "<5.6 mmol/L",
+                "Noninflammatory": "<5.6 mmol/L",
+                "Inflammatory": "<5.6 mmol/L",
+                "Septic": ">5.6 mmol/L"
+              },
+              {
+                "Synovium": "LDH",
+                "Normal": "<250",
+                "Noninflammatory": "<250",
+                "Inflammatory": "<250",
+                "Septic": ">250"
+              },
+              {
+                "Synovium": "Crystals",
+                "Normal": "None",
+                "Noninflammatory": "None",
+                "Inflammatory": "Multiple or none",
+                "Septic": "None"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ottawa Ankle Rules",
+          "url": "https://wikem.org/wiki/Ottawa_Ankle_Rules"
+        },
+        {
+          "text": "septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "arthrocentesis",
+          "url": "https://wikem.org/wiki/Arthrocentesis:_ankle"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Acute_traumatic": {
+          "text": "Consider x-rays\nUse\nOttawa Ankle Rules\nfor acute ankle injuries to determine need for x-rays",
+          "tables": []
+        },
+        "Atraumatic_/_Subacute": {
+          "text": "Consider x-rays\nConsider labs for infectious workup (i.e.\nseptic joint\n)\nCBC\nChemistry\nCoags\nESR/CRP\nConsider\narthrocentesis",
+          "tables": []
+        },
+        "Acute_traumatic_2": {
+          "text": "Typically determined by imaging",
+          "tables": []
+        },
+        "Atraumatic_/_Subacute_2": {
+          "text": "See following for analysis of synovial fluid, if indicated",
+          "tables": []
+        },
+        "Arthrocentesis_of_synoval_fluid": {
+          "text": "Viscosity of synovial fluid may actually be decreased in inflammatory or infectious etiologies, as hyaluronic acid concentrations decrease\nThe presence of crystals does not rule out septic arthritis; however, the diagnosis is highly unlikely with synovial WBC < 50,000\n[1]",
+          "tables": [
+            [
+              {
+                "Synovium": "Clarity",
+                "Normal": "Transparent",
+                "Noninflammatory": "Transparent",
+                "Inflammatory": "Cloudy",
+                "Septic": "Cloudy"
+              },
+              {
+                "Synovium": "Color",
+                "Normal": "Clear",
+                "Noninflammatory": "Yellow",
+                "Inflammatory": "Yellow",
+                "Septic": "Yellow"
+              },
+              {
+                "Synovium": "WBC",
+                "Normal": "<200",
+                "Noninflammatory": "<200-2000",
+                "Inflammatory": "200-50,000",
+                "Septic": ">1,100 (prosthetic joint)>25,000; LR=2.9>50,000; LR=7.7>100,000; LR=28"
+              },
+              {
+                "Synovium": "PMN",
+                "Normal": "<25%",
+                "Noninflammatory": "<25%",
+                "Inflammatory": ">50%",
+                "Septic": ">64% (prosthetic joint)>90%"
+              },
+              {
+                "Synovium": "Culture",
+                "Normal": "Neg",
+                "Noninflammatory": "Neg",
+                "Inflammatory": "Neg",
+                "Septic": ">50% positive"
+              },
+              {
+                "Synovium": "Lactate",
+                "Normal": "<5.6 mmol/L",
+                "Noninflammatory": "<5.6 mmol/L",
+                "Inflammatory": "<5.6 mmol/L",
+                "Septic": ">5.6 mmol/L"
+              },
+              {
+                "Synovium": "LDH",
+                "Normal": "<250",
+                "Noninflammatory": "<250",
+                "Inflammatory": "<250",
+                "Septic": ">250"
+              },
+              {
+                "Synovium": "Crystals",
+                "Normal": "None",
+                "Noninflammatory": "None",
+                "Inflammatory": "Multiple or none",
+                "Septic": "None"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ottawa Ankle Rules",
+          "url": "https://wikem.org/wiki/Ottawa_Ankle_Rules"
+        },
+        {
+          "text": "septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "arthrocentesis",
+          "url": "https://wikem.org/wiki/Arthrocentesis:_ankle"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_traumatic_2": {
+          "text": "Typically determined by imaging",
+          "tables": []
+        },
+        "Atraumatic_/_Subacute_2": {
+          "text": "See following for analysis of synovial fluid, if indicated",
+          "tables": []
+        },
+        "Arthrocentesis_of_synoval_fluid": {
+          "text": "Viscosity of synovial fluid may actually be decreased in inflammatory or infectious etiologies, as hyaluronic acid concentrations decrease\nThe presence of crystals does not rule out septic arthritis; however, the diagnosis is highly unlikely with synovial WBC < 50,000\n[1]",
+          "tables": [
+            [
+              {
+                "Synovium": "Clarity",
+                "Normal": "Transparent",
+                "Noninflammatory": "Transparent",
+                "Inflammatory": "Cloudy",
+                "Septic": "Cloudy"
+              },
+              {
+                "Synovium": "Color",
+                "Normal": "Clear",
+                "Noninflammatory": "Yellow",
+                "Inflammatory": "Yellow",
+                "Septic": "Yellow"
+              },
+              {
+                "Synovium": "WBC",
+                "Normal": "<200",
+                "Noninflammatory": "<200-2000",
+                "Inflammatory": "200-50,000",
+                "Septic": ">1,100 (prosthetic joint)>25,000; LR=2.9>50,000; LR=7.7>100,000; LR=28"
+              },
+              {
+                "Synovium": "PMN",
+                "Normal": "<25%",
+                "Noninflammatory": "<25%",
+                "Inflammatory": ">50%",
+                "Septic": ">64% (prosthetic joint)>90%"
+              },
+              {
+                "Synovium": "Culture",
+                "Normal": "Neg",
+                "Noninflammatory": "Neg",
+                "Inflammatory": "Neg",
+                "Septic": ">50% positive"
+              },
+              {
+                "Synovium": "Lactate",
+                "Normal": "<5.6 mmol/L",
+                "Noninflammatory": "<5.6 mmol/L",
+                "Inflammatory": "<5.6 mmol/L",
+                "Septic": ">5.6 mmol/L"
+              },
+              {
+                "Synovium": "LDH",
+                "Normal": "<250",
+                "Noninflammatory": "<250",
+                "Inflammatory": "<250",
+                "Septic": ">250"
+              },
+              {
+                "Synovium": "Crystals",
+                "Normal": "None",
+                "Noninflammatory": "None",
+                "Inflammatory": "Multiple or none",
+                "Septic": "None"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Arthrocentesis_of_synoval_fluid": {
+      "text": "Viscosity of synovial fluid may actually be decreased in inflammatory or infectious etiologies, as hyaluronic acid concentrations decrease\nThe presence of crystals does not rule out septic arthritis; however, the diagnosis is highly unlikely with synovial WBC < 50,000\n[1]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Synovium": "Clarity",
+            "Normal": "Transparent",
+            "Noninflammatory": "Transparent",
+            "Inflammatory": "Cloudy",
+            "Septic": "Cloudy"
+          },
+          {
+            "Synovium": "Color",
+            "Normal": "Clear",
+            "Noninflammatory": "Yellow",
+            "Inflammatory": "Yellow",
+            "Septic": "Yellow"
+          },
+          {
+            "Synovium": "WBC",
+            "Normal": "<200",
+            "Noninflammatory": "<200-2000",
+            "Inflammatory": "200-50,000",
+            "Septic": ">1,100 (prosthetic joint)>25,000; LR=2.9>50,000; LR=7.7>100,000; LR=28"
+          },
+          {
+            "Synovium": "PMN",
+            "Normal": "<25%",
+            "Noninflammatory": "<25%",
+            "Inflammatory": ">50%",
+            "Septic": ">64% (prosthetic joint)>90%"
+          },
+          {
+            "Synovium": "Culture",
+            "Normal": "Neg",
+            "Noninflammatory": "Neg",
+            "Inflammatory": "Neg",
+            "Septic": ">50% positive"
+          },
+          {
+            "Synovium": "Lactate",
+            "Normal": "<5.6 mmol/L",
+            "Noninflammatory": "<5.6 mmol/L",
+            "Inflammatory": "<5.6 mmol/L",
+            "Septic": ">5.6 mmol/L"
+          },
+          {
+            "Synovium": "LDH",
+            "Normal": "<250",
+            "Noninflammatory": "<250",
+            "Inflammatory": "<250",
+            "Septic": ">250"
+          },
+          {
+            "Synovium": "Crystals",
+            "Normal": "None",
+            "Noninflammatory": "None",
+            "Inflammatory": "Multiple or none",
+            "Septic": "None"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Depends on individual diagnosis\nTraumatic injuries may require a\nposterior ankle splint\nand/or crutches",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "posterior ankle splint",
+          "url": "https://wikem.org/wiki/Posterior_ankle_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on specific diagnosis\nMost closed and distally neurovascularly intact traumatic injuries are treated as an outpatient\nOrtho referral for significant fractures/dislocations\nSeptic joint\nshould be admitted",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Diagnoses by Body Part (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diagnoses by Body Part (Main)",
+          "url": "https://wikem.org/wiki/Diagnoses_by_Body_Part_(Main)"
+        }
+      ]
+    }
+  }
+}

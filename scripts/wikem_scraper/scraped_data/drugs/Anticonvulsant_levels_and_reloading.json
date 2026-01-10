@@ -1,0 +1,165 @@
+{
+  "drug_name": "Anticonvulsant_levels_and_reloading",
+  "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading",
+  "scraped_at": "2026-01-10T07:47:51.734264",
+  "sections": {
+    "Background": {
+      "text": "IV load can be performed with\nphenobarbital\n,\nphenytoin\n,\nvalproate\n,\nlevetiracetam\nOral loading can be spread over day or more to avoid GI upset\nMay use IV vs PO reload at physican discretion\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        }
+      ]
+    },
+    "Initial_Loading": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Anticonvulsant(brand name)": "Carbamazepine(Tegretol)",
+            "PO Loading Dose": "8mg/kg suspension in single oral load",
+            "IV Loading Dose": "NA"
+          },
+          {
+            "Anticonvulsant(brand name)": "Gabapentin(Neurontin)",
+            "PO Loading Dose": "900mg/day oral (300mg tid) for 3 days",
+            "IV Loading Dose": "NA"
+          },
+          {
+            "Anticonvulsant(brand name)": "Lamotrigine(Lamictal)",
+            "PO Loading Dose": "6.5mg/kg single oral load if on lamotrigine for >6 mo without a history of rash or intolerance in the past and only off lamotrigine for <5 days",
+            "IV Loading Dose": "NA"
+          },
+          {
+            "Anticonvulsant(brand name)": "Levetiracetam(Keppra)",
+            "PO Loading Dose": "1,500mg oral load",
+            "IV Loading Dose": "1,000-1,500 mg IV"
+          },
+          {
+            "Anticonvulsant(brand name)": "Phenytoin(Dilantin)",
+            "PO Loading Dose": "20mg/kg divided in maximum doses of 400mg every 2 hours",
+            "IV Loading Dose": "18mg/kg (max rate of 50mg/min)"
+          },
+          {
+            "Anticonvulsant(brand name)": "Fosphenytoin(Cerebyx)",
+            "PO Loading Dose": "NA",
+            "IV Loading Dose": "18 PE/kg IV (max rate of 150 PE/min)"
+          },
+          {
+            "Anticonvulsant(brand name)": "Valproate(Depacon)",
+            "PO Loading Dose": "NA",
+            "IV Loading Dose": "Up to 30mg/kg IV (max rate of 10mg/kg/min)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Reloading": {
+      "text": "Dose (mg) =\nideal body weight\n(kg) X Vd X [desired level - current level (mcg/mL)]",
+      "subsections": {
+        "Volume_of_Distribution": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Phenytoin (dilantin)",
+                "Volume of Distribution": "0.8",
+                "Desired Level": "20 mcg/mL"
+              },
+              {
+                "Agent": "Carbamazepine (tegretol)",
+                "Volume of Distribution": "0.8",
+                "Desired Level": "12 mcg/mL"
+              },
+              {
+                "Agent": "Phenobarbital",
+                "Volume of Distribution": "0.6",
+                "Desired Level": "40 mcg/mL"
+              },
+              {
+                "Agent": "Valproate (depakote)",
+                "Volume of Distribution": "0.2",
+                "Desired Level": "100 mcg/mL"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ideal body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Volume_of_Distribution": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Agent": "Phenytoin (dilantin)",
+            "Volume of Distribution": "0.8",
+            "Desired Level": "20 mcg/mL"
+          },
+          {
+            "Agent": "Carbamazepine (tegretol)",
+            "Volume of Distribution": "0.8",
+            "Desired Level": "12 mcg/mL"
+          },
+          {
+            "Agent": "Phenobarbital",
+            "Volume of Distribution": "0.6",
+            "Desired Level": "40 mcg/mL"
+          },
+          {
+            "Agent": "Valproate (depakote)",
+            "Volume of Distribution": "0.2",
+            "Desired Level": "100 mcg/mL"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure\nSeizure (peds)\nSeizure with known seizure disorder\nAnticonvulsants",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Seizure (peds)",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        }
+      ]
+    }
+  }
+}

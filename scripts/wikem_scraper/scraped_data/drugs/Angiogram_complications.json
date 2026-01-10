@@ -1,0 +1,41 @@
+{
+  "drug_name": "Angiogram_complications",
+  "url": "https://wikem.org/wiki/Angiogram_complications",
+  "scraped_at": "2026-01-10T07:47:39.816935",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "Hematoma (visual exam)\nArteriovenous fistula (bruit)\nRetroperitoneal hemorrhage\nAcute Renal Failure\n(creatinine)\nVascular injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Acute Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_Renal_Failure"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acute Arterial Occlusion\nVascular injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute Arterial Occlusion",
+          "url": "https://wikem.org/wiki/Acute_Arterial_Occlusion"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    }
+  }
+}

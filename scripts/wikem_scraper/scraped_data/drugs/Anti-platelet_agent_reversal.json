@@ -1,0 +1,148 @@
+{
+  "drug_name": "Anti-platelet_agent_reversal",
+  "url": "https://wikem.org/wiki/Anti-platelet_agent_reversal",
+  "scraped_at": "2026-01-10T07:47:48.922494",
+  "sections": {
+    "Background": {
+      "text": "Consider reversal of\naspirin\nand\nclopidogrel\nin acute life threatening hemorrhage, but it is very controversial in\nICH\n[1]\nRisk of mortality from ICH on\nwarfarin\n~16-80%\nSignificantly higher mortality with either clopidogrel mono or dual-antiplatelet treatment in trauma patients\n[2]\nAspirin alone is predictor of higher mortality in spontaneous ICH\n[3]\nPATCH trial\nin 2016\nsuggested mortality is higher in platelet transfused patients\n, alongside several other preceding studies\n[4]\n2.05 OR, increased odds of death at 3 months in platelet transfusion group\n190 ICH patients enrolled\nIncluded patients with at least 7 days of antiplatelet therapy, including\nASA\n,\nclopidogrel\n,\ndipyridamole\nExcluded SDH, epidural hemorrhage, aneurysm, AVM, surgical evacuation of ICH within 24 hrs, thrombocytopenia < 100k, use of warfarin if INR > 2-3, infratentorial hematomas, large intraventricular hemorrhage\nAnti-platelet medications to reverse:\nAspirin\nClopidogrel\nTicagrelor\nTiclopidine\n(rarely used anymore)\nPrevalence of immediate traumatic ICH in pts on clopidogrel 12% compared to 5% on\nwarfarin\n[5]\nMay be confounded by patients on warfarin having low threshold for presenting with head injury to ED, but highlights high frequency of bleeds in patients on clopidogrel\nHowever, no patients on clopidogrel had delayed ICH compared to ~1% pts on warfarin with delayed ICH\nDelayed ICH defined as traumatic ICH within 2 weeks after initial normal CTH\nPlatelet aggregation recovery\n[6]\n:\nWithin 4 days of stopping aspirin\nTakes 10 days for clopidogrel (life-span of a platelet)\nWhen starting clopidogrel, takes 7 days to achieve max platelet inhibition\n[7]\nIf 350mg loading dose, platelet inhibition occurs within 2-5 hrs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "PATCH trial",
+          "url": "https://wikem.org/wiki/PATCH_trial"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "dipyridamole",
+          "url": "https://wikem.org/wiki/Dipyridamole"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Ticagrelor",
+          "url": "https://wikem.org/wiki/Ticagrelor"
+        },
+        {
+          "text": "Ticlopidine",
+          "url": "https://wikem.org/wiki/Ticlopidine"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Reversal": {
+      "text": "If time permits, obtain initial platelet function assay for aspirin and clopidogrel\nReversal with combination of platelet transfusion,\ndesmopressin\nLimited evidence to support mortality improvement in reversal, but little evidence of harm\n[8]",
+      "subsections": {
+        "Platelet_transfusion": {
+          "text": "Volume\nAt least 5 units of platelets initially to reverse routine antiplatelet doses\n[9]\nConsider significantly more platelets for those who were loaded with clopidogrel within the last week\n[10]",
+          "tables": []
+        },
+        "Desmopressin_(DDAVP)": {
+          "text": "0.3 mcg/kg/dose in 50 cc NS over 30 min\n[12]\nQuick onset of action, within 1 hr\nSimilar MOA to\ncryoprecipitate\n(increase factor VIII, vWF)\nNo transfusion complications of cryoprecipitate\nHowever, effects only last up to 24 hrs, and tachyphylaxis limits efficacy repeated doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        }
+      ]
+    },
+    "Platelet_transfusion": {
+      "text": "Volume\nAt least 5 units of platelets initially to reverse routine antiplatelet doses\n[9]\nConsider significantly more platelets for those who were loaded with clopidogrel within the last week\n[10]",
+      "subsections": {
+        "Desmopressin_(DDAVP)": {
+          "text": "0.3 mcg/kg/dose in 50 cc NS over 30 min\n[12]\nQuick onset of action, within 1 hr\nSimilar MOA to\ncryoprecipitate\n(increase factor VIII, vWF)\nNo transfusion complications of cryoprecipitate\nHowever, effects only last up to 24 hrs, and tachyphylaxis limits efficacy repeated doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        }
+      ]
+    },
+    "Special_Circumstances": {
+      "text": "Chronic renal failure patients may benefit from:\nDesmopressin\nOR\ncryoprecipitate\n1 unit\nConjugated estrogens IV 0.6mg/kg/d for 5 days\n[13]\nSee\nuremic bleeding\nTicagrelor\ndoes not likely respond to platelet transfusion reversal\n[14]\n[15]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/DDAVP"
+        },
+        {
+          "text": "cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "uremic bleeding",
+          "url": "https://wikem.org/wiki/Uremic_bleeding"
+        },
+        {
+          "text": "Ticagrelor",
+          "url": "https://wikem.org/wiki/Ticagrelor"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Coagulopathy (main)\nAnticoagulant reversal for life-threatening bleeds\nAntiplatelet medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(main)"
+        },
+        {
+          "text": "Anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "Antiplatelet medications",
+          "url": "https://wikem.org/wiki/Antiplatelet_medications"
+        }
+      ]
+    }
+  }
+}

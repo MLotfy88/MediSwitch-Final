@@ -1,0 +1,352 @@
+{
+  "drug_name": "Ankle_fracture_(peds)",
+  "url": "https://wikem.org/wiki/Ankle_fracture_(peds)",
+  "scraped_at": "2026-01-10T07:47:42.071165",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nankle fracture\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "More fractures and fewer sprains since physis is weaker than surrounding ligaments\nUsually\nSalter-Harris\nI or II\nIf assumed Salter-Harris Type I, see\nradiograph-negative ankle injury (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salter-Harris",
+          "url": "https://wikem.org/wiki/Salter_Harris"
+        },
+        {
+          "text": "radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Tenderness to palpation of ankle (possibly over growth plate)\nSoft tissue swelling\nDistinguish from lateral ligamentous sprain by presence of point tenderness over physis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Other_Ankle_Injuries": {
+          "text": "Ankle sprain\nAnkle dislocation\nAnkle syndesmosis injury\nRadiograph-negative ankle injury (peds)",
+          "tables": []
+        },
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle sprain",
+          "url": "https://wikem.org/wiki/Ankle_sprain"
+        },
+        {
+          "text": "Ankle dislocation",
+          "url": "https://wikem.org/wiki/Ankle_dislocation"
+        },
+        {
+          "text": "Ankle syndesmosis injury",
+          "url": "https://wikem.org/wiki/Ankle_syndesmosis_injury"
+        },
+        {
+          "text": "Radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "Other_Ankle_Injuries": {
+      "text": "Ankle sprain\nAnkle dislocation\nAnkle syndesmosis injury\nRadiograph-negative ankle injury (peds)",
+      "subsections": {
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle sprain",
+          "url": "https://wikem.org/wiki/Ankle_sprain"
+        },
+        {
+          "text": "Ankle dislocation",
+          "url": "https://wikem.org/wiki/Ankle_dislocation"
+        },
+        {
+          "text": "Ankle syndesmosis injury",
+          "url": "https://wikem.org/wiki/Ankle_syndesmosis_injury"
+        },
+        {
+          "text": "Radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "Distal_Leg_Fracture_Types": {
+      "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Imaging\nMay only show soft tissue swelling at lateral fibula",
+      "subsections": {
+        "Types": {
+          "text": "Salter-Harris I\nSee\nradiograph-negative ankle injury (peds)\nSalter-Harris II\nRemovable ankle brace\n[1]\nSalter-Harris III (25%)\nRequire open reduction of any displacement\nTillaux fracture\nSalter-Harris type III of the anterolateral portion of the distal tibia\nATFL avulses off the distal tibia\nMay need oblique view to distinguish from triplane fracture\nUsually requires surgical reduction\nTriplane fracture\nMedial portion of distal tibia growth plate closes before lateral aspect\nWhile normal, this causes 18-month period of vulnerability until lateral aspect closes\nPlanes\nPlane 1: Lateral side of tibia through growth plate to fused medial aspect of physis\nPlane 2: Sagittal through epiphysis\nPlane 3: Coronal through distial tibial metaphysis\nImaging\nAppears as Salter III on AP, Salter II on lateral\nManagement\nCT to delineate injury\nOrtho consult; closed reduction sufficient in most cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Triplane fracture",
+          "url": "https://wikem.org/wiki/Triplane_fracture"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Salter-Harris I\nSee\nradiograph-negative ankle injury (peds)\nSalter-Harris II\nRemovable ankle brace\n[1]\nSalter-Harris III (25%)\nRequire open reduction of any displacement\nTillaux fracture\nSalter-Harris type III of the anterolateral portion of the distal tibia\nATFL avulses off the distal tibia\nMay need oblique view to distinguish from triplane fracture\nUsually requires surgical reduction\nTriplane fracture\nMedial portion of distal tibia growth plate closes before lateral aspect\nWhile normal, this causes 18-month period of vulnerability until lateral aspect closes\nPlanes\nPlane 1: Lateral side of tibia through growth plate to fused medial aspect of physis\nPlane 2: Sagittal through epiphysis\nPlane 3: Coronal through distial tibial metaphysis\nImaging\nAppears as Salter III on AP, Salter II on lateral\nManagement\nCT to delineate injury\nOrtho consult; closed reduction sufficient in most cases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Triplane fracture",
+          "url": "https://wikem.org/wiki/Triplane_fracture"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Immobilization": {
+          "text": "If nondisplaced\nimmobilize\n, ortho follow up optional\nShort-leg posterior splint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "immobilize",
+          "url": "https://wikem.org/wiki/Splinting#Lower_Extremity"
+        },
+        {
+          "text": "Short-leg posterior splint",
+          "url": "https://wikem.org/wiki/Short-leg_posterior_splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Immobilization": {
+          "text": "If nondisplaced\nimmobilize\n, ortho follow up optional\nShort-leg posterior splint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "immobilize",
+          "url": "https://wikem.org/wiki/Splinting#Lower_Extremity"
+        },
+        {
+          "text": "Short-leg posterior splint",
+          "url": "https://wikem.org/wiki/Short-leg_posterior_splint"
+        }
+      ]
+    },
+    "Immobilization": {
+      "text": "If nondisplaced\nimmobilize\n, ortho follow up optional\nShort-leg posterior splint",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "immobilize",
+          "url": "https://wikem.org/wiki/Splinting#Lower_Extremity"
+        },
+        {
+          "text": "Short-leg posterior splint",
+          "url": "https://wikem.org/wiki/Short-leg_posterior_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fractures (Main)\nAnkle diagnoses\nAnkle fracture\nRadiograph-negative ankle injury (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures (Main)",
+          "url": "https://wikem.org/wiki/Fractures_(Main)"
+        },
+        {
+          "text": "Ankle diagnoses",
+          "url": "https://wikem.org/wiki/Ankle_diagnoses"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        }
+      ]
+    }
+  }
+}

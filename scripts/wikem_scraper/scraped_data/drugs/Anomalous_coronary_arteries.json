@@ -1,0 +1,234 @@
+{
+  "drug_name": "Anomalous_coronary_arteries",
+  "url": "https://wikem.org/wiki/Anomalous_coronary_arteries",
+  "scraped_at": "2026-01-10T07:47:42.838882",
+  "sections": {
+    "Background": {
+      "text": "Coronary arteries arise from the truncus arteriosus as endothelial buds, during this process abnormal involution, bud positioning, or septation of the truncus arteriosus may lead to abnormal origin of the coronary arteries\nSymptoms occur due to the path that these arteries take to supply the heart, some coursing between the aorta and pulmonary arteries which results in compression, or taking abrupt turns causing acute angles that are predisposed to obstruction\nIncidence is 0.64% of births",
+      "subsections": {
+        "Types": {
+          "text": "Left circumflex from right sinus of valsalva\nSingle coronary artery from the left sinus of valsalva\nBoth coronary arteries from the right sinus of valsalva\nLAD from the right sinus of valsalva",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "Left circumflex from right sinus of valsalva\nSingle coronary artery from the left sinus of valsalva\nBoth coronary arteries from the right sinus of valsalva\nLAD from the right sinus of valsalva",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Anginal\nchest pain\nSyncope\nSudden death\nIn one study accounted for 13% of cases of sudden death in competitive athletes\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Syncope_(peds)": {
+          "text": "Seizure\nBreath-holding spell\nHyperventilation syndrome\nPregnancy\n(especially\nectopic\n)\nHypoglycemia\nCardiac disease\nTet spell\nHypertrophic cardiomyopathy\nBrugada Syndrome\nDysrhythmias\nLong QT syndrome\nAnomalous coronary arteries\nToxicologic exposure\n(stimulants or depressant)\nCO poisoning\nEthanol toxicity\nDrugs of abuse",
+          "tables": []
+        },
+        "Chest_pain_(peds)": {
+          "text": "Idiopathic (most common)\nPrecordial catch syndrome\nSudden, intense pain with deep inspiration, self-resolving\nUsually located to one finger point and the intercostal space (often at apex of heart)\n[2]\nMusculoskeletal\nCostochondritis\n,\ntrauma\nPulmonary\nPneumothorax\nPneumonia (peds)\nPulmonary embolism\nAortic dissection\nUncommon but consider with history of\nconnective tissue disease\nGI\nEsophagitis\nEsophageal spasm\nGastritis\nPsychosomatic\nPanic attack\nAnxiety\nCardiac (1%)\nLeft-sided obstructive lesions\nDysrhythmias\nHOCM\nPericarditis\nPrinzmetal's angina\n(vasospasm)\nMI\nRare, even post-\nKawasaki\nConsider\ncoronary artery dissection\nMitral valve prolapse\nAnomalous coronary arteries\n]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Hyperventilation syndrome",
+          "url": "https://wikem.org/wiki/Hyperventilation_syndrome"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Cardiac disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Tet spell",
+          "url": "https://wikem.org/wiki/Tetralogy_of_Fallot"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Brugada Syndrome",
+          "url": "https://wikem.org/wiki/Brugada_Syndrome"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Toxicologic exposure",
+          "url": "https://wikem.org/wiki/Toxicologic_exposure"
+        },
+        {
+          "text": "CO poisoning",
+          "url": "https://wikem.org/wiki/CO_poisoning"
+        },
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pneumonia (peds)",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Prinzmetal's angina",
+          "url": "https://wikem.org/wiki/Prinzmetal%27s_angina"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Kawasaki",
+          "url": "https://wikem.org/wiki/Kawasaki"
+        },
+        {
+          "text": "coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "EKG\nCXR\nTroponin\nEchocardiography\nNoninvasive coronary magnetic resonance angiography (CMRA)\nThe best option if available\nCoronary angiography",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Definitive treatment is surgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Cardiology consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
