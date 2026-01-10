@@ -1,0 +1,65 @@
+{
+  "drug_name": "Capsaicin",
+  "url": "https://wikem.org/wiki/Capsaicin",
+  "scraped_at": "2026-01-10T03:04:57.042885",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "Apply to affected area TID or QID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Not approved for pediatric use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category B",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Unknown if absorbed and excreted in milk. DO NOT apply to nipple!",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Not established",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nApplication to broken or infected skin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Transient increased pain at application site (dissipates w/ continued use)\nApplication site erythema\nPain\nNausea/vomiting\nRash, dryness pruritus, edema, exfoliation, skin odor\nHypertension\nSinusitis, bronchitis, cough\nDizziness, Headache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

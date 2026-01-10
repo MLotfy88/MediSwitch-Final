@@ -1,0 +1,147 @@
+{
+  "drug_name": "Cefepime",
+  "url": "https://wikem.org/wiki/Cefepime",
+  "scraped_at": "2026-01-10T03:06:11.546834",
+  "sections": {
+    "General": {
+      "text": "Type: 4th generation\ncephalosporins\nDosage Forms: infusion solution, powder for injection\nDosage Strengths: infusion solution: 1g/50mL, 2g/100mL; powder for injection: 1g, 2g\nRoutes of Administration: IV, IM\nCommon Trade Names: Maxipime",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cephalosporins",
+          "url": "https://wikem.org/wiki/Cephalosporins"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Bacterial_Infections": {
+          "text": "1-2 g IV q12H (Max: 6 g/24h; dose, duration varies with infection type, severity)",
+          "tables": []
+        },
+        "Febrile_Neutropenia": {
+          "text": "2g IV q8H",
+          "tables": []
+        },
+        "UTI,_mild-moderate": {
+          "text": "0.5-1g IV/IM q12H x7-10 days (IM only for UTI due to E. coli)",
+          "tables": []
+        },
+        "UTI,_severe": {
+          "text": "2g IV q12H x10 days",
+          "tables": []
+        },
+        "Renal_dosing": {
+          "text": "Febrile Neutropenia: CrCl 30-60: 2 g q12H; CrCl 11-29: 2 g q24H; CrCL <11: 2gx1, then 1g q24H; HD: 1g q24H, give after dialysis; PD: 2g q48H\nAll other infections: CrCl 30-60: give q24h; CrCl 11-29: give usual dose x1, then 0.5-1 g q24h; CrCl <11: give usual dose x1, then 250-500mg q24h; HD: 1 g x1, then 500mg q24h, give after dialysis; PD: give usual dose q48h",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "no adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Mild to moderate infection: 50 mg/kg/dose every 12 hours; maximum dose: 2,000 mg/dose\nSevere infection: 50 mg/kg/dose every 8 to 12 hours; maximum dose: 2,000 mg/dose",
+      "subsections": {
+        "Bacterial_Infections_2": {
+          "text": ">2 mo: Dose: 50mg/kg IV/IM q12h; Max: 2 g/dose; Info: duration varies with infection type, severity; IM only for mild-mod. UTI due to E. coli",
+          "tables": []
+        },
+        "Febrile_Neutropenia_2": {
+          "text": ">2 mo: Dose: 50mg/kg IV q8h; Max: 2 g/dose",
+          "tables": []
+        },
+        "Respiratory_Infections,_cystic_fibrosis_patients": {
+          "text": ">2 mo: Dose: 50mg/kg IV q8h x2wk; Max: 2 g/dose",
+          "tables": []
+        },
+        "Renal_Dosing_2": {
+          "text": "Febrile Neutropenia, cystic fibrosis: CrCl 30-60: 50mg/kg q12h; CrCl 11-29: 50mg/kg q24h; CrCl <11: 50mg/kg x1, then 25mg/kg q24h; HD: 25mg/kg q24h, give after dialysis; PD: 50mg/kg q48h\nall other infections: CrCl 30-60: 50mg/kg q24h; CrCl 11-29: 50mg/kg x1, then 25-50mg/kg q24h; CrCl <11: 50mg/kg x1, then 12.5-25mg/kg q24h; HD: 50mg/kg x1, then 25mg/kg q24h, give after dialysis; PD: 50mg/kg q48h",
+          "tables": []
+        },
+        "Hepatic_Dosing_2": {
+          "text": "No Adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy: B\nLactation: Probably safe\nRenal Dosing\nAdult: CrCl 30-60: give q24h; CrCl 11-29: give usual dose x1, then 0.5-1 g q24h; CrCl <11: give usual dose x1, then 250-500mg q24h; HD: 1 g x1, then 500mg q24h, give after dialysis; PD: give usual dose q48h\nPediatric: CrCl 30-60: 50mg/kg q24h; CrCl 11-29: 50mg/kg x1, then 25-50mg/kg q24h; CrCl <11: 50mg/kg x1, then 12.5-25mg/kg q24h; HD: 50mg/kg x1, then 25mg/kg q24h, give after dialysis; PD: 50mg/kg q48h\nHepatic Dosing\nAdult: No adjustment\nPediatric: No adjustement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug (See also\nCephalosporin Cross-reactivity\nCaution if hypersensitive to PCN\nCaution if recent antibiotic-associated colitis history\nCaution if GI disorder history\ncaution if H. influenzae infection (pediatric patients)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalosporin Cross-reactivity",
+          "url": "https://wikem.org/wiki/EBQ:Cephalosporin_Cross-reactivity"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nEncephalopathy\n(patients with renal insufficiency more prone)\nSeizures\nNon-convulsive status epilepticus\nLeukopenia\nThrombocytopenia\nAgranulocytosis\nAnemia\n, hemolytic\nAplastic anemia\nHemorrhage\nStevens-Johnson syndrome\nToxic epidermal necrolysis\nErythema multiforme\nClostridium difficile associated diarrhea",
+          "tables": []
+        },
+        "Common": {
+          "text": "Rash\nInjection site reaction\nDiarrhea\nHypophosphatemia\nALT, AST elevated\nNausea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hypophosphatemia",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2 hours, 13.5 hours (HD), 19 hours (CAPD)\nMetabolism: minimal, site unknown; CYP450: unknown\nExcretion: urine primarily (85% unchanged)\nMechanism of Action: bactericidal; inhibits cell wall mucopeptide synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

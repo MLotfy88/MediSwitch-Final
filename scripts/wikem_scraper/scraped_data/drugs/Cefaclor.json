@@ -1,0 +1,148 @@
+{
+  "drug_name": "Cefaclor",
+  "url": "https://wikem.org/wiki/Cefaclor",
+  "scraped_at": "2026-01-10T03:05:39.151397",
+  "sections": {
+    "General": {
+      "text": "Type: 2nd generation\ncephalosporin\nDosage Forms: capsule, tablet, oral suspension\nDosage Strengths: capsule: 250mg, 500mg; tablet 500mg; oral suspension: 125mg/5mL, 250mg/5mL, 375mg/5mL\nRoutes of Administration: PO\nCommon Trade Names: Ceclor, Raniclor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Infection,_bacterial": {
+          "text": "Immediate-release:\n250-500 mg PO q8h\nMax: 2 g/day\nExtended-release:\n500 mg ER PO q12h\nMax 2 g/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Infection,_bacterial_2": {
+          "text": "1+ mo\n20-40 mg/kg/day PO divided 18-12h\nMax: 1 g/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: May use while breastfeeding\nRenal Dosing\nAdult:\nNo adjustment\nHD: Give dose after dialysis\nPD: No supplement\nPediatric\nCrCl <10: Decrease dose 50%\nHD: Give dose after dialysis\nPD: No supplement\nHepatic Dosing\nAdult:\nNot defined\nPediatric\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution:\nHypersensitivity to\npenicillin\nRenal impairment\nConcurrent nephrotoxic agent\nSeizure\ndisorder\nRecent abx-associated colitis history",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nThrombocytopenia\nSerum-sickness like reaction\nSeizure\nNephrotoxicity\nNeutropenia\nAnemia\n, hemolytic\nExfoliative dermatitis\nStevens-Johnson Syndrome\nSuperinfection\nC. difficile associated\ndiarrhea\nCholestatic\njaundice",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\n,\nnausea\n,\nvomiting\nVaginitis\nPruritus\n,\nrash\n,\nurticaria\nLFT elevation\nEosinophilia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 35-54 min; 2-3hr in ERSD\nMetabolism: Partial, hepatic\nExcretion: Urine primarily (60-85% unchanged)\nMechanism of Action: Inhibits cell wall mucopeptide synthesis; bactericidal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

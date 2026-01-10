@@ -1,0 +1,50 @@
+{
+  "drug_name": "COVID-19_Vaccine_(Pfizer-BioNTech)",
+  "url": "https://wikem.org/wiki/COVID-19_Vaccine_(Pfizer-BioNTech)",
+  "scraped_at": "2026-01-10T03:04:13.895235",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "The adult dosing of the vaccine is 2 doses of 30 μg each, administered 21 days apart.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "The Pfizer-BioNTech COVID-19 vaccines has only been approved for individuals aged 16+. However, the dosing in individuals aged 16 and 17 is the same as the adult dosing of the vaccines.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "It is unclear as to the effect of the vaccine in pregnant women, as Pregnancy was an exclusion criteria from the phase 3 clinical trial for this vaccine.\n[2]",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

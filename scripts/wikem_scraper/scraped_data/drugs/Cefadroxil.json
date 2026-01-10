@@ -1,0 +1,86 @@
+{
+  "drug_name": "Cefadroxil",
+  "url": "https://wikem.org/wiki/Cefadroxil",
+  "scraped_at": "2026-01-10T03:05:47.011694",
+  "sections": {
+    "General": {
+      "text": "Type: 1st generation\ncephalosporin\nDosage Forms: capsule, oral suspension, tablet\nDosage Strengths: capsule: 500mg; oral suspension: 250mg/5mL, 500mg/5mL; tablet: 1g\nRoutes of Administration: PO\nCommon Trade Names: Duricef, Ultracef",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Infections,_bacterial": {
+          "text": "1-2g/day PO divided q12-24h",
+          "tables": []
+        },
+        "Pharyngitis/tonsillitis,_streptococcal": {
+          "text": "1g PO divided q12-24h x 10days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Infections,_bacterial_2": {
+          "text": "30mg/kg/day PO divided q12-24h max 2g/day",
+          "tables": []
+        },
+        "Pharyngitis/tonsillitis,_streptococcal_2": {
+          "text": "30mg/kg/day PO divided q12-24h x 10days, max 1g/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B (no evidence of harm)\nLactation: safe (no risk/minimal risk)\nRenal Dosing\nAdult\nGFR 25-50: 1g x1, then 500mg q12h\nGFR 10-25: 1g x1 then 500mg q24h\nGFR < 10: 1g x1, then 500mg q36h\nHD: give 0.5-1g supplement\nPD: 500mg q24h\nPediatric\nGFR 10-25: give q24h\nGFR < 10: give q36h\nHD: give supplement\nPD: no supplement\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "anaphylaxis\nStevens-Johnson syndrome\ntoxic epidermal necrolysis\nangioedema\nneutropenia\nthrombocytopenia\npancytopenia\nanemia, hemolytic\naplastic anemia\nhemorrhage\nseizures\nsuperinfection\nC.difficile-associated diarrhea",
+          "tables": []
+        },
+        "Common": {
+          "text": "diarrhea\nnausea\ndyspepsia\nurticaria\npruritus\nrash\nvomiting\nALT, AST elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\n78-96 min, 20-25hr (ESRD)\nMetabolism:\nminimal, site unknown\nExcretion:\nurine primarily (>90% unchanged)\nMechanism of Action:\nbacteriacidal; inhibits cell wall mucopeptide synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

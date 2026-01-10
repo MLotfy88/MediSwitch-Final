@@ -1,0 +1,34 @@
+{
+  "drug_name": "COVID-19_Vaccine_(Moderna)",
+  "url": "https://wikem.org/wiki/COVID-19_Vaccine_(Moderna)",
+  "scraped_at": "2026-01-10T03:04:10.317092",
+  "sections": {
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "drug_name": "Caffeine",
+  "url": "https://wikem.org/wiki/Caffeine",
+  "scraped_at": "2026-01-10T03:04:22.054383",
+  "sections": {
+    "General": {
+      "text": "Type: Stimulant, Respiratory Stimulant, Nonselective Phosphodiesterase Enzyme Inhibitor\nDosage Forms: tablets, capsules, lozenges, oral solution, injectable solution\nDosage Strengths: tablets: 200 mg; capsules: 200 mg; lozenges: 75 mg; oral solution: 20 mg/mL; injectable solution: 20 mg/mL\nRoutes of Administration: PO, IV, IM\nCommon Trade Names: NoDoz, Recharge, Vivarin, Diurex, Cafcit",
+      "subsections": {
+        "Common_Dosages_by_Type": {
+          "text": "^Average caffeine content can vary\n[1]\n[2]",
+          "tables": [
+            [
+              {
+                "Type": "Coffee, brewed",
+                "Amount": "1 cup",
+                "Caffeine^": "100mg"
+              },
+              {
+                "Type": "Coffee, instant",
+                "Amount": "1 cup",
+                "Caffeine^": "75mg"
+              },
+              {
+                "Type": "Tea",
+                "Amount": "1 cup",
+                "Caffeine^": "50mg"
+              },
+              {
+                "Type": "Red Bull",
+                "Amount": "1 can",
+                "Caffeine^": "80mg"
+              },
+              {
+                "Type": "Rockstar",
+                "Amount": "1 can",
+                "Caffeine^": "160mg"
+              },
+              {
+                "Type": "Excedrin Migraine",
+                "Amount": "2 tabs",
+                "Caffeine^": "130mg"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n:\nLactation:\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Caffeine toxicity\nCaffeine withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caffeine toxicity",
+          "url": "https://wikem.org/wiki/Caffeine_toxicity"
+        },
+        {
+          "text": "Caffeine withdrawal",
+          "url": "https://wikem.org/wiki/Caffeine_withdrawal"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5 hours\nMetabolism: Liver CYP450\nExcretion: Urine\nMechanism of Action: Adenosine receptor antagonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
