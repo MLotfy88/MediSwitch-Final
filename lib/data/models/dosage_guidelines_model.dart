@@ -1,7 +1,5 @@
 import 'dart:convert';
 
-import 'package:archive/archive.dart';
-
 import '../../domain/entities/dosage_guidelines.dart';
 
 class DosageGuidelinesModel extends DosageGuidelines {
@@ -28,6 +26,10 @@ class DosageGuidelinesModel extends DosageGuidelines {
     super.pregnancyCategory,
     super.lactationInfo,
     super.specialPopulations,
+    super.ncbiIndications,
+    super.ncbiAdministration,
+    super.ncbiMonitoring,
+    super.ncbiMechanism,
     super.structuredDosage,
   });
 
@@ -36,55 +38,42 @@ class DosageGuidelinesModel extends DosageGuidelines {
       id: json['id'] as int?,
       medId: json['med_id'] as int? ?? 0,
       dailymedSetid: json['dailymed_setid'] as String?,
-      minDose: (json['min_dose'] as num?)?.toDouble(),
-      maxDose: (json['max_dose'] as num?)?.toDouble(),
-      frequency: json['frequency'] as int?,
-      duration: json['duration'] as int?,
 
-      // Text Fields with Auto-Decompression
-      instructions: _decompress(json['instructions']),
-      condition: _decompress(json['condition']),
-      warnings: _decompress(json['warnings']),
-      contraindications: _decompress(json['contraindications']),
-      adverseReactions: _decompress(json['adverse_reactions']),
-      renalAdjustment: _decompress(json['renal_adjustment']),
-      hepaticAdjustment: _decompress(json['hepatic_adjustment']),
-      blackBoxWarning: _decompress(json['black_box_warning']),
-      overdoseManagement: _decompress(json['overdose_management']),
-      pregnancyCategory: _decompress(json['pregnancy_category']),
-      lactationInfo: _decompress(json['lactation_info']),
-      specialPopulations: _decompress(json['special_populations']),
+      // Map WikEM columns to standard fields
+      minDose: (json['wikem_min_dose'] as num?)?.toDouble(),
+      maxDose: (json['wikem_max_dose'] as num?)?.toDouble(),
+      frequency:
+          json['wikem_frequency'] as int?, // Assumed column existence or null
+      duration: null, // Removed in new schema
 
-      source: json['source'] as String? ?? 'DailyMed',
-      isPediatric: json['is_pediatric'] == 1 || json['is_pediatric'] == true,
-      route: json['route'] as String?,
+      instructions: json['wikem_instructions'] as String?,
+      condition: null, // Removed in new schema
+
+      source: json['source'] as String? ?? 'Hybrid',
+      isPediatric: json['wikem_patient_category'] == 'Pediatric',
+      route: json['wikem_route'] as String?,
+
+      // Map NCBI columns to Rich Data Fields
+      contraindications: json['ncbi_contraindications'] as String?,
+      adverseReactions: json['ncbi_adverse_effects'] as String?,
+      overdoseManagement: json['ncbi_toxicity'] as String?,
+
+      // Map NCBI Specific Fields
+      ncbiIndications: json['ncbi_indications'] as String?,
+      ncbiAdministration: json['ncbi_administration'] as String?,
+      ncbiMonitoring: json['ncbi_monitoring'] as String?,
+      ncbiMechanism: json['ncbi_mechanism'] as String?,
+
+      // Use WikEM BLOB for structured view (it has the dosage arrays)
       structuredDosage:
-          json['structured_dosage'] is List
-              ? (json['structured_dosage'] as List).cast<int>()
-              : null,
+          json['wikem_json_blob'] is List
+              ? (json['wikem_json_blob'] as List).cast<int>()
+              : (json['wikem_json_blob'] is String
+                  ? base64Decode(
+                    json['wikem_json_blob'] as String,
+                  ) // Explicit cast
+                  : null),
     );
-  }
-
-  // ZLIB Decompression Helper
-  static String? _decompress(dynamic content) {
-    if (content == null) return null;
-    if (content is String) return content; // Already parsed or plain text
-    if (content is List<int>) {
-      try {
-        // Import archive package is needed at top of file
-        // But for now assuming clean helper.
-        // We need to add 'import 'package:archive/archive.dart';'
-        return utf8.decode(ZLibDecoder().decodeBytes(content));
-      } catch (e) {
-        // Fallback if decompression fails (maybe plain bytes?)
-        try {
-          return utf8.decode(content, allowMalformed: true);
-        } catch (_) {
-          return null;
-        }
-      }
-    }
-    return null;
   }
 
   Map<String, dynamic> toJson() {
@@ -111,6 +100,10 @@ class DosageGuidelinesModel extends DosageGuidelines {
       'pregnancy_category': pregnancyCategory,
       'lactation_info': lactationInfo,
       'special_populations': specialPopulations,
+      'ncbi_indications': ncbiIndications,
+      'ncbi_administration': ncbiAdministration,
+      'ncbi_monitoring': ncbiMonitoring,
+      'ncbi_mechanism': ncbiMechanism,
     };
   }
 

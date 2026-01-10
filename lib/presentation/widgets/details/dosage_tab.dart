@@ -164,7 +164,60 @@ class DosageTab extends StatelessWidget {
                   icon: LucideIcons.frown,
                   color: Colors.grey[700]!,
                   isAr: isAr,
-                  isCollapsible: true, // Side effects are long
+                  isCollapsible: true,
+                ),
+              ],
+
+              // --- NCBI Clinical Info ---
+              if (primary?.ncbiIndications != null &&
+                  primary!.ncbiIndications!.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                _SafetyAlertCard(
+                  title: isAr ? 'دواعي الاستعمال' : 'Indications & Usage',
+                  content: primary.ncbiIndications!,
+                  icon: LucideIcons.stethoscope,
+                  color: Colors.blue,
+                  isAr: isAr,
+                  isCollapsible: true,
+                ),
+              ],
+
+              if (primary?.ncbiMechanism != null &&
+                  primary!.ncbiMechanism!.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                _SafetyAlertCard(
+                  title: isAr ? 'آلية العمل' : 'Mechanism of Action',
+                  content: primary.ncbiMechanism!,
+                  icon: LucideIcons.zap,
+                  color: Colors.amber[800]!,
+                  isAr: isAr,
+                  isCollapsible: true,
+                ),
+              ],
+
+              if (primary?.ncbiMonitoring != null &&
+                  primary!.ncbiMonitoring!.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                _SafetyAlertCard(
+                  title: isAr ? 'المراقبة' : 'Monitoring Parameters',
+                  content: primary.ncbiMonitoring!,
+                  icon: LucideIcons.eye,
+                  color: Colors.teal[700]!,
+                  isAr: isAr,
+                  isCollapsible: true,
+                ),
+              ],
+
+              if (primary?.ncbiAdministration != null &&
+                  primary!.ncbiAdministration!.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                _SafetyAlertCard(
+                  title: isAr ? 'طريقة الإعطاء' : 'Administration',
+                  content: primary.ncbiAdministration!,
+                  icon: LucideIcons.syringe,
+                  color: Colors.indigo,
+                  isAr: isAr,
+                  isCollapsible: true,
                 ),
               ],
 

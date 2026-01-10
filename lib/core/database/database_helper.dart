@@ -20,7 +20,8 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 23; // Updated for WikEM Final Clean Injection
+  static const int _dbVersion =
+      24; // Updated for WikEM + NCBI Hybrid Clean Injection
   static const String medicinesTable = 'drugs';
   static const String interactionsTable = 'drug_interactions';
   static const String foodInteractionsTable = 'food_interactions';
@@ -83,7 +84,7 @@ class DatabaseHelper {
     // v21 marker for the final split fix
     final markerFilePath = join(
       documentsDirectory.path,
-      'db_v23_wikem_final.txt',
+      'db_v24_hybrid_clean.txt',
     );
     final markerFile = File(markerFilePath);
 
@@ -98,7 +99,18 @@ class DatabaseHelper {
         await Directory(dirname(path)).create(recursive: true);
 
         // Parts list (aa to aj)
-        const partNames = ['aa', 'ab', 'ac', 'ad', 'ae', 'af', 'ag'];
+        const partNames = [
+          'aa',
+          'ab',
+          'ac',
+          'ad',
+          'ae',
+          'af',
+          'ag',
+          'ah',
+          'ai',
+          'aj',
+        ];
 
         // Explicitly delete old DB and any old markers to ensure clean state
         if (await dbFile.exists()) {

@@ -13,6 +13,7 @@ class DosageGuidelines {
   final String? route;
 
   // New Rich Data Fields
+  // New Rich Data Fields
   final String? warnings;
   final String? contraindications;
   final String? adverseReactions;
@@ -23,6 +24,12 @@ class DosageGuidelines {
   final String? pregnancyCategory;
   final String? lactationInfo;
   final String? specialPopulations;
+
+  // NCBI StatPearls Specific Fields
+  final String? ncbiIndications;
+  final String? ncbiAdministration;
+  final String? ncbiMonitoring;
+  final String? ncbiMechanism;
 
   // Offline Structured Data (ZLIB Compressed JSON)
   final List<int>? structuredDosage;
@@ -50,6 +57,10 @@ class DosageGuidelines {
     this.pregnancyCategory,
     this.lactationInfo,
     this.specialPopulations,
+    this.ncbiIndications,
+    this.ncbiAdministration,
+    this.ncbiMonitoring,
+    this.ncbiMechanism,
     this.structuredDosage,
   });
 
