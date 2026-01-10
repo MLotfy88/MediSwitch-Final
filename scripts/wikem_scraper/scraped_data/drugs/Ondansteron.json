@@ -1,0 +1,75 @@
+{
+  "drug_name": "Ondansteron",
+  "url": "https://wikem.org/wiki/Ondansteron",
+  "scraped_at": "2026-01-10T07:58:42.921524",
+  "sections": {
+    "General": {
+      "text": "Type:\nantiemetics\nDosage Forms: 4mg, 8mg\nCommon Trade Names: Zofran",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Nausea/Vomiting: 4-8mg q4h, max 24mg a day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Nausea/Vomiting: 0.1mg/kg IV q4h max dose at once:4-8mg, max 24mg\nGastroenteritis - Vomiting\n8 to 15 kg:\n2mg orally disintegrating tablet dissolved orally as a single dose\n15 to 30 kg:\n4mg orally disintegrating tablet dissolved orally as a single dose\nGreater than 30 kg:\n8mg orally disintegrating tablet dissolved orally as a single dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nConsider avoiding in 1st trimester; conflicting data regarding possible risk of teratogenicity\nNewer data argues that ondansetron is not the cause of birth defects\n[1]\nLactation:safety unknown\nRenal Dosing:\nAdult: not defined\nPediatric: not defined\nHepatic Dosing: not defined\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCongenital long QT syndrome\nSerotonin syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "bronchospasm\nsteven-johnson syndrome\nQT prolongation\ntorsades de pointes\nserotonin syndrome\nextrapyramidal symptoms\nblindness, transient",
+          "tables": []
+        },
+        "Common": {
+          "text": "headache\nconstipation\nfatigue\nhypoxia\nfever\nurinary retention\nagitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "bronchospasm\nsteven-johnson syndrome\nQT prolongation\ntorsades de pointes\nserotonin syndrome\nextrapyramidal symptoms\nblindness, transient",
+      "subsections": {
+        "Common": {
+          "text": "headache\nconstipation\nfatigue\nhypoxia\nfever\nurinary retention\nagitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "headache\nconstipation\nfatigue\nhypoxia\nfever\nurinary retention\nagitation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4.6-5.7 hour\nMetabolism: liver\nExcretion: urine\nMechanism of Action:selectively antagonizes serotonin 5-HT3 receptors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

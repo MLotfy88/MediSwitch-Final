@@ -1,0 +1,370 @@
+{
+  "drug_name": "Optic_neuritis",
+  "url": "https://wikem.org/wiki/Optic_neuritis",
+  "scraped_at": "2026-01-10T07:58:48.553378",
+  "sections": {
+    "Background": {
+      "text": "Inflammatory, demyelinating condition of the optic nerve highly associated with MS\n50% will go on to develop MS\nPresenting feature of MS in 15-20% of patients\nFemale and Caucasian predominance\nAge 20-50 years old\nMore prevalent in populations located at higher latitudes",
+      "subsections": {
+        "Causes": {
+          "text": "Idiopathic\nMultiple sclerosis\nPostchildhood vaccination\nViral infection\nMeasles\n,\nmumps\n,\nvaricella zoster virus\n,\nEBV\nInflammation of structures contiguous with the optic nerve\nMeninges\n,\norbit\n,\nsinuses\nOther infections\nSyphilis\n,\nTuberculosis\n,\nCryptococcus\nSarcoidosis\n, uveitis\nTemporal arteritis\nVasculitides\nIschemic optic neuropathy\nHypertensive retinopathy,\npapilledema\nDiabetes mellitus\nretinopathy\nIntracranial tumor\n, orbital tumor\nGlaucoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Meninges",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "orbit",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "sinuses",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Vasculitides",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Intracranial tumor",
+          "url": "https://wikem.org/wiki/Intracranial_tumor"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Idiopathic\nMultiple sclerosis\nPostchildhood vaccination\nViral infection\nMeasles\n,\nmumps\n,\nvaricella zoster virus\n,\nEBV\nInflammation of structures contiguous with the optic nerve\nMeninges\n,\norbit\n,\nsinuses\nOther infections\nSyphilis\n,\nTuberculosis\n,\nCryptococcus\nSarcoidosis\n, uveitis\nTemporal arteritis\nVasculitides\nIschemic optic neuropathy\nHypertensive retinopathy,\npapilledema\nDiabetes mellitus\nretinopathy\nIntracranial tumor\n, orbital tumor\nGlaucoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Meninges",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "orbit",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "sinuses",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Vasculitides",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Intracranial tumor",
+          "url": "https://wikem.org/wiki/Intracranial_tumor"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Acute, usually monocular,\nvision loss\noccurring over days (occasionally over hours)\nMay range from mildly reduced to no light perception whatsoever\nRetro-orbital\nheadache\nPain\n(esp with eye movement)\nLoss of color vision out of proportion to loss of visual acuity\nPulfrich effect - swing object side to side like pendulum, but patient feels like the object is coming at them in elliptical fashion; suggestive of demyelination\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vision loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Amaurosis fugax",
+          "url": "https://wikem.org/wiki/Amaurosis_fugax"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Diagnosis_on_Physical_Exam": {
+          "text": "Red desaturation test\nHave patient look with one eye at a dark red object\nTest the other eye to see if the object looks the same color\nAffected eye often will see the red object as pink or lighter red\nNormal\nintraocular pressures\nNormal slit lamp exam (no evidence of uveitis)\nAfferent Pupillary Defect (APD)\nOptic disc swelling and edema (papillitis)\nElevated optic nerve disk on\nocular ultrasound\n= papilledema\nIncreased ON sheath diameter > ~5mm measured 3mm behind globe on US\n[2]",
+          "tables": []
+        },
+        "Work-up": {
+          "text": "MRI\nof brain and orbits with gadolinium, plus fat suppression\nCBC\nCMP\nESR, CRP\nRPR, FTABS\nCXR\nMay consider\nLP\nto rule out neuromyelitis optica (Consult with neuro regarding CSF and serum studies):\nTypically protein/glucose, gram stain/culture, cell count/differential\nPlus angioconverting enzyme, IgG indices, myelin basic protein, oligoclonal bands\nPlus SERUM IgG indices, oligoclonal bands, angioconverting enzyme, NMO antibodies",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intraocular pressures",
+          "url": "https://wikem.org/wiki/Intraocular_pressure"
+        },
+        {
+          "text": "ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Diagnosis_on_Physical_Exam": {
+      "text": "Red desaturation test\nHave patient look with one eye at a dark red object\nTest the other eye to see if the object looks the same color\nAffected eye often will see the red object as pink or lighter red\nNormal\nintraocular pressures\nNormal slit lamp exam (no evidence of uveitis)\nAfferent Pupillary Defect (APD)\nOptic disc swelling and edema (papillitis)\nElevated optic nerve disk on\nocular ultrasound\n= papilledema\nIncreased ON sheath diameter > ~5mm measured 3mm behind globe on US\n[2]",
+      "subsections": {
+        "Work-up": {
+          "text": "MRI\nof brain and orbits with gadolinium, plus fat suppression\nCBC\nCMP\nESR, CRP\nRPR, FTABS\nCXR\nMay consider\nLP\nto rule out neuromyelitis optica (Consult with neuro regarding CSF and serum studies):\nTypically protein/glucose, gram stain/culture, cell count/differential\nPlus angioconverting enzyme, IgG indices, myelin basic protein, oligoclonal bands\nPlus SERUM IgG indices, oligoclonal bands, angioconverting enzyme, NMO antibodies",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intraocular pressures",
+          "url": "https://wikem.org/wiki/Intraocular_pressure"
+        },
+        {
+          "text": "ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "MRI\nof brain and orbits with gadolinium, plus fat suppression\nCBC\nCMP\nESR, CRP\nRPR, FTABS\nCXR\nMay consider\nLP\nto rule out neuromyelitis optica (Consult with neuro regarding CSF and serum studies):\nTypically protein/glucose, gram stain/culture, cell count/differential\nPlus angioconverting enzyme, IgG indices, myelin basic protein, oligoclonal bands\nPlus SERUM IgG indices, oligoclonal bands, angioconverting enzyme, NMO antibodies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Consult neuro and ophthalmology with treatment focused on the underlying\nMS\nIV\nmethylprednisolone\n, 1 g QD x3 days\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis#Management"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Multiple Sclerosis (MS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple Sclerosis (MS)",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis_(MS)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Petzold A et al. The investigation of acute optic neuritis: a review and proposed protocol. Nat Rev Neurol. 2014 Aug;10(8):447-58.\nVoss E et al. Clinical approach to optic neuritis: pitfalls, red flags and differential diagnosis. Ther Adv Neurol Disord. 2011 Mar; 4(2): 123–134.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

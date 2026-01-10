@@ -1,0 +1,709 @@
+{
+  "drug_name": "Ofloxacin",
+  "url": "https://wikem.org/wiki/Ofloxacin",
+  "scraped_at": "2026-01-10T07:58:39.885990",
+  "sections": {
+    "General": {
+      "text": "Type: 2nd generation\nFluoroquinolones\nDosage Forms: 200,300,400, topical/otic\nCommon Trade Names: Floxin, Floxin Otic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Infections,_bacterial": {
+          "text": "200-400mg PO q12h",
+          "tables": []
+        },
+        "Infections,_chlamydial": {
+          "text": "300mg PO q12h x 7d",
+          "tables": []
+        },
+        "Urethritis,_nongonococcal": {
+          "text": "300mg PO q12h x 7d",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "300mg PO q12h x 10d",
+          "tables": []
+        },
+        "Typhoid_fever": {
+          "text": "400mg PO q12h x 7-14d",
+          "tables": []
+        },
+        "Otitis_Externa": {
+          "text": "5 drops in affected ear BID x 7 days\n[1]\nSafe with perforations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infections,_bacterial": {
+      "text": "200-400mg PO q12h",
+      "subsections": {
+        "Infections,_chlamydial": {
+          "text": "300mg PO q12h x 7d",
+          "tables": []
+        },
+        "Urethritis,_nongonococcal": {
+          "text": "300mg PO q12h x 7d",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "300mg PO q12h x 10d",
+          "tables": []
+        },
+        "Typhoid_fever": {
+          "text": "400mg PO q12h x 7-14d",
+          "tables": []
+        },
+        "Otitis_Externa": {
+          "text": "5 drops in affected ear BID x 7 days\n[1]\nSafe with perforations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infections,_chlamydial": {
+      "text": "300mg PO q12h x 7d",
+      "subsections": {
+        "Urethritis,_nongonococcal": {
+          "text": "300mg PO q12h x 7d",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "300mg PO q12h x 10d",
+          "tables": []
+        },
+        "Typhoid_fever": {
+          "text": "400mg PO q12h x 7-14d",
+          "tables": []
+        },
+        "Otitis_Externa": {
+          "text": "5 drops in affected ear BID x 7 days\n[1]\nSafe with perforations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Urethritis,_nongonococcal": {
+      "text": "300mg PO q12h x 7d",
+      "subsections": {
+        "Epididymitis": {
+          "text": "300mg PO q12h x 10d",
+          "tables": []
+        },
+        "Typhoid_fever": {
+          "text": "400mg PO q12h x 7-14d",
+          "tables": []
+        },
+        "Otitis_Externa": {
+          "text": "5 drops in affected ear BID x 7 days\n[1]\nSafe with perforations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epididymitis": {
+      "text": "300mg PO q12h x 10d",
+      "subsections": {
+        "Typhoid_fever": {
+          "text": "400mg PO q12h x 7-14d",
+          "tables": []
+        },
+        "Otitis_Externa": {
+          "text": "5 drops in affected ear BID x 7 days\n[1]\nSafe with perforations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Typhoid_fever": {
+      "text": "400mg PO q12h x 7-14d",
+      "subsections": {
+        "Otitis_Externa": {
+          "text": "5 drops in affected ear BID x 7 days\n[1]\nSafe with perforations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Otitis_Externa": {
+      "text": "5 drops in affected ear BID x 7 days\n[1]\nSafe with perforations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "PID": {
+          "text": ">12yrs: 400mg PO BID x 14d",
+          "tables": []
+        },
+        "Typhoid_fever_2": {
+          "text": "20mg/kg BID x 10d, max 400mg/dose",
+          "tables": []
+        },
+        "Otitis_Externa_2": {
+          "text": "6mo-13 yo: 5 drops in affected ear BQD x 7 days\n>13 yo: 5 drops in affected ear BID x 7 days\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "PID": {
+      "text": ">12yrs: 400mg PO BID x 14d",
+      "subsections": {
+        "Typhoid_fever_2": {
+          "text": "20mg/kg BID x 10d, max 400mg/dose",
+          "tables": []
+        },
+        "Otitis_Externa_2": {
+          "text": "6mo-13 yo: 5 drops in affected ear BQD x 7 days\n>13 yo: 5 drops in affected ear BID x 7 days\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Typhoid_fever_2": {
+      "text": "20mg/kg BID x 10d, max 400mg/dose",
+      "subsections": {
+        "Otitis_Externa_2": {
+          "text": "6mo-13 yo: 5 drops in affected ear BQD x 7 days\n>13 yo: 5 drops in affected ear BID x 7 days\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Otitis_Externa_2": {
+      "text": "6mo-13 yo: 5 drops in affected ear BQD x 7 days\n>13 yo: 5 drops in affected ear BID x 7 days\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy: C (risk cannot be excluded)\nLactation: probably safe\nRenal Dosing\nAdult\nGFR 20-50: give q24h\nGFR < 20: give usual dose x1, then decrease dose 50% q24h\nHD: give 100-200mg after dialysis\nPediatric\nspecific adjustment not defined though adjustment may be required\nHepatic Dosing\nAdult\ncirrhosis: max 400mg/24h\nPediatric\nspecific adjustment not defined though adjustment may be required",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nmyasthenia gravis\nprolonged QT\nhistory of torsades de pointes\ncaution if ventricular arrhythmias, bradycardia, recent MI\ncaution if CHF, patient > 60\ncaution if history of renal, heart, lung transplant\ncaution in seizure disorder\ncaution in DM",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nSeizure\nPhototoxicity\nSuperinfection\nIncreased ICP\nToxic psychosis\nVasculitis\nSerum sickness\nHypersensitivity pneumonitis\nQT prolongation\nTorsades de pointes\nPeripheral\nneuropathy\nHepatotoxicity\nNephrotoxicity\nCrystalluria\nMyelosuppression\nBlood dyscrasias\nTendonitis or tendon rupture (black box warning) - increased risk in age >60, immunosuppressed, corticosteroid use\nMyasthenia exacerbation\nSevere Hypoglycemia\n[2]\nmental health effects",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea\n/\nvomiting\nDiarrhea\nAbnormal ECG\nHeadache\nDyspepsia\nDizziness\nVaginitis\nInsomnia\nPhotosensitivity\nPruritus\nAnxiety\nAgitation\nTendinitis\nElevated LFTs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "neuropathy",
+          "url": "https://wikem.org/wiki/Neuropathy"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nSeizure\nPhototoxicity\nSuperinfection\nIncreased ICP\nToxic psychosis\nVasculitis\nSerum sickness\nHypersensitivity pneumonitis\nQT prolongation\nTorsades de pointes\nPeripheral\nneuropathy\nHepatotoxicity\nNephrotoxicity\nCrystalluria\nMyelosuppression\nBlood dyscrasias\nTendonitis or tendon rupture (black box warning) - increased risk in age >60, immunosuppressed, corticosteroid use\nMyasthenia exacerbation\nSevere Hypoglycemia\n[2]\nmental health effects",
+      "subsections": {
+        "Common": {
+          "text": "Nausea\n/\nvomiting\nDiarrhea\nAbnormal ECG\nHeadache\nDyspepsia\nDizziness\nVaginitis\nInsomnia\nPhotosensitivity\nPruritus\nAnxiety\nAgitation\nTendinitis\nElevated LFTs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "neuropathy",
+          "url": "https://wikem.org/wiki/Neuropathy"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea\n/\nvomiting\nDiarrhea\nAbnormal ECG\nHeadache\nDyspepsia\nDizziness\nVaginitis\nInsomnia\nPhotosensitivity\nPruritus\nAnxiety\nAgitation\nTendinitis\nElevated LFTs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4-8h, if GFR < 10 then 17-28h\nMetabolism: liver minimally\nExcretion: urine primarily (70-90% unchanged), bile/feces (4-8%)\nMechanism of Action: inhibits DNA gyrase and topoisomerase IV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "U"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "I"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

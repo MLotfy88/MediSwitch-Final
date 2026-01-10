@@ -1,0 +1,752 @@
+{
+  "drug_name": "Opioid_free_regimens",
+  "url": "https://wikem.org/wiki/Opioid_free_regimens",
+  "scraped_at": "2026-01-10T07:58:45.992180",
+  "sections": {
+    "Background": {
+      "text": "The shift in pain management from a symptomatic approach to a mechanistic approach has allowed providers to address pain in a more targeted and efficient manner\nBy recognizing the pain receptors that are the culprit behind a patient’s symptoms, a higher level of care can be administered",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacologic_Options": {
+      "text": "Below are a series of recommendations outlined by Dr. Sergey Motov and Dr. David Lyness.\n[1]",
+      "subsections": {
+        "Abdominal_Pain_(Non_Traumatic)": {
+          "text": "IV\nKetorolac\n10-15 mg or IV\nDiclofenac\n75 mg or IV\nMetimazole\nIV\nAcetaminophen\n1g over 15 minutes\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+          "tables": []
+        },
+        "Abdominal_Pain_(Traumatic)": {
+          "text": "IV\nAcetaminophen\n1g over 15 minutes\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+          "tables": []
+        },
+        "Back_Pain_(Nonradicular)": {
+          "text": "IV\nKetorolac\n10-15 mg or\nIbuprofen\n400 mg PO or IV\nDiclofenac\n75 mg or IV\nMetimazole\n1g\nTrigger point injection 10 ml 0.5%\nBupivacaine\nor 20 ml of 1%\nLidocaine\nIV\nAcetaminophen\n1g over 15 minutes\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+          "tables": []
+        },
+        "Burns": {
+          "text": "IV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes, + continuous infusion at 1.5-2.5 mg/kg/hour\nIV\nDexmedetomidine\n02.-0.7 mcg/kg/hour drip\nIV\nClonidine\n0.3-2 mcg/kg/hour drip",
+          "tables": []
+        },
+        "Headache": {
+          "text": "IV\nMetoclopramide\n10 mg (slow drip 10-15 minutes) or IV Prochlorperazine 10 mg (slow infusion)\nWith IV\nDiphenhydramine\n25-50 mg or IV Chlorpromazine 12.5 mg (slow infusion in 500 ml over 30 min - 1 hour)\nSQ\nSumatriptan\n6 mg (within 1 hour of onset, 12 mg 1 hour later)\nIV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nUS Guided nerve block, Paracervical trigger point injections with 2% Lidocaine or 0.5% Bupivacaine\nIV\nHaloperidol\n2.5 mg, IV\nDroperidol\n2-5 mg (slow infusion over 10 min)\nIV\nPropofol\n(intractable migraine) 10 mg IVP q5 minutes\nRefractory cases -\nKetamine\n0.2-0.3 mg/kg short infusion",
+          "tables": []
+        },
+        "MSK": {
+          "text": "US guided nerve block\nIV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nIV\nAcetaminophen\n1g over 15 minutes\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+          "tables": []
+        },
+        "Neuropathic_Pain": {
+          "text": "IV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes, + continuous infusion at 1.5-2.5 mg/kg/hour\nIV\nDexmedetomidine\n02.-0.3 mcg/kg/hour IV infusion\nGabapentin\n(not included in Motov/Lyness regimen)\nDay 1: 300mg PO qDay\nDay 2: 300mg PO q12hr\nDay 3: 300mg PO q8hr",
+          "tables": []
+        },
+        "Renal_Colic": {
+          "text": "IV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nIV\nAcetaminophen\n1g over 15 minutes\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes\nIN\nDesmopressin\n40 mcg once as adjunct to NSAID’s\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+          "tables": []
+        },
+        "Sickle_Cell_Crisis": {
+          "text": "IN\nKetamine\n1 mg/kg (no more than 1 ml per nostril)\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour and SQ infusion at 0.15-0.25 mg/kg/hour\nIV/IM\nHaloperidol\nor\nDroperidol\n5-10 mg\nIV\nDexmedetomidine\n02.-0.3 mcg/kg/hour continuous infusion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Diclofenac",
+          "url": "https://wikem.org/wiki/Diclofenac"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Diclofenac",
+          "url": "https://wikem.org/wiki/Diclofenac"
+        },
+        {
+          "text": "Bupivacaine",
+          "url": "https://wikem.org/wiki/Bupivacaine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Sumatriptan",
+          "url": "https://wikem.org/wiki/Sumatriptan"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "Burns": {
+      "text": "IV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes, + continuous infusion at 1.5-2.5 mg/kg/hour\nIV\nDexmedetomidine\n02.-0.7 mcg/kg/hour drip\nIV\nClonidine\n0.3-2 mcg/kg/hour drip",
+      "subsections": {
+        "Headache": {
+          "text": "IV\nMetoclopramide\n10 mg (slow drip 10-15 minutes) or IV Prochlorperazine 10 mg (slow infusion)\nWith IV\nDiphenhydramine\n25-50 mg or IV Chlorpromazine 12.5 mg (slow infusion in 500 ml over 30 min - 1 hour)\nSQ\nSumatriptan\n6 mg (within 1 hour of onset, 12 mg 1 hour later)\nIV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nUS Guided nerve block, Paracervical trigger point injections with 2% Lidocaine or 0.5% Bupivacaine\nIV\nHaloperidol\n2.5 mg, IV\nDroperidol\n2-5 mg (slow infusion over 10 min)\nIV\nPropofol\n(intractable migraine) 10 mg IVP q5 minutes\nRefractory cases -\nKetamine\n0.2-0.3 mg/kg short infusion",
+          "tables": []
+        },
+        "MSK": {
+          "text": "US guided nerve block\nIV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nIV\nAcetaminophen\n1g over 15 minutes\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+          "tables": []
+        },
+        "Neuropathic_Pain": {
+          "text": "IV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes, + continuous infusion at 1.5-2.5 mg/kg/hour\nIV\nDexmedetomidine\n02.-0.3 mcg/kg/hour IV infusion\nGabapentin\n(not included in Motov/Lyness regimen)\nDay 1: 300mg PO qDay\nDay 2: 300mg PO q12hr\nDay 3: 300mg PO q8hr",
+          "tables": []
+        },
+        "Renal_Colic": {
+          "text": "IV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nIV\nAcetaminophen\n1g over 15 minutes\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes\nIN\nDesmopressin\n40 mcg once as adjunct to NSAID’s\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+          "tables": []
+        },
+        "Sickle_Cell_Crisis": {
+          "text": "IN\nKetamine\n1 mg/kg (no more than 1 ml per nostril)\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour and SQ infusion at 0.15-0.25 mg/kg/hour\nIV/IM\nHaloperidol\nor\nDroperidol\n5-10 mg\nIV\nDexmedetomidine\n02.-0.3 mcg/kg/hour continuous infusion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Sumatriptan",
+          "url": "https://wikem.org/wiki/Sumatriptan"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "Headache": {
+      "text": "IV\nMetoclopramide\n10 mg (slow drip 10-15 minutes) or IV Prochlorperazine 10 mg (slow infusion)\nWith IV\nDiphenhydramine\n25-50 mg or IV Chlorpromazine 12.5 mg (slow infusion in 500 ml over 30 min - 1 hour)\nSQ\nSumatriptan\n6 mg (within 1 hour of onset, 12 mg 1 hour later)\nIV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nUS Guided nerve block, Paracervical trigger point injections with 2% Lidocaine or 0.5% Bupivacaine\nIV\nHaloperidol\n2.5 mg, IV\nDroperidol\n2-5 mg (slow infusion over 10 min)\nIV\nPropofol\n(intractable migraine) 10 mg IVP q5 minutes\nRefractory cases -\nKetamine\n0.2-0.3 mg/kg short infusion",
+      "subsections": {
+        "MSK": {
+          "text": "US guided nerve block\nIV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nIV\nAcetaminophen\n1g over 15 minutes\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+          "tables": []
+        },
+        "Neuropathic_Pain": {
+          "text": "IV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes, + continuous infusion at 1.5-2.5 mg/kg/hour\nIV\nDexmedetomidine\n02.-0.3 mcg/kg/hour IV infusion\nGabapentin\n(not included in Motov/Lyness regimen)\nDay 1: 300mg PO qDay\nDay 2: 300mg PO q12hr\nDay 3: 300mg PO q8hr",
+          "tables": []
+        },
+        "Renal_Colic": {
+          "text": "IV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nIV\nAcetaminophen\n1g over 15 minutes\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes\nIN\nDesmopressin\n40 mcg once as adjunct to NSAID’s\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+          "tables": []
+        },
+        "Sickle_Cell_Crisis": {
+          "text": "IN\nKetamine\n1 mg/kg (no more than 1 ml per nostril)\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour and SQ infusion at 0.15-0.25 mg/kg/hour\nIV/IM\nHaloperidol\nor\nDroperidol\n5-10 mg\nIV\nDexmedetomidine\n02.-0.3 mcg/kg/hour continuous infusion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Sumatriptan",
+          "url": "https://wikem.org/wiki/Sumatriptan"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "MSK": {
+      "text": "US guided nerve block\nIV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nIV\nAcetaminophen\n1g over 15 minutes\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+      "subsections": {
+        "Neuropathic_Pain": {
+          "text": "IV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes, + continuous infusion at 1.5-2.5 mg/kg/hour\nIV\nDexmedetomidine\n02.-0.3 mcg/kg/hour IV infusion\nGabapentin\n(not included in Motov/Lyness regimen)\nDay 1: 300mg PO qDay\nDay 2: 300mg PO q12hr\nDay 3: 300mg PO q8hr",
+          "tables": []
+        },
+        "Renal_Colic": {
+          "text": "IV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nIV\nAcetaminophen\n1g over 15 minutes\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes\nIN\nDesmopressin\n40 mcg once as adjunct to NSAID’s\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+          "tables": []
+        },
+        "Sickle_Cell_Crisis": {
+          "text": "IN\nKetamine\n1 mg/kg (no more than 1 ml per nostril)\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour and SQ infusion at 0.15-0.25 mg/kg/hour\nIV/IM\nHaloperidol\nor\nDroperidol\n5-10 mg\nIV\nDexmedetomidine\n02.-0.3 mcg/kg/hour continuous infusion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "Neuropathic_Pain": {
+      "text": "IV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes, + continuous infusion at 1.5-2.5 mg/kg/hour\nIV\nDexmedetomidine\n02.-0.3 mcg/kg/hour IV infusion\nGabapentin\n(not included in Motov/Lyness regimen)\nDay 1: 300mg PO qDay\nDay 2: 300mg PO q12hr\nDay 3: 300mg PO q8hr",
+      "subsections": {
+        "Renal_Colic": {
+          "text": "IV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nIV\nAcetaminophen\n1g over 15 minutes\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes\nIN\nDesmopressin\n40 mcg once as adjunct to NSAID’s\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+          "tables": []
+        },
+        "Sickle_Cell_Crisis": {
+          "text": "IN\nKetamine\n1 mg/kg (no more than 1 ml per nostril)\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour and SQ infusion at 0.15-0.25 mg/kg/hour\nIV/IM\nHaloperidol\nor\nDroperidol\n5-10 mg\nIV\nDexmedetomidine\n02.-0.3 mcg/kg/hour continuous infusion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "Renal_Colic": {
+      "text": "IV\nKetorolac\n10-15 mg or IV Diclofenac 75 mg or IV Metimazole 1 g\nIV\nAcetaminophen\n1g over 15 minutes\nIV\nLidocaine\n1.5 mg/kg of 2% over 10-15 minutes\nIN\nDesmopressin\n40 mcg once as adjunct to NSAID’s\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour",
+      "subsections": {
+        "Sickle_Cell_Crisis": {
+          "text": "IN\nKetamine\n1 mg/kg (no more than 1 ml per nostril)\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour and SQ infusion at 0.15-0.25 mg/kg/hour\nIV/IM\nHaloperidol\nor\nDroperidol\n5-10 mg\nIV\nDexmedetomidine\n02.-0.3 mcg/kg/hour continuous infusion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "Sickle_Cell_Crisis": {
+      "text": "IN\nKetamine\n1 mg/kg (no more than 1 ml per nostril)\nIV\nKetamine\n0.3 mg/kg over 10 minutes, + IV drip at 0.15 mg/kg/hour and SQ infusion at 0.15-0.25 mg/kg/hour\nIV/IM\nHaloperidol\nor\nDroperidol\n5-10 mg\nIV\nDexmedetomidine\n02.-0.3 mcg/kg/hour continuous infusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "Benefits": {
+      "text": "The cycle of opioid abuse and addiction often arises with the first time administration of opioids in the ED for a variety of medical complaints. Limiting this exposure is one of the ways providers can help combat this epidemic\nA better understanding of underlying pain mechanisms will also likely result in overall improvement in pain management and satisfaction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Feasibility": {
+      "text": "A recent study being done at Maimonides hospital designed an 8 hour opioid free ED shift that resulted in over 80% pain satisfaction scores at 30 and 60 minutes and no opioids used during the shift with just one opioid prescription written\n[2]\nWeaknesses:\nDuring above study, a challenge was managing staff that had little experience in using medications for off label uses.\nCertain subsets of patients will have various contraindications that will need to be considered such as patients with cardiovascular disease and NSAIDs. Those contraindications will not be reviewed on this page.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

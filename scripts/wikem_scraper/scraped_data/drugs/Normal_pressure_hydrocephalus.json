@@ -1,0 +1,180 @@
+{
+  "drug_name": "Normal_pressure_hydrocephalus",
+  "url": "https://wikem.org/wiki/Normal_pressure_hydrocephalus",
+  "scraped_at": "2026-01-10T07:58:36.458536",
+  "sections": {
+    "Background": {
+      "text": "Possible reversible cause of dementia\nCSF buildup in the ventricles leading to increased intracranial pressure with edema of the periventricular white matter and corona radiata\nSacral motor nerve fibers that produce gait instability; incontinence ensues when compressed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Gait disturbance is most common and earliest finding\n\"Glue-footed\" gait: move slowly, take small steps, often wide base, with difficulty turning\nMemory loss and\ndementia\nsymptoms may be mild, subtle\nIncontinence\nis usually later stage, though sensation of urinary urgency is usually present before incontinence\nUsually do\nnot\nhave symptoms of increased intracranial pressure, such as headache, nausea, vomiting, visual loss",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Incontinence",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Alzheimer's\nStroke\nParkinson's disease\nElectrolyte abnormality\nMalignancy\nUremic encephalopathy\nHydrocephalus ex vacuo (diffuse cerebral atrophy on CT)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Alzheimer's",
+          "url": "https://wikem.org/wiki/Alzheimer%27s"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormality"
+        },
+        {
+          "text": "Malignancy",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Uremic encephalopathy",
+          "url": "https://wikem.org/wiki/Uremia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Initial ED workup\nCBC\nChem 7\nCT brain\nnon-con: Ventriculomegaly without signs of obstruction at the level of the third or fourth ventricles\nAdditional workup (in coordination with neurology/neurosurgery), consider:\nMRI (done as part of the general work-up, and should be done before LP)\nLP\n(definitive diagnosis), with normal opening pressure and CSF studies\nSymptom improvement supports diagnosis\n[1]",
+      "subsections": {
+        "Normal_pressure_hydrocephalus_vs_brain_atrophy": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "",
+                "Normal pressure hydrocephalus": "",
+                "Brain atrophy": ""
+              },
+              {
+                "": "Preferable projection",
+                "Normal pressure hydrocephalus": "Coronal plane at the level of the posterior commissure of the brain."
+              },
+              {
+                "": "Modality in this example",
+                "Normal pressure hydrocephalus": "CT",
+                "Brain atrophy": "MRI"
+              },
+              {
+                "": "CSF spaces over the convexity near the vertex (red ellipse)",
+                "Normal pressure hydrocephalus": "Narrowed convexity (\"tight convexity\") as well as medial cisterns",
+                "Brain atrophy": "Widened vertex (red arrow) and medial cisterns (green arrow)"
+              },
+              {
+                "": "Callosal angle (blue V)",
+                "Normal pressure hydrocephalus": "Acute angle",
+                "Brain atrophy": "Obtuse angle"
+              },
+              {
+                "": "Most likely cause of leucoaraiosis (periventricular signal alterations, blue arrows)",
+                "Normal pressure hydrocephalus": "Transependymalcerebrospinal fluiddiapedesis",
+                "Brain atrophy": "Vascular encephalopathy, in this case suggested by unilateral occurrence"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CT brain",
+          "url": "https://wikem.org/wiki/CT_brain"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Normal_pressure_hydrocephalus_vs_brain_atrophy": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "",
+            "Normal pressure hydrocephalus": "",
+            "Brain atrophy": ""
+          },
+          {
+            "": "Preferable projection",
+            "Normal pressure hydrocephalus": "Coronal plane at the level of the posterior commissure of the brain."
+          },
+          {
+            "": "Modality in this example",
+            "Normal pressure hydrocephalus": "CT",
+            "Brain atrophy": "MRI"
+          },
+          {
+            "": "CSF spaces over the convexity near the vertex (red ellipse)",
+            "Normal pressure hydrocephalus": "Narrowed convexity (\"tight convexity\") as well as medial cisterns",
+            "Brain atrophy": "Widened vertex (red arrow) and medial cisterns (green arrow)"
+          },
+          {
+            "": "Callosal angle (blue V)",
+            "Normal pressure hydrocephalus": "Acute angle",
+            "Brain atrophy": "Obtuse angle"
+          },
+          {
+            "": "Most likely cause of leucoaraiosis (periventricular signal alterations, blue arrows)",
+            "Normal pressure hydrocephalus": "Transependymalcerebrospinal fluiddiapedesis",
+            "Brain atrophy": "Vascular encephalopathy, in this case suggested by unilateral occurrence"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Fall precautions\nConsult neurology and/or neurosurgery to decide if patient is candidate for inpatient vs outpatient MRI and LP.\nLP is rarely done in the ED as it requires MRI before LP, and workup is typically non-emergent and can often be done as outpatient.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Workup typically is extensive, but can often be done as outpatient, depending on your institution.\nDecide plan for workup with neurology and/or neurosurgery\nConsider admission if patient lives alone (fall risk), has no follow-up, or is significantly altered.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Also_See": {
+      "text": "Stroke (Main)\nAtaxia\nParkinson's Disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Parkinson's Disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_Disease"
+        }
+      ]
+    }
+  }
+}

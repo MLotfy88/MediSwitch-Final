@@ -1,0 +1,65 @@
+{
+  "drug_name": "Ocular_palsy",
+  "url": "https://wikem.org/wiki/Ocular_palsy",
+  "scraped_at": "2026-01-10T07:58:41.345245",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Types": {
+          "text": "Third nerve palsy\nFourth nerve palsy\nSixth nerve palsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Third nerve palsy",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "Fourth nerve palsy",
+          "url": "https://wikem.org/wiki/Fourth_nerve_palsy"
+        },
+        {
+          "text": "Sixth nerve palsy",
+          "url": "https://wikem.org/wiki/Sixth_nerve_palsy"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Third nerve palsy\nFourth nerve palsy\nSixth nerve palsy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Third nerve palsy",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "Fourth nerve palsy",
+          "url": "https://wikem.org/wiki/Fourth_nerve_palsy"
+        },
+        {
+          "text": "Sixth nerve palsy",
+          "url": "https://wikem.org/wiki/Sixth_nerve_palsy"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Cranial nerve abnormalities\nDiplopia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cranial nerve abnormalities",
+          "url": "https://wikem.org/wiki/Cranial_nerve_abnormalities"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        }
+      ]
+    }
+  }
+}

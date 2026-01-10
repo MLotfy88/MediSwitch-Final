@@ -1,0 +1,48 @@
+{
+  "drug_name": "Onychomycosis",
+  "url": "https://wikem.org/wiki/Onychomycosis",
+  "scraped_at": "2026-01-10T07:58:47.382975",
+  "sections": {
+    "Background": {
+      "text": "Fungal infection of the nail\nUsually affects toenails, although fingernails can be affected\n[1]\nGenerally affects multiple nails at once, and usually concurrent tinea pedis is present\n[2]\nMay be caused by dermatophytes (most common), non-dermatophyte, or candida fungal species",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Nail abnormalities\n[1]\nThickened nail plate\nDiscoloration\nOncholysis\nSubungal hyperkeratosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Generally a clinical diagnosis, based on history and physical examination\nMicroscopic evaluation of an adequate sample will reveal fungal features\nMany guidelines recommend fungal cultures to ensure proper treatment\n[1]\nThe three main approaches are potassium hydroxide smear, culture, and histology (involves microscopic examination and culture of nail scrapings or clippings)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "PO Antifungals (first line)\n[1]\nTerbinafine - 250mg QD for 12 weeks (toenail) or 6 weeks (fingernail) - most effective therapy\nItraconazole - 200mg QD for 12 weeks\n\"Pulse dosing\" may be as effective as continuous dosing\nFluconazole and ketoconazole are less effective and should not be used\nTopical Antifungals\nCreams are generally ineffective\nLacquer preparations are more effective due to longer contact times, but should only be used if fungus covers <50% of nail\n[1]\nCiclopirox 8% - daily application for 4 months\nAmorolfine 5% - 1-2 times per week for 6-12 months\nEfinaconazole 10% - newer agent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fungal infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        }
+      ]
+    }
+  }
+}

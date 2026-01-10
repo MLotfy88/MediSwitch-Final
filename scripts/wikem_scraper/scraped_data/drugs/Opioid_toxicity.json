@@ -1,0 +1,611 @@
+{
+  "drug_name": "Opioid_toxicity",
+  "url": "https://wikem.org/wiki/Opioid_toxicity",
+  "scraped_at": "2026-01-10T07:58:48.806509",
+  "sections": {
+    "Background": {
+      "text": "Natural derivatives:\nHeroin\n,\nMorphine\n,\nCodeine\n,\nHydrocodone\n,\nOxycodone\n(+ UDS)\nSynthetic:\nFentanyl\n,\nHydromorphone\n,\nBuprenorphine\n,\nMethadone\n,\nMeperidine\n,\nDextromethorphan\n(- UDS)\nObtain\nacetaminophen\nlevels in all cases of combination opioid-acetaminophen (Percocet) overdoses\nRespiratory depression is the cause of all mortality from opioid toxicity\nWhen prescribing opioid pain relievers in the ED, remember to have a discussion of co-ingestion of other depressants (alcohol involved in 1/5 of opioid related deaths)\n[1]\nConsider contributing to the DAWN database for public ED research benefit (Drug Abuse Warning Network)\nOther than common co-ingestions, consider adulterants such as amphetamines, anticholinergics, hypnotics, heavy metals, etc.\nIn the year after an ED visit for an opioid overdose, greater than 5% die & greater than 19% will experience another opioid overdose.\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Codeine",
+          "url": "https://wikem.org/wiki/Codeine"
+        },
+        {
+          "text": "Hydrocodone",
+          "url": "https://wikem.org/wiki/Hydrocodone"
+        },
+        {
+          "text": "Oxycodone",
+          "url": "https://wikem.org/wiki/Oxycodone"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Miosis\nNausea/vomiting\nRespiratory depression\nMental status depression",
+          "tables": []
+        },
+        "Uncommon": {
+          "text": "QT prolongation\n(\nmethadone\n)\nSeizure\n(\ntramadol\n)\nAcute lung injury\nBowel obstruction\n, rupture (body packers)\nNoncardiogenic pulmonary edema\n(1-2% of heroin overdoses)\n[3]\nWithin 2-4 hrs of overdose\nIncreased RR, cough, pink frothy sputum, CXR with bilateral infiltrates\nResolves in 24-48 hrs with respiratory supportive care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Noncardiogenic_pulmonary_edema"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Miosis\nNausea/vomiting\nRespiratory depression\nMental status depression",
+      "subsections": {
+        "Uncommon": {
+          "text": "QT prolongation\n(\nmethadone\n)\nSeizure\n(\ntramadol\n)\nAcute lung injury\nBowel obstruction\n, rupture (body packers)\nNoncardiogenic pulmonary edema\n(1-2% of heroin overdoses)\n[3]\nWithin 2-4 hrs of overdose\nIncreased RR, cough, pink frothy sputum, CXR with bilateral infiltrates\nResolves in 24-48 hrs with respiratory supportive care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Noncardiogenic_pulmonary_edema"
+        }
+      ]
+    },
+    "Uncommon": {
+      "text": "QT prolongation\n(\nmethadone\n)\nSeizure\n(\ntramadol\n)\nAcute lung injury\nBowel obstruction\n, rupture (body packers)\nNoncardiogenic pulmonary edema\n(1-2% of heroin overdoses)\n[3]\nWithin 2-4 hrs of overdose\nIncreased RR, cough, pink frothy sputum, CXR with bilateral infiltrates\nResolves in 24-48 hrs with respiratory supportive care",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Noncardiogenic_pulmonary_edema"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Clonidine toxicity\nOrganophosphate toxicity\nCO poisoning\nHypoglycemia\nPostictal state\nCVA\n- pontine hemorrhage (miosis, coma)\nARDS\nDKA\n,\nhyperosmolar coma\nPhencyclidine toxicity\nPhenothiazine toxicity",
+      "subsections": {
+        "Sedative/hypnotic_toxicity": {
+          "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clonidine toxicity",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "CO poisoning",
+          "url": "https://wikem.org/wiki/CO_poisoning"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "hyperosmolar coma",
+          "url": "https://wikem.org/wiki/Hyperosmolar_coma"
+        },
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Sedative/hypnotic_toxicity": {
+      "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically clinical\nConsider\nUtox",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Utox",
+          "url": "https://wikem.org/wiki/Utox"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Airway_protection_and_ventilatory_management": {
+          "text": "BVM and naloxone administration may prevent need for intubation",
+          "tables": []
+        },
+        "Naloxone_(Narcan)": {
+          "text": "May repeat\nNaloxone\nq3min up to max dose 10mg. It has an almost immediate onset of action with a duration of action = 20-90min (depending on the drug ingested, most overdoses especially from heroin will require repeat dosing of Naloxone)",
+          "tables": []
+        },
+        "Dosing": {
+          "text": "If apneic or near-apneic - 2mg IV\nIf opioid-naive with minimal respiratory depression - 0.4mg IV\nIf opioid-dependent with minimal respiratory depression - 0.05mg IV (\"push dose Narcan\")\nInfusion\nOnly give if patient responded to the bolus and requiring repeat administration\nStep 1: Determine the \"wake-up dose\" or bolus required to wake the patient\nStep 2: Give 2/3 of the \"wake-up dose\" per hr; mix in 1L D5W",
+          "tables": []
+        },
+        "GI_decontamination": {
+          "text": "Activated charcoal\nx1 if opioid ingestion occurred within 1hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        }
+      ]
+    },
+    "Airway_protection_and_ventilatory_management": {
+      "text": "BVM and naloxone administration may prevent need for intubation",
+      "subsections": {
+        "Naloxone_(Narcan)": {
+          "text": "May repeat\nNaloxone\nq3min up to max dose 10mg. It has an almost immediate onset of action with a duration of action = 20-90min (depending on the drug ingested, most overdoses especially from heroin will require repeat dosing of Naloxone)",
+          "tables": []
+        },
+        "Dosing": {
+          "text": "If apneic or near-apneic - 2mg IV\nIf opioid-naive with minimal respiratory depression - 0.4mg IV\nIf opioid-dependent with minimal respiratory depression - 0.05mg IV (\"push dose Narcan\")\nInfusion\nOnly give if patient responded to the bolus and requiring repeat administration\nStep 1: Determine the \"wake-up dose\" or bolus required to wake the patient\nStep 2: Give 2/3 of the \"wake-up dose\" per hr; mix in 1L D5W",
+          "tables": []
+        },
+        "GI_decontamination": {
+          "text": "Activated charcoal\nx1 if opioid ingestion occurred within 1hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Heroin_intoxication": {
+          "text": "Can consider discharge 1-2hr\n[4]\nafter naloxone administration if all are true:\nAmbulatory without assistance\nO2 sat >92% (room air)\nRR >10bpm\nHR >50\nNormal temp\nGCS 15",
+          "tables": []
+        },
+        "Non-heroin_intoxication": {
+          "text": "Consider discharge after 4-6hr observation\nMethadone\ntoxicity: observe for 12-24hr (longer half-life)",
+          "tables": []
+        },
+        "Narcan_Prescription": {
+          "text": "Many states (31) offer protection again criminal liability for prescribing and distributing naloxone to laypeople\nA new California law requires providers to offer\nNaloxone\nautoinjector prescriptions to certain patients at risk for overdose\nExample Prescription\nNaloxone 4mg/0.1mL prefilled syringe and intranasal atomizer device\nDeliver 1 spray to nostril upon signs of opioid overdose. May repeat X 1. Call 911.\nIndications\n[5]\nDischarged from the ED after opioid intoxication or poisoning\nReceiving high doses of opioids or undergoing chronic pain management\nReceiving rotating opioid medication regimens\nHaving a legitimate need for analgesia combined with a history of substance abuse\nUsing extended/long-acting opioid preparations\nCompleting mandatory opioid detoxification or abstinence programs\nRecent release from incarceration and past abuser of opioids",
+          "tables": [
+            [
+              {
+                "Manufacturer": "Adapt Pharma",
+                "Route and Dose": "Prefilled IN 4mg",
+                "Cost/Dose": "$33"
+              },
+              {
+                "Manufacturer": "Amphastar",
+                "Route and Dose": "Self-assemble IN 2mg",
+                "Cost/Dose": "$33"
+              },
+              {
+                "Manufacturer": "Hospira",
+                "Route and Dose": "Self-assemble IM 0.4mg",
+                "Cost/Dose": "$15.83"
+              },
+              {
+                "Manufacturer": "Kaleo",
+                "Route and Dose": "Autoinjector 0.4mg",
+                "Cost/Dose": "$287.50"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Heroin_intoxication": {
+      "text": "Can consider discharge 1-2hr\n[4]\nafter naloxone administration if all are true:\nAmbulatory without assistance\nO2 sat >92% (room air)\nRR >10bpm\nHR >50\nNormal temp\nGCS 15",
+      "subsections": {
+        "Non-heroin_intoxication": {
+          "text": "Consider discharge after 4-6hr observation\nMethadone\ntoxicity: observe for 12-24hr (longer half-life)",
+          "tables": []
+        },
+        "Narcan_Prescription": {
+          "text": "Many states (31) offer protection again criminal liability for prescribing and distributing naloxone to laypeople\nA new California law requires providers to offer\nNaloxone\nautoinjector prescriptions to certain patients at risk for overdose\nExample Prescription\nNaloxone 4mg/0.1mL prefilled syringe and intranasal atomizer device\nDeliver 1 spray to nostril upon signs of opioid overdose. May repeat X 1. Call 911.\nIndications\n[5]\nDischarged from the ED after opioid intoxication or poisoning\nReceiving high doses of opioids or undergoing chronic pain management\nReceiving rotating opioid medication regimens\nHaving a legitimate need for analgesia combined with a history of substance abuse\nUsing extended/long-acting opioid preparations\nCompleting mandatory opioid detoxification or abstinence programs\nRecent release from incarceration and past abuser of opioids",
+          "tables": [
+            [
+              {
+                "Manufacturer": "Adapt Pharma",
+                "Route and Dose": "Prefilled IN 4mg",
+                "Cost/Dose": "$33"
+              },
+              {
+                "Manufacturer": "Amphastar",
+                "Route and Dose": "Self-assemble IN 2mg",
+                "Cost/Dose": "$33"
+              },
+              {
+                "Manufacturer": "Hospira",
+                "Route and Dose": "Self-assemble IM 0.4mg",
+                "Cost/Dose": "$15.83"
+              },
+              {
+                "Manufacturer": "Kaleo",
+                "Route and Dose": "Autoinjector 0.4mg",
+                "Cost/Dose": "$287.50"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Non-heroin_intoxication": {
+      "text": "Consider discharge after 4-6hr observation\nMethadone\ntoxicity: observe for 12-24hr (longer half-life)",
+      "subsections": {
+        "Narcan_Prescription": {
+          "text": "Many states (31) offer protection again criminal liability for prescribing and distributing naloxone to laypeople\nA new California law requires providers to offer\nNaloxone\nautoinjector prescriptions to certain patients at risk for overdose\nExample Prescription\nNaloxone 4mg/0.1mL prefilled syringe and intranasal atomizer device\nDeliver 1 spray to nostril upon signs of opioid overdose. May repeat X 1. Call 911.\nIndications\n[5]\nDischarged from the ED after opioid intoxication or poisoning\nReceiving high doses of opioids or undergoing chronic pain management\nReceiving rotating opioid medication regimens\nHaving a legitimate need for analgesia combined with a history of substance abuse\nUsing extended/long-acting opioid preparations\nCompleting mandatory opioid detoxification or abstinence programs\nRecent release from incarceration and past abuser of opioids",
+          "tables": [
+            [
+              {
+                "Manufacturer": "Adapt Pharma",
+                "Route and Dose": "Prefilled IN 4mg",
+                "Cost/Dose": "$33"
+              },
+              {
+                "Manufacturer": "Amphastar",
+                "Route and Dose": "Self-assemble IN 2mg",
+                "Cost/Dose": "$33"
+              },
+              {
+                "Manufacturer": "Hospira",
+                "Route and Dose": "Self-assemble IM 0.4mg",
+                "Cost/Dose": "$15.83"
+              },
+              {
+                "Manufacturer": "Kaleo",
+                "Route and Dose": "Autoinjector 0.4mg",
+                "Cost/Dose": "$287.50"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Narcan_Prescription": {
+      "text": "Many states (31) offer protection again criminal liability for prescribing and distributing naloxone to laypeople\nA new California law requires providers to offer\nNaloxone\nautoinjector prescriptions to certain patients at risk for overdose\nExample Prescription\nNaloxone 4mg/0.1mL prefilled syringe and intranasal atomizer device\nDeliver 1 spray to nostril upon signs of opioid overdose. May repeat X 1. Call 911.\nIndications\n[5]\nDischarged from the ED after opioid intoxication or poisoning\nReceiving high doses of opioids or undergoing chronic pain management\nReceiving rotating opioid medication regimens\nHaving a legitimate need for analgesia combined with a history of substance abuse\nUsing extended/long-acting opioid preparations\nCompleting mandatory opioid detoxification or abstinence programs\nRecent release from incarceration and past abuser of opioids",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Manufacturer": "Adapt Pharma",
+            "Route and Dose": "Prefilled IN 4mg",
+            "Cost/Dose": "$33"
+          },
+          {
+            "Manufacturer": "Amphastar",
+            "Route and Dose": "Self-assemble IN 2mg",
+            "Cost/Dose": "$33"
+          },
+          {
+            "Manufacturer": "Hospira",
+            "Route and Dose": "Self-assemble IM 0.4mg",
+            "Cost/Dose": "$15.83"
+          },
+          {
+            "Manufacturer": "Kaleo",
+            "Route and Dose": "Autoinjector 0.4mg",
+            "Cost/Dose": "$287.50"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Opioid withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid withdrawal",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Opioid Risk Tool (ORT) for Narcotic Abuse\nNarcan autoinjection instructions (English)\nNarcan autoinjection instructions (Spanish)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

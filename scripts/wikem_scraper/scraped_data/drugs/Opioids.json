@@ -1,0 +1,527 @@
+{
+  "drug_name": "Opioids",
+  "url": "https://wikem.org/wiki/Opioids",
+  "scraped_at": "2026-01-10T07:58:47.193096",
+  "sections": {
+    "Types_of_Opioids": {
+      "text": "Natural derivatives:\nHeroin\n,\nMorphine\n,\nCodeine\n,\nHydrocodone\n,\nOxycodone\n(+ UDS)\nSynthetic:\nFentanyl\n,\nHydromorphone\n,\nBuprenorphine\n,\nMethadone\n,\nMeperidine\n,\nDextromethorphan\n(- UDS)",
+      "subsections": {
+        "General_Opioid_Analgesics_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "DRUG": "Morphine",
+                "TYPICAL ADULT DOSE": "0.1 mg/kg IV10mg IM0.3 mg/kg PO",
+                "PHARMACOKINETICS": "Onset: 1-2 min (IV), 10-15 min (IM/SC)Peak effect: 3-5 min (IV), 15-30 min (IM)Duration: 1-2 h (IV), 3-4 h (IM/SC)",
+                "COMMENTS": "Histamine release may produce transient hypotension or nausea and emesis,neither require routine adjunctive treatment"
+              },
+              {
+                "DRUG": "Hydromorphone(Dilaudid)",
+                "TYPICAL ADULT DOSE": "0.015 mg/kg IV1-2 mg IM",
+                "PHARMACOKINETICS": "Onset: 3-5 min (IV)Peak effect: 7-10 min (IV)Duration: 2-4 h (IV)",
+                "COMMENTS": ""
+              },
+              {
+                "DRUG": "Fentanyl",
+                "TYPICAL ADULT DOSE": "1.0 mcg/kg IV",
+                "PHARMACOKINETICS": "Onset: <1 min (IV)Peak effect: 2-5 min (IV)Duration: 30-60 min (IV)",
+                "COMMENTS": "High doses can cause chest wall rigidity (>5 mcg/kg IV)"
+              },
+              {
+                "DRUG": "Meperidine(Demerol)",
+                "TYPICAL ADULT DOSE": "1.0-1.5 mg/kg IV/IM",
+                "PHARMACOKINETICS": "Onset: 5 min (IV)Peak effect: 5-10 min (IV)Duraction 2-3 h (IV)",
+                "COMMENTS": "Contraindicated when patient taking a MAOINeurotoxicity occur when multiple doses given in the presence of renal failure"
+              },
+              {
+                "DRUG": "Oxycodone",
+                "TYPICAL ADULT DOSE": "5-10 mg PO30 mg PR",
+                "PHARMACOKINETICS": "Onset: 10-15 min (PO)Duration 3-6 h (PO)",
+                "COMMENTS": "Possible inadvertent acetaminophen overdose with combination agents"
+              },
+              {
+                "DRUG": "Hydrocodone",
+                "TYPICAL ADULT DOSE": "5-10 mg PO",
+                "PHARMACOKINETICS": "Onset: 30-60 min (PO)Duraction 4-6 h (PO)",
+                "COMMENTS": "Lower incidence of nauseaPossible inadvertent acetaminophen overdose with combination agents"
+              },
+              {
+                "DRUG": "Codeine",
+                "TYPICAL ADULT DOSE": "30-60 mg PO30-100 mg IM",
+                "PHARMACOKINETICS": "Onset: 30-60 min (PO)Duraction: 4-6 h (PO)",
+                "COMMENTS": "High incidence of GI side effectsSome patients cannot convert to codeine-6-glucuronide and morphinePossible inadvertent acetaminophen overdose with combination agents"
+              },
+              {
+                "DRUG": "Tramadol(Ultram)",
+                "TYPICAL ADULT DOSE": "50-100 mg PO",
+                "PHARMACOKINETICS": "Onset: 10-15 min (PO)Duration: 4-6 h (PO)",
+                "COMMENTS": "Central nervous system side effects"
+              }
+            ]
+          ]
+        },
+        "Parenteral_Opioid_Dosing_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "DRUG": "Morphine",
+                "ROUTE": "IV or IM",
+                "DOSAGE": "Titrate 2-5 mg increments q5-10 minPeak analgesia in 10-20 minAverage: 10 mg q3-4h",
+                "COMMENTS": "Preferred first-line agent in most situations"
+              },
+              {
+                "DRUG": "Fentanyl",
+                "ROUTE": "IV or IM",
+                "DOSAGE": "Titrate 25-50 mcg increments q2-3 minPeak analgesia in 3-5 minDuration 30-60 min",
+                "COMMENTS": "Ideal for short proceduresNo histamine releaseTypically not suitable for the ED"
+              },
+              {
+                "DRUG": "Meperidine(Demerol)",
+                "ROUTE": "IV",
+                "DOSAGE": "Titrate 12.5-50 mg incrementsPeak analgesia in 5-10 minAverage: 100 mg q2-3h",
+                "COMMENTS": "Risk of unique CNS toxicity with repeated dosingIM injection is very irritating to tissue"
+              },
+              {
+                "DRUG": "Hydromorphone(Dilaudid)",
+                "ROUTE": "IV",
+                "DOSAGE": "Titrate 0.5-1.0 mg incrementsPeak analgesia in 5-15 minAverage: 1.5 mg q3-4h",
+                "COMMENTS": ""
+              },
+              {
+                "DRUG": "Butorphanol(Stadol)",
+                "ROUTE": "IV",
+                "DOSAGE": "Titrate 0.5-2.0 mg incrementsPeak analgesia in 4-5 minAverage: 2 mg q3-4h",
+                "COMMENTS": "Mixed agonist-antagonistMay be preferred in biliary colic"
+              }
+            ]
+          ]
+        },
+        "Oral_Opioid_Dosing_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "DRUG": "Morphine(MSIR, Roxanol, others)",
+                "ANALGESIC EQUIVALENCE": "30 mg",
+                "USUAL STARTING DOSE": "15-30 mg",
+                "USUAL INTERVAL": "3-4 h"
+              },
+              {
+                "DRUG": "Morphine: sustained release (MS Contin, Oramorph-SR)",
+                "ANALGESIC EQUIVALENCE": "30 mg",
+                "USUAL STARTING DOSE": "30 mg",
+                "USUAL INTERVAL": "8-12 h"
+              },
+              {
+                "DRUG": "Meperidine(Demerol)",
+                "ANALGESIC EQUIVALENCE": "300 mg",
+                "USUAL STARTING DOSE": "50-100 mg",
+                "USUAL INTERVAL": "2-3 h"
+              },
+              {
+                "DRUG": "Codeine(in Tylenol #3, others)",
+                "ANALGESIC EQUIVALENCE": "200 mg",
+                "USUAL STARTING DOSE": "30-60 mg",
+                "USUAL INTERVAL": "3-4 h"
+              },
+              {
+                "DRUG": "Oxycodone(Roxicodone, also in Percocet, Percodan, Tylox, others)",
+                "ANALGESIC EQUIVALENCE": "20-30 mg",
+                "USUAL STARTING DOSE": "5-10 mg",
+                "USUAL INTERVAL": "3-6 h"
+              },
+              {
+                "DRUG": "Hydrocodone(in Lorcet, Lortab, Vicodin, others)",
+                "ANALGESIC EQUIVALENCE": "30 mg",
+                "USUAL STARTING DOSE": "5-10 mg",
+                "USUAL INTERVAL": "3-6 h"
+              },
+              {
+                "DRUG": "Hydromorphone(Dilaudid)",
+                "ANALGESIC EQUIVALENCE": "7.5 mg",
+                "USUAL STARTING DOSE": "4-8 mg",
+                "USUAL INTERVAL": "2-3 h"
+              },
+              {
+                "DRUG": "Tramadol(Ultram)",
+                "ANALGESIC EQUIVALENCE": "N/A",
+                "USUAL STARTING DOSE": "25-50 mg",
+                "USUAL INTERVAL": "4-6 h"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Codeine",
+          "url": "https://wikem.org/wiki/Codeine"
+        },
+        {
+          "text": "Hydrocodone",
+          "url": "https://wikem.org/wiki/Hydrocodone"
+        },
+        {
+          "text": "Oxycodone",
+          "url": "https://wikem.org/wiki/Oxycodone"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        }
+      ]
+    },
+    "General_Opioid_Analgesics_Chart": {
+      "text": "",
+      "subsections": {
+        "Parenteral_Opioid_Dosing_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "DRUG": "Morphine",
+                "ROUTE": "IV or IM",
+                "DOSAGE": "Titrate 2-5 mg increments q5-10 minPeak analgesia in 10-20 minAverage: 10 mg q3-4h",
+                "COMMENTS": "Preferred first-line agent in most situations"
+              },
+              {
+                "DRUG": "Fentanyl",
+                "ROUTE": "IV or IM",
+                "DOSAGE": "Titrate 25-50 mcg increments q2-3 minPeak analgesia in 3-5 minDuration 30-60 min",
+                "COMMENTS": "Ideal for short proceduresNo histamine releaseTypically not suitable for the ED"
+              },
+              {
+                "DRUG": "Meperidine(Demerol)",
+                "ROUTE": "IV",
+                "DOSAGE": "Titrate 12.5-50 mg incrementsPeak analgesia in 5-10 minAverage: 100 mg q2-3h",
+                "COMMENTS": "Risk of unique CNS toxicity with repeated dosingIM injection is very irritating to tissue"
+              },
+              {
+                "DRUG": "Hydromorphone(Dilaudid)",
+                "ROUTE": "IV",
+                "DOSAGE": "Titrate 0.5-1.0 mg incrementsPeak analgesia in 5-15 minAverage: 1.5 mg q3-4h",
+                "COMMENTS": ""
+              },
+              {
+                "DRUG": "Butorphanol(Stadol)",
+                "ROUTE": "IV",
+                "DOSAGE": "Titrate 0.5-2.0 mg incrementsPeak analgesia in 4-5 minAverage: 2 mg q3-4h",
+                "COMMENTS": "Mixed agonist-antagonistMay be preferred in biliary colic"
+              }
+            ]
+          ]
+        },
+        "Oral_Opioid_Dosing_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "DRUG": "Morphine(MSIR, Roxanol, others)",
+                "ANALGESIC EQUIVALENCE": "30 mg",
+                "USUAL STARTING DOSE": "15-30 mg",
+                "USUAL INTERVAL": "3-4 h"
+              },
+              {
+                "DRUG": "Morphine: sustained release (MS Contin, Oramorph-SR)",
+                "ANALGESIC EQUIVALENCE": "30 mg",
+                "USUAL STARTING DOSE": "30 mg",
+                "USUAL INTERVAL": "8-12 h"
+              },
+              {
+                "DRUG": "Meperidine(Demerol)",
+                "ANALGESIC EQUIVALENCE": "300 mg",
+                "USUAL STARTING DOSE": "50-100 mg",
+                "USUAL INTERVAL": "2-3 h"
+              },
+              {
+                "DRUG": "Codeine(in Tylenol #3, others)",
+                "ANALGESIC EQUIVALENCE": "200 mg",
+                "USUAL STARTING DOSE": "30-60 mg",
+                "USUAL INTERVAL": "3-4 h"
+              },
+              {
+                "DRUG": "Oxycodone(Roxicodone, also in Percocet, Percodan, Tylox, others)",
+                "ANALGESIC EQUIVALENCE": "20-30 mg",
+                "USUAL STARTING DOSE": "5-10 mg",
+                "USUAL INTERVAL": "3-6 h"
+              },
+              {
+                "DRUG": "Hydrocodone(in Lorcet, Lortab, Vicodin, others)",
+                "ANALGESIC EQUIVALENCE": "30 mg",
+                "USUAL STARTING DOSE": "5-10 mg",
+                "USUAL INTERVAL": "3-6 h"
+              },
+              {
+                "DRUG": "Hydromorphone(Dilaudid)",
+                "ANALGESIC EQUIVALENCE": "7.5 mg",
+                "USUAL STARTING DOSE": "4-8 mg",
+                "USUAL INTERVAL": "2-3 h"
+              },
+              {
+                "DRUG": "Tramadol(Ultram)",
+                "ANALGESIC EQUIVALENCE": "N/A",
+                "USUAL STARTING DOSE": "25-50 mg",
+                "USUAL INTERVAL": "4-6 h"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "DRUG": "Morphine",
+            "TYPICAL ADULT DOSE": "0.1 mg/kg IV10mg IM0.3 mg/kg PO",
+            "PHARMACOKINETICS": "Onset: 1-2 min (IV), 10-15 min (IM/SC)Peak effect: 3-5 min (IV), 15-30 min (IM)Duration: 1-2 h (IV), 3-4 h (IM/SC)",
+            "COMMENTS": "Histamine release may produce transient hypotension or nausea and emesis,neither require routine adjunctive treatment"
+          },
+          {
+            "DRUG": "Hydromorphone(Dilaudid)",
+            "TYPICAL ADULT DOSE": "0.015 mg/kg IV1-2 mg IM",
+            "PHARMACOKINETICS": "Onset: 3-5 min (IV)Peak effect: 7-10 min (IV)Duration: 2-4 h (IV)",
+            "COMMENTS": ""
+          },
+          {
+            "DRUG": "Fentanyl",
+            "TYPICAL ADULT DOSE": "1.0 mcg/kg IV",
+            "PHARMACOKINETICS": "Onset: <1 min (IV)Peak effect: 2-5 min (IV)Duration: 30-60 min (IV)",
+            "COMMENTS": "High doses can cause chest wall rigidity (>5 mcg/kg IV)"
+          },
+          {
+            "DRUG": "Meperidine(Demerol)",
+            "TYPICAL ADULT DOSE": "1.0-1.5 mg/kg IV/IM",
+            "PHARMACOKINETICS": "Onset: 5 min (IV)Peak effect: 5-10 min (IV)Duraction 2-3 h (IV)",
+            "COMMENTS": "Contraindicated when patient taking a MAOINeurotoxicity occur when multiple doses given in the presence of renal failure"
+          },
+          {
+            "DRUG": "Oxycodone",
+            "TYPICAL ADULT DOSE": "5-10 mg PO30 mg PR",
+            "PHARMACOKINETICS": "Onset: 10-15 min (PO)Duration 3-6 h (PO)",
+            "COMMENTS": "Possible inadvertent acetaminophen overdose with combination agents"
+          },
+          {
+            "DRUG": "Hydrocodone",
+            "TYPICAL ADULT DOSE": "5-10 mg PO",
+            "PHARMACOKINETICS": "Onset: 30-60 min (PO)Duraction 4-6 h (PO)",
+            "COMMENTS": "Lower incidence of nauseaPossible inadvertent acetaminophen overdose with combination agents"
+          },
+          {
+            "DRUG": "Codeine",
+            "TYPICAL ADULT DOSE": "30-60 mg PO30-100 mg IM",
+            "PHARMACOKINETICS": "Onset: 30-60 min (PO)Duraction: 4-6 h (PO)",
+            "COMMENTS": "High incidence of GI side effectsSome patients cannot convert to codeine-6-glucuronide and morphinePossible inadvertent acetaminophen overdose with combination agents"
+          },
+          {
+            "DRUG": "Tramadol(Ultram)",
+            "TYPICAL ADULT DOSE": "50-100 mg PO",
+            "PHARMACOKINETICS": "Onset: 10-15 min (PO)Duration: 4-6 h (PO)",
+            "COMMENTS": "Central nervous system side effects"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Parenteral_Opioid_Dosing_Chart": {
+      "text": "",
+      "subsections": {
+        "Oral_Opioid_Dosing_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "DRUG": "Morphine(MSIR, Roxanol, others)",
+                "ANALGESIC EQUIVALENCE": "30 mg",
+                "USUAL STARTING DOSE": "15-30 mg",
+                "USUAL INTERVAL": "3-4 h"
+              },
+              {
+                "DRUG": "Morphine: sustained release (MS Contin, Oramorph-SR)",
+                "ANALGESIC EQUIVALENCE": "30 mg",
+                "USUAL STARTING DOSE": "30 mg",
+                "USUAL INTERVAL": "8-12 h"
+              },
+              {
+                "DRUG": "Meperidine(Demerol)",
+                "ANALGESIC EQUIVALENCE": "300 mg",
+                "USUAL STARTING DOSE": "50-100 mg",
+                "USUAL INTERVAL": "2-3 h"
+              },
+              {
+                "DRUG": "Codeine(in Tylenol #3, others)",
+                "ANALGESIC EQUIVALENCE": "200 mg",
+                "USUAL STARTING DOSE": "30-60 mg",
+                "USUAL INTERVAL": "3-4 h"
+              },
+              {
+                "DRUG": "Oxycodone(Roxicodone, also in Percocet, Percodan, Tylox, others)",
+                "ANALGESIC EQUIVALENCE": "20-30 mg",
+                "USUAL STARTING DOSE": "5-10 mg",
+                "USUAL INTERVAL": "3-6 h"
+              },
+              {
+                "DRUG": "Hydrocodone(in Lorcet, Lortab, Vicodin, others)",
+                "ANALGESIC EQUIVALENCE": "30 mg",
+                "USUAL STARTING DOSE": "5-10 mg",
+                "USUAL INTERVAL": "3-6 h"
+              },
+              {
+                "DRUG": "Hydromorphone(Dilaudid)",
+                "ANALGESIC EQUIVALENCE": "7.5 mg",
+                "USUAL STARTING DOSE": "4-8 mg",
+                "USUAL INTERVAL": "2-3 h"
+              },
+              {
+                "DRUG": "Tramadol(Ultram)",
+                "ANALGESIC EQUIVALENCE": "N/A",
+                "USUAL STARTING DOSE": "25-50 mg",
+                "USUAL INTERVAL": "4-6 h"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "DRUG": "Morphine",
+            "ROUTE": "IV or IM",
+            "DOSAGE": "Titrate 2-5 mg increments q5-10 minPeak analgesia in 10-20 minAverage: 10 mg q3-4h",
+            "COMMENTS": "Preferred first-line agent in most situations"
+          },
+          {
+            "DRUG": "Fentanyl",
+            "ROUTE": "IV or IM",
+            "DOSAGE": "Titrate 25-50 mcg increments q2-3 minPeak analgesia in 3-5 minDuration 30-60 min",
+            "COMMENTS": "Ideal for short proceduresNo histamine releaseTypically not suitable for the ED"
+          },
+          {
+            "DRUG": "Meperidine(Demerol)",
+            "ROUTE": "IV",
+            "DOSAGE": "Titrate 12.5-50 mg incrementsPeak analgesia in 5-10 minAverage: 100 mg q2-3h",
+            "COMMENTS": "Risk of unique CNS toxicity with repeated dosingIM injection is very irritating to tissue"
+          },
+          {
+            "DRUG": "Hydromorphone(Dilaudid)",
+            "ROUTE": "IV",
+            "DOSAGE": "Titrate 0.5-1.0 mg incrementsPeak analgesia in 5-15 minAverage: 1.5 mg q3-4h",
+            "COMMENTS": ""
+          },
+          {
+            "DRUG": "Butorphanol(Stadol)",
+            "ROUTE": "IV",
+            "DOSAGE": "Titrate 0.5-2.0 mg incrementsPeak analgesia in 4-5 minAverage: 2 mg q3-4h",
+            "COMMENTS": "Mixed agonist-antagonistMay be preferred in biliary colic"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Oral_Opioid_Dosing_Chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "DRUG": "Morphine(MSIR, Roxanol, others)",
+            "ANALGESIC EQUIVALENCE": "30 mg",
+            "USUAL STARTING DOSE": "15-30 mg",
+            "USUAL INTERVAL": "3-4 h"
+          },
+          {
+            "DRUG": "Morphine: sustained release (MS Contin, Oramorph-SR)",
+            "ANALGESIC EQUIVALENCE": "30 mg",
+            "USUAL STARTING DOSE": "30 mg",
+            "USUAL INTERVAL": "8-12 h"
+          },
+          {
+            "DRUG": "Meperidine(Demerol)",
+            "ANALGESIC EQUIVALENCE": "300 mg",
+            "USUAL STARTING DOSE": "50-100 mg",
+            "USUAL INTERVAL": "2-3 h"
+          },
+          {
+            "DRUG": "Codeine(in Tylenol #3, others)",
+            "ANALGESIC EQUIVALENCE": "200 mg",
+            "USUAL STARTING DOSE": "30-60 mg",
+            "USUAL INTERVAL": "3-4 h"
+          },
+          {
+            "DRUG": "Oxycodone(Roxicodone, also in Percocet, Percodan, Tylox, others)",
+            "ANALGESIC EQUIVALENCE": "20-30 mg",
+            "USUAL STARTING DOSE": "5-10 mg",
+            "USUAL INTERVAL": "3-6 h"
+          },
+          {
+            "DRUG": "Hydrocodone(in Lorcet, Lortab, Vicodin, others)",
+            "ANALGESIC EQUIVALENCE": "30 mg",
+            "USUAL STARTING DOSE": "5-10 mg",
+            "USUAL INTERVAL": "3-6 h"
+          },
+          {
+            "DRUG": "Hydromorphone(Dilaudid)",
+            "ANALGESIC EQUIVALENCE": "7.5 mg",
+            "USUAL STARTING DOSE": "4-8 mg",
+            "USUAL INTERVAL": "2-3 h"
+          },
+          {
+            "DRUG": "Tramadol(Ultram)",
+            "ANALGESIC EQUIVALENCE": "N/A",
+            "USUAL STARTING DOSE": "25-50 mg",
+            "USUAL INTERVAL": "4-6 h"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Opioid toxicity\nOpioid withdrawal\nAcute pain management",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid toxicity",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Opioid withdrawal",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        },
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        }
+      ]
+    }
+  }
+}

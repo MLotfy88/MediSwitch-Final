@@ -1,0 +1,528 @@
+{
+  "drug_name": "Open_joint_injury",
+  "url": "https://wikem.org/wiki/Open_joint_injury",
+  "scraped_at": "2026-01-10T07:58:48.748919",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"traumatic arthrotomy\"\nSoft tissue injury that penetrates the joint space and exposes the joint space to the environment.\nIncreases the risk of joint infection and is cause for emergent orthopedic evaluation and treatment for joint exploration and washout.\nRarely life threatening:\nEvaluate other injuries that may cause immediate loss of life/limb first.\nEvaluate nearby neurovascular structures.\nMaintain high suspicion for periarticular penetrating injuries to involve the joint:\nSeptic arthritis is a potentially very morbid sequela of untreated open joints.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Concern for joint space involvement with soft tissue injury:\nProximity of soft tissue injury to joint\nVisible joint capsule surface\nPeriarticular fracture\nIn these situations joint involvement is obvious and orthopedic surgery/washout is necessary without further testing:\nForeign body in joint on X-ray\nIntra-articular air on X-ray or CT\nObvious joint involvement of fracture with an open fracture on X-ray",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        },
+        "Intra-articular_gas": {
+          "text": "Open joint injury\nSurgical intra-articular intervention\nSeptic arthritis\nNormal variation (i.e., intra-articular vacuum phenomena)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        }
+      ]
+    },
+    "Extremity_trauma": {
+      "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+      "subsections": {
+        "Intra-articular_gas": {
+          "text": "Open joint injury\nSurgical intra-articular intervention\nSeptic arthritis\nNormal variation (i.e., intra-articular vacuum phenomena)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        }
+      ]
+    },
+    "Intra-articular_gas": {
+      "text": "Open joint injury\nSurgical intra-articular intervention\nSeptic arthritis\nNormal variation (i.e., intra-articular vacuum phenomena)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "All lacerations should have basic exploration; for those near a joint, depending on\nATLS\nTrauma labs PRN\nConsider X-ray\nConsider CT",
+          "tables": []
+        },
+        "CT_Scan": {
+          "text": "First-line diagnostic test\n~100% specific and sensitive for a clinically significant open joint injuries\n[1]",
+          "tables": []
+        },
+        "Saline_Loading_Test": {
+          "text": "Second-line diagnostic test\nFor those in which joint penetration is unclear\nInvolves injection into the joint (see\narthrocentesis\nfor procedural landmarks and technique) of saline or methylene blue to look for extravasation from wound.\nSensitivity increases with increased fluid injected, but so does pain.\nNegative joint loading test associated with 0% infection rate in one study with non-operative management.\n[2]\nFor knees, 50 mL is standard (sensitivity 46%, increased with ROM).\n>195 mL loading (very painful) needed for 95% sensitivity in small lacerations near the knee.\n[3]\nFor elbows, 20 mL with range of motion gave 86% sensitivity, 40 mL gave 95%.\n[4]\nFor ankle, 10 mL is average needed, 23 mL and 30 mL for 90% and 95% sensitivity.\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ATLS",
+          "url": "https://wikem.org/wiki/ATLS"
+        },
+        {
+          "text": "arthrocentesis",
+          "url": "https://wikem.org/wiki/Arthrocentesis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "All lacerations should have basic exploration; for those near a joint, depending on\nATLS\nTrauma labs PRN\nConsider X-ray\nConsider CT",
+      "subsections": {
+        "CT_Scan": {
+          "text": "First-line diagnostic test\n~100% specific and sensitive for a clinically significant open joint injuries\n[1]",
+          "tables": []
+        },
+        "Saline_Loading_Test": {
+          "text": "Second-line diagnostic test\nFor those in which joint penetration is unclear\nInvolves injection into the joint (see\narthrocentesis\nfor procedural landmarks and technique) of saline or methylene blue to look for extravasation from wound.\nSensitivity increases with increased fluid injected, but so does pain.\nNegative joint loading test associated with 0% infection rate in one study with non-operative management.\n[2]\nFor knees, 50 mL is standard (sensitivity 46%, increased with ROM).\n>195 mL loading (very painful) needed for 95% sensitivity in small lacerations near the knee.\n[3]\nFor elbows, 20 mL with range of motion gave 86% sensitivity, 40 mL gave 95%.\n[4]\nFor ankle, 10 mL is average needed, 23 mL and 30 mL for 90% and 95% sensitivity.\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ATLS",
+          "url": "https://wikem.org/wiki/ATLS"
+        },
+        {
+          "text": "arthrocentesis",
+          "url": "https://wikem.org/wiki/Arthrocentesis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "CT_Scan": {
+          "text": "First-line diagnostic test\n~100% specific and sensitive for a clinically significant open joint injuries\n[1]",
+          "tables": []
+        },
+        "Saline_Loading_Test": {
+          "text": "Second-line diagnostic test\nFor those in which joint penetration is unclear\nInvolves injection into the joint (see\narthrocentesis\nfor procedural landmarks and technique) of saline or methylene blue to look for extravasation from wound.\nSensitivity increases with increased fluid injected, but so does pain.\nNegative joint loading test associated with 0% infection rate in one study with non-operative management.\n[2]\nFor knees, 50 mL is standard (sensitivity 46%, increased with ROM).\n>195 mL loading (very painful) needed for 95% sensitivity in small lacerations near the knee.\n[3]\nFor elbows, 20 mL with range of motion gave 86% sensitivity, 40 mL gave 95%.\n[4]\nFor ankle, 10 mL is average needed, 23 mL and 30 mL for 90% and 95% sensitivity.\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "arthrocentesis",
+          "url": "https://wikem.org/wiki/Arthrocentesis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Pain_control": {
+          "text": "Opioid\nof choice (e.g.\nfentanyl\n50 mcg IV)",
+          "tables": []
+        },
+        "Wound_management": {
+          "text": "Initial immobilization as needed\nOrthopedic \"Golden 6 hours\" – applies similarly to open fractures. Treat <6 hours with surgical debridement and washout\nCan irrigate grossly contaminated wounds in ED\nTetanus prophylaxis",
+          "tables": []
+        },
+        "Prophylactic_Antibiotics": {
+          "text": "Depends on concern for infection (similar to\nopen fractures\n)\n[6]\nStaph\n/\nstrep\ncoverage – 1st generation\ncephalosporin\n(\ncefazolin\n2g IV TID)\nIf more contaminated – add\nanaerobic\ncoverage (\ngentamicin\n300mg IV)\nVery contaminated/farm contamination – concern for\nclostridial\ninfection (\npiperacillin/tazobactam\n4.5 g q8 hrs)\nSeawater contamination – concern for\nvibrio vulnificus\n(\ndoxycycline\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        },
+        {
+          "text": "open fractures",
+          "url": "https://wikem.org/wiki/Open_fractures"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "clostridial",
+          "url": "https://wikem.org/wiki/Clostridial"
+        },
+        {
+          "text": "piperacillin/tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/tazobactam"
+        },
+        {
+          "text": "vibrio vulnificus",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificus"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Pain_control": {
+      "text": "Opioid\nof choice (e.g.\nfentanyl\n50 mcg IV)",
+      "subsections": {
+        "Wound_management": {
+          "text": "Initial immobilization as needed\nOrthopedic \"Golden 6 hours\" – applies similarly to open fractures. Treat <6 hours with surgical debridement and washout\nCan irrigate grossly contaminated wounds in ED\nTetanus prophylaxis",
+          "tables": []
+        },
+        "Prophylactic_Antibiotics": {
+          "text": "Depends on concern for infection (similar to\nopen fractures\n)\n[6]\nStaph\n/\nstrep\ncoverage – 1st generation\ncephalosporin\n(\ncefazolin\n2g IV TID)\nIf more contaminated – add\nanaerobic\ncoverage (\ngentamicin\n300mg IV)\nVery contaminated/farm contamination – concern for\nclostridial\ninfection (\npiperacillin/tazobactam\n4.5 g q8 hrs)\nSeawater contamination – concern for\nvibrio vulnificus\n(\ndoxycycline\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        },
+        {
+          "text": "open fractures",
+          "url": "https://wikem.org/wiki/Open_fractures"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "clostridial",
+          "url": "https://wikem.org/wiki/Clostridial"
+        },
+        {
+          "text": "piperacillin/tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/tazobactam"
+        },
+        {
+          "text": "vibrio vulnificus",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificus"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Wound_management": {
+      "text": "Initial immobilization as needed\nOrthopedic \"Golden 6 hours\" – applies similarly to open fractures. Treat <6 hours with surgical debridement and washout\nCan irrigate grossly contaminated wounds in ED\nTetanus prophylaxis",
+      "subsections": {
+        "Prophylactic_Antibiotics": {
+          "text": "Depends on concern for infection (similar to\nopen fractures\n)\n[6]\nStaph\n/\nstrep\ncoverage – 1st generation\ncephalosporin\n(\ncefazolin\n2g IV TID)\nIf more contaminated – add\nanaerobic\ncoverage (\ngentamicin\n300mg IV)\nVery contaminated/farm contamination – concern for\nclostridial\ninfection (\npiperacillin/tazobactam\n4.5 g q8 hrs)\nSeawater contamination – concern for\nvibrio vulnificus\n(\ndoxycycline\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        },
+        {
+          "text": "open fractures",
+          "url": "https://wikem.org/wiki/Open_fractures"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "clostridial",
+          "url": "https://wikem.org/wiki/Clostridial"
+        },
+        {
+          "text": "piperacillin/tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/tazobactam"
+        },
+        {
+          "text": "vibrio vulnificus",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificus"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Prophylactic_Antibiotics": {
+      "text": "Depends on concern for infection (similar to\nopen fractures\n)\n[6]\nStaph\n/\nstrep\ncoverage – 1st generation\ncephalosporin\n(\ncefazolin\n2g IV TID)\nIf more contaminated – add\nanaerobic\ncoverage (\ngentamicin\n300mg IV)\nVery contaminated/farm contamination – concern for\nclostridial\ninfection (\npiperacillin/tazobactam\n4.5 g q8 hrs)\nSeawater contamination – concern for\nvibrio vulnificus\n(\ndoxycycline\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "open fractures",
+          "url": "https://wikem.org/wiki/Open_fractures"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "clostridial",
+          "url": "https://wikem.org/wiki/Clostridial"
+        },
+        {
+          "text": "piperacillin/tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/tazobactam"
+        },
+        {
+          "text": "vibrio vulnificus",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificus"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit to trauma or orthopedic surgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Open fracture\nFracture (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Fracture (Main)",
+          "url": "https://wikem.org/wiki/Fracture_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "General overview of joint loading test with methylene blue",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

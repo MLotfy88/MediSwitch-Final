@@ -1,0 +1,24 @@
+{
+  "drug_name": "Ophthalmology_abbreviations",
+  "url": "https://wikem.org/wiki/Ophthalmology_abbreviations",
+  "scraped_at": "2026-01-10T07:58:45.314097",
+  "sections": {
+    "Ophthalmology_Abbreviations": {
+      "text": "https://eyeguru.org/translator/\ncopy/paste note, will translate all abbreviations at once\nAAU: acute anterior uveitis\nAFT: artificial tears\nAGV: Ahmed glaucoma valve\nARMD or AMD: age-related macular degeneration\nDR: diabetic retinopathy\nBRAO: branch retinal artery occlusion\nBRVO: branch retinal vein occlusion\nBULB: bilateral upper lid blepharoplasty\nBVS: borderline visually significant\nC/D: cup-to-disc ratio\nCEIOL: cataract extraction with insertion of intraocular lens\nCME: cystoid macular edema\nCRAO: central retinal artery occlusion\nCRVO: central retinal vein occlusion\nCSME: clinically significant macular edema\nCS: cortical spoking (cataract)\nCSR: central serous retinopathy\nDBH: dot blood hemorrhage\nDES: dry eye syndrome\nDME: diabetic macular edema\nDWC: dense white cataract\nED: epithelial defect\nEL: endolaser\nERM: epiretinal membrane\nFML: focal macular laser\nGS: glaucoma suspect\nHST: horseshoe tear\nHVF: Humphrey visual field\nK: cornea\nLH/WC/AFTs: lid hygiene, warm compresses, artificial tears\nLPI: laser peripheral iridotomy\nMMCR: Muller's muscle conjunctival resection\nMP: membrane peel\nNCVH: non-clearing vitreous hemorrhage\nNPDR: non-proliferative diabetic retinopathy\nNS: nuclear sclerosis (cataract)\nNTG: normal tension glaucoma\nNVG: neovascular glaucoma\nNVS: not visually significant\nOD: right eye\nOHTN: ocular hypertension\nOS: left eye\nOU: both eyes\nPOAG: primary open angle glaucoma\nPCO: posterior capsular opacity (aka, secondary cataract)\nPDR: proliferative diabetic retinopathy\nPKP: penetrating keratoplasty (aka corneal transplant)\nPPV: pars plana vitrectomy\nPRP: pan retinal photocoagulation\nPSC: posterior subcapsular cataract\nPTG: pterygium\nPVD: posterior vitreous detachment\nRRD: rhegmatogenous retinal detachment\nRT: retinal tear\nSB: scleral buckle\nSRD: serous retinal detachment\nTrab: trabeculectomy\nTRD: tractional retinal detachment\nVA: visual acuity\nVH: vitreous hemorrhage\nVS: visually significant\nXT: exotropia\nYAG cap: YAG capsulotomy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Eye exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Eye exam",
+          "url": "https://wikem.org/wiki/Eye_exam"
+        }
+      ]
+    }
+  }
+}

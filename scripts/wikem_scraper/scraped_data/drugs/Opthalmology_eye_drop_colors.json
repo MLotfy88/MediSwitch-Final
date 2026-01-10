@@ -1,0 +1,63 @@
+{
+  "drug_name": "Opthalmology_eye_drop_colors",
+  "url": "https://wikem.org/wiki/Opthalmology_eye_drop_colors",
+  "scraped_at": "2026-01-10T07:58:48.450625",
+  "sections": {
+    "Intro": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Color": "Gray",
+            "Drug Category": "NSAIDS"
+          },
+          {
+            "Color": "Green",
+            "Drug Category": "Miotics"
+          },
+          {
+            "Color": "Orange",
+            "Drug Category": "Carbonic anhydrase inhibitor"
+          },
+          {
+            "Color": "Pink",
+            "Drug Category": "Steroids"
+          },
+          {
+            "Color": "Purple",
+            "Drug Category": "Adrenergics"
+          },
+          {
+            "Color": "Red",
+            "Drug Category": "Cycloplegics"
+          },
+          {
+            "Color": "Tan",
+            "Drug Category": "Antimicrobial"
+          },
+          {
+            "Color": "Turquoise",
+            "Drug Category": "Prostaglandin analogues"
+          },
+          {
+            "Color": "Yellow and Blue",
+            "Drug Category": "Beta blockers"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Eye Exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Eye Exam",
+          "url": "https://wikem.org/wiki/Eye_Exam"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "drug_name": "Orthostatic_intolerance",
+  "url": "https://wikem.org/wiki/Orthostatic_intolerance",
+  "scraped_at": "2026-01-10T07:58:55.277978",
+  "sections": {
+    "Overview": {
+      "text": "Post-space flight orthostatic intolerance (PSOI)\nis a medical condition experienced by astronauts after returning from space to Earth's gravity. PSOI refers to the inability of the body to maintain adequate blood pressure when transitioning from a horizontal position to an upright stance, which can cause dizziness, lightheadedness, and fainting.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pathophysiology": {
+      "text": "During spaceflight, the human body adapts to the microgravity environment by altering its physiological systems, particularly the cardiovascular system. In normal gravity conditions on Earth, the body relies on gravity-dependent processes such as venous return and blood pressure regulation. However, in microgravity, these processes are disrupted leading to a reduction of plasma volume, cardiac atrophy, and a decrease in baroreceptor sensitivity.\n[2]\nUpon returning to Earth's gravity, the body struggles to re-establish its normal cardiovascular functions, resulting in orthostatic intolerance, which can persist for several days up to several weeks post-flight. The inability to maintain adequate blood pressure and blood flow when standing upright leads to symptoms such as dizziness, lightheadedness, and fainting.\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Duration of spaceflight: Longer missions are associated with a higher incidence of PSOI.\nAge: Older individuals tend to be more susceptible to PSOI.\nSex: Females are at a greater risk for developing PSOI compared to males.\nPhysical fitness: Individuals with lower levels of physical fitness have a higher likelihood of experiencing PSOI.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Symptoms": {
+      "text": "Common symptoms include:\nDizziness or lightheadedness when standing up\nFainting or near-fainting\nHeadaches\nFatigue\nNausea and vomiting\nIncreased heart rate and blood pressure when standing up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Diagnosis of PSOI is primarily based on the individual's reported symptoms and medical history. Physical examination, including assessment of vital signs (blood pressure, pulse, and respiration) in supine and upright positions, may be performed to evaluate orthostatic changes.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Treatment": {
+      "text": "There is no definitive cure for PSOI, but several interventions can help alleviate its symptoms:\nFluid intake: Drinking plenty of fluids before, during, and after spaceflight can help maintain adequate hydration levels.\nGradual re-adaptation: Slowly transitioning from horizontal to upright positions upon return to Earth can reduce the risk of developing PSOI.\nMedications Options:\nFludrocortisone\n0.1-0.2 mg per day, starting 1-2 days before re-entry to Earth's gravity dose can be increased to 0.3-0.4 mg per day if needed\nMidodrine\n2.5-5 mg orally, 3 times a day and increased to 10 mg, 3 times a day, if needed\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fludrocortisone",
+          "url": "https://wikem.org/wiki/Fludrocortisone"
+        },
+        {
+          "text": "Midodrine",
+          "url": "https://wikem.org/wiki/Midodrine"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "Strategies include:\nPre-flight training: Astronauts undergo specific exercise regimens before spaceflight to improve cardiovascular fitness.\nIn-flight exercise: Regular exercise during spaceflight, such as using the advanced resistive exercise device (ARED), can help maintain cardiovascular function.\nPost-flight rehabilitation: Physical conditioning programs are implemented after return from space to gradually re-adapt the body to Earth's gravity.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_also": {
+      "text": "Space adaptation syndrome\nOrthostatic intolerance\nAstronaut physiology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Astronaut physiology",
+          "url": "https://wikem.org/wiki/Astronaut_physiology"
+        }
+      ]
+    }
+  }
+}

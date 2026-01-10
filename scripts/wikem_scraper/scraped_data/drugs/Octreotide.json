@@ -1,0 +1,162 @@
+{
+  "drug_name": "Octreotide",
+  "url": "https://wikem.org/wiki/Octreotide",
+  "scraped_at": "2026-01-10T07:58:38.870359",
+  "sections": {
+    "Administration": {
+      "text": "Type: Octapeptide\nDosage Forms:\nRoutes of Administration: IV, IM, or SQ\nCommon Trade Names: Sandostatin, Sandostatin LAR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Variceal_bleeding": {
+          "text": "Initial Bolus: 50mcg IV (range 25-100mcg)\n[1]\nDrip rate: 25-50 mcg/hr IV",
+          "tables": []
+        },
+        "Sulfonylurea_toxicity": {
+          "text": "50-75 mpg SQ or IM every 6 hrs as needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Variceal_bleeding": {
+      "text": "Initial Bolus: 50mcg IV (range 25-100mcg)\n[1]\nDrip rate: 25-50 mcg/hr IV",
+      "subsections": {
+        "Sulfonylurea_toxicity": {
+          "text": "50-75 mpg SQ or IM every 6 hrs as needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sulfonylurea_toxicity": {
+      "text": "50-75 mpg SQ or IM every 6 hrs as needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Sulfonylurea_Overdose": {
+          "text": "1-2 mpg/kg SQ or IM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sulfonylurea_Overdose": {
+      "text": "1-2 mpg/kg SQ or IM",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Octreotide crosses the placenta and can be detected in newborn at birth. Limited data on risk, case studies have not demonstrated any congenital malformations in fetuses.\nLactation risk\n:",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Dialysis patients: dosage adjustment may be required as clearance is reduced by ~50%.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No adjustments needed but clearance is reduced in patients with cirrhosis.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Dialysis patients: dosage adjustment may be required as clearance is reduced by ~50%.",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "No adjustments needed but clearance is reduced in patients with cirrhosis.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "No adjustments needed but clearance is reduced in patients with cirrhosis.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Hypoglycemia\nis rare but more common in older adults and type I diabetics\n[2]",
+      "subsections": {
+        "Serious": {
+          "text": "pancreatitis\nbradycardia\narrhythmias\nanaphylaxis\nthrombocytopenia",
+          "tables": []
+        },
+        "Common": {
+          "text": "nausea/vomiting/diarrhea\ndizziness\nfatigue\nedema\npruritus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1.5-2 hrs\n[3]\nMetabolism: Hepatic\n[3]\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "A peptide that mimics endogenous somatostatin. Somatostatin is released by the pancreas, pyloric antrum, and duodenum and inhibits Growth Gormone, Gastrin, Vasoactive intestinal peptide (VIP), Gastrin, Serotonin, and decreases Insulin like growth factor-1 (IGF-1), serotonin and it decreases splanchnic blood flow.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Although used in the ED mainly for sulfonylurea overdose and variceal bleeding, it is used in outpatient and inpatient medicine for the treatment of acromegaly, carcinoid tumors, and VIPomas\nOctreotide was originally used as a opioid antagonist and is still used off label as a second/third line therapy for diarrhea from opioid withdrawal because of antidiarrheal properties.\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Upper GI Bleed Guidelines\nUpper gastrointestinal bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI Bleed Guidelines",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleed_Guidelines"
+        },
+        {
+          "text": "Upper gastrointestinal bleeding",
+          "url": "https://wikem.org/wiki/Upper_gastrointestinal_bleeding"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1539 @@
+{
+  "drug_name": "Nontraumatic_thoracic_aortic_dissection",
+  "url": "https://wikem.org/wiki/Nontraumatic_thoracic_aortic_dissection",
+  "scraped_at": "2026-01-10T07:58:40.587200",
+  "sections": {
+    "Intro": {
+      "text": "Not to be confused with\ntraumatic aortic transection\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Most commonly seen in men 60-80 yrs old\nIntimal tear with blood leaking into media\nMortality in first 48 hours of acute presentation is high\nCommonly quoted as 1-2% per hour, but this is based on a series from the 1950s\n[1]\nMore recent data suggests mortality for type A dissection is 0.5% per hour when treated medically, and  0.1% per hour when managed surgically\n[2]\nDiagnosis delayed > 24hr in 50% of cases\nBimodal age distribution\nYoung with risk factors\nConnective tissue disease\n(e.g.\nMarfan syndrome\n, Ehlers-Danlos, collagen vascular disease)\nPregnancy\n, especially 3rd trimester\nRecent cardiac catheterization\nBicuspid aortic valve\nAortic coarctation\nElderly males with chronic hypertension\nAtherosclerotic risk factors (smoking, hypertension, HLD, DM)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Marfan syndrome",
+          "url": "https://wikem.org/wiki/Marfan_syndrome"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Aortic coarctation",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_Aorta"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "Symptoms\nTearing/ripping\npain\n(10.8x increased disease probability)\n64% described the pain as sharp vs 50.6% who described it as tearing or ripping\n[3]\nMigrating pain (7.6x)\nSudden chest pain (2.6x)\nHistory of\nhypertension\n(1.5x)\nSigns\nFocal neurologic deficit\n(33x)\nDiastolic heart\nmurmur\n(acute aortic regurg) (4.9x)\nPulse deficit (2.7x)\nHypertension\nat time of presentation (49% of all cases\n[4]\n)",
+          "tables": []
+        },
+        "Specific": {
+          "text": "Ascending Aorta\nAcute\naortic regurgitation\n, leading to a diastolic decrescendo\nmurmur\n,\nhypotension\n, or\nheart failure\n, in 50%-66%\nMI\n/Ischemia on ECG, usually inferior (dissection affects the right coronary artery more often than the left coronary artery\n[5]\n)\nCardiac Tamponade\nHemothorax\n- if adventitia disruption\nHorners\n, partial - sympathetic ganglion\nVoice hoarseness - recurrent laryngeal nerve compression\nCVA\n/\nSyncope\n- if carotid extension\nNeurological deficits\nSBP>20mmhg difference between arms\nHypertension\nat time of presentation (35.7% of all cases\n[4]\n)\nDescending Aorta\nChest pain\n,\nback pain\n,\nabdominal pain\nPain abrupt, severe (90% of patients) radiating to back\nHypertension\nat time of presentation (70.1% of all cases\n[4]\n)\nHemiplegia\n, neuropathy (15%)\nRenal failure\nDistal Pulse deficits/\nlimb ischemia\nMesenteric ischemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Focal neurologic deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Horners",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Neurological deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hemiplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "limb ischemia",
+          "url": "https://wikem.org/wiki/Limb_ischemia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        }
+      ]
+    },
+    "General": {
+      "text": "Symptoms\nTearing/ripping\npain\n(10.8x increased disease probability)\n64% described the pain as sharp vs 50.6% who described it as tearing or ripping\n[3]\nMigrating pain (7.6x)\nSudden chest pain (2.6x)\nHistory of\nhypertension\n(1.5x)\nSigns\nFocal neurologic deficit\n(33x)\nDiastolic heart\nmurmur\n(acute aortic regurg) (4.9x)\nPulse deficit (2.7x)\nHypertension\nat time of presentation (49% of all cases\n[4]\n)",
+      "subsections": {
+        "Specific": {
+          "text": "Ascending Aorta\nAcute\naortic regurgitation\n, leading to a diastolic decrescendo\nmurmur\n,\nhypotension\n, or\nheart failure\n, in 50%-66%\nMI\n/Ischemia on ECG, usually inferior (dissection affects the right coronary artery more often than the left coronary artery\n[5]\n)\nCardiac Tamponade\nHemothorax\n- if adventitia disruption\nHorners\n, partial - sympathetic ganglion\nVoice hoarseness - recurrent laryngeal nerve compression\nCVA\n/\nSyncope\n- if carotid extension\nNeurological deficits\nSBP>20mmhg difference between arms\nHypertension\nat time of presentation (35.7% of all cases\n[4]\n)\nDescending Aorta\nChest pain\n,\nback pain\n,\nabdominal pain\nPain abrupt, severe (90% of patients) radiating to back\nHypertension\nat time of presentation (70.1% of all cases\n[4]\n)\nHemiplegia\n, neuropathy (15%)\nRenal failure\nDistal Pulse deficits/\nlimb ischemia\nMesenteric ischemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Focal neurologic deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Horners",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Neurological deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hemiplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "limb ischemia",
+          "url": "https://wikem.org/wiki/Limb_ischemia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        }
+      ]
+    },
+    "Specific": {
+      "text": "Ascending Aorta\nAcute\naortic regurgitation\n, leading to a diastolic decrescendo\nmurmur\n,\nhypotension\n, or\nheart failure\n, in 50%-66%\nMI\n/Ischemia on ECG, usually inferior (dissection affects the right coronary artery more often than the left coronary artery\n[5]\n)\nCardiac Tamponade\nHemothorax\n- if adventitia disruption\nHorners\n, partial - sympathetic ganglion\nVoice hoarseness - recurrent laryngeal nerve compression\nCVA\n/\nSyncope\n- if carotid extension\nNeurological deficits\nSBP>20mmhg difference between arms\nHypertension\nat time of presentation (35.7% of all cases\n[4]\n)\nDescending Aorta\nChest pain\n,\nback pain\n,\nabdominal pain\nPain abrupt, severe (90% of patients) radiating to back\nHypertension\nat time of presentation (70.1% of all cases\n[4]\n)\nHemiplegia\n, neuropathy (15%)\nRenal failure\nDistal Pulse deficits/\nlimb ischemia\nMesenteric ischemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Horners",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Neurological deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hemiplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "limb ischemia",
+          "url": "https://wikem.org/wiki/Limb_ischemia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        },
+        "Hypertension": {
+          "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Chest_pain": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        },
+        "Hypertension": {
+          "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Hypertension": {
+      "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Aortic_Dissection_Detection_Risk_Score_(ADD-RS)": {
+          "text": "A score 1 should be awarded for each of the 3 categories that contain at least one of the listed features",
+          "tables": [
+            [
+              {
+                "Predisposing conditions": "Marfan syndromeConnective tissue diseaseFamily history of aortic diseaseRecent aortic manipulationKnown thoracic aortic aneurysm",
+                "Pain features": "Chest, back, or abdominal pain described as:Abrupt in onset/severe in intensityANDRipping/tearing/sharp or stabbing quality",
+                "Physical findings": "Evidence of perfusion deficitPulse deficitSystolic BP differentialFocal neurological deficit (in conjunction with pain)Murmur of aortic insufficiency (new or not known to be old and in conjunction with pain)Hypotensionof shock state"
+              }
+            ],
+            [
+              {
+                "Score": "0",
+                "Category": "Low",
+                "Prevalence": "6%"
+              },
+              {
+                "Score": "1",
+                "Category": "Intermediate",
+                "Prevalence": "27%"
+              },
+              {
+                "Score": ">1",
+                "Category": "High",
+                "Prevalence": "39%"
+              }
+            ]
+          ]
+        },
+        "No_Risk_Factor_Screening": {
+          "text": "CXR\nAbnormal in 90% (3.4x)\nMediastinal widening (seen in 56-63%)\nLeft sided pleural effusion (seen in 19%)\nWidening of aortic contour (seen in 48%), displaced calcification (6mm), Calcium sign (look for white line of calcium within aortic knob and measure to outer edge of the aortic knob - distance greater than 0.5 cm is positive and > 1 cm is highly suspicious for dissection), aortic kinking, double density sign",
+          "tables": []
+        },
+        "Low-Intermediate": {
+          "text": "(Based on ADD-RS)\n[6]\n[7]\n[8]\nD-dimer\nfor ADD-RS ≤ 1 (low or intermediate risk)",
+          "tables": []
+        },
+        "High_Risk/Definitive": {
+          "text": "CT aortogram chest\nStudy of choice\nSimilar sensitivity/specificity to TEE and MRA\nTEE\nIf CT delayed due to contrast allergy or availability, or patient instability.\nTEE has a sensitivity of 98% and 95% specific\n[9]",
+          "tables": []
+        },
+        "Other_Findings": {
+          "text": "ECG\nLVH\non admission ECG (3.2x)\nIschemia (esp inferior) - 15%\nNonspec ST-T changes - 40%\nBedside US\nCan help in ruling in patients when AOFT is >4cm\nRule out pericardial effusion and tamponade, especially in hypotension, syncope, dyspnea",
+          "tables": []
+        },
+        "Aortic_Dissection_Classification": {
+          "text": "Stanford\nType A: Involves any portion of ascending aorta\nType B: Isolated to descending aorta\nDe Bakey\nType I: Involves the ascending and descending aorta\nType II: Involves only the ascending aorta\nType III: Involves only the descending aorta",
+          "tables": [
+            [
+              {
+                "Image": "Percentage",
+                "": "25–30%"
+              },
+              {
+                "Image": "Type",
+                "": "DeBakey III"
+              },
+              {
+                "Image": "Classification",
+                "": "Stanford B (Distal)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Bedside US",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "No_Risk_Factor_Screening": {
+      "text": "CXR\nAbnormal in 90% (3.4x)\nMediastinal widening (seen in 56-63%)\nLeft sided pleural effusion (seen in 19%)\nWidening of aortic contour (seen in 48%), displaced calcification (6mm), Calcium sign (look for white line of calcium within aortic knob and measure to outer edge of the aortic knob - distance greater than 0.5 cm is positive and > 1 cm is highly suspicious for dissection), aortic kinking, double density sign",
+      "subsections": {
+        "Low-Intermediate": {
+          "text": "(Based on ADD-RS)\n[6]\n[7]\n[8]\nD-dimer\nfor ADD-RS ≤ 1 (low or intermediate risk)",
+          "tables": []
+        },
+        "High_Risk/Definitive": {
+          "text": "CT aortogram chest\nStudy of choice\nSimilar sensitivity/specificity to TEE and MRA\nTEE\nIf CT delayed due to contrast allergy or availability, or patient instability.\nTEE has a sensitivity of 98% and 95% specific\n[9]",
+          "tables": []
+        },
+        "Other_Findings": {
+          "text": "ECG\nLVH\non admission ECG (3.2x)\nIschemia (esp inferior) - 15%\nNonspec ST-T changes - 40%\nBedside US\nCan help in ruling in patients when AOFT is >4cm\nRule out pericardial effusion and tamponade, especially in hypotension, syncope, dyspnea",
+          "tables": []
+        },
+        "Aortic_Dissection_Classification": {
+          "text": "Stanford\nType A: Involves any portion of ascending aorta\nType B: Isolated to descending aorta\nDe Bakey\nType I: Involves the ascending and descending aorta\nType II: Involves only the ascending aorta\nType III: Involves only the descending aorta",
+          "tables": [
+            [
+              {
+                "Image": "Percentage",
+                "": "25–30%"
+              },
+              {
+                "Image": "Type",
+                "": "DeBakey III"
+              },
+              {
+                "Image": "Classification",
+                "": "Stanford B (Distal)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Bedside US",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Low-Intermediate": {
+      "text": "(Based on ADD-RS)\n[6]\n[7]\n[8]\nD-dimer\nfor ADD-RS ≤ 1 (low or intermediate risk)",
+      "subsections": {
+        "High_Risk/Definitive": {
+          "text": "CT aortogram chest\nStudy of choice\nSimilar sensitivity/specificity to TEE and MRA\nTEE\nIf CT delayed due to contrast allergy or availability, or patient instability.\nTEE has a sensitivity of 98% and 95% specific\n[9]",
+          "tables": []
+        },
+        "Other_Findings": {
+          "text": "ECG\nLVH\non admission ECG (3.2x)\nIschemia (esp inferior) - 15%\nNonspec ST-T changes - 40%\nBedside US\nCan help in ruling in patients when AOFT is >4cm\nRule out pericardial effusion and tamponade, especially in hypotension, syncope, dyspnea",
+          "tables": []
+        },
+        "Aortic_Dissection_Classification": {
+          "text": "Stanford\nType A: Involves any portion of ascending aorta\nType B: Isolated to descending aorta\nDe Bakey\nType I: Involves the ascending and descending aorta\nType II: Involves only the ascending aorta\nType III: Involves only the descending aorta",
+          "tables": [
+            [
+              {
+                "Image": "Percentage",
+                "": "25–30%"
+              },
+              {
+                "Image": "Type",
+                "": "DeBakey III"
+              },
+              {
+                "Image": "Classification",
+                "": "Stanford B (Distal)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Bedside US",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "High_Risk/Definitive": {
+      "text": "CT aortogram chest\nStudy of choice\nSimilar sensitivity/specificity to TEE and MRA\nTEE\nIf CT delayed due to contrast allergy or availability, or patient instability.\nTEE has a sensitivity of 98% and 95% specific\n[9]",
+      "subsections": {
+        "Other_Findings": {
+          "text": "ECG\nLVH\non admission ECG (3.2x)\nIschemia (esp inferior) - 15%\nNonspec ST-T changes - 40%\nBedside US\nCan help in ruling in patients when AOFT is >4cm\nRule out pericardial effusion and tamponade, especially in hypotension, syncope, dyspnea",
+          "tables": []
+        },
+        "Aortic_Dissection_Classification": {
+          "text": "Stanford\nType A: Involves any portion of ascending aorta\nType B: Isolated to descending aorta\nDe Bakey\nType I: Involves the ascending and descending aorta\nType II: Involves only the ascending aorta\nType III: Involves only the descending aorta",
+          "tables": [
+            [
+              {
+                "Image": "Percentage",
+                "": "25–30%"
+              },
+              {
+                "Image": "Type",
+                "": "DeBakey III"
+              },
+              {
+                "Image": "Classification",
+                "": "Stanford B (Distal)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Bedside US",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Other_Findings": {
+      "text": "ECG\nLVH\non admission ECG (3.2x)\nIschemia (esp inferior) - 15%\nNonspec ST-T changes - 40%\nBedside US\nCan help in ruling in patients when AOFT is >4cm\nRule out pericardial effusion and tamponade, especially in hypotension, syncope, dyspnea",
+      "subsections": {
+        "Aortic_Dissection_Classification": {
+          "text": "Stanford\nType A: Involves any portion of ascending aorta\nType B: Isolated to descending aorta\nDe Bakey\nType I: Involves the ascending and descending aorta\nType II: Involves only the ascending aorta\nType III: Involves only the descending aorta",
+          "tables": [
+            [
+              {
+                "Image": "Percentage",
+                "": "25–30%"
+              },
+              {
+                "Image": "Type",
+                "": "DeBakey III"
+              },
+              {
+                "Image": "Classification",
+                "": "Stanford B (Distal)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Bedside US",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Aortic_Dissection_Classification": {
+      "text": "Stanford\nType A: Involves any portion of ascending aorta\nType B: Isolated to descending aorta\nDe Bakey\nType I: Involves the ascending and descending aorta\nType II: Involves only the ascending aorta\nType III: Involves only the descending aorta",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Image": "Percentage",
+            "": "25–30%"
+          },
+          {
+            "Image": "Type",
+            "": "DeBakey III"
+          },
+          {
+            "Image": "Classification",
+            "": "Stanford B (Distal)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Principles": {
+          "text": "Control pain to reduce sympathetic stimulation.\nFentanyl\nis easily titratable with minimal cardiovascular effects\nRight radial arterial line or right arm blood pressure will generally be the most accurate\nReducing heart rate while maintaining low-normal blood pressure reduces aortic flow acceleration, thereby reducing shear force on the intimal wall\nGoal: HR < 60 bpm, SBP 100-120 mmHg\nControl heart rate before blood pressure\n[11]\nBeta blockers\nare good first-line option, since they reduce heart rate and aortic wall tension\nUse β-blockers with caution in severe, acute\naortic regurgitation\n- may worsen shock if dependent on compensatory tachycardia",
+          "tables": []
+        },
+        "Heart_Rate_control": {
+          "text": "Esmolol\nAdvantage of short half life, easily titratable\nBolus 0.5mg/kg over 1min; infuse 0.05mg/kg/min (titrate upward in 0.05mg/kg/min increments to a maximum of 0.3 mg/kg/min)\nEsmolol Drip Sheet\nLabetalol\n- has both α and beta effects\nPush dose - 10-20mg with repeat doses of 20-40mg q10min up to 300mg\nDrip - Load 15-20mg IV, followed by 5mg/hr\nMetoprolol\n5mg IV x 3; infuse at 2-5mg/hr\nDiltiazem\n- Use if contraindications to beta-blockers\nLoading 0.25mg/kg over 2–5 min, followed by a drip of 5mg/h",
+          "tables": []
+        },
+        "Blood_pressure_control_(vasodilators)": {
+          "text": "Use if needed after beta-blockade.\nNicardipine\n:\n5mg/hr start, then titrate up by 2.5mg/hr every 10 min until goal\nOnce at goal, drop to 3mg/hr and re-titrate from there\nMay initially bolus 2mg IV\n[12]\nClevidipine\n1-2 mg/hr\nDouble dose every 90 seconds until approaching goal BP, then increase in smaller amounts every 5-10 minutes until goal achieved.\n[13]\nNitroprusside\n0.3-0.5mcg/kg/min - Risk of cerebral blood vessel vasodilation and CN/Thiocynate toxicity\nFenoldopam\nEnalapril",
+          "tables": []
+        },
+        "Surgery": {
+          "text": "Type A (any portion of ascending aorta)\nRequires surgery\nType B (isolated to descending aorta)\nPrimarily medical management with surgery consultation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Clevidipine",
+          "url": "https://wikem.org/wiki/Clevidipine"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "Fenoldopam",
+          "url": "https://wikem.org/wiki/Fenoldopam"
+        },
+        {
+          "text": "Enalapril",
+          "url": "https://wikem.org/wiki/Enalapril"
+        }
+      ]
+    },
+    "General_Principles": {
+      "text": "Control pain to reduce sympathetic stimulation.\nFentanyl\nis easily titratable with minimal cardiovascular effects\nRight radial arterial line or right arm blood pressure will generally be the most accurate\nReducing heart rate while maintaining low-normal blood pressure reduces aortic flow acceleration, thereby reducing shear force on the intimal wall\nGoal: HR < 60 bpm, SBP 100-120 mmHg\nControl heart rate before blood pressure\n[11]\nBeta blockers\nare good first-line option, since they reduce heart rate and aortic wall tension\nUse β-blockers with caution in severe, acute\naortic regurgitation\n- may worsen shock if dependent on compensatory tachycardia",
+      "subsections": {
+        "Heart_Rate_control": {
+          "text": "Esmolol\nAdvantage of short half life, easily titratable\nBolus 0.5mg/kg over 1min; infuse 0.05mg/kg/min (titrate upward in 0.05mg/kg/min increments to a maximum of 0.3 mg/kg/min)\nEsmolol Drip Sheet\nLabetalol\n- has both α and beta effects\nPush dose - 10-20mg with repeat doses of 20-40mg q10min up to 300mg\nDrip - Load 15-20mg IV, followed by 5mg/hr\nMetoprolol\n5mg IV x 3; infuse at 2-5mg/hr\nDiltiazem\n- Use if contraindications to beta-blockers\nLoading 0.25mg/kg over 2–5 min, followed by a drip of 5mg/h",
+          "tables": []
+        },
+        "Blood_pressure_control_(vasodilators)": {
+          "text": "Use if needed after beta-blockade.\nNicardipine\n:\n5mg/hr start, then titrate up by 2.5mg/hr every 10 min until goal\nOnce at goal, drop to 3mg/hr and re-titrate from there\nMay initially bolus 2mg IV\n[12]\nClevidipine\n1-2 mg/hr\nDouble dose every 90 seconds until approaching goal BP, then increase in smaller amounts every 5-10 minutes until goal achieved.\n[13]\nNitroprusside\n0.3-0.5mcg/kg/min - Risk of cerebral blood vessel vasodilation and CN/Thiocynate toxicity\nFenoldopam\nEnalapril",
+          "tables": []
+        },
+        "Surgery": {
+          "text": "Type A (any portion of ascending aorta)\nRequires surgery\nType B (isolated to descending aorta)\nPrimarily medical management with surgery consultation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Clevidipine",
+          "url": "https://wikem.org/wiki/Clevidipine"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "Fenoldopam",
+          "url": "https://wikem.org/wiki/Fenoldopam"
+        },
+        {
+          "text": "Enalapril",
+          "url": "https://wikem.org/wiki/Enalapril"
+        }
+      ]
+    },
+    "Heart_Rate_control": {
+      "text": "Esmolol\nAdvantage of short half life, easily titratable\nBolus 0.5mg/kg over 1min; infuse 0.05mg/kg/min (titrate upward in 0.05mg/kg/min increments to a maximum of 0.3 mg/kg/min)\nEsmolol Drip Sheet\nLabetalol\n- has both α and beta effects\nPush dose - 10-20mg with repeat doses of 20-40mg q10min up to 300mg\nDrip - Load 15-20mg IV, followed by 5mg/hr\nMetoprolol\n5mg IV x 3; infuse at 2-5mg/hr\nDiltiazem\n- Use if contraindications to beta-blockers\nLoading 0.25mg/kg over 2–5 min, followed by a drip of 5mg/h",
+      "subsections": {
+        "Blood_pressure_control_(vasodilators)": {
+          "text": "Use if needed after beta-blockade.\nNicardipine\n:\n5mg/hr start, then titrate up by 2.5mg/hr every 10 min until goal\nOnce at goal, drop to 3mg/hr and re-titrate from there\nMay initially bolus 2mg IV\n[12]\nClevidipine\n1-2 mg/hr\nDouble dose every 90 seconds until approaching goal BP, then increase in smaller amounts every 5-10 minutes until goal achieved.\n[13]\nNitroprusside\n0.3-0.5mcg/kg/min - Risk of cerebral blood vessel vasodilation and CN/Thiocynate toxicity\nFenoldopam\nEnalapril",
+          "tables": []
+        },
+        "Surgery": {
+          "text": "Type A (any portion of ascending aorta)\nRequires surgery\nType B (isolated to descending aorta)\nPrimarily medical management with surgery consultation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Clevidipine",
+          "url": "https://wikem.org/wiki/Clevidipine"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "Fenoldopam",
+          "url": "https://wikem.org/wiki/Fenoldopam"
+        },
+        {
+          "text": "Enalapril",
+          "url": "https://wikem.org/wiki/Enalapril"
+        }
+      ]
+    },
+    "Surgery": {
+      "text": "Type A (any portion of ascending aorta)\nRequires surgery\nType B (isolated to descending aorta)\nPrimarily medical management with surgery consultation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission to OR or ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "AV Regurgitation/Insufficiency\nCHF\nwith diastolic murmur\nRupture\nPericardium:\ncardiac tamponade\nMediastinum:\nhemothorax\nVascular obstruction\nCoronary:\nACS\nCarotid:\nCVA\nLumbar: Paraplegia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hypertensive emergency\nTraumatic aortic transection\nAbdominal aortic aneurysm\nIRAD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "IRAD",
+          "url": "https://wikem.org/wiki/IRAD"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "NNT Aortic Dissection LRs\nAHA Full Guidelines\nAHA Quick Summary\nALiEM Paucis Verbis: International Registry on Aortic Dissection (IRAD)\nMDcalc ADD Score",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

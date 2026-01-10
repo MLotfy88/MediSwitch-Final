@@ -1,0 +1,428 @@
+{
+  "drug_name": "Orbital_compartment_syndrome",
+  "url": "https://wikem.org/wiki/Orbital_compartment_syndrome",
+  "scraped_at": "2026-01-10T07:58:52.835506",
+  "sections": {
+    "Background": {
+      "text": "Rare, vision-threatening ophthalmic emergency characterized by an acute elevation of intra-orbital pressure which exceeds the vascular perfusion pressure of the ophthalmic artery.\n[1]\nMost commonly caused by acute orbital or facial trauma\nLess common causes include local injections, orbital infection, orbital emphysema, foreign bodies, and spontaneous hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Decreased visual acuity\nAfferent pupillary defect\nDifficulty opening eyelids\nLimited motility\nProptosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Decreased visual acuity",
+          "url": "https://wikem.org/wiki/Visual_loss"
+        },
+        {
+          "text": "Proptosis",
+          "url": "https://wikem.org/wiki/Proptosis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Retinal detachment\n[2]\nGlobe rupture\nEndophthalmitis\nOptic nerve decompression\nAnterior ischemic optic neuropathy (AION)",
+      "subsections": {
+        "Proptosis": {
+          "text": "Normal\nIOP\nOrbital cellulitis\nOrbital pseudotumor\nOrbital tumor\nIncreased\nIOP\nRetrobulbar\nabscess\nRetrobulbar emphysema\nRetrobulbar hemorrhage\nOcular compartment syndrome\nOrbital tumor",
+          "tables": []
+        },
+        "No_proptosis": {
+          "text": "Periorbital cellulitis\n/\nerysipelas\nDacryocystitis\n(lacrimal duct)\nDacryocele/Dacryocystocele\nDacryostenosis\nDacryoadenitis\n(lacrimal gland)\nAllergic reaction\nNephrotic Syndrome\n(pediatrics)",
+          "tables": []
+        },
+        "Lid_Complications": {
+          "text": "Blepharitis\n(crusts)\nChalazion\n(meibomian gland)\nStye (hordeolum)\n(eyelash folicle)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Subperiosteal\nabscess\nOrbital\nabscess\nCavernous sinus thrombosis\nConjunctivitis\nContact dermatitis\nHerpes zoster\nHerpes simplex\nSarcoidosis\nGranulomatosis with polyangiitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Orbital pseudotumor",
+          "url": "https://wikem.org/wiki/Orbital_pseudotumor"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Periorbital cellulitis",
+          "url": "https://wikem.org/wiki/Periorbital_cellulitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Dacryocystitis",
+          "url": "https://wikem.org/wiki/Dacryocystitis"
+        },
+        {
+          "text": "Dacryostenosis",
+          "url": "https://wikem.org/wiki/Dacryostenosis"
+        },
+        {
+          "text": "Dacryoadenitis",
+          "url": "https://wikem.org/wiki/Dacryoadenitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Chalazion",
+          "url": "https://wikem.org/wiki/Chalazion"
+        },
+        {
+          "text": "Stye (hordeolum)",
+          "url": "https://wikem.org/wiki/Stye_(hordeolum)"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        }
+      ]
+    },
+    "Periorbital_swelling": {
+      "text": "",
+      "subsections": {
+        "Proptosis": {
+          "text": "Normal\nIOP\nOrbital cellulitis\nOrbital pseudotumor\nOrbital tumor\nIncreased\nIOP\nRetrobulbar\nabscess\nRetrobulbar emphysema\nRetrobulbar hemorrhage\nOcular compartment syndrome\nOrbital tumor",
+          "tables": []
+        },
+        "No_proptosis": {
+          "text": "Periorbital cellulitis\n/\nerysipelas\nDacryocystitis\n(lacrimal duct)\nDacryocele/Dacryocystocele\nDacryostenosis\nDacryoadenitis\n(lacrimal gland)\nAllergic reaction\nNephrotic Syndrome\n(pediatrics)",
+          "tables": []
+        },
+        "Lid_Complications": {
+          "text": "Blepharitis\n(crusts)\nChalazion\n(meibomian gland)\nStye (hordeolum)\n(eyelash folicle)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Subperiosteal\nabscess\nOrbital\nabscess\nCavernous sinus thrombosis\nConjunctivitis\nContact dermatitis\nHerpes zoster\nHerpes simplex\nSarcoidosis\nGranulomatosis with polyangiitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Orbital pseudotumor",
+          "url": "https://wikem.org/wiki/Orbital_pseudotumor"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Periorbital cellulitis",
+          "url": "https://wikem.org/wiki/Periorbital_cellulitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Dacryocystitis",
+          "url": "https://wikem.org/wiki/Dacryocystitis"
+        },
+        {
+          "text": "Dacryostenosis",
+          "url": "https://wikem.org/wiki/Dacryostenosis"
+        },
+        {
+          "text": "Dacryoadenitis",
+          "url": "https://wikem.org/wiki/Dacryoadenitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Chalazion",
+          "url": "https://wikem.org/wiki/Chalazion"
+        },
+        {
+          "text": "Stye (hordeolum)",
+          "url": "https://wikem.org/wiki/Stye_(hordeolum)"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Do NOT delay treatment for diagnostic studies if there is already a high clinical suspicion for OCS\nTonometry\n(\nTono-pen\n)\nDo NOT use until\nglobe rupture\nhas been excluded\nNormal pressure 10-20mmHg; pressure >35mmHg suggests OCS\n[3]\nLabs\nCBC/BMP (if history of trauma or cellulitis)\nCoag panel (coagulopathy increases risk for\nretrobulbar hemorrhage\n)\nImaging\nCT (Orbit)\nMay help identify etiology or exclude diagnoses\n75% of OCS cases will show a change in posterior globe configuration (\"globe tenting\")\nUltrasound (orbit)\nNot been validated for AOCS, but may identify other ocular pathologies (retinal detachment, central retinal artery occlusion, lens dislocation, vitreous hemorrhage, and vitreous detachment\n[4]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosis can made clinically with afferent pupillary defect, vision loss, and intraocular pressure >35mmHg",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tono-pen",
+          "url": "https://wikem.org/wiki/Tono-pen"
+        },
+        {
+          "text": "globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ultrasound (orbit)",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Do NOT delay treatment for diagnostic studies if there is already a high clinical suspicion for OCS\nTonometry\n(\nTono-pen\n)\nDo NOT use until\nglobe rupture\nhas been excluded\nNormal pressure 10-20mmHg; pressure >35mmHg suggests OCS\n[3]\nLabs\nCBC/BMP (if history of trauma or cellulitis)\nCoag panel (coagulopathy increases risk for\nretrobulbar hemorrhage\n)\nImaging\nCT (Orbit)\nMay help identify etiology or exclude diagnoses\n75% of OCS cases will show a change in posterior globe configuration (\"globe tenting\")\nUltrasound (orbit)\nNot been validated for AOCS, but may identify other ocular pathologies (retinal detachment, central retinal artery occlusion, lens dislocation, vitreous hemorrhage, and vitreous detachment\n[4]",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Diagnosis can made clinically with afferent pupillary defect, vision loss, and intraocular pressure >35mmHg",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tono-pen",
+          "url": "https://wikem.org/wiki/Tono-pen"
+        },
+        {
+          "text": "globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ultrasound (orbit)",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Diagnosis can made clinically with afferent pupillary defect, vision loss, and intraocular pressure >35mmHg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Definitive therapy is\nlateral canthotomy\nwith inferior cantholysis or\nvertical lid split procedure\n[5]\nEmergent ophthalmology consultation\nConsider adjunctive medical therapy:\n20%\nmannitol\n2 g/kg IV\nmethylprednisolone\n, 250mg IV or hydrocortisone 100mg IV\nacetazolamide\n, 250 to 500mg IV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lateral canthotomy",
+          "url": "https://wikem.org/wiki/Lateral_canthotomy"
+        },
+        {
+          "text": "vertical lid split procedure",
+          "url": "https://wikem.org/wiki/Vertical_lid_split_procedure"
+        },
+        {
+          "text": "mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Retrobulbar hemorrhage\nOrbital Blowout Fracture\nCanthotomy\nEye Algorithm (Main)\nBlunt Eye Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Orbital Blowout Fracture",
+          "url": "https://wikem.org/wiki/Orbital_Blowout_Fracture"
+        },
+        {
+          "text": "Canthotomy",
+          "url": "https://wikem.org/wiki/Canthotomy"
+        },
+        {
+          "text": "Eye Algorithm (Main)",
+          "url": "https://wikem.org/wiki/Eye_Algorithm_(Main)"
+        },
+        {
+          "text": "Blunt Eye Trauma",
+          "url": "https://wikem.org/wiki/Blunt_Eye_Trauma"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "REBEL EM (\nhttps://rebelem.com/orbital-compartment-syndrome-pearls-and-pitfalls-for-the-ed-physician/\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

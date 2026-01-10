@@ -1,0 +1,182 @@
+{
+  "drug_name": "Oral_contrast_for_abdominal_and_pelvic_CT",
+  "url": "https://wikem.org/wiki/Oral_contrast_for_abdominal_and_pelvic_CT",
+  "scraped_at": "2026-01-10T07:58:49.501994",
+  "sections": {
+    "Background": {
+      "text": "Oral contrast considerations for patients undergoing CT of abdomen and/or pelvis\nPros: May add improved imaging characteristics for some patient groups\nCons: Requires significant \"lead time\" (i.e. must administer >1hr prior to CT scan) and can result in delays to care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications_for_Oral_Contrast": {
+      "text": "",
+      "subsections": {
+        "Desirable": {
+          "text": "Suspected fistula or bowel leak\nSuspected\nintussusception\nor internal hernia",
+          "tables": []
+        },
+        "May_Consider": {
+          "text": "Suspected low-grade\nbowel obstruction\n[1]\nFor suspected high-grade\nbowel obstruction\n, oral contrast is contra-indicated (wastes time, adds expense, can induce further patient discomfort, will not add to diagnostic accuracy, and can lead to complications, particularly vomiting and aspiration)\n[1]\nIntra-abdominal\nabscess\ndepending on the suspected primary source\nMay not be required if primary source is skin infection\nMetastatic evaluation\nSuspected\nHernia\nAppendicitis\nor\nDiverticulitis\nwith BMI <20\n\"Oral or rectal contrast may not be needed depending on institutional preference.\"\n[1]\n\"Evidence is trending against the routine use of oral contrast, and particularly against the routine use of rectal contrast, for CT when IV contrast is used.\"\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        }
+      ]
+    },
+    "Desirable": {
+      "text": "Suspected fistula or bowel leak\nSuspected\nintussusception\nor internal hernia",
+      "subsections": {
+        "May_Consider": {
+          "text": "Suspected low-grade\nbowel obstruction\n[1]\nFor suspected high-grade\nbowel obstruction\n, oral contrast is contra-indicated (wastes time, adds expense, can induce further patient discomfort, will not add to diagnostic accuracy, and can lead to complications, particularly vomiting and aspiration)\n[1]\nIntra-abdominal\nabscess\ndepending on the suspected primary source\nMay not be required if primary source is skin infection\nMetastatic evaluation\nSuspected\nHernia\nAppendicitis\nor\nDiverticulitis\nwith BMI <20\n\"Oral or rectal contrast may not be needed depending on institutional preference.\"\n[1]\n\"Evidence is trending against the routine use of oral contrast, and particularly against the routine use of rectal contrast, for CT when IV contrast is used.\"\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        }
+      ]
+    },
+    "May_Consider": {
+      "text": "Suspected low-grade\nbowel obstruction\n[1]\nFor suspected high-grade\nbowel obstruction\n, oral contrast is contra-indicated (wastes time, adds expense, can induce further patient discomfort, will not add to diagnostic accuracy, and can lead to complications, particularly vomiting and aspiration)\n[1]\nIntra-abdominal\nabscess\ndepending on the suspected primary source\nMay not be required if primary source is skin infection\nMetastatic evaluation\nSuspected\nHernia\nAppendicitis\nor\nDiverticulitis\nwith BMI <20\n\"Oral or rectal contrast may not be needed depending on institutional preference.\"\n[1]\n\"Evidence is trending against the routine use of oral contrast, and particularly against the routine use of rectal contrast, for CT when IV contrast is used.\"\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        }
+      ]
+    },
+    "Redypaque_Dose": {
+      "text": "(100cc/age)/3 = dose x 3\nMax = 300cc",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Weight": "<2 kg",
+            "Give 1 hour prior to scan": "None or as ordered by physician",
+            "Give 30 minutes prior to scan": "None or as ordered by physician",
+            "Give immediately upon arrival to CT": "None or as ordered by physician"
+          },
+          {
+            "Weight": "2-5 kg",
+            "Give 1 hour prior to scan": "30 mL",
+            "Give 30 minutes prior to scan": "30 mL",
+            "Give immediately upon arrival to CT": "30 mL"
+          },
+          {
+            "Weight": ">5-20 kg",
+            "Give 1 hour prior to scan": "90 mL",
+            "Give 30 minutes prior to scan": "90 mL",
+            "Give immediately upon arrival to CT": "90 mL"
+          },
+          {
+            "Weight": ">20-50 kg",
+            "Give 1 hour prior to scan": "150 mL",
+            "Give 30 minutes prior to scan": "150 mL",
+            "Give immediately upon arrival to CT": "150 mL"
+          },
+          {
+            "Weight": ">50 kg",
+            "Give 1 hour prior to scan": "300 mL",
+            "Give 30 minutes prior to scan": "300 mL",
+            "Give immediately upon arrival to CT": "300 mL"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Contrast-induced nephropathy\nCreatinine screening prior to IV contrast",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Contrast-induced nephropathy",
+          "url": "https://wikem.org/wiki/Contrast-induced_nephropathy"
+        },
+        {
+          "text": "Creatinine screening prior to IV contrast",
+          "url": "https://wikem.org/wiki/Creatinine_screening_prior_to_IV_contrast"
+        }
+      ]
+    }
+  }
+}

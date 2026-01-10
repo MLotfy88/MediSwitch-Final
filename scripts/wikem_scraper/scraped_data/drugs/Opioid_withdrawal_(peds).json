@@ -1,0 +1,708 @@
+{
+  "drug_name": "Opioid_withdrawal_(peds)",
+  "url": "https://wikem.org/wiki/Opioid_withdrawal_(peds)",
+  "scraped_at": "2026-01-10T07:58:44.233199",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nOpioid withdrawal\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Natural derivatives (Opiates):\nHeroin\n,\nMorphine\n,\nCodeine\n,\nHydrocodone\n,\nOxycodone\n(+ UDS)\nSynthetic:\nFentanyl\n,\nHydromorphone\n,\nBuprenorphine\n,\nMethadone\n,\nMeperidine\n,\nDextromethorphan\n(- UDS)\nOpioid withdrawal can be precipitated with administration of antagonist (e.g. naloxone) or partial agonist (e.g.\nbuprenorphine\n)\n[1]\nor as a result of cessation of use\nSymptoms are usually uncomfortable but not life-threatening and manifest with agitation and restlessness but\ndoes not cause altered mental status\nSymptoms may resemble those of\nInfluenza\n[2]\nCatecholamine surge during withdrawal may cause a level of hemodynamic instability that may not be tolerated by patients with co-morbid conditions\nWithdrawal can be life-threatening in neonates",
+      "subsections": {
+        "Adult_Opioid_Withdrawal": {
+          "text": "Heroin\n: onset 6-12 hours, peak 24-72 hours, duration 7-10 days\n[3]\nMethadone\n: onset 24-72 hours, peak 4-6 days, duration 14 days or more\nFentanyl\n: onset 2-5 hours, peak 8-12 hours, duration 4-5 days\nBuprenorphine\n: 4-48 hours, peak 96 hours, duration 14-21 days",
+          "tables": []
+        },
+        "Precipitated_Withdrawal": {
+          "text": "Naloxone\n: onset 1-3 min, duration: 30-60min\nButorphanol or nalbuphine: 15 min, duration: 90 min\nNaltrexone\n: 15-30min, duration 12-24hours\nBuprenorphine\n: 10-15min, duration 12-24 hours",
+          "tables": []
+        },
+        "Neonatal_Opioid_Withdrawal": {
+          "text": "Heroin\n: onset within 24hrs\nMethadone\n: onset within 2-3 days due to large volume of distribution\n[4]\nBuprenorphine\n: onset within 2-3 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Codeine",
+          "url": "https://wikem.org/wiki/Codeine"
+        },
+        {
+          "text": "Hydrocodone",
+          "url": "https://wikem.org/wiki/Hydrocodone"
+        },
+        {
+          "text": "Oxycodone",
+          "url": "https://wikem.org/wiki/Oxycodone"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "Naltrexone",
+          "url": "https://wikem.org/wiki/Naltrexone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        }
+      ]
+    },
+    "Adult_Opioid_Withdrawal": {
+      "text": "Heroin\n: onset 6-12 hours, peak 24-72 hours, duration 7-10 days\n[3]\nMethadone\n: onset 24-72 hours, peak 4-6 days, duration 14 days or more\nFentanyl\n: onset 2-5 hours, peak 8-12 hours, duration 4-5 days\nBuprenorphine\n: 4-48 hours, peak 96 hours, duration 14-21 days",
+      "subsections": {
+        "Precipitated_Withdrawal": {
+          "text": "Naloxone\n: onset 1-3 min, duration: 30-60min\nButorphanol or nalbuphine: 15 min, duration: 90 min\nNaltrexone\n: 15-30min, duration 12-24hours\nBuprenorphine\n: 10-15min, duration 12-24 hours",
+          "tables": []
+        },
+        "Neonatal_Opioid_Withdrawal": {
+          "text": "Heroin\n: onset within 24hrs\nMethadone\n: onset within 2-3 days due to large volume of distribution\n[4]\nBuprenorphine\n: onset within 2-3 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "Naltrexone",
+          "url": "https://wikem.org/wiki/Naltrexone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        }
+      ]
+    },
+    "Precipitated_Withdrawal": {
+      "text": "Naloxone\n: onset 1-3 min, duration: 30-60min\nButorphanol or nalbuphine: 15 min, duration: 90 min\nNaltrexone\n: 15-30min, duration 12-24hours\nBuprenorphine\n: 10-15min, duration 12-24 hours",
+      "subsections": {
+        "Neonatal_Opioid_Withdrawal": {
+          "text": "Heroin\n: onset within 24hrs\nMethadone\n: onset within 2-3 days due to large volume of distribution\n[4]\nBuprenorphine\n: onset within 2-3 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "Naltrexone",
+          "url": "https://wikem.org/wiki/Naltrexone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        }
+      ]
+    },
+    "Neonatal_Opioid_Withdrawal": {
+      "text": "Heroin\n: onset within 24hrs\nMethadone\n: onset within 2-3 days due to large volume of distribution\n[4]\nBuprenorphine\n: onset within 2-3 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Time to peak and duration of symptoms depends on the half-life of the drug involved",
+      "subsections": {
+        "Early_symptoms": {
+          "text": "Agitation/restlessness\nAnxiety\nMuscle aches\nIncreased tearing\nInsomnia\nRunny nose\nSweating\nYawning\nSkin-Crawling\nMay be tachycardic and/or tachypneic but not necessarily",
+          "tables": []
+        },
+        "Late_symptoms": {
+          "text": "Abdominal cramping\nDiarrhea\nDilated pupils\nGoose bumps\nNausea\nVomiting\nUnlike\nalcohol\nor\nbenzodiazepine\nwithdrawal, patients rarely have seizures\nAltered mental status is also not part of opioid withdrawal signs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        }
+      ]
+    },
+    "Early_symptoms": {
+      "text": "Agitation/restlessness\nAnxiety\nMuscle aches\nIncreased tearing\nInsomnia\nRunny nose\nSweating\nYawning\nSkin-Crawling\nMay be tachycardic and/or tachypneic but not necessarily",
+      "subsections": {
+        "Late_symptoms": {
+          "text": "Abdominal cramping\nDiarrhea\nDilated pupils\nGoose bumps\nNausea\nVomiting\nUnlike\nalcohol\nor\nbenzodiazepine\nwithdrawal, patients rarely have seizures\nAltered mental status is also not part of opioid withdrawal signs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        }
+      ]
+    },
+    "Late_symptoms": {
+      "text": "Abdominal cramping\nDiarrhea\nDilated pupils\nGoose bumps\nNausea\nVomiting\nUnlike\nalcohol\nor\nbenzodiazepine\nwithdrawal, patients rarely have seizures\nAltered mental status is also not part of opioid withdrawal signs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Differential is largely based on clinical symptoms and history\nSepsis\nInfluenza\nClonidine\nwithdrawal\nSympathomimetic\nuse",
+      "subsections": {
+        "Sedative/hypnotic_withdrawal": {
+          "text": "Toxic alcohols\nEthanol\nEthylene glycol\nMethanol\nIsopropyl alcohol\nBenzodiazepines\nFlunitrazepam\n(Rohypnol)\nGamma hydroxybutyrate\n(GHB)\nBaclofen\nBarbiturates\nOpioids\nChloral hydrate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine"
+        },
+        {
+          "text": "Sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_withdrawal"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Flunitrazepam",
+          "url": "https://wikem.org/wiki/Flunitrazepam_withdrawal"
+        },
+        {
+          "text": "Gamma hydroxybutyrate",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_withdrawal"
+        },
+        {
+          "text": "Baclofen",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    },
+    "Sedative/hypnotic_withdrawal": {
+      "text": "Toxic alcohols\nEthanol\nEthylene glycol\nMethanol\nIsopropyl alcohol\nBenzodiazepines\nFlunitrazepam\n(Rohypnol)\nGamma hydroxybutyrate\n(GHB)\nBaclofen\nBarbiturates\nOpioids\nChloral hydrate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_withdrawal"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Flunitrazepam",
+          "url": "https://wikem.org/wiki/Flunitrazepam_withdrawal"
+        },
+        {
+          "text": "Gamma hydroxybutyrate",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_withdrawal"
+        },
+        {
+          "text": "Baclofen",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nConsider\nurine toxicology screen\nand BMP if signs of dehydration\nClinical Opiate Withdrawal Score (\nCOWS\n) can be used to determine severity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treatment should include symptomatic treatment as well as discussing medications for opioid use disorder including methadone and buprenorphine. Buprenorphine should be offered to be initiated in the emergency department to patients who are interested and meet criteria for initiation, and linkage to care should be facilitated.\n[5]",
+      "subsections": {
+        "Supportive_Care": {
+          "text": "PO/IV hydration\nElectrolyte repletion",
+          "tables": []
+        },
+        "Opioid_replacement": {
+          "text": "Opioid administration such as\nmorphine\ncan be given as needed for symptom control",
+          "tables": []
+        },
+        "Clonidine": {
+          "text": "A central α\n2\nagonist that does suppress the sympathetic hyperactivity that results during acute withdrawal\nDosing:  0.1mg PO (or 5mcg/kg PO if SBP >90 mmHg) every 60 minutes as needed for sympathetic symptoms\nMajor adverse effect is hypotension\nClonidine patches are not useful for acute withdrawal due to the 24hr delayed release\n[\ncitation needed\n]",
+          "tables": []
+        },
+        "Lofexidine": {
+          "text": "A newer central alpha\n2\nagonist",
+          "tables": []
+        },
+        "Buspirone": {
+          "text": "Generally reserved for outpatient therapy\nDecreases serotonergic activity\n[6]",
+          "tables": []
+        },
+        "Benzodiazepines": {
+          "text": "Can be added along with with clonidine for adequate sedation",
+          "tables": []
+        },
+        "Methadone": {
+          "text": "Consider if withdrawal was precipitated by interruption in opioid use, NOT if antagonist (e.g. narcan) was given\nDose: 10mg IM or 30mg PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "citation needed",
+          "url": "https://wikem.org/wiki/WikEM:Citation_needed"
+        }
+      ]
+    },
+    "Supportive_Care": {
+      "text": "PO/IV hydration\nElectrolyte repletion",
+      "subsections": {
+        "Opioid_replacement": {
+          "text": "Opioid administration such as\nmorphine\ncan be given as needed for symptom control",
+          "tables": []
+        },
+        "Clonidine": {
+          "text": "A central α\n2\nagonist that does suppress the sympathetic hyperactivity that results during acute withdrawal\nDosing:  0.1mg PO (or 5mcg/kg PO if SBP >90 mmHg) every 60 minutes as needed for sympathetic symptoms\nMajor adverse effect is hypotension\nClonidine patches are not useful for acute withdrawal due to the 24hr delayed release\n[\ncitation needed\n]",
+          "tables": []
+        },
+        "Lofexidine": {
+          "text": "A newer central alpha\n2\nagonist",
+          "tables": []
+        },
+        "Buspirone": {
+          "text": "Generally reserved for outpatient therapy\nDecreases serotonergic activity\n[6]",
+          "tables": []
+        },
+        "Benzodiazepines": {
+          "text": "Can be added along with with clonidine for adequate sedation",
+          "tables": []
+        },
+        "Methadone": {
+          "text": "Consider if withdrawal was precipitated by interruption in opioid use, NOT if antagonist (e.g. narcan) was given\nDose: 10mg IM or 30mg PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "citation needed",
+          "url": "https://wikem.org/wiki/WikEM:Citation_needed"
+        }
+      ]
+    },
+    "Opioid_replacement": {
+      "text": "Opioid administration such as\nmorphine\ncan be given as needed for symptom control",
+      "subsections": {
+        "Clonidine": {
+          "text": "A central α\n2\nagonist that does suppress the sympathetic hyperactivity that results during acute withdrawal\nDosing:  0.1mg PO (or 5mcg/kg PO if SBP >90 mmHg) every 60 minutes as needed for sympathetic symptoms\nMajor adverse effect is hypotension\nClonidine patches are not useful for acute withdrawal due to the 24hr delayed release\n[\ncitation needed\n]",
+          "tables": []
+        },
+        "Lofexidine": {
+          "text": "A newer central alpha\n2\nagonist",
+          "tables": []
+        },
+        "Buspirone": {
+          "text": "Generally reserved for outpatient therapy\nDecreases serotonergic activity\n[6]",
+          "tables": []
+        },
+        "Benzodiazepines": {
+          "text": "Can be added along with with clonidine for adequate sedation",
+          "tables": []
+        },
+        "Methadone": {
+          "text": "Consider if withdrawal was precipitated by interruption in opioid use, NOT if antagonist (e.g. narcan) was given\nDose: 10mg IM or 30mg PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "citation needed",
+          "url": "https://wikem.org/wiki/WikEM:Citation_needed"
+        }
+      ]
+    },
+    "Clonidine": {
+      "text": "A central α\n2\nagonist that does suppress the sympathetic hyperactivity that results during acute withdrawal\nDosing:  0.1mg PO (or 5mcg/kg PO if SBP >90 mmHg) every 60 minutes as needed for sympathetic symptoms\nMajor adverse effect is hypotension\nClonidine patches are not useful for acute withdrawal due to the 24hr delayed release\n[\ncitation needed\n]",
+      "subsections": {
+        "Lofexidine": {
+          "text": "A newer central alpha\n2\nagonist",
+          "tables": []
+        },
+        "Buspirone": {
+          "text": "Generally reserved for outpatient therapy\nDecreases serotonergic activity\n[6]",
+          "tables": []
+        },
+        "Benzodiazepines": {
+          "text": "Can be added along with with clonidine for adequate sedation",
+          "tables": []
+        },
+        "Methadone": {
+          "text": "Consider if withdrawal was precipitated by interruption in opioid use, NOT if antagonist (e.g. narcan) was given\nDose: 10mg IM or 30mg PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "citation needed",
+          "url": "https://wikem.org/wiki/WikEM:Citation_needed"
+        }
+      ]
+    },
+    "Lofexidine": {
+      "text": "A newer central alpha\n2\nagonist",
+      "subsections": {
+        "Buspirone": {
+          "text": "Generally reserved for outpatient therapy\nDecreases serotonergic activity\n[6]",
+          "tables": []
+        },
+        "Benzodiazepines": {
+          "text": "Can be added along with with clonidine for adequate sedation",
+          "tables": []
+        },
+        "Methadone": {
+          "text": "Consider if withdrawal was precipitated by interruption in opioid use, NOT if antagonist (e.g. narcan) was given\nDose: 10mg IM or 30mg PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Buspirone": {
+      "text": "Generally reserved for outpatient therapy\nDecreases serotonergic activity\n[6]",
+      "subsections": {
+        "Benzodiazepines": {
+          "text": "Can be added along with with clonidine for adequate sedation",
+          "tables": []
+        },
+        "Methadone": {
+          "text": "Consider if withdrawal was precipitated by interruption in opioid use, NOT if antagonist (e.g. narcan) was given\nDose: 10mg IM or 30mg PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Benzodiazepines": {
+      "text": "Can be added along with with clonidine for adequate sedation",
+      "subsections": {
+        "Methadone": {
+          "text": "Consider if withdrawal was precipitated by interruption in opioid use, NOT if antagonist (e.g. narcan) was given\nDose: 10mg IM or 30mg PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Antihistamines": {
+      "text": "",
+      "subsections": {
+        "Methadone": {
+          "text": "Consider if withdrawal was precipitated by interruption in opioid use, NOT if antagonist (e.g. narcan) was given\nDose: 10mg IM or 30mg PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Methadone": {
+      "text": "Consider if withdrawal was precipitated by interruption in opioid use, NOT if antagonist (e.g. narcan) was given\nDose: 10mg IM or 30mg PO",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Patients who need long term detoxification can be admitted or transferred to detox facilities\nIf patients are going to continue to use opioids then those who are stable can be discharged\nPatients with severe withdrawal requiring sedation and continued monitoring should be admitted",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neonatal abstinence syndrome\nOpioid toxicity\nHarbor:Opiate Withdrawal/MAT/BUP",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Opioid toxicity",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Harbor:Opiate Withdrawal/MAT/BUP",
+          "url": "https://wikem.org/wiki/Harbor:Opiate_Withdrawal/MAT/BUP"
+        }
+      ]
+    }
+  }
+}

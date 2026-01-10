@@ -1,0 +1,168 @@
+{
+  "drug_name": "Oseltamivir",
+  "url": "https://wikem.org/wiki/Oseltamivir",
+  "scraped_at": "2026-01-10T07:58:55.555853",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiviral\nRoutes of Administration: Oral\nCommon Trade Names: Tamiflu",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Influenza": {
+          "text": "75mg PO BID x 5 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Influenza": {
+      "text": "75mg PO BID x 5 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Influenza_2": {
+          "text": "Age <1 year:\n3mg/kg PO BID x 5 days\n<15kg:\n30mg PO BID x 5 days\n15-23kg:\n45mg PO BID x 5 days\n24-40kg:\n60mg PO BID x5d\nAdult:\n75mg PO BID x 5 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Influenza_2": {
+      "text": "Age <1 year:\n3mg/kg PO BID x 5 days\n<15kg:\n30mg PO BID x 5 days\n15-23kg:\n45mg PO BID x 5 days\n24-40kg:\n60mg PO BID x5d\nAdult:\n75mg PO BID x 5 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category C\nLactation risk\n: Low concentrations of oseltamivir seen in breast milk; levels are unlikely to lead to toxicity in a breast-fed infant. The manufacturer recommends that caution be used if administered to a nursing woman.\nHigh Risk for Complications and Recommended for Treatment per CDC:\nChildren < 2 yo\nAdults > 65 yo\nChronic Pulmonary Disease including Asthma\nCardiovascular disease (excluding hypertension only)\nRenal, hepatic, hematological, and metabolic disorders (including sickle cell, diabetes)\nNeurological and Neurodevelopmental disorders (brain disorders, spinal cord, peripheral nerve disorders, cerebreal palsy, epilepsy, stroke, MR, developmental delay, muscular dystrophy)\nImmunosuppressed including on HAART\nPregnant or Postpartum (2 weeks after delivery)\n<19 yo on long term aspirin\nAmerican Indians/Alaskan natives\nMorbid Obesity (BMI >= 40)\nNursing home or chronic care facility residents.",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "CrCl >31 to 60 mL/minute: 30mg BID for 5 days\nCrCl >11 to 30 mL/minute: 30mg qday for 5 days\nESRD on HD CrCl≤10 mL/minute: 30mg after every hemodialysis cycle (treatment duration not to exceed 5 days)\nESRD patients on Continuous Ambulatory Peritoneal Dialysis CrCl≤10 mL/minute: Single 30mg dose administered immediately after dialysis exchange",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "efficacy in hepatic impairment has not been established",
+          "tables": []
+        },
+        "Chemoprophylaxis": {
+          "text": "In general, Centers for Disease Control does not recommend seasonal or pre-exposure antiviral chemoprophylaxis, but can be considered in certain situations:\nPatients at high risk of influenza complications during the first two weeks following vaccination after exposure to a person with influenza.\nPatients who cannot receive influenza vaccine due to a contraindication after exposure to a person with influenza.\nPrevention for people with severe immune deficiencies or others who might not respond to influenza vaccination, such as people receiving immunosuppressive medications, after exposure to a person with influenza.\nTo be effective as chemoprophylaxis, an antiviral medication must be taken each day for the duration of potential exposure to a person with influenza and continued for 7 days after the last known exposure. For people taking antiviral chemoprophylaxis after inactivated influenza vaccination, the recommended duration is until immunity after vaccination develops (antibody development after vaccination takes about two weeks in adults and can take longer in children depending on age and vaccination history).\nAntiviral chemoprophylaxis generally is not recommended if more than 48 hours have elapsed since the first exposure to a person with influenza.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "CrCl >31 to 60 mL/minute: 30mg BID for 5 days\nCrCl >11 to 30 mL/minute: 30mg qday for 5 days\nESRD on HD CrCl≤10 mL/minute: 30mg after every hemodialysis cycle (treatment duration not to exceed 5 days)\nESRD patients on Continuous Ambulatory Peritoneal Dialysis CrCl≤10 mL/minute: Single 30mg dose administered immediately after dialysis exchange",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "efficacy in hepatic impairment has not been established",
+          "tables": []
+        },
+        "Chemoprophylaxis": {
+          "text": "In general, Centers for Disease Control does not recommend seasonal or pre-exposure antiviral chemoprophylaxis, but can be considered in certain situations:\nPatients at high risk of influenza complications during the first two weeks following vaccination after exposure to a person with influenza.\nPatients who cannot receive influenza vaccine due to a contraindication after exposure to a person with influenza.\nPrevention for people with severe immune deficiencies or others who might not respond to influenza vaccination, such as people receiving immunosuppressive medications, after exposure to a person with influenza.\nTo be effective as chemoprophylaxis, an antiviral medication must be taken each day for the duration of potential exposure to a person with influenza and continued for 7 days after the last known exposure. For people taking antiviral chemoprophylaxis after inactivated influenza vaccination, the recommended duration is until immunity after vaccination develops (antibody development after vaccination takes about two weeks in adults and can take longer in children depending on age and vaccination history).\nAntiviral chemoprophylaxis generally is not recommended if more than 48 hours have elapsed since the first exposure to a person with influenza.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "efficacy in hepatic impairment has not been established",
+      "subsections": {
+        "Chemoprophylaxis": {
+          "text": "In general, Centers for Disease Control does not recommend seasonal or pre-exposure antiviral chemoprophylaxis, but can be considered in certain situations:\nPatients at high risk of influenza complications during the first two weeks following vaccination after exposure to a person with influenza.\nPatients who cannot receive influenza vaccine due to a contraindication after exposure to a person with influenza.\nPrevention for people with severe immune deficiencies or others who might not respond to influenza vaccination, such as people receiving immunosuppressive medications, after exposure to a person with influenza.\nTo be effective as chemoprophylaxis, an antiviral medication must be taken each day for the duration of potential exposure to a person with influenza and continued for 7 days after the last known exposure. For people taking antiviral chemoprophylaxis after inactivated influenza vaccination, the recommended duration is until immunity after vaccination develops (antibody development after vaccination takes about two weeks in adults and can take longer in children depending on age and vaccination history).\nAntiviral chemoprophylaxis generally is not recommended if more than 48 hours have elapsed since the first exposure to a person with influenza.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chemoprophylaxis": {
+      "text": "In general, Centers for Disease Control does not recommend seasonal or pre-exposure antiviral chemoprophylaxis, but can be considered in certain situations:\nPatients at high risk of influenza complications during the first two weeks following vaccination after exposure to a person with influenza.\nPatients who cannot receive influenza vaccine due to a contraindication after exposure to a person with influenza.\nPrevention for people with severe immune deficiencies or others who might not respond to influenza vaccination, such as people receiving immunosuppressive medications, after exposure to a person with influenza.\nTo be effective as chemoprophylaxis, an antiviral medication must be taken each day for the duration of potential exposure to a person with influenza and continued for 7 days after the last known exposure. For people taking antiviral chemoprophylaxis after inactivated influenza vaccination, the recommended duration is until immunity after vaccination develops (antibody development after vaccination takes about two weeks in adults and can take longer in children depending on age and vaccination history).\nAntiviral chemoprophylaxis generally is not recommended if more than 48 hours have elapsed since the first exposure to a person with influenza.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "dysrhythmia\nerythema multiforme/TEN/SJS\nGI bleed, hepatitis\nseizure, delirium",
+          "tables": []
+        },
+        "Common": {
+          "text": "abdominal pain, nausea/vomiting, diarrhea\nInsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "dysrhythmia\nerythema multiforme/TEN/SJS\nGI bleed, hepatitis\nseizure, delirium",
+      "subsections": {
+        "Common": {
+          "text": "abdominal pain, nausea/vomiting, diarrhea\nInsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "abdominal pain, nausea/vomiting, diarrhea\nInsomnia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1-3h\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "inhibits viral neuroaminidase→ interferes with viral particle release",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Influenza\nShortens duration of illness by 16.8 hrs while NNTH (number needed to harm) was 28 in regards to causing nausea and vomiting, HA, and renal and psych syndromes\n[1]\nGreatest benefit if within 48hrs of symptom onset\n[2]\nHowever, may be beneficial up to 4-5 days, including in pregnant patients\nEarly treatment of hospitalized patients can reduce death",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

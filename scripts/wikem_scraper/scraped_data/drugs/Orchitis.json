@@ -1,0 +1,351 @@
+{
+  "drug_name": "Orchitis",
+  "url": "https://wikem.org/wiki/Orchitis",
+  "scraped_at": "2026-01-10T07:58:52.792766",
+  "sections": {
+    "Background": {
+      "text": "Inflammation of testis - can be infectious (usually) or non-infectious\nInfectious\nViral\n- most common etiology is\nmumps\n(orchitis seen in 20-30% of mumps patients)\n[1]\nEpididymis typically not involved\nBacterial - typically due to hematogenous spread from\nepididymis\n: \"epididymo-orchitis\"\n(bacterial infections rarely involve only the testis)\nbacterial pathogens:\nN. gonorrhea\n,\nC. trachomatis\n,\nE. Coli\n,\nKlebsiella\n,\nP. aeruginosa",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "epididymis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "N. gonorrhea",
+          "url": "https://wikem.org/wiki/N._gonorrhea"
+        },
+        {
+          "text": "C. trachomatis",
+          "url": "https://wikem.org/wiki/C._trachomatis"
+        },
+        {
+          "text": "E. Coli",
+          "url": "https://wikem.org/wiki/E._Coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "P. aeruginosa",
+          "url": "https://wikem.org/wiki/P._aeruginosa"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Testicular tenderness, edema\nMay see erythema of overlying scrotum\nViral orchitis\nAbrupt onset of scrotal pain/swelling 4-7 days after onset of parotitis\n[1]\nUsually unilateral\nFever\n,\ntachycardia\nInguinal\nlymphadenopathy\nPatient uncomfortable while seated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Testicular_Diagnoses": {
+          "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        }
+      ]
+    },
+    "Testicular_Diagnoses": {
+      "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Testicular ultrasound\nUrinalysis\nand urine culture\nMay also consider GC, Chlamydia cultures",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Combination of clinical features and results of imaging/UA\nUltrasound\nmay show inflammation, epididymitis, and rules out active torsion\nUrinalysis\npositive for infection in epididymo-orchitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Testicular_ultrasound"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Testicular ultrasound\nUrinalysis\nand urine culture\nMay also consider GC, Chlamydia cultures",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Combination of clinical features and results of imaging/UA\nUltrasound\nmay show inflammation, epididymitis, and rules out active torsion\nUrinalysis\npositive for infection in epididymo-orchitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Testicular_ultrasound"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Combination of clinical features and results of imaging/UA\nUltrasound\nmay show inflammation, epididymitis, and rules out active torsion\nUrinalysis\npositive for infection in epididymo-orchitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Testicular_ultrasound"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Viral orchitis (mumps): supportive care, cold packs, scrotal elevation,\nanalgesia\n.\nBacterial orchitis (epididymo-orchitis):\n<35yo (assume sexually transmitted):\nCeftriaxone\n250mg IM x1\nAND\nDoxycycline\n100mg PO BID x14 days\nOR\nAzithromycin\n1gm x1\nAlso treat sexual partner\n>35yo, NO history of anal intercourse and NOT sexually active:\nOfloxacin 300mg PO BID x14 days\nOR\nlevofloxacin\n500mg QD x10 days\nOR\nciprofloxacin\n500mg PO BID x14 days\nIV:\npiperacillin/tazobactam\n3.375g IV q6 or\nampicillin/sulbactam\n3g IV q6",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "piperacillin/tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/tazobactam"
+        },
+        {
+          "text": "ampicillin/sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/sulbactam"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally may be discharged home",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Testicular Diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Testicular Diagnoses",
+          "url": "https://wikem.org/wiki/Testicular_Diagnoses"
+        }
+      ]
+    }
+  }
+}

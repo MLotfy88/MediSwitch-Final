@@ -1,0 +1,509 @@
+{
+  "drug_name": "Open_fracture",
+  "url": "https://wikem.org/wiki/Open_fracture",
+  "scraped_at": "2026-01-10T07:58:47.781884",
+  "sections": {
+    "Background": {
+      "text": "Fractures that have communication with the outside environment are considered \"open\".\nThe fractured portion does not have to be overtly exposed.\nInfection can lead to serious complications including nonunion and osteomyelitis.\nTrue orthopedic emergency due to increased risk of infection from exposure of bone.\nEarly initial antimicrobial prophylaxis has been shown to reduce the risk of infection (ARR 6.5%, NNT = 16).\n[1]\nAntibiotic prophylaxis for >24 hours duration has not been demonstrated to improve outcomes, including for type III open fractures.\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Fracture with overlying wound suspected of reaching bone (i.e. \"communicating\"), regardless of how narrow wound may be",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Extremity_trauma": {
+      "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ATLS\nX-ray\nShows fracture type\nFree air on x-ray may suggest open fracture in more equivocal cases (not sensitive)\nTrauma labs",
+      "subsections": {
+        "Additional_Considerations": {
+          "text": "Additional sites of injury found in 40-80% of cases\nNerve, vascular, muscular, and/or ligamentous injury",
+          "tables": []
+        },
+        "Gustilo-Anderson_grading_scale": {
+          "text": "As the grade increases, so does the risk of infection",
+          "tables": []
+        },
+        "Grade_I": {
+          "text": "Wound <1cm\nLittle soft tissue injury or crush injury\nModerately clean puncture site\nInfection risk 0-12%",
+          "tables": []
+        },
+        "Grade_II": {
+          "text": "Laceration >1cm\nNo extensive soft tissue damage, but slight or moderate crush injury\nModerate contamination\nInfection risk 2-12%",
+          "tables": []
+        },
+        "Grade_III": {
+          "text": "Extensive damage to soft tissue, including neurovascular structures and muscle\nHigh degree of contamination\nInfection risk 5-50%\nFurther subcategorized:\nIII A: Fracture covered by soft tissue (Infection risk 5-10%)\nIII B: Loss of soft tissue and evidence of bone stripping (Infection risk 10-50%)\nIII C: Any fracture with an associated arterial injury that requires surgical repair (Infection risk 25-50%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ATLS",
+          "url": "https://wikem.org/wiki/ATLS"
+        }
+      ]
+    },
+    "Gustilo-Anderson_grading_scale": {
+      "text": "As the grade increases, so does the risk of infection",
+      "subsections": {
+        "Grade_I": {
+          "text": "Wound <1cm\nLittle soft tissue injury or crush injury\nModerately clean puncture site\nInfection risk 0-12%",
+          "tables": []
+        },
+        "Grade_II": {
+          "text": "Laceration >1cm\nNo extensive soft tissue damage, but slight or moderate crush injury\nModerate contamination\nInfection risk 2-12%",
+          "tables": []
+        },
+        "Grade_III": {
+          "text": "Extensive damage to soft tissue, including neurovascular structures and muscle\nHigh degree of contamination\nInfection risk 5-50%\nFurther subcategorized:\nIII A: Fracture covered by soft tissue (Infection risk 5-10%)\nIII B: Loss of soft tissue and evidence of bone stripping (Infection risk 10-50%)\nIII C: Any fracture with an associated arterial injury that requires surgical repair (Infection risk 25-50%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Pain_control": {
+          "text": "Typically opioid pain control\nFentanyl\n(preferred initially for trauma patients with concern for possible\nhemorrhagic shock\n) or\nmorphine\n(for longer-acting control)",
+          "tables": []
+        },
+        "Prophylactic_Antibiotics_for_Open_fractures": {
+          "text": "Initiate as soon as possible; increased infection rate when delayed\n[3]",
+          "tables": []
+        },
+        "Grade_I_&_II_Fractures_Options": {
+          "text": "Cefazolin\n(Ancef) 2 g IV (immediately and q8 hours x 3 total doses)\n[4]\nCephalosporin allergy:\nclindamycin\n900 mg IV (immediately and q8 hours x 3 total doses)\n[4]",
+          "tables": []
+        },
+        "Grade_III_Fracture_Options": {
+          "text": "Ceftriaxone\n2 g IV (immediately x 1 total dose) PLUS\nvancomycin\n1 g IV (immediately and q12 hours x 2 total doses)\n[4]\nCephalosporin allergy:\naztreonam\n2 g IV (immediately and q8 hours x 3) PLUS\nvancomycin\n1 g IV (immediately and q12 hours x 2 total doses)\n[4]",
+          "tables": []
+        },
+        "Special_Considerations": {
+          "text": "Concern for\nclostridium\n(soil contamination, farm injuries, possible bowel contamination): additionally add\npenicillin\n[5]\n[4]\nFresh water wounds:\nfluoroquinolones\nOR 3rd/4th generation\ncephalosporin\nSaltwater wounds (\nvibrio\n):\ndoxycycline\n+\nceftazidime\nOR\nfluoroquinolone",
+          "tables": []
+        },
+        "Wound_Managment_": {
+          "text": "Surgical debridement and washout within 24 hours.\nThorough ED irrigation and debridement appears safe for hand (metacarpal, phalanx) fractures without excessive contamination\nIrrigation may be started in the ED for grossly contaminated wounds\nPlace a sterile dressing over wound to decrease continued contamination\nTetanus prophylaxis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "clostridium",
+          "url": "https://wikem.org/wiki/Clostridium"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "Pain_control": {
+      "text": "Typically opioid pain control\nFentanyl\n(preferred initially for trauma patients with concern for possible\nhemorrhagic shock\n) or\nmorphine\n(for longer-acting control)",
+      "subsections": {
+        "Prophylactic_Antibiotics_for_Open_fractures": {
+          "text": "Initiate as soon as possible; increased infection rate when delayed\n[3]",
+          "tables": []
+        },
+        "Grade_I_&_II_Fractures_Options": {
+          "text": "Cefazolin\n(Ancef) 2 g IV (immediately and q8 hours x 3 total doses)\n[4]\nCephalosporin allergy:\nclindamycin\n900 mg IV (immediately and q8 hours x 3 total doses)\n[4]",
+          "tables": []
+        },
+        "Grade_III_Fracture_Options": {
+          "text": "Ceftriaxone\n2 g IV (immediately x 1 total dose) PLUS\nvancomycin\n1 g IV (immediately and q12 hours x 2 total doses)\n[4]\nCephalosporin allergy:\naztreonam\n2 g IV (immediately and q8 hours x 3) PLUS\nvancomycin\n1 g IV (immediately and q12 hours x 2 total doses)\n[4]",
+          "tables": []
+        },
+        "Special_Considerations": {
+          "text": "Concern for\nclostridium\n(soil contamination, farm injuries, possible bowel contamination): additionally add\npenicillin\n[5]\n[4]\nFresh water wounds:\nfluoroquinolones\nOR 3rd/4th generation\ncephalosporin\nSaltwater wounds (\nvibrio\n):\ndoxycycline\n+\nceftazidime\nOR\nfluoroquinolone",
+          "tables": []
+        },
+        "Wound_Managment_": {
+          "text": "Surgical debridement and washout within 24 hours.\nThorough ED irrigation and debridement appears safe for hand (metacarpal, phalanx) fractures without excessive contamination\nIrrigation may be started in the ED for grossly contaminated wounds\nPlace a sterile dressing over wound to decrease continued contamination\nTetanus prophylaxis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "clostridium",
+          "url": "https://wikem.org/wiki/Clostridium"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "Prophylactic_Antibiotics_for_Open_fractures": {
+      "text": "Initiate as soon as possible; increased infection rate when delayed\n[3]",
+      "subsections": {
+        "Grade_I_&_II_Fractures_Options": {
+          "text": "Cefazolin\n(Ancef) 2 g IV (immediately and q8 hours x 3 total doses)\n[4]\nCephalosporin allergy:\nclindamycin\n900 mg IV (immediately and q8 hours x 3 total doses)\n[4]",
+          "tables": []
+        },
+        "Grade_III_Fracture_Options": {
+          "text": "Ceftriaxone\n2 g IV (immediately x 1 total dose) PLUS\nvancomycin\n1 g IV (immediately and q12 hours x 2 total doses)\n[4]\nCephalosporin allergy:\naztreonam\n2 g IV (immediately and q8 hours x 3) PLUS\nvancomycin\n1 g IV (immediately and q12 hours x 2 total doses)\n[4]",
+          "tables": []
+        },
+        "Special_Considerations": {
+          "text": "Concern for\nclostridium\n(soil contamination, farm injuries, possible bowel contamination): additionally add\npenicillin\n[5]\n[4]\nFresh water wounds:\nfluoroquinolones\nOR 3rd/4th generation\ncephalosporin\nSaltwater wounds (\nvibrio\n):\ndoxycycline\n+\nceftazidime\nOR\nfluoroquinolone",
+          "tables": []
+        },
+        "Wound_Managment_": {
+          "text": "Surgical debridement and washout within 24 hours.\nThorough ED irrigation and debridement appears safe for hand (metacarpal, phalanx) fractures without excessive contamination\nIrrigation may be started in the ED for grossly contaminated wounds\nPlace a sterile dressing over wound to decrease continued contamination\nTetanus prophylaxis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "clostridium",
+          "url": "https://wikem.org/wiki/Clostridium"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "Wound_Managment_": {
+      "text": "Surgical debridement and washout within 24 hours.\nThorough ED irrigation and debridement appears safe for hand (metacarpal, phalanx) fractures without excessive contamination\nIrrigation may be started in the ED for grossly contaminated wounds\nPlace a sterile dressing over wound to decrease continued contamination\nTetanus prophylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission to ortho or trauma surgery\nDischarge may be considered for select fractures (e.g. metacarpal, phalanx without excessive contamination), typically after bedside washout by consulting service (e.g. orthopedics)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fracture (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fracture (Main)",
+          "url": "https://wikem.org/wiki/Fracture_(Main)"
+        }
+      ]
+    }
+  }
+}

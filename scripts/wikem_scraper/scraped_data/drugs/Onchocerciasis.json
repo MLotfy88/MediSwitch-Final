@@ -1,0 +1,225 @@
+{
+  "drug_name": "Onchocerciasis",
+  "url": "https://wikem.org/wiki/Onchocerciasis",
+  "scraped_at": "2026-01-10T07:58:44.934554",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"river blindness\"\nSecond most common cause of infectious blindness worldwide\n(~300,000 people worldwide - another ~800,000 have visual disturbances)\nSecond only to\nTrachoma\n99% of infected individuals live in Africa\nCaused by\nOnchocerca volvulus\nA round worm (Nematode)\nSpread by the black fly (genus Simulium)\nBite during the day time\nLive in and near fast flowing streams and rivers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trachoma",
+          "url": "https://wikem.org/wiki/Trachoma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Mainly consist of cutaneous and ocular symptoms secondary to the inflammation reactions from migration of the larvae or death of the larvae",
+      "subsections": {
+        "Cutaneous_manifestations": {
+          "text": "Pruritis\nOnchodermatitis - pruritic cutaneous nodules (may be acute or chronic)\nElephant skin - skin thickening\nLizard skin - skin atrophy and wrinkling\nLeopard skin - areas of depigmentation",
+          "tables": []
+        },
+        "Ocular_manifestations": {
+          "text": "Localized punctate keratitis that can become sclerosing keratitis → opacification of the cornea\nThought to be caused by migration of the microfilariae to the corneal surface\nSome evidence exists to suggest that the ocular manifestations are from the immune response to Wolbachia (an endosymbiant to Onchocera)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cutaneous_manifestations": {
+      "text": "Pruritis\nOnchodermatitis - pruritic cutaneous nodules (may be acute or chronic)\nElephant skin - skin thickening\nLizard skin - skin atrophy and wrinkling\nLeopard skin - areas of depigmentation",
+      "subsections": {
+        "Ocular_manifestations": {
+          "text": "Localized punctate keratitis that can become sclerosing keratitis → opacification of the cornea\nThought to be caused by migration of the microfilariae to the corneal surface\nSome evidence exists to suggest that the ocular manifestations are from the immune response to Wolbachia (an endosymbiant to Onchocera)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ocular_manifestations": {
+      "text": "Localized punctate keratitis that can become sclerosing keratitis → opacification of the cornea\nThought to be caused by migration of the microfilariae to the corneal surface\nSome evidence exists to suggest that the ocular manifestations are from the immune response to Wolbachia (an endosymbiant to Onchocera)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Travel-related_skin_conditions": {
+          "text": "Papules\nInsect bites\nScabies\nSeabather's eruption\nCercarial dermatitis\n(Swimmer's Itch)\nMacular\nChikungunya\nSub Q Swelling and Nodules\nMyiasis\nTungiasis\nLoa loa\nAfrican Trypanosomiasis\nOnchocerciasis\nUlcers\nTropical pyoderma\nLeishmaniasis\nMycobacterium marinum\nBuruli ulcer\nDracunculiasis\n(Guinea Worm disease)\nLinear and Migratory Lesions\nCutaneous larvae migrans\nPhotodermatitis\nSee also domestic U.S.\nectoparasites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "African Trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_Trypanosomiasis"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Buruli ulcer",
+          "url": "https://wikem.org/wiki/Buruli_ulcer"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Cutaneous larvae migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larvae_migrans"
+        },
+        {
+          "text": "ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        }
+      ]
+    },
+    "Travel-related_skin_conditions": {
+      "text": "Papules\nInsect bites\nScabies\nSeabather's eruption\nCercarial dermatitis\n(Swimmer's Itch)\nMacular\nChikungunya\nSub Q Swelling and Nodules\nMyiasis\nTungiasis\nLoa loa\nAfrican Trypanosomiasis\nOnchocerciasis\nUlcers\nTropical pyoderma\nLeishmaniasis\nMycobacterium marinum\nBuruli ulcer\nDracunculiasis\n(Guinea Worm disease)\nLinear and Migratory Lesions\nCutaneous larvae migrans\nPhotodermatitis\nSee also domestic U.S.\nectoparasites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "African Trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_Trypanosomiasis"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Buruli ulcer",
+          "url": "https://wikem.org/wiki/Buruli_ulcer"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Cutaneous larvae migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larvae_migrans"
+        },
+        {
+          "text": "ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Skin snip\nMultiple small (1-2 gm) snips are placed in normal saline and presence of microfilariae detected\nCan PCR biopsy if negative for microfilariae\nMazotti test\nPlace diethylcarbazine (DEC) on patch of skin - localized pruritus and urticaria are positive reactions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Ivermectin\n150mcg/kg one time dose\nUsually distributed in endemic areas as part of a mass drug administration (2 doses 6 months apart, every three years)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ivermectin",
+          "url": "https://wikem.org/wiki/Ivermectin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parasites\nTravel medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasites",
+          "url": "https://wikem.org/wiki/Parasites"
+        },
+        {
+          "text": "Travel medicine",
+          "url": "https://wikem.org/wiki/Travel_medicine"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "World Health Organization - Onchocerciasis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

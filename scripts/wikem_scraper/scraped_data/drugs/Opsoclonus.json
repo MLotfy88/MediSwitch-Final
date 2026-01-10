@@ -1,0 +1,323 @@
+{
+  "drug_name": "Opsoclonus",
+  "url": "https://wikem.org/wiki/Opsoclonus",
+  "scraped_at": "2026-01-10T07:58:48.941723",
+  "sections": {
+    "Background": {
+      "text": "Definition: involuntary, irregular multidirectional  saccadic eye movements.\n[1]\nOccurs at fixed gaze and has been reported with various medication overdoses such as\norganophosphates\n,\nlithium\n, cetirizine, amitryptiline, and\ndiphenhydramine\n.\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Multidirectional involuntary eye movements when at fixed gaze",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Neurologic_Causes": {
+          "text": "Benign paroxysmal positional vertigo\nBrain tumors\nICH\nLateral medullary syndrome\nMeniere's disease\nMultiple sclerosis\nStroke\nWernicke's encephalopathy",
+          "tables": []
+        },
+        "Toxicologic": {
+          "text": "Alcohol intoxication\nAmphetamines\nBarbiturates\nBenzodiazepines\nKetamine\nLithium toxicity\nOther anticonvulsants or sedatives\nPhencyclidine\n(PCP)\nPhenytoin\n(Dilantin)\nSalicylates\nSSRI toxicity\nThiamine\ndeficiency",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Brain tumors",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Lateral medullary syndrome",
+          "url": "https://wikem.org/wiki/Lateral_medullary_syndrome"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Wernicke's encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke%27s_encephalopathy"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "SSRI toxicity",
+          "url": "https://wikem.org/wiki/SSRI_toxicity"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        }
+      ]
+    },
+    "Neurologic_Causes": {
+      "text": "Benign paroxysmal positional vertigo\nBrain tumors\nICH\nLateral medullary syndrome\nMeniere's disease\nMultiple sclerosis\nStroke\nWernicke's encephalopathy",
+      "subsections": {
+        "Toxicologic": {
+          "text": "Alcohol intoxication\nAmphetamines\nBarbiturates\nBenzodiazepines\nKetamine\nLithium toxicity\nOther anticonvulsants or sedatives\nPhencyclidine\n(PCP)\nPhenytoin\n(Dilantin)\nSalicylates\nSSRI toxicity\nThiamine\ndeficiency",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Brain tumors",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Lateral medullary syndrome",
+          "url": "https://wikem.org/wiki/Lateral_medullary_syndrome"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Wernicke's encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke%27s_encephalopathy"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "SSRI toxicity",
+          "url": "https://wikem.org/wiki/SSRI_toxicity"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        }
+      ]
+    },
+    "Toxicologic": {
+      "text": "Alcohol intoxication\nAmphetamines\nBarbiturates\nBenzodiazepines\nKetamine\nLithium toxicity\nOther anticonvulsants or sedatives\nPhencyclidine\n(PCP)\nPhenytoin\n(Dilantin)\nSalicylates\nSSRI toxicity\nThiamine\ndeficiency",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "SSRI toxicity",
+          "url": "https://wikem.org/wiki/SSRI_toxicity"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluation for symptoms of\nvertigo\n,\nCVA\n, and due to the association with medication overdoses, a psychiatric screening is worth consideration\nGlucose check\nFull neuro exam\nTM exam\nCTA or MRA (diagnostic study of choice) of the neck/brain if symptoms consistent with central cause",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive care and treatment focused on the underlying cause of the opsoclonus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Generally patients are admitted if the etiology is due to an overdose and further supportive care and psychiatric monitoring is required.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dizziness\nEBQ:HINTS_Exam\nCerebellar Stroke\nStroke syndromes\nVertigo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "EBQ:HINTS_Exam",
+          "url": "https://wikem.org/wiki/EBQ:HINTS_Exam"
+        },
+        {
+          "text": "Cerebellar Stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_Stroke"
+        },
+        {
+          "text": "Stroke syndromes",
+          "url": "https://wikem.org/wiki/Stroke_syndromes"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "NEJM Opsoclonus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

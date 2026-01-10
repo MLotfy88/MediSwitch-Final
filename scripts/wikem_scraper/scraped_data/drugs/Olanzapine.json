@@ -1,0 +1,183 @@
+{
+  "drug_name": "Olanzapine",
+  "url": "https://wikem.org/wiki/Olanzapine",
+  "scraped_at": "2026-01-10T07:58:39.085013",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntipsychotic\n, second generation\nDosage Forms: tablets, solution, suspension\nRoutes of Administration: oral, intramuscular\nOral rapidly dispersible wafer considered bioequialent to tablet form\n[1]\nCommon Trade Names: Zyprexa, Zydis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antipsychotic",
+          "url": "https://wikem.org/wiki/Antipsychotic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Acute agitation (associated with schizophrenia or bipolar disorder): Short-acting IM injection:\ninitial dose: 10 mg IM (consider lowering to 5 or 7.5 mg depending on clinical factors), additional dose of 10 mg IM maybe considered. Allowed 2 hours after the first dose and 4 hours after the second dose to evaluate response (maximum dose: 30 mg/day).\nSpecial risk patients: consider lowering dose to 2.5 mg IM in patients who are debilitated, who have risk of hypotension or who maybe more pharmacodynamically sensitive to olanzapine.\nSchizophrenia: Oral\nInitial dose 5-10 mg once daily, increase to 10 mg daily by the first week, adjust by 5 mg daily at 1-week interval (maximum dose: 20 mg daily), maintenance dose: 10-20 mg daily.\nSpecial risk patient: Initial dose: 5 mg once daily in patients who are debilitated, who have risk of hypotension or who maybe more pharmacodynamically sensitive to olanzapine.\nBipolar I (acute mixed or manic episode): Oral\nMonotherapy: Initial dose: 10-15 mg once daily, increase by 5 mg daily with interval >24 hours, maintenance dose: 5-20 mg daily (maximum dose: 20 mg daily).\nCombination therapy with lithium or valproate: Initial dose 10 mg daily (dose range: 5-20 mg daily)\nDepression: Oral\nDepression associated with bipolar disorder (in combination with fluoxetine): Initial dose: 5 mg once daily, adjust to dose range of 5-12.5 mg daily.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Schizophrenia: Adolescent ≥13 years: Oral: Initial dose: 2.5-5 mg once daily, adjust by 2.5-5 mg daily to target dose of 10 mg daily (dose range: 2.5-20 mg daily).\nBipolar I (acute or mixed manic episode): Adolescent ≥13 years: Oral: Initial dose: 2.5-5 mg once daily, adjust by 2.5-5 mg daily to target dose of 10 mg daily (dose range: 2.5-20 mg daily).\nDepression associated with bipolar I disorder (in combination with fluoxetine: Children and adolescent 10 to 17 years: Oral: Initial dose: 2.5 mg once daily in the evening, adjust if needed, safety for dose >12 mg daily of olanzapine and >50 mg daily of fluoxetine has not been studied.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Olanzapine is excreted into breast milk. Brest-feeding is not recommended by manufacturer.",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "No dosage adjustment is necessary, not removed by dialysis.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Use with caution, in combination with fluoxetine, initial dose of olanzapine should not exceed 2.5-5 mg daily.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "No dosage adjustment is necessary, not removed by dialysis.",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Use with caution, in combination with fluoxetine, initial dose of olanzapine should not exceed 2.5-5 mg daily.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Use with caution, in combination with fluoxetine, initial dose of olanzapine should not exceed 2.5-5 mg daily.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Orthostatic hypotension (3%-20%)\nExtrapyramidal reaction\nAkathisia\nParkinsonian-like syndrome\nIncrease serum prolactin\nIncrease serum AST, ALT, GGT and bilirubin\nAccidental injury\nPersonality disorder",
+          "tables": []
+        },
+        "Common": {
+          "text": "Drowsiness\nDizziness\nInsomnia\nWeight gain\nIncrease appetite\nXerostomia\nConstipation\nDyspepsia\nWeakness\nAbnormal gait\nIncrease uric acid\nBruise\nTremor\nLimb pain\nBack pain\nArthralgia\nRhinitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Orthostatic hypotension (3%-20%)\nExtrapyramidal reaction\nAkathisia\nParkinsonian-like syndrome\nIncrease serum prolactin\nIncrease serum AST, ALT, GGT and bilirubin\nAccidental injury\nPersonality disorder",
+      "subsections": {
+        "Common": {
+          "text": "Drowsiness\nDizziness\nInsomnia\nWeight gain\nIncrease appetite\nXerostomia\nConstipation\nDyspepsia\nWeakness\nAbnormal gait\nIncrease uric acid\nBruise\nTremor\nLimb pain\nBack pain\nArthralgia\nRhinitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Drowsiness\nDizziness\nInsomnia\nWeight gain\nIncrease appetite\nXerostomia\nConstipation\nDyspepsia\nWeakness\nAbnormal gait\nIncrease uric acid\nBruise\nTremor\nLimb pain\nBack pain\nArthralgia\nRhinitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Oral and short-acting IM: children 10 to 18 years ~37 hours, adult ~30 hours, 1.5 times greater in elderly.\nMetabolism: Liver: CYP1A2, CYP2D6, 40% removed via first pass metabolism\nExcretion: Urine (~70%), feces (30%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Potent antagonism of serotonin 5-HT\n2A\nand 5T\n2C\n, Dopamine\n1-4\n, histamine H\n1\nand α\n1\n-adrenergic recepter",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antipsychotics\nAntipsychotic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Antipsychotic toxicity",
+          "url": "https://wikem.org/wiki/Antipsychotic_toxicity"
+        }
+      ]
+    }
+  }
+}

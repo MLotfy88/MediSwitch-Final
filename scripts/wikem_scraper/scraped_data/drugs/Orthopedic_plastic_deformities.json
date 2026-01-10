@@ -1,0 +1,25 @@
+{
+  "drug_name": "Orthopedic_plastic_deformities",
+  "url": "https://wikem.org/wiki/Orthopedic_plastic_deformities",
+  "scraped_at": "2026-01-10T07:58:56.079927",
+  "sections": {
+    "Background": {
+      "text": "Limited to forearm and lower leg long bones\nThe diaphysis of the long bone is deformed but the periosteum is preserved",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "X-ray findings are subtle (no fracture line)\nWill show abnormal curvature\nBowing or bending\nHelpful to compare to uninvolved extremity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Ortho consult\nDifficult to reduce (usually requires completion of the fracture)\nProper reduction and realignment is essential",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

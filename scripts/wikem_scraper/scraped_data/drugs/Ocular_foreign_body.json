@@ -1,0 +1,1155 @@
+{
+  "drug_name": "Ocular_foreign_body",
+  "url": "https://wikem.org/wiki/Ocular_foreign_body",
+  "scraped_at": "2026-01-10T07:58:37.650188",
+  "sections": {
+    "Background": {
+      "text": "Ocular foreign bodies are a high-risk chief complaint because of short and long-term threats to vision loss. The main goal is to determine superficial vs. intraocular foreign bodies.\nAlways consider possibility of multiple foreign bodies\nCommon materials based on inflammatory reactions\nHighest inflammatory response - wood, copper, iron, steel\nModerate reaction - aluminum, mercury, nickel, zinc\nInert - glass, lead, plastic, porcelain",
+      "subsections": {
+        "Foreign_Body_Types": {
+          "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Foreign_Body_Types": {
+      "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Patient history with focus on circumstances/mechanism of symptom onset\ne.g. use of power tools, projectile weapons, MVCs, metal-on-metal impacts, or high-impact trauma\nMost common is metal foreign body from hammering",
+      "subsections": {
+        "Superficial_(embedded_in_conjunctiva_or_cornea)": {
+          "text": "Eye pain\nForeign body sensation\nTearing\nBlurred vision\nRelief of pain with topical anesthesia",
+          "tables": []
+        },
+        "Intraocular": {
+          "text": "As above, although may additionally be asymptomatic initially and present after complications arise (e.g. corneal ulcer)\n+Seidel's sign: streaming of fluorescein out of eye",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Eye pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "Blurred vision",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        }
+      ]
+    },
+    "Intraocular": {
+      "text": "As above, although may additionally be asymptomatic initially and present after complications arise (e.g. corneal ulcer)\n+Seidel's sign: streaming of fluorescein out of eye",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Orbital_trauma": {
+          "text": "Acute\nCaustic keratoconjunctivitis\n^^\nConjunctival hemorrhage\nConjunctival laceration\nCorneal abrasion\n,\nCorneal laceration\nGlobe rupture\n^\nIridodialysis\nLens dislocation\nOcular foreign body\nOrbital fracture\nFrontal sinus fracture\nNaso-ethmoid fracture\nInferior orbial wall fracture\nMedial orbital wall fracture\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage/hematoma\nOcular compartment syndrome\nSubconjunctival hemorrhage\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\nSubacute/Delayed\nCorneal ulcer\n^\nEndophthalmitis\n^",
+          "tables": []
+        },
+        "Unilateral_red_eye": {
+          "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Iridodialysis",
+          "url": "https://wikem.org/wiki/Iridodialysis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Orbital fracture",
+          "url": "https://wikem.org/wiki/Orbital_fracture"
+        },
+        {
+          "text": "Frontal sinus fracture",
+          "url": "https://wikem.org/wiki/Frontal_sinus_fracture"
+        },
+        {
+          "text": "Naso-ethmoid fracture",
+          "url": "https://wikem.org/wiki/Naso-ethmoid_fracture"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage/hematoma",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Orbital_trauma": {
+      "text": "Acute\nCaustic keratoconjunctivitis\n^^\nConjunctival hemorrhage\nConjunctival laceration\nCorneal abrasion\n,\nCorneal laceration\nGlobe rupture\n^\nIridodialysis\nLens dislocation\nOcular foreign body\nOrbital fracture\nFrontal sinus fracture\nNaso-ethmoid fracture\nInferior orbial wall fracture\nMedial orbital wall fracture\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage/hematoma\nOcular compartment syndrome\nSubconjunctival hemorrhage\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\nSubacute/Delayed\nCorneal ulcer\n^\nEndophthalmitis\n^",
+      "subsections": {
+        "Unilateral_red_eye": {
+          "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Iridodialysis",
+          "url": "https://wikem.org/wiki/Iridodialysis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Orbital fracture",
+          "url": "https://wikem.org/wiki/Orbital_fracture"
+        },
+        {
+          "text": "Frontal sinus fracture",
+          "url": "https://wikem.org/wiki/Frontal_sinus_fracture"
+        },
+        {
+          "text": "Naso-ethmoid fracture",
+          "url": "https://wikem.org/wiki/Naso-ethmoid_fracture"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage/hematoma",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Unilateral_red_eye": {
+      "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Based on patient mechanism/history\nPossible\nhigh impact\nmetal (e.g. hammering, use power tools, projectile weapons, metal-on-metal impacts, or high-impact trauma)\nEye exam\nSlit lamp exam\nwith fluorescein\nIntraocular pressure\nExtensive ocular exam with lid eversion or sweep to check for subtarsal foreign bodies\nCT orbit\nNon-high impact\nmetal history (vegetation, dirt, dust)\nEye exam only\nSlit lamp exam\nwith fluorescein\nIntraocular pressure\nExtensive ocular exam with lid eversion or sweep to check for subtarsal foreign bodies",
+      "subsections": {
+        "Contraindicated": {
+          "text": "Ocular ultrasound\nin setting of\nopen globe\ninjury\nPlain films only detect 40% of IOFB (intra-ocular foreign bodies), so generally not obtained\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Slit lamp exam",
+          "url": "https://wikem.org/wiki/Slit_lamp_exam"
+        },
+        {
+          "text": "Intraocular pressure",
+          "url": "https://wikem.org/wiki/Intraocular_pressure"
+        },
+        {
+          "text": "Slit lamp exam",
+          "url": "https://wikem.org/wiki/Slit_lamp_exam"
+        },
+        {
+          "text": "Intraocular pressure",
+          "url": "https://wikem.org/wiki/Intraocular_pressure"
+        },
+        {
+          "text": "Ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        },
+        {
+          "text": "open globe",
+          "url": "https://wikem.org/wiki/Open_globe"
+        }
+      ]
+    },
+    "Contraindicated": {
+      "text": "Ocular ultrasound\nin setting of\nopen globe\ninjury\nPlain films only detect 40% of IOFB (intra-ocular foreign bodies), so generally not obtained\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        },
+        {
+          "text": "open globe",
+          "url": "https://wikem.org/wiki/Open_globe"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Tetanus\nbooster as needed\nPain control\nwith topical\nNSAIDs\n(e.g.\ndiclofenac\nor\nketorolac\n) or oral\nopioids",
+      "subsections": {
+        "Superficial_ocular_foreign_body_with_no_signs_of_open_globe_injury": {
+          "text": "Conjunctival foreign body\nED removal after topical anesthetic\nCopious irrigation\nCotton-tipped swab soaked in saline\nRust ring\nMetallic foreign bodies can create rust rings that are toxic to corneal tissue\nForeign body be removed with a 30- to 25-gauge needle as below\nRust rings overlying the visual axis, however, should be managed by an ophthalmologist due to the risk of scarring in the visual field.\nRust also often reaccumulates by the next day requiring additional burring. It is therefore not necessary to remove a rust ring in the emergency department if the patient can be seen by an ophthalmologist the next day. Additionally, once the foreign body is removed, the rust ring area softens overnight and can be more easily removed in the office the next day.\nCorneal foreign body\nED removal after topical anesthetic\nMay attempt irrigation and/or cotton-swab as above\n30- to 25-gauge needle under\nslit lamp\nApproach from tangential angle\nRepeat Seidel test to ensure removal did not perforate cornea\nIrrigate eye profusely post-removal\nConsider\ncycloplegics\n(e.g.\ncyclopentolate\nor\nhomatropine\n) for significant photophobia\nConsider topical antibiotics for corneal involvement\nTarget\ngram-positive\n+\npseudomonas\n(contact wearers)\nMoxifloxacin\n– best ophthalmologic penetration",
+          "tables": []
+        },
+        "Does_Not_Wear_Contact_Lens": {
+          "text": "Erythromycin\nointment qid x 3-5d\nOR\nCiprofloxacin\n0.3% ophthalmic solution 2 drops q6 hours\nOR\nOfloxacin\n0.3% solution 2 drops q6 hours\nOR\nSulfacetamide\n10% ophthalmic ointment q6 hours",
+          "tables": []
+        },
+        "Wears_Contact_Lens": {
+          "text": "Antibiotics should cover pseudomonas and favor 3rd or 4th generation fluoroquinolones\nLevofloxacin\n0.5% solution 2 drops ever 2 hours for 2 days THEN q6hrs for 5 days\nOR\nMoxifloxacin\n0.5% solution 2 drops every 2 hours for 2 days THEN q6hrs for 5 days\nOR\nTobramycin\n0.3% solution 2 drops q6hrs for 5 days\nOR\nGatifloxacin\n0.5% solution 2 drops every 2 hours for 2 days THEN q6hrs for 5 days\nOR\nGentamicin\n0.3% solution 2 drops six times for 5 days",
+          "tables": []
+        },
+        "Intraocular_foreign_bodies_or_concern_for_open_globe_injury": {
+          "text": "Emergent ophthalmology consult\nProphylactic empiric\nantibiotics\nPlacement of rigid eye shield\nAnalgesia\n(oral\nNSAIDS\nor\nopioids\n) and\nantiemetics\nas necessary",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetanus",
+          "url": "https://wikem.org/wiki/Tetanus"
+        },
+        {
+          "text": "Pain control",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "diclofenac",
+          "url": "https://wikem.org/wiki/Diclofenac"
+        },
+        {
+          "text": "ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Corneal foreign body",
+          "url": "https://wikem.org/wiki/Corneal_foreign_body"
+        },
+        {
+          "text": "slit lamp",
+          "url": "https://wikem.org/wiki/Slit_lamp"
+        },
+        {
+          "text": "cycloplegics",
+          "url": "https://wikem.org/wiki/Cycloplegic"
+        },
+        {
+          "text": "cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "homatropine",
+          "url": "https://wikem.org/wiki/Homatropine"
+        },
+        {
+          "text": "gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "Sulfacetamide",
+          "url": "https://wikem.org/wiki/Sulfacetamide"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Tobramycin",
+          "url": "https://wikem.org/wiki/Tobramycin"
+        },
+        {
+          "text": "Gatifloxacin",
+          "url": "https://wikem.org/wiki/Gatifloxacin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        }
+      ]
+    },
+    "Superficial_ocular_foreign_body_with_no_signs_of_open_globe_injury": {
+      "text": "Conjunctival foreign body\nED removal after topical anesthetic\nCopious irrigation\nCotton-tipped swab soaked in saline\nRust ring\nMetallic foreign bodies can create rust rings that are toxic to corneal tissue\nForeign body be removed with a 30- to 25-gauge needle as below\nRust rings overlying the visual axis, however, should be managed by an ophthalmologist due to the risk of scarring in the visual field.\nRust also often reaccumulates by the next day requiring additional burring. It is therefore not necessary to remove a rust ring in the emergency department if the patient can be seen by an ophthalmologist the next day. Additionally, once the foreign body is removed, the rust ring area softens overnight and can be more easily removed in the office the next day.\nCorneal foreign body\nED removal after topical anesthetic\nMay attempt irrigation and/or cotton-swab as above\n30- to 25-gauge needle under\nslit lamp\nApproach from tangential angle\nRepeat Seidel test to ensure removal did not perforate cornea\nIrrigate eye profusely post-removal\nConsider\ncycloplegics\n(e.g.\ncyclopentolate\nor\nhomatropine\n) for significant photophobia\nConsider topical antibiotics for corneal involvement\nTarget\ngram-positive\n+\npseudomonas\n(contact wearers)\nMoxifloxacin\n– best ophthalmologic penetration",
+      "subsections": {
+        "Does_Not_Wear_Contact_Lens": {
+          "text": "Erythromycin\nointment qid x 3-5d\nOR\nCiprofloxacin\n0.3% ophthalmic solution 2 drops q6 hours\nOR\nOfloxacin\n0.3% solution 2 drops q6 hours\nOR\nSulfacetamide\n10% ophthalmic ointment q6 hours",
+          "tables": []
+        },
+        "Wears_Contact_Lens": {
+          "text": "Antibiotics should cover pseudomonas and favor 3rd or 4th generation fluoroquinolones\nLevofloxacin\n0.5% solution 2 drops ever 2 hours for 2 days THEN q6hrs for 5 days\nOR\nMoxifloxacin\n0.5% solution 2 drops every 2 hours for 2 days THEN q6hrs for 5 days\nOR\nTobramycin\n0.3% solution 2 drops q6hrs for 5 days\nOR\nGatifloxacin\n0.5% solution 2 drops every 2 hours for 2 days THEN q6hrs for 5 days\nOR\nGentamicin\n0.3% solution 2 drops six times for 5 days",
+          "tables": []
+        },
+        "Intraocular_foreign_bodies_or_concern_for_open_globe_injury": {
+          "text": "Emergent ophthalmology consult\nProphylactic empiric\nantibiotics\nPlacement of rigid eye shield\nAnalgesia\n(oral\nNSAIDS\nor\nopioids\n) and\nantiemetics\nas necessary",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Corneal foreign body",
+          "url": "https://wikem.org/wiki/Corneal_foreign_body"
+        },
+        {
+          "text": "slit lamp",
+          "url": "https://wikem.org/wiki/Slit_lamp"
+        },
+        {
+          "text": "cycloplegics",
+          "url": "https://wikem.org/wiki/Cycloplegic"
+        },
+        {
+          "text": "cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "homatropine",
+          "url": "https://wikem.org/wiki/Homatropine"
+        },
+        {
+          "text": "gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "Sulfacetamide",
+          "url": "https://wikem.org/wiki/Sulfacetamide"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Tobramycin",
+          "url": "https://wikem.org/wiki/Tobramycin"
+        },
+        {
+          "text": "Gatifloxacin",
+          "url": "https://wikem.org/wiki/Gatifloxacin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        }
+      ]
+    },
+    "Intraocular_foreign_bodies_or_concern_for_open_globe_injury": {
+      "text": "Emergent ophthalmology consult\nProphylactic empiric\nantibiotics\nPlacement of rigid eye shield\nAnalgesia\n(oral\nNSAIDS\nor\nopioids\n) and\nantiemetics\nas necessary",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Outpatient_Ophthalmology_Follow-up": {
+          "text": "Superficial ocular foreign body after removal\nOphtho follow up in 48h for routine cases\nOphtho follow up in 24h for rust ring removal (rust ring will migrate more and more superficially over time making later removal by ophtho easier)",
+          "tables": []
+        },
+        "Admission": {
+          "text": "With emergent surgical intervention for:\nIntraocular foreign body\nEvidence of\nopen globe",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "open globe",
+          "url": "https://wikem.org/wiki/Open_globe"
+        }
+      ]
+    },
+    "Outpatient_Ophthalmology_Follow-up": {
+      "text": "Superficial ocular foreign body after removal\nOphtho follow up in 48h for routine cases\nOphtho follow up in 24h for rust ring removal (rust ring will migrate more and more superficially over time making later removal by ophtho easier)",
+      "subsections": {
+        "Admission": {
+          "text": "With emergent surgical intervention for:\nIntraocular foreign body\nEvidence of\nopen globe",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "open globe",
+          "url": "https://wikem.org/wiki/Open_globe"
+        }
+      ]
+    },
+    "Admission": {
+      "text": "With emergent surgical intervention for:\nIntraocular foreign body\nEvidence of\nopen globe",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "open globe",
+          "url": "https://wikem.org/wiki/Open_globe"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Conjunctival abrasion\nCorneal abrasion\nCorneal ulcer\nEye Algorithms (Main)\nForeign bodies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctival abrasion",
+          "url": "https://wikem.org/wiki/Conjunctival_abrasion"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Eye Algorithms (Main)",
+          "url": "https://wikem.org/wiki/Eye_Algorithms_(Main)"
+        },
+        {
+          "text": "Foreign bodies",
+          "url": "https://wikem.org/wiki/Foreign_bodies"
+        }
+      ]
+    }
+  }
+}

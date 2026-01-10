@@ -1,0 +1,158 @@
+{
+  "drug_name": "Omphalitis",
+  "url": "https://wikem.org/wiki/Omphalitis",
+  "scraped_at": "2026-01-10T07:58:40.304589",
+  "sections": {
+    "Background": {
+      "text": "Acute infection of umbilical stump\nRare",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Erythema of skin around umbilical stump\nPurulent drainage\nFever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Cellulitis\nof abdominal wall\nNecrotizing fasciitis\nNeonatal sepsis",
+      "subsections": {
+        "Neonatal_Rashes": {
+          "text": "Acne\nAtopic dermatitis\nCandidiasis\nContact dermatitis\nDiaper dermatitis\nErythema toxicum neonatorum\nImpetigo\nMastitis\nMilia\nMiliaria\nMongolian spots\nOmphalitis\nPerianal streptococcal dermatitis\nPsoriasis\nPustular melanosis\nSeborrheic dermatitis\nSucking blisters\nTinea capitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acne",
+          "url": "https://wikem.org/wiki/Neonatal_acne"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Erythema toxicum neonatorum",
+          "url": "https://wikem.org/wiki/Erythema_toxicum_neonatorum"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Neonatal_mastitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        }
+      ]
+    },
+    "Neonatal_Rashes": {
+      "text": "Acne\nAtopic dermatitis\nCandidiasis\nContact dermatitis\nDiaper dermatitis\nErythema toxicum neonatorum\nImpetigo\nMastitis\nMilia\nMiliaria\nMongolian spots\nOmphalitis\nPerianal streptococcal dermatitis\nPsoriasis\nPustular melanosis\nSeborrheic dermatitis\nSucking blisters\nTinea capitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acne",
+          "url": "https://wikem.org/wiki/Neonatal_acne"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Erythema toxicum neonatorum",
+          "url": "https://wikem.org/wiki/Erythema_toxicum_neonatorum"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Neonatal_mastitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC, BMP\nBlood cultures\nSeptic workup if febrile neonate (\nUA\n,\nCXR\n,\nLP\n)\nImaging (ultrasound or CT) as indicated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "IV fluids NS 20mL/kg bolus if ill appearing\nAntibiotics\nGentamycin\nAmpicillin\nVancomycin\nConsider\nclindamycin\nor\nmetronidazole\nif concern for\nanaerobes\nSurgical consultation as indicated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if febrile or ill appearing\nConsider discharge if very mild case and excellent follow-up assured",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Harwood Nuss, EMedicine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

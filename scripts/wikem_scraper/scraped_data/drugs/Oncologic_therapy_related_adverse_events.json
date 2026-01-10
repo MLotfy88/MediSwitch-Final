@@ -1,0 +1,627 @@
+{
+  "drug_name": "Oncologic_therapy_related_adverse_events",
+  "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events",
+  "scraped_at": "2026-01-10T07:58:41.555050",
+  "sections": {
+    "Background": {
+      "text": "Many of the oncologic therapies currently employed involved immune system checkpoint inhibition which allow for improvement of T-cell activation towards cancer cells. This boost to the immune system can occur by many mechanisms that encompass the list of \"novel\" oncologic agents\" described below.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Many novel oncologic therapies and\nBiologic immunomodulators\nadverse reactions may mimic common ED presentations such as sepsis.",
+      "subsections": {
+        "Types_of_novel_oncologic_agents": {
+          "text": "Genetically engineered T cells\nCD19–chimeric antigen receptor (CAR)-T cell therapy\nMonoclonal Antibodies\nagainst PD-1 checkpoints\nSmall-molecule inhibitors\nMonoclonal antibodies against cell surface antigens\nAntibody-drug conjugates\nImmunotoxins\nBispecific T-cell engagers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Biologic immunomodulators",
+          "url": "https://wikem.org/wiki/Biologic_immunomodulators"
+        },
+        {
+          "text": "Monoclonal Antibodies",
+          "url": "https://wikem.org/wiki/Biologic_immunomodulators"
+        }
+      ]
+    },
+    "Types_of_novel_oncologic_agents": {
+      "text": "Genetically engineered T cells\nCD19–chimeric antigen receptor (CAR)-T cell therapy\nMonoclonal Antibodies\nagainst PD-1 checkpoints\nSmall-molecule inhibitors\nMonoclonal antibodies against cell surface antigens\nAntibody-drug conjugates\nImmunotoxins\nBispecific T-cell engagers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Monoclonal Antibodies",
+          "url": "https://wikem.org/wiki/Biologic_immunomodulators"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Decreased cellular immunity which an cause reactivation or new\nTuberculosis\nSepsis\nFungal infections\nHepatitis B\nNeurologic syndromes\nMultiple sclerosis\nSeizures\nGuillain-Barre syndrome\nHematologic side effects\nAplastic anemia\nPancytopenia\nCardiac effects\nCongestive heart failure\nArrhythmias\nAllergic reactions\nPulmonary\nPneumonia\nPneumocystis jirovecii pneumonia\nPneumonitis\nEndocrine\nThyroiditis\nGI\nPerforations\nClostridium difficile\nAcute bacterial infections\nMalignancies\nNon-melanoma skin cancers\nLymphoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Allergic reactions",
+          "url": "https://wikem.org/wiki/Allergic_reactions"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "Thyroiditis",
+          "url": "https://wikem.org/wiki/Thyroiditis"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        }
+      ]
+    },
+    "CAR-T_cells_medications": {
+      "text": "",
+      "subsections": {
+        "Tisagenlecleucel_(Kymriah)": {
+          "text": "Indications:\nAcute lymphoblastic leukemia\nLarge B-cell lymphoma\nAdverse events include:\nCytokine release syndrome\nHypogammaglobulinemia\nPancytopenia\nAltered mental status",
+          "tables": []
+        },
+        "Axicabtagene_ciloleucel_(Yescarta)": {
+          "text": "Indications:\nAcute lymphoblastic leukemia\nLarge B-cell lymphoma\nAdverse events include:\nCytokine release syndrome\nPancytopenia\nAltered mental status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "PD1_Monoclonal_Antibodies": {
+      "text": "",
+      "subsections": {
+        "Pembrolizumab_(Keytruda)": {
+          "text": "A PD-1 humanized mouse mAb\nAdverse events include:\nInfusion reactions\nMusculoskeletal pain\nDyspnea\nDiarrhea\n(Arrhythmias\n(Myocardial infarctions\n(Pericardial effusions",
+          "tables": []
+        },
+        "Nivolumab_(OPDIVO)": {
+          "text": "A PD-1 human IgG4 mAb\nAdverse events include:\nGraft-vs-host disease\nPortal vein thrombosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Portal vein thrombosis",
+          "url": "https://wikem.org/wiki/Portal_vein_thrombosis"
+        }
+      ]
+    },
+    "Small_molecule_inhibitors": {
+      "text": "",
+      "subsections": {
+        "Enasidenib_(IDHIFA)": {
+          "text": "Adverse Events:\nIndirect hyperbilirubinemia\nDifferentiation syndrome",
+          "tables": []
+        },
+        "Ivosidenib_(Tibsovo)": {
+          "text": "Adverse events\nQT prolongation\nLeukocytosis\nDifferentiation syndrome",
+          "tables": []
+        },
+        "Midostaurin_(Rydapt)": {
+          "text": "Adverse Events:\nFebrile neutropenia\nMucositis\nNausea and vomiting\nHeadache\nPetechiae\nEpistaxis\nURI",
+          "tables": []
+        },
+        "Nilotinib_(Tasigna)": {
+          "text": "Adverse events\nQT prolongation\nSudden death\nMyelosuppression\nArterial thrombosis\nPancreatitis\nHepatotoxicity",
+          "tables": []
+        },
+        "Bosutinib_(Bosulif)": {
+          "text": "Adverse Events:\nMyelosuppression\nDiarrhea\nPancreatitis\nHepatotoxicity\nCardiac arrest\nArrythmia\nACS",
+          "tables": []
+        },
+        "Ibrutinib_(Imbruvica)": {
+          "text": "Adverse Events:\nCytopenias\nHypertension",
+          "tables": []
+        },
+        "Acalabrutinib_(Calquence)": {
+          "text": "Adverse Events:\nHeadache\nDiarrhea\nMyalgia\nNeutropenia\nAnemia\nPneumonia\nACS",
+          "tables": []
+        },
+        "Duvelisib_(Copiktra)": {
+          "text": "Adverse Events:\nNausea\nDiarrhea\nPyrexia\nCytopenia",
+          "tables": []
+        },
+        "Copanlisib_(Aliqopa)": {
+          "text": "Adverse Events:\nHyperglycemia\nHypertension\nSepsis\nNeutropenia\nPneumonitis",
+          "tables": []
+        },
+        "Panobinostat_lactate_(Farydak)": {
+          "text": "Adverse Events:\nCytopenia\nDiarrhea\nPeripheral neuropathy",
+          "tables": []
+        },
+        "Ixazomib_citrate_(Ninlaro)": {
+          "text": "Adverse Events:\nCytopenias\nVomiting\nDiarrhea\nConstipation\nNeuropathy\nPeripheral edema\nBack pain",
+          "tables": []
+        },
+        "Venetoclax_(Venclexta)": {
+          "text": "Adverse Events:\nTumor lysis syndrome\nBone marrow suppression\nAutoimmune hemolytic anemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Indirect hyperbilirubinemia",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "Febrile neutropenia",
+          "url": "https://wikem.org/wiki/Febrile_neutropenia"
+        },
+        {
+          "text": "Mucositis",
+          "url": "https://wikem.org/wiki/Mucositis"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "Epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Arterial thrombosis",
+          "url": "https://wikem.org/wiki/Arterial_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Arrythmia",
+          "url": "https://wikem.org/wiki/Arrythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Cytopenias",
+          "url": "https://wikem.org/wiki/Cytopenia"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Pyrexia",
+          "url": "https://wikem.org/wiki/Pyrexia"
+        },
+        {
+          "text": "Cytopenia",
+          "url": "https://wikem.org/wiki/Cytopenia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "Cytopenia",
+          "url": "https://wikem.org/wiki/Cytopenia"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Peripheral_neuropathy"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Neuropathy",
+          "url": "https://wikem.org/wiki/Neuropathy"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        }
+      ]
+    },
+    "Monoclonal_antibodies_against_cell_surface_antigens": {
+      "text": "",
+      "subsections": {
+        "Ofatumumab_(Arzerra)": {
+          "text": "Adverse Events:\nReactivation of\nHepatitis B\nvirus infection\nProgressive multifocal leukoencephalopathy\nTumor lysis syndrome\nInfusion reaction\nCytopenias",
+          "tables": []
+        },
+        "Obinutuzumab_(Gazyva)": {
+          "text": "Adverse Events:\nNeutropenic Fever\nThrombocytopenia\nInfusion Reactions",
+          "tables": []
+        },
+        "Daratumumab_(Darzalex)": {
+          "text": "Adverse Events:\nCytopenia\nDiarrhea\nPneumonia",
+          "tables": []
+        },
+        "Elotuzumab_(Empliciti)": {
+          "text": "Adverse Events:\nPyrexia\nAnemia\nPneumonia\nPulmonary embolism\nAcute renal failure\nHepatotoxicity",
+          "tables": []
+        },
+        "Empliciti_(Poteligeo)": {
+          "text": "Adverse Events:\nGVHD\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Progressive multifocal leukoencephalopathy",
+          "url": "https://wikem.org/wiki/Progressive_multifocal_leukoencephalopathy"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Neutropenic Fever",
+          "url": "https://wikem.org/wiki/Neutropenic_Fever"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Cytopenia",
+          "url": "https://wikem.org/wiki/Cytopenia"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyrexia",
+          "url": "https://wikem.org/wiki/Pyrexia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Antibody-drug_conjugates": {
+      "text": "",
+      "subsections": {
+        "Inotuzumab_ozogamicin_(Besponsa)": {
+          "text": "Adverse Events:\nSinusoid occlusion syndrome\nInfusion reactions\nThrombocytopenia\nNeutropenia\nQT prolongation",
+          "tables": []
+        },
+        "Gemtuzumab_ozogamicin_(Mylotarg)": {
+          "text": "Adverse Events:\nThrombocytopenia\nAbnormal\nLFTs\nVeno-oclusions",
+          "tables": []
+        },
+        "Brentuximab_vedotin_(Adcetris)": {
+          "text": "Adverse Events:\nProgressive multifocal leukoencephalopathy\nPeripheral neuropathy\nBone marrow suppression",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Progressive multifocal leukoencephalopathy",
+          "url": "https://wikem.org/wiki/Progressive_multifocal_leukoencephalopathy"
+        },
+        {
+          "text": "Peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Peripheral_neuropathy"
+        }
+      ]
+    },
+    "Immunotoxin": {
+      "text": "",
+      "subsections": {
+        "Moxetumomab_pasudotox-tdfk_(Lumoxiti)": {
+          "text": "Adverse Events:\nHemolytic uremic syndrome\nCapillary leak syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemolytic uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic_uremic_syndrome"
+        }
+      ]
+    },
+    "Blinatumomab": {
+      "text": "Adverse Events:\nAltered mental status\nCytokine release syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most of these patients should be admitted and coordination should occur with hematology/oncology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Biologic immunomodulators",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Biologic immunomodulators",
+          "url": "https://wikem.org/wiki/Biologic_immunomodulators"
+        }
+      ]
+    }
+  }
+}

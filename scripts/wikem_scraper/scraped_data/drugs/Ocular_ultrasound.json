@@ -1,0 +1,299 @@
+{
+  "drug_name": "Ocular_ultrasound",
+  "url": "https://wikem.org/wiki/Ocular_ultrasound",
+  "scraped_at": "2026-01-10T07:58:47.081638",
+  "sections": {
+    "Background": {
+      "text": "US\nhas been well established in the ophtho literature but new advent to ED practice",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "US",
+          "url": "https://wikem.org/wiki/US"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Acute/Subacute vision changes or loss\nSymptoms of increased ICP\nSuspect FB or globe rupture\nTrauma (assess for reactive pupils)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Technique": {
+      "text": "Patient preparation\nApply large transparent film dressing (such as Tegaderm) over the closed eye taking care not to create air bubbles between the film and skin surface\nDeposit a copious amount of ultrasound gel to the film\nSelect probe\nLinear probe\nLocation\nProbe should be applied to the gel without creating significant pressure on the globe itself (especially in situations of suspected globe rupture)\nLandmarks\nThe round structure of the globe should be easily identified with the lens in the anterior section\nGain should be increased significantly to the point where echos are generating within the vitreous humor\nIf needed, measurements of the optic nerve can be taken as still image",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Findings": {
+      "text": "",
+      "subsections": {
+        "Elevated_ICP": {
+          "text": "Measure optic nerve 3mm posterior to the globe/papilla, from inner wall to inner wall\nNormal is <5mm\n[1]\n>6mm indicates elevated ICP\nIf grey zone range of 5-6mm may use presence of ultrasonographic papilledema to differentiate between normal or elevated ICP\n[2]\nU/S has a sensitivity of 95.6% and specificity of 92.3% for increased ICP\n[3]",
+          "tables": []
+        },
+        "Globe_Rupture": {
+          "text": "Only perform if you can ensure that you do not put pressure on the globe\nFindings\nDecrease in size of globe\nAnterior chamber collapse\nVitreous hemorrhage\nBuckling of the sclera",
+          "tables": []
+        },
+        "Intraocular_foreign_body": {
+          "text": "Bright, echogenic acoustic profile with associated shadowing or reverberation",
+          "tables": []
+        },
+        "Retinal_Detachment": {
+          "text": "Echogenic undulating membrane in the posterior globe, protruding into the vitreous\nEvaluate with patient moving eye left/right\nSN 97-100% and SP 83-100%\n[4]\nRetinal vs Vitreous Detachment Video (4 mins)",
+          "tables": []
+        },
+        "Vitreous_Hemorrhage": {
+          "text": "May be difficult to distinguish from a retinal detachment\nMay have a V-shaped appearance\nVitreous filled with multiple large echoes\nIncreasing the gain is helpful for detecting acute hemorrhages",
+          "tables": []
+        },
+        "Lens_dislocation": {
+          "text": "Biconvex or round hyperechoic structure (lens) is displaced from its normal position.\nWith eye movement it may appear to move independently of surrounding structures.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Elevated_ICP": {
+      "text": "Measure optic nerve 3mm posterior to the globe/papilla, from inner wall to inner wall\nNormal is <5mm\n[1]\n>6mm indicates elevated ICP\nIf grey zone range of 5-6mm may use presence of ultrasonographic papilledema to differentiate between normal or elevated ICP\n[2]\nU/S has a sensitivity of 95.6% and specificity of 92.3% for increased ICP\n[3]",
+      "subsections": {
+        "Globe_Rupture": {
+          "text": "Only perform if you can ensure that you do not put pressure on the globe\nFindings\nDecrease in size of globe\nAnterior chamber collapse\nVitreous hemorrhage\nBuckling of the sclera",
+          "tables": []
+        },
+        "Intraocular_foreign_body": {
+          "text": "Bright, echogenic acoustic profile with associated shadowing or reverberation",
+          "tables": []
+        },
+        "Retinal_Detachment": {
+          "text": "Echogenic undulating membrane in the posterior globe, protruding into the vitreous\nEvaluate with patient moving eye left/right\nSN 97-100% and SP 83-100%\n[4]\nRetinal vs Vitreous Detachment Video (4 mins)",
+          "tables": []
+        },
+        "Vitreous_Hemorrhage": {
+          "text": "May be difficult to distinguish from a retinal detachment\nMay have a V-shaped appearance\nVitreous filled with multiple large echoes\nIncreasing the gain is helpful for detecting acute hemorrhages",
+          "tables": []
+        },
+        "Lens_dislocation": {
+          "text": "Biconvex or round hyperechoic structure (lens) is displaced from its normal position.\nWith eye movement it may appear to move independently of surrounding structures.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Globe_Rupture": {
+      "text": "Only perform if you can ensure that you do not put pressure on the globe\nFindings\nDecrease in size of globe\nAnterior chamber collapse\nVitreous hemorrhage\nBuckling of the sclera",
+      "subsections": {
+        "Intraocular_foreign_body": {
+          "text": "Bright, echogenic acoustic profile with associated shadowing or reverberation",
+          "tables": []
+        },
+        "Retinal_Detachment": {
+          "text": "Echogenic undulating membrane in the posterior globe, protruding into the vitreous\nEvaluate with patient moving eye left/right\nSN 97-100% and SP 83-100%\n[4]\nRetinal vs Vitreous Detachment Video (4 mins)",
+          "tables": []
+        },
+        "Vitreous_Hemorrhage": {
+          "text": "May be difficult to distinguish from a retinal detachment\nMay have a V-shaped appearance\nVitreous filled with multiple large echoes\nIncreasing the gain is helpful for detecting acute hemorrhages",
+          "tables": []
+        },
+        "Lens_dislocation": {
+          "text": "Biconvex or round hyperechoic structure (lens) is displaced from its normal position.\nWith eye movement it may appear to move independently of surrounding structures.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intraocular_foreign_body": {
+      "text": "Bright, echogenic acoustic profile with associated shadowing or reverberation",
+      "subsections": {
+        "Retinal_Detachment": {
+          "text": "Echogenic undulating membrane in the posterior globe, protruding into the vitreous\nEvaluate with patient moving eye left/right\nSN 97-100% and SP 83-100%\n[4]\nRetinal vs Vitreous Detachment Video (4 mins)",
+          "tables": []
+        },
+        "Vitreous_Hemorrhage": {
+          "text": "May be difficult to distinguish from a retinal detachment\nMay have a V-shaped appearance\nVitreous filled with multiple large echoes\nIncreasing the gain is helpful for detecting acute hemorrhages",
+          "tables": []
+        },
+        "Lens_dislocation": {
+          "text": "Biconvex or round hyperechoic structure (lens) is displaced from its normal position.\nWith eye movement it may appear to move independently of surrounding structures.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Retinal_Detachment": {
+      "text": "Echogenic undulating membrane in the posterior globe, protruding into the vitreous\nEvaluate with patient moving eye left/right\nSN 97-100% and SP 83-100%\n[4]\nRetinal vs Vitreous Detachment Video (4 mins)",
+      "subsections": {
+        "Vitreous_Hemorrhage": {
+          "text": "May be difficult to distinguish from a retinal detachment\nMay have a V-shaped appearance\nVitreous filled with multiple large echoes\nIncreasing the gain is helpful for detecting acute hemorrhages",
+          "tables": []
+        },
+        "Lens_dislocation": {
+          "text": "Biconvex or round hyperechoic structure (lens) is displaced from its normal position.\nWith eye movement it may appear to move independently of surrounding structures.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Vitreous_Hemorrhage": {
+      "text": "May be difficult to distinguish from a retinal detachment\nMay have a V-shaped appearance\nVitreous filled with multiple large echoes\nIncreasing the gain is helpful for detecting acute hemorrhages",
+      "subsections": {
+        "Lens_dislocation": {
+          "text": "Biconvex or round hyperechoic structure (lens) is displaced from its normal position.\nWith eye movement it may appear to move independently of surrounding structures.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lens_dislocation": {
+      "text": "Biconvex or round hyperechoic structure (lens) is displaced from its normal position.\nWith eye movement it may appear to move independently of surrounding structures.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Images": {
+      "text": "",
+      "subsections": {
+        "Normal": {
+          "text": "Eyelid\nCornea\nLens\nCiliary bodies\nLens\nVitreous chamber\nOptic nerve",
+          "tables": []
+        },
+        "Abnormal": {
+          "text": "Retinal detachment ultrasound\nVitreous hemorrhage\nMEasuring optic nerve sheath diameter",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal": {
+      "text": "Eyelid\nCornea\nLens\nCiliary bodies\nLens\nVitreous chamber\nOptic nerve",
+      "subsections": {
+        "Abnormal": {
+          "text": "Retinal detachment ultrasound\nVitreous hemorrhage\nMEasuring optic nerve sheath diameter",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal": {
+      "text": "Retinal detachment ultrasound\nVitreous hemorrhage\nMEasuring optic nerve sheath diameter",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pearls_and_Pitfalls": {
+      "text": "Use copious amount of gel to prevent the need for applying excessive pressure\nA high gain is generally required in order to see vitreous and retinal pathology\nMany findings are more apparent with active eye movement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Documentation": {
+      "text": "",
+      "subsections": {
+        "Normal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for signs of retinal detachment or vitreous hemorrhage with clinical indications of left/right sided vision changes. The anterior chamber, lens, and posterior chamber of the left/right eye was identified during active movement. There was no evidence of retinal detachment or vitreous hemorrhage found. There was no sonographic evidence of retinal detachment or vitreous hemorrhage.",
+          "tables": []
+        },
+        "Abnormal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for signs of retinal detachment or vitreous hemorrhage with clinical indications of left/right sided vision changes. The anterior chamber, lens, and posterior chamber of the left/right eye was identified during active movement. There was a hyperechoic flap located in the anterior chamber/swirling debris in the posterior chamber. There was sonographic evidence of retinal detachment/vitreous hemorrhage.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Exam": {
+      "text": "A bedside ultrasound was conducted to assess for signs of retinal detachment or vitreous hemorrhage with clinical indications of left/right sided vision changes. The anterior chamber, lens, and posterior chamber of the left/right eye was identified during active movement. There was no evidence of retinal detachment or vitreous hemorrhage found. There was no sonographic evidence of retinal detachment or vitreous hemorrhage.",
+      "subsections": {
+        "Abnormal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for signs of retinal detachment or vitreous hemorrhage with clinical indications of left/right sided vision changes. The anterior chamber, lens, and posterior chamber of the left/right eye was identified during active movement. There was a hyperechoic flap located in the anterior chamber/swirling debris in the posterior chamber. There was sonographic evidence of retinal detachment/vitreous hemorrhage.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_Exam": {
+      "text": "A bedside ultrasound was conducted to assess for signs of retinal detachment or vitreous hemorrhage with clinical indications of left/right sided vision changes. The anterior chamber, lens, and posterior chamber of the left/right eye was identified during active movement. There was a hyperechoic flap located in the anterior chamber/swirling debris in the posterior chamber. There was sonographic evidence of retinal detachment/vitreous hemorrhage.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clips": {
+      "text": "",
+      "subsections": {
+        "Normal_2": {
+          "text": "Lens with pupil visualized\nNormal ocular exam but needs increased gain",
+          "tables": []
+        },
+        "Abnormal_2": {
+          "text": "Eyelid edema\nCombined vitreous and retinal detachment\nRetinal detachment\nRetinal detachment\nVitreous hemorrhage\nVitreous hemorrhage\nCombined retinal detachment and vitreous hemorrhage\nRetinal Detachment with Vitreous Hemorrhage and Retinal Tear\n[5]\nVitreous Hemorrhage Ultrasound - Washing Machine Sign\n[6]\nLens Dislocation\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_2": {
+      "text": "Lens with pupil visualized\nNormal ocular exam but needs increased gain",
+      "subsections": {
+        "Abnormal_2": {
+          "text": "Eyelid edema\nCombined vitreous and retinal detachment\nRetinal detachment\nRetinal detachment\nVitreous hemorrhage\nVitreous hemorrhage\nCombined retinal detachment and vitreous hemorrhage\nRetinal Detachment with Vitreous Hemorrhage and Retinal Tear\n[5]\nVitreous Hemorrhage Ultrasound - Washing Machine Sign\n[6]\nLens Dislocation\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_2": {
+      "text": "Eyelid edema\nCombined vitreous and retinal detachment\nRetinal detachment\nRetinal detachment\nVitreous hemorrhage\nVitreous hemorrhage\nCombined retinal detachment and vitreous hemorrhage\nRetinal Detachment with Vitreous Hemorrhage and Retinal Tear\n[5]\nVitreous Hemorrhage Ultrasound - Washing Machine Sign\n[6]\nLens Dislocation\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Ultrasound Podcast - Chris Fox\nUltrasound Village - The Eye\nOcular Ultrasound Video - Robinson Ferre, Vanderbilt",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ultrasound (Main)\nRetinal detachment\nVitreous hemorrhage\nPosterior vitreous detachment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound (Main)",
+          "url": "https://wikem.org/wiki/Ultrasound_(Main)"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        }
+      ]
+    },
+    "Video": {
+      "text": "{{#widget:YouTube|id=A0gQmqWcIn8}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
