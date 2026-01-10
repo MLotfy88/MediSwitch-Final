@@ -1,0 +1,135 @@
+{
+  "drug_name": "Torsemide",
+  "url": "https://wikem.org/wiki/Torsemide",
+  "scraped_at": "2026-01-10T08:03:51.195038",
+  "sections": {
+    "General": {
+      "text": "80-100% oral bioavailability as opposed to\nfurosemide\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        }
+      ]
+    },
+    "Administration": {
+      "text": "Type: Loop\ndiuretic\nDosage Forms:\nRoutes of Administration: IV, PO\nCommon Trade Names: Demadex",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diuretic",
+          "url": "https://wikem.org/wiki/Diuretic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "40mg\nfurosemide\n= 20mg torsemide = 1mg\nbumetanide\n= 50mg\nEthacrynic acid\n5-200 mg PO or IV daily. Titrate to effect by doubling dose",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "bumetanide",
+          "url": "https://wikem.org/wiki/Bumetanide"
+        },
+        {
+          "text": "Ethacrynic acid",
+          "url": "https://wikem.org/wiki/Ethacrynic_acid"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: no adjustment\nHepatic dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAnuria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Ventricular tachycardia\nSJS/TEN\nOtotoxicity",
+          "tables": []
+        },
+        "Common": {
+          "text": "Polyuria\nRhinitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Ventricular tachycardia\nSJS/TEN\nOtotoxicity",
+      "subsections": {
+        "Common": {
+          "text": "Polyuria\nRhinitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Polyuria\nRhinitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-4 hours\nMetabolism:\nP450\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "P450",
+          "url": "https://wikem.org/wiki/P450"
+        }
+      ]
+    },
+    "Mechanism_of_Action": {
+      "text": "Loop diuretic: interferes with Na/K/Cl cotransport system, inhibiting reabsorption of Na/Cl in the ascending limb of the loop of Henle",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diuretics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        }
+      ]
+    }
+  }
+}

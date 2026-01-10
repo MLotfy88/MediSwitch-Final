@@ -1,0 +1,373 @@
+{
+  "drug_name": "Toxic_shock_syndrome",
+  "url": "https://wikem.org/wiki/Toxic_shock_syndrome",
+  "scraped_at": "2026-01-10T08:03:50.684693",
+  "sections": {
+    "Background": {
+      "text": "Staphylococcal (\nStaph aureus\n) and Streptococcal (\nType A strep\n: Step. pyogenes) types\n1-2/100,000 cases/year\nS. aureus\nstrain that produces toxic shock syndrome toxin-1 (superantigen) is the most common cause\nGAS\nis a less common cause\nSuperantigens stimulate T-cell proliferation independent of antigen-specific binding → massive cytokine production\nAlso affect neutrophil chemotaxis suppression and blockage of reticuloendothelial system",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Postop patients\nNasal packing\nAbscess\nBurns\nTampon use\nIUDs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "Type A strep",
+          "url": "https://wikem.org/wiki/Type_A_strep"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "GAS",
+          "url": "https://wikem.org/wiki/GAS"
+        },
+        {
+          "text": "Nasal packing",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Postop patients\nNasal packing\nAbscess\nBurns\nTampon use\nIUDs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nasal packing",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Clinical_Criteria_Staphylococcal_toxic_shock": {
+          "text": "Fever\n: temperature >38.9°C\n[1]\nRash\n: diffuse macular erythroderma\nHypotension\n: systolic blood pressure <90 mm Hg (adults) or <5th percentile for age (children younger than 16 years), or orthostatic hypotension, dizziness, or syncope\nMultisystem dysfunction: at least 3:\nGastrointestinal: vomiting or diarrhea at onset of illness\nMuscular: severe myalgias, or serum creatine phosphokinase level (CPK) greater than twice the upper limit of normal\nMucous membranes: vaginal, oropharyngeal, or conjunctival hyperemia\nRenal: blood urea nitrogen or creatinine level greater than twice the upper limit of normal, or pyuria (5 leukocytes per high-power field), in the absence of urinary tract infection\nHepatic: total serum bilirubin or transaminase level greater than twice the upper limit of normal\nHematologic: platelets <100,000/L\nCentral nervous system: disorientation or alteration in consciousness but no focal neurologic signs at a time when fever and hypotension are absent.\nDesquamation: One to 2 weeks after the onset of illness (typically palms and soles)",
+          "tables": []
+        },
+        "Clinical_Criteria_Streptococcal_Toxic_Shock": {
+          "text": "Hypotension: systolic blood pressure <90 (adult) or <5th percentile for age (children younger than 16 years)\n[2]\nMultiorgan involvement(>2 organ systems):\nSkin: generalized erythematous macular rash that may desquamate\nSoft tissue necrosis, including necrotizing fascitis or myositis, or gangrene\nAcute respiratory distress syndrome: acute onset of diffuse pulmonary infiltrates and hypoxemia in absence of cardiac failure or by evidence of diffuse capillary leak by acute onset of generalized edema, or pleural or peritoneal effusions with hypoalbuminemia.\nHepatic: total bilirubin, ALT, or AST >2 times the upper limit of normal for the patient's age. x2 elevation in patients with per-existing liver disease.\nRenal: serum creatinine >2 milligrams/dL( >177umol/L) for adults or >2 times the upper limit of normal for age. x2 fold increase in creatitine elevation from baseline\nCoagulopathy: platelet count <100,000/mm3 or DIC.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Clinical_Criteria_Staphylococcal_toxic_shock": {
+      "text": "Fever\n: temperature >38.9°C\n[1]\nRash\n: diffuse macular erythroderma\nHypotension\n: systolic blood pressure <90 mm Hg (adults) or <5th percentile for age (children younger than 16 years), or orthostatic hypotension, dizziness, or syncope\nMultisystem dysfunction: at least 3:\nGastrointestinal: vomiting or diarrhea at onset of illness\nMuscular: severe myalgias, or serum creatine phosphokinase level (CPK) greater than twice the upper limit of normal\nMucous membranes: vaginal, oropharyngeal, or conjunctival hyperemia\nRenal: blood urea nitrogen or creatinine level greater than twice the upper limit of normal, or pyuria (5 leukocytes per high-power field), in the absence of urinary tract infection\nHepatic: total serum bilirubin or transaminase level greater than twice the upper limit of normal\nHematologic: platelets <100,000/L\nCentral nervous system: disorientation or alteration in consciousness but no focal neurologic signs at a time when fever and hypotension are absent.\nDesquamation: One to 2 weeks after the onset of illness (typically palms and soles)",
+      "subsections": {
+        "Clinical_Criteria_Streptococcal_Toxic_Shock": {
+          "text": "Hypotension: systolic blood pressure <90 (adult) or <5th percentile for age (children younger than 16 years)\n[2]\nMultiorgan involvement(>2 organ systems):\nSkin: generalized erythematous macular rash that may desquamate\nSoft tissue necrosis, including necrotizing fascitis or myositis, or gangrene\nAcute respiratory distress syndrome: acute onset of diffuse pulmonary infiltrates and hypoxemia in absence of cardiac failure or by evidence of diffuse capillary leak by acute onset of generalized edema, or pleural or peritoneal effusions with hypoalbuminemia.\nHepatic: total bilirubin, ALT, or AST >2 times the upper limit of normal for the patient's age. x2 elevation in patients with per-existing liver disease.\nRenal: serum creatinine >2 milligrams/dL( >177umol/L) for adults or >2 times the upper limit of normal for age. x2 fold increase in creatitine elevation from baseline\nCoagulopathy: platelet count <100,000/mm3 or DIC.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Clinical_Criteria_Streptococcal_Toxic_Shock": {
+      "text": "Hypotension: systolic blood pressure <90 (adult) or <5th percentile for age (children younger than 16 years)\n[2]\nMultiorgan involvement(>2 organ systems):\nSkin: generalized erythematous macular rash that may desquamate\nSoft tissue necrosis, including necrotizing fascitis or myositis, or gangrene\nAcute respiratory distress syndrome: acute onset of diffuse pulmonary infiltrates and hypoxemia in absence of cardiac failure or by evidence of diffuse capillary leak by acute onset of generalized edema, or pleural or peritoneal effusions with hypoalbuminemia.\nHepatic: total bilirubin, ALT, or AST >2 times the upper limit of normal for the patient's age. x2 elevation in patients with per-existing liver disease.\nRenal: serum creatinine >2 milligrams/dL( >177umol/L) for adults or >2 times the upper limit of normal for age. x2 fold increase in creatitine elevation from baseline\nCoagulopathy: platelet count <100,000/mm3 or DIC.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Erythematous_rash": {
+      "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Case definition for Staphylococcal Toxic Shock Syndrome\nLab Criteria for Diagnosis (if obtained)\n[1]\n:\nNegative culture results for blood, or cerebrospinal fluid (blood may be positive for S. aureus)\nAbsence of an increase in antibody titers to the agents of\nleptospirosis\n,\nmeasles\n, or\nRocky mountain spotted fever\n.\nConfirmed case meets all 5 clinical criteria (\nclinical features\n) plus lab criteria\nProbable case meets 4-5 clinical criteria plus lab criteria\nCase definition for Streptococcal Toxic Shock Syndrome[2]\nLab Criteria\nIsolation of group A Streptoccocus\nCase classification:\nConfirmed: All clinical criteria met + all lab criteria met in sterile collection\nProbable: All clinical criteria met + all lab criteria met in non sterile collection of specimen/absence of other identified etiology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "clinical features",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome#Clinical_Features.5B1.5D"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Antibiotics:\nStaphylococcal:\nClindamycin\n(suppresses toxin synthesis), plus an anti-staph penicillin (e.g.\nOxacillin\nor\nNafcillin\n) or\nVancomycin\n/Linezolid for MRSA\nStreptococcal: Clindamycin and Piperacillin-tazobactam or Meropenem\nSupportive care,\npressors\noften needed",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Internet Bock of Critical Care Toxic Shock Syndrome.\nhttps://emcrit.org/ibcc/tss/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

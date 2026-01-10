@@ -1,0 +1,450 @@
+{
+  "drug_name": "Toxoplasmosis",
+  "url": "https://wikem.org/wiki/Toxoplasmosis",
+  "scraped_at": "2026-01-10T08:03:51.593905",
+  "sections": {
+    "Background": {
+      "text": "Most common cause of focal encephalitis in patients with AIDS\nRisk at CD4 < 100 and not on prophylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Headache\nFever\nFocal neurologic deficits\naltered mental status\nSeizures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Focal neurologic deficits",
+          "url": "https://wikem.org/wiki/Focal_neurologic_deficits"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Lymphoma\nMore commonly single lesion in the periventricular white matter or corpus callosum\nCerebral TB\nCharacteristic inflammatory appearance with isodense exudate filling basal cisterns\nFungal infection",
+      "subsections": {
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[1]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fungal infection",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "HIV_associated_conditions": {
+      "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[1]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Head CT\nwithout contrast\nShows multiple subcortical lesions with predilection for basal ganglia\nContrast usually not needed; if obtained, will show ring enhancing lesions\nCSF\nHelpful but high rate of false negatives\nSerology not generally helpful since antibodies common in general population",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Immunocompetent": {
+          "text": "Antibiotics only needed if patient has severe symptoms\nPyrimethamine\n200mg PO one dose (for loading) THEN 50mg PO q24hrs x4wks AND\nLeucovorin\n10mg PO q24hrs AND\nSulfadiazine\n1g PO q6hrs",
+          "tables": []
+        },
+        "Immunosprepressed": {
+          "text": "Pyrimethamine\n200mg PO one dose (for loading) THEN 75mg PO q24hrs x4-8wks AND\nLeucovorin\n25mg PO q24hrs PLUS\nSulfadiazine\n1500mg PO q6hrs OR\nClindamycin\n600mg PO or IV q6hrs OR\nAzithromycin\n12000mg PO q24hrs OR\nAtovaquone\n1500mg PO q12hrs\nOR\nTMP/SMX\n5mg/kg IV q12hrs",
+          "tables": []
+        },
+        "Pregnant": {
+          "text": "Spiramycin\n1 g orally every 8 hours\n[2]\nIf amniotic fluid is positive treat with 3 weeks of pyrimethamine (50 mg/day orally) + sulfadiazine (3 g/day orally in 2-3 divided doses)\nAlternate with a 3-week course of Spiramycin 1 g 3 times daily OR\nPyrimethamine\n(25 mg/day orally) and sulfadiazine (4 g/day orally) divided 2 or 4 times daily until delivery AND\nLeucovorin\n10-25 mg/day orally to prevent bone marrow suppression",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Consider\ndexamethasone\n4mg IV q6hr for significant edema or mass effect",
+          "tables": []
+        },
+        "Folinic_Acid": {
+          "text": "Administer if the treatment regimen includes Leucovorin\nFolinic acid\n10mg PO QD x6–8wk",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "Leucovorin",
+          "url": "https://wikem.org/wiki/Leucovorin"
+        },
+        {
+          "text": "Sulfadiazine",
+          "url": "https://wikem.org/wiki/Sulfadiazine"
+        },
+        {
+          "text": "Pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "Leucovorin",
+          "url": "https://wikem.org/wiki/Leucovorin"
+        },
+        {
+          "text": "Sulfadiazine",
+          "url": "https://wikem.org/wiki/Sulfadiazine"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Atovaquone",
+          "url": "https://wikem.org/wiki/Atovaquone"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Spiramycin",
+          "url": "https://wikem.org/wiki/Spiramycin"
+        },
+        {
+          "text": "Pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "Leucovorin",
+          "url": "https://wikem.org/wiki/Leucovorin"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "",
+      "subsections": {
+        "Immunocompetent": {
+          "text": "Antibiotics only needed if patient has severe symptoms\nPyrimethamine\n200mg PO one dose (for loading) THEN 50mg PO q24hrs x4wks AND\nLeucovorin\n10mg PO q24hrs AND\nSulfadiazine\n1g PO q6hrs",
+          "tables": []
+        },
+        "Immunosprepressed": {
+          "text": "Pyrimethamine\n200mg PO one dose (for loading) THEN 75mg PO q24hrs x4-8wks AND\nLeucovorin\n25mg PO q24hrs PLUS\nSulfadiazine\n1500mg PO q6hrs OR\nClindamycin\n600mg PO or IV q6hrs OR\nAzithromycin\n12000mg PO q24hrs OR\nAtovaquone\n1500mg PO q12hrs\nOR\nTMP/SMX\n5mg/kg IV q12hrs",
+          "tables": []
+        },
+        "Pregnant": {
+          "text": "Spiramycin\n1 g orally every 8 hours\n[2]\nIf amniotic fluid is positive treat with 3 weeks of pyrimethamine (50 mg/day orally) + sulfadiazine (3 g/day orally in 2-3 divided doses)\nAlternate with a 3-week course of Spiramycin 1 g 3 times daily OR\nPyrimethamine\n(25 mg/day orally) and sulfadiazine (4 g/day orally) divided 2 or 4 times daily until delivery AND\nLeucovorin\n10-25 mg/day orally to prevent bone marrow suppression",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Consider\ndexamethasone\n4mg IV q6hr for significant edema or mass effect",
+          "tables": []
+        },
+        "Folinic_Acid": {
+          "text": "Administer if the treatment regimen includes Leucovorin\nFolinic acid\n10mg PO QD x6–8wk",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "Leucovorin",
+          "url": "https://wikem.org/wiki/Leucovorin"
+        },
+        {
+          "text": "Sulfadiazine",
+          "url": "https://wikem.org/wiki/Sulfadiazine"
+        },
+        {
+          "text": "Pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "Leucovorin",
+          "url": "https://wikem.org/wiki/Leucovorin"
+        },
+        {
+          "text": "Sulfadiazine",
+          "url": "https://wikem.org/wiki/Sulfadiazine"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Atovaquone",
+          "url": "https://wikem.org/wiki/Atovaquone"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Spiramycin",
+          "url": "https://wikem.org/wiki/Spiramycin"
+        },
+        {
+          "text": "Pyrimethamine",
+          "url": "https://wikem.org/wiki/Pyrimethamine"
+        },
+        {
+          "text": "Leucovorin",
+          "url": "https://wikem.org/wiki/Leucovorin"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Steroids": {
+      "text": "Consider\ndexamethasone\n4mg IV q6hr for significant edema or mass effect",
+      "subsections": {
+        "Folinic_Acid": {
+          "text": "Administer if the treatment regimen includes Leucovorin\nFolinic acid\n10mg PO QD x6–8wk",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Folinic_Acid": {
+      "text": "Administer if the treatment regimen includes Leucovorin\nFolinic acid\n10mg PO QD x6–8wk",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

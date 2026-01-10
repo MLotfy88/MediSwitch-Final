@@ -1,0 +1,69 @@
+{
+  "drug_name": "Torus_fracture",
+  "url": "https://wikem.org/wiki/Torus_fracture",
+  "scraped_at": "2026-01-10T08:03:50.779813",
+  "sections": {
+    "Background": {
+      "text": "Compressive force leads to bulging of the periosteum/cortex\nAlso known as buckle fracture\nOften occur at the end of long bones",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Frequently involves distal radial metaphysis\nMinimal visual deformity\nSoft tissue swelling and point tenderness at injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Greenstick fracture\nCorner fracture\n(Bucket Handle)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Greenstick fracture",
+          "url": "https://wikem.org/wiki/Greenstick_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Soft tissue swelling and point tenderness\nVisible deformity is unusual",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "\"A simple volar slab or velcro wrist splint or \"soft cast\" was better than a rigid cast for pediatric torus fractures of the forearm.\"\n[1]\n[2]\nSplint in position of function",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Follow up with pediatrician in 1 week",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fractures and dislocations (peds)\nFractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures and dislocations (peds)",
+          "url": "https://wikem.org/wiki/Fractures_and_dislocations_(peds)"
+        },
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        }
+      ]
+    },
+    "References": {
+      "text": "Geiderman JM, Katz D: General Principles of Orthopedic Injuries, in Marx JA, Hockberger RS, Walls RM, et al (eds): Rosen’s Emergency Medicine: Concepts and Clinical Practice, ed 7. St. Louis, Mosby, Inc., 2010, (Ch) 46:p 473-474.\nHopkins-Mann C, Ogunnaike-joseph D, Moro-Sutherland D: Musculoskeletal Disorders in Children, in Tintinalli JE, Stapczynski JS, Ma OJ, et al (eds): Tintinalli’s Emergency Medicine, ed 7. New York, The McGraw-Hill Companies Inc., 2011, (Ch) 133\nKoelink, Eric, et al. “Primary Care Physician Follow-up of Distal Radius Buckle Fractures.” Pediatrics, vol. 137, no. 1, 2015, doi:10.1542/peds.2015-2262.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

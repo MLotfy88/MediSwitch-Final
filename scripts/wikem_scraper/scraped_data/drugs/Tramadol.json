@@ -1,0 +1,159 @@
+{
+  "drug_name": "Tramadol",
+  "url": "https://wikem.org/wiki/Tramadol",
+  "scraped_at": "2026-01-10T08:03:56.276082",
+  "sections": {
+    "General": {
+      "text": "Type:\nOpioid\nDosage Forms: PO, IM, IV, PR; immediate and extended release formulations; combination formulations with acetaminophen (Tramacet)\nCommon Trade Names: Ultram, Ryzolt, Zytram",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "Moderate to severe pain:\n50-100mg PO q4-6h PRN\nChronic severe pain:\n100-300mg ER PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_2": {
+      "text": "Moderate to severe pain:\n50-100mg PO q4-6h PRN\nChronic severe pain:\n100-300mg ER PO daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Not Currently recommended",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation Risk Categories\n: Probably safe\nRenal Dosing\nAdult: CrCL < 30: given q12h, max 200mg/day\nPediatric: none\nHepatic Dosing\nAdult: cirrhosis: 50mg q12h, max 100mg/day\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation Risk Categories",
+          "url": "https://wikem.org/wiki/Lactation_Risk_Categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAsthma, acute\nRespiratory depression\nSevere hepatic impairment\nSevere renal impairment\nAcute alcohol intoxication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Respiratory Depression\nSuicidal ideation\nSeizures\nAnaphylaxis\nSerotonin syndrome\nStevens-Johnson syndrome",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea\nRash\nHeadache\nFatigue\nXerostomia\nConstipation\nTremor\nInsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Respiratory Depression\nSuicidal ideation\nSeizures\nAnaphylaxis\nSerotonin syndrome\nStevens-Johnson syndrome",
+      "subsections": {
+        "Common": {
+          "text": "Nausea\nRash\nHeadache\nFatigue\nXerostomia\nConstipation\nTremor\nInsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea\nRash\nHeadache\nFatigue\nXerostomia\nConstipation\nTremor\nInsomnia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6.3 - 7.9 hour\nMetabolism: Liver\nExcretion: urine\nMechanism of Action:exact mechanism unknown, binds to mu opioid receptors and weakly inhibits NE/Serotonin reuptake",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "drug_name": "Toddler%27s_fracture",
+  "url": "https://wikem.org/wiki/Toddler%27s_fracture",
+  "scraped_at": "2026-01-10T08:03:45.972819",
+  "sections": {
+    "Background": {
+      "text": "Also known as Childhood Accidental Spiral Tibial (CAST) fracture\nNondisplaced (or minimally displaced) spiral fracture of the tibia\nTypically encountered in ambulating toddlers (9 months - 3 years) due to low energy trauma with rotational component (i.e. twisting body while one leg is planted).\nNOT generally associated with non-accidental trauma.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "History of an otherwise healthy child, who was ambulating, falls and is then non-ambulatory or has painful ambulation.\nUsually pain with palpation and rotation of distal tibia\nSwelling may be minimal or absent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Tibial_Fractures": {
+          "text": "Toddler's fracture\nTibial spine fracture\nTibial tuberosity fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial spine fracture",
+          "url": "https://wikem.org/wiki/Tibial_spine_fracture"
+        },
+        {
+          "text": "Tibial tuberosity fracture",
+          "url": "https://wikem.org/wiki/Tibial_tuberosity_fracture"
+        }
+      ]
+    },
+    "Pediatric_Tibial_Fractures": {
+      "text": "Toddler's fracture\nTibial spine fracture\nTibial tuberosity fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial spine fracture",
+          "url": "https://wikem.org/wiki/Tibial_spine_fracture"
+        },
+        {
+          "text": "Tibial tuberosity fracture",
+          "url": "https://wikem.org/wiki/Tibial_tuberosity_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "X-ray of affected limb\nMay only present as faint oblique line on AP view\nMay need oblique view if strong suspicion but AP/lat are negative",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Specific_Management": {
+          "text": "CAM walker boot can be used as alternative to casting strategies\n[1]\n[2]\n.\nDefinite fracture\nImmobilize in long leg splint (knee flexed to provide rotational control and prevent weight bearing)\nOrtho follow up next day for definitive casting. Usually takes 3-4 weeks for healing without further intervention.\nSerial radiographs to monitor for developing deformity (ie leg length discrepancy or varus/valgus angular deformity).\nNegative x-ray with high suspicion for occult fracture\nImmobilize and follow up with ortho for bone scan or repeat x-ray in 1 week",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Specific_Management": {
+          "text": "CAM walker boot can be used as alternative to casting strategies\n[1]\n[2]\n.\nDefinite fracture\nImmobilize in long leg splint (knee flexed to provide rotational control and prevent weight bearing)\nOrtho follow up next day for definitive casting. Usually takes 3-4 weeks for healing without further intervention.\nSerial radiographs to monitor for developing deformity (ie leg length discrepancy or varus/valgus angular deformity).\nNegative x-ray with high suspicion for occult fracture\nImmobilize and follow up with ortho for bone scan or repeat x-ray in 1 week",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Specific_Management": {
+      "text": "CAM walker boot can be used as alternative to casting strategies\n[1]\n[2]\n.\nDefinite fracture\nImmobilize in long leg splint (knee flexed to provide rotational control and prevent weight bearing)\nOrtho follow up next day for definitive casting. Usually takes 3-4 weeks for healing without further intervention.\nSerial radiographs to monitor for developing deformity (ie leg length discrepancy or varus/valgus angular deformity).\nNegative x-ray with high suspicion for occult fracture\nImmobilize and follow up with ortho for bone scan or repeat x-ray in 1 week",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge with ortho follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tibia fracture (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        }
+      ]
+    }
+  }
+}

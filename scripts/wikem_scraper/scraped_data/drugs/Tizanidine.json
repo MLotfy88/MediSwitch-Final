@@ -1,0 +1,267 @@
+{
+  "drug_name": "Tizanidine",
+  "url": "https://wikem.org/wiki/Tizanidine",
+  "scraped_at": "2026-01-10T08:03:45.313471",
+  "sections": {
+    "Administration": {
+      "text": "Type: Muscle relaxant\nDosage Forms: Cap: 2mg, 4mg; Tab: 2mg, 4mg\nRoutes of Administration: Oral\nCommon Trade Names: Zanaflex",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Spasticity": {
+          "text": "Individualize dose PO q6-8h prn\nStart 2mg PO x1\nMax: 3 doses/24h up to 36mg/day\nTaper dose 2-4 mg/day to D/C if prolonged use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Spasticity": {
+      "text": "Individualize dose PO q6-8h prn\nStart 2mg PO x1\nMax: 3 doses/24h up to 36mg/day\nTaper dose 2-4 mg/day to D/C if prolonged use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Consider alternative during pregnancy\nPossible risk of fetal harm",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Consider alternative while breastfeeding\nPossible risk of infant sedation and hypotension",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: CrCl <25: Decrease dose",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Consider alternative during pregnancy\nPossible risk of fetal harm",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Consider alternative while breastfeeding\nPossible risk of infant sedation and hypotension",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: CrCl <25: Decrease dose",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Consider alternative while breastfeeding\nPossible risk of infant sedation and hypotension",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: CrCl <25: Decrease dose",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: CrCl <25: Decrease dose",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAvoid abrupt withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hepatotoxicity\nBradycardia\n,\nhypotension\nSyncope\nHallucinations\nAnaphylaxis\n,\nStevens-Johnson syndrome\n, exfoliative dermatitis\nAbrupt D/C: Rebound HTN, tachycardia, hypertonia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Xerostomia\nSomnolence,\ndizziness\n, nervousness\nUTI\n, urinary frequency\nConstipation\n,\nVomiting\nDyskinesia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hepatotoxicity\nBradycardia\n,\nhypotension\nSyncope\nHallucinations\nAnaphylaxis\n,\nStevens-Johnson syndrome\n, exfoliative dermatitis\nAbrupt D/C: Rebound HTN, tachycardia, hypertonia",
+      "subsections": {
+        "Common": {
+          "text": "Xerostomia\nSomnolence,\ndizziness\n, nervousness\nUTI\n, urinary frequency\nConstipation\n,\nVomiting\nDyskinesia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Xerostomia\nSomnolence,\ndizziness\n, nervousness\nUTI\n, urinary frequency\nConstipation\n,\nVomiting\nDyskinesia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.5 hr\nMetabolism: Liver; CYP450: 1A2 substrate\nExcretion: Urine 60%, feces 20%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds to central alpha-2 adrenergic receptors, increasing presynaptic motor neuron inhibition and reducing spasticity\nCentrally acting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

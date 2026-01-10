@@ -1,0 +1,424 @@
+{
+  "drug_name": "Tinea_cruris",
+  "url": "https://wikem.org/wiki/Tinea_cruris",
+  "scraped_at": "2026-01-10T08:03:44.760410",
+  "sections": {
+    "Background": {
+      "text": "Dermatophyte infection involving the crural fold\nColloquially known as 'jock itch'\nMost commonly caused by\nTinea\nrubrum\nMore common in men than women\nMay result from the spread of other concurrent tinea infections\nMore common in obese, diabetics, and immunodeficient",
+      "subsections": {
+        "Tinea_Types": {
+          "text": "Tinea capitis\n(head)\nTinea corporis\n(body)\nTinea pedis\n(foot)\nTinea cruris\n(groin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea",
+          "url": "https://wikem.org/wiki/Tinea"
+        },
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        }
+      ]
+    },
+    "Tinea_Types": {
+      "text": "Tinea capitis\n(head)\nTinea corporis\n(body)\nTinea pedis\n(foot)\nTinea cruris\n(groin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Begins with an erythematous\npatch\non the proximal medial thigh\nInward spread with partial central clearing\nSharply demarcated border, erythematous, elevated\nMay spread to perineum, perianally, onto buttocks, or into gluteal cleft\nTypically spares the scrotum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "patch",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Erythrasma (Coral red fluorescence with Wood's lamp)\nSeborrheic dermatitis\nCandidal\nintertrigo (Erythematous patches with satellite lesions)\nInverse\npsoriasis",
+      "subsections": {
+        "Testicular_Diagnoses": {
+          "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+          "tables": []
+        },
+        "Vulvovaginitis": {
+          "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        },
+        {
+          "text": "Candidal",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        },
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        },
+        {
+          "text": "Contact vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        }
+      ]
+    },
+    "Testicular_Diagnoses": {
+      "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+      "subsections": {
+        "Vulvovaginitis": {
+          "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        },
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        },
+        {
+          "text": "Contact vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        }
+      ]
+    },
+    "Vulvovaginitis": {
+      "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        },
+        {
+          "text": "Contact vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically a clinical diagnosis\nScraped skin from affected area in KOH prep will show segmented hyphae",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Topical\nantifungals\n:\nClotrimazole\n,\nterbinafine\ntreatment to reduce symptoms, prevent secondary bacterial infection, and limit spread\nSystemic antifungals reserved for patients who fail topical therapy\nSystemic antifungals that can be used include:\nterbinafine\n,\nitraconazole\n, and\nfluconazole",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tinea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea",
+          "url": "https://wikem.org/wiki/Tinea"
+        }
+      ]
+    },
+    "References": {
+      "text": "UpToDate, Tinitnalli's",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

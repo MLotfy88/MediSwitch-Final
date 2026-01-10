@@ -1,0 +1,200 @@
+{
+  "drug_name": "Tillaux_fracture",
+  "url": "https://wikem.org/wiki/Tillaux_fracture",
+  "scraped_at": "2026-01-10T08:03:43.022443",
+  "sections": {
+    "Background": {
+      "text": "Salter-Harris type III fracture of the anterolateral portion of the distal tibia\ncaused by an avulsion of anterior inferior tibiofibular ligament\nOccurs typically in adolescents, age 12-14\noccurs in children nearing skeletal maturity, as anterolateral portion most vulnerable at this age",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Typically due to external rotation force\nforced lateral rotation of foot\nOR\nmedial rotation of leg on a fixed foot\nOften associated with external rotation deformity of the ankle/foot",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "Distal_Leg_Fracture_Types": {
+      "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "XR\nSalter-Harris III fracture of anterolateral distal tibia epiphysis\nCT scan\nfurther delineates fracture pattern and degree of displacement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Specific_Management": {
+          "text": "Ortho consult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Specific_Management": {
+          "text": "Ortho consult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Specific_Management": {
+      "text": "Ortho consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Most will require surgical reduction\nAdmit",
+      "subsections": {
+        "Specialty_Care": {
+          "text": "Nonoperative\nclosed reduction, long leg cast x 4wks, short leg cast x 2-3wks\nindicated only if <2mm of displacement after closed reduction (rare)\nOperative\nOpen reduction and internal fixation (\nOR\nIF)\nindicated if >2mm of displacement after reduction attempt",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Specialty_Care": {
+      "text": "Nonoperative\nclosed reduction, long leg cast x 4wks, short leg cast x 2-3wks\nindicated only if <2mm of displacement after closed reduction (rare)\nOperative\nOpen reduction and internal fixation (\nOR\nIF)\nindicated if >2mm of displacement after reduction attempt",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Salter-Harris fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salter-Harris fractures",
+          "url": "https://wikem.org/wiki/Salter-Harris_fractures"
+        }
+      ]
+    },
+    "References": {
+      "text": "Tintinalli 7th Edition, pg 905\nhttp://radiopaedia.org/articles/tillaux-fracture\nhttp://orthobullets.com/pediatrics/4028/tillaux-fractures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

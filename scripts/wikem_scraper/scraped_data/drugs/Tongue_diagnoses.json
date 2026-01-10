@@ -1,0 +1,196 @@
+{
+  "drug_name": "Tongue_diagnoses",
+  "url": "https://wikem.org/wiki/Tongue_diagnoses",
+  "scraped_at": "2026-01-10T08:03:55.361576",
+  "sections": {
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Mouth_images": {
+          "text": "Angioedema\nAphthous stomatitis\nRanula\nHerpesgingiva\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nRed\nstrawberry tongue\nThrush\nSteven Johnson syndrome\nStrep pharyngitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Herpesgingiva",
+          "url": "https://wikem.org/wiki/Herpesgingiva"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "strawberry tongue",
+          "url": "https://wikem.org/wiki/Strawberry_tongue"
+        },
+        {
+          "text": "Thrush",
+          "url": "https://wikem.org/wiki/Thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Strep pharyngitis",
+          "url": "https://wikem.org/wiki/Strep_pharyngitis"
+        }
+      ]
+    },
+    "Mouth_images": {
+      "text": "Angioedema\nAphthous stomatitis\nRanula\nHerpesgingiva\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nRed\nstrawberry tongue\nThrush\nSteven Johnson syndrome\nStrep pharyngitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Herpesgingiva",
+          "url": "https://wikem.org/wiki/Herpesgingiva"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "strawberry tongue",
+          "url": "https://wikem.org/wiki/Strawberry_tongue"
+        },
+        {
+          "text": "Thrush",
+          "url": "https://wikem.org/wiki/Thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Strep pharyngitis",
+          "url": "https://wikem.org/wiki/Strep_pharyngitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tongue_diagnoses": {
+          "text": "Tongue laceration\nStrawberry tongue\nBlack hairy tongue\nOropharyngeal candidiasis\n(oral thrush)\nHairy Oral Leukoplakia\nTongue swelling\nTrauma\nAngioedema\nHereditary\nAllergic (ACE)\nIdiopathic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Strawberry tongue",
+          "url": "https://wikem.org/wiki/Strawberry_tongue"
+        },
+        {
+          "text": "Black hairy tongue",
+          "url": "https://wikem.org/wiki/Black_hairy_tongue"
+        },
+        {
+          "text": "Oropharyngeal candidiasis",
+          "url": "https://wikem.org/wiki/Oropharyngeal_candidiasis"
+        },
+        {
+          "text": "Hairy Oral Leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_Oral_Leukoplakia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema_(Upper_Airway)"
+        }
+      ]
+    },
+    "Tongue_diagnoses": {
+      "text": "Tongue laceration\nStrawberry tongue\nBlack hairy tongue\nOropharyngeal candidiasis\n(oral thrush)\nHairy Oral Leukoplakia\nTongue swelling\nTrauma\nAngioedema\nHereditary\nAllergic (ACE)\nIdiopathic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Strawberry tongue",
+          "url": "https://wikem.org/wiki/Strawberry_tongue"
+        },
+        {
+          "text": "Black hairy tongue",
+          "url": "https://wikem.org/wiki/Black_hairy_tongue"
+        },
+        {
+          "text": "Oropharyngeal candidiasis",
+          "url": "https://wikem.org/wiki/Oropharyngeal_candidiasis"
+        },
+        {
+          "text": "Hairy Oral Leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_Oral_Leukoplakia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema_(Upper_Airway)"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Diagnoses by Body Part (Main)\nOropharynx and jaw diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diagnoses by Body Part (Main)",
+          "url": "https://wikem.org/wiki/Diagnoses_by_Body_Part_(Main)"
+        },
+        {
+          "text": "Oropharynx and jaw diagnoses",
+          "url": "https://wikem.org/wiki/Oropharynx_and_jaw_diagnoses"
+        }
+      ]
+    }
+  }
+}

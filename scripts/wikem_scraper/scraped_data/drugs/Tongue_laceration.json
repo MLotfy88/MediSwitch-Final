@@ -1,0 +1,290 @@
+{
+  "drug_name": "Tongue_laceration",
+  "url": "https://wikem.org/wiki/Tongue_laceration",
+  "scraped_at": "2026-01-10T08:03:48.368215",
+  "sections": {
+    "Background": {
+      "text": "Secondary to tongue biting\nSerious injuries can cause\nhemorrhage\nand potential airway compromise",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Examine for other injuries, missing teeth, embedded foreign bodies",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tongue_diagnoses": {
+          "text": "Tongue laceration\nStrawberry tongue\nBlack hairy tongue\nOropharyngeal candidiasis\n(oral thrush)\nHairy Oral Leukoplakia\nTongue swelling\nTrauma\nAngioedema\nHereditary\nAllergic (ACE)\nIdiopathic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Strawberry tongue",
+          "url": "https://wikem.org/wiki/Strawberry_tongue"
+        },
+        {
+          "text": "Black hairy tongue",
+          "url": "https://wikem.org/wiki/Black_hairy_tongue"
+        },
+        {
+          "text": "Oropharyngeal candidiasis",
+          "url": "https://wikem.org/wiki/Oropharyngeal_candidiasis"
+        },
+        {
+          "text": "Hairy Oral Leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_Oral_Leukoplakia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema_(Upper_Airway)"
+        }
+      ]
+    },
+    "Tongue_diagnoses": {
+      "text": "Tongue laceration\nStrawberry tongue\nBlack hairy tongue\nOropharyngeal candidiasis\n(oral thrush)\nHairy Oral Leukoplakia\nTongue swelling\nTrauma\nAngioedema\nHereditary\nAllergic (ACE)\nIdiopathic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Strawberry tongue",
+          "url": "https://wikem.org/wiki/Strawberry_tongue"
+        },
+        {
+          "text": "Black hairy tongue",
+          "url": "https://wikem.org/wiki/Black_hairy_tongue"
+        },
+        {
+          "text": "Oropharyngeal candidiasis",
+          "url": "https://wikem.org/wiki/Oropharyngeal_candidiasis"
+        },
+        {
+          "text": "Hairy Oral Leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_Oral_Leukoplakia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema_(Upper_Airway)"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Adult": {
+          "text": "Do not need primary repair unless >1 cm in length, widely gaping, involving tip / anterior split tongue, or large hemorrhage\nUse absorbable sutures, chromic gut or vicryl but not fast absorbing\nTie 4-5 knots but approximate loosely to allow for swelling\nAnesthesia of the anterior 2/3 of the tongue is obtained through a\nlingual nerve block\nor topical anesthesia with 4% lidocaine soaked gauze.\nChlorhexidine mouth wash to prevent infection",
+          "tables": []
+        },
+        "Pediatric_patients": {
+          "text": "Who needs suturing (see photo to the right)?\n[1]\n[2]\nConsult Head & Neck service if any large amputation of tongue. Otherwise, proceed below.\nLidocaine\nAnxiolysis -\nMidazolam\n0.3-0.5 mg/kg intranasal (max 10kg) or\nKetamine\n3-6 Mg/kg intranasal\nRetraction - Clamp tongue with towel and pull tongue forward. Consider placing O-silk suture midline in tongue for added traction, but be careful to avoid lingual artery when puncturing (go midline and as anterior as possible when puncturing).\nIrrigate and inspect\nSuture - many options exist (1 single deep suture through all 3 layers, 1 suture above and 1 below)\nFollow-up - Soft diet for 3 days, antiseptic (dilute peroxide) swish and spit, antibiotics not needed unless wound is dirty",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lingual nerve block",
+          "url": "https://wikem.org/wiki/Lingual_nerve_block"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Adult": {
+      "text": "Do not need primary repair unless >1 cm in length, widely gaping, involving tip / anterior split tongue, or large hemorrhage\nUse absorbable sutures, chromic gut or vicryl but not fast absorbing\nTie 4-5 knots but approximate loosely to allow for swelling\nAnesthesia of the anterior 2/3 of the tongue is obtained through a\nlingual nerve block\nor topical anesthesia with 4% lidocaine soaked gauze.\nChlorhexidine mouth wash to prevent infection",
+      "subsections": {
+        "Pediatric_patients": {
+          "text": "Who needs suturing (see photo to the right)?\n[1]\n[2]\nConsult Head & Neck service if any large amputation of tongue. Otherwise, proceed below.\nLidocaine\nAnxiolysis -\nMidazolam\n0.3-0.5 mg/kg intranasal (max 10kg) or\nKetamine\n3-6 Mg/kg intranasal\nRetraction - Clamp tongue with towel and pull tongue forward. Consider placing O-silk suture midline in tongue for added traction, but be careful to avoid lingual artery when puncturing (go midline and as anterior as possible when puncturing).\nIrrigate and inspect\nSuture - many options exist (1 single deep suture through all 3 layers, 1 suture above and 1 below)\nFollow-up - Soft diet for 3 days, antiseptic (dilute peroxide) swish and spit, antibiotics not needed unless wound is dirty",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lingual nerve block",
+          "url": "https://wikem.org/wiki/Lingual_nerve_block"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Pediatric_patients": {
+      "text": "Who needs suturing (see photo to the right)?\n[1]\n[2]\nConsult Head & Neck service if any large amputation of tongue. Otherwise, proceed below.\nLidocaine\nAnxiolysis -\nMidazolam\n0.3-0.5 mg/kg intranasal (max 10kg) or\nKetamine\n3-6 Mg/kg intranasal\nRetraction - Clamp tongue with towel and pull tongue forward. Consider placing O-silk suture midline in tongue for added traction, but be careful to avoid lingual artery when puncturing (go midline and as anterior as possible when puncturing).\nIrrigate and inspect\nSuture - many options exist (1 single deep suture through all 3 layers, 1 suture above and 1 below)\nFollow-up - Soft diet for 3 days, antiseptic (dilute peroxide) swish and spit, antibiotics not needed unless wound is dirty",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Typically outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tongue Diagnoses\nLacerations",
+      "subsections": {
+        "Special_Lacerations_by_Body_Part": {
+          "text": "Head\nConjunctival laceration\nEar laceration\nEyelid laceration\nLip laceration\nScalp laceration\nTongue laceration\nHand\nFingertip amputation\nNailbed laceration\nOther\nBites\nGeneral\nlaceration repair\n(main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tongue Diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_Diagnoses"
+        },
+        {
+          "text": "Lacerations",
+          "url": "https://wikem.org/wiki/Lacerations"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Ear laceration",
+          "url": "https://wikem.org/wiki/Ear_laceration"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Fingertip amputation",
+          "url": "https://wikem.org/wiki/Fingertip_amputation"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Bites",
+          "url": "https://wikem.org/wiki/Bites"
+        },
+        {
+          "text": "laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        }
+      ]
+    },
+    "Special_Lacerations_by_Body_Part": {
+      "text": "Head\nConjunctival laceration\nEar laceration\nEyelid laceration\nLip laceration\nScalp laceration\nTongue laceration\nHand\nFingertip amputation\nNailbed laceration\nOther\nBites\nGeneral\nlaceration repair\n(main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Ear laceration",
+          "url": "https://wikem.org/wiki/Ear_laceration"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Fingertip amputation",
+          "url": "https://wikem.org/wiki/Fingertip_amputation"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Bites",
+          "url": "https://wikem.org/wiki/Bites"
+        },
+        {
+          "text": "laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=h14KyO8JlZE}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=h14KyO8JlZE}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Ud-udin Z and Gull S. Should minor mucosal tongue lacerations be sutured in children? Emerg Med J. 2007 Feb; 24(2): 123–124.\nTongue lacerations. A. Patel. BDJ 204, 355 (2008) Published online: 12 April 2008. doi :10.1038/sj.bdj.2008.257.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

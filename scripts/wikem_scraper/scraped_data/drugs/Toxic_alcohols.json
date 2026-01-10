@@ -1,0 +1,156 @@
+{
+  "drug_name": "Toxic_alcohols",
+  "url": "https://wikem.org/wiki/Toxic_alcohols",
+  "scraped_at": "2026-01-10T08:03:50.230907",
+  "sections": {
+    "Toxic_Alcohols": {
+      "text": "Ethanol Toxicity\nIsopropyl Alcohol Toxicity\nMethanol Toxicity\nEthylene Glycol Toxicity",
+      "subsections": {
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol Toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_Toxicity"
+        },
+        {
+          "text": "Isopropyl Alcohol Toxicity",
+          "url": "https://wikem.org/wiki/Isopropyl_Alcohol_Toxicity"
+        },
+        {
+          "text": "Methanol Toxicity",
+          "url": "https://wikem.org/wiki/Methanol_Toxicity"
+        },
+        {
+          "text": "Ethylene Glycol Toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Toxicity"
+        }
+      ]
+    },
+    "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+ (if ketoacidosis)",
+            "Ketones": "+",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "",
+            "Management": "Mainly supportive"
+          },
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+",
+            "Ketones": "-",
+            "Ca Oxolate stones": "+",
+            "Reduced vision": "-",
+            "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+          },
+          {
+            "Osmolar gap": "+ (early on, then disappears)",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+",
+            "Ketones": "-",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "+",
+            "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+          },
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "-",
+            "Anion gap": "-",
+            "Ketones": "+",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "+",
+            "Management": "Mainly supportive"
+          },
+          {
+            "Osmolar gap": "+ (initially)",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+ (converted to lactate)",
+            "Ketones": "-",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "-",
+            "Management": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sedative/hypnotic toxicity\nSedative/hypnotic withdrawal\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedative/hypnotic toxicity",
+          "url": "https://wikem.org/wiki/Sedative/hypnotic_toxicity"
+        },
+        {
+          "text": "Sedative/hypnotic withdrawal",
+          "url": "https://wikem.org/wiki/Sedative/hypnotic_withdrawal"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    }
+  }
+}

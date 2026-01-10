@@ -1,0 +1,676 @@
+{
+  "drug_name": "Topical_steroids",
+  "url": "https://wikem.org/wiki/Topical_steroids",
+  "scraped_at": "2026-01-10T08:03:49.371271",
+  "sections": {
+    "Background": {
+      "text": "The USA system utilizes 7 classes, which are classified by their ability to constrict capillaries\nClass I is the strongest and Class VII is the weakest\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Classification": {
+      "text": "",
+      "subsections": {
+        "Group_I": {
+          "text": "Very potent: up to 600 times stronger than\nhydrocortisone\nClobetasol propionate\n0.05% (Dermovate)\nBetamethasone dipropionate\n0.25% (Diprolene)\nHalobetasol\npropionate 0.05% (Ultravate, Halox)\nDiflorasone diacetate\n0.05% (Psorcon)",
+          "tables": []
+        },
+        "Group_II": {
+          "text": "Fluocinonide\n0.05% (Lidex)\nHalcinonide\n0.05% (Halog)\nAmcinonide\n0.05% (Cyclocort)\nDesoximetasone\n0.25% (Topicort)",
+          "tables": []
+        },
+        "Group_III": {
+          "text": "Triamcinolone acetonide\n0.5% (Kenalog, Aristocort cream)\nMometasone furoate\n0.1% (Elocon ointment)\nFluticasone propionate\n0.005% (Cutivate)\nBetamethasone dipropionate\n0.05% (Diprosone)\nHalometasone\n0.05%",
+          "tables": []
+        },
+        "Group_IV": {
+          "text": "Fluocinolone acetonide\n0.01-0.2% (Synalar, Synemol, Fluonid)\nHydrocortisone valerate\n0.2% (Westcort)\nHydrocortisone butyrate\n0.1% (Locoid)\nFlurandrenolide\n0.05% (Cordran)\nTriamcinolone acetonide\n0.1% (Kenalog, Aristocort A ointment)\nMometasone furoate\n0.1% (Elocon cream, lotion)",
+          "tables": []
+        },
+        "Group_V": {
+          "text": "Fluticasone propionate\n0.05% (Cutivate cream)\nDesonide\n0.05% (Tridesilon, DesOwen ointment)\nFluocinolone acetonide\n0.025% (Synalar, Synemol cream)\nHydrocortisone valerate\n0.2% (Westcort cream)",
+          "tables": []
+        },
+        "Group_VI": {
+          "text": "Alclometasone dipropionate\n0.05% (Aclovate cream, ointment)\nTriamcinolone acetonide\n0.025% (Aristocort A cream, Kenalog lotion)\nFluocinolone acetonide\n0.01% (Capex shampoo, Dermasmooth)\nDesonide\n0.05% (DesOwen cream, lotion)",
+          "tables": []
+        },
+        "Group_VII": {
+          "text": "The weakest class of topical steroids. Has poor lipid permeability, and can not penetrate mucous membranes well.\nHydrocortisone\n2.5% (Hytone cream, lotion, ointment)\nHydrocortisone\n1% (Many over-the-counter brands)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Clobetasol propionate",
+          "url": "https://wikem.org/wiki/Clobetasol_propionate"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Group_I": {
+      "text": "Very potent: up to 600 times stronger than\nhydrocortisone\nClobetasol propionate\n0.05% (Dermovate)\nBetamethasone dipropionate\n0.25% (Diprolene)\nHalobetasol\npropionate 0.05% (Ultravate, Halox)\nDiflorasone diacetate\n0.05% (Psorcon)",
+      "subsections": {
+        "Group_II": {
+          "text": "Fluocinonide\n0.05% (Lidex)\nHalcinonide\n0.05% (Halog)\nAmcinonide\n0.05% (Cyclocort)\nDesoximetasone\n0.25% (Topicort)",
+          "tables": []
+        },
+        "Group_III": {
+          "text": "Triamcinolone acetonide\n0.5% (Kenalog, Aristocort cream)\nMometasone furoate\n0.1% (Elocon ointment)\nFluticasone propionate\n0.005% (Cutivate)\nBetamethasone dipropionate\n0.05% (Diprosone)\nHalometasone\n0.05%",
+          "tables": []
+        },
+        "Group_IV": {
+          "text": "Fluocinolone acetonide\n0.01-0.2% (Synalar, Synemol, Fluonid)\nHydrocortisone valerate\n0.2% (Westcort)\nHydrocortisone butyrate\n0.1% (Locoid)\nFlurandrenolide\n0.05% (Cordran)\nTriamcinolone acetonide\n0.1% (Kenalog, Aristocort A ointment)\nMometasone furoate\n0.1% (Elocon cream, lotion)",
+          "tables": []
+        },
+        "Group_V": {
+          "text": "Fluticasone propionate\n0.05% (Cutivate cream)\nDesonide\n0.05% (Tridesilon, DesOwen ointment)\nFluocinolone acetonide\n0.025% (Synalar, Synemol cream)\nHydrocortisone valerate\n0.2% (Westcort cream)",
+          "tables": []
+        },
+        "Group_VI": {
+          "text": "Alclometasone dipropionate\n0.05% (Aclovate cream, ointment)\nTriamcinolone acetonide\n0.025% (Aristocort A cream, Kenalog lotion)\nFluocinolone acetonide\n0.01% (Capex shampoo, Dermasmooth)\nDesonide\n0.05% (DesOwen cream, lotion)",
+          "tables": []
+        },
+        "Group_VII": {
+          "text": "The weakest class of topical steroids. Has poor lipid permeability, and can not penetrate mucous membranes well.\nHydrocortisone\n2.5% (Hytone cream, lotion, ointment)\nHydrocortisone\n1% (Many over-the-counter brands)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Clobetasol propionate",
+          "url": "https://wikem.org/wiki/Clobetasol_propionate"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Group_II": {
+      "text": "Fluocinonide\n0.05% (Lidex)\nHalcinonide\n0.05% (Halog)\nAmcinonide\n0.05% (Cyclocort)\nDesoximetasone\n0.25% (Topicort)",
+      "subsections": {
+        "Group_III": {
+          "text": "Triamcinolone acetonide\n0.5% (Kenalog, Aristocort cream)\nMometasone furoate\n0.1% (Elocon ointment)\nFluticasone propionate\n0.005% (Cutivate)\nBetamethasone dipropionate\n0.05% (Diprosone)\nHalometasone\n0.05%",
+          "tables": []
+        },
+        "Group_IV": {
+          "text": "Fluocinolone acetonide\n0.01-0.2% (Synalar, Synemol, Fluonid)\nHydrocortisone valerate\n0.2% (Westcort)\nHydrocortisone butyrate\n0.1% (Locoid)\nFlurandrenolide\n0.05% (Cordran)\nTriamcinolone acetonide\n0.1% (Kenalog, Aristocort A ointment)\nMometasone furoate\n0.1% (Elocon cream, lotion)",
+          "tables": []
+        },
+        "Group_V": {
+          "text": "Fluticasone propionate\n0.05% (Cutivate cream)\nDesonide\n0.05% (Tridesilon, DesOwen ointment)\nFluocinolone acetonide\n0.025% (Synalar, Synemol cream)\nHydrocortisone valerate\n0.2% (Westcort cream)",
+          "tables": []
+        },
+        "Group_VI": {
+          "text": "Alclometasone dipropionate\n0.05% (Aclovate cream, ointment)\nTriamcinolone acetonide\n0.025% (Aristocort A cream, Kenalog lotion)\nFluocinolone acetonide\n0.01% (Capex shampoo, Dermasmooth)\nDesonide\n0.05% (DesOwen cream, lotion)",
+          "tables": []
+        },
+        "Group_VII": {
+          "text": "The weakest class of topical steroids. Has poor lipid permeability, and can not penetrate mucous membranes well.\nHydrocortisone\n2.5% (Hytone cream, lotion, ointment)\nHydrocortisone\n1% (Many over-the-counter brands)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Group_III": {
+      "text": "Triamcinolone acetonide\n0.5% (Kenalog, Aristocort cream)\nMometasone furoate\n0.1% (Elocon ointment)\nFluticasone propionate\n0.005% (Cutivate)\nBetamethasone dipropionate\n0.05% (Diprosone)\nHalometasone\n0.05%",
+      "subsections": {
+        "Group_IV": {
+          "text": "Fluocinolone acetonide\n0.01-0.2% (Synalar, Synemol, Fluonid)\nHydrocortisone valerate\n0.2% (Westcort)\nHydrocortisone butyrate\n0.1% (Locoid)\nFlurandrenolide\n0.05% (Cordran)\nTriamcinolone acetonide\n0.1% (Kenalog, Aristocort A ointment)\nMometasone furoate\n0.1% (Elocon cream, lotion)",
+          "tables": []
+        },
+        "Group_V": {
+          "text": "Fluticasone propionate\n0.05% (Cutivate cream)\nDesonide\n0.05% (Tridesilon, DesOwen ointment)\nFluocinolone acetonide\n0.025% (Synalar, Synemol cream)\nHydrocortisone valerate\n0.2% (Westcort cream)",
+          "tables": []
+        },
+        "Group_VI": {
+          "text": "Alclometasone dipropionate\n0.05% (Aclovate cream, ointment)\nTriamcinolone acetonide\n0.025% (Aristocort A cream, Kenalog lotion)\nFluocinolone acetonide\n0.01% (Capex shampoo, Dermasmooth)\nDesonide\n0.05% (DesOwen cream, lotion)",
+          "tables": []
+        },
+        "Group_VII": {
+          "text": "The weakest class of topical steroids. Has poor lipid permeability, and can not penetrate mucous membranes well.\nHydrocortisone\n2.5% (Hytone cream, lotion, ointment)\nHydrocortisone\n1% (Many over-the-counter brands)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Group_IV": {
+      "text": "Fluocinolone acetonide\n0.01-0.2% (Synalar, Synemol, Fluonid)\nHydrocortisone valerate\n0.2% (Westcort)\nHydrocortisone butyrate\n0.1% (Locoid)\nFlurandrenolide\n0.05% (Cordran)\nTriamcinolone acetonide\n0.1% (Kenalog, Aristocort A ointment)\nMometasone furoate\n0.1% (Elocon cream, lotion)",
+      "subsections": {
+        "Group_V": {
+          "text": "Fluticasone propionate\n0.05% (Cutivate cream)\nDesonide\n0.05% (Tridesilon, DesOwen ointment)\nFluocinolone acetonide\n0.025% (Synalar, Synemol cream)\nHydrocortisone valerate\n0.2% (Westcort cream)",
+          "tables": []
+        },
+        "Group_VI": {
+          "text": "Alclometasone dipropionate\n0.05% (Aclovate cream, ointment)\nTriamcinolone acetonide\n0.025% (Aristocort A cream, Kenalog lotion)\nFluocinolone acetonide\n0.01% (Capex shampoo, Dermasmooth)\nDesonide\n0.05% (DesOwen cream, lotion)",
+          "tables": []
+        },
+        "Group_VII": {
+          "text": "The weakest class of topical steroids. Has poor lipid permeability, and can not penetrate mucous membranes well.\nHydrocortisone\n2.5% (Hytone cream, lotion, ointment)\nHydrocortisone\n1% (Many over-the-counter brands)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Group_V": {
+      "text": "Fluticasone propionate\n0.05% (Cutivate cream)\nDesonide\n0.05% (Tridesilon, DesOwen ointment)\nFluocinolone acetonide\n0.025% (Synalar, Synemol cream)\nHydrocortisone valerate\n0.2% (Westcort cream)",
+      "subsections": {
+        "Group_VI": {
+          "text": "Alclometasone dipropionate\n0.05% (Aclovate cream, ointment)\nTriamcinolone acetonide\n0.025% (Aristocort A cream, Kenalog lotion)\nFluocinolone acetonide\n0.01% (Capex shampoo, Dermasmooth)\nDesonide\n0.05% (DesOwen cream, lotion)",
+          "tables": []
+        },
+        "Group_VII": {
+          "text": "The weakest class of topical steroids. Has poor lipid permeability, and can not penetrate mucous membranes well.\nHydrocortisone\n2.5% (Hytone cream, lotion, ointment)\nHydrocortisone\n1% (Many over-the-counter brands)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Group_VI": {
+      "text": "Alclometasone dipropionate\n0.05% (Aclovate cream, ointment)\nTriamcinolone acetonide\n0.025% (Aristocort A cream, Kenalog lotion)\nFluocinolone acetonide\n0.01% (Capex shampoo, Dermasmooth)\nDesonide\n0.05% (DesOwen cream, lotion)",
+      "subsections": {
+        "Group_VII": {
+          "text": "The weakest class of topical steroids. Has poor lipid permeability, and can not penetrate mucous membranes well.\nHydrocortisone\n2.5% (Hytone cream, lotion, ointment)\nHydrocortisone\n1% (Many over-the-counter brands)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "Desonide",
+          "url": "https://wikem.org/wiki/Desonide"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Group_VII": {
+      "text": "The weakest class of topical steroids. Has poor lipid permeability, and can not penetrate mucous membranes well.\nHydrocortisone\n2.5% (Hytone cream, lotion, ointment)\nHydrocortisone\n1% (Many over-the-counter brands)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Topical_Steroid_Potency_Ranking": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Brand name": "CLASS 1—Superpotent",
+            "Generic name": ""
+          },
+          {
+            "Brand name": "Clobex Lotion/Spray/Shampoo, 0.05%",
+            "Generic name": "Clobetasol propionate"
+          },
+          {
+            "Brand name": "Cordran Tape, 0.05%",
+            "Generic name": "Flurandrenolide"
+          },
+          {
+            "Brand name": "Cormax Cream/Solution, 0.05%",
+            "Generic name": "Clobetasol propionate"
+          },
+          {
+            "Brand name": "Diprolene Ointment, 0.05%",
+            "Generic name": "Betamethasone dipropionate"
+          },
+          {
+            "Brand name": "Olux E Foam, 0.05%",
+            "Generic name": "Clobetasol propionate"
+          },
+          {
+            "Brand name": "Olux Foam, 0.05%",
+            "Generic name": "Clobetasol propionate"
+          },
+          {
+            "Brand name": "Psorcon Ointment, 0.05%",
+            "Generic name": "Diflorasone diacetate"
+          },
+          {
+            "Brand name": "Psorcon E Ointment, 0.05%",
+            "Generic name": "Diflorasone diacetate"
+          },
+          {
+            "Brand name": "Temovate Cream/Ointment/Solution, 0.05%",
+            "Generic name": "Clobetasol propionate"
+          },
+          {
+            "Brand name": "Topicort Topical Spray, 0.25%",
+            "Generic name": "Desoximetasone"
+          },
+          {
+            "Brand name": "Ultravate Cream/Ointment, 0.05%",
+            "Generic name": "Halobetasol propionate"
+          },
+          {
+            "Brand name": "Ultravate Lotion, 0.05%",
+            "Generic name": "Halobetasol propionate"
+          },
+          {
+            "Brand name": "Vanos Cream, 0.1%",
+            "Generic name": "Fluocinonide"
+          },
+          {
+            "Brand name": "CLASS 2—Potent",
+            "Generic name": ""
+          },
+          {
+            "Brand name": "Diprolene Cream AF, 0.05%",
+            "Generic name": "Betamethasone dipropionate"
+          },
+          {
+            "Brand name": "Elocon Ointment, 0.1%",
+            "Generic name": "Mometasone furoate"
+          },
+          {
+            "Brand name": "Florone Ointment, 0.05%",
+            "Generic name": "Diflorasone diacetate"
+          },
+          {
+            "Brand name": "Halog Ointment/Cream, 0.1%",
+            "Generic name": "Halcinonide"
+          },
+          {
+            "Brand name": "Lidex Cream/Gel/Ointment, 0.05%",
+            "Generic name": "Fluocinonide"
+          },
+          {
+            "Brand name": "Psorcon Cream, 0.05%",
+            "Generic name": "Diflorasone diacetate"
+          },
+          {
+            "Brand name": "Topicort Cream/Ointment, 0.25%",
+            "Generic name": "Desoximetasone"
+          },
+          {
+            "Brand name": "Topicort Gel, 0.05%",
+            "Generic name": "Desoximetasone"
+          },
+          {
+            "Brand name": "CLASS 3—Upper Mid-Strength",
+            "Generic name": ""
+          },
+          {
+            "Brand name": "Cutivate Ointment, 0.005%",
+            "Generic name": "Fluticasone propionate"
+          },
+          {
+            "Brand name": "Lidex-E Cream, 0.05%",
+            "Generic name": "Fluocinonide"
+          },
+          {
+            "Brand name": "Luxiq Foam, 0.12%",
+            "Generic name": "Betamethasone valerate"
+          },
+          {
+            "Brand name": "CLASS 4—Mid-Strength",
+            "Generic name": ""
+          },
+          {
+            "Brand name": "Cordran Ointment, 0.05%",
+            "Generic name": "Flurandrenolide"
+          },
+          {
+            "Brand name": "Elocon Cream, 0.1%",
+            "Generic name": "Mometasone furoate"
+          },
+          {
+            "Brand name": "Kenalog Cream/Spray, 0.1%",
+            "Generic name": "Triamcinolone acetonide"
+          },
+          {
+            "Brand name": "Synalar Ointment, 0.03%",
+            "Generic name": "Fluocinolone acetonide"
+          },
+          {
+            "Brand name": "Topicort LP Cream, 0.05%",
+            "Generic name": "Desoximetasone"
+          },
+          {
+            "Brand name": "Topicort LP Ointment, 0.05%",
+            "Generic name": "Desoximetasone"
+          },
+          {
+            "Brand name": "Westcort Ointment, 0.2%",
+            "Generic name": "Hydrocortisone valerate"
+          },
+          {
+            "Brand name": "CLASS 5—Lower Mid-Strength",
+            "Generic name": ""
+          },
+          {
+            "Brand name": "Capex Shampoo, 0.01%",
+            "Generic name": "Fluocinolone acetonide"
+          },
+          {
+            "Brand name": "Cordran Cream/Lotion/Tape, 0.05%",
+            "Generic name": "Flurandrenolide"
+          },
+          {
+            "Brand name": "Cutivate Cream/Lotion, 0.05%",
+            "Generic name": "Fluticasone propionate"
+          },
+          {
+            "Brand name": "DermAtop Cream, 0.1%",
+            "Generic name": "Prednicarbate"
+          },
+          {
+            "Brand name": "DesOwen Lotion, 0.05%",
+            "Generic name": "Desonide"
+          },
+          {
+            "Brand name": "Locoid Cream/Lotion/Ointment/Solution, 0.1%",
+            "Generic name": "Hydrocortisone"
+          },
+          {
+            "Brand name": "Pandel Cream, 0.1%",
+            "Generic name": "Hydrocortisone"
+          },
+          {
+            "Brand name": "Synalar Cream, 0.03%/0.01%",
+            "Generic name": "Fluocinolone acetonide"
+          },
+          {
+            "Brand name": "Westcort Cream, 0.2%",
+            "Generic name": "Hydrocortisone valerate"
+          },
+          {
+            "Brand name": "CLASS 6—Mild",
+            "Generic name": ""
+          },
+          {
+            "Brand name": "Aclovate Cream/Ointment, 0.05%",
+            "Generic name": "Alclometasone dipropionate"
+          },
+          {
+            "Brand name": "Derma-Smoothe/FS Oil, 0.01%",
+            "Generic name": "Fluocinolone acetonide"
+          },
+          {
+            "Brand name": "Desonate Gel, 0.05%",
+            "Generic name": "Desonide"
+          },
+          {
+            "Brand name": "Synalar Cream/Solution, 0.01%",
+            "Generic name": "Fluocinolone acetonide"
+          },
+          {
+            "Brand name": "Verdeso Foam, 0.05%",
+            "Generic name": "Desonide"
+          },
+          {
+            "Brand name": "CLASS 7—Least Potent",
+            "Generic name": ""
+          },
+          {
+            "Brand name": "Cetacort Lotion, 0.5%/1%",
+            "Generic name": "Hydrocortisone"
+          },
+          {
+            "Brand name": "Cortaid Cream/Spray/Ointment",
+            "Generic name": "Hydrocortisone"
+          },
+          {
+            "Brand name": "Hytone Cream/Lotion, 1%/2.5%",
+            "Generic name": "Hydrocortisone"
+          },
+          {
+            "Brand name": "Micort-HC Cream, 2%/2.5%",
+            "Generic name": "Hydrocortisone"
+          },
+          {
+            "Brand name": "Nutracort Lotion, 1%/2.5%",
+            "Generic name": "Hydrocortisone"
+          },
+          {
+            "Brand name": "Synacort Cream, 1%/2.5%",
+            "Generic name": "Hydrocortisone"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Corticosteroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    }
+  }
+}

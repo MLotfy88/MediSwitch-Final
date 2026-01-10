@@ -1,0 +1,131 @@
+{
+  "drug_name": "Tracheostomy_bleeding",
+  "url": "https://wikem.org/wiki/Tracheostomy_bleeding",
+  "scraped_at": "2026-01-10T08:03:57.759865",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Tracheostomy_Sizes": {
+          "text": "Average size:\nAdult: 5-10mm\nPeds: 2.5-6.5mm",
+          "tables": []
+        },
+        "Tracheostomy_vs_laryngectomy": {
+          "text": "It is important to differentiate between tracheostomy vs laryngectomy\nIf laryngectomy\n[1]\n:\nThe stoma is the only way to ventilate the patient.\nPatient cannot be orally intubated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tracheostomy_Sizes": {
+      "text": "Average size:\nAdult: 5-10mm\nPeds: 2.5-6.5mm",
+      "subsections": {
+        "Tracheostomy_vs_laryngectomy": {
+          "text": "It is important to differentiate between tracheostomy vs laryngectomy\nIf laryngectomy\n[1]\n:\nThe stoma is the only way to ventilate the patient.\nPatient cannot be orally intubated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tracheostomy_vs_laryngectomy": {
+      "text": "It is important to differentiate between tracheostomy vs laryngectomy\nIf laryngectomy\n[1]\n:\nThe stoma is the only way to ventilate the patient.\nPatient cannot be orally intubated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Minor bleeds within first few days usually due to:\nLack of hemostasis\nTube suction and manipulation\nTracking of blood from nearby surgical site",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Infection\nCorticosteroids\nDiabetes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Tracheostomy_infection"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tracheostomy_complications": {
+          "text": "Tracheostomy obstruction\nTracheostomy dislodgement\nTracheostomy infection\nTracheostomy bleeding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tracheostomy obstruction",
+          "url": "https://wikem.org/wiki/Tracheostomy_obstruction"
+        },
+        {
+          "text": "Tracheostomy dislodgement",
+          "url": "https://wikem.org/wiki/Tracheostomy_dislodgement"
+        },
+        {
+          "text": "Tracheostomy infection",
+          "url": "https://wikem.org/wiki/Tracheostomy_infection"
+        }
+      ]
+    },
+    "Tracheostomy_complications": {
+      "text": "Tracheostomy obstruction\nTracheostomy dislodgement\nTracheostomy infection\nTracheostomy bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tracheostomy obstruction",
+          "url": "https://wikem.org/wiki/Tracheostomy_obstruction"
+        },
+        {
+          "text": "Tracheostomy dislodgement",
+          "url": "https://wikem.org/wiki/Tracheostomy_dislodgement"
+        },
+        {
+          "text": "Tracheostomy infection",
+          "url": "https://wikem.org/wiki/Tracheostomy_infection"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Large bleed is tracheoinnominate fistula until proven otherwise",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Local Bleeding\nUse silver nitrate if bleeding source is identified\nBrisk Bleeding\nTracheoinnominate artery fistula (TIF) until proven otherwise\nMost patients present within first 3wk after tracheostomy\nMay be preceded by hours to days with small-volume \"sentinel bleed\"\nVery high mortality rate\nDelegate team member to obtain surgical assistance, especially with massive bleed\nTreatment:\nHyperinflate the cuff (85% successful), up to 50 cc to tamponade bleeding\nIf above fails, withdraw tube while placing pressure against anterior trachea\nETT from above (as long as there is no laryngectomy)\nApply digital pressure of innominate artery against the manubrium from inside tracheostomy tract\nGo to the OR with finger tamponade innominate artery\nIf above fails, place a cuffed ET tube to prevent pulmonary aspiration of blood\nCorrect coagulopathies and administer blood products as needed\nRequires emergent OR exploration and definitive management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Emergent OR for TIF\nMost minor bleeds do not require admission and observation if controlled in ED\nConsult with primary surgeon for new tracheostomies",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Allan JS, Wright CD. Tracheo-innominate fistula: diagnosis and management. Chest Surg Clin NA. 2003;13(2):331-41.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

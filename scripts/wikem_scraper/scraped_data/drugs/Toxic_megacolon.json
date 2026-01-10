@@ -1,0 +1,65 @@
+{
+  "drug_name": "Toxic_megacolon",
+  "url": "https://wikem.org/wiki/Toxic_megacolon",
+  "scraped_at": "2026-01-10T08:03:56.047966",
+  "sections": {
+    "Background": {
+      "text": "Colonic Dilation ≥6cm\nTherapy: Fluids, Electrolyte Repletion, Steroids, Antibiotics, Surgical Consultation\nAVOID anticholingerics, anti-motility agents, opioids",
+      "subsections": {
+        "Causes": {
+          "text": "Most commonly IBD (\nUlcerative Colitis\n>>>\nCrohn's disease\n)\nBacterial (\nSalmonella\n,\nShigella\n,\nCampylobacter\n,\nC. Diff\n,\nYersinia\n,\nE. Coli\n)\nViral (\nCMV\n,\nRotavirus\n)\nFungal/Protozoa (\nAspergillus\n,\nEntamoeba\n,\nCryptosporidium\n)\nDrugs (Anti-motility agents,\nanticholinergics\n,\nopioids\n)\nLess Common Causes (Ischemic\nColitis\n, Collagenous Colitis, Obstructive Colorectal Cancer, Colonic Lymphoma,\nKaposi's Sarcoma\n, Chemotherapy)\nPediatric Population (\nHirschsprung's Disease\n,\nHemolytic Uremic Syndrome\n)\nHIV\n/AIDS Population (\nCMV\n,\nC. Diff\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Most commonly IBD (\nUlcerative Colitis\n>>>\nCrohn's disease\n)\nBacterial (\nSalmonella\n,\nShigella\n,\nCampylobacter\n,\nC. Diff\n,\nYersinia\n,\nE. Coli\n)\nViral (\nCMV\n,\nRotavirus\n)\nFungal/Protozoa (\nAspergillus\n,\nEntamoeba\n,\nCryptosporidium\n)\nDrugs (Anti-motility agents,\nanticholinergics\n,\nopioids\n)\nLess Common Causes (Ischemic\nColitis\n, Collagenous Colitis, Obstructive Colorectal Cancer, Colonic Lymphoma,\nKaposi's Sarcoma\n, Chemotherapy)\nPediatric Population (\nHirschsprung's Disease\n,\nHemolytic Uremic Syndrome\n)\nHIV\n/AIDS Population (\nCMV\n,\nC. Diff\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal Pain\n± Distention\nFever\nTachycardia\nDiarrhea\n, ± Bloody\nHypotension\nAltered Mental Status\n(AMS)\nBowel perforation\nPeritonitis\nSepticemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Small bowel obstruction\nLarge bowel obstruction\nVolvulus\n, Neoplastic Disease, Paralytic\nileus\n,\nPseudo-obstruction\nColitis\nInfectious, Inflammatory, Ischemic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Plain abdominal radiographs\n:\nColonic Dilation ≥6 cm diameter\nLoss of haustra, \"thumb-printing\" (bowel edema)\nAir-fluid levels\nAbdominal Ultrasound\n:\nThin colonic walls with loss of haustra coli\nDiameter ≥6cm with gaseous content\nLabs:\nLeukocytosis\nElectrolyte derangements\n:\nHypokalemia\n,\nHypomagnesemia\nElevated ESR/CRP\nAnemia\nHypoalbuminemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Fluid resuscitation\nIV\ncorticosteroids\nHydrocortisone\nIV 100mg q6h\nTriple Antibiotic Therapy\nAmpicillin\n2 g IV q6h\nPLUS\nMetronidazole\n500mg IV q6h\nPLUS\nGentamicin\n7mg/kg q24h or\nCiprofloxacin\n400mg IV q12h\nOR\nImipenem\n500mg IV q6h\nElectrolyte repletion\nAggressively treat hypokalemia and hypomagnesemia because these can exacerbate dilation\nEmergent Surgical Consultation\nObtain blood cultures, stool cultures, C. Diff Toxin\nIf known cause is C. Diff treat with\nVancomycin\nor\nMetronidazole\nIf known cause is CMV can add Ganciclovir\nAvoid\nAnticholinergics, anti-motility agents, opioids which can worsen dilation\nSulfasalazine or 5-aminosalicylate (5-ASA) unhelpful\nNasogastric (NG) Tube NOT effective in reducing colonic distention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Crohn's disease\nUlcerative Colitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

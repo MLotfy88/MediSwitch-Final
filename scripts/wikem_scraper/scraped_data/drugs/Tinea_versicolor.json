@@ -1,0 +1,162 @@
+{
+  "drug_name": "Tinea_versicolor",
+  "url": "https://wikem.org/wiki/Tinea_versicolor",
+  "scraped_at": "2026-01-10T08:03:42.676985",
+  "sections": {
+    "Background": {
+      "text": "Caused by fungus Pityrosporum ovale (oval form) or obiculare\nAlso known as Malassezia furfur",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Hypopigmented or hyperpigmented lesions predominantly on the trunk\nCircular, scaly patches\nMore common in areas of increased sebaceous glands\nPoor hygiene, areas of moisture\nEqually common is light and dark skinned individuals, but more noticeable in the later",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hyperpigmentation": {
+          "text": "Postinflammatory hyperpigmentation (acne,\nPsoriasis\n,\natopic\nand\ncontact dermatitis\n,\nlichen planus\n,\ntrauma\n, drugs, and\nfixed-drug eruptions\n)\nMelasma\nSolar lentigines\nEphelides (freckles)\nCafé-au-lait macules\nNevi\nMelanoma\nand precursors",
+          "tables": []
+        },
+        "Hypopigmentation": {
+          "text": "Vitiligo\nPityriasis alba\nTinea versicolor\nPostinflammatory hypopigmentation\nPiebaldism\nTuberous sclerosis\nHypomelanosis of Ito",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "atopic",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "fixed-drug eruptions",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        }
+      ]
+    },
+    "Hyperpigmentation": {
+      "text": "Postinflammatory hyperpigmentation (acne,\nPsoriasis\n,\natopic\nand\ncontact dermatitis\n,\nlichen planus\n,\ntrauma\n, drugs, and\nfixed-drug eruptions\n)\nMelasma\nSolar lentigines\nEphelides (freckles)\nCafé-au-lait macules\nNevi\nMelanoma\nand precursors",
+      "subsections": {
+        "Hypopigmentation": {
+          "text": "Vitiligo\nPityriasis alba\nTinea versicolor\nPostinflammatory hypopigmentation\nPiebaldism\nTuberous sclerosis\nHypomelanosis of Ito",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "atopic",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "fixed-drug eruptions",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        }
+      ]
+    },
+    "Hypopigmentation": {
+      "text": "Vitiligo\nPityriasis alba\nTinea versicolor\nPostinflammatory hypopigmentation\nPiebaldism\nTuberous sclerosis\nHypomelanosis of Ito",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Some demonstrate coppery-orange fluoresence under Woods Lamp\nKOH wet prep (Spaghetti and Meatballs appearance)\nAlmost never cultured given difficult culture medium, benign course, and diagnostic KOH prep.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "First line topical treatment is\nketoconazole\n(nightly application x 2 weeks) or\nselenium sulfide\n(10 minutes x bid)\nSingle dose 400mg\nketoconazole\nPO or\nfluconazole\n150-300mg PO per week x 2-4 weeks for more resistant cases or for easy-of-use\nGriseofulvin is not effective",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Tinea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea",
+          "url": "https://wikem.org/wiki/Tinea"
+        }
+      ]
+    }
+  }
+}

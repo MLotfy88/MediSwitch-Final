@@ -1,0 +1,244 @@
+{
+  "drug_name": "Tirofiban",
+  "url": "https://wikem.org/wiki/Tirofiban",
+  "scraped_at": "2026-01-10T08:03:46.312754",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiplatelet\nDosage Forms: INJ\nRoutes of Administration: IV\nCommon Trade Names: Aggrastat",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Acute_coronary_syndrome,_Non_ST-elevation": {
+          "text": "25 mcg/kg IV x1, then 0.15 mcg/kg/min IV for up to 18h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acute_coronary_syndrome,_Non_ST-elevation": {
+      "text": "25 mcg/kg IV x1, then 0.15 mcg/kg/min IV for up to 18h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category B\nBenefits outweigh risks during pregnancy\nRisk of maternal hemorrhage during delivery\nRisk of fetal bleeding",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Caution advised while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl <60: Decrease maintenance infusion rate 50%\nHD: Not defined\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category B\nBenefits outweigh risks during pregnancy\nRisk of maternal hemorrhage during delivery\nRisk of fetal bleeding",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Caution advised while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl <60: Decrease maintenance infusion rate 50%\nHD: Not defined\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Caution advised while breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl <60: Decrease maintenance infusion rate 50%\nHD: Not defined\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nCrCl <60: Decrease maintenance infusion rate 50%\nHD: Not defined\nPediatric: Unavailable",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Unavailable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nThrombocytopenia\nwith prior use\nActive bleeding\nCoagulation disorder w/in 30 days\nMajor trauma or surgery w/in 30 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nBleeding, severe\nIntracranial hemorrhage\nIntraocular hemorrhage\nRetroperitoneal bleeding\nThrombocytopenia\n, severe\nCoronary artery dissection",
+          "tables": []
+        },
+        "Common": {
+          "text": "Bleeding\nPelvic pain\nBradycardia\nEdema, Leg pain\nDizziness\n, Diaphoresis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nBleeding, severe\nIntracranial hemorrhage\nIntraocular hemorrhage\nRetroperitoneal bleeding\nThrombocytopenia\n, severe\nCoronary artery dissection",
+      "subsections": {
+        "Common": {
+          "text": "Bleeding\nPelvic pain\nBradycardia\nEdema, Leg pain\nDizziness\n, Diaphoresis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Bleeding\nPelvic pain\nBradycardia\nEdema, Leg pain\nDizziness\n, Diaphoresis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2 hour\nMetabolism: Minimal\nExcretion: Urine 65%, feces 25% (primarily unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Reversibly binds to platelet glycoprotein IIb/IIIa receptors, reducing platelet aggregation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antiplatelet medications\nAntiplatelet agent reversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet medications",
+          "url": "https://wikem.org/wiki/Antiplatelet_medications"
+        },
+        {
+          "text": "Antiplatelet agent reversal",
+          "url": "https://wikem.org/wiki/Antiplatelet_agent_reversal"
+        }
+      ]
+    }
+  }
+}

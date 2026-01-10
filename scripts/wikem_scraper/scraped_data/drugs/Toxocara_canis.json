@@ -1,0 +1,38 @@
+{
+  "drug_name": "Toxocara_canis",
+  "url": "https://wikem.org/wiki/Toxocara_canis",
+  "scraped_at": "2026-01-10T08:03:50.894683",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Visceral toxocariasis (visceral larva migrans)\nLarvae travel through liver / lungs / CNS causing fever, cough, enlarged liver, pneumonia\nOcular toxocariasis (ocular larva migrans)\nLarvae travel to the eye causing inflammation and scarring of retina, usually only one eye, irreversible vision loss",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Diethylcarbamazine 6mg/kg/day divided TID x 7-10 days\nOR\nmebendazole 100-200mg BID x 5 days\nOR\nalbendazole 400mg BID  x 3-5 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Worm Infections\nParasitic Diseases\nTravel Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Worm Infections",
+          "url": "https://wikem.org/wiki/Worm_Infections"
+        },
+        {
+          "text": "Parasitic Diseases",
+          "url": "https://wikem.org/wiki/Parasitic_Diseases"
+        },
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "drug_name": "Tinea",
+  "url": "https://wikem.org/wiki/Tinea",
+  "scraped_at": "2026-01-10T08:03:45.435547",
+  "sections": {
+    "Background": {
+      "text": "Fungal infection caused by dermatophytes that feed on keratin",
+      "subsections": {
+        "Tinea_Types": {
+          "text": "Tinea capitis\n(head)\nTinea corporis\n(body)\nTinea pedis\n(foot)\nTinea cruris\n(groin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        }
+      ]
+    },
+    "Tinea_Types": {
+      "text": "Tinea capitis\n(head)\nTinea corporis\n(body)\nTinea pedis\n(foot)\nTinea cruris\n(groin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Scaly, with variable\npruritus\nCorporis\n: ring appearance with central clearing\nCapitis\n: patchy alopecia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Pityriasis rosea\nLichen planus\nPsoriasis\nEczema\nContact dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis with Wood's lamp\nKerion\nPainful, itchy, eczematous\nHair loss\nFever\n, malaise\nLymphadenopathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hair loss",
+          "url": "https://wikem.org/wiki/Alopecia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Coverage for Trichophyton and Epidermophyton\nand all treatment should be at lease 1 week past resolution of lesions",
+      "subsections": {
+        "Topical_Therapy": {
+          "text": "Applies to\nTinea corporis\n,\npedis\n,\ncruris\n, and\nmanus\nMust use a topical therapy for 7-10days beyond resolution of lesions\nTopical antifungal treatment for all except tinea capitis\nTerbinafine\n1% BID x2-3weeks or\nClotrimazole\n1% BID x2-3weeks or\nKetoconazole\n1% BID x2-3weeks",
+          "tables": []
+        },
+        "Capitis": {
+          "text": "Griseofulvin\n500mg-1000mg PO once daily (20-25mg/kg/d)\nUsually requires 8wk of treatment\nTerbinafine\nfor 2-4 weeks is as effective of 6-8 weeks of\ngriseofulvin\n[1]\n62.5mg/day in children <20kg\n125mg/day in children 20-40kg\n250mg/day in children >40kg\n[2]\nSelenium sulfide\nor\nketoconazole\nshampoos are adjunct treatment\nChildren can return to school during treatment",
+          "tables": []
+        },
+        "Kerion": {
+          "text": "Oral griseofulvin, itraconazole, or terbinafine for 6-8 wks\n[3]\nCephalexin\n40mg/kg/d in 4 divided doses in addition to systemic antifungal treatment if there is evidence or high risk of bacterial secondary infection\nKetoconazole shampoo, isolated towels decrease spread to household members",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "First line should be topical therapy. For refractory cases or severe bullous disease the below anti-fungals are all equivalent options.\nFluconazole\n150mg (6mg/kg) PO once  a week x 2 weeks or\nItraconazole\n200mg (5mg/kg) PO daily q12hrs for 1 week or\nGriseofulvin\n500-1000mg (20mg/kg) PO daily for 2-4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Topical_Therapy": {
+      "text": "Applies to\nTinea corporis\n,\npedis\n,\ncruris\n, and\nmanus\nMust use a topical therapy for 7-10days beyond resolution of lesions\nTopical antifungal treatment for all except tinea capitis\nTerbinafine\n1% BID x2-3weeks or\nClotrimazole\n1% BID x2-3weeks or\nKetoconazole\n1% BID x2-3weeks",
+      "subsections": {
+        "Capitis": {
+          "text": "Griseofulvin\n500mg-1000mg PO once daily (20-25mg/kg/d)\nUsually requires 8wk of treatment\nTerbinafine\nfor 2-4 weeks is as effective of 6-8 weeks of\ngriseofulvin\n[1]\n62.5mg/day in children <20kg\n125mg/day in children 20-40kg\n250mg/day in children >40kg\n[2]\nSelenium sulfide\nor\nketoconazole\nshampoos are adjunct treatment\nChildren can return to school during treatment",
+          "tables": []
+        },
+        "Kerion": {
+          "text": "Oral griseofulvin, itraconazole, or terbinafine for 6-8 wks\n[3]\nCephalexin\n40mg/kg/d in 4 divided doses in addition to systemic antifungal treatment if there is evidence or high risk of bacterial secondary infection\nKetoconazole shampoo, isolated towels decrease spread to household members",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "First line should be topical therapy. For refractory cases or severe bullous disease the below anti-fungals are all equivalent options.\nFluconazole\n150mg (6mg/kg) PO once  a week x 2 weeks or\nItraconazole\n200mg (5mg/kg) PO daily q12hrs for 1 week or\nGriseofulvin\n500-1000mg (20mg/kg) PO daily for 2-4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Capitis": {
+      "text": "Griseofulvin\n500mg-1000mg PO once daily (20-25mg/kg/d)\nUsually requires 8wk of treatment\nTerbinafine\nfor 2-4 weeks is as effective of 6-8 weeks of\ngriseofulvin\n[1]\n62.5mg/day in children <20kg\n125mg/day in children 20-40kg\n250mg/day in children >40kg\n[2]\nSelenium sulfide\nor\nketoconazole\nshampoos are adjunct treatment\nChildren can return to school during treatment",
+      "subsections": {
+        "Kerion": {
+          "text": "Oral griseofulvin, itraconazole, or terbinafine for 6-8 wks\n[3]\nCephalexin\n40mg/kg/d in 4 divided doses in addition to systemic antifungal treatment if there is evidence or high risk of bacterial secondary infection\nKetoconazole shampoo, isolated towels decrease spread to household members",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "First line should be topical therapy. For refractory cases or severe bullous disease the below anti-fungals are all equivalent options.\nFluconazole\n150mg (6mg/kg) PO once  a week x 2 weeks or\nItraconazole\n200mg (5mg/kg) PO daily q12hrs for 1 week or\nGriseofulvin\n500-1000mg (20mg/kg) PO daily for 2-4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Kerion": {
+      "text": "Oral griseofulvin, itraconazole, or terbinafine for 6-8 wks\n[3]\nCephalexin\n40mg/kg/d in 4 divided doses in addition to systemic antifungal treatment if there is evidence or high risk of bacterial secondary infection\nKetoconazole shampoo, isolated towels decrease spread to household members",
+      "subsections": {
+        "Tinea_corporis": {
+          "text": "First line should be topical therapy. For refractory cases or severe bullous disease the below anti-fungals are all equivalent options.\nFluconazole\n150mg (6mg/kg) PO once  a week x 2 weeks or\nItraconazole\n200mg (5mg/kg) PO daily q12hrs for 1 week or\nGriseofulvin\n500-1000mg (20mg/kg) PO daily for 2-4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Tinea_corporis": {
+      "text": "First line should be topical therapy. For refractory cases or severe bullous disease the below anti-fungals are all equivalent options.\nFluconazole\n150mg (6mg/kg) PO once  a week x 2 weeks or\nItraconazole\n200mg (5mg/kg) PO daily q12hrs for 1 week or\nGriseofulvin\n500-1000mg (20mg/kg) PO daily for 2-4 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Rashes\nDermatophytosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rashes",
+          "url": "https://wikem.org/wiki/Rashes"
+        },
+        {
+          "text": "Dermatophytosis",
+          "url": "https://wikem.org/wiki/Dermatophytosis"
+        }
+      ]
+    }
+  }
+}

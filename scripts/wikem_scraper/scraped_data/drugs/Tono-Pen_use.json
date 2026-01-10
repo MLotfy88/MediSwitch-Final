@@ -1,0 +1,60 @@
+{
+  "drug_name": "Tono-Pen_use",
+  "url": "https://wikem.org/wiki/Tono-Pen_use",
+  "scraped_at": "2026-01-10T08:03:45.847542",
+  "sections": {
+    "To_Calibrate": {
+      "text": "The Pen should be calibrated if the batteries have been changed or if the LCD reads “CAL” followed by “- - - -”.\nCalibration involves depressing the Operator Button TWICE and getting ONE line (- - - -).\nIf so,\nPoint the transducer end straight down towards the floor.\nPress the Operator Button “distinctly, two times, within 1.5 seconds.”\nInitially “CAL” appears on the LCD, followed by “UP” (after about 15 - 30 seconds!)\nInvert the transducer end to point straight up toward the sky.\nA properly functioning Pen will display “”Good”.\nIf “bAd”, repeat the calibration again.",
+      "subsections": {
+        "If_unsuccessful": {
+          "text": "Options include:\nclean the tip (compressed air is recommended)\nchange the batteries.\nUse the little probe that came with the Pen to open the battery compartment.\nTech Support\nwww.reichert.com\nwww.tonopen.us\n1-888-849-8955",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "If_unsuccessful": {
+      "text": "Options include:\nclean the tip (compressed air is recommended)\nchange the batteries.\nUse the little probe that came with the Pen to open the battery compartment.\nTech Support\nwww.reichert.com\nwww.tonopen.us\n1-888-849-8955",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Eye pain\nAcute angle closure glaucoma\nIOP",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Eye pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "Acute angle closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle_closure_glaucoma"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=sBosdQ6o1oY}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=sBosdQ6o1oY}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "drug_name": "Tinnitus",
+  "url": "https://wikem.org/wiki/Tinnitus",
+  "scraped_at": "2026-01-10T08:03:44.536187",
+  "sections": {
+    "Background": {
+      "text": "Perception of sound without external stimulation\nCan be constant or pulsatile, high or low pitched, hissing, clicking, or ringing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Causes/Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Objective": {
+          "text": "May be heard by examiner. Less common\nMechanical: Enlarged eustachian tube, palatal myoclonus, stapedial muscle spasm\nVascular: often pulsatile\nAVM\n, aneurysm\nArterial bruits\nCarotid stenosis\nor\ndissection",
+          "tables": []
+        },
+        "Subjective": {
+          "text": "Excessive noise exposure and/or any cause of sensory hearing loss\nOtitis media\n,\notomycosis\n,\nherpes zoster oticus\nMeniere's disease\nLabyrinthitis\nHead trauma\n,\notic barotrauma\n,\ndecompression sickness\nHypertension\n,\nTMJ\nMS\nAcoustic neuroma\nAbducens nerve palsy\nLeukostasis and hyperleukocytosis\nIdiopathic intracranial hypertension\nOtotoxicity/medication effect:\nSalicylate toxicity\n: tinnitus is an early symptom\nHydrocarbons\nCaffeine toxicity\nOxygen toxicity\nNSAIDs\nLoop\ndiuretics\n(\nfurosemide\n,\nbumetanide\n, ethacrynic acid)\nAntibiotics:\naminoglycosides\n,\nerythromycin\n,\nvancomycin\nChemotherapeutics: cisplatin, carboplatin, vinblastine, vincristine\nQuinine\nFosphenytoin\nBupropion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Carotid stenosis",
+          "url": "https://wikem.org/wiki/Carotid_stenosis"
+        },
+        {
+          "text": "dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "Acoustic neuroma",
+          "url": "https://wikem.org/wiki/Acoustic_neuroma"
+        },
+        {
+          "text": "Abducens nerve palsy",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Caffeine toxicity",
+          "url": "https://wikem.org/wiki/Caffeine_toxicity"
+        },
+        {
+          "text": "Oxygen toxicity",
+          "url": "https://wikem.org/wiki/Oxygen_toxicity"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "bumetanide",
+          "url": "https://wikem.org/wiki/Bumetanide"
+        },
+        {
+          "text": "aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        }
+      ]
+    },
+    "Objective": {
+      "text": "May be heard by examiner. Less common\nMechanical: Enlarged eustachian tube, palatal myoclonus, stapedial muscle spasm\nVascular: often pulsatile\nAVM\n, aneurysm\nArterial bruits\nCarotid stenosis\nor\ndissection",
+      "subsections": {
+        "Subjective": {
+          "text": "Excessive noise exposure and/or any cause of sensory hearing loss\nOtitis media\n,\notomycosis\n,\nherpes zoster oticus\nMeniere's disease\nLabyrinthitis\nHead trauma\n,\notic barotrauma\n,\ndecompression sickness\nHypertension\n,\nTMJ\nMS\nAcoustic neuroma\nAbducens nerve palsy\nLeukostasis and hyperleukocytosis\nIdiopathic intracranial hypertension\nOtotoxicity/medication effect:\nSalicylate toxicity\n: tinnitus is an early symptom\nHydrocarbons\nCaffeine toxicity\nOxygen toxicity\nNSAIDs\nLoop\ndiuretics\n(\nfurosemide\n,\nbumetanide\n, ethacrynic acid)\nAntibiotics:\naminoglycosides\n,\nerythromycin\n,\nvancomycin\nChemotherapeutics: cisplatin, carboplatin, vinblastine, vincristine\nQuinine\nFosphenytoin\nBupropion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Carotid stenosis",
+          "url": "https://wikem.org/wiki/Carotid_stenosis"
+        },
+        {
+          "text": "dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "Acoustic neuroma",
+          "url": "https://wikem.org/wiki/Acoustic_neuroma"
+        },
+        {
+          "text": "Abducens nerve palsy",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Caffeine toxicity",
+          "url": "https://wikem.org/wiki/Caffeine_toxicity"
+        },
+        {
+          "text": "Oxygen toxicity",
+          "url": "https://wikem.org/wiki/Oxygen_toxicity"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "bumetanide",
+          "url": "https://wikem.org/wiki/Bumetanide"
+        },
+        {
+          "text": "aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        }
+      ]
+    },
+    "Subjective": {
+      "text": "Excessive noise exposure and/or any cause of sensory hearing loss\nOtitis media\n,\notomycosis\n,\nherpes zoster oticus\nMeniere's disease\nLabyrinthitis\nHead trauma\n,\notic barotrauma\n,\ndecompression sickness\nHypertension\n,\nTMJ\nMS\nAcoustic neuroma\nAbducens nerve palsy\nLeukostasis and hyperleukocytosis\nIdiopathic intracranial hypertension\nOtotoxicity/medication effect:\nSalicylate toxicity\n: tinnitus is an early symptom\nHydrocarbons\nCaffeine toxicity\nOxygen toxicity\nNSAIDs\nLoop\ndiuretics\n(\nfurosemide\n,\nbumetanide\n, ethacrynic acid)\nAntibiotics:\naminoglycosides\n,\nerythromycin\n,\nvancomycin\nChemotherapeutics: cisplatin, carboplatin, vinblastine, vincristine\nQuinine\nFosphenytoin\nBupropion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "Acoustic neuroma",
+          "url": "https://wikem.org/wiki/Acoustic_neuroma"
+        },
+        {
+          "text": "Abducens nerve palsy",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Caffeine toxicity",
+          "url": "https://wikem.org/wiki/Caffeine_toxicity"
+        },
+        {
+          "text": "Oxygen toxicity",
+          "url": "https://wikem.org/wiki/Oxygen_toxicity"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "bumetanide",
+          "url": "https://wikem.org/wiki/Bumetanide"
+        },
+        {
+          "text": "aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for emergent causes\nAccurate/definitive diagnosis often involves referral to otolaryngology/audiometry",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Stop/minimize exposure to excessive noise and ototoxic agents\nOutpatient management may include masking the tinnitus (e.g. with music or white noise), habituation techniques, or antidepressants",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge unless underlying condition requires admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Focal neurologic deficits",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Focal neurologic deficits",
+          "url": "https://wikem.org/wiki/Focal_neurologic_deficits"
+        }
+      ]
+    }
+  }
+}

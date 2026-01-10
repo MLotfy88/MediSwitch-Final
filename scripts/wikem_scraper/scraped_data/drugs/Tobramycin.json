@@ -1,0 +1,584 @@
+{
+  "drug_name": "Tobramycin",
+  "url": "https://wikem.org/wiki/Tobramycin",
+  "scraped_at": "2026-01-10T08:03:45.568145",
+  "sections": {
+    "General": {
+      "text": "Type:\nAminoglycoside\nDosage Forms: IV\nCommon Trade Names: Tobrex",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Infection,_bacterial": {
+          "text": "1-1.7 mg/kg IM/IV q8h\nFor extended interval dosing:\n5-7 mg/kg IV q24h",
+          "tables": []
+        },
+        "Pneumonia,_Hospital-acquired": {
+          "text": "5-7 mg/kg IV q24h x7 days",
+          "tables": []
+        },
+        "Respiratory_infections,_Cystic_fibrosis_pts": {
+          "text": "10-12 mg/kg IV q24h\nAlt: 2.5-3.5 mg/kg IV q8h",
+          "tables": []
+        },
+        "Endocarditis,_Gram_positive_synergy": {
+          "text": "3 mg/kg IV q24h for at least 2 weeks as part of multi-drug regimen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infection,_bacterial": {
+      "text": "1-1.7 mg/kg IM/IV q8h\nFor extended interval dosing:\n5-7 mg/kg IV q24h",
+      "subsections": {
+        "Pneumonia,_Hospital-acquired": {
+          "text": "5-7 mg/kg IV q24h x7 days",
+          "tables": []
+        },
+        "Respiratory_infections,_Cystic_fibrosis_pts": {
+          "text": "10-12 mg/kg IV q24h\nAlt: 2.5-3.5 mg/kg IV q8h",
+          "tables": []
+        },
+        "Endocarditis,_Gram_positive_synergy": {
+          "text": "3 mg/kg IV q24h for at least 2 weeks as part of multi-drug regimen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pneumonia,_Hospital-acquired": {
+      "text": "5-7 mg/kg IV q24h x7 days",
+      "subsections": {
+        "Respiratory_infections,_Cystic_fibrosis_pts": {
+          "text": "10-12 mg/kg IV q24h\nAlt: 2.5-3.5 mg/kg IV q8h",
+          "tables": []
+        },
+        "Endocarditis,_Gram_positive_synergy": {
+          "text": "3 mg/kg IV q24h for at least 2 weeks as part of multi-drug regimen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Respiratory_infections,_Cystic_fibrosis_pts": {
+      "text": "10-12 mg/kg IV q24h\nAlt: 2.5-3.5 mg/kg IV q8h",
+      "subsections": {
+        "Endocarditis,_Gram_positive_synergy": {
+          "text": "3 mg/kg IV q24h for at least 2 weeks as part of multi-drug regimen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Endocarditis,_Gram_positive_synergy": {
+      "text": "3 mg/kg IV q24h for at least 2 weeks as part of multi-drug regimen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Infection,_bacterial_2": {
+          "text": "<8 days old\n2 mg/kg IV/IM q12h\n>8 days old\n2-2.5 mg/kg IV/IM q8h",
+          "tables": []
+        },
+        "Respiratory_infections,_Cystic_fibrosis_pts_2": {
+          "text": ">1 mo\n10-12 mg/kg IV q24h",
+          "tables": []
+        },
+        "Febrile_neutropenia,_post-stem_cell_transplant": {
+          "text": "<5 yo\n9 mg/kg IV q 24h\n5-11 yo\n8 mg/kg IV q24h\n12+ yo\n7 mg/kg IV q24h",
+          "tables": []
+        },
+        "Endocarditis,_Gram_positive_synergy_2": {
+          "text": "3-6 mg/kg IV divided q8h as part of multi-drug regimen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infection,_bacterial_2": {
+      "text": "<8 days old\n2 mg/kg IV/IM q12h\n>8 days old\n2-2.5 mg/kg IV/IM q8h",
+      "subsections": {
+        "Respiratory_infections,_Cystic_fibrosis_pts_2": {
+          "text": ">1 mo\n10-12 mg/kg IV q24h",
+          "tables": []
+        },
+        "Febrile_neutropenia,_post-stem_cell_transplant": {
+          "text": "<5 yo\n9 mg/kg IV q 24h\n5-11 yo\n8 mg/kg IV q24h\n12+ yo\n7 mg/kg IV q24h",
+          "tables": []
+        },
+        "Endocarditis,_Gram_positive_synergy_2": {
+          "text": "3-6 mg/kg IV divided q8h as part of multi-drug regimen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Respiratory_infections,_Cystic_fibrosis_pts_2": {
+      "text": ">1 mo\n10-12 mg/kg IV q24h",
+      "subsections": {
+        "Febrile_neutropenia,_post-stem_cell_transplant": {
+          "text": "<5 yo\n9 mg/kg IV q 24h\n5-11 yo\n8 mg/kg IV q24h\n12+ yo\n7 mg/kg IV q24h",
+          "tables": []
+        },
+        "Endocarditis,_Gram_positive_synergy_2": {
+          "text": "3-6 mg/kg IV divided q8h as part of multi-drug regimen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Febrile_neutropenia,_post-stem_cell_transplant": {
+      "text": "<5 yo\n9 mg/kg IV q 24h\n5-11 yo\n8 mg/kg IV q24h\n12+ yo\n7 mg/kg IV q24h",
+      "subsections": {
+        "Endocarditis,_Gram_positive_synergy_2": {
+          "text": "3-6 mg/kg IV divided q8h as part of multi-drug regimen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Endocarditis,_Gram_positive_synergy_2": {
+      "text": "3-6 mg/kg IV divided q8h as part of multi-drug regimen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: May use, no known risk based on drug properties\nRenal Dosing\nAdult\nCrCl 50-70: Give q8-24h\nCrCl 10-50: Give q24-48h\nCrCl <10: Give q48-72h\nHD: Give 50% usual dose after dialysis\nPD: Give supplement\nPediatric\nCrCl 30-50: Give q12-18h\nCrCl 10-29: Give q18-24h\nCrCl <10: Give q48-72h\nHD/PD: 2 mg/kg x1 then adjust dose based on serum\nHepatic Dosing\nAdult\nNot defined\nPediatric\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution:\nHypersensitivity to sulfites\nRenal Impairment\nDehydration\nConcurrent nephrotoxic/ototoxic agent\nImpaired auditory/vestibular fxn\nNeuromuscular dz\nProlonged use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Ototoxicity, auditory or vestibular\nNephrotoxicity, Neurotoxicity\nNeuromuscular blockaed\nSuperinfection\nC. Diff associated\ndiarrhea\nAnaphylaxis\nHypersensitivity rxn\nExfoliative Dermatitis\nToxic epidermal necrolysis,\nStevens-Johnson Syndrome\nErythema multiforme",
+          "tables": []
+        },
+        "Common": {
+          "text": "BUN, Cr elevation\nDizziness\n,\nvertigo\nTinnitus\n, hearing loss\nInjection site rxn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Ototoxicity, auditory or vestibular\nNephrotoxicity, Neurotoxicity\nNeuromuscular blockaed\nSuperinfection\nC. Diff associated\ndiarrhea\nAnaphylaxis\nHypersensitivity rxn\nExfoliative Dermatitis\nToxic epidermal necrolysis,\nStevens-Johnson Syndrome\nErythema multiforme",
+      "subsections": {
+        "Common": {
+          "text": "BUN, Cr elevation\nDizziness\n,\nvertigo\nTinnitus\n, hearing loss\nInjection site rxn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        }
+      ]
+    },
+    "Common": {
+      "text": "BUN, Cr elevation\nDizziness\n,\nvertigo\nTinnitus\n, hearing loss\nInjection site rxn",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2h\nMetabolism: Minimal to none\nExcretion: Renal (100% unchanged)\nMechanism of Action: Binds to bacterial 30S ribosomal subunit, inhibiting protein synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "S+'"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "R"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "drug_name": "Topiramate",
+  "url": "https://wikem.org/wiki/Topiramate",
+  "scraped_at": "2026-01-10T08:03:46.609269",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nantiepileptics\nDosage Forms: 25mg, 50mg, 100mg, 200mg tabs; 15mg, 25mg caps\nRoutes of Administration: PO\nCommon Trade Names: Topamax",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Partial_Seizures": {
+          "text": "monotherapy\nDose: 200mg PO bid; Start: 25mg PO BID x1wk, increase by 50mg/day qwk until 100mg PO bid, then increase by 100mg/day qwk; Info: doses >400mg/day rarely more effective\nadjunct therapy\nDose: 100-200mg PO bid; Start: 25mg PO QD-bid x1wk, increase by 25-50mg/day qwk; Info: doses >400mg/day rarely more effective",
+          "tables": []
+        },
+        "seizures,_primary_generalized_tonic_clonic": {
+          "text": "monotherapy\nDose: 200mg PO bid; Start: 25mg PO BID x1wk, increase by 50mg/day qwk until 100mg PO bid, then increase by 100mg/day qwk; Info: doses >400mg/day rarely more effective\nadjunct therapy\nDose: 200mg PO bid; Start: 25mg PO QD-bid x1wk, increase by 25-50mg/day qwk; Info: doses >400mg/day rarely more effective",
+          "tables": []
+        },
+        "Seizures,_Lennox-Gastaut": {
+          "text": "adjunct therapy\nDose: 100-200mg PO bid; Start: 25mg PO QD-bid x1wk, increase by 25-50mg/day qwk; Info: doses >400mg/day rarely more effective",
+          "tables": []
+        },
+        "Migraine_headache,_prophylaxis": {
+          "text": "50mg PO bid\nStart: 25mg PO qhs x1wk, increase by 25mg/day qwk; Max: 200mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Partial_Seizures": {
+      "text": "monotherapy\nDose: 200mg PO bid; Start: 25mg PO BID x1wk, increase by 50mg/day qwk until 100mg PO bid, then increase by 100mg/day qwk; Info: doses >400mg/day rarely more effective\nadjunct therapy\nDose: 100-200mg PO bid; Start: 25mg PO QD-bid x1wk, increase by 25-50mg/day qwk; Info: doses >400mg/day rarely more effective",
+      "subsections": {
+        "seizures,_primary_generalized_tonic_clonic": {
+          "text": "monotherapy\nDose: 200mg PO bid; Start: 25mg PO BID x1wk, increase by 50mg/day qwk until 100mg PO bid, then increase by 100mg/day qwk; Info: doses >400mg/day rarely more effective\nadjunct therapy\nDose: 200mg PO bid; Start: 25mg PO QD-bid x1wk, increase by 25-50mg/day qwk; Info: doses >400mg/day rarely more effective",
+          "tables": []
+        },
+        "Seizures,_Lennox-Gastaut": {
+          "text": "adjunct therapy\nDose: 100-200mg PO bid; Start: 25mg PO QD-bid x1wk, increase by 25-50mg/day qwk; Info: doses >400mg/day rarely more effective",
+          "tables": []
+        },
+        "Migraine_headache,_prophylaxis": {
+          "text": "50mg PO bid\nStart: 25mg PO qhs x1wk, increase by 25mg/day qwk; Max: 200mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "seizures,_primary_generalized_tonic_clonic": {
+      "text": "monotherapy\nDose: 200mg PO bid; Start: 25mg PO BID x1wk, increase by 50mg/day qwk until 100mg PO bid, then increase by 100mg/day qwk; Info: doses >400mg/day rarely more effective\nadjunct therapy\nDose: 200mg PO bid; Start: 25mg PO QD-bid x1wk, increase by 25-50mg/day qwk; Info: doses >400mg/day rarely more effective",
+      "subsections": {
+        "Seizures,_Lennox-Gastaut": {
+          "text": "adjunct therapy\nDose: 100-200mg PO bid; Start: 25mg PO QD-bid x1wk, increase by 25-50mg/day qwk; Info: doses >400mg/day rarely more effective",
+          "tables": []
+        },
+        "Migraine_headache,_prophylaxis": {
+          "text": "50mg PO bid\nStart: 25mg PO qhs x1wk, increase by 25mg/day qwk; Max: 200mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Seizures,_Lennox-Gastaut": {
+      "text": "adjunct therapy\nDose: 100-200mg PO bid; Start: 25mg PO QD-bid x1wk, increase by 25-50mg/day qwk; Info: doses >400mg/day rarely more effective",
+      "subsections": {
+        "Migraine_headache,_prophylaxis": {
+          "text": "50mg PO bid\nStart: 25mg PO qhs x1wk, increase by 25mg/day qwk; Max: 200mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Migraine_headache,_prophylaxis": {
+      "text": "50mg PO bid\nStart: 25mg PO qhs x1wk, increase by 25mg/day qwk; Max: 200mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation risk\n: Excreted in breastmilk",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: CrCl 10-70: decrease dose 50%; CrCl <10: decrease dose 75%; HD: give supplement\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: not defined; caution advised\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: CrCl 10-70: decrease dose 50%; CrCl <10: decrease dose 75%; HD: give supplement\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: not defined; caution advised\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: not defined; caution advised\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Unclear, however has activity on voltage-gated sodium channels, calcium channels, GABA-A receptors, and carbonic anhydrase enzymes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure\nAnticonvulsants\nAnticonvulsant levels and reloading",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        }
+      ]
+    }
+  }
+}

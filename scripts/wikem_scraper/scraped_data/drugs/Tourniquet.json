@@ -1,0 +1,22 @@
+{
+  "drug_name": "Tourniquet",
+  "url": "https://wikem.org/wiki/Tourniquet",
+  "scraped_at": "2026-01-10T08:03:52.190438",
+  "sections": {
+    "Tourniquet_types": {
+      "text": "Extremity tourniquet\nJunctional tourniquet",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Extremity tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet_(extremity)"
+        },
+        {
+          "text": "Junctional tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet_(junctional)"
+        }
+      ]
+    }
+  }
+}

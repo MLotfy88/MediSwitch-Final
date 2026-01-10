@@ -1,0 +1,94 @@
+{
+  "drug_name": "Tracheostomy_obstruction",
+  "url": "https://wikem.org/wiki/Tracheostomy_obstruction",
+  "scraped_at": "2026-01-10T08:03:57.887127",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Tracheostomy_Sizes": {
+          "text": "Average size:\nAdult: 5-10mm\nPeds: 2.5-6.5mm",
+          "tables": []
+        },
+        "Tracheostomy_vs_laryngectomy": {
+          "text": "It is important to differentiate between tracheostomy vs laryngectomy\nIf laryngectomy\n[1]\n:\nThe stoma is the only way to ventilate the patient.\nPatient cannot be orally intubated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tracheostomy_Sizes": {
+      "text": "Average size:\nAdult: 5-10mm\nPeds: 2.5-6.5mm",
+      "subsections": {
+        "Tracheostomy_vs_laryngectomy": {
+          "text": "It is important to differentiate between tracheostomy vs laryngectomy\nIf laryngectomy\n[1]\n:\nThe stoma is the only way to ventilate the patient.\nPatient cannot be orally intubated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tracheostomy_vs_laryngectomy": {
+      "text": "It is important to differentiate between tracheostomy vs laryngectomy\nIf laryngectomy\n[1]\n:\nThe stoma is the only way to ventilate the patient.\nPatient cannot be orally intubated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tracheostomy_complications": {
+          "text": "Tracheostomy obstruction\nTracheostomy dislodgement\nTracheostomy infection\nTracheostomy bleeding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tracheostomy dislodgement",
+          "url": "https://wikem.org/wiki/Tracheostomy_dislodgement"
+        },
+        {
+          "text": "Tracheostomy infection",
+          "url": "https://wikem.org/wiki/Tracheostomy_infection"
+        },
+        {
+          "text": "Tracheostomy bleeding",
+          "url": "https://wikem.org/wiki/Tracheostomy_bleeding"
+        }
+      ]
+    },
+    "Tracheostomy_complications": {
+      "text": "Tracheostomy obstruction\nTracheostomy dislodgement\nTracheostomy infection\nTracheostomy bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tracheostomy dislodgement",
+          "url": "https://wikem.org/wiki/Tracheostomy_dislodgement"
+        },
+        {
+          "text": "Tracheostomy infection",
+          "url": "https://wikem.org/wiki/Tracheostomy_infection"
+        },
+        {
+          "text": "Tracheostomy bleeding",
+          "url": "https://wikem.org/wiki/Tracheostomy_bleeding"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Rule-out other causes of respiratory distress before assuming it is due to obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Preoxygenate and place sterile saline solution into trachea and then suction\nIf this fails, inner cannula of tube can be removed and cleaned",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

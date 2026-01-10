@@ -1,0 +1,470 @@
+{
+  "drug_name": "Tinea_pedis",
+  "url": "https://wikem.org/wiki/Tinea_pedis",
+  "scraped_at": "2026-01-10T08:03:44.731901",
+  "sections": {
+    "Background": {
+      "text": "The most common dermatophyte infection\nMost commonly in young men\nCaused by T. rubrum, T. interdigitale, and E. floccosum\nSpread through direct contact (locker rooms, near swimming pools)\nManifests as interdigital, hyperkeratotic, or vesiculobulbous eruption, rarely ulcerative\nOften accompanied by other forms of tinea",
+      "subsections": {
+        "Tinea_Types": {
+          "text": "Tinea capitis\n(head)\nTinea corporis\n(body)\nTinea pedis\n(foot)\nTinea cruris\n(groin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        }
+      ]
+    },
+    "Tinea_Types": {
+      "text": "Tinea capitis\n(head)\nTinea corporis\n(body)\nTinea pedis\n(foot)\nTinea cruris\n(groin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Interdigital tinea pedis: pruritic, erythematous erosions between the toes, can be associated with painful fissures (most common type)\nHyperkeratotic  tinea pedis (mocasin-type): A mocasin distribusion of hyperkeratosis on the soles and side of the feet\nVesiculobullous tinea pedis (inflammatory): Pruritic or painful vessicles or bullae with underlying erythema often affecting the medial foot\nUlcerative tinea pedis: Interdigital erosions or ulcers (uncommon and usually associated with secondary bacterial infection)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Interdigital tinea pedis\nErythrasma\nInterdigital Candida infection\nHyperkeratotic tinea pedis\nAtopic dermatitis\nChronic contact dermatitis\nAcute palmoplantar eczema\nPalmoplantar psoriasis\nPitted keratolysis\nJuvenile plantar dermatosis\nKeratolysis exfoliativa\nKeratodermas\nVesiculobullous tinea pedis\nAcute palmoplantar eczema\nAcute contact dermatitis\nPalmoplantar pustulosis",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Foot_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Generally a clinical diagnosis\nDiagnosis can by confirmed by detecting segmented in hyphae in skin scrapings when put in KOH prep",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Coverage for Trichophyton and Epidermophyton\nand all treatment should be at lease 1 week past resolution of lesions",
+      "subsections": {
+        "Topical_Therapy": {
+          "text": "Applies to\nTinea corporis\n,\npedis\n,\ncruris\n, and\nmanus\nMust use a topical therapy for 7-10days beyond resolution of lesions\nTopical antifungal treatment for all except tinea capitis\nTerbinafine\n1% BID x2-3weeks or\nClotrimazole\n1% BID x2-3weeks or\nKetoconazole\n1% BID x2-3weeks",
+          "tables": []
+        },
+        "Capitis": {
+          "text": "Griseofulvin\n500mg-1000mg PO once daily (20-25mg/kg/d)\nUsually requires 8wk of treatment\nTerbinafine\nfor 2-4 weeks is as effective of 6-8 weeks of\ngriseofulvin\n[1]\n62.5mg/day in children <20kg\n125mg/day in children 20-40kg\n250mg/day in children >40kg\n[2]\nSelenium sulfide\nor\nketoconazole\nshampoos are adjunct treatment\nChildren can return to school during treatment",
+          "tables": []
+        },
+        "Kerion": {
+          "text": "Oral griseofulvin, itraconazole, or terbinafine for 6-8 wks\n[3]\nCephalexin\n40mg/kg/d in 4 divided doses in addition to systemic antifungal treatment if there is evidence or high risk of bacterial secondary infection\nKetoconazole shampoo, isolated towels decrease spread to household members",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "First line should be topical therapy. For refractory cases or severe bullous disease the below anti-fungals are all equivalent options.\nFluconazole\n150mg (6mg/kg) PO once  a week x 2 weeks or\nItraconazole\n200mg (5mg/kg) PO daily q12hrs for 1 week or\nGriseofulvin\n500-1000mg (20mg/kg) PO daily for 2-4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Topical_Therapy": {
+      "text": "Applies to\nTinea corporis\n,\npedis\n,\ncruris\n, and\nmanus\nMust use a topical therapy for 7-10days beyond resolution of lesions\nTopical antifungal treatment for all except tinea capitis\nTerbinafine\n1% BID x2-3weeks or\nClotrimazole\n1% BID x2-3weeks or\nKetoconazole\n1% BID x2-3weeks",
+      "subsections": {
+        "Capitis": {
+          "text": "Griseofulvin\n500mg-1000mg PO once daily (20-25mg/kg/d)\nUsually requires 8wk of treatment\nTerbinafine\nfor 2-4 weeks is as effective of 6-8 weeks of\ngriseofulvin\n[1]\n62.5mg/day in children <20kg\n125mg/day in children 20-40kg\n250mg/day in children >40kg\n[2]\nSelenium sulfide\nor\nketoconazole\nshampoos are adjunct treatment\nChildren can return to school during treatment",
+          "tables": []
+        },
+        "Kerion": {
+          "text": "Oral griseofulvin, itraconazole, or terbinafine for 6-8 wks\n[3]\nCephalexin\n40mg/kg/d in 4 divided doses in addition to systemic antifungal treatment if there is evidence or high risk of bacterial secondary infection\nKetoconazole shampoo, isolated towels decrease spread to household members",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "First line should be topical therapy. For refractory cases or severe bullous disease the below anti-fungals are all equivalent options.\nFluconazole\n150mg (6mg/kg) PO once  a week x 2 weeks or\nItraconazole\n200mg (5mg/kg) PO daily q12hrs for 1 week or\nGriseofulvin\n500-1000mg (20mg/kg) PO daily for 2-4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Capitis": {
+      "text": "Griseofulvin\n500mg-1000mg PO once daily (20-25mg/kg/d)\nUsually requires 8wk of treatment\nTerbinafine\nfor 2-4 weeks is as effective of 6-8 weeks of\ngriseofulvin\n[1]\n62.5mg/day in children <20kg\n125mg/day in children 20-40kg\n250mg/day in children >40kg\n[2]\nSelenium sulfide\nor\nketoconazole\nshampoos are adjunct treatment\nChildren can return to school during treatment",
+      "subsections": {
+        "Kerion": {
+          "text": "Oral griseofulvin, itraconazole, or terbinafine for 6-8 wks\n[3]\nCephalexin\n40mg/kg/d in 4 divided doses in addition to systemic antifungal treatment if there is evidence or high risk of bacterial secondary infection\nKetoconazole shampoo, isolated towels decrease spread to household members",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "First line should be topical therapy. For refractory cases or severe bullous disease the below anti-fungals are all equivalent options.\nFluconazole\n150mg (6mg/kg) PO once  a week x 2 weeks or\nItraconazole\n200mg (5mg/kg) PO daily q12hrs for 1 week or\nGriseofulvin\n500-1000mg (20mg/kg) PO daily for 2-4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Selenium sulfide",
+          "url": "https://wikem.org/wiki/Selenium_sulfide"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Kerion": {
+      "text": "Oral griseofulvin, itraconazole, or terbinafine for 6-8 wks\n[3]\nCephalexin\n40mg/kg/d in 4 divided doses in addition to systemic antifungal treatment if there is evidence or high risk of bacterial secondary infection\nKetoconazole shampoo, isolated towels decrease spread to household members",
+      "subsections": {
+        "Tinea_corporis": {
+          "text": "First line should be topical therapy. For refractory cases or severe bullous disease the below anti-fungals are all equivalent options.\nFluconazole\n150mg (6mg/kg) PO once  a week x 2 weeks or\nItraconazole\n200mg (5mg/kg) PO daily q12hrs for 1 week or\nGriseofulvin\n500-1000mg (20mg/kg) PO daily for 2-4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Tinea_corporis": {
+      "text": "First line should be topical therapy. For refractory cases or severe bullous disease the below anti-fungals are all equivalent options.\nFluconazole\n150mg (6mg/kg) PO once  a week x 2 weeks or\nItraconazole\n200mg (5mg/kg) PO daily q12hrs for 1 week or\nGriseofulvin\n500-1000mg (20mg/kg) PO daily for 2-4 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tinea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea",
+          "url": "https://wikem.org/wiki/Tinea"
+        }
+      ]
+    }
+  }
+}

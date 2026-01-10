@@ -1,0 +1,65 @@
+{
+  "drug_name": "Tick_removal",
+  "url": "https://wikem.org/wiki/Tick_removal",
+  "scraped_at": "2026-01-10T08:03:41.480746",
+  "sections": {
+    "Indications": {
+      "text": "Tick attachment to the skin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "None",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment": {
+      "text": "Gloves\nFine-toothed forceps\nFine suture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Technique": {
+      "text": "Apply viscous lidocaine to kill the tick and anesthetize bite site\nGrasp tick with forceps as close to skin surface as possible and pull upward with steady, even traction.\nAlternatively, fine suture looped in a half-hitch around the tick between the skin and tick's body\nTake care not to squeeze or crush the tick body because this may expel infective agents.\nDo not twist or jerk the tick in order to prevent the mouth parts from breaking off during extraction.\nIf mouth parts are left behind after removal of the body, they may be removed with tweezers.\nIf one is still unable to remove the mouth parts, excision under local anesthesia will be needed to prevent local infection\nOnce tick is removed wash the bite area with soap and water or antiseptic.\nSave tick in plastic bag for ID and aid in diagnosis if illness occurs.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications/Follow-up": {
+      "text": "Monitor for signs and symptoms of tick-borne disease\nRoutine antimicrobial prophylaxis or serologic testing is not recommended\nThere is potential for secondary infections",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tick borne illnesses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tick borne illnesses",
+          "url": "https://wikem.org/wiki/Tick_borne_illnesses"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=0jF0k5ZuQoo}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=0jF0k5ZuQoo}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "drug_name": "Tirzepatide",
+  "url": "https://wikem.org/wiki/Tirzepatide",
+  "scraped_at": "2026-01-10T08:03:43.378136",
+  "sections": {
+    "Intro": {
+      "text": "Tirzepatide is a dual GIP and GLP-1 agonist approved for the treatment of type 2 diabetes and also used off-label for obesity treatment\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Side_Effects": {
+      "text": "Pancreatitis\nNausea\nVomiting\nAbdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

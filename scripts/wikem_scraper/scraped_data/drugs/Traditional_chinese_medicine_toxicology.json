@@ -1,0 +1,231 @@
+{
+  "drug_name": "Traditional_chinese_medicine_toxicology",
+  "url": "https://wikem.org/wiki/Traditional_chinese_medicine_toxicology",
+  "scraped_at": "2026-01-10T08:03:55.219422",
+  "sections": {
+    "Background": {
+      "text": "Traditional Chinese medicine has become increasingly popular in the US and other Western countries, and has remained extremely popular in China and Hong Kong.\n[1]\nAlthough generally marketed as \"natural\" and \"herbal\" in nature, many contain contaminants in the form of heavy metals or conventional western medications.\n[1]\nStudies have found, among others, cadmium, cobalt, copper, iron, manganese, nickel, lead, zinc, and mercury in traditional Chinese medicines\n[1]\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Common_Toxic_Herbs": {
+      "text": "",
+      "subsections": {
+        "Aconitine_Group": {
+          "text": "These are the most common group of herbals\n[1]\nActivates sodium channels → cardiac and neurotoxicity\nParesthesias\n,\nnausea/vomiting\n,\narrhythmias\n,\nhypotension",
+          "tables": []
+        },
+        "Podophyllin_Group": {
+          "text": "Neurotoxicity (\nseizure\n+\ncoma\n)",
+          "tables": []
+        },
+        "Anticholinergic_group": {
+          "text": "Tachyarrhythmias\n+\naltered mental status",
+          "tables": []
+        },
+        "Digoxin-like_agents": {
+          "text": "Tachyarrhythmias\nHeart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Tachyarrhythmias"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Tachyarrhythmias"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        }
+      ]
+    },
+    "Aconitine_Group": {
+      "text": "These are the most common group of herbals\n[1]\nActivates sodium channels → cardiac and neurotoxicity\nParesthesias\n,\nnausea/vomiting\n,\narrhythmias\n,\nhypotension",
+      "subsections": {
+        "Podophyllin_Group": {
+          "text": "Neurotoxicity (\nseizure\n+\ncoma\n)",
+          "tables": []
+        },
+        "Anticholinergic_group": {
+          "text": "Tachyarrhythmias\n+\naltered mental status",
+          "tables": []
+        },
+        "Digoxin-like_agents": {
+          "text": "Tachyarrhythmias\nHeart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Tachyarrhythmias"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Tachyarrhythmias"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        }
+      ]
+    },
+    "Podophyllin_Group": {
+      "text": "Neurotoxicity (\nseizure\n+\ncoma\n)",
+      "subsections": {
+        "Anticholinergic_group": {
+          "text": "Tachyarrhythmias\n+\naltered mental status",
+          "tables": []
+        },
+        "Digoxin-like_agents": {
+          "text": "Tachyarrhythmias\nHeart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Tachyarrhythmias"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Tachyarrhythmias"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        }
+      ]
+    },
+    "Anticholinergic_group": {
+      "text": "Tachyarrhythmias\n+\naltered mental status",
+      "subsections": {
+        "Digoxin-like_agents": {
+          "text": "Tachyarrhythmias\nHeart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Tachyarrhythmias"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Tachyarrhythmias"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        }
+      ]
+    },
+    "Digoxin-like_agents": {
+      "text": "Tachyarrhythmias\nHeart block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Tachyarrhythmias"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Toxicology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        }
+      ]
+    }
+  }
+}

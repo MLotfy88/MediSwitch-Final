@@ -1,0 +1,85 @@
+{
+  "drug_name": "Tourniquet_(extremity)",
+  "url": "https://wikem.org/wiki/Tourniquet_(extremity)",
+  "scraped_at": "2026-01-10T08:03:54.182574",
+  "sections": {
+    "Background": {
+      "text": "Tourniquets have been used in military dating back to the Roman army although the term was not coined until 1718.\nIn the US military, tourniquets were issued to soldiers from the time of the American Civil War up till World War I. However, tourniquets fell out of favor during World War II.\nDuring WWI four recommendations regarding the use of tourniquets were given. 1) Never cover a tourniquet 2) Write that a tourniquet was applied on the medical tag 3) If conscious tell the service member to verbally inform medical providers that a tourniquet was applied 4) Leave a tourniquet in place for up to 6 hours only\nDuring the Vietnam conflict, 2500 US casualties were noted to have perished because of hemorrhaging from an extremity wound alone that is no other significant injuries were noted on the casualty.\nBased on experience from use over the last decade, tourniquets have been shown to be safe and life-saving. The reason tourniquets fell out of favor with the US military was due to poor patient transport out of no man's land in WWI which lead to ischemic complications.\nExtremity hemorrhage is the most frequent cause of preventable battlefield deaths thus early control of severe hemorrhage is critical.\nTourniquets are a proven effective means of controlling extremity hemorrhage\n[1]\nDamage to extremity is rare if tourniquet is left on for < 2 hours (recall that TQ are frequently used in surgeries which last several hours). This risk of damage to the limb is considered acceptably small rather than having the casualty expire due to exsanguination.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Severe extremity\nhemorrhage\n, not able to be rapidly controlled by other means",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "None",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Application_of_Tourniquet": {
+      "text": "Place as soon as possible, ideally prior to onset of\nshock\nRemove clothing so that TQ can be applied directly to skin and remain in full view\nApply 2-3 inches above wound\nTighten until bleeding is controlled and distal pulse is eliminated\nDocument time of placement on medical tag -- consider writing time of placement on patient with indelible marker\nIf bleeding is not controlled and distal pulse not eliminated with first TQ:\nApply 2nd tourniquet just proximal to the first\nIncreasing the tourniquet WIDTH with a second TQ controls bleeding more effectively and reduces complications versus over-tightening initial TQ.\nAnalgesia\nas needed after placement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        }
+      ]
+    },
+    "Precautions": {
+      "text": "Do not apply directly over joint or impaled object\nDo\nnot\nperiodically loosen\nObserve for bleeding as patient is resuscitated and blood pressure increases\nDo Not Remove TQ if:\nDefinitive treatment to be initiated within 2 hours after time of application\nThe extremity distal to the tourniquet has been traumatically amputated\nPatient is in shock\nThe tourniquet has already been on for more than 6 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Proper_Removal_at_Medical_Treatment_Facility": {
+      "text": "Place pressure dressing over wound\nLoosen TQ slowly observe for bleeding\nIf bleeding controlled, then leave TQ loosely in place in case of recurrent bleeding\nIf bleeding is not controlled without the TQ then re-tighten it",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tourniquet",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=pFABs0O6-Qk}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=pFABs0O6-Qk}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "drug_name": "Tinea_corporis",
+  "url": "https://wikem.org/wiki/Tinea_corporis",
+  "scraped_at": "2026-01-10T08:03:44.553742",
+  "sections": {
+    "Background": {
+      "text": "Infection caused by dermatophytes that feed on keratin",
+      "subsections": {
+        "Tinea_Types": {
+          "text": "Tinea capitis\n(head)\nTinea corporis\n(body)\nTinea pedis\n(foot)\nTinea cruris\n(groin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        }
+      ]
+    },
+    "Tinea_Types": {
+      "text": "Tinea capitis\n(head)\nTinea corporis\n(body)\nTinea pedis\n(foot)\nTinea cruris\n(groin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Scaly\n, variable\npruritus\nRing appearance with central clearing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scaly",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Contact dermatitis\nEczema\nLichen planus\nPityriasis rosea\nPsoriasis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "Lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Tinea_corporis,_pedis,_cruris,_and_manus_treatment": {
+          "text": "Coverage for Trichophyton and Epidermophyton\nand all treatment should be at lease 1 week past resolution of lesions",
+          "tables": []
+        },
+        "Mild_Disease": {
+          "text": "Clotrimazole\n1% or\nKetoconazole\nq12hrs applied topically x 4 weeks",
+          "tables": []
+        },
+        "Severe_Bullous_disease": {
+          "text": "Fluconazole\n150mg (6mg/kg) PO once  a week x 2 weeks\nItraconazole\n200mg (5mg/kg) PO daily q12hrs for 1 week\nGriseofulvin\n500-1000mg (20mg/kg) PO daily for 2-4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Tinea_corporis,_pedis,_cruris,_and_manus_treatment": {
+      "text": "Coverage for Trichophyton and Epidermophyton\nand all treatment should be at lease 1 week past resolution of lesions",
+      "subsections": {
+        "Mild_Disease": {
+          "text": "Clotrimazole\n1% or\nKetoconazole\nq12hrs applied topically x 4 weeks",
+          "tables": []
+        },
+        "Severe_Bullous_disease": {
+          "text": "Fluconazole\n150mg (6mg/kg) PO once  a week x 2 weeks\nItraconazole\n200mg (5mg/kg) PO daily q12hrs for 1 week\nGriseofulvin\n500-1000mg (20mg/kg) PO daily for 2-4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tinea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea",
+          "url": "https://wikem.org/wiki/Tinea"
+        }
+      ]
+    }
+  }
+}
