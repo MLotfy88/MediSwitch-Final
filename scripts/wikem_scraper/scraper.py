@@ -468,14 +468,21 @@ class WikEMScraper:
             logger.info(f"✓ Git commit & push: {message}")
         except subprocess.CalledProcessError as e:
             logger.warning(f"Git commit/push failed: {e}")
-    
+
+# Anti-Ban Configuration (Optimized for Speed)
+MIN_DELAY = 1  # seconds (Aggressive)
+MAX_DELAY = 4  # seconds
+MAX_RETRIES = 3
+BACKOFF_FACTOR = 2
+COMMIT_EVERY = 100  # Commit less frequently to save time
+
     def run(self, drug_list: List[str]):
         """Main scraping loop with PARALLEL execution"""
         import concurrent.futures
         import threading
         
         # Concurrency settings
-        MAX_WORKERS = 10  # 10 parallel threads
+        MAX_WORKERS = 20  # Boost to 20 parallel threads
         self.lock = threading.Lock()
         
         logger.info(f"Starting PARALLEL scraper (Workers: {MAX_WORKERS}). Total jobs: {len(drug_list)}")
