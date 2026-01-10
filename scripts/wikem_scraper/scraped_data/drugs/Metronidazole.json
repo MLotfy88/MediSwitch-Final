@@ -1,0 +1,1091 @@
+{
+  "drug_name": "Metronidazole",
+  "url": "https://wikem.org/wiki/Metronidazole",
+  "scraped_at": "2026-01-10T07:31:44.146626",
+  "sections": {
+    "General": {
+      "text": "Type: Other\nantibiotics\nDosage Forms:\nIV\nPO: 250mg; 375mg; 500mg\nCommon Trade Names: Flagyl",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "PO\n500mg PO q6-8h x 7-10 days\nFirst Dose: 500mg PO x 1\nIV\n15mg/kg IV x1, then 7.5mg/kg IV q6h\nFirst Dose: 15mg/kg IV x1\nMax: 1 gram/dose",
+          "tables": []
+        },
+        "Amebic_liver_abscess": {
+          "text": "500-750mg PO q8h x 5-10 days",
+          "tables": []
+        },
+        "Colorectal_Surgery_Infection_Prophylaxis": {
+          "text": "15mg/kg IV x 1\nComplete infusion 1h prior to surgery, then 7.5mg/kg IV q6h x 2\nMax: 1 g/dose",
+          "tables": []
+        },
+        "Intestinal_Amebiasis": {
+          "text": "750mg PO q8h x 5-10 days",
+          "tables": []
+        },
+        "PID": {
+          "text": "500mg PO q12 x 14 days\nSee\nPID\nfor full regimen",
+          "tables": []
+        },
+        "Bacterial_Vaginosis": {
+          "text": "500mg PO q12 x 7 days\nAlt: May use 250mg PO q8h x 7 days in pregnant patients\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Trichomoniasis": {
+          "text": "Treatment\nImmunocompetent: 2 g PO x 1\nImmunocompromised: 500mg PO q12h x 7 days\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Giardiasis": {
+          "text": "250mg PO q8h x 5-7 days\nAlt: 2 g PO q 24h x 3 days",
+          "tables": []
+        },
+        "C._Difficile": {
+          "text": "Mild-mod\n500mg PO q8h x 10-14 days\nSevere\n500mg IV q8h (give with\nvancomycin\nPO)",
+          "tables": []
+        },
+        "H._pylori": {
+          "text": "250-375mg PO q6h x 10-14 days (in combination)",
+          "tables": []
+        },
+        "Urethritis,_recurrent/persistent_(Non-Gonococcal)": {
+          "text": "2 g PO x 1 (with azithromycin)",
+          "tables": []
+        },
+        "Tetanus": {
+          "text": "500 mg  IV every 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "General_2": {
+      "text": "PO\n500mg PO q6-8h x 7-10 days\nFirst Dose: 500mg PO x 1\nIV\n15mg/kg IV x1, then 7.5mg/kg IV q6h\nFirst Dose: 15mg/kg IV x1\nMax: 1 gram/dose",
+      "subsections": {
+        "Amebic_liver_abscess": {
+          "text": "500-750mg PO q8h x 5-10 days",
+          "tables": []
+        },
+        "Colorectal_Surgery_Infection_Prophylaxis": {
+          "text": "15mg/kg IV x 1\nComplete infusion 1h prior to surgery, then 7.5mg/kg IV q6h x 2\nMax: 1 g/dose",
+          "tables": []
+        },
+        "Intestinal_Amebiasis": {
+          "text": "750mg PO q8h x 5-10 days",
+          "tables": []
+        },
+        "PID": {
+          "text": "500mg PO q12 x 14 days\nSee\nPID\nfor full regimen",
+          "tables": []
+        },
+        "Bacterial_Vaginosis": {
+          "text": "500mg PO q12 x 7 days\nAlt: May use 250mg PO q8h x 7 days in pregnant patients\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Trichomoniasis": {
+          "text": "Treatment\nImmunocompetent: 2 g PO x 1\nImmunocompromised: 500mg PO q12h x 7 days\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Giardiasis": {
+          "text": "250mg PO q8h x 5-7 days\nAlt: 2 g PO q 24h x 3 days",
+          "tables": []
+        },
+        "C._Difficile": {
+          "text": "Mild-mod\n500mg PO q8h x 10-14 days\nSevere\n500mg IV q8h (give with\nvancomycin\nPO)",
+          "tables": []
+        },
+        "H._pylori": {
+          "text": "250-375mg PO q6h x 10-14 days (in combination)",
+          "tables": []
+        },
+        "Urethritis,_recurrent/persistent_(Non-Gonococcal)": {
+          "text": "2 g PO x 1 (with azithromycin)",
+          "tables": []
+        },
+        "Tetanus": {
+          "text": "500 mg  IV every 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Amebic_liver_abscess": {
+      "text": "500-750mg PO q8h x 5-10 days",
+      "subsections": {
+        "Colorectal_Surgery_Infection_Prophylaxis": {
+          "text": "15mg/kg IV x 1\nComplete infusion 1h prior to surgery, then 7.5mg/kg IV q6h x 2\nMax: 1 g/dose",
+          "tables": []
+        },
+        "Intestinal_Amebiasis": {
+          "text": "750mg PO q8h x 5-10 days",
+          "tables": []
+        },
+        "PID": {
+          "text": "500mg PO q12 x 14 days\nSee\nPID\nfor full regimen",
+          "tables": []
+        },
+        "Bacterial_Vaginosis": {
+          "text": "500mg PO q12 x 7 days\nAlt: May use 250mg PO q8h x 7 days in pregnant patients\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Trichomoniasis": {
+          "text": "Treatment\nImmunocompetent: 2 g PO x 1\nImmunocompromised: 500mg PO q12h x 7 days\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Giardiasis": {
+          "text": "250mg PO q8h x 5-7 days\nAlt: 2 g PO q 24h x 3 days",
+          "tables": []
+        },
+        "C._Difficile": {
+          "text": "Mild-mod\n500mg PO q8h x 10-14 days\nSevere\n500mg IV q8h (give with\nvancomycin\nPO)",
+          "tables": []
+        },
+        "H._pylori": {
+          "text": "250-375mg PO q6h x 10-14 days (in combination)",
+          "tables": []
+        },
+        "Urethritis,_recurrent/persistent_(Non-Gonococcal)": {
+          "text": "2 g PO x 1 (with azithromycin)",
+          "tables": []
+        },
+        "Tetanus": {
+          "text": "500 mg  IV every 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Colorectal_Surgery_Infection_Prophylaxis": {
+      "text": "15mg/kg IV x 1\nComplete infusion 1h prior to surgery, then 7.5mg/kg IV q6h x 2\nMax: 1 g/dose",
+      "subsections": {
+        "Intestinal_Amebiasis": {
+          "text": "750mg PO q8h x 5-10 days",
+          "tables": []
+        },
+        "PID": {
+          "text": "500mg PO q12 x 14 days\nSee\nPID\nfor full regimen",
+          "tables": []
+        },
+        "Bacterial_Vaginosis": {
+          "text": "500mg PO q12 x 7 days\nAlt: May use 250mg PO q8h x 7 days in pregnant patients\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Trichomoniasis": {
+          "text": "Treatment\nImmunocompetent: 2 g PO x 1\nImmunocompromised: 500mg PO q12h x 7 days\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Giardiasis": {
+          "text": "250mg PO q8h x 5-7 days\nAlt: 2 g PO q 24h x 3 days",
+          "tables": []
+        },
+        "C._Difficile": {
+          "text": "Mild-mod\n500mg PO q8h x 10-14 days\nSevere\n500mg IV q8h (give with\nvancomycin\nPO)",
+          "tables": []
+        },
+        "H._pylori": {
+          "text": "250-375mg PO q6h x 10-14 days (in combination)",
+          "tables": []
+        },
+        "Urethritis,_recurrent/persistent_(Non-Gonococcal)": {
+          "text": "2 g PO x 1 (with azithromycin)",
+          "tables": []
+        },
+        "Tetanus": {
+          "text": "500 mg  IV every 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Intestinal_Amebiasis": {
+      "text": "750mg PO q8h x 5-10 days",
+      "subsections": {
+        "PID": {
+          "text": "500mg PO q12 x 14 days\nSee\nPID\nfor full regimen",
+          "tables": []
+        },
+        "Bacterial_Vaginosis": {
+          "text": "500mg PO q12 x 7 days\nAlt: May use 250mg PO q8h x 7 days in pregnant patients\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Trichomoniasis": {
+          "text": "Treatment\nImmunocompetent: 2 g PO x 1\nImmunocompromised: 500mg PO q12h x 7 days\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Giardiasis": {
+          "text": "250mg PO q8h x 5-7 days\nAlt: 2 g PO q 24h x 3 days",
+          "tables": []
+        },
+        "C._Difficile": {
+          "text": "Mild-mod\n500mg PO q8h x 10-14 days\nSevere\n500mg IV q8h (give with\nvancomycin\nPO)",
+          "tables": []
+        },
+        "H._pylori": {
+          "text": "250-375mg PO q6h x 10-14 days (in combination)",
+          "tables": []
+        },
+        "Urethritis,_recurrent/persistent_(Non-Gonococcal)": {
+          "text": "2 g PO x 1 (with azithromycin)",
+          "tables": []
+        },
+        "Tetanus": {
+          "text": "500 mg  IV every 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "PID": {
+      "text": "500mg PO q12 x 14 days\nSee\nPID\nfor full regimen",
+      "subsections": {
+        "Bacterial_Vaginosis": {
+          "text": "500mg PO q12 x 7 days\nAlt: May use 250mg PO q8h x 7 days in pregnant patients\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Trichomoniasis": {
+          "text": "Treatment\nImmunocompetent: 2 g PO x 1\nImmunocompromised: 500mg PO q12h x 7 days\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Giardiasis": {
+          "text": "250mg PO q8h x 5-7 days\nAlt: 2 g PO q 24h x 3 days",
+          "tables": []
+        },
+        "C._Difficile": {
+          "text": "Mild-mod\n500mg PO q8h x 10-14 days\nSevere\n500mg IV q8h (give with\nvancomycin\nPO)",
+          "tables": []
+        },
+        "H._pylori": {
+          "text": "250-375mg PO q6h x 10-14 days (in combination)",
+          "tables": []
+        },
+        "Urethritis,_recurrent/persistent_(Non-Gonococcal)": {
+          "text": "2 g PO x 1 (with azithromycin)",
+          "tables": []
+        },
+        "Tetanus": {
+          "text": "500 mg  IV every 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Bacterial_Vaginosis": {
+      "text": "500mg PO q12 x 7 days\nAlt: May use 250mg PO q8h x 7 days in pregnant patients\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+      "subsections": {
+        "Trichomoniasis": {
+          "text": "Treatment\nImmunocompetent: 2 g PO x 1\nImmunocompromised: 500mg PO q12h x 7 days\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+          "tables": []
+        },
+        "Giardiasis": {
+          "text": "250mg PO q8h x 5-7 days\nAlt: 2 g PO q 24h x 3 days",
+          "tables": []
+        },
+        "C._Difficile": {
+          "text": "Mild-mod\n500mg PO q8h x 10-14 days\nSevere\n500mg IV q8h (give with\nvancomycin\nPO)",
+          "tables": []
+        },
+        "H._pylori": {
+          "text": "250-375mg PO q6h x 10-14 days (in combination)",
+          "tables": []
+        },
+        "Urethritis,_recurrent/persistent_(Non-Gonococcal)": {
+          "text": "2 g PO x 1 (with azithromycin)",
+          "tables": []
+        },
+        "Tetanus": {
+          "text": "500 mg  IV every 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Trichomoniasis": {
+      "text": "Treatment\nImmunocompetent: 2 g PO x 1\nImmunocompromised: 500mg PO q12h x 7 days\nProphylaxis (\nSexual Assault\n)\n2 g PO x 1",
+      "subsections": {
+        "Giardiasis": {
+          "text": "250mg PO q8h x 5-7 days\nAlt: 2 g PO q 24h x 3 days",
+          "tables": []
+        },
+        "C._Difficile": {
+          "text": "Mild-mod\n500mg PO q8h x 10-14 days\nSevere\n500mg IV q8h (give with\nvancomycin\nPO)",
+          "tables": []
+        },
+        "H._pylori": {
+          "text": "250-375mg PO q6h x 10-14 days (in combination)",
+          "tables": []
+        },
+        "Urethritis,_recurrent/persistent_(Non-Gonococcal)": {
+          "text": "2 g PO x 1 (with azithromycin)",
+          "tables": []
+        },
+        "Tetanus": {
+          "text": "500 mg  IV every 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sexual Assault",
+          "url": "https://wikem.org/wiki/Sexual_Assault"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Giardiasis": {
+      "text": "250mg PO q8h x 5-7 days\nAlt: 2 g PO q 24h x 3 days",
+      "subsections": {
+        "C._Difficile": {
+          "text": "Mild-mod\n500mg PO q8h x 10-14 days\nSevere\n500mg IV q8h (give with\nvancomycin\nPO)",
+          "tables": []
+        },
+        "H._pylori": {
+          "text": "250-375mg PO q6h x 10-14 days (in combination)",
+          "tables": []
+        },
+        "Urethritis,_recurrent/persistent_(Non-Gonococcal)": {
+          "text": "2 g PO x 1 (with azithromycin)",
+          "tables": []
+        },
+        "Tetanus": {
+          "text": "500 mg  IV every 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "C._Difficile": {
+      "text": "Mild-mod\n500mg PO q8h x 10-14 days\nSevere\n500mg IV q8h (give with\nvancomycin\nPO)",
+      "subsections": {
+        "H._pylori": {
+          "text": "250-375mg PO q6h x 10-14 days (in combination)",
+          "tables": []
+        },
+        "Urethritis,_recurrent/persistent_(Non-Gonococcal)": {
+          "text": "2 g PO x 1 (with azithromycin)",
+          "tables": []
+        },
+        "Tetanus": {
+          "text": "500 mg  IV every 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "H._pylori": {
+      "text": "250-375mg PO q6h x 10-14 days (in combination)",
+      "subsections": {
+        "Urethritis,_recurrent/persistent_(Non-Gonococcal)": {
+          "text": "2 g PO x 1 (with azithromycin)",
+          "tables": []
+        },
+        "Tetanus": {
+          "text": "500 mg  IV every 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tetanus": {
+      "text": "500 mg  IV every 6 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "(<1200g)": {
+          "text": "7.5 mg/kg PO/IV q48h\nFirst Dose: 7.5 mg/kg PO/IV x 1",
+          "tables": []
+        },
+        "(>1200g_AND_<1_Month_Old)": {
+          "text": "<7 days old\n7.5-15 mg/kg/day PO/IV q12-24h\nFirst Dose: 7.5-15 mg/kg PO/IV x 1\n>7 days old\n15-30 mg/kg/day PO/IV q12h\nFirst Dose: 7.5-15 mg/kg PO/IV x 1",
+          "tables": []
+        },
+        "(>1_Month_Old)": {
+          "text": "30 mg/kg/day PO/IV q6h\nFirst Dose: 7.5 mg/kg PO/IV x 1\nMax: 4 g/day",
+          "tables": []
+        },
+        "Bacterial_Vaginosis_2": {
+          "text": "<45kg\n15 mg/kg/day PO divided q12h x 7 days\nFirst Dose: 7 mg/kg PO x 1\nMax: 1 g/day\n>45kg\n500mg PO divided q8h x 7 days\nFirst Dose: 500mg PO x 1\nMax: 2 g/day",
+          "tables": []
+        },
+        "Prophylaxis_(sexual_Assault)": {
+          "text": "<45kg'\n15 mg/kg/day PO divided q8h x 7 days\nFirst Dose: 7 mg/kg PO x 1\n>45kg\n2 g PO x 1",
+          "tables": []
+        },
+        "Tetanus_2": {
+          "text": "Same as\nStandard Pediatric Age/Weight Dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Standard Pediatric Age/Weight Dosing",
+          "url": "https://wikem.org/wiki/Metronidazole#Pediatric_Dosing"
+        }
+      ]
+    },
+    "Bacterial_Vaginosis_2": {
+      "text": "<45kg\n15 mg/kg/day PO divided q12h x 7 days\nFirst Dose: 7 mg/kg PO x 1\nMax: 1 g/day\n>45kg\n500mg PO divided q8h x 7 days\nFirst Dose: 500mg PO x 1\nMax: 2 g/day",
+      "subsections": {
+        "Prophylaxis_(sexual_Assault)": {
+          "text": "<45kg'\n15 mg/kg/day PO divided q8h x 7 days\nFirst Dose: 7 mg/kg PO x 1\n>45kg\n2 g PO x 1",
+          "tables": []
+        },
+        "Tetanus_2": {
+          "text": "Same as\nStandard Pediatric Age/Weight Dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Standard Pediatric Age/Weight Dosing",
+          "url": "https://wikem.org/wiki/Metronidazole#Pediatric_Dosing"
+        }
+      ]
+    },
+    "Tetanus_2": {
+      "text": "Same as\nStandard Pediatric Age/Weight Dosing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Standard Pediatric Age/Weight Dosing",
+          "url": "https://wikem.org/wiki/Metronidazole#Pediatric_Dosing"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy:\nB\nLactation: Safety conditional\nRenal Dosing\nAdult\nNo adjustment for renal insufficiency\nHemodialysis: Give dose after dialysis\nPeritoneal Dialysis: No supplement\nPediatric\nCrCl <10: Decrease dose 50%\nHemodialysis: Give dose after dialysis\nPeritoneal Dialysis: No supplement\nHepatic Dosing (Adult & Pediatric)\nSevere impairment: decrease dose, amount not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "B",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Black Box: carcinogenic in mice and rats; avoid unnecessary use; reserved for approved conditions\nAllergy to class/drug\nPregnancy (single 2 dose retimen)\nAlcohol use within 3 days\nDisulfiram use within 14 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Seizures\nAseptic\nmeningitis\nPerifpheral neuropathy\nOptic neuropathy\nEncephalopathy\nHypersensitivity Reaction\nStevens-Johnson Syndrome\nToxic Epidermal Necrolysis\nLeukopenia\nCarcinogenicity (in animals)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Disulfiram effect\n(should abstain from ETOH at least two days after last dose)\nNausea and Vomiting\nEpigastric discomfort\nDiarrhea\nMetallic taste\nRash\nHeadache\nDizziness\nDark reddish-brown urine\nCandidiasis\nThrombophlebitis (IV use)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Hypersensitivity Reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_Reaction"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Toxic Epidermal Necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_Epidermal_Necrolysis"
+        },
+        {
+          "text": "Disulfiram effect",
+          "url": "https://wikem.org/wiki/Disulfiram_effect"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Seizures\nAseptic\nmeningitis\nPerifpheral neuropathy\nOptic neuropathy\nEncephalopathy\nHypersensitivity Reaction\nStevens-Johnson Syndrome\nToxic Epidermal Necrolysis\nLeukopenia\nCarcinogenicity (in animals)",
+      "subsections": {
+        "Common": {
+          "text": "Disulfiram effect\n(should abstain from ETOH at least two days after last dose)\nNausea and Vomiting\nEpigastric discomfort\nDiarrhea\nMetallic taste\nRash\nHeadache\nDizziness\nDark reddish-brown urine\nCandidiasis\nThrombophlebitis (IV use)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Hypersensitivity Reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_Reaction"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Toxic Epidermal Necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_Epidermal_Necrolysis"
+        },
+        {
+          "text": "Disulfiram effect",
+          "url": "https://wikem.org/wiki/Disulfiram_effect"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Disulfiram effect\n(should abstain from ETOH at least two days after last dose)\nNausea and Vomiting\nEpigastric discomfort\nDiarrhea\nMetallic taste\nRash\nHeadache\nDizziness\nDark reddish-brown urine\nCandidiasis\nThrombophlebitis (IV use)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Disulfiram effect",
+          "url": "https://wikem.org/wiki/Disulfiram_effect"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8h\nMetabolism: Liver; CYP450: 2C9 inhibitor\nExcretion: Urine (70%); feces (15%)\nMechanism of Action: Bactericidal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "S+'"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "I"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

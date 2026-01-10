@@ -1,0 +1,162 @@
+{
+  "drug_name": "ACLS_(Main)",
+  "url": "https://wikem.org/wiki/ACLS_(Main)",
+  "scraped_at": "2026-01-10T07:31:50.650487",
+  "sections": {
+    "Intro": {
+      "text": "See\ncritical care quick reference\nfor drug doses and equipment size by weight.\nThis page is for\nadult\npatients. For pediatric patients, see:\nPALS (Main)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "A series of clinical algorithms created by the AHA/ASA used in the treatment of cardiovascular/neurological emergencies.\nInvolves airway management, IV access, and ECG interpretation.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "ECG_Analysis": {
+      "text": "What is the atrial and ventricular rate?\nIs the rhythm regular or irregular?\nIf irregular, does it follow any repeatable pattern?\nWhat is the axis?\nERAD often seen in VT but not SVT\nWhat is the P wave amplitude, duration, morphology, and synchrony with QRS complex?\nIs the P wave positive in Lead II\nWhat is the QRS complex amplitude, duration, morphology?\nWhat is the T wave amplitude, duration, morphology?\nIs the T wave positive in Lead II\nWhat is the length of PR and QT intervals?\nIs there ST Elevation/Depression or Hyperacute T waves?\nIf yes, does it follow any anatomical pattern or is it diffuse?\nIs there anything else abnormal about this ECG?\nPacemaker Spikes\nHypertrophy of atrial/ventricles",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Algorithms": {
+      "text": "Adult Pulseless Arrest\nPulseless Ventricular Tachycardia/Ventricular Fibrillation\nPulseless Electrical Activity/Asystole\nCardiac Arrest In Pregnancy\nAdult\nPost-Cardiac Arrest Care\nTermination of Resuscitation\nACLS: Bradycardia\n(with pulse)\nACLS: Tachycardia\n(with pulse)\nAcute coronary syndrome\nSuspected\ncerebrovascular event",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adult Pulseless Arrest",
+          "url": "https://wikem.org/wiki/Adult_Pulseless_Arrest"
+        },
+        {
+          "text": "Post-Cardiac Arrest Care",
+          "url": "https://wikem.org/wiki/Post-Cardiac_Arrest_Care"
+        },
+        {
+          "text": "ACLS: Bradycardia",
+          "url": "https://wikem.org/wiki/ACLS:_Bradycardia"
+        },
+        {
+          "text": "ACLS: Tachycardia",
+          "url": "https://wikem.org/wiki/ACLS:_Tachycardia"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "cerebrovascular event",
+          "url": "https://wikem.org/wiki/Cerebrovascular_event"
+        }
+      ]
+    },
+    "Treatable_Conditions": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Condition": "Acidosis",
+            "Common clinical settings": "Preexistingacidosis,DM,diarrhea,drugs and toxins, prolonged resuscitation, renal disease,shock",
+            "Corrective actions": "Reassess adequacy ofoxygenation, andventilation; reconfirmendotracheal-tube placementHyperventilateConsider intravenousbicarbonateif pH <7.20 after above actions have been taken"
+          },
+          {
+            "Condition": "Cardiac tamponade",
+            "Common clinical settings": "Hemorrhagic diathesis, cancer,pericarditis,trauma, after cardiac surgery orMI",
+            "Corrective actions": "Givefluids; obtainbedside echocardiogramPerformpericardiocentesis. Immediate surgical intervention is appropriate if pericardiocentesis is unhelpful but cardiac tamponade is known or highly suspected."
+          },
+          {
+            "Condition": "Hypothermia",
+            "Common clinical settings": "Alcohol abuse,burns, CNS  disease, debilitated or elderly patient,drowning,drugs and toxins, endocrine disease, history of exposure, homelessness, extensive skin disease, spinal cord disease,trauma",
+            "Corrective actions": "If severe (temperature <30°C), limit initial shocks forV-Fiborpulseless V-Tachto three; initiate active internal rewarming and cardiopulmonary support. Hold further resuscitation medications or shocks until core temperature is >30°C.If moderate (temperature 30-34°C), proceed with resuscitation (space medications at intervals greater than usual), actively rewarm truncal body areas"
+          },
+          {
+            "Condition": "Hypovolemia,hemorrhage,anemia",
+            "Common clinical settings": "Majorburns,DM, GI losses, hemorrhage, hemorrhagic diathesis, cancer,pregnancy,shock,trauma",
+            "Corrective actions": "GivefluidsTransfusepRBCsif hemorrhage or profound anemia is presentThoracotomyis appropriate when patient hascardiac arrestfrompenetrating traumaand a cardiac rhythm and the duration of cardiopulmonary resuscitation before thoracotomy is <10 min"
+          },
+          {
+            "Condition": "Hypoxia",
+            "Common clinical settings": "Consider in all patients with cardiac arrest",
+            "Corrective actions": "Reassess technical quality of cardiopulmonary resuscitation, oxygenation, and ventilation; reconfirm ETT placement"
+          },
+          {
+            "Condition": "Hypomagnesemia",
+            "Common clinical settings": "Alcohol abuse,burns,DKA, severediarrhea, diuretics, drugs (eg, cisplatin, cyclosporine, pentamidine)",
+            "Corrective actions": "Give 1-2 gmagnesium sulfateintravenously over 2 min"
+          },
+          {
+            "Condition": "Myocardial infarction",
+            "Common clinical settings": "Consider in all patients withcardiac arrest, especially those with a history ofcoronary artery diseaseor prearrestacute coronary syndrome",
+            "Corrective actions": "Consider definitive care (eg, thrombolytic therapy, cardiac catheterization or coronary artery reperfusion, circulatory assist device, emergency cardiopulmonary bypass)"
+          },
+          {
+            "Condition": "Poisoning",
+            "Common clinical settings": "Alcohol abuse, bizarre or puzzling behavioral or metabolic presentation, classictoxicologic syndrome, occupational or industrial exposure, and psychiatric disease",
+            "Corrective actions": "Consult toxicologist for emergency advice on resuscitation and definitive care, including appropriate antidoteProlonged resuscitation efforts may be appropriate; immediate cardiopulmonary bypass should be considered, if available"
+          },
+          {
+            "Condition": "Hyperkalemia",
+            "Common clinical settings": "Metabolic acidosis, excessive administration of potassium,drugs and toxins, vigorous exercise, hemolysis, renal disease,rhabdomyolysis,tumor lysis syndrome, and clinically significant tissue injury",
+            "Corrective actions": "If hyperkalemia is identified or strongly suspected, treat with all of the following: 10%calcium chloride(5-10 mL by slow intravenous push; do not use if hyperkalemia is secondary todigitalis poisoning),glucoseandinsulin(50 mL of 50% dextrose in water and 10 units of regular insulin intravenously),sodium bicarbonate(50 mmoL intravenously; most effective if concomitantmetabolic acidosisis present), andalbuterol(15-20mg nebulized or 0.5mg by intravenous infusion)"
+          },
+          {
+            "Condition": "Hypokalemia",
+            "Common clinical settings": "Alcohol abuse,diabetes, use ofdiuretics,drugs and toxins, profound gastrointestinal losses,hypomagnesemia",
+            "Corrective actions": "If profound hypokalemia (<2-2.5 mmoL of potassium per liter) is accompanied by cardiac arrest, initiate urgent intravenous replacement (2 mmoL/min intravenously for 10-15 mmoL), then reassess"
+          },
+          {
+            "Condition": "Pulmonary embolism",
+            "Common clinical settings": "Hospitalized patient, recent surgical procedure, peripartum, known risk factors forvenous thromboembolism, history of venous thromboembolism, or prearrest presentation consistent with diagnosis of acutepulmonary embolism",
+            "Corrective actions": "Administerfluids; augment withvasopressorsas necessaryConfirm diagnosis, if possible; consider immediate cardiopulmonary bypass to maintain patient's viabilityConsider definitive care (eg, thrombolytic therapy, embolectomy by interventional radiology or surgery)"
+          },
+          {
+            "Condition": "Tension pneumothorax",
+            "Common clinical settings": "Placement ofcentral catheter,mechanical ventilation, pulmonary disease (includingasthma,chronic obstructive pulmonary disease, and necrotizingpneumonia),thoracentesis, andtrauma",
+            "Corrective actions": "Needle decompression, followed bychest-tube insertion"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "AHA ACLS Recommendation Changes by Year\nACLS (Treatable Conditions)\nBLS (Main)\nCritical care quick reference\nPost cardiac arrest\nPALS (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AHA ACLS Recommendation Changes by Year",
+          "url": "https://wikem.org/wiki/AHA_ACLS_Recommendation_Changes_by_Year"
+        },
+        {
+          "text": "ACLS (Treatable Conditions)",
+          "url": "https://wikem.org/wiki/ACLS_(Treatable_Conditions)"
+        },
+        {
+          "text": "BLS (Main)",
+          "url": "https://wikem.org/wiki/BLS_(Main)"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Post cardiac arrest",
+          "url": "https://wikem.org/wiki/Post_cardiac_arrest"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "2020 AHA Guidelines\nNumose EMed: The Pulseless Patient\nNumose EMed: ACLS Bradycardia\nNumose EMed: ACLS Narrow Complex Tachycardia\nNumose EMed: ACLS Wide Complex Tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

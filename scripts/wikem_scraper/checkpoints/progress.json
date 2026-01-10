@@ -1,7 +1,23 @@
 {
-  "processed_drugs": [],
-  "failed_drugs": [],
-  "last_updated": null,
-  "total_scraped": 0,
-  "total_failed": 0
+  "processed_drugs": [
+    "Metronidazole",
+    "Warfarin",
+    "Ibuprofen",
+    "Amoxicillin",
+    "2kg_(preemie)",
+    "Morphine",
+    "ACLS_(Main)",
+    "Acetaminophen",
+    "Vancomycin"
+  ],
+  "failed_drugs": [
+    {
+      "name": "Dormicum",
+      "reason": "Scraping returned None",
+      "timestamp": "2026-01-10T07:31:50.117834"
+    }
+  ],
+  "last_updated": "2026-01-10T07:31:51.828679",
+  "total_scraped": 9,
+  "total_failed": 1
 }

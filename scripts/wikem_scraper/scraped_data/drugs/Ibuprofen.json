@@ -1,0 +1,247 @@
+{
+  "drug_name": "Ibuprofen",
+  "url": "https://wikem.org/wiki/Ibuprofen",
+  "scraped_at": "2026-01-10T07:31:47.321801",
+  "sections": {
+    "General": {
+      "text": "Type:\nNSAID\nDosage Forms: Tablets: 100, 200, 400, 600, 800 mg. Suspension: 20mg/ml, 40 mg/ml\nCommon Trade Names: Advil; Motrin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "800mg PO Q8hours\n400mg has been shown to be as effective at pain reduction as 600mg and 800mg\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "10mg/kg PO Q6hours\nMax: 40mg/kg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C (1st-2nd trimester), D (3rd trimester)\nLactation risk categories\n: L4; enters breast milk, decreases milk supply\nRenal Dosing\nAdult: no adjustment\nPediatric: no adjustment\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk categories",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCardiovascular\nMay cause an increased risk of serious cardiovascular thrombotic events, myocardial infarction, and stroke, which can be fatal\nContraindicated for treatment of perioperative pain in the setting of coronary artery bypass graft (CABG) surgery\nGastrointestinal risk\nIncreased risk of serious gastrointestinal (GI) adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal\nElderly patients are at greater risk for serious GI events.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nGI bleeding\nPeptic ulcer disease\n, gastric perforation,\nbowel perforation\nThromboycytopenia\nAgranulocytosis\nSteven-Johnson Syndrome\nNephrotoxicity",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dyspepsia\nNausea\nAbdominal pain\nConstipation\nHeadache\nDizziness\nRash\nFluid retention\nEcchymosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Steven-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Steven-Johnson_Syndrome"
+        },
+        {
+          "text": "Nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nGI bleeding\nPeptic ulcer disease\n, gastric perforation,\nbowel perforation\nThromboycytopenia\nAgranulocytosis\nSteven-Johnson Syndrome\nNephrotoxicity",
+      "subsections": {
+        "Common": {
+          "text": "Dyspepsia\nNausea\nAbdominal pain\nConstipation\nHeadache\nDizziness\nRash\nFluid retention\nEcchymosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Steven-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Steven-Johnson_Syndrome"
+        },
+        {
+          "text": "Nephrotoxicity",
+          "url": "https://wikem.org/wiki/Nephrotoxicity"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Dyspepsia\nNausea\nAbdominal pain\nConstipation\nHeadache\nDizziness\nRash\nFluid retention\nEcchymosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1.8 - 2 hr\nMetabolism: liver\nExcretion:  Urine\nMechanism of Action: exact mechanism unknown; inhibits cyclooxygenase, reducing prostaglandin and thromboxane synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "NSAID\nNSAID toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        },
+        {
+          "text": "NSAID toxicity",
+          "url": "https://wikem.org/wiki/NSAID_toxicity"
+        }
+      ]
+    }
+  }
+}
