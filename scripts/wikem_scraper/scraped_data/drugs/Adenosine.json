@@ -1,0 +1,208 @@
+{
+  "drug_name": "Adenosine",
+  "url": "https://wikem.org/wiki/Adenosine",
+  "scraped_at": "2026-01-10T07:47:11.029527",
+  "sections": {
+    "Intro": {
+      "text": "See\ncritical care quick reference\nfor drug doses by weight.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "General": {
+      "text": "Type:\nAntiarrhythmics\nDosage Forms: IV\nCommon Trade Names: Adenocard, Adenoscan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Conversion of reentrant PSVT to NSR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Stable,_narrow_complex_tachycardia": {
+          "text": "6mg rapid IV push over 1-2s\nIf ineffective can try 12mg 2min later\nIf still ineffective can try another 12mg\nCaveat\nFor patients taking methylxanthines (ie\ncaffeine\n,\ntheophylline\n):\nBlocks adenosine binding at receptor sites (competitive antagonist) and can lead to bronchospasm; requires larger dose of adenosine\nConsider using lower dose (1st 3mg, 2nd/3rd 6mg) in patient taking\ncarbamazepine\n(Tegretol),\ndiazepam\n(Valium) or\ndipyridamole\n(Persantine)\nOR\nwith a heart transplant.\nTraditionally given via stopcock with immediate flush secondary to very short half life. Newer study showing that you may be able to mix with normal saline and give as single push, however further evidence is still needed\n[1]\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "dipyridamole",
+          "url": "https://wikem.org/wiki/Dipyridamole"
+        }
+      ]
+    },
+    "Stable,_narrow_complex_tachycardia": {
+      "text": "6mg rapid IV push over 1-2s\nIf ineffective can try 12mg 2min later\nIf still ineffective can try another 12mg\nCaveat\nFor patients taking methylxanthines (ie\ncaffeine\n,\ntheophylline\n):\nBlocks adenosine binding at receptor sites (competitive antagonist) and can lead to bronchospasm; requires larger dose of adenosine\nConsider using lower dose (1st 3mg, 2nd/3rd 6mg) in patient taking\ncarbamazepine\n(Tegretol),\ndiazepam\n(Valium) or\ndipyridamole\n(Persantine)\nOR\nwith a heart transplant.\nTraditionally given via stopcock with immediate flush secondary to very short half life. Newer study showing that you may be able to mix with normal saline and give as single push, however further evidence is still needed\n[1]\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "dipyridamole",
+          "url": "https://wikem.org/wiki/Dipyridamole"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "PALS guidelines for infants, children, and adolescents\n[2]\nSee\ncritical care quick reference\nfor drug doses by weight.\n0.1mg/kg rapid IV/IO push (max 6mg/dose)\nIf not effective, increase to 0.2 mg/kg (max 12mg/dose)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "May use during pregnancy; risk of fetal harm not expected based on limited human data",
+          "tables": []
+        },
+        "Lactation": {
+          "text": "Cardiac Stress Testing: may use while breastfeeding; no human data available, though risk of infant harm and adverse effects on milk production not expected based on drug properties.\nAll other uses: N/A; drug unlikely to be used during breastfeeding based on indication",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult\nNot defined - not renally eliminated\nPediatric\nNot defined - not renally eliminated",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult\nNot defined - not hepatically eliminated\nPediatric\nNot defined - not hepatically eliminated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "May use during pregnancy; risk of fetal harm not expected based on limited human data",
+      "subsections": {
+        "Lactation": {
+          "text": "Cardiac Stress Testing: may use while breastfeeding; no human data available, though risk of infant harm and adverse effects on milk production not expected based on drug properties.\nAll other uses: N/A; drug unlikely to be used during breastfeeding based on indication",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult\nNot defined - not renally eliminated\nPediatric\nNot defined - not renally eliminated",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult\nNot defined - not hepatically eliminated\nPediatric\nNot defined - not hepatically eliminated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation": {
+      "text": "Cardiac Stress Testing: may use while breastfeeding; no human data available, though risk of infant harm and adverse effects on milk production not expected based on drug properties.\nAll other uses: N/A; drug unlikely to be used during breastfeeding based on indication",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult\nNot defined - not renally eliminated\nPediatric\nNot defined - not renally eliminated",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult\nNot defined - not hepatically eliminated\nPediatric\nNot defined - not hepatically eliminated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult\nNot defined - not renally eliminated\nPediatric\nNot defined - not renally eliminated",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult\nNot defined - not hepatically eliminated\nPediatric\nNot defined - not hepatically eliminated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult\nNot defined - not hepatically eliminated\nPediatric\nNot defined - not hepatically eliminated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\n2nd, 3rd AV block\nSick sinus syndrome\nReentrant SVTs not involving AV node are not terminated\nNo effect on anterograde WPW",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Bronchoconstriction (responds to bronchodilators)\nBradyarrhythmia\nHypotension\n(if given too slowly)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Kinetics: Onset of action = 20-30s Duration of action = 60-90s\nHalf-life: <10 seconds\nMetabolism: vascular endothelial cells\nExcretion:",
+      "subsections": {
+        "Mechanism_of_Action": {
+          "text": "Negative inotropic, dromotropic, chronotropic effects\nTransient AV nodal block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Negative inotropic, dromotropic, chronotropic effects\nTransient AV nodal block",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

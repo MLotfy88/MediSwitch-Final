@@ -1,0 +1,649 @@
+{
+  "drug_name": "Acute_necrotizing_ulcerative_gingivitis",
+  "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis",
+  "scraped_at": "2026-01-10T07:47:03.871004",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"trench mouth\"\nOften abbreviated as\nANUG\nSevere gingival disease that may spread to local soft tissue and bone\nMust distinguish from\nHerpes gingivostomatitis\nHerpes has more systemic signs, less bleeding, lack of interdental papilla involvement\nBacteria involved: anaerobic fusobacterium and\nBorellia spirochete\n[1]\n, Treponema, Selenomonas, Prevotella\nVincent's angina\nis sometimes confused with\nANUG\n, but the former is tonsillitis and pharyngitis, and the latter involves the gums. There is not currently a consensus on whether ANUG and\nVincent's angina\nare separate entities or simply different presentations of the same entity",
+      "subsections": {
+        "Associated_Conditions": {
+          "text": "Immunosuppression, especially\nHIV\nPoor oral hygiene/nutrition/sleep\nStress\nETOH\n/tobacco use\nAge<21\nCaucasians\nmalaria\n/\nmeasles\n/\nparasites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "ANUG",
+          "url": "https://wikem.org/wiki/ANUG"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "parasites",
+          "url": "https://wikem.org/wiki/Parasites"
+        }
+      ]
+    },
+    "Associated_Conditions": {
+      "text": "Immunosuppression, especially\nHIV\nPoor oral hygiene/nutrition/sleep\nStress\nETOH\n/tobacco use\nAge<21\nCaucasians\nmalaria\n/\nmeasles\n/\nparasites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "parasites",
+          "url": "https://wikem.org/wiki/Parasites"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Early": {
+          "text": "Fever\nHalitosis\nDental/mouth pain\nGingival bleeding\nTeeth mobility\nMalaise",
+          "tables": []
+        },
+        "Secondary_signs": {
+          "text": "Fetid breath with metallic taste\n\"Wooden teeth\" feeling\nRegional\nlymphadenopathy\nUlcerated, with grayish pseudomembrane or \"punched out\" interdental papillae\nBlunting of the typically pointed edges of the papillae",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Dental/mouth pain",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        }
+      ]
+    },
+    "Early": {
+      "text": "Fever\nHalitosis\nDental/mouth pain\nGingival bleeding\nTeeth mobility\nMalaise",
+      "subsections": {
+        "Secondary_signs": {
+          "text": "Fetid breath with metallic taste\n\"Wooden teeth\" feeling\nRegional\nlymphadenopathy\nUlcerated, with grayish pseudomembrane or \"punched out\" interdental papillae\nBlunting of the typically pointed edges of the papillae",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Dental/mouth pain",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        }
+      ]
+    },
+    "Secondary_signs": {
+      "text": "Fetid breath with metallic taste\n\"Wooden teeth\" feeling\nRegional\nlymphadenopathy\nUlcerated, with grayish pseudomembrane or \"punched out\" interdental papillae\nBlunting of the typically pointed edges of the papillae",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dentoalveolar_Injuries": {
+          "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+          "tables": []
+        },
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental subluxation",
+          "url": "https://wikem.org/wiki/Dental_subluxation"
+        },
+        {
+          "text": "Dental avulsion",
+          "url": "https://wikem.org/wiki/Dental_avulsion"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Dentoalveolar_Injuries": {
+      "text": "Dental fracture\nDental subluxation\nDental avulsion\nBleeding dental socket",
+      "subsections": {
+        "Odontogenic_Infections": {
+          "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental fracture",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "Dental subluxation",
+          "url": "https://wikem.org/wiki/Dental_subluxation"
+        },
+        {
+          "text": "Dental avulsion",
+          "url": "https://wikem.org/wiki/Dental_avulsion"
+        },
+        {
+          "text": "Bleeding dental socket",
+          "url": "https://wikem.org/wiki/Bleeding_dental_socket"
+        },
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Odontogenic_Infections": {
+      "text": "Acute alveolar osteitis\n(dry socket)\nAcute necrotizing ulcerative gingivitis\n(trench mouth)\nDental abscess\nPeriapical abscess\nPeriodontal abscess\nLudwig's angina\nPulpitis\n(dental caries)\nPericoronitis\nPeritonsillar abscess\n(PTA)\nRetropharyngeal abscess\nVincent's angina\n- tonsillitis and\npharyngitis",
+      "subsections": {
+        "Other": {
+          "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute alveolar osteitis",
+          "url": "https://wikem.org/wiki/Acute_alveolar_osteitis"
+        },
+        {
+          "text": "Dental abscess",
+          "url": "https://wikem.org/wiki/Dental_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Pulpitis",
+          "url": "https://wikem.org/wiki/Pulpitis"
+        },
+        {
+          "text": "Pericoronitis",
+          "url": "https://wikem.org/wiki/Pericoronitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Scurvy\nGingival hyperplasia\nPhenytoin\nCyclosporine\nNifedipine\n,\nAmlodipine\nLeukemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Usually clinical",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Organisms involved are polymycrobial but often include Fusobacterium necrophorum, Treponema spp, Selenomonas, and Prevotella",
+      "subsections": {
+        "Uncomplicated_Disease": {
+          "text": "Amoxicillin/Clavulanate\n875 mg PO two times daily AND\nMetronidazole\n500mg PO three times daily x 7 days\n[3]\nOR\nClindamycin\n300mg PO three times daily\nOR\nDoxycycline\n100 mg PO BID x 10 days\n[4]\nIf allergic to penicillin, the use\nCiprofloxacin\n500mg twice daily AND metronidazole 500mg PO three times daily",
+          "tables": []
+        },
+        "Additional_Therapies_for_the_immunocompromised": {
+          "text": "For patient with AIDS or immunocompromised with risk of oral candidal infection then add:\nNystatin\noral rinse four times daily x 14 days OR\nFluconazole\n200mg PO daily x 14 days",
+          "tables": []
+        },
+        "Additional_Therapies_for_all_patients": {
+          "text": "Chlorhexidine 0.01% oral rinse BID\nHydrogen peroxide swishing (innexpensive home remedy)\nIbuprofen\n400-600mg 3 times daily for pain\nMagic Mouthwash (multiple variations) - 300cc of 1:1:1 viscous lidocaine 2%, Maalox,\ndiphenhydramine\n12.5mg/5ml elixir\nFor pain management, can consider inferior alveolar block or viscous lidocaine diluted and spread across the gums.",
+          "tables": []
+        },
+        "Consultation": {
+          "text": "ENT or OMFS consult for dental debridement may be required in severe infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Uncomplicated_Disease": {
+      "text": "Amoxicillin/Clavulanate\n875 mg PO two times daily AND\nMetronidazole\n500mg PO three times daily x 7 days\n[3]\nOR\nClindamycin\n300mg PO three times daily\nOR\nDoxycycline\n100 mg PO BID x 10 days\n[4]\nIf allergic to penicillin, the use\nCiprofloxacin\n500mg twice daily AND metronidazole 500mg PO three times daily",
+      "subsections": {
+        "Additional_Therapies_for_the_immunocompromised": {
+          "text": "For patient with AIDS or immunocompromised with risk of oral candidal infection then add:\nNystatin\noral rinse four times daily x 14 days OR\nFluconazole\n200mg PO daily x 14 days",
+          "tables": []
+        },
+        "Additional_Therapies_for_all_patients": {
+          "text": "Chlorhexidine 0.01% oral rinse BID\nHydrogen peroxide swishing (innexpensive home remedy)\nIbuprofen\n400-600mg 3 times daily for pain\nMagic Mouthwash (multiple variations) - 300cc of 1:1:1 viscous lidocaine 2%, Maalox,\ndiphenhydramine\n12.5mg/5ml elixir\nFor pain management, can consider inferior alveolar block or viscous lidocaine diluted and spread across the gums.",
+          "tables": []
+        },
+        "Consultation": {
+          "text": "ENT or OMFS consult for dental debridement may be required in severe infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Additional_Therapies_for_the_immunocompromised": {
+      "text": "For patient with AIDS or immunocompromised with risk of oral candidal infection then add:\nNystatin\noral rinse four times daily x 14 days OR\nFluconazole\n200mg PO daily x 14 days",
+      "subsections": {
+        "Additional_Therapies_for_all_patients": {
+          "text": "Chlorhexidine 0.01% oral rinse BID\nHydrogen peroxide swishing (innexpensive home remedy)\nIbuprofen\n400-600mg 3 times daily for pain\nMagic Mouthwash (multiple variations) - 300cc of 1:1:1 viscous lidocaine 2%, Maalox,\ndiphenhydramine\n12.5mg/5ml elixir\nFor pain management, can consider inferior alveolar block or viscous lidocaine diluted and spread across the gums.",
+          "tables": []
+        },
+        "Consultation": {
+          "text": "ENT or OMFS consult for dental debridement may be required in severe infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Additional_Therapies_for_all_patients": {
+      "text": "Chlorhexidine 0.01% oral rinse BID\nHydrogen peroxide swishing (innexpensive home remedy)\nIbuprofen\n400-600mg 3 times daily for pain\nMagic Mouthwash (multiple variations) - 300cc of 1:1:1 viscous lidocaine 2%, Maalox,\ndiphenhydramine\n12.5mg/5ml elixir\nFor pain management, can consider inferior alveolar block or viscous lidocaine diluted and spread across the gums.",
+      "subsections": {
+        "Consultation": {
+          "text": "ENT or OMFS consult for dental debridement may be required in severe infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Consultation": {
+      "text": "ENT or OMFS consult for dental debridement may be required in severe infections",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dental problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        }
+      ]
+    }
+  }
+}

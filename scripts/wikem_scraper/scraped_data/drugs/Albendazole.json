@@ -1,0 +1,85 @@
+{
+  "drug_name": "Albendazole",
+  "url": "https://wikem.org/wiki/Albendazole",
+  "scraped_at": "2026-01-10T07:47:16.555423",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntiparasitic\n/Antihelmintic\nDosage Forms: 200mg\nCommon Trade Names:Albenza",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiparasitic",
+          "url": "https://wikem.org/wiki/Antiparasitic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Microsporidiosis: 400mg po bid\nneurocysticerosis: < 60 kg: 15mg/kg/day PO BID x 8-30 days, max 800mg/day. >60 kg: 400mg PO BID x 8-30 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "neurocysticerosis: < 60 kg: 15mg/kg/day PO BID x 8-30 days, max 800mg/day. >60 kg: 400mg PO BID x 8-30 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n:C\nLactation: unknown\nRenal Dosing\nAdult: not defined\nPediatric: not defined\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "leukopenia\nneutropenia\npancytopenia\nacute renal failure\nhepatitis\nSJS",
+          "tables": []
+        },
+        "Common": {
+          "text": "abnormal LFT's\nabdominal pain\nnausea/vomiting\nheadache\ndizziness\nalopecia\nfever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "leukopenia\nneutropenia\npancytopenia\nacute renal failure\nhepatitis\nSJS",
+      "subsections": {
+        "Common": {
+          "text": "abnormal LFT's\nabdominal pain\nnausea/vomiting\nheadache\ndizziness\nalopecia\nfever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "abnormal LFT's\nabdominal pain\nnausea/vomiting\nheadache\ndizziness\nalopecia\nfever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8-12 hour\nMetabolism: liver\nExcretion: bile\nMechanism of Action: inhibits tublin polymerization",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

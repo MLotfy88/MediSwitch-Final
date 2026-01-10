@@ -1,0 +1,1206 @@
+{
+  "drug_name": "Acute_respiratory_distress_syndrome",
+  "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome",
+  "scraped_at": "2026-01-10T07:47:09.341446",
+  "sections": {
+    "Background": {
+      "text": "Non-cardiogenic\npulmonary edema\ndue to lung capillary endothelial injury (diffuse alveolar damage)\nProteinaceous material accumulate in alveoli in a heterogeneous manner (hyalinosis)\nSymptom of an underlying disease",
+      "subsections": {
+        "Causes": {
+          "text": "Pneumonia\nSepsis\nPancreatitis\nBurns\nAspiration pneumonia and pneumonitis\nTrauma\nNear drowning\nFat embolism syndrome\nAmniotic fluid embolism\nOverdose\nMassive transfusion\nTransfusion-related acute lung injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(main)"
+        },
+        {
+          "text": "Near drowning",
+          "url": "https://wikem.org/wiki/Submersion_Injuries_(Drowning)"
+        },
+        {
+          "text": "Fat embolism syndrome",
+          "url": "https://wikem.org/wiki/Fat_embolism_syndrome"
+        },
+        {
+          "text": "Amniotic fluid embolism",
+          "url": "https://wikem.org/wiki/Amniotic_Fluid_Embolus"
+        },
+        {
+          "text": "Overdose",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Pneumonia\nSepsis\nPancreatitis\nBurns\nAspiration pneumonia and pneumonitis\nTrauma\nNear drowning\nFat embolism syndrome\nAmniotic fluid embolism\nOverdose\nMassive transfusion\nTransfusion-related acute lung injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(main)"
+        },
+        {
+          "text": "Near drowning",
+          "url": "https://wikem.org/wiki/Submersion_Injuries_(Drowning)"
+        },
+        {
+          "text": "Fat embolism syndrome",
+          "url": "https://wikem.org/wiki/Fat_embolism_syndrome"
+        },
+        {
+          "text": "Amniotic fluid embolism",
+          "url": "https://wikem.org/wiki/Amniotic_Fluid_Embolus"
+        },
+        {
+          "text": "Overdose",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Severe\ndyspnea\nHypoxemia\nDiffuse crackles",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Pneumonia\nPE\nDiffuse alveolar hemorrhage\nDIC\nCHF",
+      "subsections": {
+        "Pulmonary_Edema_Types": {
+          "text": "Pulmonary capillary wedge pressure <18 mmHg differentiates noncardiogenic from cardiogenic pulmonary edema\n[1]\nCardiogenic pulmonary edema\nNoncardiogenic pulmonary edema\nNegative pressure pulmonary edema\nUpper airway obstruction\nReexpansion pulmonary edema\nStrangulation\nNeurogenic causes\nSeizure\nHead trauma\nSubarachnoid hemorrhage\nElectrocution\nIatrogenic fluid overload\nMultiple blood\ntransfusions\nIV fluid\nInhalation injury\nPulmonary contusion\nAspiration pneumonia and pneumonitis\nOther\nHigh altitude pulmonary edema\nHypertensive emergency\nARDS\nFlash pulmonary edema\nImmersion pulmonary edema\nHantavirus\npulmonary syndrome\nMissed dialysis in kidney failure\nNaloxone\nreversal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Cardiogenic_pulmonary_edema"
+        },
+        {
+          "text": "Negative pressure pulmonary edema",
+          "url": "https://wikem.org/wiki/Negative_pressure_pulmonary_edema"
+        },
+        {
+          "text": "Reexpansion pulmonary edema",
+          "url": "https://wikem.org/wiki/Reexpansion_pulmonary_edema"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma_(Main)"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Flash pulmonary edema",
+          "url": "https://wikem.org/wiki/Flash_pulmonary_edema"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Pulmonary_Edema_Types": {
+      "text": "Pulmonary capillary wedge pressure <18 mmHg differentiates noncardiogenic from cardiogenic pulmonary edema\n[1]\nCardiogenic pulmonary edema\nNoncardiogenic pulmonary edema\nNegative pressure pulmonary edema\nUpper airway obstruction\nReexpansion pulmonary edema\nStrangulation\nNeurogenic causes\nSeizure\nHead trauma\nSubarachnoid hemorrhage\nElectrocution\nIatrogenic fluid overload\nMultiple blood\ntransfusions\nIV fluid\nInhalation injury\nPulmonary contusion\nAspiration pneumonia and pneumonitis\nOther\nHigh altitude pulmonary edema\nHypertensive emergency\nARDS\nFlash pulmonary edema\nImmersion pulmonary edema\nHantavirus\npulmonary syndrome\nMissed dialysis in kidney failure\nNaloxone\nreversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Cardiogenic_pulmonary_edema"
+        },
+        {
+          "text": "Negative pressure pulmonary edema",
+          "url": "https://wikem.org/wiki/Negative_pressure_pulmonary_edema"
+        },
+        {
+          "text": "Reexpansion pulmonary edema",
+          "url": "https://wikem.org/wiki/Reexpansion_pulmonary_edema"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma_(Main)"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Flash pulmonary edema",
+          "url": "https://wikem.org/wiki/Flash_pulmonary_edema"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CXR\nCBC\nChem 10\nUrinalysis\nLFTs\nLipase\nPT/PTT\nInfluenza\ntesting (seasonal)\nBlood cultures\nLactate\nConsider bedside\necho\nConsider\nABG\n/\nVBG\nConsider\nBNP",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Risk factors and origin of edema\nPrecipitated by an acute predisposing risk factor, such as pneumonia, nonpulmonary infection, trauma, transfusion, aspiration, or shock. Pulmonary edema is not exclusively or primarily attributable to cardiogenic pulmonary edema/fluid overload, and hypoxemia/gas exchange abnormalities are not primarily attributable to atelectasis.\nTiming\nAcute onset or worsening of hypoxemic respiratory failure within 1 week of the estimated onset of the predisposing risk factor or new or worsening respiratory symptoms.\nChest Imaging\nBilateral opacities on chest radiography and computed tomography or bilateral B lines and/or consolidations on ultrasound",
+          "tables": []
+        },
+        "Diagnostic_Criteria": {
+          "text": "Nonintubated ARDS\nPaO2:FiO2 ≤ 300 mm Hg or SpO2:FiO2 ≤ 315 (if SpO2 ≤ 97%) on HFNO with flow of ≥ 30 L/min or NIV/CPAP with at least 5 cm H2O end-expiratory pressure\nIntubated ARDS\nMild: 200 < PaO2:FiO2 ≤ 300 mm Hg or 235 < SpO2:FiO2 ≤ 315 (if SpO2 ≤ 97%)\nModerate: 100 < PaO2:FiO2 ≤ 200 mm Hg or 148 < SpO2:FiO2 ≤ 235 (if SpO2 ≤ 97%)\nSevere: PaO2:FiO2 ≤ 100 mm Hg or SpO2:FiO2 ≤ 148 (if SpO2 ≤ 97%)\nModified Definition for Resource Limited Settings\nSpO2:FiO2 ≤ 315 (if SpO2 ≤ 97%). Neither positive end-expiratory pressure nor a minimum flow rate of oxygen is required for diagnosis in resource-limited settings.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CXR\nCBC\nChem 10\nUrinalysis\nLFTs\nLipase\nPT/PTT\nInfluenza\ntesting (seasonal)\nBlood cultures\nLactate\nConsider bedside\necho\nConsider\nABG\n/\nVBG\nConsider\nBNP",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Risk factors and origin of edema\nPrecipitated by an acute predisposing risk factor, such as pneumonia, nonpulmonary infection, trauma, transfusion, aspiration, or shock. Pulmonary edema is not exclusively or primarily attributable to cardiogenic pulmonary edema/fluid overload, and hypoxemia/gas exchange abnormalities are not primarily attributable to atelectasis.\nTiming\nAcute onset or worsening of hypoxemic respiratory failure within 1 week of the estimated onset of the predisposing risk factor or new or worsening respiratory symptoms.\nChest Imaging\nBilateral opacities on chest radiography and computed tomography or bilateral B lines and/or consolidations on ultrasound",
+          "tables": []
+        },
+        "Diagnostic_Criteria": {
+          "text": "Nonintubated ARDS\nPaO2:FiO2 ≤ 300 mm Hg or SpO2:FiO2 ≤ 315 (if SpO2 ≤ 97%) on HFNO with flow of ≥ 30 L/min or NIV/CPAP with at least 5 cm H2O end-expiratory pressure\nIntubated ARDS\nMild: 200 < PaO2:FiO2 ≤ 300 mm Hg or 235 < SpO2:FiO2 ≤ 315 (if SpO2 ≤ 97%)\nModerate: 100 < PaO2:FiO2 ≤ 200 mm Hg or 148 < SpO2:FiO2 ≤ 235 (if SpO2 ≤ 97%)\nSevere: PaO2:FiO2 ≤ 100 mm Hg or SpO2:FiO2 ≤ 148 (if SpO2 ≤ 97%)\nModified Definition for Resource Limited Settings\nSpO2:FiO2 ≤ 315 (if SpO2 ≤ 97%). Neither positive end-expiratory pressure nor a minimum flow rate of oxygen is required for diagnosis in resource-limited settings.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Risk factors and origin of edema\nPrecipitated by an acute predisposing risk factor, such as pneumonia, nonpulmonary infection, trauma, transfusion, aspiration, or shock. Pulmonary edema is not exclusively or primarily attributable to cardiogenic pulmonary edema/fluid overload, and hypoxemia/gas exchange abnormalities are not primarily attributable to atelectasis.\nTiming\nAcute onset or worsening of hypoxemic respiratory failure within 1 week of the estimated onset of the predisposing risk factor or new or worsening respiratory symptoms.\nChest Imaging\nBilateral opacities on chest radiography and computed tomography or bilateral B lines and/or consolidations on ultrasound",
+      "subsections": {
+        "Diagnostic_Criteria": {
+          "text": "Nonintubated ARDS\nPaO2:FiO2 ≤ 300 mm Hg or SpO2:FiO2 ≤ 315 (if SpO2 ≤ 97%) on HFNO with flow of ≥ 30 L/min or NIV/CPAP with at least 5 cm H2O end-expiratory pressure\nIntubated ARDS\nMild: 200 < PaO2:FiO2 ≤ 300 mm Hg or 235 < SpO2:FiO2 ≤ 315 (if SpO2 ≤ 97%)\nModerate: 100 < PaO2:FiO2 ≤ 200 mm Hg or 148 < SpO2:FiO2 ≤ 235 (if SpO2 ≤ 97%)\nSevere: PaO2:FiO2 ≤ 100 mm Hg or SpO2:FiO2 ≤ 148 (if SpO2 ≤ 97%)\nModified Definition for Resource Limited Settings\nSpO2:FiO2 ≤ 315 (if SpO2 ≤ 97%). Neither positive end-expiratory pressure nor a minimum flow rate of oxygen is required for diagnosis in resource-limited settings.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Care": {
+          "text": "Treat underlying cause\nCover for\nsepsis\nPneumonia\nin addition to other identified source\nTamiflu\n75mg BID oral or NGT if influenza season\n[3]",
+          "tables": []
+        },
+        "Pulse_Dose_Steroids": {
+          "text": "Consider in early, established, severe ARDS in ICU setting\n[4]\nNOT\nfor prevention of ARDS (will increase risk for ARDS and worsening sepsis if not in ARDS already)\nIn theory, may reduce fibro-proliferative inflammatory changes during exudative phase (< 1 wk)\nNo benefit to starting in late ARDS (> 2 wks)\nMeduri protocol (21 vs. 43% mortality)\n[5]\n1mg/kg loading dose\nmethylprednisolone\nFollowed by infusion of 1mg/kg/day from day 1-14\nThen 0.5mg/kg/day from day 15-21\nThen 0.25mg/kg/day from day 22-25\nFinally 0.125mg/kg/day from day 26-28",
+          "tables": []
+        },
+        "Lung_Protective_Mechanical_Ventilation": {
+          "text": "Lung Protective Ventilator Settings\n[6]\nshould be the default for all intubated patients, unless contraindicated. It has demonstrated mortality benefit for\nARDS\n-like pulmonary conditions; limits barotrauma and decreases complications of high FiO2\n[7]\n[8]\nMode\nVolume-assist control\nTidal Volume\nStart 6-8cc/kg\npredicted body weight\n[9]\nPredicted/\"ideal\" body weight is used because a person's lung parenchyma does not increase in size as the person gains more weight.\nTitrate down if plateau pressure >30 mmHg\nInspiratory Flow Rate (comfort)\nMore comfortable if higher rather than lower\nStart at 60-80 LPM\nRespiratory Rate (titrate for ventilation)\nAverage patient on ventilator requires 120mL/kg/min for eucapnia\nStart 16-18 breaths/min\nMaintain pH = 7.30-7.45\nFiO2/PEEP (titrate for oxygenation)\nMove in tandem to achieve:\nSpO2 BETWEEN 88-95%\nPaO2 BETWEEN 55-80mmHg",
+          "tables": []
+        },
+        "Lung_Protective_FiO2_and_PEEP_Scale[10][11]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "FiO2": "PEEP",
+                "0.3": "5",
+                "0.4": "8",
+                "0.5": "10",
+                "0.6": "10",
+                "0.7": "14",
+                "0.8": "14",
+                "0.9": "18",
+                "1.0": "24"
+              }
+            ]
+          ]
+        },
+        "Additional_Ventilation_Considerations": {
+          "text": "Permissive hypercapnia\nMaintain plateau pressures < 30\n[13]\nDriving pressure (plateau pressure minus PEEP) <14 is most strongly associated with decreased mortality\n[14]\nEnsure adequate\nsedation\nBetter synchrony with vent\nDecreased oxygen consumption\nLess\ndelirium\nIncreased patient comfort\nProne ventilation\n[15]\nIncreases survival for severe ARDS\nConsider for refractory hypoxemia\nMany consider this a type of\nrecruitment maneuver\nConsider\nAirway pressure release ventilation\n(APRV)\nPressure control ventilation\n(\nPCV\n) if acidosis with APRV\nAttempt to maintain same rate\nMaintain same Pmean\nPRVC\nor\nVolume control ventilation\nwith paralysis to prevent barotrauma in breath stacking and vent dyssynchrony\n[16]\n[17]\nCisatricurium\nloading dose 0.15 mg/kg, followed by 1-3 mcg/kg/min\nTitrated to less than 2 twitches in train of four\nCisatricurium preferred to pancuronium in renal impairment\nCannot use paralysis with APRV\nRecruitment maneuver\nVarying methods and protocols\nControversial in risks and benefits",
+          "tables": []
+        },
+        "Adjuncts": {
+          "text": "Evidence of\npulmonary hypertension\nInhaled nitric oxide\n(\niNO\n)\nEpoprostenol (prostacyclin)\nECMO\nOscillation ventilation\n,\nHigh frequency oscillation ventilation\n(\nHFOV\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Tamiflu",
+          "url": "https://wikem.org/wiki/Tamiflu"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Lung Protective Ventilator Settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings#Lung_Protective_Strategy"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "predicted body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "recruitment maneuver",
+          "url": "https://wikem.org/wiki/Recruitment_maneuver"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Cisatricurium",
+          "url": "https://wikem.org/wiki/Cisatricurium"
+        },
+        {
+          "text": "Recruitment maneuver",
+          "url": "https://wikem.org/wiki/Recruitment_maneuver"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Inhaled nitric oxide",
+          "url": "https://wikem.org/wiki/Inhaled_nitric_oxide"
+        },
+        {
+          "text": "iNO",
+          "url": "https://wikem.org/wiki/INO"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "High frequency oscillation ventilation",
+          "url": "https://wikem.org/wiki/High_frequency_oscillation_ventilation"
+        },
+        {
+          "text": "HFOV",
+          "url": "https://wikem.org/wiki/HFOV"
+        }
+      ]
+    },
+    "General_Care": {
+      "text": "Treat underlying cause\nCover for\nsepsis\nPneumonia\nin addition to other identified source\nTamiflu\n75mg BID oral or NGT if influenza season\n[3]",
+      "subsections": {
+        "Pulse_Dose_Steroids": {
+          "text": "Consider in early, established, severe ARDS in ICU setting\n[4]\nNOT\nfor prevention of ARDS (will increase risk for ARDS and worsening sepsis if not in ARDS already)\nIn theory, may reduce fibro-proliferative inflammatory changes during exudative phase (< 1 wk)\nNo benefit to starting in late ARDS (> 2 wks)\nMeduri protocol (21 vs. 43% mortality)\n[5]\n1mg/kg loading dose\nmethylprednisolone\nFollowed by infusion of 1mg/kg/day from day 1-14\nThen 0.5mg/kg/day from day 15-21\nThen 0.25mg/kg/day from day 22-25\nFinally 0.125mg/kg/day from day 26-28",
+          "tables": []
+        },
+        "Lung_Protective_Mechanical_Ventilation": {
+          "text": "Lung Protective Ventilator Settings\n[6]\nshould be the default for all intubated patients, unless contraindicated. It has demonstrated mortality benefit for\nARDS\n-like pulmonary conditions; limits barotrauma and decreases complications of high FiO2\n[7]\n[8]\nMode\nVolume-assist control\nTidal Volume\nStart 6-8cc/kg\npredicted body weight\n[9]\nPredicted/\"ideal\" body weight is used because a person's lung parenchyma does not increase in size as the person gains more weight.\nTitrate down if plateau pressure >30 mmHg\nInspiratory Flow Rate (comfort)\nMore comfortable if higher rather than lower\nStart at 60-80 LPM\nRespiratory Rate (titrate for ventilation)\nAverage patient on ventilator requires 120mL/kg/min for eucapnia\nStart 16-18 breaths/min\nMaintain pH = 7.30-7.45\nFiO2/PEEP (titrate for oxygenation)\nMove in tandem to achieve:\nSpO2 BETWEEN 88-95%\nPaO2 BETWEEN 55-80mmHg",
+          "tables": []
+        },
+        "Lung_Protective_FiO2_and_PEEP_Scale[10][11]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "FiO2": "PEEP",
+                "0.3": "5",
+                "0.4": "8",
+                "0.5": "10",
+                "0.6": "10",
+                "0.7": "14",
+                "0.8": "14",
+                "0.9": "18",
+                "1.0": "24"
+              }
+            ]
+          ]
+        },
+        "Additional_Ventilation_Considerations": {
+          "text": "Permissive hypercapnia\nMaintain plateau pressures < 30\n[13]\nDriving pressure (plateau pressure minus PEEP) <14 is most strongly associated with decreased mortality\n[14]\nEnsure adequate\nsedation\nBetter synchrony with vent\nDecreased oxygen consumption\nLess\ndelirium\nIncreased patient comfort\nProne ventilation\n[15]\nIncreases survival for severe ARDS\nConsider for refractory hypoxemia\nMany consider this a type of\nrecruitment maneuver\nConsider\nAirway pressure release ventilation\n(APRV)\nPressure control ventilation\n(\nPCV\n) if acidosis with APRV\nAttempt to maintain same rate\nMaintain same Pmean\nPRVC\nor\nVolume control ventilation\nwith paralysis to prevent barotrauma in breath stacking and vent dyssynchrony\n[16]\n[17]\nCisatricurium\nloading dose 0.15 mg/kg, followed by 1-3 mcg/kg/min\nTitrated to less than 2 twitches in train of four\nCisatricurium preferred to pancuronium in renal impairment\nCannot use paralysis with APRV\nRecruitment maneuver\nVarying methods and protocols\nControversial in risks and benefits",
+          "tables": []
+        },
+        "Adjuncts": {
+          "text": "Evidence of\npulmonary hypertension\nInhaled nitric oxide\n(\niNO\n)\nEpoprostenol (prostacyclin)\nECMO\nOscillation ventilation\n,\nHigh frequency oscillation ventilation\n(\nHFOV\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Tamiflu",
+          "url": "https://wikem.org/wiki/Tamiflu"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Lung Protective Ventilator Settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings#Lung_Protective_Strategy"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "predicted body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "recruitment maneuver",
+          "url": "https://wikem.org/wiki/Recruitment_maneuver"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Cisatricurium",
+          "url": "https://wikem.org/wiki/Cisatricurium"
+        },
+        {
+          "text": "Recruitment maneuver",
+          "url": "https://wikem.org/wiki/Recruitment_maneuver"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Inhaled nitric oxide",
+          "url": "https://wikem.org/wiki/Inhaled_nitric_oxide"
+        },
+        {
+          "text": "iNO",
+          "url": "https://wikem.org/wiki/INO"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "High frequency oscillation ventilation",
+          "url": "https://wikem.org/wiki/High_frequency_oscillation_ventilation"
+        },
+        {
+          "text": "HFOV",
+          "url": "https://wikem.org/wiki/HFOV"
+        }
+      ]
+    },
+    "Pulse_Dose_Steroids": {
+      "text": "Consider in early, established, severe ARDS in ICU setting\n[4]\nNOT\nfor prevention of ARDS (will increase risk for ARDS and worsening sepsis if not in ARDS already)\nIn theory, may reduce fibro-proliferative inflammatory changes during exudative phase (< 1 wk)\nNo benefit to starting in late ARDS (> 2 wks)\nMeduri protocol (21 vs. 43% mortality)\n[5]\n1mg/kg loading dose\nmethylprednisolone\nFollowed by infusion of 1mg/kg/day from day 1-14\nThen 0.5mg/kg/day from day 15-21\nThen 0.25mg/kg/day from day 22-25\nFinally 0.125mg/kg/day from day 26-28",
+      "subsections": {
+        "Lung_Protective_Mechanical_Ventilation": {
+          "text": "Lung Protective Ventilator Settings\n[6]\nshould be the default for all intubated patients, unless contraindicated. It has demonstrated mortality benefit for\nARDS\n-like pulmonary conditions; limits barotrauma and decreases complications of high FiO2\n[7]\n[8]\nMode\nVolume-assist control\nTidal Volume\nStart 6-8cc/kg\npredicted body weight\n[9]\nPredicted/\"ideal\" body weight is used because a person's lung parenchyma does not increase in size as the person gains more weight.\nTitrate down if plateau pressure >30 mmHg\nInspiratory Flow Rate (comfort)\nMore comfortable if higher rather than lower\nStart at 60-80 LPM\nRespiratory Rate (titrate for ventilation)\nAverage patient on ventilator requires 120mL/kg/min for eucapnia\nStart 16-18 breaths/min\nMaintain pH = 7.30-7.45\nFiO2/PEEP (titrate for oxygenation)\nMove in tandem to achieve:\nSpO2 BETWEEN 88-95%\nPaO2 BETWEEN 55-80mmHg",
+          "tables": []
+        },
+        "Lung_Protective_FiO2_and_PEEP_Scale[10][11]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "FiO2": "PEEP",
+                "0.3": "5",
+                "0.4": "8",
+                "0.5": "10",
+                "0.6": "10",
+                "0.7": "14",
+                "0.8": "14",
+                "0.9": "18",
+                "1.0": "24"
+              }
+            ]
+          ]
+        },
+        "Additional_Ventilation_Considerations": {
+          "text": "Permissive hypercapnia\nMaintain plateau pressures < 30\n[13]\nDriving pressure (plateau pressure minus PEEP) <14 is most strongly associated with decreased mortality\n[14]\nEnsure adequate\nsedation\nBetter synchrony with vent\nDecreased oxygen consumption\nLess\ndelirium\nIncreased patient comfort\nProne ventilation\n[15]\nIncreases survival for severe ARDS\nConsider for refractory hypoxemia\nMany consider this a type of\nrecruitment maneuver\nConsider\nAirway pressure release ventilation\n(APRV)\nPressure control ventilation\n(\nPCV\n) if acidosis with APRV\nAttempt to maintain same rate\nMaintain same Pmean\nPRVC\nor\nVolume control ventilation\nwith paralysis to prevent barotrauma in breath stacking and vent dyssynchrony\n[16]\n[17]\nCisatricurium\nloading dose 0.15 mg/kg, followed by 1-3 mcg/kg/min\nTitrated to less than 2 twitches in train of four\nCisatricurium preferred to pancuronium in renal impairment\nCannot use paralysis with APRV\nRecruitment maneuver\nVarying methods and protocols\nControversial in risks and benefits",
+          "tables": []
+        },
+        "Adjuncts": {
+          "text": "Evidence of\npulmonary hypertension\nInhaled nitric oxide\n(\niNO\n)\nEpoprostenol (prostacyclin)\nECMO\nOscillation ventilation\n,\nHigh frequency oscillation ventilation\n(\nHFOV\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Lung Protective Ventilator Settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings#Lung_Protective_Strategy"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "predicted body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "recruitment maneuver",
+          "url": "https://wikem.org/wiki/Recruitment_maneuver"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Cisatricurium",
+          "url": "https://wikem.org/wiki/Cisatricurium"
+        },
+        {
+          "text": "Recruitment maneuver",
+          "url": "https://wikem.org/wiki/Recruitment_maneuver"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Inhaled nitric oxide",
+          "url": "https://wikem.org/wiki/Inhaled_nitric_oxide"
+        },
+        {
+          "text": "iNO",
+          "url": "https://wikem.org/wiki/INO"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "High frequency oscillation ventilation",
+          "url": "https://wikem.org/wiki/High_frequency_oscillation_ventilation"
+        },
+        {
+          "text": "HFOV",
+          "url": "https://wikem.org/wiki/HFOV"
+        }
+      ]
+    },
+    "Lung_Protective_Mechanical_Ventilation": {
+      "text": "Lung Protective Ventilator Settings\n[6]\nshould be the default for all intubated patients, unless contraindicated. It has demonstrated mortality benefit for\nARDS\n-like pulmonary conditions; limits barotrauma and decreases complications of high FiO2\n[7]\n[8]\nMode\nVolume-assist control\nTidal Volume\nStart 6-8cc/kg\npredicted body weight\n[9]\nPredicted/\"ideal\" body weight is used because a person's lung parenchyma does not increase in size as the person gains more weight.\nTitrate down if plateau pressure >30 mmHg\nInspiratory Flow Rate (comfort)\nMore comfortable if higher rather than lower\nStart at 60-80 LPM\nRespiratory Rate (titrate for ventilation)\nAverage patient on ventilator requires 120mL/kg/min for eucapnia\nStart 16-18 breaths/min\nMaintain pH = 7.30-7.45\nFiO2/PEEP (titrate for oxygenation)\nMove in tandem to achieve:\nSpO2 BETWEEN 88-95%\nPaO2 BETWEEN 55-80mmHg",
+      "subsections": {
+        "Lung_Protective_FiO2_and_PEEP_Scale[10][11]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "FiO2": "PEEP",
+                "0.3": "5",
+                "0.4": "8",
+                "0.5": "10",
+                "0.6": "10",
+                "0.7": "14",
+                "0.8": "14",
+                "0.9": "18",
+                "1.0": "24"
+              }
+            ]
+          ]
+        },
+        "Additional_Ventilation_Considerations": {
+          "text": "Permissive hypercapnia\nMaintain plateau pressures < 30\n[13]\nDriving pressure (plateau pressure minus PEEP) <14 is most strongly associated with decreased mortality\n[14]\nEnsure adequate\nsedation\nBetter synchrony with vent\nDecreased oxygen consumption\nLess\ndelirium\nIncreased patient comfort\nProne ventilation\n[15]\nIncreases survival for severe ARDS\nConsider for refractory hypoxemia\nMany consider this a type of\nrecruitment maneuver\nConsider\nAirway pressure release ventilation\n(APRV)\nPressure control ventilation\n(\nPCV\n) if acidosis with APRV\nAttempt to maintain same rate\nMaintain same Pmean\nPRVC\nor\nVolume control ventilation\nwith paralysis to prevent barotrauma in breath stacking and vent dyssynchrony\n[16]\n[17]\nCisatricurium\nloading dose 0.15 mg/kg, followed by 1-3 mcg/kg/min\nTitrated to less than 2 twitches in train of four\nCisatricurium preferred to pancuronium in renal impairment\nCannot use paralysis with APRV\nRecruitment maneuver\nVarying methods and protocols\nControversial in risks and benefits",
+          "tables": []
+        },
+        "Adjuncts": {
+          "text": "Evidence of\npulmonary hypertension\nInhaled nitric oxide\n(\niNO\n)\nEpoprostenol (prostacyclin)\nECMO\nOscillation ventilation\n,\nHigh frequency oscillation ventilation\n(\nHFOV\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lung Protective Ventilator Settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings#Lung_Protective_Strategy"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "predicted body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "recruitment maneuver",
+          "url": "https://wikem.org/wiki/Recruitment_maneuver"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Cisatricurium",
+          "url": "https://wikem.org/wiki/Cisatricurium"
+        },
+        {
+          "text": "Recruitment maneuver",
+          "url": "https://wikem.org/wiki/Recruitment_maneuver"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Inhaled nitric oxide",
+          "url": "https://wikem.org/wiki/Inhaled_nitric_oxide"
+        },
+        {
+          "text": "iNO",
+          "url": "https://wikem.org/wiki/INO"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "High frequency oscillation ventilation",
+          "url": "https://wikem.org/wiki/High_frequency_oscillation_ventilation"
+        },
+        {
+          "text": "HFOV",
+          "url": "https://wikem.org/wiki/HFOV"
+        }
+      ]
+    },
+    "Additional_Ventilation_Considerations": {
+      "text": "Permissive hypercapnia\nMaintain plateau pressures < 30\n[13]\nDriving pressure (plateau pressure minus PEEP) <14 is most strongly associated with decreased mortality\n[14]\nEnsure adequate\nsedation\nBetter synchrony with vent\nDecreased oxygen consumption\nLess\ndelirium\nIncreased patient comfort\nProne ventilation\n[15]\nIncreases survival for severe ARDS\nConsider for refractory hypoxemia\nMany consider this a type of\nrecruitment maneuver\nConsider\nAirway pressure release ventilation\n(APRV)\nPressure control ventilation\n(\nPCV\n) if acidosis with APRV\nAttempt to maintain same rate\nMaintain same Pmean\nPRVC\nor\nVolume control ventilation\nwith paralysis to prevent barotrauma in breath stacking and vent dyssynchrony\n[16]\n[17]\nCisatricurium\nloading dose 0.15 mg/kg, followed by 1-3 mcg/kg/min\nTitrated to less than 2 twitches in train of four\nCisatricurium preferred to pancuronium in renal impairment\nCannot use paralysis with APRV\nRecruitment maneuver\nVarying methods and protocols\nControversial in risks and benefits",
+      "subsections": {
+        "Adjuncts": {
+          "text": "Evidence of\npulmonary hypertension\nInhaled nitric oxide\n(\niNO\n)\nEpoprostenol (prostacyclin)\nECMO\nOscillation ventilation\n,\nHigh frequency oscillation ventilation\n(\nHFOV\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "recruitment maneuver",
+          "url": "https://wikem.org/wiki/Recruitment_maneuver"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Cisatricurium",
+          "url": "https://wikem.org/wiki/Cisatricurium"
+        },
+        {
+          "text": "Recruitment maneuver",
+          "url": "https://wikem.org/wiki/Recruitment_maneuver"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Inhaled nitric oxide",
+          "url": "https://wikem.org/wiki/Inhaled_nitric_oxide"
+        },
+        {
+          "text": "iNO",
+          "url": "https://wikem.org/wiki/INO"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "High frequency oscillation ventilation",
+          "url": "https://wikem.org/wiki/High_frequency_oscillation_ventilation"
+        },
+        {
+          "text": "HFOV",
+          "url": "https://wikem.org/wiki/HFOV"
+        }
+      ]
+    },
+    "Adjuncts": {
+      "text": "Evidence of\npulmonary hypertension\nInhaled nitric oxide\n(\niNO\n)\nEpoprostenol (prostacyclin)\nECMO\nOscillation ventilation\n,\nHigh frequency oscillation ventilation\n(\nHFOV\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Inhaled nitric oxide",
+          "url": "https://wikem.org/wiki/Inhaled_nitric_oxide"
+        },
+        {
+          "text": "iNO",
+          "url": "https://wikem.org/wiki/INO"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "High frequency oscillation ventilation",
+          "url": "https://wikem.org/wiki/High_frequency_oscillation_ventilation"
+        },
+        {
+          "text": "HFOV",
+          "url": "https://wikem.org/wiki/HFOV"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit to ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "",
+      "subsections": {
+        "Severity_(Berlin_Definition)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "PaO2/FiO2": "200-300",
+                "Severity": "Mild",
+                "Mortality": "27%"
+              },
+              {
+                "PaO2/FiO2": "100-200",
+                "Severity": "Mod",
+                "Mortality": "32%"
+              },
+              {
+                "PaO2/FiO2": "<100",
+                "Severity": "Severe",
+                "Mortality": "45%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "EBQ:ARDSnet Trial\nPulmonary edema",
+      "subsections": {
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "EBQ:ARDSnet Trial",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet_Trial"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Mechanical_Ventilation_Pages": {
+      "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ARDSnet Ventilator Settings\nAPRV / BiVent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

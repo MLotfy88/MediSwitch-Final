@@ -1,0 +1,185 @@
+{
+  "drug_name": "Adenomyosis",
+  "url": "https://wikem.org/wiki/Adenomyosis",
+  "scraped_at": "2026-01-10T07:47:14.826512",
+  "sections": {
+    "Background": {
+      "text": "Uterine disorder characterized by endometrial glands and stroma being present within the myometrium resulting in hypertrophy of the surrounding myometrium\nTwo histopathological forms:\nDiffuse – results in the uterus being uniformly enlarged and boggy\nFocal (also known as an adenomyoma) – can appear similar to a fibroid but does not have a pseudocapsule\nPathogenesis is not well understood",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Heavy\nvaginal bleeding\nDysmenorrhea\nChronic\npelvic pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Nonpregnant_Vaginal_Bleeding": {
+          "text": "Systemic Causes\nCirrhosis\nCoagulopathy\n(\nVon Willebrand disease\n,\nITP\n)\nGroup A strep\nvaginitis (prepubertal girls)\nHormone replacement therapy\nAnticoagulants\nSelective Serotonin Reuptake Inhibitors (SSRIs)\nHypothyroidism\nPolycystic Ovary Syndrome\nSecondary anovulation\nReproductive Tract Causes\nAdenomyosis\nAtrophic endometrium\nDysfunctional uterine bleeding\nEndometriosis\nLeiomyoma\n(Fibroid)\nForeign Body\nInfection (\nvaginitis\n,\nPID\n)\nIUD\nNeoplasia (especially in women >45 years old or in younger women with other risk factors)\nVaginal Trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Group A strep",
+          "url": "https://wikem.org/wiki/Group_A_strep"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Dysfunctional uterine bleeding",
+          "url": "https://wikem.org/wiki/Dysfunctional_uterine_bleeding"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Leiomyoma",
+          "url": "https://wikem.org/wiki/Leiomyoma"
+        },
+        {
+          "text": "Foreign Body",
+          "url": "https://wikem.org/wiki/Foreign_Body"
+        },
+        {
+          "text": "vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Vaginal Trauma",
+          "url": "https://wikem.org/wiki/Vaginal_Trauma"
+        }
+      ]
+    },
+    "Nonpregnant_Vaginal_Bleeding": {
+      "text": "Systemic Causes\nCirrhosis\nCoagulopathy\n(\nVon Willebrand disease\n,\nITP\n)\nGroup A strep\nvaginitis (prepubertal girls)\nHormone replacement therapy\nAnticoagulants\nSelective Serotonin Reuptake Inhibitors (SSRIs)\nHypothyroidism\nPolycystic Ovary Syndrome\nSecondary anovulation\nReproductive Tract Causes\nAdenomyosis\nAtrophic endometrium\nDysfunctional uterine bleeding\nEndometriosis\nLeiomyoma\n(Fibroid)\nForeign Body\nInfection (\nvaginitis\n,\nPID\n)\nIUD\nNeoplasia (especially in women >45 years old or in younger women with other risk factors)\nVaginal Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Group A strep",
+          "url": "https://wikem.org/wiki/Group_A_strep"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Dysfunctional uterine bleeding",
+          "url": "https://wikem.org/wiki/Dysfunctional_uterine_bleeding"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Leiomyoma",
+          "url": "https://wikem.org/wiki/Leiomyoma"
+        },
+        {
+          "text": "Foreign Body",
+          "url": "https://wikem.org/wiki/Foreign_Body"
+        },
+        {
+          "text": "vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Vaginal Trauma",
+          "url": "https://wikem.org/wiki/Vaginal_Trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Pelvic exam – bimanual usually reveals a mobile, enlarged, and soft or boggy uterus\nTransvaginal\nUS\nMRI usually reserved in cases when providers are seeking to distinguish between adenomysosis and leiomyomas\n[1]\nDefinitive diagnosis relies on histology, and so it is usually made during pathology examination of the uterus after a hysterectomy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "US",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Hysterectomy is the definitive treatment\nAlternative options include\nHormonal therapy such as with a levonorgestrel IUD\n[2]\n[3]\n[4]\nUterine artery embolization\nUterus sparing resection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Final disposition should be made based on hemodynamic stability of the patient\nIf hemodynamically stable without clinically significant bleeding, patient can be discharged with gynecology referral",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vaginal Bleeding (Non-Pregnant)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal Bleeding (Non-Pregnant)",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Non-Pregnant)"
+        }
+      ]
+    }
+  }
+}

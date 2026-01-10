@@ -1,0 +1,182 @@
+{
+  "drug_name": "Acute_myeloid_leukemia",
+  "url": "https://wikem.org/wiki/Acute_myeloid_leukemia",
+  "scraped_at": "2026-01-10T07:47:05.024839",
+  "sections": {
+    "Background": {
+      "text": "AKA Acute myelogenous leukemia or non-lymphocytic leukemia\nMost common acute leukemia in adults (around 80% of cases)\n65 yo median age of diagnosis, Male:Female 5:3\nCharacterized by clonal proliferation of myeloid precursors(blast cells >20% in the periphery)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Presents with symptoms of:\nAnemia\n:\nweakness\n, easy\nfatigability\n,\nSOB\nNeutropenia\n: infections\nThrombocytopenia\n: gingival bleeding/\nenlargement\n, ecchymoses,\nepistaxis\n,\nmenorrhagia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "fatigability",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "enlargement",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "menorrhagia",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Non-Pregnant)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_Leukemia/Lymphoma": {
+          "text": "Acute myeloid leukemia\nAcute lymphocytic leukemia\nHodgkin's lymphoma\nNon-Hodgkin's lymphoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute lymphocytic leukemia",
+          "url": "https://wikem.org/wiki/Acute_lymphocytic_leukemia"
+        },
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Non-Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Non-Hodgkin%27s_lymphoma"
+        }
+      ]
+    },
+    "Acute_Leukemia/Lymphoma": {
+      "text": "Acute myeloid leukemia\nAcute lymphocytic leukemia\nHodgkin's lymphoma\nNon-Hodgkin's lymphoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute lymphocytic leukemia",
+          "url": "https://wikem.org/wiki/Acute_lymphocytic_leukemia"
+        },
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Non-Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Non-Hodgkin%27s_lymphoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CXR\nCBC with peripheral smear\nChem7, ca, mg, phos, Uric Acid,\nUA\n, LDH (to check for\ntumor lysis syndrome\n)\nLFTs, Coags, FDP, D-Dimer, Haptoglobin, Fibrinogen (to check for\nDIC\n)\nESR, CRP\nReticulocyte count in anemia\nGet extra purple top for flow cytometry, especially before transfusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Aggressive\nIV hydration\nIf\nfebrile\n, complete cultures and broad spectrum\nantibiotics\nManage Complications\nSee\nDIC\nSee\nLeukostasis\nSee\nHyperviscosity syndrome\nSee\nTumor Lysis Syndrome\nSee\nRetinoic acid syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IV hydration",
+          "url": "https://wikem.org/wiki/IV_hydration"
+        },
+        {
+          "text": "febrile",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Leukostasis",
+          "url": "https://wikem.org/wiki/Leukostasis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Tumor Lysis Syndrome",
+          "url": "https://wikem.org/wiki/Tumor_Lysis_Syndrome"
+        },
+        {
+          "text": "Retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Oncologic emergencies\nAcute leukemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Oncologic emergencies",
+          "url": "https://wikem.org/wiki/Oncologic_emergencies"
+        },
+        {
+          "text": "Acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        }
+      ]
+    },
+    "References": {
+      "text": "Janz TG, Hamilton GC: Anemia, Polycythemia and White Blood Cell Disorders, in Marx JA, Hockberger RS, Walls RM, et al (eds): Rosen’s Emergency Medicine: Concepts and Clinical Practice, ed 8. St. Louis, Mosby, Inc., 2014, (Ch) 121:p 1586-1605.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

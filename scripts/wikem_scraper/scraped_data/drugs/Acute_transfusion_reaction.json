@@ -1,0 +1,560 @@
+{
+  "drug_name": "Acute_transfusion_reaction",
+  "url": "https://wikem.org/wiki/Acute_transfusion_reaction",
+  "scraped_at": "2026-01-10T07:47:10.232102",
+  "sections": {
+    "Background": {
+      "text": "If concern for fluid overload, may need to transfuse as split pRBCs to tranfuse as slow as 1mL/kg/hr\nSepsis is most commonly due to\nyersinia\n, which is able to grow easily in refrigerated blood",
+      "subsections": {
+        "Transfusion_Risk_Ratios": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Rate": "1:10",
+                "Complication": "Febrile non-hemolytic transfusion reaction per pool of 5 donor units of platelets (1 pack)"
+              },
+              {
+                "Rate": "1:100",
+                "Complication": "Minor allergic reactions (urticaria)"
+              },
+              {
+                "Rate": "1:300",
+                "Complication": "Febrile non-hemolytic transfusion reaction per unit of RBC (1 pack)"
+              },
+              {
+                "Rate": "1:700",
+                "Complication": "Transfusion-associated circulatory overload per transfusion episode"
+              },
+              {
+                "Rate": "1:5,000",
+                "Complication": "Transfusion-related acute lung injury (TRALI)"
+              },
+              {
+                "Rate": "1:7,000",
+                "Complication": "Delayed hemolytic transfusion reaction"
+              },
+              {
+                "Rate": "1:10,000",
+                "Complication": "Symptomatic bacterial sepsis per pool of 5 donor units of platelets"
+              },
+              {
+                "Rate": "1:40,000",
+                "Complication": "Death from bacterial sepsis per pool of 5 donor units of platelets"
+              },
+              {
+                "Rate": "1:40,000",
+                "Complication": "ABO-incompatible transfusion per RBC transfusion episode"
+              },
+              {
+                "Rate": "1:40,000",
+                "Complication": "Serious allergic reaction per unit of component"
+              },
+              {
+                "Rate": "1:82,000",
+                "Complication": "Transmission of hepatitis B virus per unit of component"
+              },
+              {
+                "Rate": "1:100,000",
+                "Complication": "Symptomatic bacterial sepsis per unit of RBC"
+              },
+              {
+                "Rate": "1:500,000",
+                "Complication": "Death from bacterial sepsis per unit of RBC"
+              },
+              {
+                "Rate": "1:1,000,000",
+                "Complication": "Transmission of West Nile Virus"
+              },
+              {
+                "Rate": "1:3,000,000",
+                "Complication": "Transmission of HTLV per unit of component"
+              },
+              {
+                "Rate": "1:3,100,000",
+                "Complication": "Transmission of hepatitis C virus per unit of component"
+              },
+              {
+                "Rate": "1:4,700,000",
+                "Complication": "Transmission of HIV per unit of component"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "yersinia",
+          "url": "https://wikem.org/wiki/Yersinia"
+        }
+      ]
+    },
+    "Transfusion_Risk_Ratios": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Rate": "1:10",
+            "Complication": "Febrile non-hemolytic transfusion reaction per pool of 5 donor units of platelets (1 pack)"
+          },
+          {
+            "Rate": "1:100",
+            "Complication": "Minor allergic reactions (urticaria)"
+          },
+          {
+            "Rate": "1:300",
+            "Complication": "Febrile non-hemolytic transfusion reaction per unit of RBC (1 pack)"
+          },
+          {
+            "Rate": "1:700",
+            "Complication": "Transfusion-associated circulatory overload per transfusion episode"
+          },
+          {
+            "Rate": "1:5,000",
+            "Complication": "Transfusion-related acute lung injury (TRALI)"
+          },
+          {
+            "Rate": "1:7,000",
+            "Complication": "Delayed hemolytic transfusion reaction"
+          },
+          {
+            "Rate": "1:10,000",
+            "Complication": "Symptomatic bacterial sepsis per pool of 5 donor units of platelets"
+          },
+          {
+            "Rate": "1:40,000",
+            "Complication": "Death from bacterial sepsis per pool of 5 donor units of platelets"
+          },
+          {
+            "Rate": "1:40,000",
+            "Complication": "ABO-incompatible transfusion per RBC transfusion episode"
+          },
+          {
+            "Rate": "1:40,000",
+            "Complication": "Serious allergic reaction per unit of component"
+          },
+          {
+            "Rate": "1:82,000",
+            "Complication": "Transmission of hepatitis B virus per unit of component"
+          },
+          {
+            "Rate": "1:100,000",
+            "Complication": "Symptomatic bacterial sepsis per unit of RBC"
+          },
+          {
+            "Rate": "1:500,000",
+            "Complication": "Death from bacterial sepsis per unit of RBC"
+          },
+          {
+            "Rate": "1:1,000,000",
+            "Complication": "Transmission of West Nile Virus"
+          },
+          {
+            "Rate": "1:3,000,000",
+            "Complication": "Transmission of HTLV per unit of component"
+          },
+          {
+            "Rate": "1:3,100,000",
+            "Complication": "Transmission of hepatitis C virus per unit of component"
+          },
+          {
+            "Rate": "1:4,700,000",
+            "Complication": "Transmission of HIV per unit of component"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Etiology specific, see ddx below",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Transfusion_Reaction_Types": {
+          "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+          "tables": []
+        },
+        "Acute_allergic_reaction": {
+          "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Transfusion_Reaction_Types": {
+      "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+      "subsections": {
+        "Acute_allergic_reaction": {
+          "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Acute_allergic_reaction": {
+      "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Workup of hemolytic reaction\nCBC with microscopy differential\nFormal urinalysis with bilirubin\nHaptoglobin, LDH, free hemoglobin\nSerum total and direct bilirubin\nCoombs test of pre-transfusion and post-transfusion blood\nConsider CXR to help differentiate anaphylaxis, TRALI, TACO",
+      "subsections": {
+        "TRALI_vs_TACO": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Onset",
+                "TRALI": "Acute, within 6hrs",
+                "TACO": "Often more gradual"
+              },
+              {
+                "": "BP",
+                "TRALI": "Low",
+                "TACO": "High"
+              },
+              {
+                "": "Temp",
+                "TRALI": "Febrile",
+                "TACO": "Normal"
+              },
+              {
+                "": "JVD/pedal edema",
+                "TRALI": "Unlikely",
+                "TACO": "Likely"
+              },
+              {
+                "": "CVP/PAWP",
+                "TRALI": "Normal",
+                "TACO": "Elevated"
+              },
+              {
+                "": "BNP",
+                "TRALI": "Normal",
+                "TACO": "Elevated"
+              },
+              {
+                "": "Resp",
+                "TRALI": "Dyspneic",
+                "TACO": "Dyspneic"
+              },
+              {
+                "": "CXR",
+                "TRALI": "B/l infiltrates",
+                "TACO": "B/l infiltrates"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "TRALI_vs_TACO": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Onset",
+            "TRALI": "Acute, within 6hrs",
+            "TACO": "Often more gradual"
+          },
+          {
+            "": "BP",
+            "TRALI": "Low",
+            "TACO": "High"
+          },
+          {
+            "": "Temp",
+            "TRALI": "Febrile",
+            "TACO": "Normal"
+          },
+          {
+            "": "JVD/pedal edema",
+            "TRALI": "Unlikely",
+            "TACO": "Likely"
+          },
+          {
+            "": "CVP/PAWP",
+            "TRALI": "Normal",
+            "TACO": "Elevated"
+          },
+          {
+            "": "BNP",
+            "TRALI": "Normal",
+            "TACO": "Elevated"
+          },
+          {
+            "": "Resp",
+            "TRALI": "Dyspneic",
+            "TACO": "Dyspneic"
+          },
+          {
+            "": "CXR",
+            "TRALI": "B/l infiltrates",
+            "TACO": "B/l infiltrates"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "For all reactions:\nStop the transfusion (at least temporarily)\nCall the blood bank\nDraw a new type + screen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transfusions\nAcute transfusion reaction\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        }
+      ]
+    }
+  }
+}

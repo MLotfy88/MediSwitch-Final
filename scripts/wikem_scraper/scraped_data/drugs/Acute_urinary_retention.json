@@ -1,0 +1,518 @@
+{
+  "drug_name": "Acute_urinary_retention",
+  "url": "https://wikem.org/wiki/Acute_urinary_retention",
+  "scraped_at": "2026-01-10T07:47:12.962075",
+  "sections": {
+    "Background": {
+      "text": "Urologic emergency characterized by sudden inability to pass urine\nMost common cause is\nbenign prostatic hyperplasia\n(BPH)\nRare in women",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "benign prostatic hyperplasia",
+          "url": "https://wikem.org/wiki/Benign_prostatic_hyperplasia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Suprapubic abdominal distention and/or pain\nFrequency, urgency, hesitancy, dribbling, decrease in voiding stream",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Urinary_retention": {
+          "text": "Obstructive causes\nBPH\nProstate cancer\nBlood clot\nUrethral Stricture\nBladder Calculi\nBladder neoplasm\nForeign body, urethral or bladder\nOvarian/uterine tumor\nIncarcerated uterus\nNeurogenic causes\nMultiple sclerosis\nParkinson's\nBrain tumor\nCerebral vascular disease\nCauda equina syndrome\nSpinal cord compression (non-traumatic)\nIntervertebral disk herniation\nNeuropathy\nNerve injury from pelvic surgery\nPostoperative retention\nTrauma\nUrethral injury\nBladder injury\nSpinal cord injury\nExtraurinary causes\nPerirectal or pelvic abscesses\nRectal or retroperitoneal masses\nFecal impaction\nAbdominal Aortic Aneurysm\nPsychogenic causes\nPsychosexual stress\nAcute anxiety\nInfection\nCystitis\nProstatitis\nHerpes Simplex\n(genital)\nHerpes Zoster\ninvolving pelvic region\nLocal\nAbscess\nPID\nMeds\nAnticholinergics\nAntihistamines\nCold meds\nSympathomimetics\nTCA\nMuscle relaxants\nOpioids",
+          "tables": []
+        },
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "BPH",
+          "url": "https://wikem.org/wiki/Benign_prostatic_hyperplasia"
+        },
+        {
+          "text": "Bladder Calculi",
+          "url": "https://wikem.org/wiki/Bladder_Calculi"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_Aortic_Aneurysm"
+        },
+        {
+          "text": "Acute anxiety",
+          "url": "https://wikem.org/wiki/Acute_anxiety"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Herpes Simplex",
+          "url": "https://wikem.org/wiki/Herpes_Simplex"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Urinary_retention": {
+      "text": "Obstructive causes\nBPH\nProstate cancer\nBlood clot\nUrethral Stricture\nBladder Calculi\nBladder neoplasm\nForeign body, urethral or bladder\nOvarian/uterine tumor\nIncarcerated uterus\nNeurogenic causes\nMultiple sclerosis\nParkinson's\nBrain tumor\nCerebral vascular disease\nCauda equina syndrome\nSpinal cord compression (non-traumatic)\nIntervertebral disk herniation\nNeuropathy\nNerve injury from pelvic surgery\nPostoperative retention\nTrauma\nUrethral injury\nBladder injury\nSpinal cord injury\nExtraurinary causes\nPerirectal or pelvic abscesses\nRectal or retroperitoneal masses\nFecal impaction\nAbdominal Aortic Aneurysm\nPsychogenic causes\nPsychosexual stress\nAcute anxiety\nInfection\nCystitis\nProstatitis\nHerpes Simplex\n(genital)\nHerpes Zoster\ninvolving pelvic region\nLocal\nAbscess\nPID\nMeds\nAnticholinergics\nAntihistamines\nCold meds\nSympathomimetics\nTCA\nMuscle relaxants\nOpioids",
+      "subsections": {
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "BPH",
+          "url": "https://wikem.org/wiki/Benign_prostatic_hyperplasia"
+        },
+        {
+          "text": "Bladder Calculi",
+          "url": "https://wikem.org/wiki/Bladder_Calculi"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_Aortic_Aneurysm"
+        },
+        {
+          "text": "Acute anxiety",
+          "url": "https://wikem.org/wiki/Acute_anxiety"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Herpes Simplex",
+          "url": "https://wikem.org/wiki/Herpes_Simplex"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Abdominal_distention": {
+      "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "UA\n/Urine cultures\nChemistry\nCBC (if suspect infection or massive hematuria)\nBedside\nultrasound\n(to verify retention)\nIncomplete retention is PVR > 50ml and > 100ml in patients > 65 years of age\n[1]\nPost-void residual of 150-200 cc is particularly concerning",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Bladder_Decompression": {
+          "text": "Urethral catheterization\nPass 14-18F Foley catheter (larger if blood clots)\nRate of decompression: rapid complete drainage\nAt one time, rapid complete bladder decompression was thought to increase the rate of potential complications, however partial drainage and clamping does not reduce these complications and may increase risk for\nUTI\n[2]\nIf unable to pass Foley, consider:\nCoude catheter\nSuprapubic catheterization",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "Blood clot\nUse 20-24F triple-lumen catheter to irrigate bladder until clear\nConsider α-blocker as outpatient if concern for BPH (e.g.\ntamsulosin\n0.4mg QHS)\nResults in significant increase in voiding success\nPossibility of orthostatic hypotension\nUrology consult\nConsider for precipitated retention (e.g. stricture, prostatitis, cancer) or need for\nsuprapubic catheterization",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Coude catheter",
+          "url": "https://wikem.org/wiki/Coude_catheter"
+        },
+        {
+          "text": "Suprapubic catheterization",
+          "url": "https://wikem.org/wiki/Suprapubic_catheterization"
+        },
+        {
+          "text": "tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "suprapubic catheterization",
+          "url": "https://wikem.org/wiki/Suprapubic_catheterization"
+        }
+      ]
+    },
+    "Bladder_Decompression": {
+      "text": "Urethral catheterization\nPass 14-18F Foley catheter (larger if blood clots)\nRate of decompression: rapid complete drainage\nAt one time, rapid complete bladder decompression was thought to increase the rate of potential complications, however partial drainage and clamping does not reduce these complications and may increase risk for\nUTI\n[2]\nIf unable to pass Foley, consider:\nCoude catheter\nSuprapubic catheterization",
+      "subsections": {
+        "Other_Considerations": {
+          "text": "Blood clot\nUse 20-24F triple-lumen catheter to irrigate bladder until clear\nConsider α-blocker as outpatient if concern for BPH (e.g.\ntamsulosin\n0.4mg QHS)\nResults in significant increase in voiding success\nPossibility of orthostatic hypotension\nUrology consult\nConsider for precipitated retention (e.g. stricture, prostatitis, cancer) or need for\nsuprapubic catheterization",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Coude catheter",
+          "url": "https://wikem.org/wiki/Coude_catheter"
+        },
+        {
+          "text": "Suprapubic catheterization",
+          "url": "https://wikem.org/wiki/Suprapubic_catheterization"
+        },
+        {
+          "text": "tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "suprapubic catheterization",
+          "url": "https://wikem.org/wiki/Suprapubic_catheterization"
+        }
+      ]
+    },
+    "Other_Considerations": {
+      "text": "Blood clot\nUse 20-24F triple-lumen catheter to irrigate bladder until clear\nConsider α-blocker as outpatient if concern for BPH (e.g.\ntamsulosin\n0.4mg QHS)\nResults in significant increase in voiding success\nPossibility of orthostatic hypotension\nUrology consult\nConsider for precipitated retention (e.g. stricture, prostatitis, cancer) or need for\nsuprapubic catheterization",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "suprapubic catheterization",
+          "url": "https://wikem.org/wiki/Suprapubic_catheterization"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admission": {
+          "text": "Admit for:\nPost-obstructive diuresis\n>200mL/hr for 2 hours or 3L over 24 hours (will need fluids and electrolyte monitoring/repletion)\nElevated BUN/Cr (\nacute renal failure\n)\nSignificant\nhematuria\nor clot retention\nNew neurologic cause (e.g.\ncord compression\n)",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Otherwise consider discharge with catheter placed to leg bag and urology follow up within 1 week",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Post-obstructive diuresis",
+          "url": "https://wikem.org/wiki/Post-obstructive_diuresis"
+        },
+        {
+          "text": "acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "cord compression",
+          "url": "https://wikem.org/wiki/Cord_compression"
+        }
+      ]
+    },
+    "Admission": {
+      "text": "Admit for:\nPost-obstructive diuresis\n>200mL/hr for 2 hours or 3L over 24 hours (will need fluids and electrolyte monitoring/repletion)\nElevated BUN/Cr (\nacute renal failure\n)\nSignificant\nhematuria\nor clot retention\nNew neurologic cause (e.g.\ncord compression\n)",
+      "subsections": {
+        "Discharge": {
+          "text": "Otherwise consider discharge with catheter placed to leg bag and urology follow up within 1 week",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Post-obstructive diuresis",
+          "url": "https://wikem.org/wiki/Post-obstructive_diuresis"
+        },
+        {
+          "text": "acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "cord compression",
+          "url": "https://wikem.org/wiki/Cord_compression"
+        }
+      ]
+    },
+    "Discharge": {
+      "text": "Otherwise consider discharge with catheter placed to leg bag and urology follow up within 1 week",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Coude catheter\nSuprapubic catheter placement\nSuprapubic bladder aspiration\nSuprapubic catheter changing or replacement\nPost-obstructive diuresis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coude catheter",
+          "url": "https://wikem.org/wiki/Coude_catheter"
+        },
+        {
+          "text": "Suprapubic catheter placement",
+          "url": "https://wikem.org/wiki/Suprapubic_catheter_placement"
+        },
+        {
+          "text": "Suprapubic bladder aspiration",
+          "url": "https://wikem.org/wiki/Suprapubic_bladder_aspiration"
+        },
+        {
+          "text": "Suprapubic catheter changing or replacement",
+          "url": "https://wikem.org/wiki/Suprapubic_catheter_changing_or_replacement"
+        },
+        {
+          "text": "Post-obstructive diuresis",
+          "url": "https://wikem.org/wiki/Post-obstructive_diuresis"
+        }
+      ]
+    }
+  }
+}

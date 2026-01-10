@@ -1,0 +1,169 @@
+{
+  "drug_name": "Acute_lymphocytic_leukemia",
+  "url": "https://wikem.org/wiki/Acute_lymphocytic_leukemia",
+  "scraped_at": "2026-01-10T07:47:04.844678",
+  "sections": {
+    "Background": {
+      "text": "Characterized by proliferation of immature lymphoblast( >20% in periphery)\nLess than 20% of acute leukemias in adults,\nMost common form in children (see also\nLeukemia (Peds)\n)\nHighest incidence in 7th decade of life",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukemia (Peds)",
+          "url": "https://wikem.org/wiki/Leukemia_(Peds)"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Lymphocytosis\n,\nneutropenia\n,\nanemia\n,\nthrombocytopenia\nLymphadenopathy\n,\nhepatosplenomegaly\nCNS and testes involvement common\nSymptomatic\nleukostasis and hyperleukocytosis\nare more common in AML than in ALL, CML, CLL\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lymphocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_Leukemia/Lymphoma": {
+          "text": "Acute myeloid leukemia\nAcute lymphocytic leukemia\nHodgkin's lymphoma\nNon-Hodgkin's lymphoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute myeloid leukemia",
+          "url": "https://wikem.org/wiki/Acute_myeloid_leukemia"
+        },
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Non-Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Non-Hodgkin%27s_lymphoma"
+        }
+      ]
+    },
+    "Acute_Leukemia/Lymphoma": {
+      "text": "Acute myeloid leukemia\nAcute lymphocytic leukemia\nHodgkin's lymphoma\nNon-Hodgkin's lymphoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute myeloid leukemia",
+          "url": "https://wikem.org/wiki/Acute_myeloid_leukemia"
+        },
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Non-Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Non-Hodgkin%27s_lymphoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CXR\nCBC with peripheral smear\nChem7, Ca, Mg, Phos, Uric Acid,\nUA\n, LDH (to check for\ntumor lysis syndrome\n)\nLFTs\n, Coags, FDP, D-Dimer, Haptoglobin, Fibrinogen (to check for\nDIC\n)\nESR, CRP\nReticulocyte count in anemia\nGet extra purple top for flow cytometry, especially before transfusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Aggressive\nIV hydration\nIf\nfebrile\n, complete cultures and broad spectrum\nantibiotics\nManage Complications\nsee\nDIC\nsee\nLeukostasis\nsee\nTumor Lysis Syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IV hydration",
+          "url": "https://wikem.org/wiki/IV_hydration"
+        },
+        {
+          "text": "febrile",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Leukostasis",
+          "url": "https://wikem.org/wiki/Leukostasis"
+        },
+        {
+          "text": "Tumor Lysis Syndrome",
+          "url": "https://wikem.org/wiki/Tumor_Lysis_Syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Oncologic emergencies\nAcute leukemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Oncologic emergencies",
+          "url": "https://wikem.org/wiki/Oncologic_emergencies"
+        },
+        {
+          "text": "Acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        }
+      ]
+    }
+  }
+}

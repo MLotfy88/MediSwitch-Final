@@ -1,0 +1,1150 @@
+{
+  "drug_name": "Acute_otitis_media",
+  "url": "https://wikem.org/wiki/Acute_otitis_media",
+  "scraped_at": "2026-01-10T07:47:10.157119",
+  "sections": {
+    "Background": {
+      "text": "Peak incidence: 6-18 months of age\n2nd most common cause of ED visits after URI",
+      "subsections": {
+        "Etiology": {
+          "text": "Viral (70% of cases)\nBacterial\nS. pneumo\n(50%)\nNontypable\nH. flu\n(30%)\nMoraxella\n(30%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. pneumo",
+          "url": "https://wikem.org/wiki/S._pneumo"
+        },
+        {
+          "text": "H. flu",
+          "url": "https://wikem.org/wiki/H._flu"
+        },
+        {
+          "text": "Moraxella",
+          "url": "https://wikem.org/wiki/Moraxella"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Viral (70% of cases)\nBacterial\nS. pneumo\n(50%)\nNontypable\nH. flu\n(30%)\nMoraxella\n(30%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "S. pneumo",
+          "url": "https://wikem.org/wiki/S._pneumo"
+        },
+        {
+          "text": "H. flu",
+          "url": "https://wikem.org/wiki/H._flu"
+        },
+        {
+          "text": "Moraxella",
+          "url": "https://wikem.org/wiki/Moraxella"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Symptoms typically include\near pain\n,\nfever\nAcute onset (<48hr) AND\nMiddle ear effusion AND\nSigns of middle ear inflammation\nMiddle Ear Effusion: bulging TM, impaired TM movement, otorrhea, or air/fluid level\nMiddle Ear inflammation: erythema of TM or otalgia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ear pain",
+          "url": "https://wikem.org/wiki/Earache"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        },
+        "Less_common": {
+          "text": "Oral cavity disease (referred pain)\nCholesteatoma\nPTA\nBrain abscess\nLemierre's Syndrome\nHerpes zoster oticus",
+          "tables": []
+        },
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        },
+        {
+          "text": "PTA",
+          "url": "https://wikem.org/wiki/PTA"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Lemierre's Syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_Syndrome"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Ear_Diagnoses": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        },
+        "Less_common": {
+          "text": "Oral cavity disease (referred pain)\nCholesteatoma\nPTA\nBrain abscess\nLemierre's Syndrome\nHerpes zoster oticus",
+          "tables": []
+        },
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        },
+        {
+          "text": "PTA",
+          "url": "https://wikem.org/wiki/PTA"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Lemierre's Syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_Syndrome"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Less_common": {
+      "text": "Oral cavity disease (referred pain)\nCholesteatoma\nPTA\nBrain abscess\nLemierre's Syndrome\nHerpes zoster oticus",
+      "subsections": {
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PTA",
+          "url": "https://wikem.org/wiki/PTA"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Lemierre's Syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_Syndrome"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Pediatric_fever": {
+      "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically clinical\nErythema alone not enough to diagnose\nOther clinical features: acute onset pain, bulging TM, opacified TM/loss of landmarks, otorrhea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Analgesia": {
+          "text": "Acetaminophen\n/\nibuprofen\nand topical\nbenzocaine\n(unless\nperforated TM\n)",
+          "tables": []
+        },
+        "2013_AAP_Decision_to_Treat_Guidelines": {
+          "text": "^Severe symptoms = fever > 39C or severe otalgia > 48 hrs\nAlso Consider In:\nAge <6mo\nIll-appearing\nRecurrent acute otitis media (within 2-4wk)\nConcurrent antibiotic treatment\nOther bacterial infections\nImmunocompromised\nCraniofacial abnormalities",
+          "tables": [
+            [
+              {
+                "Age": "6mo-2y",
+                "Otorrhea": "Antibiotics",
+                "Severe Symptoms^": "Antibiotics",
+                "Bilateral without Otorrhea": "Antibiotics",
+                "Unilateral without Otorrhea": "Antibiotics or observation period (wait and see)"
+              },
+              {
+                "Age": "≥2y",
+                "Otorrhea": "Antibiotics",
+                "Severe Symptoms^": "Antibiotics",
+                "Bilateral without Otorrhea": "Antibiotics or observation period (wait and see)",
+                "Unilateral without Otorrhea": "Antibiotics or observation period (wait and see)"
+              }
+            ]
+          ]
+        },
+        "Wait-and-see_antibiotic_prescription_(WASP)": {
+          "text": "Rather that routine prescription is an option to avoid over use if the patient does not meet any of the prescription criteria\n[2]\nIf symptoms worsen or persist for 48-72 then caretaker fill the prescription\nFever (relative risk [RR], 2.95; 95% confidence interval [CI], 1.75 - 4.99; P<.001) and otalgia (RR, 1.62; 95% CI, 1.26 - 2.03; P<.001) were associated with filling the prescription in the WASP group",
+          "tables": []
+        },
+        "Antibiotics_Options": {
+          "text": "Consider treating for a standard of 10 days as opposed to a shorter duration of 5 days to reduce treatment failure in young children\n[3]\nTreatment failure for 10 day at 16% and for 5 day at 34% for\namoxicillin-clavulanate\nRTC of 520 children aged 6-23 months",
+          "tables": []
+        },
+        "Initial_Treatment": {
+          "text": "High Dose\nAmoxicillin\n<2 months\n30mg/kg/day PO divided q12h x 10 days\nFirst Dose: 15mg/kg PO x 1\n2 months - 5 years\n80-90mg/kg/day PO divided q12h x 10 days\nFirst Dose: 40-45mg/kg PO x 1\nMax: 1000mg/dose\n6-12 years\n80-90mg/kg/day PO divided q12h x 5-10 days\nFirst Dose: 40-45mg/kg/day PO x 1\nMax: 1000mg/dose",
+          "tables": []
+        },
+        "Treatment_during_prior_Month": {
+          "text": "If amoxicillin taken in past 30 days,\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nClavulanate increases vomiting/diarrhea\nCefdinir\n14mg/kg/day BID x7-10 days\nCefpodoxime\n10mg/kg PO daily x7-10 days\nCefuroxime\n15mg/kg PO BID x7-10 days\nCefprozil\n15mg/kg PO BID x7-10 days",
+          "tables": []
+        },
+        "Otitis/Conjunctivitis": {
+          "text": "Suggestive of non-typeable H.flu\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nClavulanate increases vomiting/diarrhea",
+          "tables": []
+        },
+        "Treatment_Failure": {
+          "text": "defined as treatment during the prior 7-10 days\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nCeftriaxone\n50mg/kg IM once as single injection x 3 days\nUse if cannot tolerate PO",
+          "tables": []
+        },
+        "Penicillin_Allergy": {
+          "text": "Azithromycin\n10mg/kg/day x 1 day and 5mg/kg/day x 4 remaining days\nClarithromycin\n7.5mg/kg PO BID x 10 days\nClindamycin\n10mg/kg PO three times daily\nClindamycin does not cover\nH. influenza\nand\nM. catarrhalis\nand treatment should favor Azithromycin use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "benzocaine",
+          "url": "https://wikem.org/wiki/Benzocaine"
+        },
+        {
+          "text": "perforated TM",
+          "url": "https://wikem.org/wiki/Perforated_TM"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Cefprozil",
+          "url": "https://wikem.org/wiki/Cefprozil"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "H. influenza",
+          "url": "https://wikem.org/wiki/H._influenza"
+        },
+        {
+          "text": "M. catarrhalis",
+          "url": "https://wikem.org/wiki/M._catarrhalis"
+        }
+      ]
+    },
+    "Analgesia": {
+      "text": "Acetaminophen\n/\nibuprofen\nand topical\nbenzocaine\n(unless\nperforated TM\n)",
+      "subsections": {
+        "2013_AAP_Decision_to_Treat_Guidelines": {
+          "text": "^Severe symptoms = fever > 39C or severe otalgia > 48 hrs\nAlso Consider In:\nAge <6mo\nIll-appearing\nRecurrent acute otitis media (within 2-4wk)\nConcurrent antibiotic treatment\nOther bacterial infections\nImmunocompromised\nCraniofacial abnormalities",
+          "tables": [
+            [
+              {
+                "Age": "6mo-2y",
+                "Otorrhea": "Antibiotics",
+                "Severe Symptoms^": "Antibiotics",
+                "Bilateral without Otorrhea": "Antibiotics",
+                "Unilateral without Otorrhea": "Antibiotics or observation period (wait and see)"
+              },
+              {
+                "Age": "≥2y",
+                "Otorrhea": "Antibiotics",
+                "Severe Symptoms^": "Antibiotics",
+                "Bilateral without Otorrhea": "Antibiotics or observation period (wait and see)",
+                "Unilateral without Otorrhea": "Antibiotics or observation period (wait and see)"
+              }
+            ]
+          ]
+        },
+        "Wait-and-see_antibiotic_prescription_(WASP)": {
+          "text": "Rather that routine prescription is an option to avoid over use if the patient does not meet any of the prescription criteria\n[2]\nIf symptoms worsen or persist for 48-72 then caretaker fill the prescription\nFever (relative risk [RR], 2.95; 95% confidence interval [CI], 1.75 - 4.99; P<.001) and otalgia (RR, 1.62; 95% CI, 1.26 - 2.03; P<.001) were associated with filling the prescription in the WASP group",
+          "tables": []
+        },
+        "Antibiotics_Options": {
+          "text": "Consider treating for a standard of 10 days as opposed to a shorter duration of 5 days to reduce treatment failure in young children\n[3]\nTreatment failure for 10 day at 16% and for 5 day at 34% for\namoxicillin-clavulanate\nRTC of 520 children aged 6-23 months",
+          "tables": []
+        },
+        "Initial_Treatment": {
+          "text": "High Dose\nAmoxicillin\n<2 months\n30mg/kg/day PO divided q12h x 10 days\nFirst Dose: 15mg/kg PO x 1\n2 months - 5 years\n80-90mg/kg/day PO divided q12h x 10 days\nFirst Dose: 40-45mg/kg PO x 1\nMax: 1000mg/dose\n6-12 years\n80-90mg/kg/day PO divided q12h x 5-10 days\nFirst Dose: 40-45mg/kg/day PO x 1\nMax: 1000mg/dose",
+          "tables": []
+        },
+        "Treatment_during_prior_Month": {
+          "text": "If amoxicillin taken in past 30 days,\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nClavulanate increases vomiting/diarrhea\nCefdinir\n14mg/kg/day BID x7-10 days\nCefpodoxime\n10mg/kg PO daily x7-10 days\nCefuroxime\n15mg/kg PO BID x7-10 days\nCefprozil\n15mg/kg PO BID x7-10 days",
+          "tables": []
+        },
+        "Otitis/Conjunctivitis": {
+          "text": "Suggestive of non-typeable H.flu\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nClavulanate increases vomiting/diarrhea",
+          "tables": []
+        },
+        "Treatment_Failure": {
+          "text": "defined as treatment during the prior 7-10 days\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nCeftriaxone\n50mg/kg IM once as single injection x 3 days\nUse if cannot tolerate PO",
+          "tables": []
+        },
+        "Penicillin_Allergy": {
+          "text": "Azithromycin\n10mg/kg/day x 1 day and 5mg/kg/day x 4 remaining days\nClarithromycin\n7.5mg/kg PO BID x 10 days\nClindamycin\n10mg/kg PO three times daily\nClindamycin does not cover\nH. influenza\nand\nM. catarrhalis\nand treatment should favor Azithromycin use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "benzocaine",
+          "url": "https://wikem.org/wiki/Benzocaine"
+        },
+        {
+          "text": "perforated TM",
+          "url": "https://wikem.org/wiki/Perforated_TM"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Cefprozil",
+          "url": "https://wikem.org/wiki/Cefprozil"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "H. influenza",
+          "url": "https://wikem.org/wiki/H._influenza"
+        },
+        {
+          "text": "M. catarrhalis",
+          "url": "https://wikem.org/wiki/M._catarrhalis"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "",
+      "subsections": {
+        "2013_AAP_Decision_to_Treat_Guidelines": {
+          "text": "^Severe symptoms = fever > 39C or severe otalgia > 48 hrs\nAlso Consider In:\nAge <6mo\nIll-appearing\nRecurrent acute otitis media (within 2-4wk)\nConcurrent antibiotic treatment\nOther bacterial infections\nImmunocompromised\nCraniofacial abnormalities",
+          "tables": [
+            [
+              {
+                "Age": "6mo-2y",
+                "Otorrhea": "Antibiotics",
+                "Severe Symptoms^": "Antibiotics",
+                "Bilateral without Otorrhea": "Antibiotics",
+                "Unilateral without Otorrhea": "Antibiotics or observation period (wait and see)"
+              },
+              {
+                "Age": "≥2y",
+                "Otorrhea": "Antibiotics",
+                "Severe Symptoms^": "Antibiotics",
+                "Bilateral without Otorrhea": "Antibiotics or observation period (wait and see)",
+                "Unilateral without Otorrhea": "Antibiotics or observation period (wait and see)"
+              }
+            ]
+          ]
+        },
+        "Wait-and-see_antibiotic_prescription_(WASP)": {
+          "text": "Rather that routine prescription is an option to avoid over use if the patient does not meet any of the prescription criteria\n[2]\nIf symptoms worsen or persist for 48-72 then caretaker fill the prescription\nFever (relative risk [RR], 2.95; 95% confidence interval [CI], 1.75 - 4.99; P<.001) and otalgia (RR, 1.62; 95% CI, 1.26 - 2.03; P<.001) were associated with filling the prescription in the WASP group",
+          "tables": []
+        },
+        "Antibiotics_Options": {
+          "text": "Consider treating for a standard of 10 days as opposed to a shorter duration of 5 days to reduce treatment failure in young children\n[3]\nTreatment failure for 10 day at 16% and for 5 day at 34% for\namoxicillin-clavulanate\nRTC of 520 children aged 6-23 months",
+          "tables": []
+        },
+        "Initial_Treatment": {
+          "text": "High Dose\nAmoxicillin\n<2 months\n30mg/kg/day PO divided q12h x 10 days\nFirst Dose: 15mg/kg PO x 1\n2 months - 5 years\n80-90mg/kg/day PO divided q12h x 10 days\nFirst Dose: 40-45mg/kg PO x 1\nMax: 1000mg/dose\n6-12 years\n80-90mg/kg/day PO divided q12h x 5-10 days\nFirst Dose: 40-45mg/kg/day PO x 1\nMax: 1000mg/dose",
+          "tables": []
+        },
+        "Treatment_during_prior_Month": {
+          "text": "If amoxicillin taken in past 30 days,\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nClavulanate increases vomiting/diarrhea\nCefdinir\n14mg/kg/day BID x7-10 days\nCefpodoxime\n10mg/kg PO daily x7-10 days\nCefuroxime\n15mg/kg PO BID x7-10 days\nCefprozil\n15mg/kg PO BID x7-10 days",
+          "tables": []
+        },
+        "Otitis/Conjunctivitis": {
+          "text": "Suggestive of non-typeable H.flu\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nClavulanate increases vomiting/diarrhea",
+          "tables": []
+        },
+        "Treatment_Failure": {
+          "text": "defined as treatment during the prior 7-10 days\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nCeftriaxone\n50mg/kg IM once as single injection x 3 days\nUse if cannot tolerate PO",
+          "tables": []
+        },
+        "Penicillin_Allergy": {
+          "text": "Azithromycin\n10mg/kg/day x 1 day and 5mg/kg/day x 4 remaining days\nClarithromycin\n7.5mg/kg PO BID x 10 days\nClindamycin\n10mg/kg PO three times daily\nClindamycin does not cover\nH. influenza\nand\nM. catarrhalis\nand treatment should favor Azithromycin use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Cefprozil",
+          "url": "https://wikem.org/wiki/Cefprozil"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "H. influenza",
+          "url": "https://wikem.org/wiki/H._influenza"
+        },
+        {
+          "text": "M. catarrhalis",
+          "url": "https://wikem.org/wiki/M._catarrhalis"
+        }
+      ]
+    },
+    "2013_AAP_Decision_to_Treat_Guidelines": {
+      "text": "^Severe symptoms = fever > 39C or severe otalgia > 48 hrs\nAlso Consider In:\nAge <6mo\nIll-appearing\nRecurrent acute otitis media (within 2-4wk)\nConcurrent antibiotic treatment\nOther bacterial infections\nImmunocompromised\nCraniofacial abnormalities",
+      "subsections": {
+        "Wait-and-see_antibiotic_prescription_(WASP)": {
+          "text": "Rather that routine prescription is an option to avoid over use if the patient does not meet any of the prescription criteria\n[2]\nIf symptoms worsen or persist for 48-72 then caretaker fill the prescription\nFever (relative risk [RR], 2.95; 95% confidence interval [CI], 1.75 - 4.99; P<.001) and otalgia (RR, 1.62; 95% CI, 1.26 - 2.03; P<.001) were associated with filling the prescription in the WASP group",
+          "tables": []
+        },
+        "Antibiotics_Options": {
+          "text": "Consider treating for a standard of 10 days as opposed to a shorter duration of 5 days to reduce treatment failure in young children\n[3]\nTreatment failure for 10 day at 16% and for 5 day at 34% for\namoxicillin-clavulanate\nRTC of 520 children aged 6-23 months",
+          "tables": []
+        },
+        "Initial_Treatment": {
+          "text": "High Dose\nAmoxicillin\n<2 months\n30mg/kg/day PO divided q12h x 10 days\nFirst Dose: 15mg/kg PO x 1\n2 months - 5 years\n80-90mg/kg/day PO divided q12h x 10 days\nFirst Dose: 40-45mg/kg PO x 1\nMax: 1000mg/dose\n6-12 years\n80-90mg/kg/day PO divided q12h x 5-10 days\nFirst Dose: 40-45mg/kg/day PO x 1\nMax: 1000mg/dose",
+          "tables": []
+        },
+        "Treatment_during_prior_Month": {
+          "text": "If amoxicillin taken in past 30 days,\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nClavulanate increases vomiting/diarrhea\nCefdinir\n14mg/kg/day BID x7-10 days\nCefpodoxime\n10mg/kg PO daily x7-10 days\nCefuroxime\n15mg/kg PO BID x7-10 days\nCefprozil\n15mg/kg PO BID x7-10 days",
+          "tables": []
+        },
+        "Otitis/Conjunctivitis": {
+          "text": "Suggestive of non-typeable H.flu\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nClavulanate increases vomiting/diarrhea",
+          "tables": []
+        },
+        "Treatment_Failure": {
+          "text": "defined as treatment during the prior 7-10 days\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nCeftriaxone\n50mg/kg IM once as single injection x 3 days\nUse if cannot tolerate PO",
+          "tables": []
+        },
+        "Penicillin_Allergy": {
+          "text": "Azithromycin\n10mg/kg/day x 1 day and 5mg/kg/day x 4 remaining days\nClarithromycin\n7.5mg/kg PO BID x 10 days\nClindamycin\n10mg/kg PO three times daily\nClindamycin does not cover\nH. influenza\nand\nM. catarrhalis\nand treatment should favor Azithromycin use",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Age": "6mo-2y",
+            "Otorrhea": "Antibiotics",
+            "Severe Symptoms^": "Antibiotics",
+            "Bilateral without Otorrhea": "Antibiotics",
+            "Unilateral without Otorrhea": "Antibiotics or observation period (wait and see)"
+          },
+          {
+            "Age": "≥2y",
+            "Otorrhea": "Antibiotics",
+            "Severe Symptoms^": "Antibiotics",
+            "Bilateral without Otorrhea": "Antibiotics or observation period (wait and see)",
+            "Unilateral without Otorrhea": "Antibiotics or observation period (wait and see)"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Cefprozil",
+          "url": "https://wikem.org/wiki/Cefprozil"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "H. influenza",
+          "url": "https://wikem.org/wiki/H._influenza"
+        },
+        {
+          "text": "M. catarrhalis",
+          "url": "https://wikem.org/wiki/M._catarrhalis"
+        }
+      ]
+    },
+    "Antibiotics_Options": {
+      "text": "Consider treating for a standard of 10 days as opposed to a shorter duration of 5 days to reduce treatment failure in young children\n[3]\nTreatment failure for 10 day at 16% and for 5 day at 34% for\namoxicillin-clavulanate\nRTC of 520 children aged 6-23 months",
+      "subsections": {
+        "Initial_Treatment": {
+          "text": "High Dose\nAmoxicillin\n<2 months\n30mg/kg/day PO divided q12h x 10 days\nFirst Dose: 15mg/kg PO x 1\n2 months - 5 years\n80-90mg/kg/day PO divided q12h x 10 days\nFirst Dose: 40-45mg/kg PO x 1\nMax: 1000mg/dose\n6-12 years\n80-90mg/kg/day PO divided q12h x 5-10 days\nFirst Dose: 40-45mg/kg/day PO x 1\nMax: 1000mg/dose",
+          "tables": []
+        },
+        "Treatment_during_prior_Month": {
+          "text": "If amoxicillin taken in past 30 days,\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nClavulanate increases vomiting/diarrhea\nCefdinir\n14mg/kg/day BID x7-10 days\nCefpodoxime\n10mg/kg PO daily x7-10 days\nCefuroxime\n15mg/kg PO BID x7-10 days\nCefprozil\n15mg/kg PO BID x7-10 days",
+          "tables": []
+        },
+        "Otitis/Conjunctivitis": {
+          "text": "Suggestive of non-typeable H.flu\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nClavulanate increases vomiting/diarrhea",
+          "tables": []
+        },
+        "Treatment_Failure": {
+          "text": "defined as treatment during the prior 7-10 days\nAmoxicillin/Clavulanate\n80-90mg of amoxicillin per kg/day PO divided BID x 7-10 days\nCeftriaxone\n50mg/kg IM once as single injection x 3 days\nUse if cannot tolerate PO",
+          "tables": []
+        },
+        "Penicillin_Allergy": {
+          "text": "Azithromycin\n10mg/kg/day x 1 day and 5mg/kg/day x 4 remaining days\nClarithromycin\n7.5mg/kg PO BID x 10 days\nClindamycin\n10mg/kg PO three times daily\nClindamycin does not cover\nH. influenza\nand\nM. catarrhalis\nand treatment should favor Azithromycin use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Cefprozil",
+          "url": "https://wikem.org/wiki/Cefprozil"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "H. influenza",
+          "url": "https://wikem.org/wiki/H._influenza"
+        },
+        {
+          "text": "M. catarrhalis",
+          "url": "https://wikem.org/wiki/M._catarrhalis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Mastoiditis\nMeningitis\nBrain Abscess\nLabyrinthitis\nLateral Venous Sinus Thrombosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Brain Abscess",
+          "url": "https://wikem.org/wiki/Brain_Abscess"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Ear diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear diagnoses",
+          "url": "https://wikem.org/wiki/Ear_diagnoses"
+        }
+      ]
+    }
+  }
+}

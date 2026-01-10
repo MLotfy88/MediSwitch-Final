@@ -1,0 +1,870 @@
+{
+  "drug_name": "Acute_pancreatitis/en",
+  "url": "https://wikem.org/wiki/Acute_pancreatitis/en",
+  "scraped_at": "2026-01-10T07:47:06.730139",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Acute inflammatory process that may involve surrounding tissue and remote organ systems\n[1]\nDisease can range from mild inflammation to severe necrosis and multi-organ failure",
+      "subsections": {
+        "Etiology": {
+          "text": "Gallstones\n(including microlithiasis) - 35-40% of cases in most parts of the world\n[1]\nAlcohol\n(acute and chronic consumption) - 30% of cases in the US\n[2]\nHypertriglyceridemia\nERCP\nMost common post-ERCP complication, usually from mechanical injury from instrumentation of the pancreatic duct or hydrostatic injury from contrast injection\nDrugs (\nAzathioprine\n, cisplatin,\nfurosemide\n,\ntetracycline\n, thiazides, sulfa,\nvalproate\n, didanosine, pentamidine, etc)\nAutoimmune disease (\nSLE\n,\nSjögren\n, etc)\nAbdominal trauma\nPostoperative complications\nInfection\nBacterial:\nLegionella\n,\nLeptospirosis\n,\nMycoplasma\n,\nSalmonella\nViral:\nMumps\n,\ncoxsackie\n,\nCMV\n, echo,\nHep B\nParasitic:\nascaris\n,\ncryptosporidium\n,\ntoxoplasma\nHypercalcemia\nHyperparathyroidism\nIschemia\nPosterior penetrating ulcer\nScorpion venom\n(Caused by the genre\nTityus\nand\nLeiurus\nwhich are distributed in Central/South America and North/East Africa, respectively\nOrganophosphate insecticide\nPancreatic or ampullary tumor\nPancreas divisum with ductular narrowing on pancreatogram\nOddi sphincter dysfunction\nIdiopathic (15-20% of cases)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Etiology": {
+      "text": "Gallstones\n(including microlithiasis) - 35-40% of cases in most parts of the world\n[1]\nAlcohol\n(acute and chronic consumption) - 30% of cases in the US\n[2]\nHypertriglyceridemia\nERCP\nMost common post-ERCP complication, usually from mechanical injury from instrumentation of the pancreatic duct or hydrostatic injury from contrast injection\nDrugs (\nAzathioprine\n, cisplatin,\nfurosemide\n,\ntetracycline\n, thiazides, sulfa,\nvalproate\n, didanosine, pentamidine, etc)\nAutoimmune disease (\nSLE\n,\nSjögren\n, etc)\nAbdominal trauma\nPostoperative complications\nInfection\nBacterial:\nLegionella\n,\nLeptospirosis\n,\nMycoplasma\n,\nSalmonella\nViral:\nMumps\n,\ncoxsackie\n,\nCMV\n, echo,\nHep B\nParasitic:\nascaris\n,\ncryptosporidium\n,\ntoxoplasma\nHypercalcemia\nHyperparathyroidism\nIschemia\nPosterior penetrating ulcer\nScorpion venom\n(Caused by the genre\nTityus\nand\nLeiurus\nwhich are distributed in Central/South America and North/East Africa, respectively\nOrganophosphate insecticide\nPancreatic or ampullary tumor\nPancreas divisum with ductular narrowing on pancreatogram\nOddi sphincter dysfunction\nIdiopathic (15-20% of cases)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain\nis the most common symptom and is often characterized by:\n[1]\nPersistent\nLocalizes to epigastric area, around waist, RUQ, or occasionally LUQ\nRadiates to back\nThe onset may be less abrupt and the pain poorly localized\nNausea/vomiting\nnoted in most\nAbdominal distention is frequent complaint\nCullen sign\n(ecchymosis of periumbilical region) - intrabdominal hemorrhage\nTurner sign (ecchymosis of flanks) - retroperitoneal hemorrhage\nPulmonary Findings\nHypoxemia\n,\nARDS\n, tachypnea\nIndicates severe pancreatitis\nDiaphragmatic inflammation, pancreatico-pleural fistula",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Epigastric_Pain": {
+          "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+          "tables": []
+        },
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Epigastric_Pain": {
+      "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Lipase\nAmylase is both less sensitive and specific (sensitivity: 67-100%; specificity: 85-98%)\n[3]\nCBC\nChemistry\nLFTs\n?\nLactate\n?Triglyceride",
+          "tables": []
+        },
+        "Ultrasound": {
+          "text": "Edematous, swollen pancreas\nGallstones\nPseudocyst / pancreatic abscess",
+          "tables": []
+        },
+        "CT_with_IV_contrast_": {
+          "text": "Little utility early on in disease and unlikely to  affect the management of patients with acute pancreatitis during the first week of the illness\nShould be reserved for patients with persisting organ failure, severe pain and signs of sepsis",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Two of the following:\nCharacteristic abdominal pain\nLipase level >3x upper limit of normal\nSensitivity 82-100%, specificity 82-100%\n[5]\nNegative lipase does not exclude pancreatitis in chronic/recurrent disease\nAbsolute value not associated with prognosis or severity\nCharacteristic findings on\nultrasound\nor CT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-Up": {
+      "text": "Lipase\nAmylase is both less sensitive and specific (sensitivity: 67-100%; specificity: 85-98%)\n[3]\nCBC\nChemistry\nLFTs\n?\nLactate\n?Triglyceride",
+      "subsections": {
+        "Ultrasound": {
+          "text": "Edematous, swollen pancreas\nGallstones\nPseudocyst / pancreatic abscess",
+          "tables": []
+        },
+        "CT_with_IV_contrast_": {
+          "text": "Little utility early on in disease and unlikely to  affect the management of patients with acute pancreatitis during the first week of the illness\nShould be reserved for patients with persisting organ failure, severe pain and signs of sepsis",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Two of the following:\nCharacteristic abdominal pain\nLipase level >3x upper limit of normal\nSensitivity 82-100%, specificity 82-100%\n[5]\nNegative lipase does not exclude pancreatitis in chronic/recurrent disease\nAbsolute value not associated with prognosis or severity\nCharacteristic findings on\nultrasound\nor CT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Two of the following:\nCharacteristic abdominal pain\nLipase level >3x upper limit of normal\nSensitivity 82-100%, specificity 82-100%\n[5]\nNegative lipase does not exclude pancreatitis in chronic/recurrent disease\nAbsolute value not associated with prognosis or severity\nCharacteristic findings on\nultrasound\nor CT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "The core treatment involves supportive care to rest the pancreas. This can be achieved mainly through diet control.",
+      "subsections": {
+        "Diet": {
+          "text": "NPO (clears is probably ok for mild/moderate cases)\nWhen restarting diet, eat small, low-fat meals and gradually advance over 3 to 6 days as tolerated\nIn patients with mild pancreatitis who are tolerating POs and can most likely be discharged. Instructions regarding a light diet and avoidance of alcohol is necessary\n[1]",
+          "tables": []
+        },
+        "IV_Fluids": {
+          "text": "Volume resuscitation\nand constant monitoring of fluid status is important due to the risk of profound\nhypovolemia\n[6]\nMaintain urine output at 0.5 mL/kg",
+          "tables": []
+        },
+        "Analgesia_and_Antiemetics": {
+          "text": "For example:\nDilaudid\n1mg or\nmorphine\n4mg IV PRN\nZofran\n4mg IV PRN",
+          "tables": []
+        },
+        "Electrolyte_and_Other_Molecular_Management": {
+          "text": "Monitor for\nhypocalcemia\nand treat if symptomatic\nMonitor for development of\nhypoglycemia\nor\nhyperglycemia\nConsider albumin replacement if level <2g/dL\nSee\nhypertriglyceridemia\nfor management of high triglycerides",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Antibiotic use is often controversial and generally only required if there are obvious signs or sources of infection. Prophylactic use is not necessary\n[7]\n[8]\n[9]\n[10]\n[11]\nOnly indicated for necrosis, abscess, or infected pseudocyst / peripancreatic fluid\nImipenem-cilastatin\n,\nmeropenem\n, or (\nfluoroquinolone\n+\nmetronidazole\n)",
+          "tables": []
+        },
+        "Bowel_Decompression": {
+          "text": "Consider placement of an\nNG tube\nonly if\nSBO\nor\nileus\nis present and symptomatic",
+          "tables": []
+        },
+        "ERCP": {
+          "text": "Indicated for patients with gallstone pancreatitis with retained CBD stone or cholangitis (recommended within 24 hours)\nAlternative option for patients with gallstone pancreatitis who are poor operative candidates for cholecystectomy",
+          "tables": []
+        },
+        "Cholecystectomy": {
+          "text": "Indicated for patients with biliary pancreatitis. Patients will generally will benefit from early cholecystectomy, as soon as the patient has recovered, preferably within the same hospital admission.\n[13]",
+          "tables": []
+        },
+        "Fluid_Collection_Drainage": {
+          "text": "Symptomatic walled-off pancreatic fluid collections should be evaluated for a drainage procedure.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Medical": {
+      "text": "",
+      "subsections": {
+        "Diet": {
+          "text": "NPO (clears is probably ok for mild/moderate cases)\nWhen restarting diet, eat small, low-fat meals and gradually advance over 3 to 6 days as tolerated\nIn patients with mild pancreatitis who are tolerating POs and can most likely be discharged. Instructions regarding a light diet and avoidance of alcohol is necessary\n[1]",
+          "tables": []
+        },
+        "IV_Fluids": {
+          "text": "Volume resuscitation\nand constant monitoring of fluid status is important due to the risk of profound\nhypovolemia\n[6]\nMaintain urine output at 0.5 mL/kg",
+          "tables": []
+        },
+        "Analgesia_and_Antiemetics": {
+          "text": "For example:\nDilaudid\n1mg or\nmorphine\n4mg IV PRN\nZofran\n4mg IV PRN",
+          "tables": []
+        },
+        "Electrolyte_and_Other_Molecular_Management": {
+          "text": "Monitor for\nhypocalcemia\nand treat if symptomatic\nMonitor for development of\nhypoglycemia\nor\nhyperglycemia\nConsider albumin replacement if level <2g/dL\nSee\nhypertriglyceridemia\nfor management of high triglycerides",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Antibiotic use is often controversial and generally only required if there are obvious signs or sources of infection. Prophylactic use is not necessary\n[7]\n[8]\n[9]\n[10]\n[11]\nOnly indicated for necrosis, abscess, or infected pseudocyst / peripancreatic fluid\nImipenem-cilastatin\n,\nmeropenem\n, or (\nfluoroquinolone\n+\nmetronidazole\n)",
+          "tables": []
+        },
+        "Bowel_Decompression": {
+          "text": "Consider placement of an\nNG tube\nonly if\nSBO\nor\nileus\nis present and symptomatic",
+          "tables": []
+        },
+        "ERCP": {
+          "text": "Indicated for patients with gallstone pancreatitis with retained CBD stone or cholangitis (recommended within 24 hours)\nAlternative option for patients with gallstone pancreatitis who are poor operative candidates for cholecystectomy",
+          "tables": []
+        },
+        "Cholecystectomy": {
+          "text": "Indicated for patients with biliary pancreatitis. Patients will generally will benefit from early cholecystectomy, as soon as the patient has recovered, preferably within the same hospital admission.\n[13]",
+          "tables": []
+        },
+        "Fluid_Collection_Drainage": {
+          "text": "Symptomatic walled-off pancreatic fluid collections should be evaluated for a drainage procedure.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Procedural/Surgical": {
+      "text": "",
+      "subsections": {
+        "Bowel_Decompression": {
+          "text": "Consider placement of an\nNG tube\nonly if\nSBO\nor\nileus\nis present and symptomatic",
+          "tables": []
+        },
+        "ERCP": {
+          "text": "Indicated for patients with gallstone pancreatitis with retained CBD stone or cholangitis (recommended within 24 hours)\nAlternative option for patients with gallstone pancreatitis who are poor operative candidates for cholecystectomy",
+          "tables": []
+        },
+        "Cholecystectomy": {
+          "text": "Indicated for patients with biliary pancreatitis. Patients will generally will benefit from early cholecystectomy, as soon as the patient has recovered, preferably within the same hospital admission.\n[13]",
+          "tables": []
+        },
+        "Fluid_Collection_Drainage": {
+          "text": "Symptomatic walled-off pancreatic fluid collections should be evaluated for a drainage procedure.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Discharge": {
+          "text": "Mild case + no biliary disease + no systemic complication + tolerating clears\nPatients can be discharged when oral analgesics control their pain",
+          "tables": []
+        },
+        "Admit": {
+          "text": "All other patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Mild case + no biliary disease + no systemic complication + tolerating clears\nPatients can be discharged when oral analgesics control their pain",
+      "subsections": {
+        "Admit": {
+          "text": "All other patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admit": {
+      "text": "All other patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "",
+      "subsections": {
+        "Local": {
+          "text": "Pancreatic necrosis\nPancreatic pseudocyst / abscess\nPortal vein thrombosis\nAbdominal compartment syndrome\nAbdominal pseudoaneurysm\nIntra Abdominal hemorrhage",
+          "tables": []
+        },
+        "Systemic": {
+          "text": "Cardiac dysfunction\nRenal failure\nRespiratory failure\nShock\nHypocalcemia\n(due to sequestration in necrotic fat)\nHyperglycemia\nPleural effusion\nwith high amylase",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Local": {
+      "text": "Pancreatic necrosis\nPancreatic pseudocyst / abscess\nPortal vein thrombosis\nAbdominal compartment syndrome\nAbdominal pseudoaneurysm\nIntra Abdominal hemorrhage",
+      "subsections": {
+        "Systemic": {
+          "text": "Cardiac dysfunction\nRenal failure\nRespiratory failure\nShock\nHypocalcemia\n(due to sequestration in necrotic fat)\nHyperglycemia\nPleural effusion\nwith high amylase",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Systemic": {
+      "text": "Cardiac dysfunction\nRenal failure\nRespiratory failure\nShock\nHypocalcemia\n(due to sequestration in necrotic fat)\nHyperglycemia\nPleural effusion\nwith high amylase",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "",
+      "subsections": {
+        "APACHE-II": {
+          "text": "Highest sensitivity and specificity in distinguishing mild from severe pancreatitis\n[14]\nCan be used to estimate the risk of ICU mortality based on worse set of labs during a patient's first 24hrs",
+          "tables": []
+        },
+        "CT_Severity_Index": {
+          "text": "A extension of the Balthazar score with stratification of severity based on score.\n[15]\n[16]\nBalthazar grading of pancreatitis\nA\n= normal pancreas - 0\nB\n= enlargement of pancreas - 1\nC\n= inflammatory changes in pancreas and peripancreatic fat - 2\nD\n= ill defined single fluid collection - 3\nE\n= two or more poorly defined fluid collections - 4\nPancreatic necrosis\nnone - 0\nless than/equal to 30% - 2\n> 30-50 % - 4\n> 50% - 6\nThe maximum score that can be obtained is 10.\n0-3: mild\n4-6: moderate\n7-10: severe",
+          "tables": []
+        },
+        "Ranson_criteria": {
+          "text": "Consist of 11 parameters. Five of the factors are assessed at admission, and six of the factors are assessed during the next 48 hours.\n[17]\nScore of 3 or more indicates severe acute pancreatitis.\nOn admission\nAge > 55\nWBC > 16,000\nBlood glucose >200mg/dL\nLactate dehydrogenase >350 U/L\nAspartate aminotransferase (AST) >250 U/L\n48 hours\nHematocrit fall by > 10%\nBUN increase by >5mg/dL\nSerum Calcium <8mg/dL\npO2 < 60mmHg\nBase deficit >4 MEq/L\nFluid Sequestation > 6L",
+          "tables": []
+        },
+        "BISAP": {
+          "text": "Bedside Index for Severity in Acute Pancreatitis\n[18]\nDecreased sensitivity, but outperforms in specificity as compared to Ranson and APACHE II\n[19]\n[20]\nClinically more manageable to obtain, especially in the ED setting\nBUN > 25 mg/dL\nImpaired mental status, defined as disorientation, lethargy, somnolence\n≥2 SIRS Criteria\nAge > 60 years\nPleural effusion\nInterpretation\nScore of 0-2 had mortality < 2%\nScore of 3-4 has mortality > 15%\nScore of 5 has 22% mortality",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "APACHE-II": {
+      "text": "Highest sensitivity and specificity in distinguishing mild from severe pancreatitis\n[14]\nCan be used to estimate the risk of ICU mortality based on worse set of labs during a patient's first 24hrs",
+      "subsections": {
+        "CT_Severity_Index": {
+          "text": "A extension of the Balthazar score with stratification of severity based on score.\n[15]\n[16]\nBalthazar grading of pancreatitis\nA\n= normal pancreas - 0\nB\n= enlargement of pancreas - 1\nC\n= inflammatory changes in pancreas and peripancreatic fat - 2\nD\n= ill defined single fluid collection - 3\nE\n= two or more poorly defined fluid collections - 4\nPancreatic necrosis\nnone - 0\nless than/equal to 30% - 2\n> 30-50 % - 4\n> 50% - 6\nThe maximum score that can be obtained is 10.\n0-3: mild\n4-6: moderate\n7-10: severe",
+          "tables": []
+        },
+        "Ranson_criteria": {
+          "text": "Consist of 11 parameters. Five of the factors are assessed at admission, and six of the factors are assessed during the next 48 hours.\n[17]\nScore of 3 or more indicates severe acute pancreatitis.\nOn admission\nAge > 55\nWBC > 16,000\nBlood glucose >200mg/dL\nLactate dehydrogenase >350 U/L\nAspartate aminotransferase (AST) >250 U/L\n48 hours\nHematocrit fall by > 10%\nBUN increase by >5mg/dL\nSerum Calcium <8mg/dL\npO2 < 60mmHg\nBase deficit >4 MEq/L\nFluid Sequestation > 6L",
+          "tables": []
+        },
+        "BISAP": {
+          "text": "Bedside Index for Severity in Acute Pancreatitis\n[18]\nDecreased sensitivity, but outperforms in specificity as compared to Ranson and APACHE II\n[19]\n[20]\nClinically more manageable to obtain, especially in the ED setting\nBUN > 25 mg/dL\nImpaired mental status, defined as disorientation, lethargy, somnolence\n≥2 SIRS Criteria\nAge > 60 years\nPleural effusion\nInterpretation\nScore of 0-2 had mortality < 2%\nScore of 3-4 has mortality > 15%\nScore of 5 has 22% mortality",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "CT_Severity_Index": {
+      "text": "A extension of the Balthazar score with stratification of severity based on score.\n[15]\n[16]\nBalthazar grading of pancreatitis\nA\n= normal pancreas - 0\nB\n= enlargement of pancreas - 1\nC\n= inflammatory changes in pancreas and peripancreatic fat - 2\nD\n= ill defined single fluid collection - 3\nE\n= two or more poorly defined fluid collections - 4\nPancreatic necrosis\nnone - 0\nless than/equal to 30% - 2\n> 30-50 % - 4\n> 50% - 6\nThe maximum score that can be obtained is 10.\n0-3: mild\n4-6: moderate\n7-10: severe",
+      "subsections": {
+        "Ranson_criteria": {
+          "text": "Consist of 11 parameters. Five of the factors are assessed at admission, and six of the factors are assessed during the next 48 hours.\n[17]\nScore of 3 or more indicates severe acute pancreatitis.\nOn admission\nAge > 55\nWBC > 16,000\nBlood glucose >200mg/dL\nLactate dehydrogenase >350 U/L\nAspartate aminotransferase (AST) >250 U/L\n48 hours\nHematocrit fall by > 10%\nBUN increase by >5mg/dL\nSerum Calcium <8mg/dL\npO2 < 60mmHg\nBase deficit >4 MEq/L\nFluid Sequestation > 6L",
+          "tables": []
+        },
+        "BISAP": {
+          "text": "Bedside Index for Severity in Acute Pancreatitis\n[18]\nDecreased sensitivity, but outperforms in specificity as compared to Ranson and APACHE II\n[19]\n[20]\nClinically more manageable to obtain, especially in the ED setting\nBUN > 25 mg/dL\nImpaired mental status, defined as disorientation, lethargy, somnolence\n≥2 SIRS Criteria\nAge > 60 years\nPleural effusion\nInterpretation\nScore of 0-2 had mortality < 2%\nScore of 3-4 has mortality > 15%\nScore of 5 has 22% mortality",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ranson_criteria": {
+      "text": "Consist of 11 parameters. Five of the factors are assessed at admission, and six of the factors are assessed during the next 48 hours.\n[17]\nScore of 3 or more indicates severe acute pancreatitis.\nOn admission\nAge > 55\nWBC > 16,000\nBlood glucose >200mg/dL\nLactate dehydrogenase >350 U/L\nAspartate aminotransferase (AST) >250 U/L\n48 hours\nHematocrit fall by > 10%\nBUN increase by >5mg/dL\nSerum Calcium <8mg/dL\npO2 < 60mmHg\nBase deficit >4 MEq/L\nFluid Sequestation > 6L",
+      "subsections": {
+        "BISAP": {
+          "text": "Bedside Index for Severity in Acute Pancreatitis\n[18]\nDecreased sensitivity, but outperforms in specificity as compared to Ranson and APACHE II\n[19]\n[20]\nClinically more manageable to obtain, especially in the ED setting\nBUN > 25 mg/dL\nImpaired mental status, defined as disorientation, lethargy, somnolence\n≥2 SIRS Criteria\nAge > 60 years\nPleural effusion\nInterpretation\nScore of 0-2 had mortality < 2%\nScore of 3-4 has mortality > 15%\nScore of 5 has 22% mortality",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "BISAP": {
+      "text": "Bedside Index for Severity in Acute Pancreatitis\n[18]\nDecreased sensitivity, but outperforms in specificity as compared to Ranson and APACHE II\n[19]\n[20]\nClinically more manageable to obtain, especially in the ED setting\nBUN > 25 mg/dL\nImpaired mental status, defined as disorientation, lethargy, somnolence\n≥2 SIRS Criteria\nAge > 60 years\nPleural effusion\nInterpretation\nScore of 0-2 had mortality < 2%\nScore of 3-4 has mortality > 15%\nScore of 5 has 22% mortality",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pancreatitis Guidelines\nChronic pancreatitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "MDCalc - Ranson's Criteria\nMDCalc - Apache II Score\nMDCalc - BISAP Score for Pancreatitis Mortality",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

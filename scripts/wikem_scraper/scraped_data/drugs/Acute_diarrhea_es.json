@@ -1,0 +1,1335 @@
+{
+  "drug_name": "Acute_diarrhea/es",
+  "url": "https://wikem.org/wiki/Acute_diarrhea/es",
+  "scraped_at": "2026-01-10T07:46:57.783461",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\nThis page is for\nadult\npatients. For pediatric patients, see:\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antecedentes": {
+      "text": "Almost todas las verdaderas emergencias diarreicas son de origen no infeccioso\nEl 85% de la diarrea es infecciosa en etiología\nViruses\ncausan la gran mayoría de la diarrea infecciosa\nLas causas\nbacterianas\nson responsables de la mayoría de los casos de diarrea severa\nLos viajes al extranjero se asocian con una probabilidad del 80% de diarrea bacteriana (ver\nTraveler's Diarrhea\n)",
+      "subsections": {
+        "Definiciones": {
+          "text": "Diarrhea\n: Aumento de la frecuencia de defecación, generalmente >3 movimientos intestinales por día\nHiperagudo: 1-6 hr\nAgudo: menos de 3 semanas de duración\nGastroenteritis\n: Diarrea con náuseas y/o vómitos\nDísentera: Diarrea con sangre/moco/pús\nInvasivo = Infeccioso",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Definiciones": {
+      "text": "Diarrhea\n: Aumento de la frecuencia de defecación, generalmente >3 movimientos intestinales por día\nHiperagudo: 1-6 hr\nAgudo: menos de 3 semanas de duración\nGastroenteritis\n: Diarrea con náuseas y/o vómitos\nDísentera: Diarrea con sangre/moco/pús\nInvasivo = Infeccioso",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Características_clínicas": {
+      "text": "",
+      "subsections": {
+        "Historia": {
+          "text": "¿Posible intoxicación alimentaria?\nLos síntomas ocurren dentro de las 6hr\n¿Se resuelve (osmótica) o persiste (secretoria) con el ayuno?\n¿Las heces son de menor volumen (intestino grueso) o mayor volumen (intestino delgado)\nFiebre\no\ndolor abdominal\n? (\ndiverticulitis\n,\ngastroenteritis\n,\nIBD\n)\nSangrado o melena\n?\n¿Tenesmo? (\nshigella\n)\n¿Maloliente? (\ngiardia\n)\n¿Viaje reciente? (\nTraveler's Diarrhea\n)\n¿Antibióticos recientes? (\nC. diff\n)\nVIH\n/inmunocomprometido/comportamientos de alto riesgo?\n¿Intolerancia al calor y ansiedad? (\ntirotoksicosismo\n)\nParestesias\no sensación de temperatura inversa? (\nCiguatera\n)",
+          "tables": []
+        },
+        "Examen_Físico": {
+          "text": "Tiroides\nmasas\nÚlceras orales, eritema nodoso, epiescleritis,\nfisura anal\n(\nIBD\n)\nArtritis reactiva\n(\nArtritis\n,\nconjuntivitis\n, uretritis)\nSugiere infección con\nsalmonella\n,\nshigella\n,\ncampylobacter\no\nyersinia\nExamen rectal para\nimpacción fecal\nGuaiac\nDolor abdominal\ndesproporcionado con el examen (\nisquemia mesentérica\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Historia": {
+      "text": "¿Posible intoxicación alimentaria?\nLos síntomas ocurren dentro de las 6hr\n¿Se resuelve (osmótica) o persiste (secretoria) con el ayuno?\n¿Las heces son de menor volumen (intestino grueso) o mayor volumen (intestino delgado)\nFiebre\no\ndolor abdominal\n? (\ndiverticulitis\n,\ngastroenteritis\n,\nIBD\n)\nSangrado o melena\n?\n¿Tenesmo? (\nshigella\n)\n¿Maloliente? (\ngiardia\n)\n¿Viaje reciente? (\nTraveler's Diarrhea\n)\n¿Antibióticos recientes? (\nC. diff\n)\nVIH\n/inmunocomprometido/comportamientos de alto riesgo?\n¿Intolerancia al calor y ansiedad? (\ntirotoksicosismo\n)\nParestesias\no sensación de temperatura inversa? (\nCiguatera\n)",
+      "subsections": {
+        "Examen_Físico": {
+          "text": "Tiroides\nmasas\nÚlceras orales, eritema nodoso, epiescleritis,\nfisura anal\n(\nIBD\n)\nArtritis reactiva\n(\nArtritis\n,\nconjuntivitis\n, uretritis)\nSugiere infección con\nsalmonella\n,\nshigella\n,\ncampylobacter\no\nyersinia\nExamen rectal para\nimpacción fecal\nGuaiac\nDolor abdominal\ndesproporcionado con el examen (\nisquemia mesentérica\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Examen_Físico": {
+      "text": "Tiroides\nmasas\nÚlceras orales, eritema nodoso, epiescleritis,\nfisura anal\n(\nIBD\n)\nArtritis reactiva\n(\nArtritis\n,\nconjuntivitis\n, uretritis)\nSugiere infección con\nsalmonella\n,\nshigella\n,\ncampylobacter\no\nyersinia\nExamen rectal para\nimpacción fecal\nGuaiac\nDolor abdominal\ndesproporcionado con el examen (\nisquemia mesentérica\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Diagnóstico_diferencial": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[1]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Acute_diarrhea": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[1]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Evaluación": {
+      "text": "",
+      "subsections": {
+        "Toxigénico_v._Infeccioso": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Característica": "Incubación",
+                "Tóxico": "2-12h",
+                "Infeccioso/Invasivo": "1-3d"
+              },
+              {
+                "Característica": "Inicio",
+                "Tóxico": "brusco",
+                "Infeccioso/Invasivo": "gradual"
+              },
+              {
+                "Característica": "Duración",
+                "Tóxico": "<10-24h",
+                "Infeccioso/Invasivo": "1-7días"
+              },
+              {
+                "Característica": "Fiebre",
+                "Tóxico": "No",
+                "Infeccioso/Invasivo": "Sí"
+              },
+              {
+                "Característica": "Dolor abdominal",
+                "Tóxico": "Mínimo",
+                "Infeccioso/Invasivo": "Sí, tenesmo"
+              },
+              {
+                "Característica": "Síntomas sistémicos",
+                "Tóxico": "No",
+                "Infeccioso/Invasivo": "Sí, mialgias, náuseas y vómitos"
+              },
+              {
+                "Característica": "Hallazgos físicos",
+                "Tóxico": "No tóxico",
+                "Infeccioso/Invasivo": "Tóxico"
+              },
+              {
+                "Característica": "Sensibilidad abdominal",
+                "Tóxico": "No",
+                "Infeccioso/Invasivo": "Sí"
+              },
+              {
+                "Característica": "Sangre en las heces, WBCs",
+                "Tóxico": "No",
+                "Infeccioso/Invasivo": "Sí"
+              }
+            ]
+          ]
+        },
+        "Indicaciones_para_la_evaluación": {
+          "text": "Indicado para:\nDiarrhea acuosa profusa con signos de\nhipovolemia\nDolor\nabdominal\nsevero\nFiebre\n>38.5 (101.3) (sugiere infección con bacterias invasoras)\nSíntomas >2-3d\nSangre o pus en las heces (\nE. coli\n0157:H7)\nHospitalización reciente o uso de antibióticos\nAncianos o inmunocomprometidos\nEnfermedad sistémica con diarrea (esp si está embarazada (\nlisteria\n))",
+          "tables": []
+        },
+        "Leucocitos_fecales": {
+          "text": "Utilizados para diferenciar las diarreas infecciosas invasoras de las no invasoras\nSensibilidad (Sn) 50-80%, Especificidad (Sp) 83% para la presencia de patógeno bacteriano\nSi el paciente tiene leucocitos + pero infección negativa, considerar EII (Enfermedad Inflamatoria Intestinal)",
+          "tables": []
+        },
+        "Cultivo_de_heces": {
+          "text": "Desempeña un papel menor en la evaluación en el DE (Departamento de Emergencias)\nEl rendimiento es solo del 1,5-5,5%\nConsiderar en pacientes con\nInmunosupresión\nDiarrea inflamatoria severa (incluyendo diarrea con sangre)\nEII subyacente (necesidad de distinguir entre brote y infección superpuesta)",
+          "tables": []
+        },
+        "O&P_(Huevos_y_Parásitos)": {
+          "text": "Indicado si se sospecha causa parasitaria:\nDiarrea\n>7d\nAgua no tratada\nSIDA\nDiarrea con sangre y pocos o ningún leucocito fecal (\namebiasis intestinal\n)",
+          "tables": []
+        },
+        "Toxina_de_C._diff": {
+          "text": "Tasa de falsos negativos del 10%\nTiempo de respuesta para los resultados varía según la institución",
+          "tables": []
+        },
+        "Química": {
+          "text": "Justificado en pacientes con deshidratación severa",
+          "tables": []
+        },
+        "Radiografía_de_tórax": {
+          "text": "Considerar si diarrea + tos (\nLegionella\n)",
+          "tables": []
+        },
+        "Imágenes": {
+          "text": "Considerar TC abdominal si hay dolor abdominal o sospecha de abdomen quirúrgico (p. ej.\napendicitis\n,\nobstrucción del intestino delgado\n,\nisquemia mesentérica\n)\nLa\nradiografía abdominal\ncasi nunca está indicada debido a su baja sensibilidad para detectar patología (p. ej.\nobstrucción\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxigénico_v._Infeccioso": {
+      "text": "",
+      "subsections": {
+        "Indicaciones_para_la_evaluación": {
+          "text": "Indicado para:\nDiarrhea acuosa profusa con signos de\nhipovolemia\nDolor\nabdominal\nsevero\nFiebre\n>38.5 (101.3) (sugiere infección con bacterias invasoras)\nSíntomas >2-3d\nSangre o pus en las heces (\nE. coli\n0157:H7)\nHospitalización reciente o uso de antibióticos\nAncianos o inmunocomprometidos\nEnfermedad sistémica con diarrea (esp si está embarazada (\nlisteria\n))",
+          "tables": []
+        },
+        "Leucocitos_fecales": {
+          "text": "Utilizados para diferenciar las diarreas infecciosas invasoras de las no invasoras\nSensibilidad (Sn) 50-80%, Especificidad (Sp) 83% para la presencia de patógeno bacteriano\nSi el paciente tiene leucocitos + pero infección negativa, considerar EII (Enfermedad Inflamatoria Intestinal)",
+          "tables": []
+        },
+        "Cultivo_de_heces": {
+          "text": "Desempeña un papel menor en la evaluación en el DE (Departamento de Emergencias)\nEl rendimiento es solo del 1,5-5,5%\nConsiderar en pacientes con\nInmunosupresión\nDiarrea inflamatoria severa (incluyendo diarrea con sangre)\nEII subyacente (necesidad de distinguir entre brote y infección superpuesta)",
+          "tables": []
+        },
+        "O&P_(Huevos_y_Parásitos)": {
+          "text": "Indicado si se sospecha causa parasitaria:\nDiarrea\n>7d\nAgua no tratada\nSIDA\nDiarrea con sangre y pocos o ningún leucocito fecal (\namebiasis intestinal\n)",
+          "tables": []
+        },
+        "Toxina_de_C._diff": {
+          "text": "Tasa de falsos negativos del 10%\nTiempo de respuesta para los resultados varía según la institución",
+          "tables": []
+        },
+        "Química": {
+          "text": "Justificado en pacientes con deshidratación severa",
+          "tables": []
+        },
+        "Radiografía_de_tórax": {
+          "text": "Considerar si diarrea + tos (\nLegionella\n)",
+          "tables": []
+        },
+        "Imágenes": {
+          "text": "Considerar TC abdominal si hay dolor abdominal o sospecha de abdomen quirúrgico (p. ej.\napendicitis\n,\nobstrucción del intestino delgado\n,\nisquemia mesentérica\n)\nLa\nradiografía abdominal\ncasi nunca está indicada debido a su baja sensibilidad para detectar patología (p. ej.\nobstrucción\n)",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Característica": "Incubación",
+            "Tóxico": "2-12h",
+            "Infeccioso/Invasivo": "1-3d"
+          },
+          {
+            "Característica": "Inicio",
+            "Tóxico": "brusco",
+            "Infeccioso/Invasivo": "gradual"
+          },
+          {
+            "Característica": "Duración",
+            "Tóxico": "<10-24h",
+            "Infeccioso/Invasivo": "1-7días"
+          },
+          {
+            "Característica": "Fiebre",
+            "Tóxico": "No",
+            "Infeccioso/Invasivo": "Sí"
+          },
+          {
+            "Característica": "Dolor abdominal",
+            "Tóxico": "Mínimo",
+            "Infeccioso/Invasivo": "Sí, tenesmo"
+          },
+          {
+            "Característica": "Síntomas sistémicos",
+            "Tóxico": "No",
+            "Infeccioso/Invasivo": "Sí, mialgias, náuseas y vómitos"
+          },
+          {
+            "Característica": "Hallazgos físicos",
+            "Tóxico": "No tóxico",
+            "Infeccioso/Invasivo": "Tóxico"
+          },
+          {
+            "Característica": "Sensibilidad abdominal",
+            "Tóxico": "No",
+            "Infeccioso/Invasivo": "Sí"
+          },
+          {
+            "Característica": "Sangre en las heces, WBCs",
+            "Tóxico": "No",
+            "Infeccioso/Invasivo": "Sí"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Indicaciones_para_la_evaluación": {
+      "text": "Indicado para:\nDiarrhea acuosa profusa con signos de\nhipovolemia\nDolor\nabdominal\nsevero\nFiebre\n>38.5 (101.3) (sugiere infección con bacterias invasoras)\nSíntomas >2-3d\nSangre o pus en las heces (\nE. coli\n0157:H7)\nHospitalización reciente o uso de antibióticos\nAncianos o inmunocomprometidos\nEnfermedad sistémica con diarrea (esp si está embarazada (\nlisteria\n))",
+      "subsections": {
+        "Leucocitos_fecales": {
+          "text": "Utilizados para diferenciar las diarreas infecciosas invasoras de las no invasoras\nSensibilidad (Sn) 50-80%, Especificidad (Sp) 83% para la presencia de patógeno bacteriano\nSi el paciente tiene leucocitos + pero infección negativa, considerar EII (Enfermedad Inflamatoria Intestinal)",
+          "tables": []
+        },
+        "Cultivo_de_heces": {
+          "text": "Desempeña un papel menor en la evaluación en el DE (Departamento de Emergencias)\nEl rendimiento es solo del 1,5-5,5%\nConsiderar en pacientes con\nInmunosupresión\nDiarrea inflamatoria severa (incluyendo diarrea con sangre)\nEII subyacente (necesidad de distinguir entre brote y infección superpuesta)",
+          "tables": []
+        },
+        "O&P_(Huevos_y_Parásitos)": {
+          "text": "Indicado si se sospecha causa parasitaria:\nDiarrea\n>7d\nAgua no tratada\nSIDA\nDiarrea con sangre y pocos o ningún leucocito fecal (\namebiasis intestinal\n)",
+          "tables": []
+        },
+        "Toxina_de_C._diff": {
+          "text": "Tasa de falsos negativos del 10%\nTiempo de respuesta para los resultados varía según la institución",
+          "tables": []
+        },
+        "Química": {
+          "text": "Justificado en pacientes con deshidratación severa",
+          "tables": []
+        },
+        "Radiografía_de_tórax": {
+          "text": "Considerar si diarrea + tos (\nLegionella\n)",
+          "tables": []
+        },
+        "Imágenes": {
+          "text": "Considerar TC abdominal si hay dolor abdominal o sospecha de abdomen quirúrgico (p. ej.\napendicitis\n,\nobstrucción del intestino delgado\n,\nisquemia mesentérica\n)\nLa\nradiografía abdominal\ncasi nunca está indicada debido a su baja sensibilidad para detectar patología (p. ej.\nobstrucción\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Estudios_de_heces": {
+      "text": "",
+      "subsections": {
+        "Leucocitos_fecales": {
+          "text": "Utilizados para diferenciar las diarreas infecciosas invasoras de las no invasoras\nSensibilidad (Sn) 50-80%, Especificidad (Sp) 83% para la presencia de patógeno bacteriano\nSi el paciente tiene leucocitos + pero infección negativa, considerar EII (Enfermedad Inflamatoria Intestinal)",
+          "tables": []
+        },
+        "Cultivo_de_heces": {
+          "text": "Desempeña un papel menor en la evaluación en el DE (Departamento de Emergencias)\nEl rendimiento es solo del 1,5-5,5%\nConsiderar en pacientes con\nInmunosupresión\nDiarrea inflamatoria severa (incluyendo diarrea con sangre)\nEII subyacente (necesidad de distinguir entre brote y infección superpuesta)",
+          "tables": []
+        },
+        "O&P_(Huevos_y_Parásitos)": {
+          "text": "Indicado si se sospecha causa parasitaria:\nDiarrea\n>7d\nAgua no tratada\nSIDA\nDiarrea con sangre y pocos o ningún leucocito fecal (\namebiasis intestinal\n)",
+          "tables": []
+        },
+        "Toxina_de_C._diff": {
+          "text": "Tasa de falsos negativos del 10%\nTiempo de respuesta para los resultados varía según la institución",
+          "tables": []
+        },
+        "Química": {
+          "text": "Justificado en pacientes con deshidratación severa",
+          "tables": []
+        },
+        "Radiografía_de_tórax": {
+          "text": "Considerar si diarrea + tos (\nLegionella\n)",
+          "tables": []
+        },
+        "Imágenes": {
+          "text": "Considerar TC abdominal si hay dolor abdominal o sospecha de abdomen quirúrgico (p. ej.\napendicitis\n,\nobstrucción del intestino delgado\n,\nisquemia mesentérica\n)\nLa\nradiografía abdominal\ncasi nunca está indicada debido a su baja sensibilidad para detectar patología (p. ej.\nobstrucción\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Terapias_de_soporte": {
+      "text": "",
+      "subsections": {
+        "Terapia_de_rehidratación_oral": {
+          "text": "Los líquidos deben contener azúcar, sal y agua",
+          "tables": []
+        },
+        "Probióticos": {
+          "text": "Lactobacilos y bifidobacterias\nDisminución del 25% en la duración promedio de la diarrea (buena evidencia)",
+          "tables": []
+        },
+        "Modificación_de_la_dieta": {
+          "text": "Comer: dieta BRAT (plátanos, arroz, puré de manzana y tostada) (no hay evidencia)\nEvitar:\ncafeína\n(aumenta la motilidad gástrica), frutas crudas (aumenta la diarrea osmótica), lactosa",
+          "tables": []
+        },
+        "Subsalicilato_de_bismuto": {
+          "text": "Considerar cuando la loperamida está contraindicada (fiebre alta, disentería)\nDosis: 30 mL o 2 tabletas cada 30 minutos durante 8 dosis; repetir al día siguiente\nPrecaución: puede causar\nencefalopatía por bismuto\nen pacientes con\nVIH",
+          "tables": []
+        },
+        "Loperamida": {
+          "text": "2mg VO por dosis\nInicio: 4mg VO x1, luego 2mg VO después de cada heces sueltas; Máx: 16mg/día\nContraindicado si se sospecha\nC. diff",
+          "tables": []
+        },
+        "Difenoxilato/atropina": {
+          "text": "Dosis: 4mg cada 4 horas durante 2 días\nAgente de segunda línea (puede causar efectos secundarios colinérgicos)\nContraindicado en colitis pseudomembranosa, ictericia obstructiva y niños <6 años",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Terapia_de_rehidratación_oral": {
+      "text": "Los líquidos deben contener azúcar, sal y agua",
+      "subsections": {
+        "Probióticos": {
+          "text": "Lactobacilos y bifidobacterias\nDisminución del 25% en la duración promedio de la diarrea (buena evidencia)",
+          "tables": []
+        },
+        "Modificación_de_la_dieta": {
+          "text": "Comer: dieta BRAT (plátanos, arroz, puré de manzana y tostada) (no hay evidencia)\nEvitar:\ncafeína\n(aumenta la motilidad gástrica), frutas crudas (aumenta la diarrea osmótica), lactosa",
+          "tables": []
+        },
+        "Subsalicilato_de_bismuto": {
+          "text": "Considerar cuando la loperamida está contraindicada (fiebre alta, disentería)\nDosis: 30 mL o 2 tabletas cada 30 minutos durante 8 dosis; repetir al día siguiente\nPrecaución: puede causar\nencefalopatía por bismuto\nen pacientes con\nVIH",
+          "tables": []
+        },
+        "Loperamida": {
+          "text": "2mg VO por dosis\nInicio: 4mg VO x1, luego 2mg VO después de cada heces sueltas; Máx: 16mg/día\nContraindicado si se sospecha\nC. diff",
+          "tables": []
+        },
+        "Difenoxilato/atropina": {
+          "text": "Dosis: 4mg cada 4 horas durante 2 días\nAgente de segunda línea (puede causar efectos secundarios colinérgicos)\nContraindicado en colitis pseudomembranosa, ictericia obstructiva y niños <6 años",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Probióticos": {
+      "text": "Lactobacilos y bifidobacterias\nDisminución del 25% en la duración promedio de la diarrea (buena evidencia)",
+      "subsections": {
+        "Modificación_de_la_dieta": {
+          "text": "Comer: dieta BRAT (plátanos, arroz, puré de manzana y tostada) (no hay evidencia)\nEvitar:\ncafeína\n(aumenta la motilidad gástrica), frutas crudas (aumenta la diarrea osmótica), lactosa",
+          "tables": []
+        },
+        "Subsalicilato_de_bismuto": {
+          "text": "Considerar cuando la loperamida está contraindicada (fiebre alta, disentería)\nDosis: 30 mL o 2 tabletas cada 30 minutos durante 8 dosis; repetir al día siguiente\nPrecaución: puede causar\nencefalopatía por bismuto\nen pacientes con\nVIH",
+          "tables": []
+        },
+        "Loperamida": {
+          "text": "2mg VO por dosis\nInicio: 4mg VO x1, luego 2mg VO después de cada heces sueltas; Máx: 16mg/día\nContraindicado si se sospecha\nC. diff",
+          "tables": []
+        },
+        "Difenoxilato/atropina": {
+          "text": "Dosis: 4mg cada 4 horas durante 2 días\nAgente de segunda línea (puede causar efectos secundarios colinérgicos)\nContraindicado en colitis pseudomembranosa, ictericia obstructiva y niños <6 años",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Modificación_de_la_dieta": {
+      "text": "Comer: dieta BRAT (plátanos, arroz, puré de manzana y tostada) (no hay evidencia)\nEvitar:\ncafeína\n(aumenta la motilidad gástrica), frutas crudas (aumenta la diarrea osmótica), lactosa",
+      "subsections": {
+        "Subsalicilato_de_bismuto": {
+          "text": "Considerar cuando la loperamida está contraindicada (fiebre alta, disentería)\nDosis: 30 mL o 2 tabletas cada 30 minutos durante 8 dosis; repetir al día siguiente\nPrecaución: puede causar\nencefalopatía por bismuto\nen pacientes con\nVIH",
+          "tables": []
+        },
+        "Loperamida": {
+          "text": "2mg VO por dosis\nInicio: 4mg VO x1, luego 2mg VO después de cada heces sueltas; Máx: 16mg/día\nContraindicado si se sospecha\nC. diff",
+          "tables": []
+        },
+        "Difenoxilato/atropina": {
+          "text": "Dosis: 4mg cada 4 horas durante 2 días\nAgente de segunda línea (puede causar efectos secundarios colinérgicos)\nContraindicado en colitis pseudomembranosa, ictericia obstructiva y niños <6 años",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Subsalicilato_de_bismuto": {
+      "text": "Considerar cuando la loperamida está contraindicada (fiebre alta, disentería)\nDosis: 30 mL o 2 tabletas cada 30 minutos durante 8 dosis; repetir al día siguiente\nPrecaución: puede causar\nencefalopatía por bismuto\nen pacientes con\nVIH",
+      "subsections": {
+        "Loperamida": {
+          "text": "2mg VO por dosis\nInicio: 4mg VO x1, luego 2mg VO después de cada heces sueltas; Máx: 16mg/día\nContraindicado si se sospecha\nC. diff",
+          "tables": []
+        },
+        "Difenoxilato/atropina": {
+          "text": "Dosis: 4mg cada 4 horas durante 2 días\nAgente de segunda línea (puede causar efectos secundarios colinérgicos)\nContraindicado en colitis pseudomembranosa, ictericia obstructiva y niños <6 años",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Loperamida": {
+      "text": "2mg VO por dosis\nInicio: 4mg VO x1, luego 2mg VO después de cada heces sueltas; Máx: 16mg/día\nContraindicado si se sospecha\nC. diff",
+      "subsections": {
+        "Difenoxilato/atropina": {
+          "text": "Dosis: 4mg cada 4 horas durante 2 días\nAgente de segunda línea (puede causar efectos secundarios colinérgicos)\nContraindicado en colitis pseudomembranosa, ictericia obstructiva y niños <6 años",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Difenoxilato/atropina": {
+      "text": "Dosis: 4mg cada 4 horas durante 2 días\nAgente de segunda línea (puede causar efectos secundarios colinérgicos)\nContraindicado en colitis pseudomembranosa, ictericia obstructiva y niños <6 años",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibióticos_para_la_diarrea_infecciosa": {
+      "text": "La mayoría de los casos de diarrea NO son causados por causas infecciosas. Si el paciente sospecha que hay sangre en las heces pero no hay dolor abdominal, y no hay fiebre, es poco probable que la causa sea bacteriana. También se deben evitar los antibióticos en casos de E. Coli 0157:H7 (EHEC) debido al riesgo de\nSíndrome Urémico Hemolítico (HUS)\n[2]\nLa mayoría de los pacientes, incluso con cultivos bacterianos positivos, se recuperarán de la enfermedad diarreica sin terapia antibiótica\n[3]",
+      "subsections": {
+        "Indicaciones_relativas_para_antibióticos": {
+          "text": "Sospecha de diarrea bacteriana\nDiarrea con sangre (excepto para EHEC) con fiebre y enfermedad sistémica\nSangre oculta o leucocitos fecales (+)\nDiarrea del viajero moderada a severa (>4 heces/d, fiebre, sangre o moco en las heces)\n>8 heces/d\nDepletación de volumen\n>1 semana de duración\nInmunocomprometido\nApariencia tóxica",
+          "tables": []
+        },
+        "Terapia_empírica": {
+          "text": "Ciprofloxacin\n500mg PO BID x 5 days  OR\nLevofloxacin\n599mg PO once daily x 5 days OR\nTMP/SMX\n1 DS tablet PO BID x 5 days",
+          "tables": []
+        },
+        "Diarrea_del_viajero": {
+          "text": "La terapia debe basarse en la\ngeografía del viaje\nOpciones para adultos:\nCiprofloxacin\n750mg PO once daily x 1-3 days\n[5]\nFirst choice for use except in South and Southeast Asia\n[6]\nAzithromycin\n500mg PO q24h x 3 days OR 1000mg PO x 1\n[7]\nNausea is a frequent adverse event\n[8]\nFirst choice for use in South and Southeast Asia\n[9]\nRifaximin\n200mg PO TID x 3 days\n[10]\nIneffective against mucosally invasive pathogens (\nShigella\n,\nSalmonella\n,\nCampylobacter\n)\nConsidered very safe as it is not absorbed\nOpciones pediátricas:\nAvoid\nfluroquinolones\nAzithromycin\n10mg/kg/day once daily x 3 days OR\n[11]\nCeftriaxone\n50mg/kg/day once daily x 3 days",
+          "tables": []
+        },
+        "Antibióticos_específicos_para_cultivo": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agente": "Clostridium difficile",
+                "Tratamiento": "Template:Antibióticos para C. diff severa"
+              },
+              {
+                "Agente": "Campylobacter jejuni",
+                "Tratamiento": "Template:Antibióticos para Campylobacter"
+              },
+              {
+                "Agente": "Entamoeba histolytica",
+                "Tratamiento": "Template:Antibióticos para diarrea por Entamoeba"
+              },
+              {
+                "Agente": "Giardia lamblia",
+                "Tratamiento": "Template:Antibióticos para Giardia"
+              },
+              {
+                "Agente": "Microsporidium",
+                "Tratamiento": "Template:Antibióticos para Microsporidium"
+              },
+              {
+                "Agente": "Cryptosporidium",
+                "Tratamiento": "Template:Antibióticos para diarrea por Cryptosporidium"
+              },
+              {
+                "Agente": "Salmonella(no tifoidea)",
+                "Tratamiento": "Template:Antibióticos para diarrea por Salmonella"
+              },
+              {
+                "Agente": "Shigella",
+                "Tratamiento": "Template:Antibióticos para diarrea por Shigella"
+              },
+              {
+                "Agente": "Vibrio Cholerae",
+                "Tratamiento": "Template:Antibióticos para Vibrio cholerae"
+              },
+              {
+                "Agente": "Yersinia enterocolitica",
+                "Tratamiento": "Template:Antibióticos para Yersinia enterocolitica"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Rifaximin",
+          "url": "https://wikem.org/wiki/Rifaximin"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "fluroquinolones",
+          "url": "https://wikem.org/wiki/Fluroquinolones"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Indicaciones_relativas_para_antibióticos": {
+      "text": "Sospecha de diarrea bacteriana\nDiarrea con sangre (excepto para EHEC) con fiebre y enfermedad sistémica\nSangre oculta o leucocitos fecales (+)\nDiarrea del viajero moderada a severa (>4 heces/d, fiebre, sangre o moco en las heces)\n>8 heces/d\nDepletación de volumen\n>1 semana de duración\nInmunocomprometido\nApariencia tóxica",
+      "subsections": {
+        "Terapia_empírica": {
+          "text": "Ciprofloxacin\n500mg PO BID x 5 days  OR\nLevofloxacin\n599mg PO once daily x 5 days OR\nTMP/SMX\n1 DS tablet PO BID x 5 days",
+          "tables": []
+        },
+        "Diarrea_del_viajero": {
+          "text": "La terapia debe basarse en la\ngeografía del viaje\nOpciones para adultos:\nCiprofloxacin\n750mg PO once daily x 1-3 days\n[5]\nFirst choice for use except in South and Southeast Asia\n[6]\nAzithromycin\n500mg PO q24h x 3 days OR 1000mg PO x 1\n[7]\nNausea is a frequent adverse event\n[8]\nFirst choice for use in South and Southeast Asia\n[9]\nRifaximin\n200mg PO TID x 3 days\n[10]\nIneffective against mucosally invasive pathogens (\nShigella\n,\nSalmonella\n,\nCampylobacter\n)\nConsidered very safe as it is not absorbed\nOpciones pediátricas:\nAvoid\nfluroquinolones\nAzithromycin\n10mg/kg/day once daily x 3 days OR\n[11]\nCeftriaxone\n50mg/kg/day once daily x 3 days",
+          "tables": []
+        },
+        "Antibióticos_específicos_para_cultivo": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agente": "Clostridium difficile",
+                "Tratamiento": "Template:Antibióticos para C. diff severa"
+              },
+              {
+                "Agente": "Campylobacter jejuni",
+                "Tratamiento": "Template:Antibióticos para Campylobacter"
+              },
+              {
+                "Agente": "Entamoeba histolytica",
+                "Tratamiento": "Template:Antibióticos para diarrea por Entamoeba"
+              },
+              {
+                "Agente": "Giardia lamblia",
+                "Tratamiento": "Template:Antibióticos para Giardia"
+              },
+              {
+                "Agente": "Microsporidium",
+                "Tratamiento": "Template:Antibióticos para Microsporidium"
+              },
+              {
+                "Agente": "Cryptosporidium",
+                "Tratamiento": "Template:Antibióticos para diarrea por Cryptosporidium"
+              },
+              {
+                "Agente": "Salmonella(no tifoidea)",
+                "Tratamiento": "Template:Antibióticos para diarrea por Salmonella"
+              },
+              {
+                "Agente": "Shigella",
+                "Tratamiento": "Template:Antibióticos para diarrea por Shigella"
+              },
+              {
+                "Agente": "Vibrio Cholerae",
+                "Tratamiento": "Template:Antibióticos para Vibrio cholerae"
+              },
+              {
+                "Agente": "Yersinia enterocolitica",
+                "Tratamiento": "Template:Antibióticos para Yersinia enterocolitica"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Rifaximin",
+          "url": "https://wikem.org/wiki/Rifaximin"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "fluroquinolones",
+          "url": "https://wikem.org/wiki/Fluroquinolones"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Terapia_empírica": {
+      "text": "Ciprofloxacin\n500mg PO BID x 5 days  OR\nLevofloxacin\n599mg PO once daily x 5 days OR\nTMP/SMX\n1 DS tablet PO BID x 5 days",
+      "subsections": {
+        "Diarrea_del_viajero": {
+          "text": "La terapia debe basarse en la\ngeografía del viaje\nOpciones para adultos:\nCiprofloxacin\n750mg PO once daily x 1-3 days\n[5]\nFirst choice for use except in South and Southeast Asia\n[6]\nAzithromycin\n500mg PO q24h x 3 days OR 1000mg PO x 1\n[7]\nNausea is a frequent adverse event\n[8]\nFirst choice for use in South and Southeast Asia\n[9]\nRifaximin\n200mg PO TID x 3 days\n[10]\nIneffective against mucosally invasive pathogens (\nShigella\n,\nSalmonella\n,\nCampylobacter\n)\nConsidered very safe as it is not absorbed\nOpciones pediátricas:\nAvoid\nfluroquinolones\nAzithromycin\n10mg/kg/day once daily x 3 days OR\n[11]\nCeftriaxone\n50mg/kg/day once daily x 3 days",
+          "tables": []
+        },
+        "Antibióticos_específicos_para_cultivo": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agente": "Clostridium difficile",
+                "Tratamiento": "Template:Antibióticos para C. diff severa"
+              },
+              {
+                "Agente": "Campylobacter jejuni",
+                "Tratamiento": "Template:Antibióticos para Campylobacter"
+              },
+              {
+                "Agente": "Entamoeba histolytica",
+                "Tratamiento": "Template:Antibióticos para diarrea por Entamoeba"
+              },
+              {
+                "Agente": "Giardia lamblia",
+                "Tratamiento": "Template:Antibióticos para Giardia"
+              },
+              {
+                "Agente": "Microsporidium",
+                "Tratamiento": "Template:Antibióticos para Microsporidium"
+              },
+              {
+                "Agente": "Cryptosporidium",
+                "Tratamiento": "Template:Antibióticos para diarrea por Cryptosporidium"
+              },
+              {
+                "Agente": "Salmonella(no tifoidea)",
+                "Tratamiento": "Template:Antibióticos para diarrea por Salmonella"
+              },
+              {
+                "Agente": "Shigella",
+                "Tratamiento": "Template:Antibióticos para diarrea por Shigella"
+              },
+              {
+                "Agente": "Vibrio Cholerae",
+                "Tratamiento": "Template:Antibióticos para Vibrio cholerae"
+              },
+              {
+                "Agente": "Yersinia enterocolitica",
+                "Tratamiento": "Template:Antibióticos para Yersinia enterocolitica"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Rifaximin",
+          "url": "https://wikem.org/wiki/Rifaximin"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "fluroquinolones",
+          "url": "https://wikem.org/wiki/Fluroquinolones"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Diarrea_del_viajero": {
+      "text": "La terapia debe basarse en la\ngeografía del viaje\nOpciones para adultos:\nCiprofloxacin\n750mg PO once daily x 1-3 days\n[5]\nFirst choice for use except in South and Southeast Asia\n[6]\nAzithromycin\n500mg PO q24h x 3 days OR 1000mg PO x 1\n[7]\nNausea is a frequent adverse event\n[8]\nFirst choice for use in South and Southeast Asia\n[9]\nRifaximin\n200mg PO TID x 3 days\n[10]\nIneffective against mucosally invasive pathogens (\nShigella\n,\nSalmonella\n,\nCampylobacter\n)\nConsidered very safe as it is not absorbed\nOpciones pediátricas:\nAvoid\nfluroquinolones\nAzithromycin\n10mg/kg/day once daily x 3 days OR\n[11]\nCeftriaxone\n50mg/kg/day once daily x 3 days",
+      "subsections": {
+        "Antibióticos_específicos_para_cultivo": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agente": "Clostridium difficile",
+                "Tratamiento": "Template:Antibióticos para C. diff severa"
+              },
+              {
+                "Agente": "Campylobacter jejuni",
+                "Tratamiento": "Template:Antibióticos para Campylobacter"
+              },
+              {
+                "Agente": "Entamoeba histolytica",
+                "Tratamiento": "Template:Antibióticos para diarrea por Entamoeba"
+              },
+              {
+                "Agente": "Giardia lamblia",
+                "Tratamiento": "Template:Antibióticos para Giardia"
+              },
+              {
+                "Agente": "Microsporidium",
+                "Tratamiento": "Template:Antibióticos para Microsporidium"
+              },
+              {
+                "Agente": "Cryptosporidium",
+                "Tratamiento": "Template:Antibióticos para diarrea por Cryptosporidium"
+              },
+              {
+                "Agente": "Salmonella(no tifoidea)",
+                "Tratamiento": "Template:Antibióticos para diarrea por Salmonella"
+              },
+              {
+                "Agente": "Shigella",
+                "Tratamiento": "Template:Antibióticos para diarrea por Shigella"
+              },
+              {
+                "Agente": "Vibrio Cholerae",
+                "Tratamiento": "Template:Antibióticos para Vibrio cholerae"
+              },
+              {
+                "Agente": "Yersinia enterocolitica",
+                "Tratamiento": "Template:Antibióticos para Yersinia enterocolitica"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Rifaximin",
+          "url": "https://wikem.org/wiki/Rifaximin"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "fluroquinolones",
+          "url": "https://wikem.org/wiki/Fluroquinolones"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Antibióticos_específicos_para_cultivo": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Agente": "Clostridium difficile",
+            "Tratamiento": "Template:Antibióticos para C. diff severa"
+          },
+          {
+            "Agente": "Campylobacter jejuni",
+            "Tratamiento": "Template:Antibióticos para Campylobacter"
+          },
+          {
+            "Agente": "Entamoeba histolytica",
+            "Tratamiento": "Template:Antibióticos para diarrea por Entamoeba"
+          },
+          {
+            "Agente": "Giardia lamblia",
+            "Tratamiento": "Template:Antibióticos para Giardia"
+          },
+          {
+            "Agente": "Microsporidium",
+            "Tratamiento": "Template:Antibióticos para Microsporidium"
+          },
+          {
+            "Agente": "Cryptosporidium",
+            "Tratamiento": "Template:Antibióticos para diarrea por Cryptosporidium"
+          },
+          {
+            "Agente": "Salmonella(no tifoidea)",
+            "Tratamiento": "Template:Antibióticos para diarrea por Salmonella"
+          },
+          {
+            "Agente": "Shigella",
+            "Tratamiento": "Template:Antibióticos para diarrea por Shigella"
+          },
+          {
+            "Agente": "Vibrio Cholerae",
+            "Tratamiento": "Template:Antibióticos para Vibrio cholerae"
+          },
+          {
+            "Agente": "Yersinia enterocolitica",
+            "Tratamiento": "Template:Antibióticos para Yersinia enterocolitica"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Destino": {
+      "text": "La hospitalización debe individualizarse según la capacidad del paciente para tolerar la hidratación oral, tener un apoyo social adecuado y también según las comorbilidades complicadoras.\nLa mayoría de los pacientes pueden ser tratados de forma ambulatoria\nLa observación o la admisión es necesaria para aquellos con enfermedad grave y deshidratación significativa con otras complicaciones de órganos terminales",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Ver_también": {
+      "text": "Diarrea (Pediatría)\nDiarrea del viajero\nClostridium difficile",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

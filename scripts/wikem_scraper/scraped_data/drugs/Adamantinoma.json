@@ -1,0 +1,85 @@
+{
+  "drug_name": "Adamantinoma",
+  "url": "https://wikem.org/wiki/Adamantinoma",
+  "scraped_at": "2026-01-10T07:47:13.006962",
+  "sections": {
+    "Background": {
+      "text": "Low grade malignant osseous tumor\n[1]\nUnclear pathologic basis - debate about relationship to osteofibrous dysplasia\nMost common in 20s-40s\nSlight male predominance",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Most common in anterior tibial diaphysis or metaphysis\nOther common sites include other lower and upper extremity bones\nSlow growing\nTypically dull pain\nPalpable deformity\nPathologic fracture possible\nReported metastasis rates vary (some suggest ~15%)\nMost common sites are lung and lymph nodes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Fracture\nFibrous dysplasia\nOsteofibrous dysplasia\nBone cyst\nBenign tumors\nGiant cell tumor\nMalignant tumors\nChondrosarcoma\nAngiosarcoma\nMetastases from other sites\nBone tumors and their mimics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone tumors and their mimics",
+          "url": "https://wikem.org/wiki/Bone_tumors_and_their_mimics"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "XR\n[2]\nOsteolytic cortical lesion\nLysis and layered sclerosis\nCT\nSimilar to XR findings\nCan also play a role in detecting distant metastasis\nMRI\nLikely not necessary for ED workup\nTwo patterns\nMultiple small nodules in one or more foci\nSolitary lobulated focus",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Definitive diagnosis on histopathology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "XR\n[2]\nOsteolytic cortical lesion\nLysis and layered sclerosis\nCT\nSimilar to XR findings\nCan also play a role in detecting distant metastasis\nMRI\nLikely not necessary for ED workup\nTwo patterns\nMultiple small nodules in one or more foci\nSolitary lobulated focus",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Definitive diagnosis on histopathology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Definitive diagnosis on histopathology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Orthopedic surgery consult\nIf confirmed, typically en bloc resection preferred\nTypically chemotherapy and radiation are not pursued\nPain management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge with outpatient follow up if otherwise medically stable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Osteofibrous dysplasia\nBone tumors and their mimics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone tumors and their mimics",
+          "url": "https://wikem.org/wiki/Bone_tumors_and_their_mimics"
+        }
+      ]
+    }
+  }
+}

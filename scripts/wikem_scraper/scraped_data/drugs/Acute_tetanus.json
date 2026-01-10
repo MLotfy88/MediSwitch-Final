@@ -1,0 +1,348 @@
+{
+  "drug_name": "Acute_tetanus",
+  "url": "https://wikem.org/wiki/Acute_tetanus",
+  "scraped_at": "2026-01-10T07:47:09.063055",
+  "sections": {
+    "Background": {
+      "text": "Clostridium tetani\nspores enter skin through wound, make tetanospasmin toxin\n2001-2008 in US, 233 cases, 26 deaths\nMortality as high as 45%\nIncubation is 2 to 56d\nSpores found in soil and human and animal feces\nTetanus prone wounds include contaminated lacerations, abrasions, puncture wounds; crush, avulsion, or frostbite injuries are also vulnerable to tetanus\n[1]\nPreferentially binds GABA and glycinergic neurons and blocks pre-synaptic release\nMotor neurons undergo sustained excitatory discharge, producing spasms\nThe majority of clinical tetanus happen in the elderly.\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Neonatal": {
+          "text": "From umbilical stump infection. Usually protected by passive maternal Abs\nSymptoms - poor suck and failure to nurse, irritability, crying, grimacing\nUsually with in 10 d of birth",
+          "tables": []
+        },
+        "Local": {
+          "text": "Rigidity of muscles near wound- may progress to generalized",
+          "tables": []
+        },
+        "Generalized": {
+          "text": "Most common form of tetanus\nUsually begins with trismus (spasm of the masticator muscle group) with gradual onset of spasm of muscle groups in the trunk and extremities\nSpasms exacerbated by external stimuli (light or sudden sound)\nPatients can lose ability to breathe during prolonged spasms\nRespiratory failure is main cause of death\nPatients are conscious and alert\nHypersympathetic state with sweating, hypertension, tachycardia, fever",
+          "tables": []
+        },
+        "Cephalic": {
+          "text": "Follow injuries to head or\notitis media\nGet cranial nerve dysfunction- usually cranial nerve 7",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        }
+      ]
+    },
+    "Neonatal": {
+      "text": "From umbilical stump infection. Usually protected by passive maternal Abs\nSymptoms - poor suck and failure to nurse, irritability, crying, grimacing\nUsually with in 10 d of birth",
+      "subsections": {
+        "Local": {
+          "text": "Rigidity of muscles near wound- may progress to generalized",
+          "tables": []
+        },
+        "Generalized": {
+          "text": "Most common form of tetanus\nUsually begins with trismus (spasm of the masticator muscle group) with gradual onset of spasm of muscle groups in the trunk and extremities\nSpasms exacerbated by external stimuli (light or sudden sound)\nPatients can lose ability to breathe during prolonged spasms\nRespiratory failure is main cause of death\nPatients are conscious and alert\nHypersympathetic state with sweating, hypertension, tachycardia, fever",
+          "tables": []
+        },
+        "Cephalic": {
+          "text": "Follow injuries to head or\notitis media\nGet cranial nerve dysfunction- usually cranial nerve 7",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        }
+      ]
+    },
+    "Local": {
+      "text": "Rigidity of muscles near wound- may progress to generalized",
+      "subsections": {
+        "Generalized": {
+          "text": "Most common form of tetanus\nUsually begins with trismus (spasm of the masticator muscle group) with gradual onset of spasm of muscle groups in the trunk and extremities\nSpasms exacerbated by external stimuli (light or sudden sound)\nPatients can lose ability to breathe during prolonged spasms\nRespiratory failure is main cause of death\nPatients are conscious and alert\nHypersympathetic state with sweating, hypertension, tachycardia, fever",
+          "tables": []
+        },
+        "Cephalic": {
+          "text": "Follow injuries to head or\notitis media\nGet cranial nerve dysfunction- usually cranial nerve 7",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        }
+      ]
+    },
+    "Generalized": {
+      "text": "Most common form of tetanus\nUsually begins with trismus (spasm of the masticator muscle group) with gradual onset of spasm of muscle groups in the trunk and extremities\nSpasms exacerbated by external stimuli (light or sudden sound)\nPatients can lose ability to breathe during prolonged spasms\nRespiratory failure is main cause of death\nPatients are conscious and alert\nHypersympathetic state with sweating, hypertension, tachycardia, fever",
+      "subsections": {
+        "Cephalic": {
+          "text": "Follow injuries to head or\notitis media\nGet cranial nerve dysfunction- usually cranial nerve 7",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        }
+      ]
+    },
+    "Cephalic": {
+      "text": "Follow injuries to head or\notitis media\nGet cranial nerve dysfunction- usually cranial nerve 7",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Jaw_Spasms": {
+          "text": "Acute tetanus\nAkathisia\nConversion disorder\nDrug toxicity\n(anticholinergic, phenytoin, valproate, carbamazepine)\nDystonic reaction\nElectrolyte abnormality\nHypocalcemic tetany\nMagnesium\nMandible dislocation\nMeningitis\nPeritonsillar abscess\nRabies\nSeizure\nStrychnine\npoisoning\nStroke\nTemporomandibular disorder\nTorticollis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypocalcemic tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "Temporomandibular disorder",
+          "url": "https://wikem.org/wiki/Temporomandibular_disorder"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Jaw_Spasms": {
+      "text": "Acute tetanus\nAkathisia\nConversion disorder\nDrug toxicity\n(anticholinergic, phenytoin, valproate, carbamazepine)\nDystonic reaction\nElectrolyte abnormality\nHypocalcemic tetany\nMagnesium\nMandible dislocation\nMeningitis\nPeritonsillar abscess\nRabies\nSeizure\nStrychnine\npoisoning\nStroke\nTemporomandibular disorder\nTorticollis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypocalcemic tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "Temporomandibular disorder",
+          "url": "https://wikem.org/wiki/Temporomandibular_disorder"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis is clinical\nProgressive symptoms\n[3]\nAlert and able to communicate\nTrismus - lockjaw (50%-75% of patients)\nSardonic smile (risus sardonicus) - other facial muscles become involved\nMinor stimuli such as touch or noise start tetanic contractions\nDifficulty swallowing\nLong bone fractures, tendon rupture\nOpisthotonus - lumbar lordosis with the neck and legs extended and the arms flexed at the elbows\nLaryngospasm\nAutonomic instability\nSympathetic nervous system hyperactivity, including tachycardia, sweating, arrhythmias, and hypertension\nNo laboratory testing is used to diagnose tetanus; wound cultures are often negative",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Before wound debridement, immunoglobulin (TIG) directly into the wound and IM\nDose: 3000-6000 units IM with adequate mL to wound\nDoes not reverse toxin already bound to CNS. Binds circulating toxin\nTetanus toxoid; patients do NOT develop immunity after tetanus infection\nGive during convalescence, not at initial presentation.\n[4]",
+      "subsections": {
+        "Supportive_Care": {
+          "text": "Place patient in a quiet room\nProvide sedation with\nBenzodiazepines\nor phenobarbital\nAirway management via intubation or tracheostomy should be performed when patient exhibits dysphagia or respiratory difficulties\nAutonomic dysfunction management with magnesium sulfate or labetalol, morphine and clonidine\nMagnesium sulfate has several desirable attributes for control of spasticity and autonomic dysfunction in tetanus\n[5]\nActs as a presynaptic neuromuscular blocker by antagonizing calcium in the neuromuscular junction and myocardium\nBlocks the release of catecholamines and has anticonvulsant properties\nOften available in low-resource settings",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Metronidazole\n500mg IV (7.5mg/kg) q6hrs OR\nClindamycin\n600mg IV (7.5mg/kg) q6hrs",
+          "tables": []
+        },
+        "Penicillin": {
+          "text": "Although once the drug of choice it is now no longer recommended since it may potentiate the effect of tetanus toxin by inhibiting the GABA receptors\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Supportive_Care": {
+      "text": "Place patient in a quiet room\nProvide sedation with\nBenzodiazepines\nor phenobarbital\nAirway management via intubation or tracheostomy should be performed when patient exhibits dysphagia or respiratory difficulties\nAutonomic dysfunction management with magnesium sulfate or labetalol, morphine and clonidine\nMagnesium sulfate has several desirable attributes for control of spasticity and autonomic dysfunction in tetanus\n[5]\nActs as a presynaptic neuromuscular blocker by antagonizing calcium in the neuromuscular junction and myocardium\nBlocks the release of catecholamines and has anticonvulsant properties\nOften available in low-resource settings",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Metronidazole\n500mg IV (7.5mg/kg) q6hrs OR\nClindamycin\n600mg IV (7.5mg/kg) q6hrs",
+          "tables": []
+        },
+        "Penicillin": {
+          "text": "Although once the drug of choice it is now no longer recommended since it may potentiate the effect of tetanus toxin by inhibiting the GABA receptors\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Metronidazole\n500mg IV (7.5mg/kg) q6hrs OR\nClindamycin\n600mg IV (7.5mg/kg) q6hrs",
+      "subsections": {
+        "Penicillin": {
+          "text": "Although once the drug of choice it is now no longer recommended since it may potentiate the effect of tetanus toxin by inhibiting the GABA receptors\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Tetanus (Prophylaxis)\nClostridium\nVaccination schedule",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetanus (Prophylaxis)",
+          "url": "https://wikem.org/wiki/Tetanus_(Prophylaxis)"
+        },
+        {
+          "text": "Clostridium",
+          "url": "https://wikem.org/wiki/Clostridium"
+        },
+        {
+          "text": "Vaccination schedule",
+          "url": "https://wikem.org/wiki/Vaccination_schedule"
+        }
+      ]
+    }
+  }
+}

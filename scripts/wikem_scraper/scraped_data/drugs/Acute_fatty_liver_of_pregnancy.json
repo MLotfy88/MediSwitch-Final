@@ -1,0 +1,714 @@
+{
+  "drug_name": "Acute_fatty_liver_of_pregnancy",
+  "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy",
+  "scraped_at": "2026-01-10T07:46:58.206073",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Rare, potentially fatal complication that presents in second half of pregnancy or (less commonly) early postpartum\nExact etiology unclear, but thought to involve abnormal fetal fatty acid metabolism\nFat vesicles accumulate within hepatocytes, interfering with liver function",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Usually presents in 3rd trimester, but may occur any time in 2nd half of pregnancy to early postpartum\nNausea/vomiting\n(commonly severe)\nJaundice\nFindings consistent with\npreeclampsia\nin some women:\nHypertension\nEdema\nProteinuria\nHypoglycemia\nOften, signs/symptoms of\nDIC\n+/-\nencephalopathy\n,\nascites",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        },
+        "Indirect_Hyperbilirubinemia": {
+          "text": "Hemolytic\nG6PD\nDrug related\nAutoimmune hemolytic anemia\nHematoma resorption\nIneffective erythropoiesis\nGilbert's",
+          "tables": []
+        },
+        "Direct_(Conjugated)_Hyperbilirubinemia": {
+          "text": "Choledocholithiasis\nCholecystitis\nAscending\ncholangitis\nAIDS\ncholangiopathy\nStricture\nNeoplasm\nPancreatic head\nGallbladder\nPrimary liver (e.g.\nhepatocellular carcinoma\n)\nMetastatic\nObstructing\nAAA",
+          "tables": []
+        },
+        "Hepatocellular_damage": {
+          "text": "Patient will have severely elevated AST/ALT with often normal Alkaline Phosphatase\nViral hepatitis\nFulminant hepatic failure\nalcoholic hepatitis\nIschemic hepatitis\nToxins\nIsoniazid\nPhenytoin\nacetaminophen\nRitonavir\nHalothane\nSulfonamide\nAutoimmune hepatitis\nPrimary biliary cirrhosis\nHELLP Syndrome\nCongestive Hepatopathy\nCHF\nSepsis\n(\nShock Liver\n)",
+          "tables": []
+        },
+        "Pregnancy_Related": {
+          "text": "HELLP syndrome\nAcute fatty liver of pregnancy\nHyperemesis gravidarum\nCholestasis of pregnancy",
+          "tables": []
+        },
+        "Transplant_Related": {
+          "text": "Transplant rejection\nGraft-vs-host disease",
+          "tables": []
+        },
+        "Pediatric_Related": {
+          "text": "Inborn error of metabolism\nNeonatal jaundice\n(physiologic)",
+          "tables": []
+        },
+        "Additional_Differential_Diagnosis": {
+          "text": "Reye syndrome\nTPN\nHeatstroke\nBudd-Chiari\n(with acute ascites)\nWilson's disease\nSarcoidosis\nAmyloidosis",
+          "tables": []
+        },
+        "Masqueraders": {
+          "text": "Only bilirubin stains the sclera\nCarotenemia\nQuinacrine ingestion\nDinitrophenol, teryl (explosive chemicals)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Fulminant hepatic failure",
+          "url": "https://wikem.org/wiki/Acute_liver_failure"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen_(Tylenol)_Toxicity"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "HELLP Syndrome",
+          "url": "https://wikem.org/wiki/HELLP_Syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Shock Liver",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Transplant rejection",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Inborn error of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_error_of_metabolism"
+        },
+        {
+          "text": "Neonatal jaundice",
+          "url": "https://wikem.org/wiki/Neonatal_jaundice"
+        },
+        {
+          "text": "Reye syndrome",
+          "url": "https://wikem.org/wiki/Reye_syndrome"
+        },
+        {
+          "text": "Heatstroke",
+          "url": "https://wikem.org/wiki/Heatstroke"
+        },
+        {
+          "text": "Budd-Chiari",
+          "url": "https://wikem.org/wiki/Budd-Chiari"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        }
+      ]
+    },
+    "3rd_Trimester/Postpartum_Emergencies": {
+      "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+      "subsections": {
+        "Indirect_Hyperbilirubinemia": {
+          "text": "Hemolytic\nG6PD\nDrug related\nAutoimmune hemolytic anemia\nHematoma resorption\nIneffective erythropoiesis\nGilbert's",
+          "tables": []
+        },
+        "Direct_(Conjugated)_Hyperbilirubinemia": {
+          "text": "Choledocholithiasis\nCholecystitis\nAscending\ncholangitis\nAIDS\ncholangiopathy\nStricture\nNeoplasm\nPancreatic head\nGallbladder\nPrimary liver (e.g.\nhepatocellular carcinoma\n)\nMetastatic\nObstructing\nAAA",
+          "tables": []
+        },
+        "Hepatocellular_damage": {
+          "text": "Patient will have severely elevated AST/ALT with often normal Alkaline Phosphatase\nViral hepatitis\nFulminant hepatic failure\nalcoholic hepatitis\nIschemic hepatitis\nToxins\nIsoniazid\nPhenytoin\nacetaminophen\nRitonavir\nHalothane\nSulfonamide\nAutoimmune hepatitis\nPrimary biliary cirrhosis\nHELLP Syndrome\nCongestive Hepatopathy\nCHF\nSepsis\n(\nShock Liver\n)",
+          "tables": []
+        },
+        "Pregnancy_Related": {
+          "text": "HELLP syndrome\nAcute fatty liver of pregnancy\nHyperemesis gravidarum\nCholestasis of pregnancy",
+          "tables": []
+        },
+        "Transplant_Related": {
+          "text": "Transplant rejection\nGraft-vs-host disease",
+          "tables": []
+        },
+        "Pediatric_Related": {
+          "text": "Inborn error of metabolism\nNeonatal jaundice\n(physiologic)",
+          "tables": []
+        },
+        "Additional_Differential_Diagnosis": {
+          "text": "Reye syndrome\nTPN\nHeatstroke\nBudd-Chiari\n(with acute ascites)\nWilson's disease\nSarcoidosis\nAmyloidosis",
+          "tables": []
+        },
+        "Masqueraders": {
+          "text": "Only bilirubin stains the sclera\nCarotenemia\nQuinacrine ingestion\nDinitrophenol, teryl (explosive chemicals)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Fulminant hepatic failure",
+          "url": "https://wikem.org/wiki/Acute_liver_failure"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen_(Tylenol)_Toxicity"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "HELLP Syndrome",
+          "url": "https://wikem.org/wiki/HELLP_Syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Shock Liver",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Transplant rejection",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Inborn error of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_error_of_metabolism"
+        },
+        {
+          "text": "Neonatal jaundice",
+          "url": "https://wikem.org/wiki/Neonatal_jaundice"
+        },
+        {
+          "text": "Reye syndrome",
+          "url": "https://wikem.org/wiki/Reye_syndrome"
+        },
+        {
+          "text": "Heatstroke",
+          "url": "https://wikem.org/wiki/Heatstroke"
+        },
+        {
+          "text": "Budd-Chiari",
+          "url": "https://wikem.org/wiki/Budd-Chiari"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        }
+      ]
+    },
+    "Jaundice": {
+      "text": "",
+      "subsections": {
+        "Indirect_Hyperbilirubinemia": {
+          "text": "Hemolytic\nG6PD\nDrug related\nAutoimmune hemolytic anemia\nHematoma resorption\nIneffective erythropoiesis\nGilbert's",
+          "tables": []
+        },
+        "Direct_(Conjugated)_Hyperbilirubinemia": {
+          "text": "Choledocholithiasis\nCholecystitis\nAscending\ncholangitis\nAIDS\ncholangiopathy\nStricture\nNeoplasm\nPancreatic head\nGallbladder\nPrimary liver (e.g.\nhepatocellular carcinoma\n)\nMetastatic\nObstructing\nAAA",
+          "tables": []
+        },
+        "Hepatocellular_damage": {
+          "text": "Patient will have severely elevated AST/ALT with often normal Alkaline Phosphatase\nViral hepatitis\nFulminant hepatic failure\nalcoholic hepatitis\nIschemic hepatitis\nToxins\nIsoniazid\nPhenytoin\nacetaminophen\nRitonavir\nHalothane\nSulfonamide\nAutoimmune hepatitis\nPrimary biliary cirrhosis\nHELLP Syndrome\nCongestive Hepatopathy\nCHF\nSepsis\n(\nShock Liver\n)",
+          "tables": []
+        },
+        "Pregnancy_Related": {
+          "text": "HELLP syndrome\nAcute fatty liver of pregnancy\nHyperemesis gravidarum\nCholestasis of pregnancy",
+          "tables": []
+        },
+        "Transplant_Related": {
+          "text": "Transplant rejection\nGraft-vs-host disease",
+          "tables": []
+        },
+        "Pediatric_Related": {
+          "text": "Inborn error of metabolism\nNeonatal jaundice\n(physiologic)",
+          "tables": []
+        },
+        "Additional_Differential_Diagnosis": {
+          "text": "Reye syndrome\nTPN\nHeatstroke\nBudd-Chiari\n(with acute ascites)\nWilson's disease\nSarcoidosis\nAmyloidosis",
+          "tables": []
+        },
+        "Masqueraders": {
+          "text": "Only bilirubin stains the sclera\nCarotenemia\nQuinacrine ingestion\nDinitrophenol, teryl (explosive chemicals)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Fulminant hepatic failure",
+          "url": "https://wikem.org/wiki/Acute_liver_failure"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen_(Tylenol)_Toxicity"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "HELLP Syndrome",
+          "url": "https://wikem.org/wiki/HELLP_Syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Shock Liver",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Transplant rejection",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Inborn error of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_error_of_metabolism"
+        },
+        {
+          "text": "Neonatal jaundice",
+          "url": "https://wikem.org/wiki/Neonatal_jaundice"
+        },
+        {
+          "text": "Reye syndrome",
+          "url": "https://wikem.org/wiki/Reye_syndrome"
+        },
+        {
+          "text": "Heatstroke",
+          "url": "https://wikem.org/wiki/Heatstroke"
+        },
+        {
+          "text": "Budd-Chiari",
+          "url": "https://wikem.org/wiki/Budd-Chiari"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "LFTs\nALT/AST usually in 300-500 range, alk phos usually elevated in pregnancy\nHyperbilirubinemia\n- more pronounced than in preeclampsia\nBMP\nHypoglycemia\nDIC\nlabs\nLow fibrinogen,\ncoagulopathy\nDIC present in as many as 70% of patients\n[1]\nCBC\nOften shows\nleukocytosis\nUA\nProteinuria\nRUQ US\nNon-specific; the liver can even be normal in echotexture\nUseful to rule out other causes of obstructive biliary tract pathology.",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Often initially misdiagnosed as\npreeclampsia\n/\nHELLP\nHypoglycemia, jaundice, ascites, hypofibrinogenemia all\nmore\ncommon in AFLP",
+          "tables": []
+        },
+        "Swansea_criteria": {
+          "text": "At least six of the following findings, in the absence of another cause:\nVomiting\nAbdominal pain\nPolydipsia/polyuria\nEncephalopathy\nElevated bilirubin\nHypoglycemia\nElevated urea\nLeukocytosis\nAscites\nor bright liver on ultrasound scan\nElevated transaminases (AAT or ALT)\nElevated ammonia\nRenal impairment: elevated creatinine\nCoagulopathy: elevated prothrombin time or PT\nMicrovesicular steatosis on liver biopsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "LFTs\nALT/AST usually in 300-500 range, alk phos usually elevated in pregnancy\nHyperbilirubinemia\n- more pronounced than in preeclampsia\nBMP\nHypoglycemia\nDIC\nlabs\nLow fibrinogen,\ncoagulopathy\nDIC present in as many as 70% of patients\n[1]\nCBC\nOften shows\nleukocytosis\nUA\nProteinuria\nRUQ US\nNon-specific; the liver can even be normal in echotexture\nUseful to rule out other causes of obstructive biliary tract pathology.",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Often initially misdiagnosed as\npreeclampsia\n/\nHELLP\nHypoglycemia, jaundice, ascites, hypofibrinogenemia all\nmore\ncommon in AFLP",
+          "tables": []
+        },
+        "Swansea_criteria": {
+          "text": "At least six of the following findings, in the absence of another cause:\nVomiting\nAbdominal pain\nPolydipsia/polyuria\nEncephalopathy\nElevated bilirubin\nHypoglycemia\nElevated urea\nLeukocytosis\nAscites\nor bright liver on ultrasound scan\nElevated transaminases (AAT or ALT)\nElevated ammonia\nRenal impairment: elevated creatinine\nCoagulopathy: elevated prothrombin time or PT\nMicrovesicular steatosis on liver biopsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Often initially misdiagnosed as\npreeclampsia\n/\nHELLP\nHypoglycemia, jaundice, ascites, hypofibrinogenemia all\nmore\ncommon in AFLP",
+      "subsections": {
+        "Swansea_criteria": {
+          "text": "At least six of the following findings, in the absence of another cause:\nVomiting\nAbdominal pain\nPolydipsia/polyuria\nEncephalopathy\nElevated bilirubin\nHypoglycemia\nElevated urea\nLeukocytosis\nAscites\nor bright liver on ultrasound scan\nElevated transaminases (AAT or ALT)\nElevated ammonia\nRenal impairment: elevated creatinine\nCoagulopathy: elevated prothrombin time or PT\nMicrovesicular steatosis on liver biopsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Emergent Ob/Gyn consult\nDelivery typically results in rapid hepatic recovery\nDextrose\nfor hypoglycemia\nFFP\n,\ncryoprecipitate\n, and/or\nplatelets\nfor\ncoagulopathy\n(see\nDIC\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit ICU or transfer to center with Ob",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

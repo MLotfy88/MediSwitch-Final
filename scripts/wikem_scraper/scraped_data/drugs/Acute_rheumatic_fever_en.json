@@ -1,0 +1,400 @@
+{
+  "drug_name": "Acute_rheumatic_fever/en",
+  "url": "https://wikem.org/wiki/Acute_rheumatic_fever/en",
+  "scraped_at": "2026-01-10T07:47:10.113930",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Primarily affects school age children 2-6 weeks after Group A\nstreptococcal pharyngitis\nIs not associated with\nimpetigo\nConnective tissue of heart, joints, CNS, subcutaneous tissues are targeted by immune reaction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Polyarthritis\nMost common symptom (~75%)\nAseptic arthritis with effusions\nLasts up to 2 weeks\nMigratory, fleeting polyarticular arthritis primarily affecting large joints\nCarditis\n(33%)\nMost serious complication and second most common\nTachycardia\nout of proportion to the degree of fever is common; its absence makes the diagnosis of myocarditis unlikely\n[1]\nNew\nmurmur\n, pericardial rub,\nCHF\nSydenham's chorea\n(10%)\nMay appear months following strep infection, may be sole manifestation of RF\nMovements extinguish during sleep\nErythema marginatum (< 10%)\nPersists only for several days\nUsually coexists with presence of carditis in some form\nNonpruritic\nrash\n, located on trunk and proximal limbs, never on face\nNodules(< 10%)\nLocated on extensor surfaces of wrists, elbows, knees",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Scarlet fever\nKawasaki Disease\nViral or other forms of\ncardiomyopathy\nLeukemia\nVasculitis\n(\nHSP\n, drug reaction)",
+      "subsections": {
+        "Hip_Related": {
+          "text": "Acute rheumatic fever\nDevelopmental dysplasia of hip\nFemur fracture\nJuvenile idiopathic arthritis\nLegg-Calve-Perthes disease\nSeptic arthritis of the hip (peds)\nLyme disease\narthritis\nSlipped capital femoral epiphysis\nTransient (toxic) synovitis\nOsteosarcoma",
+          "tables": []
+        },
+        "Other_Causes_of_Limping": {
+          "text": "Developmental dysplasia\nFracture\nToddler's fracture\nTillaux fracture\n, adolescent\nNeoplasm:\nLeukemia\nEwings\nOsteogenic sarcoma\nMetastatic\nneuroblastoma\nOsteomyelitis\nMyositis\nOther:\nAppendicitis\nMeningitis\nEpidural abscess (spinal)",
+          "tables": []
+        },
+        "Polyarthritis": {
+          "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Developmental dysplasia of hip",
+          "url": "https://wikem.org/wiki/Developmental_dysplasia_of_hip"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Slipped capital femoral epiphysis",
+          "url": "https://wikem.org/wiki/Slipped_capital_femoral_epiphysis"
+        },
+        {
+          "text": "Transient (toxic) synovitis",
+          "url": "https://wikem.org/wiki/Transient_(toxic)_synovitis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia_(peds)"
+        },
+        {
+          "text": "neuroblastoma",
+          "url": "https://wikem.org/wiki/Neuroblastoma_(peds)"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Pediatric_limp": {
+      "text": "",
+      "subsections": {
+        "Hip_Related": {
+          "text": "Acute rheumatic fever\nDevelopmental dysplasia of hip\nFemur fracture\nJuvenile idiopathic arthritis\nLegg-Calve-Perthes disease\nSeptic arthritis of the hip (peds)\nLyme disease\narthritis\nSlipped capital femoral epiphysis\nTransient (toxic) synovitis\nOsteosarcoma",
+          "tables": []
+        },
+        "Other_Causes_of_Limping": {
+          "text": "Developmental dysplasia\nFracture\nToddler's fracture\nTillaux fracture\n, adolescent\nNeoplasm:\nLeukemia\nEwings\nOsteogenic sarcoma\nMetastatic\nneuroblastoma\nOsteomyelitis\nMyositis\nOther:\nAppendicitis\nMeningitis\nEpidural abscess (spinal)",
+          "tables": []
+        },
+        "Polyarthritis": {
+          "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Developmental dysplasia of hip",
+          "url": "https://wikem.org/wiki/Developmental_dysplasia_of_hip"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Slipped capital femoral epiphysis",
+          "url": "https://wikem.org/wiki/Slipped_capital_femoral_epiphysis"
+        },
+        {
+          "text": "Transient (toxic) synovitis",
+          "url": "https://wikem.org/wiki/Transient_(toxic)_synovitis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia_(peds)"
+        },
+        {
+          "text": "neuroblastoma",
+          "url": "https://wikem.org/wiki/Neuroblastoma_(peds)"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Polyarthritis": {
+      "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "CBC\nECG\nCXR\nESR, CRP\nASO (Antistreptolysin O) titer Eleveted 1week to 1 month after GAS infection\nAnti-DNase B titer is elevated longer than ASO and may be useful for patient presenting later than 2-4 months or with a negative ASO\nECG - Looking for prolonged PR or other AV block\nCXR\nEchocardiogram",
+          "tables": []
+        },
+        "Modified_Jones_Criteria_(1992)_for_Acute_Rheumatic_Fever": {
+          "text": "REQUIRE: 2 major or 1 major and 2 minor criteria and evidence of previous GAS pharyngitis\nMajor diagnostic criteria (CASES)\nCarditis (new or changing\nmurmur\n, cardiomegaly,\nCHF\n,\npericarditis\n)\nArthritis\n, migratory polyarthritis (typically affects knees, ankles, elbows, wrists)\nSydenham's Chorea (abrupt, involuntary, purposeless movements)\nErythema marginatum (non-pruritic, trunk/extremities, with facial sparing)\nSubcutaneous nodules (painless, firm, usually over bones/tendons)\nMinor diagnostic criteria\nFever\nArthralgia\nHistory of previous attack of rheumatic fever\nProlonged PR interval\nElevated ESR, CRP\nEvidence of preceding\nstreptococcal\ninfection\nIncreased ASO or other strep ab\nPositive throat culture for\nGroup A strep\nPositive rapid GAS\nRecent\nscarlet fever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-Up": {
+      "text": "CBC\nECG\nCXR\nESR, CRP\nASO (Antistreptolysin O) titer Eleveted 1week to 1 month after GAS infection\nAnti-DNase B titer is elevated longer than ASO and may be useful for patient presenting later than 2-4 months or with a negative ASO\nECG - Looking for prolonged PR or other AV block\nCXR\nEchocardiogram",
+      "subsections": {
+        "Modified_Jones_Criteria_(1992)_for_Acute_Rheumatic_Fever": {
+          "text": "REQUIRE: 2 major or 1 major and 2 minor criteria and evidence of previous GAS pharyngitis\nMajor diagnostic criteria (CASES)\nCarditis (new or changing\nmurmur\n, cardiomegaly,\nCHF\n,\npericarditis\n)\nArthritis\n, migratory polyarthritis (typically affects knees, ankles, elbows, wrists)\nSydenham's Chorea (abrupt, involuntary, purposeless movements)\nErythema marginatum (non-pruritic, trunk/extremities, with facial sparing)\nSubcutaneous nodules (painless, firm, usually over bones/tendons)\nMinor diagnostic criteria\nFever\nArthralgia\nHistory of previous attack of rheumatic fever\nProlonged PR interval\nElevated ESR, CRP\nEvidence of preceding\nstreptococcal\ninfection\nIncreased ASO or other strep ab\nPositive throat culture for\nGroup A strep\nPositive rapid GAS\nRecent\nscarlet fever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Penicillin\n- Indicated for all with rheumatic fever even if culture for\nstrep\nis negative\nPenicillin G\n600K units IM if <27 kg, 1.2 million units IM if >27 kg\nPenicillin V\nPO x10d\nFor those who are penicillin allergic\nNarrow spectrim cephalosporins such as\ncephalexin\n20mg/kg/dose BID x10d\nClindamycin\n7mg/kg/dose TID (max of 300mg/dose) PO x10d\nAzithromycin\n12mg/kg once (500mg max) and then 6mg/kg (250mg max) daily for the next 4 days\nProphylaxis\nPenicillin G\nIM x1 month\nCategory\nDuration\nRheumatic fever without carditis\n5 years or until age 21 years, whichever is longer\nRheumatic fever with carditis but without residual heart disease (no valvular disease)\n10 years or well into adulthood, whichever is longer\nRheumatic fever with carditis and residual heart disease (persistent valvular disease)\n10 years since last episode and at least until age 40 years; most commonly lifelong\nArthritis\nHigh-dose\naspirin\ntherapy (50-100mg/kg/day) has historically been first line\nNaproxen may be just as effective with less frequent dosing and fewer side effects\n[2]\nCarditis\nAspirin is primary treatment\nPrednisone\n1-2mg/kg/day has no benefit over aspirin in proventing heart disease at one year\n[3]\nSome consider for severe carditis\nStandard medical therapy for\nCongestive Heart Failure\nChorea - It is self limited but several agents had been described as effective, although not well studied\nHaloperidol\n0.01-0.03mg/kg/day in four divided doses\nValproate\nDiazepam\nPhenobarbital\nChlorpromazine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Rheumatic Heart Disease\nWorldwide most common cause of valvular heart disease\nOccurs usually 10+ years after RF\nMitral valve is most commonly affected, followed by aortic valve\n50% of those with carditis during acute RF\nJaccoud arthropathy\nPainless deformities without joint inflammation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "emDocs - An Understated Myth? Strep Throat & Rheumatic Fever\nCDC guidelines for GAS Disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sydenham's chorea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,1093 @@
+{
+  "drug_name": "Acute_hepatic_failure/en",
+  "url": "https://wikem.org/wiki/Acute_hepatic_failure/en",
+  "scraped_at": "2026-01-10T07:47:02.617129",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Definitions": {
+          "text": "Hyperacute liver failure: encephalopathy occurs within 7 days of the onset of jaundice; this subset is likely to survive with medical management despite the high incidence of cerebral edema\n[1]\nAcute liver failure: interval of 8-28 days from jaundice to encephalopathy; this subset has a high incidence of cerebral edema and a poorer prognosis without liver transplant\n[2]\nSubacute liver failure: interval of 5-12 weeks from the onset of jaundice to the onset of encephalopathy; this subset has a lower incidence of cerebral edema, but a poor prognosis\n[3]",
+          "tables": []
+        },
+        "Causes_of_acute_hepatitis": {
+          "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[4]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+          "tables": []
+        },
+        "Drug_or_Toxin_Related_Liver_Disease": {
+          "text": "Liver damage from drugs or toxins may be cytotoxic from the primary drug or its metabolites, or may be caused by veno-occlusive disease or hypersensitivity disease\n[5]\nCommon Drugs and Toxins\nAcetaminophen\nAmiodarone\nAmphotericin\nAnabolic steroids\nAzathioprine\nCarbamazepine\nChlorpromazine\nCisplatin\nContraceptives\nCyclophosphamide\nErythromycin\nGold salts\nHaloperidol\nIsoniazid\nKetoconazole\nLovastatin\nMethotrexate\nMethoxyflurane\nMethyldopa\nPhenobarbital\nPhenytoin\nQuinidine\nSalicylates\nTetracycline\nValproic acid\nVerapamil",
+          "tables": []
+        },
+        "Other_Rare_Causes_of_Acute_Liver_Failure": {
+          "text": "Wilson's disease\n: unexplained elevations in LFTs, neuro-psychiatric symptoms, Kayser-Fleischer rings on eye exam\nAutoimmune hepatitis\n: more common in women, liver disease without explanation, may have family history of other autoimmune disorders\nHemochromatosis\n: family history of liver disease and cardiac disease\nBudd-Chiari\n: history of hypercoagulable disorder, abdominal pain, and ascites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Amphotericin",
+          "url": "https://wikem.org/wiki/Amphotericin"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        }
+      ]
+    },
+    "Definitions": {
+      "text": "Hyperacute liver failure: encephalopathy occurs within 7 days of the onset of jaundice; this subset is likely to survive with medical management despite the high incidence of cerebral edema\n[1]\nAcute liver failure: interval of 8-28 days from jaundice to encephalopathy; this subset has a high incidence of cerebral edema and a poorer prognosis without liver transplant\n[2]\nSubacute liver failure: interval of 5-12 weeks from the onset of jaundice to the onset of encephalopathy; this subset has a lower incidence of cerebral edema, but a poor prognosis\n[3]",
+      "subsections": {
+        "Causes_of_acute_hepatitis": {
+          "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[4]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+          "tables": []
+        },
+        "Drug_or_Toxin_Related_Liver_Disease": {
+          "text": "Liver damage from drugs or toxins may be cytotoxic from the primary drug or its metabolites, or may be caused by veno-occlusive disease or hypersensitivity disease\n[5]\nCommon Drugs and Toxins\nAcetaminophen\nAmiodarone\nAmphotericin\nAnabolic steroids\nAzathioprine\nCarbamazepine\nChlorpromazine\nCisplatin\nContraceptives\nCyclophosphamide\nErythromycin\nGold salts\nHaloperidol\nIsoniazid\nKetoconazole\nLovastatin\nMethotrexate\nMethoxyflurane\nMethyldopa\nPhenobarbital\nPhenytoin\nQuinidine\nSalicylates\nTetracycline\nValproic acid\nVerapamil",
+          "tables": []
+        },
+        "Other_Rare_Causes_of_Acute_Liver_Failure": {
+          "text": "Wilson's disease\n: unexplained elevations in LFTs, neuro-psychiatric symptoms, Kayser-Fleischer rings on eye exam\nAutoimmune hepatitis\n: more common in women, liver disease without explanation, may have family history of other autoimmune disorders\nHemochromatosis\n: family history of liver disease and cardiac disease\nBudd-Chiari\n: history of hypercoagulable disorder, abdominal pain, and ascites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Amphotericin",
+          "url": "https://wikem.org/wiki/Amphotericin"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        }
+      ]
+    },
+    "Causes_of_acute_hepatitis": {
+      "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[4]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+      "subsections": {
+        "Drug_or_Toxin_Related_Liver_Disease": {
+          "text": "Liver damage from drugs or toxins may be cytotoxic from the primary drug or its metabolites, or may be caused by veno-occlusive disease or hypersensitivity disease\n[5]\nCommon Drugs and Toxins\nAcetaminophen\nAmiodarone\nAmphotericin\nAnabolic steroids\nAzathioprine\nCarbamazepine\nChlorpromazine\nCisplatin\nContraceptives\nCyclophosphamide\nErythromycin\nGold salts\nHaloperidol\nIsoniazid\nKetoconazole\nLovastatin\nMethotrexate\nMethoxyflurane\nMethyldopa\nPhenobarbital\nPhenytoin\nQuinidine\nSalicylates\nTetracycline\nValproic acid\nVerapamil",
+          "tables": []
+        },
+        "Other_Rare_Causes_of_Acute_Liver_Failure": {
+          "text": "Wilson's disease\n: unexplained elevations in LFTs, neuro-psychiatric symptoms, Kayser-Fleischer rings on eye exam\nAutoimmune hepatitis\n: more common in women, liver disease without explanation, may have family history of other autoimmune disorders\nHemochromatosis\n: family history of liver disease and cardiac disease\nBudd-Chiari\n: history of hypercoagulable disorder, abdominal pain, and ascites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Amphotericin",
+          "url": "https://wikem.org/wiki/Amphotericin"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        }
+      ]
+    },
+    "Other_Rare_Causes_of_Acute_Liver_Failure": {
+      "text": "Wilson's disease\n: unexplained elevations in LFTs, neuro-psychiatric symptoms, Kayser-Fleischer rings on eye exam\nAutoimmune hepatitis\n: more common in women, liver disease without explanation, may have family history of other autoimmune disorders\nHemochromatosis\n: family history of liver disease and cardiac disease\nBudd-Chiari\n: history of hypercoagulable disorder, abdominal pain, and ascites",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Common findings in acute liver failure\nTender\nhepatomegaly\nJaundice\nHepatic encephalopathy\nAsterixis\nCommon findings in chronic liver failure\nAscites\nCaput medusae\nPalmar erythema\nSpider angiomata\nGynecomastia\nTesticular atrophy\nParotid gland enlargement\nMuscular atrophy\nMay also have\njaundice\n,\nencephalopathy\n, and asterixis as in acute liver failure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Encephalopathy_(altered_mental_status)": {
+          "text": "Hypoglycemia\nHypoxia\nIntracerebral hemorrhage\nor mass\nMeningitis\n/\nencephalitis\nCVA\nAlcohol intoxication\nMyxedema coma\nWernicke encephalopathy\nSepsis\nSeizure\n/post-ictal state\nUremia\nElectrolyte abnormality\nAcute hepatic failure",
+          "tables": []
+        },
+        "Jaundice": {
+          "text": "Hepatic dysfunction\nBiliary disease\n(e.g.\nCBD obstruction\n)\nHemolysis\nPregnancy\nCongenital diseases (e.g.\ninborn errors of metabolism\n; (more likely to present in early childhood)",
+          "tables": []
+        },
+        "Hepatic_Dysfunction": {
+          "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[6]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Jaundice": {
+      "text": "Hepatic dysfunction\nBiliary disease\n(e.g.\nCBD obstruction\n)\nHemolysis\nPregnancy\nCongenital diseases (e.g.\ninborn errors of metabolism\n; (more likely to present in early childhood)",
+      "subsections": {
+        "Hepatic_Dysfunction": {
+          "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[6]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Hepatic_Dysfunction": {
+      "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[6]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Labs": {
+          "text": "LFTs\nAST and ALT\nEnzymes found mainly in hepatic cells, though ALT is more specific to the liver than AST\nExtreme elevation in AST (>3000U/L, or >40x upper limit of normal) is consistent with acetaminophen toxicity or ischemic injury\nModerate elevations (10-40x upper limit of normal) is consistent with viral hepatitis\nMild elevations (<10x upper limit of normal) is consistent with alcoholic hepatitis\nAlkaline Phosphatase\nFound in bile canaliculi (but also in placenta, ileal mucosa, bone, and kidney)\nElevated in diseases of cholestasis\nRare for levels to be >3x normal limit in acute liver failure\nBilirubin\nElevated in diseases of cholestasis\nIn obstructive diseases, the direct bilirubin will usually be about 50% of the total bilirubin; if indirect bilirubin is higher, more suggestive of hemolysis or problem with conjugation\nCoagulation Studies\nReflects the liver’s ability to synthesize clotting factors\nINR >6.5 or PT >20 seconds indicates patients at high risk for death\nAlbumin\nReflects synthetic function of the liver\nHas a long half-life (20 days) and may not be decreased early in disease\nAmmonia\nElevated as a result of impaired clearance\nPoor correlation between degree of elevation and severity of encephalopathy symptoms\nChemistry Panel\nElectrolyte abnormalities may indicate malnutrition or dehydration\nCreatinine is used as a prognostic indicator\nNeed to check a glucose because patients with liver failure are prone to hypoglycemia\nCBC\nNot useful in diagnosing the cause of liver failure, but helpful in determining coexisting\ninfection\n,\nanemia\n,\nthrombocytopenia\nViral hepatitis\nSerologies\nConsider for all patients with undifferentiated liver failure\nIgM anti-HBc may be the only positive marker in acute Hepatitis B infection\nAnti-HCV and HCV RNA are present in both chronic and acute Hepatitis C infections, so it is difficult to differentiate based on serologies, but presence of HCV RNA in the absence of anti-HCV is more suggestive of acute infection\n[7]\nOnly need to test for IgM anti-HEV in patients who are symptomatic and have just travelled from areas where Hepatitis E is endemic",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Consider\nRUQ US\nor CT in patients with jaundice to evaluate for a mechanical obstruction\nOtherwise, tailor imaging towards specific complaints",
+          "tables": []
+        },
+        "Ascites_Diagnosis": {
+          "text": "The differential diagnosis of ascites is often clarified by the calculation of the serum albumin to ascites gradient (SAAG).^\nHigh SAAG > 1.1 g/dL – Indicative of portal hypertension\n[8]\nCirrhosis\nHeart failure\nAscites total protein > 2.5 g/dL suggests cardiac ascites\n[9]\nAlcoholic hepatitis\nBudd-Chiari syndrome\nPortal vein thrombosis\nLow SAAG < 1.1 g/dL\nMalignancy / peritoneal carcinomatosis\nNephrotic syndrome\nPancreatitis\nPeritoneal\ntuberculosis\nSerositis\nBowel infarction\nChylous\n^SAAG = (serum albumin in g/dL) − (ascitic albumin in g/dL)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Portal vein thrombosis",
+          "url": "https://wikem.org/wiki/Portal_vein_thrombosis"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "LFTs\nAST and ALT\nEnzymes found mainly in hepatic cells, though ALT is more specific to the liver than AST\nExtreme elevation in AST (>3000U/L, or >40x upper limit of normal) is consistent with acetaminophen toxicity or ischemic injury\nModerate elevations (10-40x upper limit of normal) is consistent with viral hepatitis\nMild elevations (<10x upper limit of normal) is consistent with alcoholic hepatitis\nAlkaline Phosphatase\nFound in bile canaliculi (but also in placenta, ileal mucosa, bone, and kidney)\nElevated in diseases of cholestasis\nRare for levels to be >3x normal limit in acute liver failure\nBilirubin\nElevated in diseases of cholestasis\nIn obstructive diseases, the direct bilirubin will usually be about 50% of the total bilirubin; if indirect bilirubin is higher, more suggestive of hemolysis or problem with conjugation\nCoagulation Studies\nReflects the liver’s ability to synthesize clotting factors\nINR >6.5 or PT >20 seconds indicates patients at high risk for death\nAlbumin\nReflects synthetic function of the liver\nHas a long half-life (20 days) and may not be decreased early in disease\nAmmonia\nElevated as a result of impaired clearance\nPoor correlation between degree of elevation and severity of encephalopathy symptoms\nChemistry Panel\nElectrolyte abnormalities may indicate malnutrition or dehydration\nCreatinine is used as a prognostic indicator\nNeed to check a glucose because patients with liver failure are prone to hypoglycemia\nCBC\nNot useful in diagnosing the cause of liver failure, but helpful in determining coexisting\ninfection\n,\nanemia\n,\nthrombocytopenia\nViral hepatitis\nSerologies\nConsider for all patients with undifferentiated liver failure\nIgM anti-HBc may be the only positive marker in acute Hepatitis B infection\nAnti-HCV and HCV RNA are present in both chronic and acute Hepatitis C infections, so it is difficult to differentiate based on serologies, but presence of HCV RNA in the absence of anti-HCV is more suggestive of acute infection\n[7]\nOnly need to test for IgM anti-HEV in patients who are symptomatic and have just travelled from areas where Hepatitis E is endemic",
+      "subsections": {
+        "Imaging": {
+          "text": "Consider\nRUQ US\nor CT in patients with jaundice to evaluate for a mechanical obstruction\nOtherwise, tailor imaging towards specific complaints",
+          "tables": []
+        },
+        "Ascites_Diagnosis": {
+          "text": "The differential diagnosis of ascites is often clarified by the calculation of the serum albumin to ascites gradient (SAAG).^\nHigh SAAG > 1.1 g/dL – Indicative of portal hypertension\n[8]\nCirrhosis\nHeart failure\nAscites total protein > 2.5 g/dL suggests cardiac ascites\n[9]\nAlcoholic hepatitis\nBudd-Chiari syndrome\nPortal vein thrombosis\nLow SAAG < 1.1 g/dL\nMalignancy / peritoneal carcinomatosis\nNephrotic syndrome\nPancreatitis\nPeritoneal\ntuberculosis\nSerositis\nBowel infarction\nChylous\n^SAAG = (serum albumin in g/dL) − (ascitic albumin in g/dL)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Portal vein thrombosis",
+          "url": "https://wikem.org/wiki/Portal_vein_thrombosis"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "Consider\nRUQ US\nor CT in patients with jaundice to evaluate for a mechanical obstruction\nOtherwise, tailor imaging towards specific complaints",
+      "subsections": {
+        "Ascites_Diagnosis": {
+          "text": "The differential diagnosis of ascites is often clarified by the calculation of the serum albumin to ascites gradient (SAAG).^\nHigh SAAG > 1.1 g/dL – Indicative of portal hypertension\n[8]\nCirrhosis\nHeart failure\nAscites total protein > 2.5 g/dL suggests cardiac ascites\n[9]\nAlcoholic hepatitis\nBudd-Chiari syndrome\nPortal vein thrombosis\nLow SAAG < 1.1 g/dL\nMalignancy / peritoneal carcinomatosis\nNephrotic syndrome\nPancreatitis\nPeritoneal\ntuberculosis\nSerositis\nBowel infarction\nChylous\n^SAAG = (serum albumin in g/dL) − (ascitic albumin in g/dL)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Portal vein thrombosis",
+          "url": "https://wikem.org/wiki/Portal_vein_thrombosis"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Ascites_Diagnosis": {
+      "text": "The differential diagnosis of ascites is often clarified by the calculation of the serum albumin to ascites gradient (SAAG).^\nHigh SAAG > 1.1 g/dL – Indicative of portal hypertension\n[8]\nCirrhosis\nHeart failure\nAscites total protein > 2.5 g/dL suggests cardiac ascites\n[9]\nAlcoholic hepatitis\nBudd-Chiari syndrome\nPortal vein thrombosis\nLow SAAG < 1.1 g/dL\nMalignancy / peritoneal carcinomatosis\nNephrotic syndrome\nPancreatitis\nPeritoneal\ntuberculosis\nSerositis\nBowel infarction\nChylous\n^SAAG = (serum albumin in g/dL) − (ascitic albumin in g/dL)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Portal vein thrombosis",
+          "url": "https://wikem.org/wiki/Portal_vein_thrombosis"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treatment is mostly supportive and tailored towards the specific etiology\nEarly consideration regarding transporting patient to a transplant center given potential for rapid deterioration\nSymptom specific supportive treatment options\nEncephalopathy\n: consider\nlactulose\nof\nneomycin\nSeizures\n: consider\nphenytoin\nover\nbenzodiazepines\n(prevent benzodiazepine oversedation secondary to decreased hepatic clearance)\nIntracranial Hypertension\n: elevated head of bed,\nmannitol\n, short-term hyperventilation; hypothermia may be a bridge to transplant; no benefit from steroids\nCoagulopathy\nProphylactic normalization of the INR is not necessary unless procedure (such as paracentesis) is planned; then can give\nVitamin K\nRecommend\nplatelet transfusion\nto 10K for asymptomatic patients, and to 50-70K for patients undergoing invasive procedures\nSee\nAcetaminophen toxicity\nfor specifics regarding treatment of acetaminophen toxicity\nSee\nSpontaneous Bacterial Peritonitis\nfor specifics regarding diagnosis and treatment of SBP",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission to ICU with early consideration for transportation to transplant center",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Jaundice\nCirrhosis\nAcute hepatitis\nHepatic encephalopathy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

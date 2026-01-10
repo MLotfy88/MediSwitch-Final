@@ -1,0 +1,217 @@
+{
+  "drug_name": "Acute_gastroenteritis_(peds)/en",
+  "url": "https://wikem.org/wiki/Acute_gastroenteritis_(peds)/en",
+  "scraped_at": "2026-01-10T07:46:58.131386",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\nThis page is for\npediatric\npatients. For adult patients, see:\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Extremely common childhood illness\nMost commonly\nviral\netiology\n[1]\nUsually benign in absence of severe dehydration/electrolyte imbalance",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Diarrhea\nNausea/vomiting\nAbdominal pain\nFever\n,\nviral symptoms\n(\nmyalgias\n,\nURI\nsymptoms)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Nausea_and_vomiting_(newborn)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Newborn": "Obstructive intestinal anomalies",
+                "'": "Esophageal stenosis/atresiaPyloric stenosisIntestinal stenosis/atresiaDuodenal atresiaMalrotation ±volvulusIncarceratedherniaMeconium ileus/plugHirschsprung's diseaseImperforate anusEnteric duplications"
+              },
+              {
+                "Newborn": "Neurologic",
+                "'": "Intracranial bleed/massHydrocephalusCerebral edemaKernicterus"
+              },
+              {
+                "Newborn": "Renal",
+                "'": "Urinary tract infectionObstructive uropathyRenal insufficiency"
+              },
+              {
+                "Newborn": "Infectious",
+                "'": "Viral illnessAcute gastroenteritisMeningitisSepsis"
+              },
+              {
+                "Newborn": "Metabolic/endocrine",
+                "'": "Inborn errors of metabolismAdrenal insufficiencyCongenital adrenal hyperplasia"
+              },
+              {
+                "Newborn": "Miscellaneous",
+                "'": "IleusGastroesophageal reflux diseaseNecrotizing enterocolitisMilk allergy,FPIESGIperforation"
+              }
+            ]
+          ]
+        },
+        "Nausea_and_vomiting_infant_(<12_mo)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Obstructive intestinal anomalies",
+                "'": "Pyloric stenosisMalrotation ±volvulusIncarceratedherniaHirschsprung's diseaseEnteric duplicationsIntussusceptionForeign bodyBezoarMeckel diverticulum"
+              },
+              {
+                "": "Neurologic",
+                "'": "Intracranial hemorrhage/massHydrocephalusCerebral edema (e.g. inDKAorcancer)"
+              },
+              {
+                "": "Renal",
+                "'": "Urinary tract infectionObstructive uropathyRenal insufficiency"
+              },
+              {
+                "": "Infectious",
+                "'": "Viral illnessAcute gastroenteritisMeningitisSepsisOtitis mediaPneumoniaPertussisHepatitis"
+              },
+              {
+                "": "Metabolic/endocrine",
+                "'": "Inborn errors of metabolismAdrenal insufficiencyRenal tubular acidosisDKA"
+              },
+              {
+                "": "Miscellaneous",
+                "'": "IleusGastroesophageal reflux diseasePost-tussivePeritonitisDrug overdose"
+              }
+            ]
+          ]
+        },
+        "Nausea_and_vomiting_child_(>12_mo)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "'": "Malrotation ±volvulusIncarceratedherniaHirschsprung's diseaseIntussusceptionForeign bodyBezoarMeckel diverticulumAcquired esophageal stricturePeptic ulcer diseaseSBO, adhesionsSuperior mesenteric artery syndrome"
+              },
+              {
+                "'": "Intracranial hemorrhage/massHydrocephalusCerebral edema (e.g. inDKAorcancer)MigrainePostconcussion syndrome"
+              },
+              {
+                "'": "Urinary tract infectionObstructive uropathyRenal insufficiency"
+              },
+              {
+                "'": "Viral illnessAcute gastroenteritisMeningitisSepsisOtitis mediaPneumoniaPertussisHepatitisStreptococcal pharyngitis"
+              },
+              {
+                "'": "Inborn errors of metabolismAdrenal insufficiencyRenal tubular acidosisDKAReye syndromePorphyria"
+              },
+              {
+                "'": "IleusGastroesophageal reflux diseasePost-tussivePeritonitisDrug overdoseAppendicitisPancreatitisGastritisCrohn's diseasePregnancyPsychogenicCyclic vomiting syndrome"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Usually clinical",
+      "subsections": {
+        "Pediatric_signs_of_dehydration": {
+          "text": "Significantly dehydrated if has 2 or more of the following (LR+ 6.1, CI:3.8-9.8):\n[2]\nProlonged capillary refill (>2 sec)\nDry mucous membranes\nAbsence of tears\nAbnormal overall appearance\nSunken fontanelle in an infant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_signs_of_dehydration": {
+      "text": "Significantly dehydrated if has 2 or more of the following (LR+ 6.1, CI:3.8-9.8):\n[2]\nProlonged capillary refill (>2 sec)\nDry mucous membranes\nAbsence of tears\nAbnormal overall appearance\nSunken fontanelle in an infant",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Pediatric_acute_gastroenteritis_treatment": {
+          "text": "Oral rehydration therapy\nAvoid IV fluids before doing a trial of oral rehydration therapy in uncomplicated cases of mild to moderate dehydration in children.\n[3]\nIf fails, oral\nondansetron\nas a single dose PO (>6 months of age)\n[4]\n[5]\nIf fails, IV fluids (e.g.\nnormal saline\n)\nProbiotics have NOT been shown to provide any benefit\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Oral rehydration therapy",
+          "url": "https://wikem.org/wiki/Oral_rehydration_therapy"
+        },
+        {
+          "text": "ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        }
+      ]
+    },
+    "Pediatric_acute_gastroenteritis_treatment": {
+      "text": "Oral rehydration therapy\nAvoid IV fluids before doing a trial of oral rehydration therapy in uncomplicated cases of mild to moderate dehydration in children.\n[3]\nIf fails, oral\nondansetron\nas a single dose PO (>6 months of age)\n[4]\n[5]\nIf fails, IV fluids (e.g.\nnormal saline\n)\nProbiotics have NOT been shown to provide any benefit\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Oral rehydration therapy",
+          "url": "https://wikem.org/wiki/Oral_rehydration_therapy"
+        },
+        {
+          "text": "ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Discharge": {
+          "text": "Presumed self-limited etiology\nWell appearing\nTolerating fluids",
+          "tables": []
+        },
+        "Admission_and/or_Observation": {
+          "text": "All others",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Presumed self-limited etiology\nWell appearing\nTolerating fluids",
+      "subsections": {
+        "Admission_and/or_Observation": {
+          "text": "All others",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admission_and/or_Observation": {
+      "text": "All others",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Nausea and vomiting (peds)\nDehydration (peds)\nDiarrhea (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

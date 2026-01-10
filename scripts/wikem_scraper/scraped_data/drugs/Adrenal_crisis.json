@@ -1,0 +1,686 @@
+{
+  "drug_name": "Adrenal_crisis",
+  "url": "https://wikem.org/wiki/Adrenal_crisis",
+  "scraped_at": "2026-01-10T07:47:14.911161",
+  "sections": {
+    "Background": {
+      "text": "Adrenal insufficiency occurs when the adrenal glands fail to supply the physiologic demands of the body for glucocorticoids (cortisol) and/or mineralocorticoids (aldosterone).\nDivided into primary adrenal insufficiency or secondary adrenal insufficiency\nAdrenal crisis is the acute, life-threatening presentation of adrenal insufficiency\n[1]\n8-47% of patients with primary adrenal insufficiency will have at least one adrenal crisis in their lives\nConsider in any patient with unexplained\nhypotension\n(especially in those with\nHIV\nor taking exogenous steroids)\nGenerally caused by mineralocorticoid deficiency, not glucocorticoid deficiency\nThis is the reason crises occur much more frequently with primary adrenal insufficiency",
+      "subsections": {
+        "Causes_of_Adrenal_Insufficiency": {
+          "text": "Primary adrenal insufficiency (decreased cortisol and aldosterone)\nAutoimmune (70%)\nAdrenal hemorrhage\nCoagulation disorders\nSepsis\n(Waterhouse-Friderichsen syndrome)\nMeds\nInfection (\nHIV\n,\nTB\n)\nTB is most common worldwide cause primary adrenal insuffiency\nSarcoidosis\n/\namyloidosis\nMetastases\nCAH\nSecondary adrenal insufficiency (decreased ACTH → decreased cortisol only)\nWithdrawal of\nsteroid\ntherapy\nPituitary disease\nHead trauma\nPostpartum pituitary necrosis\nInfiltrative disorders of pituitary or hypothalamus",
+          "tables": []
+        },
+        "Precipitants": {
+          "text": "Increased demand\nInfection\nMI\nSurgery\nTrauma\nDecreased supply\nDiscontinuation of\nsteroid\ntherapy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "CAH",
+          "url": "https://wikem.org/wiki/Congenital_Adrenal_Hyperplasia"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        }
+      ]
+    },
+    "Causes_of_Adrenal_Insufficiency": {
+      "text": "Primary adrenal insufficiency (decreased cortisol and aldosterone)\nAutoimmune (70%)\nAdrenal hemorrhage\nCoagulation disorders\nSepsis\n(Waterhouse-Friderichsen syndrome)\nMeds\nInfection (\nHIV\n,\nTB\n)\nTB is most common worldwide cause primary adrenal insuffiency\nSarcoidosis\n/\namyloidosis\nMetastases\nCAH\nSecondary adrenal insufficiency (decreased ACTH → decreased cortisol only)\nWithdrawal of\nsteroid\ntherapy\nPituitary disease\nHead trauma\nPostpartum pituitary necrosis\nInfiltrative disorders of pituitary or hypothalamus",
+      "subsections": {
+        "Precipitants": {
+          "text": "Increased demand\nInfection\nMI\nSurgery\nTrauma\nDecreased supply\nDiscontinuation of\nsteroid\ntherapy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "CAH",
+          "url": "https://wikem.org/wiki/Congenital_Adrenal_Hyperplasia"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        }
+      ]
+    },
+    "Precipitants": {
+      "text": "Increased demand\nInfection\nMI\nSurgery\nTrauma\nDecreased supply\nDiscontinuation of\nsteroid\ntherapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Adrenal Crisis\n[2]\nHypotension\n(refractory to fluids/pressors)(90%)\nAbdominal tenderness\n(86%)\nFever\n(66%)\nConfusion/delirium/lethargy\n(42%)\nHypoglycemia\nLow bicarbonate, non-anion gap\nmetabolic acidosis\n(due to decreased acid secretion in kidneys from aldosterone deficiency)\n[3]\nPrimary Adrenal Insufficiency\n[4]\nAnorexia\n(100%)\nWeakness/fatigue\n(84-100%)\nHyperpigmentation (41-94%)\nHypotension\n(41-94%)\nHyponatremia\n(57-88%)\nHyperkalemia\n(30-85%)\nAzotemia (55%)\nDehydration\nSecondary Adrenal Insufficiency\nSimilar to primary adrenal insufficiency\nNo hyperpigmentation\nNo hyperkalemia\nHypotension less common",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Abdominal tenderness",
+          "url": "https://wikem.org/wiki/Abdominal_tenderness"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Confusion/delirium/lethargy",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Anorexia",
+          "url": "https://wikem.org/wiki/Anorexia"
+        },
+        {
+          "text": "Weakness/fatigue",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Adrenal_crisis": {
+          "text": "Addison's disease\nCongenital adrenal hyperplasia\nShock\nSepsis\nPituitary apoplexy\nSheehan's syndrome",
+          "tables": []
+        },
+        "Shock": {
+          "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        },
+        {
+          "text": "Sheehan's syndrome",
+          "url": "https://wikem.org/wiki/Sheehan%27s_syndrome"
+        },
+        {
+          "text": "Cardiogenic",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        }
+      ]
+    },
+    "Adrenal_crisis": {
+      "text": "Addison's disease\nCongenital adrenal hyperplasia\nShock\nSepsis\nPituitary apoplexy\nSheehan's syndrome",
+      "subsections": {
+        "Shock": {
+          "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        },
+        {
+          "text": "Sheehan's syndrome",
+          "url": "https://wikem.org/wiki/Sheehan%27s_syndrome"
+        },
+        {
+          "text": "Cardiogenic",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        }
+      ]
+    },
+    "Shock": {
+      "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Labs\nCBC -\neosinophilia\n[5]\nChemistry\nRandom cortisol, renin, and ACTH levels\nDo not wait for levels before starting treatment\nACTH (cosyntropin) stimulation test\nImaging\nConsider CXR to identify infectious triggers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "ACTH (cosyntropin) stimulation test",
+          "url": "https://wikem.org/wiki/ACTH_(cosyntropin)_stimulation_test"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Begin treatment immediately in any suspected case (prognosis related to rapidity of treatment)\nTreat underlying cause, if known\nIVF\n- D5NS 2-3L (corrects fluid deficit and hypoglycemia)\nSteroids\nHydrocortisone\n- 2mg/kg up to 100mg IV bolus\nDrug of choice if K+>6 (provides glucocorticoid and mineralocorticoid effects)\nDexamethasone\n- 4mg IV bolus\nConsider in hemodynamically stable patients if ACTH stimulation test will be performed (will not interfere with the test)\nAlong with methylprednisolone, dexamethasone has negligible mineralocorticoid effect, so\nchoose hydrocortisone in\n[6]\n:\nHypotension\nHyponatremia\nor\nhyperkalemia\nComparable steroid dosages\nHydrocortisone\n(50-75mg/m2 or 1-2mg/kg)\nMethylprednisolone\nare 10-15mg/m2\nDexamethasone\n1-1.5mg/m2\nVasopressors\nAdminister after steroid therapy in patients unresponsive to fluid resuscitation",
+      "subsections": {
+        "Stress-Dose_Steroids_in_Illness": {
+          "text": "To aid in mounting stress response in those with adrenal insufficiency lacking endogenous cortisol",
+          "tables": [
+            [
+              {
+                "Illness Type": "Minor, with fever < 38°C",
+                "Steroid Administration": "Double dose of chronic maintenance steroids"
+              },
+              {
+                "Illness Type": "Severe, with fever > 38°C",
+                "Steroid Administration": "Triple dose of chronic maintenance steroids"
+              },
+              {
+                "Illness Type": "Vomiting, listless, or hypotensive",
+                "Steroid Administration": "Hydrocortisoneat 1-2mg/kg (as above in adrenal crisis)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "Stress-Dose_Steroids_in_Illness": {
+      "text": "To aid in mounting stress response in those with adrenal insufficiency lacking endogenous cortisol",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Illness Type": "Minor, with fever < 38°C",
+            "Steroid Administration": "Double dose of chronic maintenance steroids"
+          },
+          {
+            "Illness Type": "Severe, with fever > 38°C",
+            "Steroid Administration": "Triple dose of chronic maintenance steroids"
+          },
+          {
+            "Illness Type": "Vomiting, listless, or hypotensive",
+            "Steroid Administration": "Hydrocortisoneat 1-2mg/kg (as above in adrenal crisis)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission\nAdmit all patients with acute adrenal insufficiency, especially if new diagnosis for the patient\nPatients with adrenal crisis should receive ICU admission\nDischarge\nConsult endocrinology if discharge considered for mild cases w/ normal lab values",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Congenital Adrenal Hyperplasia\nAddison's disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital Adrenal Hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_Adrenal_Hyperplasia"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDocs - Adrenal Crisis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

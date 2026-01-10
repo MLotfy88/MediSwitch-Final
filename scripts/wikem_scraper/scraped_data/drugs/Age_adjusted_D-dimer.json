@@ -1,0 +1,105 @@
+{
+  "drug_name": "Age_adjusted_D-dimer",
+  "url": "https://wikem.org/wiki/Age_adjusted_D-dimer",
+  "scraped_at": "2026-01-10T07:47:15.539364",
+  "sections": {
+    "Background": {
+      "text": "The\nPE\nderivation and validation study for usage of the\nage adjusted d-dimer\nformula concluded that when combining the d-dimer adjustment with clinical probability, less patients required CTA for exclusion and offered no clinical increase in the rate of missed\nPulmonary embolism\n[1]\n[2]\nSimilarly, using the age adjusted d-dimer in combination with clinical probability can reduce the need for further testing in DVT evaluations with no substantial risk to patient safety\n[3]\n[4]\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "age adjusted d-dimer",
+          "url": "https://wikem.org/wiki/EBQ:The_ADJUST-PE_Study"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Usage": {
+      "text": "Labs commonly report the test as fibrinogen equivalent units (FEUs) with the cutoff at\n500 ng/mL\nand most studies used the FEU values for derivation or validation.  If reported by the lab as a D-dimer unit (DDU) the cutoff is often\n230 ng/mL\n.\n2 FEUs equal 1 DDU.\nAge (years) x 10 ug/L\nfor patients > 50 years of age\nPatient age 75 = age adjusted d-dimer of 750 ug/L\nIf using a lab with a cutoff of 230 (DDU assay) then formula is\nAge x 5",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "TEST": "Lab cutoff",
+            "Age": "51 - 60",
+            "Sensitivity": "100%",
+            "Specificity": "57.60%"
+          },
+          {
+            "TEST": "Lab cutoff",
+            "Age": "61 - 70",
+            "Sensitivity": "99.00%",
+            "Specificity": "39.40%"
+          },
+          {
+            "TEST": "Lab cuttoff",
+            "Age": "71 - 80",
+            "Sensitivity": "98.70%",
+            "Specificity": "24.50%"
+          },
+          {
+            "TEST": "Lab cutoff",
+            "Age": ">80",
+            "Sensitivity": "99.60%",
+            "Specificity": "14.70%"
+          },
+          {
+            "TEST": "Age Adjusted cutoff",
+            "Age": "51 - 60",
+            "Sensitivity": "99.40%",
+            "Specificity": "62.30%"
+          },
+          {
+            "TEST": "Age Adjusted cutoff",
+            "Age": "61 - 70",
+            "Sensitivity": "97.30%",
+            "Specificity": "49.50%"
+          },
+          {
+            "TEST": "Age Adjusted cutoff",
+            "Age": "71 - 80",
+            "Sensitivity": "97.30%",
+            "Specificity": "44.20%"
+          },
+          {
+            "TEST": "Age Adjusted cutoff",
+            "Age": ">80",
+            "Sensitivity": "97.00%",
+            "Specificity": "35.20%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Special_Considerations": {
+      "text": "Risk stratification for all patients should take place using the\nWells Criteria\nKnow your lab's assay cutoff and whether it is report as DDU or FEUs since the formula is different for the different assays",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Wells Criteria",
+          "url": "https://wikem.org/wiki/Wells_Criteria"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "D-dimer",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        }
+      ]
+    }
+  }
+}

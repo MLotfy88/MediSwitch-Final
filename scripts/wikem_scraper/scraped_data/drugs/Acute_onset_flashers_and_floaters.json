@@ -1,0 +1,329 @@
+{
+  "drug_name": "Acute_onset_flashers_and_floaters",
+  "url": "https://wikem.org/wiki/Acute_onset_flashers_and_floaters",
+  "scraped_at": "2026-01-10T07:47:07.360659",
+  "sections": {
+    "Background": {
+      "text": "Photopsia is defined as a visual phenomenon characterized by the perception of flashes of light or flickering in the visual field.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Floaters\nA sensation of gray or dark spots moving in the visual field\nCaused either by light bending at the interface of fluid pockets in the vitreous jelly or cells located within the vitreous\nMay persist for months to years\nFlashes\nMonocular, repeated, brief flashes of white light in the peripheral visual field\nrelated to traction on the peripheral retina from areas of tightly adherent vitreous jelly",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_onset_flashers_and_floaters": {
+          "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Sympathetic ophthalmia",
+          "url": "https://wikem.org/wiki/Sympathetic_ophthalmia"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Acute_onset_flashers_and_floaters": {
+      "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Sympathetic ophthalmia",
+          "url": "https://wikem.org/wiki/Sympathetic_ophthalmia"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Eye exam\nStress on:\nVisual acuity\nVisual field confrontation test\nDirect ophthalmoscopy\nSlit lamp",
+      "subsections": {
+        "Retinal_Images": {
+          "text": "Central Retinal Vein Occlusion (CRVO)\nRetinal detachment\nCMV retinitis\nOpen-angle glaucoma\n(cupping)\nRoth spots due to retinal vein occlusion (\nretinal hemorrhage\n)\nCentral retinal artery occlusion\n: cherry-red spot, retinal edema and narrowing of the vessels.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Eye exam",
+          "url": "https://wikem.org/wiki/Eye_exam"
+        },
+        {
+          "text": "Direct ophthalmoscopy",
+          "url": "https://wikem.org/wiki/Direct_ophthalmoscopy"
+        },
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        }
+      ]
+    },
+    "Retinal_Images": {
+      "text": "Central Retinal Vein Occlusion (CRVO)\nRetinal detachment\nCMV retinitis\nOpen-angle glaucoma\n(cupping)\nRoth spots due to retinal vein occlusion (\nretinal hemorrhage\n)\nCentral retinal artery occlusion\n: cherry-red spot, retinal edema and narrowing of the vessels.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Referral_of_patients_with_presumed_posterior_vitreous_detachment": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Clinical Assessment": "Floaters and/or flashes with “red flag” sign of acuteRetinal DetachmentMonocular visual field loss (“curtain of darkness”)",
+                "Disposition": "Same-day (immediate) referral to retinal surgeon (minutes may matter)High risk ofRetinal Detachment"
+              },
+              {
+                "Clinical Assessment": "New-onset floaters and/or flashes with high-risk features:Subjective or objective visual reduction examinationVitreous hemorrhage or vitreous pigment on slitlamp examination",
+                "Disposition": "Same-day referral to ophthalmologist or retinal surgeon"
+              },
+              {
+                "Clinical Assessment": "New-onset floaters and/or flashes without high-risk features",
+                "Disposition": "Referral to ophthalmologist within 1 to 2 weeksCounsel patient regarding high-risk features"
+              },
+              {
+                "Clinical Assessment": "Recently diagnosed uncomplicated posterior vitreous detachment withNew shower of floatersNew subjective visual reduction",
+                "Disposition": "Rereferral to ophthalmologist to rule out new retinal tear or detachmentContact ophtho to help determine urgency"
+              },
+              {
+                "Clinical Assessment": "Stable symptoms of floaters and/or flashes for several weeks to months, not particularly bothersome to the patient and without high-risk features",
+                "Disposition": "Elective referral to ophthalmologistCounsel patient regarding high-risk features that should prompt urgent reassessment"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Referral_of_patients_with_presumed_posterior_vitreous_detachment": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Clinical Assessment": "Floaters and/or flashes with “red flag” sign of acuteRetinal DetachmentMonocular visual field loss (“curtain of darkness”)",
+            "Disposition": "Same-day (immediate) referral to retinal surgeon (minutes may matter)High risk ofRetinal Detachment"
+          },
+          {
+            "Clinical Assessment": "New-onset floaters and/or flashes with high-risk features:Subjective or objective visual reduction examinationVitreous hemorrhage or vitreous pigment on slitlamp examination",
+            "Disposition": "Same-day referral to ophthalmologist or retinal surgeon"
+          },
+          {
+            "Clinical Assessment": "New-onset floaters and/or flashes without high-risk features",
+            "Disposition": "Referral to ophthalmologist within 1 to 2 weeksCounsel patient regarding high-risk features"
+          },
+          {
+            "Clinical Assessment": "Recently diagnosed uncomplicated posterior vitreous detachment withNew shower of floatersNew subjective visual reduction",
+            "Disposition": "Rereferral to ophthalmologist to rule out new retinal tear or detachmentContact ophtho to help determine urgency"
+          },
+          {
+            "Clinical Assessment": "Stable symptoms of floaters and/or flashes for several weeks to months, not particularly bothersome to the patient and without high-risk features",
+            "Disposition": "Elective referral to ophthalmologistCounsel patient regarding high-risk features that should prompt urgent reassessment"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Eye_Algorithms": {
+          "text": "Red eye\nBilateral red eyes\nUnilateral red eye\nRed eye (by symptoms)\nRed eye (peds)\nNeonatal conjunctivitis\nPeriorbital swelling\nAcute vision loss (noninflamed)\nAcute onset flashers and floaters\nPainful eyes with normal exam\nNeonatal eye problems",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bilateral red eyes",
+          "url": "https://wikem.org/wiki/Bilateral_red_eyes"
+        },
+        {
+          "text": "Unilateral red eye",
+          "url": "https://wikem.org/wiki/Unilateral_red_eye"
+        },
+        {
+          "text": "Red eye (by symptoms)",
+          "url": "https://wikem.org/wiki/Red_eye_(by_symptoms)"
+        },
+        {
+          "text": "Red eye (peds)",
+          "url": "https://wikem.org/wiki/Red_eye_(peds)"
+        },
+        {
+          "text": "Neonatal conjunctivitis",
+          "url": "https://wikem.org/wiki/Neonatal_conjunctivitis"
+        },
+        {
+          "text": "Periorbital swelling",
+          "url": "https://wikem.org/wiki/Periorbital_swelling"
+        },
+        {
+          "text": "Acute vision loss (noninflamed)",
+          "url": "https://wikem.org/wiki/Acute_vision_loss_(noninflamed)"
+        },
+        {
+          "text": "Painful eyes with normal exam",
+          "url": "https://wikem.org/wiki/Painful_eyes_with_normal_exam"
+        },
+        {
+          "text": "Neonatal eye problems",
+          "url": "https://wikem.org/wiki/Neonatal_eye_problems"
+        }
+      ]
+    },
+    "Eye_Algorithms": {
+      "text": "Red eye\nBilateral red eyes\nUnilateral red eye\nRed eye (by symptoms)\nRed eye (peds)\nNeonatal conjunctivitis\nPeriorbital swelling\nAcute vision loss (noninflamed)\nAcute onset flashers and floaters\nPainful eyes with normal exam\nNeonatal eye problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bilateral red eyes",
+          "url": "https://wikem.org/wiki/Bilateral_red_eyes"
+        },
+        {
+          "text": "Unilateral red eye",
+          "url": "https://wikem.org/wiki/Unilateral_red_eye"
+        },
+        {
+          "text": "Red eye (by symptoms)",
+          "url": "https://wikem.org/wiki/Red_eye_(by_symptoms)"
+        },
+        {
+          "text": "Red eye (peds)",
+          "url": "https://wikem.org/wiki/Red_eye_(peds)"
+        },
+        {
+          "text": "Neonatal conjunctivitis",
+          "url": "https://wikem.org/wiki/Neonatal_conjunctivitis"
+        },
+        {
+          "text": "Periorbital swelling",
+          "url": "https://wikem.org/wiki/Periorbital_swelling"
+        },
+        {
+          "text": "Acute vision loss (noninflamed)",
+          "url": "https://wikem.org/wiki/Acute_vision_loss_(noninflamed)"
+        },
+        {
+          "text": "Painful eyes with normal exam",
+          "url": "https://wikem.org/wiki/Painful_eyes_with_normal_exam"
+        },
+        {
+          "text": "Neonatal eye problems",
+          "url": "https://wikem.org/wiki/Neonatal_eye_problems"
+        }
+      ]
+    },
+    "References": {
+      "text": "Hollands H, Johnson D, Brox AC, Almeida D, Simel DL, Sharma S. Acute-Onset Floaters and Flashes: is this patient at risk for retinal detachment? JAMA. 2009;302(20):2243-2249.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

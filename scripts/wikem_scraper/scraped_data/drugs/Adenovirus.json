@@ -1,0 +1,93 @@
+{
+  "drug_name": "Adenovirus",
+  "url": "https://wikem.org/wiki/Adenovirus",
+  "scraped_at": "2026-01-10T07:47:09.726628",
+  "sections": {
+    "Background": {
+      "text": "Medium-sized (90-100 nm), non-enveloped icosohedral viruses with double-stranded DNA\n> 50 types of adenoviruses can cause infections in humans\nRelatively resistant to common disinfectants and environmental conditions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Adenoviruses affect many different organ systems.\nMost commonly respiratory ill\nCommon cold\n,\npneumonia\n,\ncroup\n, and bronchitis\nGastroenteritis\nConjunctivitis\nCystitis\nLess commonly central nervous system involvement\nMore severe infection in immunocompromised individuals\nTransmitted primarily via respiratory droplets, but also by fecal routes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Common cold",
+          "url": "https://wikem.org/wiki/Common_cold"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Viral respiratory illness also caused by:\nRhinoviruses\nCoronaviruses\nInfluenza viruses\nParainfluenza viruses\nEnteroviruses\nHuman metapneumoviruses\nRSV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Typically clinical diagnosis after excluding other possible treatable infection\nAntigen detection, PCR assay, virus isolation, and serology can be used to identify adenovirus infections, but the presence of virus does not necessarily mean it is associated with disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "No virus-specific treatment available\nSymptomatic treatment only\nNo vaccine available to the public currently\nPrevention with appropriate hand hygiene, infection control practices, and chlorinated pools",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Commonly outpatient management\nDeath exceeding rare\nComplications include necrotizing pneumonia and bronchiolitis obliterans",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fever and rash\nUpper respiratory infection\nGastroenteritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever and rash",
+          "url": "https://wikem.org/wiki/Fever_and_rash"
+        },
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        }
+      ]
+    },
+    "References": {
+      "text": "<CDC Adenoviruses for health care professionals. National Center for Immunization and Respiratory Diseases, Division of Viral Diseases. April 2015/>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

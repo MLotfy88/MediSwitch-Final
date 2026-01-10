@@ -1,0 +1,1896 @@
+{
+  "drug_name": "Acute_kidney_injury",
+  "url": "https://wikem.org/wiki/Acute_kidney_injury",
+  "scraped_at": "2026-01-10T07:47:03.431568",
+  "sections": {
+    "Background": {
+      "text": "Majority of cases of community-acquired ARF is secondary to volume depletion although consideration of pre-renal, post renal, and renal causes are important.",
+      "subsections": {
+        "AKI_Staging": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "AKI Stage[1]": "1",
+                "KDIGO": "Cr 1.5-1.9x baseline over 7dor≥0.3 mg/dL increase over 48hrs",
+                "UOP": "<0.5 mL/kg/hr  for 6-12hrs"
+              },
+              {
+                "AKI Stage[1]": "2",
+                "KDIGO": "Cr 2.0-2.9x baseline",
+                "UOP": "<0.5 mL/kg/hr for >12hrs"
+              },
+              {
+                "AKI Stage[1]": "3",
+                "KDIGO": "Cr ≥3.0x baselineor≥4.0 mg/dL increaseorinitiation of RRT",
+                "UOP": "<0.3 mL/kg/hr for >24hrsoranuria for >12hrs"
+              }
+            ]
+          ]
+        },
+        "Chronic_Kidney_Disease_Stages": {
+          "text": "Useful if patient's baseline creatinine is unknown\nStage 1: Kidney damage (e.g.\nproteinuria\n) and normal GFR; GFR >90\nStage 2: Kidney damage (e.g.\nproteinuria\n) and mild decrease in GFR; GFR 60-89\nStage 3: Moderate decrease in GFR; GFR >30-59\nStage 4: Severe decrease in GFR; GFR 15-29\nStage 5: Kidney failure (dialysis or kidney transplant needed); GFR <15",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Radiocontrast agents\nEspeciallyif GFR <60, hypovolemic\nAtherosclerosis\nChronic\nhypertension\nChronic kidney disease\nNSAIDs\nACEI\n/\nARB\nSepsis\nHypercalcemia\nHepatorenal syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "Radiocontrast agents",
+          "url": "https://wikem.org/wiki/Contrast-Induced_Nephropathy"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        }
+      ]
+    },
+    "AKI_Staging": {
+      "text": "",
+      "subsections": {
+        "Chronic_Kidney_Disease_Stages": {
+          "text": "Useful if patient's baseline creatinine is unknown\nStage 1: Kidney damage (e.g.\nproteinuria\n) and normal GFR; GFR >90\nStage 2: Kidney damage (e.g.\nproteinuria\n) and mild decrease in GFR; GFR 60-89\nStage 3: Moderate decrease in GFR; GFR >30-59\nStage 4: Severe decrease in GFR; GFR 15-29\nStage 5: Kidney failure (dialysis or kidney transplant needed); GFR <15",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Radiocontrast agents\nEspeciallyif GFR <60, hypovolemic\nAtherosclerosis\nChronic\nhypertension\nChronic kidney disease\nNSAIDs\nACEI\n/\nARB\nSepsis\nHypercalcemia\nHepatorenal syndrome",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "AKI Stage[1]": "1",
+            "KDIGO": "Cr 1.5-1.9x baseline over 7dor≥0.3 mg/dL increase over 48hrs",
+            "UOP": "<0.5 mL/kg/hr  for 6-12hrs"
+          },
+          {
+            "AKI Stage[1]": "2",
+            "KDIGO": "Cr 2.0-2.9x baseline",
+            "UOP": "<0.5 mL/kg/hr for >12hrs"
+          },
+          {
+            "AKI Stage[1]": "3",
+            "KDIGO": "Cr ≥3.0x baselineor≥4.0 mg/dL increaseorinitiation of RRT",
+            "UOP": "<0.3 mL/kg/hr for >24hrsoranuria for >12hrs"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "Radiocontrast agents",
+          "url": "https://wikem.org/wiki/Contrast-Induced_Nephropathy"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        }
+      ]
+    },
+    "Chronic_Kidney_Disease_Stages": {
+      "text": "Useful if patient's baseline creatinine is unknown\nStage 1: Kidney damage (e.g.\nproteinuria\n) and normal GFR; GFR >90\nStage 2: Kidney damage (e.g.\nproteinuria\n) and mild decrease in GFR; GFR 60-89\nStage 3: Moderate decrease in GFR; GFR >30-59\nStage 4: Severe decrease in GFR; GFR 15-29\nStage 5: Kidney failure (dialysis or kidney transplant needed); GFR <15",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Radiocontrast agents\nEspeciallyif GFR <60, hypovolemic\nAtherosclerosis\nChronic\nhypertension\nChronic kidney disease\nNSAIDs\nACEI\n/\nARB\nSepsis\nHypercalcemia\nHepatorenal syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "Radiocontrast agents",
+          "url": "https://wikem.org/wiki/Contrast-Induced_Nephropathy"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Radiocontrast agents\nEspeciallyif GFR <60, hypovolemic\nAtherosclerosis\nChronic\nhypertension\nChronic kidney disease\nNSAIDs\nACEI\n/\nARB\nSepsis\nHypercalcemia\nHepatorenal syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiocontrast agents",
+          "url": "https://wikem.org/wiki/Contrast-Induced_Nephropathy"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Acute renal failure itself has few symptoms until severe uremia develops:\nNausea/vomiting\n, drowsiness, fatigue, confusion,\ncoma\n,\npericarditis\nPatients more likely to present with symptoms related to underlying cause:\nPrerenal\nThirst, orthostatic lightheadedness, decreasing urine output\nIntrinsic\nFlank pain\n,\nhematuria\nNephrolithiasis\nPapillary necrosis\nCrystal-induced nephropathy\nMyalgias\n,\nseizures\n, recreational intoxication\nPigment-induced ARF (\nrhabdomyolysis\n)\nDarkening urine and edema (esp with preceding pharyngitis or cutaneous infection)\nAcute glomerulonephritis\nFever\n,\narthralgia\n,\nrash\nAcute interstitial nephritis\nCough\n,\ndyspnea\n,\nhemoptysis\nGoodpasture syndrome\n,\ngranulomatosis with polyangiitis\n(Wegener's)\nPostrenal\nAlternating oliguria and\npolyuria\nis pathognomonic of obstruction\nAnuria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Myalgias",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "polyuria",
+          "url": "https://wikem.org/wiki/Polyuria"
+        }
+      ]
+    },
+    "Etiologies": {
+      "text": "",
+      "subsections": {
+        "Prerenal": {
+          "text": "Hypovolemia\nGI: decreased intake,\nvomiting\nand\ndiarrhea\nHemorrhage\nPharmacologic:\ndiuretics\nThird spacing\nPancreatitis\nSkin losses:\nhyperthermia\n,\nburns\nMiscellaneous\nHypoaldosteronism\nSalt-losing nephropathy\nPostobstructive diuresis\nHypotension\nSepsis\nDecreased cardiac output: decompensated\nheart failure\n,\ntamponade\n, massive pulmonary embolus\nHepatorenal Syndrome\nIschemia/infarction\nValvulopathy\nPharmacologic\nBeta-blockers\nCalcium-channel blockers\nAntihypertensive medications\nHigh output heart failure\nThyrotoxicosis\nAV fistula\nRenal artery and small-vessel disease\nEmbolism: thrombotic, septic, cholesterol\nThrombosis: atherosclerosis,\nvasculitis\n,\nsickle cell disease\nDissection\nPharmacologic\nNSAIDs\nACEI\n/\nARB\nObserved shortly after initiation of therapy\nMicrovascular thrombosis\nPreeclampsia\nHemolytic Uremic Syndrome (HUS)\nThrombotic Thrombocytopenic Purpura (TTP)\nDisseminated Intravascular Coagulation (DIC)\nVasculitis\nSickle Cell Disease\nHypercalcemia",
+          "tables": []
+        },
+        "Intrinsic": {
+          "text": "Tubular diseases\nIschemic acute tubular necrosis\nCaused by more advanced disease due to the prerenal causes\nNephrotoxins\nAminoglycosides\n,\nradiocontrast\n,\namphotericin B\n, heme pigments (\nrhabdomyolysis\n, hemolysis)\nObstruction\nUric acid, calcium oxalate from\nEthylene Glycol Toxicity\n,\nMultiple myeloma\n(immunoglobin light chains),\namyloidosis\nPharmacologic:\nsulfonamides\n, triamterene,\nacyclovir\n, indinavir\nInterstitial diseases\nAcute interstitial nephritis: typically a drug reaction (\nNSAIDs\n,\nPenicillins\nand antibiotics,\nDiuretics\n,\nphenytoin\n)\nInfection: bilateral pyelonephritis,\nLegionella\n,\nHantavirus\nInfiltrative disease:\nsarcoidosis\n,\nlymphoma\nAutoimmune diseases:\nSLE\nGlomerular diseases\nRapidly progressive glomerulonephritis\nGoodpasture syndrome\n,\ngranulomatosis with polyangiitis\n(Wegener's)\nHSP\n,\nSLE\n, membranoproliferative GN\nPostinfectious\nglomerulonephritis\nSmall-vessel diseases\nMicrovascular thrombosis\nPreeclampsia\n,\nHUS\n,\nDIC\n,\nTTP\n,\nvasculitis\n(PAN, SCD, atheroembolism)\nMalignant hypertension\nScleroderma\nRenal vein thrombosis\nAbdominal compartment syndrome\nHepatorenal syndrome\nCardiorenal syndrome",
+          "tables": []
+        },
+        "Postrenal": {
+          "text": "Infants and children\nUrethra and bladder outlet\nAnatomic malformations\nUrethral atresia\nMeatal stenosis\nAnterior and posterior urethral valves\nUreter\nAnatomic malformations\nVesicoureteral reflux (female preponderance)\nUreterovesical junction obstruction\nUreterocele\nRetroperitoneal tumor\nAll ages\nVarious locations in GU tract\nTrauma\nBlood clot\nUrethra and bladder outlet\nPhimosis\nor urethral stricture (male preponderance)\nNeurogenic bladder\nDiabetes mellitus\n, spinal cord disease,\nmultiple sclerosis\n,\nParkinson's disease\nPharmacologic:\nanticholinergics\n,\na-adrenergic antagonists\n,\nopioids\nAdults\nUrethra and bladder outlet\nBPH\nCancer of prostate, bladder, cervix, or colon\nObstructed catheters\nUreter\nUreteral calculi\n, uric acid crystals\nPapillary necrosis\nSickle cell disease\n,\nDM\n,\npyelonephritis\nTumor: Ureter, uterus, prostate, bladder, colon, rectum; retroperitoneal lymphoma\nRetroperitoneal fibrosis: idiopathic,\ntuberculosis\n,\nsarcoidosis\n,\npropranolol\nStricture:\nTB\n,\nradiation\n,\nschistosomiasis\n,\nNSAIDs\nMiscellaneous\nAortic aneurysm\nPregnant uterus\nIBD\nRenal\nor\nureter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Postobstructive diuresis",
+          "url": "https://wikem.org/wiki/Postobstructive_diuresis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "Hepatorenal Syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_Syndrome"
+        },
+        {
+          "text": "Valvulopathy",
+          "url": "https://wikem.org/wiki/Valvular_Disease"
+        },
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "Calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        },
+        {
+          "text": "Antihypertensive medications",
+          "url": "https://wikem.org/wiki/Antihypertensive_medications"
+        },
+        {
+          "text": "High output heart failure",
+          "url": "https://wikem.org/wiki/High_output_heart_failure"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Sickle Cell Disease",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Disease"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "radiocontrast",
+          "url": "https://wikem.org/wiki/Contrast-Induced_Nephropathy"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Ethylene Glycol Toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Toxicity"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "sulfonamides",
+          "url": "https://wikem.org/wiki/Sulfonamides"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Penicillins",
+          "url": "https://wikem.org/wiki/Penicillins"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Legionella",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "HSP",
+          "url": "https://wikem.org/wiki/HSP"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "a-adrenergic antagonists",
+          "url": "https://wikem.org/wiki/Alpha_antagonist"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Ureteral calculi",
+          "url": "https://wikem.org/wiki/Ureteral_calculi"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "radiation",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Renal",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Prerenal": {
+      "text": "Hypovolemia\nGI: decreased intake,\nvomiting\nand\ndiarrhea\nHemorrhage\nPharmacologic:\ndiuretics\nThird spacing\nPancreatitis\nSkin losses:\nhyperthermia\n,\nburns\nMiscellaneous\nHypoaldosteronism\nSalt-losing nephropathy\nPostobstructive diuresis\nHypotension\nSepsis\nDecreased cardiac output: decompensated\nheart failure\n,\ntamponade\n, massive pulmonary embolus\nHepatorenal Syndrome\nIschemia/infarction\nValvulopathy\nPharmacologic\nBeta-blockers\nCalcium-channel blockers\nAntihypertensive medications\nHigh output heart failure\nThyrotoxicosis\nAV fistula\nRenal artery and small-vessel disease\nEmbolism: thrombotic, septic, cholesterol\nThrombosis: atherosclerosis,\nvasculitis\n,\nsickle cell disease\nDissection\nPharmacologic\nNSAIDs\nACEI\n/\nARB\nObserved shortly after initiation of therapy\nMicrovascular thrombosis\nPreeclampsia\nHemolytic Uremic Syndrome (HUS)\nThrombotic Thrombocytopenic Purpura (TTP)\nDisseminated Intravascular Coagulation (DIC)\nVasculitis\nSickle Cell Disease\nHypercalcemia",
+      "subsections": {
+        "Intrinsic": {
+          "text": "Tubular diseases\nIschemic acute tubular necrosis\nCaused by more advanced disease due to the prerenal causes\nNephrotoxins\nAminoglycosides\n,\nradiocontrast\n,\namphotericin B\n, heme pigments (\nrhabdomyolysis\n, hemolysis)\nObstruction\nUric acid, calcium oxalate from\nEthylene Glycol Toxicity\n,\nMultiple myeloma\n(immunoglobin light chains),\namyloidosis\nPharmacologic:\nsulfonamides\n, triamterene,\nacyclovir\n, indinavir\nInterstitial diseases\nAcute interstitial nephritis: typically a drug reaction (\nNSAIDs\n,\nPenicillins\nand antibiotics,\nDiuretics\n,\nphenytoin\n)\nInfection: bilateral pyelonephritis,\nLegionella\n,\nHantavirus\nInfiltrative disease:\nsarcoidosis\n,\nlymphoma\nAutoimmune diseases:\nSLE\nGlomerular diseases\nRapidly progressive glomerulonephritis\nGoodpasture syndrome\n,\ngranulomatosis with polyangiitis\n(Wegener's)\nHSP\n,\nSLE\n, membranoproliferative GN\nPostinfectious\nglomerulonephritis\nSmall-vessel diseases\nMicrovascular thrombosis\nPreeclampsia\n,\nHUS\n,\nDIC\n,\nTTP\n,\nvasculitis\n(PAN, SCD, atheroembolism)\nMalignant hypertension\nScleroderma\nRenal vein thrombosis\nAbdominal compartment syndrome\nHepatorenal syndrome\nCardiorenal syndrome",
+          "tables": []
+        },
+        "Postrenal": {
+          "text": "Infants and children\nUrethra and bladder outlet\nAnatomic malformations\nUrethral atresia\nMeatal stenosis\nAnterior and posterior urethral valves\nUreter\nAnatomic malformations\nVesicoureteral reflux (female preponderance)\nUreterovesical junction obstruction\nUreterocele\nRetroperitoneal tumor\nAll ages\nVarious locations in GU tract\nTrauma\nBlood clot\nUrethra and bladder outlet\nPhimosis\nor urethral stricture (male preponderance)\nNeurogenic bladder\nDiabetes mellitus\n, spinal cord disease,\nmultiple sclerosis\n,\nParkinson's disease\nPharmacologic:\nanticholinergics\n,\na-adrenergic antagonists\n,\nopioids\nAdults\nUrethra and bladder outlet\nBPH\nCancer of prostate, bladder, cervix, or colon\nObstructed catheters\nUreter\nUreteral calculi\n, uric acid crystals\nPapillary necrosis\nSickle cell disease\n,\nDM\n,\npyelonephritis\nTumor: Ureter, uterus, prostate, bladder, colon, rectum; retroperitoneal lymphoma\nRetroperitoneal fibrosis: idiopathic,\ntuberculosis\n,\nsarcoidosis\n,\npropranolol\nStricture:\nTB\n,\nradiation\n,\nschistosomiasis\n,\nNSAIDs\nMiscellaneous\nAortic aneurysm\nPregnant uterus\nIBD\nRenal\nor\nureter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Postobstructive diuresis",
+          "url": "https://wikem.org/wiki/Postobstructive_diuresis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "Hepatorenal Syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_Syndrome"
+        },
+        {
+          "text": "Valvulopathy",
+          "url": "https://wikem.org/wiki/Valvular_Disease"
+        },
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "Calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        },
+        {
+          "text": "Antihypertensive medications",
+          "url": "https://wikem.org/wiki/Antihypertensive_medications"
+        },
+        {
+          "text": "High output heart failure",
+          "url": "https://wikem.org/wiki/High_output_heart_failure"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Sickle Cell Disease",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Disease"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "radiocontrast",
+          "url": "https://wikem.org/wiki/Contrast-Induced_Nephropathy"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Ethylene Glycol Toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Toxicity"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "sulfonamides",
+          "url": "https://wikem.org/wiki/Sulfonamides"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Penicillins",
+          "url": "https://wikem.org/wiki/Penicillins"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Legionella",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "HSP",
+          "url": "https://wikem.org/wiki/HSP"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "a-adrenergic antagonists",
+          "url": "https://wikem.org/wiki/Alpha_antagonist"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Ureteral calculi",
+          "url": "https://wikem.org/wiki/Ureteral_calculi"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "radiation",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Renal",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Intrinsic": {
+      "text": "Tubular diseases\nIschemic acute tubular necrosis\nCaused by more advanced disease due to the prerenal causes\nNephrotoxins\nAminoglycosides\n,\nradiocontrast\n,\namphotericin B\n, heme pigments (\nrhabdomyolysis\n, hemolysis)\nObstruction\nUric acid, calcium oxalate from\nEthylene Glycol Toxicity\n,\nMultiple myeloma\n(immunoglobin light chains),\namyloidosis\nPharmacologic:\nsulfonamides\n, triamterene,\nacyclovir\n, indinavir\nInterstitial diseases\nAcute interstitial nephritis: typically a drug reaction (\nNSAIDs\n,\nPenicillins\nand antibiotics,\nDiuretics\n,\nphenytoin\n)\nInfection: bilateral pyelonephritis,\nLegionella\n,\nHantavirus\nInfiltrative disease:\nsarcoidosis\n,\nlymphoma\nAutoimmune diseases:\nSLE\nGlomerular diseases\nRapidly progressive glomerulonephritis\nGoodpasture syndrome\n,\ngranulomatosis with polyangiitis\n(Wegener's)\nHSP\n,\nSLE\n, membranoproliferative GN\nPostinfectious\nglomerulonephritis\nSmall-vessel diseases\nMicrovascular thrombosis\nPreeclampsia\n,\nHUS\n,\nDIC\n,\nTTP\n,\nvasculitis\n(PAN, SCD, atheroembolism)\nMalignant hypertension\nScleroderma\nRenal vein thrombosis\nAbdominal compartment syndrome\nHepatorenal syndrome\nCardiorenal syndrome",
+      "subsections": {
+        "Postrenal": {
+          "text": "Infants and children\nUrethra and bladder outlet\nAnatomic malformations\nUrethral atresia\nMeatal stenosis\nAnterior and posterior urethral valves\nUreter\nAnatomic malformations\nVesicoureteral reflux (female preponderance)\nUreterovesical junction obstruction\nUreterocele\nRetroperitoneal tumor\nAll ages\nVarious locations in GU tract\nTrauma\nBlood clot\nUrethra and bladder outlet\nPhimosis\nor urethral stricture (male preponderance)\nNeurogenic bladder\nDiabetes mellitus\n, spinal cord disease,\nmultiple sclerosis\n,\nParkinson's disease\nPharmacologic:\nanticholinergics\n,\na-adrenergic antagonists\n,\nopioids\nAdults\nUrethra and bladder outlet\nBPH\nCancer of prostate, bladder, cervix, or colon\nObstructed catheters\nUreter\nUreteral calculi\n, uric acid crystals\nPapillary necrosis\nSickle cell disease\n,\nDM\n,\npyelonephritis\nTumor: Ureter, uterus, prostate, bladder, colon, rectum; retroperitoneal lymphoma\nRetroperitoneal fibrosis: idiopathic,\ntuberculosis\n,\nsarcoidosis\n,\npropranolol\nStricture:\nTB\n,\nradiation\n,\nschistosomiasis\n,\nNSAIDs\nMiscellaneous\nAortic aneurysm\nPregnant uterus\nIBD\nRenal\nor\nureter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "radiocontrast",
+          "url": "https://wikem.org/wiki/Contrast-Induced_Nephropathy"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Ethylene Glycol Toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Toxicity"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "sulfonamides",
+          "url": "https://wikem.org/wiki/Sulfonamides"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Penicillins",
+          "url": "https://wikem.org/wiki/Penicillins"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Legionella",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "HSP",
+          "url": "https://wikem.org/wiki/HSP"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "a-adrenergic antagonists",
+          "url": "https://wikem.org/wiki/Alpha_antagonist"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Ureteral calculi",
+          "url": "https://wikem.org/wiki/Ureteral_calculi"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "radiation",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Renal",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Postrenal": {
+      "text": "Infants and children\nUrethra and bladder outlet\nAnatomic malformations\nUrethral atresia\nMeatal stenosis\nAnterior and posterior urethral valves\nUreter\nAnatomic malformations\nVesicoureteral reflux (female preponderance)\nUreterovesical junction obstruction\nUreterocele\nRetroperitoneal tumor\nAll ages\nVarious locations in GU tract\nTrauma\nBlood clot\nUrethra and bladder outlet\nPhimosis\nor urethral stricture (male preponderance)\nNeurogenic bladder\nDiabetes mellitus\n, spinal cord disease,\nmultiple sclerosis\n,\nParkinson's disease\nPharmacologic:\nanticholinergics\n,\na-adrenergic antagonists\n,\nopioids\nAdults\nUrethra and bladder outlet\nBPH\nCancer of prostate, bladder, cervix, or colon\nObstructed catheters\nUreter\nUreteral calculi\n, uric acid crystals\nPapillary necrosis\nSickle cell disease\n,\nDM\n,\npyelonephritis\nTumor: Ureter, uterus, prostate, bladder, colon, rectum; retroperitoneal lymphoma\nRetroperitoneal fibrosis: idiopathic,\ntuberculosis\n,\nsarcoidosis\n,\npropranolol\nStricture:\nTB\n,\nradiation\n,\nschistosomiasis\n,\nNSAIDs\nMiscellaneous\nAortic aneurysm\nPregnant uterus\nIBD\nRenal\nor\nureter trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "a-adrenergic antagonists",
+          "url": "https://wikem.org/wiki/Alpha_antagonist"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Ureteral calculi",
+          "url": "https://wikem.org/wiki/Ureteral_calculi"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "radiation",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Renal",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Urine\nProstate exam\nUrinalysis\n, urine sodium, urine creatinine, urine urea\nECG\n(hyperkalemia)\nChronic renal failure features\nAnemia, thrombocytopenia\nIron studies with low Fe, low TIBC, low iron saturation, normal ferritin\nSecondary rise in PTH, high phos, low calcium",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "CXR\nEvidence of volume overload, pneumonia\nUS:\nrenal\n/\nbladder\nTest of choice in setting of acute renal failure\nBladder size (post-void)\nHydronephrosis\nIVC collapsibility (prerenal)\nCT\nUseful to determine cause of post renal failure (identification of abdominal masses etc.)\nShould generally not be used with IV contrast due to potential risk for\nCIN\nIndicated if hydronephrosis found on\nultrasound\nin order to define the location of obstruction",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "^ (urine sodium/plasma sodium) / (urine creatinine / serum creatinine)",
+          "tables": [
+            [
+              {
+                "Finding": "BUN/creatinine ratio",
+                "Prerenal": ">20",
+                "Intrinsic": "< 12",
+                "Postrenal": "12-20 (normal range)"
+              },
+              {
+                "Finding": "FeNa^",
+                "Prerenal": "<1%< 2% for neonates",
+                "Intrinsic": ">1%> 2.5% for neonates",
+                "Postrenal": ">1%"
+              },
+              {
+                "Finding": "Urine osm",
+                "Prerenal": ">500",
+                "Intrinsic": "<350",
+                "Postrenal": ""
+              },
+              {
+                "Finding": "Urine sodium",
+                "Prerenal": "< 20 mEq/L",
+                "Intrinsic": "> 40 mEq/L",
+                "Postrenal": ""
+              },
+              {
+                "Finding": "Specific gravity",
+                "Prerenal": "> 1.020",
+                "Intrinsic": "< 1.020",
+                "Postrenal": ""
+              },
+              {
+                "Finding": "Fractional excretion of urea",
+                "Prerenal": "< 35%",
+                "Intrinsic": "> 50%",
+                "Postrenal": ""
+              },
+              {
+                "Finding": "Microscopic analysis",
+                "Prerenal": "Hyaline casts",
+                "Intrinsic": "Acute glomerulonephritis: RBCs, castsAcute tubular necrosis: protein, tubular epithelial cellsInterstitial nephritis: eosinophils",
+                "Postrenal": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "renal",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "bladder",
+          "url": "https://wikem.org/wiki/Bladder_ultrasound"
+        },
+        {
+          "text": "CIN",
+          "url": "https://wikem.org/wiki/Contrast-Induced_Nephropathy"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "Urine\nProstate exam\nUrinalysis\n, urine sodium, urine creatinine, urine urea\nECG\n(hyperkalemia)\nChronic renal failure features\nAnemia, thrombocytopenia\nIron studies with low Fe, low TIBC, low iron saturation, normal ferritin\nSecondary rise in PTH, high phos, low calcium",
+      "subsections": {
+        "Imaging": {
+          "text": "CXR\nEvidence of volume overload, pneumonia\nUS:\nrenal\n/\nbladder\nTest of choice in setting of acute renal failure\nBladder size (post-void)\nHydronephrosis\nIVC collapsibility (prerenal)\nCT\nUseful to determine cause of post renal failure (identification of abdominal masses etc.)\nShould generally not be used with IV contrast due to potential risk for\nCIN\nIndicated if hydronephrosis found on\nultrasound\nin order to define the location of obstruction",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "^ (urine sodium/plasma sodium) / (urine creatinine / serum creatinine)",
+          "tables": [
+            [
+              {
+                "Finding": "BUN/creatinine ratio",
+                "Prerenal": ">20",
+                "Intrinsic": "< 12",
+                "Postrenal": "12-20 (normal range)"
+              },
+              {
+                "Finding": "FeNa^",
+                "Prerenal": "<1%< 2% for neonates",
+                "Intrinsic": ">1%> 2.5% for neonates",
+                "Postrenal": ">1%"
+              },
+              {
+                "Finding": "Urine osm",
+                "Prerenal": ">500",
+                "Intrinsic": "<350",
+                "Postrenal": ""
+              },
+              {
+                "Finding": "Urine sodium",
+                "Prerenal": "< 20 mEq/L",
+                "Intrinsic": "> 40 mEq/L",
+                "Postrenal": ""
+              },
+              {
+                "Finding": "Specific gravity",
+                "Prerenal": "> 1.020",
+                "Intrinsic": "< 1.020",
+                "Postrenal": ""
+              },
+              {
+                "Finding": "Fractional excretion of urea",
+                "Prerenal": "< 35%",
+                "Intrinsic": "> 50%",
+                "Postrenal": ""
+              },
+              {
+                "Finding": "Microscopic analysis",
+                "Prerenal": "Hyaline casts",
+                "Intrinsic": "Acute glomerulonephritis: RBCs, castsAcute tubular necrosis: protein, tubular epithelial cellsInterstitial nephritis: eosinophils",
+                "Postrenal": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "renal",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "bladder",
+          "url": "https://wikem.org/wiki/Bladder_ultrasound"
+        },
+        {
+          "text": "CIN",
+          "url": "https://wikem.org/wiki/Contrast-Induced_Nephropathy"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "CXR\nEvidence of volume overload, pneumonia\nUS:\nrenal\n/\nbladder\nTest of choice in setting of acute renal failure\nBladder size (post-void)\nHydronephrosis\nIVC collapsibility (prerenal)\nCT\nUseful to determine cause of post renal failure (identification of abdominal masses etc.)\nShould generally not be used with IV contrast due to potential risk for\nCIN\nIndicated if hydronephrosis found on\nultrasound\nin order to define the location of obstruction",
+      "subsections": {
+        "Diagnosis": {
+          "text": "^ (urine sodium/plasma sodium) / (urine creatinine / serum creatinine)",
+          "tables": [
+            [
+              {
+                "Finding": "BUN/creatinine ratio",
+                "Prerenal": ">20",
+                "Intrinsic": "< 12",
+                "Postrenal": "12-20 (normal range)"
+              },
+              {
+                "Finding": "FeNa^",
+                "Prerenal": "<1%< 2% for neonates",
+                "Intrinsic": ">1%> 2.5% for neonates",
+                "Postrenal": ">1%"
+              },
+              {
+                "Finding": "Urine osm",
+                "Prerenal": ">500",
+                "Intrinsic": "<350",
+                "Postrenal": ""
+              },
+              {
+                "Finding": "Urine sodium",
+                "Prerenal": "< 20 mEq/L",
+                "Intrinsic": "> 40 mEq/L",
+                "Postrenal": ""
+              },
+              {
+                "Finding": "Specific gravity",
+                "Prerenal": "> 1.020",
+                "Intrinsic": "< 1.020",
+                "Postrenal": ""
+              },
+              {
+                "Finding": "Fractional excretion of urea",
+                "Prerenal": "< 35%",
+                "Intrinsic": "> 50%",
+                "Postrenal": ""
+              },
+              {
+                "Finding": "Microscopic analysis",
+                "Prerenal": "Hyaline casts",
+                "Intrinsic": "Acute glomerulonephritis: RBCs, castsAcute tubular necrosis: protein, tubular epithelial cellsInterstitial nephritis: eosinophils",
+                "Postrenal": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "renal",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "bladder",
+          "url": "https://wikem.org/wiki/Bladder_ultrasound"
+        },
+        {
+          "text": "CIN",
+          "url": "https://wikem.org/wiki/Contrast-Induced_Nephropathy"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "^ (urine sodium/plasma sodium) / (urine creatinine / serum creatinine)",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Finding": "BUN/creatinine ratio",
+            "Prerenal": ">20",
+            "Intrinsic": "< 12",
+            "Postrenal": "12-20 (normal range)"
+          },
+          {
+            "Finding": "FeNa^",
+            "Prerenal": "<1%< 2% for neonates",
+            "Intrinsic": ">1%> 2.5% for neonates",
+            "Postrenal": ">1%"
+          },
+          {
+            "Finding": "Urine osm",
+            "Prerenal": ">500",
+            "Intrinsic": "<350",
+            "Postrenal": ""
+          },
+          {
+            "Finding": "Urine sodium",
+            "Prerenal": "< 20 mEq/L",
+            "Intrinsic": "> 40 mEq/L",
+            "Postrenal": ""
+          },
+          {
+            "Finding": "Specific gravity",
+            "Prerenal": "> 1.020",
+            "Intrinsic": "< 1.020",
+            "Postrenal": ""
+          },
+          {
+            "Finding": "Fractional excretion of urea",
+            "Prerenal": "< 35%",
+            "Intrinsic": "> 50%",
+            "Postrenal": ""
+          },
+          {
+            "Finding": "Microscopic analysis",
+            "Prerenal": "Hyaline casts",
+            "Intrinsic": "Acute glomerulonephritis: RBCs, castsAcute tubular necrosis: protein, tubular epithelial cellsInterstitial nephritis: eosinophils",
+            "Postrenal": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying cause\nPrerenal:\nIVF\n(or\npRBCs\nif bleeding)\nIntrinsic: Depends on cause\nObstruction:\nNote: Postobstructive diuresis can result in significant volume loss and death\nTypically occurs when obstruction has been prolonged / has resulted in renal failure\nAdmit patients with persistent diuresis of >250 mL/h for >2hr\nFoley Catheter, consider\nCoude Catheter\nSuprapubic (if Coude fails)",
+      "subsections": {
+        "Dialysis": {
+          "text": "Indicated for:\nA:\nAcidosis\n(severe)\nE:\nElectrolyte abnormality\n(e.g. uncontrolled\nhyperkalemia\n)\nI: Ingestions (\nlithium\n,\nASA\n,\nmethanol\n,\nethylene glycol\n,\ntheophylline\n)\nO:\nOverload\n(volume) with persistent hypoxia\nU:\nUremic\npericarditis\n/\nencephalopathy\n/\nbleeding dyscrasia\nAlso:\nNa <115 or >165 mEq/L\ncreatinine > 10\nBUN >100\nSee\nDialysis catheter placement\nSee\nAustere peritoneal dialysis",
+          "tables": []
+        },
+        "Phlebotomy_to_Treat_Pulmonary_Edema": {
+          "text": "Possible last ditch effort to tide patient over to formal dialysis if hours away\nIf traditional pulmonary edema treatments are not working for\nSCAPE\npatient, one may attempt to remove 200-300 cc of blood as a bridge to dialysis\n[2]\nIf Hb too low, may consider temporary venous tourniquets on each leg proximally q30 min to reduce preload volume to the heart, alternating legs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Coude Catheter",
+          "url": "https://wikem.org/wiki/Coude_Catheter"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormality"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline_toxicity"
+        },
+        {
+          "text": "Overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Uremic",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "bleeding dyscrasia",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Dialysis catheter placement",
+          "url": "https://wikem.org/wiki/Dialysis_catheter_placement"
+        },
+        {
+          "text": "Austere peritoneal dialysis",
+          "url": "https://wikem.org/wiki/Austere_peritoneal_dialysis"
+        },
+        {
+          "text": "SCAPE",
+          "url": "https://wikem.org/wiki/Sympathetic_crashing_acute_pulmonary_edema_(SCAPE)"
+        }
+      ]
+    },
+    "Dialysis": {
+      "text": "Indicated for:\nA:\nAcidosis\n(severe)\nE:\nElectrolyte abnormality\n(e.g. uncontrolled\nhyperkalemia\n)\nI: Ingestions (\nlithium\n,\nASA\n,\nmethanol\n,\nethylene glycol\n,\ntheophylline\n)\nO:\nOverload\n(volume) with persistent hypoxia\nU:\nUremic\npericarditis\n/\nencephalopathy\n/\nbleeding dyscrasia\nAlso:\nNa <115 or >165 mEq/L\ncreatinine > 10\nBUN >100\nSee\nDialysis catheter placement\nSee\nAustere peritoneal dialysis",
+      "subsections": {
+        "Phlebotomy_to_Treat_Pulmonary_Edema": {
+          "text": "Possible last ditch effort to tide patient over to formal dialysis if hours away\nIf traditional pulmonary edema treatments are not working for\nSCAPE\npatient, one may attempt to remove 200-300 cc of blood as a bridge to dialysis\n[2]\nIf Hb too low, may consider temporary venous tourniquets on each leg proximally q30 min to reduce preload volume to the heart, alternating legs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormality"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline_toxicity"
+        },
+        {
+          "text": "Overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Uremic",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "bleeding dyscrasia",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Dialysis catheter placement",
+          "url": "https://wikem.org/wiki/Dialysis_catheter_placement"
+        },
+        {
+          "text": "Austere peritoneal dialysis",
+          "url": "https://wikem.org/wiki/Austere_peritoneal_dialysis"
+        },
+        {
+          "text": "SCAPE",
+          "url": "https://wikem.org/wiki/Sympathetic_crashing_acute_pulmonary_edema_(SCAPE)"
+        }
+      ]
+    },
+    "Phlebotomy_to_Treat_Pulmonary_Edema": {
+      "text": "Possible last ditch effort to tide patient over to formal dialysis if hours away\nIf traditional pulmonary edema treatments are not working for\nSCAPE\npatient, one may attempt to remove 200-300 cc of blood as a bridge to dialysis\n[2]\nIf Hb too low, may consider temporary venous tourniquets on each leg proximally q30 min to reduce preload volume to the heart, alternating legs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SCAPE",
+          "url": "https://wikem.org/wiki/Sympathetic_crashing_acute_pulmonary_edema_(SCAPE)"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hyperkalemia\nRenal ultrasound\nHypertensive emergency",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: Differential Diagnosis of Acute Kidney Injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

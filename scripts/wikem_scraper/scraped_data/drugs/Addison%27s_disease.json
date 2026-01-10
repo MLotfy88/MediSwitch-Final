@@ -1,0 +1,248 @@
+{
+  "drug_name": "Addison%27s_disease",
+  "url": "https://wikem.org/wiki/Addison%27s_disease",
+  "scraped_at": "2026-01-10T07:47:12.519912",
+  "sections": {
+    "Background": {
+      "text": "Primary\nadrenal insufficiency\nAutoimmune disease (70-90%)\nTuberculosis\npreviously most common cause\nOther causes include infectious, metastatic cancer,\nlymphoma\n, adrenal hemorrhage, infarction, drugs\nTypically presents in adults between 30 and 50 years of age\nAll ages, races, genders can be affected\nHigher incidence with other autoimmune deficiencies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Abdominal pain\nChronic\nnausea\n,\nvomiting\n,\ndiarrhea\nWeakness\nand fatigue\nSalt craving\nAbnormal skin pigmentation - will often look patchy\nAddisonian crisis:\nHypotension\nNeurologic symptoms:\ncoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Corticosteroid\nwithdrawal\nSecondary adrenal insufficiency - deficiency of ACTH (produced by the pituitary gland)\nTertiary adrenal insufficiency - deficiency of CRH (produced by the hypothalamus)",
+      "subsections": {
+        "Adrenal_crisis": {
+          "text": "Addison's disease\nCongenital adrenal hyperplasia\nShock\nSepsis\nPituitary apoplexy\nSheehan's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroid",
+          "url": "https://wikem.org/wiki/Corticosteroid"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        },
+        {
+          "text": "Sheehan's syndrome",
+          "url": "https://wikem.org/wiki/Sheehan%27s_syndrome"
+        }
+      ]
+    },
+    "Adrenal_crisis": {
+      "text": "Addison's disease\nCongenital adrenal hyperplasia\nShock\nSepsis\nPituitary apoplexy\nSheehan's syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        },
+        {
+          "text": "Sheehan's syndrome",
+          "url": "https://wikem.org/wiki/Sheehan%27s_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Laboratory_findings": {
+          "text": "Hypercalcemia\nHypoglycemia\nHyponatremia\nHyperkalemia\nMetabolic acidosis\nLow stimulation of the renal distal tubule by aldosterone = sodium wasting in the urine and H+ retention",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Chemistry\nRandom cortisol, renin, and ACTH levels\nDo not wait for levels before starting treatment\nACTH (cosyntropin) stimulation test",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "ACTH (cosyntropin) stimulation test",
+          "url": "https://wikem.org/wiki/ACTH_(cosyntropin)_stimulation_test"
+        }
+      ]
+    },
+    "Laboratory_findings": {
+      "text": "Hypercalcemia\nHypoglycemia\nHyponatremia\nHyperkalemia\nMetabolic acidosis\nLow stimulation of the renal distal tubule by aldosterone = sodium wasting in the urine and H+ retention",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Chemistry\nRandom cortisol, renin, and ACTH levels\nDo not wait for levels before starting treatment\nACTH (cosyntropin) stimulation test",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "ACTH (cosyntropin) stimulation test",
+          "url": "https://wikem.org/wiki/ACTH_(cosyntropin)_stimulation_test"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Chemistry\nRandom cortisol, renin, and ACTH levels\nDo not wait for levels before starting treatment\nACTH (cosyntropin) stimulation test",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACTH (cosyntropin) stimulation test",
+          "url": "https://wikem.org/wiki/ACTH_(cosyntropin)_stimulation_test"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Hormone Replacement\n[1]\nPO\nhydrocortisone\nand\nfludrocortisone\nAdrenal crisis should be treated with 100mg hydrocortisone IV followed by 50mg IV q6 hours",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "fludrocortisone",
+          "url": "https://wikem.org/wiki/Fludrocortisone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "New diagnosis: strong consideration for admission\nCrisis\n?: Consider admission based on electrolytes and clinical presentation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Adrenal crisis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        }
+      ]
+    }
+  }
+}

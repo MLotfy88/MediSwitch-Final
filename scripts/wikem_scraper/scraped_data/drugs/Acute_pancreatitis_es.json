@@ -1,0 +1,752 @@
+{
+  "drug_name": "Acute_pancreatitis/es",
+  "url": "https://wikem.org/wiki/Acute_pancreatitis/es",
+  "scraped_at": "2026-01-10T07:47:09.614847",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antecedentes": {
+      "text": "Proceso inflamatorio agudo que puede involucrar tejidos circundantes y sistemas de órganos remotos\n[1]\nLa enfermedad puede variar desde una inflamación leve hasta una necrosis severa y falla multiorgánica",
+      "subsections": {
+        "Etiologías": {
+          "text": "Cálculos biliares\n(incluyendo microlitiasis) - 35-40% de los casos en la mayoría de las partes del mundo\n[1]\nAlcohol\n(consumo agudo y crónico) - 30% de los casos en los EE. UU.\n[2]\nHipertrigliceridemia\nERCP\nComplicación más común después de la ERCP, usualmente debido a lesión mecánica por instrumentalización del conducto pancreático o lesión hidrostática por inyección de contraste\nMedicamentos (\nAzatioprina\n, cisplatino,\nfurosemida\n,\ntetraciclina\n, tiazidas, sulfas,\nvalproato\n, didanosina, pentamidina, etc.)\nEnfermedad autoinmune (\nLES\n,\nSjögren\n, etc.)\nTrauma abdominal\nComplicaciones postoperatorias\nInfección\nBacteriana:\nLegionella\n,\nLeptospirosis\n,\nMycoplasma\n,\nSalmonella\nViral:\nMumps\n,\ncoxsackie\n,\nCMV\n, eco,\nHepatitis B\nParasitaria:\nascaris\n,\ncriptosporidium\n,\ntoxoplasma\nHipercalemia\nHiperparatiroidismo\nIsquemia\nÚlcera duodenal perforante posterior\nVeneno de escorpión\n(Causado por el género\nTityus\ny\nLeiurus\nque se distribuyen en América Central/Sur y África del Norte/Oriente, respectivamente)\nToxicidad por insecticidas organofosforados\nTumor pancreático o ampular\nPancreas divisum con estrechamiento ductular en la pancreatograma\nDisfunción del esfínter de Oddi\nIdiopática (15-20% de los casos)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Etiologías": {
+      "text": "Cálculos biliares\n(incluyendo microlitiasis) - 35-40% de los casos en la mayoría de las partes del mundo\n[1]\nAlcohol\n(consumo agudo y crónico) - 30% de los casos en los EE. UU.\n[2]\nHipertrigliceridemia\nERCP\nComplicación más común después de la ERCP, usualmente debido a lesión mecánica por instrumentalización del conducto pancreático o lesión hidrostática por inyección de contraste\nMedicamentos (\nAzatioprina\n, cisplatino,\nfurosemida\n,\ntetraciclina\n, tiazidas, sulfas,\nvalproato\n, didanosina, pentamidina, etc.)\nEnfermedad autoinmune (\nLES\n,\nSjögren\n, etc.)\nTrauma abdominal\nComplicaciones postoperatorias\nInfección\nBacteriana:\nLegionella\n,\nLeptospirosis\n,\nMycoplasma\n,\nSalmonella\nViral:\nMumps\n,\ncoxsackie\n,\nCMV\n, eco,\nHepatitis B\nParasitaria:\nascaris\n,\ncriptosporidium\n,\ntoxoplasma\nHipercalemia\nHiperparatiroidismo\nIsquemia\nÚlcera duodenal perforante posterior\nVeneno de escorpión\n(Causado por el género\nTityus\ny\nLeiurus\nque se distribuyen en América Central/Sur y África del Norte/Oriente, respectivamente)\nToxicidad por insecticidas organofosforados\nTumor pancreático o ampular\nPancreas divisum con estrechamiento ductular en la pancreatograma\nDisfunción del esfínter de Oddi\nIdiopática (15-20% de los casos)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Características_clínicas": {
+      "text": "Dolor\nes el síntoma más común y a menudo se caracteriza por:\n[1]\nPersistente\nSe localiza en el área epigástrica, alrededor de la cintura, en el cuadrante superior derecho (CSD) o ocasionalmente en el cuadrante superior izquierdo (CSI)\nIrradia hacia la espalda\nEl inicio puede ser menos abrupto y el dolor mal localizado\nNáuseas/vómitos\nse observan en la mayoría\nLa distensión abdominal es una queja frecuente\nSigno de Cullen\n(equimosis de la región periumbilical) - hemorragia intraabdominal\nSigno de Turner (equimosis de las caderas) - hemorragia retroperitoneal\nHallazgos pulmonares\nHipoxemia\n,\nSDRA\n, taquipnea\nIndica pancreatitis severa\nInflamación diafragmática, fístula pancreático-pleural",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Diagnóstico_diferencial": {
+      "text": "",
+      "subsections": {
+        "Epigastric_Pain": {
+          "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+          "tables": []
+        },
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Epigastric_Pain": {
+      "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Evaluación": {
+      "text": "",
+      "subsections": {
+        "Evaluación_2": {
+          "text": "Lipasa\nLa\namylasa\nes menos sensible y específica (sensibilidad: 67-100%; especificidad: 85-98%)\n[3]\nHematograma completo (HLC)\nQuímica sanguínea\nPruebas de función hepática\n?\nLactato\n?\nTriglicéridos",
+          "tables": []
+        },
+        "Ecografía_abdominal": {
+          "text": "Páncreas edematoso e hinchado\nCálculos biliares\nPseudociste / absceso pancreático",
+          "tables": []
+        },
+        "TC_con_contraste_IV_": {
+          "text": "Poca utilidad al comienzo de la enfermedad y es poco probable que afecte el manejo de los pacientes con pancreatitis aguda durante la primera semana de la enfermedad\nDebería reservarse para pacientes con fallo orgánico persistente, dolor severo y signos de sepsis",
+          "tables": []
+        },
+        "Prónostico": {
+          "text": "Dos de los siguientes:\nDolor abdominal característico\nNivel de lipasa > 3 veces el límite superior normal\nSensibilidad 82-100%, especificidad 82-100%\n[5]\nLipasa negativa no excluye la pancreatitis en la enfermedad crónica/recurrente\nEl valor absoluto no se asocia con el pronóstico o la gravedad\nHallazgos característicos en\necografía\no TC",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluación_2": {
+      "text": "Lipasa\nLa\namylasa\nes menos sensible y específica (sensibilidad: 67-100%; especificidad: 85-98%)\n[3]\nHematograma completo (HLC)\nQuímica sanguínea\nPruebas de función hepática\n?\nLactato\n?\nTriglicéridos",
+      "subsections": {
+        "Ecografía_abdominal": {
+          "text": "Páncreas edematoso e hinchado\nCálculos biliares\nPseudociste / absceso pancreático",
+          "tables": []
+        },
+        "TC_con_contraste_IV_": {
+          "text": "Poca utilidad al comienzo de la enfermedad y es poco probable que afecte el manejo de los pacientes con pancreatitis aguda durante la primera semana de la enfermedad\nDebería reservarse para pacientes con fallo orgánico persistente, dolor severo y signos de sepsis",
+          "tables": []
+        },
+        "Prónostico": {
+          "text": "Dos de los siguientes:\nDolor abdominal característico\nNivel de lipasa > 3 veces el límite superior normal\nSensibilidad 82-100%, especificidad 82-100%\n[5]\nLipasa negativa no excluye la pancreatitis en la enfermedad crónica/recurrente\nEl valor absoluto no se asocia con el pronóstico o la gravedad\nHallazgos característicos en\necografía\no TC",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prónostico": {
+      "text": "Dos de los siguientes:\nDolor abdominal característico\nNivel de lipasa > 3 veces el límite superior normal\nSensibilidad 82-100%, especificidad 82-100%\n[5]\nLipasa negativa no excluye la pancreatitis en la enfermedad crónica/recurrente\nEl valor absoluto no se asocia con el pronóstico o la gravedad\nHallazgos característicos en\necografía\no TC",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Manejo": {
+      "text": "El tratamiento fundamental implica cuidados de apoyo para descansar el páncreas. Esto se puede lograr principalmente a través del control de la dieta.",
+      "subsections": {
+        "Dieta": {
+          "text": "NPO (claro es probablemente aceptable para casos leves/moderados)\nAl reiniciar la dieta, comer comidas pequeñas y bajas en grasa y avanzar gradualmente durante 3 a 6 días según se tolere\nEn pacientes con pancreatitis leve que toleran la ingestión oral y pueden ser dados de alta. Es necesario proporcionar instrucciones sobre una dieta ligera y la abstención de alcohol\n[1]",
+          "tables": []
+        },
+        "Líquidos_IV": {
+          "text": "Resucitación de volumen\ny monitoreo constante del estado de líquidos es importante debido al riesgo de\nhipovolemia\nprofunda\n[6]\nMantener la producción de orina a 0,5 mL/kg",
+          "tables": []
+        },
+        "Analgesia_y_Antiémicos": {
+          "text": "Por ejemplo:\nDilaudid\n1mg o\nmorfinas\n4mg IV según sea necesario\nZofran\n4mg IV según sea necesario",
+          "tables": []
+        },
+        "Manejo_de_electrolitos_y_otras_moléculas": {
+          "text": "Monitorear la\nhipocalcemia\ny tratar si es sintomática\nMonitorear el desarrollo de\nhipoglucemia\no\nhiperglucemia\nConsiderar el reemplazo de albúmina si el nivel es <2g/dL\nVer\nhipertrigliceridemia\npara el manejo de triglicéridos altos",
+          "tables": []
+        },
+        "Antibióticos": {
+          "text": "El uso de antibióticos es a menudo controvertido y generalmente solo es necesario si hay signos o fuentes de infección obvias. El uso profiláctico no es necesario\n[7]\n[8]\n[9]\n[10]\n[11]\nSolo indicado para necrosis, absceso o pseudociste / fluido peripancreático infectado\nImipenem-cilastatina\n,\nmeropenem\no (\nfluorquinolona\n+\nmetronidazol\n)",
+          "tables": []
+        },
+        "Descompresión_intestinal": {
+          "text": "Considerar la colocación de un tubo\nNG\nsolo si hay\nobstrucción intestinal\no\níleus\ny es sintomático",
+          "tables": []
+        },
+        "ERCP": {
+          "text": "Indicado para pacientes con pancreatitis por cálculos biliares con piedra retenida en la vía biliar común (CBD) o colangitis (recomendado dentro de las 24 horas)\nOpción alternativa para pacientes con pancreatitis por cálculos biliares que son malos candidatos para la colecistectomía quirúrgica",
+          "tables": []
+        },
+        "Colecistectomía": {
+          "text": "Indicado para pacientes con pancreatitis biliar. Los pacientes generalmente se beneficiarán de una colecistectomía temprana, tan pronto como el paciente se haya recuperado, preferiblemente dentro de la misma admisión hospitalaria.\n[13]",
+          "tables": []
+        },
+        "Drenaje_de_colecciones_de_líquido": {
+          "text": "Las colecciones de líquido pancreático rodeadas de una pared y sintomáticas deben ser evaluadas para un procedimiento de drenaje.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Médico": {
+      "text": "",
+      "subsections": {
+        "Dieta": {
+          "text": "NPO (claro es probablemente aceptable para casos leves/moderados)\nAl reiniciar la dieta, comer comidas pequeñas y bajas en grasa y avanzar gradualmente durante 3 a 6 días según se tolere\nEn pacientes con pancreatitis leve que toleran la ingestión oral y pueden ser dados de alta. Es necesario proporcionar instrucciones sobre una dieta ligera y la abstención de alcohol\n[1]",
+          "tables": []
+        },
+        "Líquidos_IV": {
+          "text": "Resucitación de volumen\ny monitoreo constante del estado de líquidos es importante debido al riesgo de\nhipovolemia\nprofunda\n[6]\nMantener la producción de orina a 0,5 mL/kg",
+          "tables": []
+        },
+        "Analgesia_y_Antiémicos": {
+          "text": "Por ejemplo:\nDilaudid\n1mg o\nmorfinas\n4mg IV según sea necesario\nZofran\n4mg IV según sea necesario",
+          "tables": []
+        },
+        "Manejo_de_electrolitos_y_otras_moléculas": {
+          "text": "Monitorear la\nhipocalcemia\ny tratar si es sintomática\nMonitorear el desarrollo de\nhipoglucemia\no\nhiperglucemia\nConsiderar el reemplazo de albúmina si el nivel es <2g/dL\nVer\nhipertrigliceridemia\npara el manejo de triglicéridos altos",
+          "tables": []
+        },
+        "Antibióticos": {
+          "text": "El uso de antibióticos es a menudo controvertido y generalmente solo es necesario si hay signos o fuentes de infección obvias. El uso profiláctico no es necesario\n[7]\n[8]\n[9]\n[10]\n[11]\nSolo indicado para necrosis, absceso o pseudociste / fluido peripancreático infectado\nImipenem-cilastatina\n,\nmeropenem\no (\nfluorquinolona\n+\nmetronidazol\n)",
+          "tables": []
+        },
+        "Descompresión_intestinal": {
+          "text": "Considerar la colocación de un tubo\nNG\nsolo si hay\nobstrucción intestinal\no\níleus\ny es sintomático",
+          "tables": []
+        },
+        "ERCP": {
+          "text": "Indicado para pacientes con pancreatitis por cálculos biliares con piedra retenida en la vía biliar común (CBD) o colangitis (recomendado dentro de las 24 horas)\nOpción alternativa para pacientes con pancreatitis por cálculos biliares que son malos candidatos para la colecistectomía quirúrgica",
+          "tables": []
+        },
+        "Colecistectomía": {
+          "text": "Indicado para pacientes con pancreatitis biliar. Los pacientes generalmente se beneficiarán de una colecistectomía temprana, tan pronto como el paciente se haya recuperado, preferiblemente dentro de la misma admisión hospitalaria.\n[13]",
+          "tables": []
+        },
+        "Drenaje_de_colecciones_de_líquido": {
+          "text": "Las colecciones de líquido pancreático rodeadas de una pared y sintomáticas deben ser evaluadas para un procedimiento de drenaje.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Procedimiento/Quirúrgico": {
+      "text": "",
+      "subsections": {
+        "Descompresión_intestinal": {
+          "text": "Considerar la colocación de un tubo\nNG\nsolo si hay\nobstrucción intestinal\no\níleus\ny es sintomático",
+          "tables": []
+        },
+        "ERCP": {
+          "text": "Indicado para pacientes con pancreatitis por cálculos biliares con piedra retenida en la vía biliar común (CBD) o colangitis (recomendado dentro de las 24 horas)\nOpción alternativa para pacientes con pancreatitis por cálculos biliares que son malos candidatos para la colecistectomía quirúrgica",
+          "tables": []
+        },
+        "Colecistectomía": {
+          "text": "Indicado para pacientes con pancreatitis biliar. Los pacientes generalmente se beneficiarán de una colecistectomía temprana, tan pronto como el paciente se haya recuperado, preferiblemente dentro de la misma admisión hospitalaria.\n[13]",
+          "tables": []
+        },
+        "Drenaje_de_colecciones_de_líquido": {
+          "text": "Las colecciones de líquido pancreático rodeadas de una pared y sintomáticas deben ser evaluadas para un procedimiento de drenaje.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Destino": {
+      "text": "",
+      "subsections": {
+        "Alta": {
+          "text": "Caso leve + no enfermedad biliar + no complicación sistémica + tolera líquidos claros\nLos pacientes pueden ser dados de alta cuando los analgésicos orales controlan su dolor",
+          "tables": []
+        },
+        "Ingresar": {
+          "text": "Todos los demás pacientes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Alta": {
+      "text": "Caso leve + no enfermedad biliar + no complicación sistémica + tolera líquidos claros\nLos pacientes pueden ser dados de alta cuando los analgésicos orales controlan su dolor",
+      "subsections": {
+        "Ingresar": {
+          "text": "Todos los demás pacientes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ingresar": {
+      "text": "Todos los demás pacientes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

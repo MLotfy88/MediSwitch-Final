@@ -1,0 +1,241 @@
+{
+  "drug_name": "Albuterol",
+  "url": "https://wikem.org/wiki/Albuterol",
+  "scraped_at": "2026-01-10T07:47:16.591778",
+  "sections": {
+    "General": {
+      "text": "Type:\nBeta-2 agonist\nDosage Forms: aerosol inhaler, liquid nebulized form, PO\nCommon Trade Names: ProAir HFA, Proventil, Ventolin HFA, ReliOn Ventolin HFA, Accuneb",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-2 agonist",
+          "url": "https://wikem.org/wiki/Beta-2_agonist"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Mild Asthma/COPD - 90mcg/inh via inhalation aerosol q4hrs PRN wheezing\nMod/Severe Asthma/COPD exacerbation - 5mg Nebulized q15mins\nHyperkalemia\n(not-FDA approved) - 15-20mg Nebulized",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Mild asthma exacerbation - 1-2 puffs of 90mcg/inh via inhaled aerosol q4hrs PRN wheezing\nMod/Severe asthma exacerbation - 2.5mg nebulized q20mins\nWheezing - 2.5mg nebulized q20mins",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation Risk Categories\n: Probably safe\nRenal Dosing\nAdult: no adjustment\nPediatric: no adjustment\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation Risk Categories",
+          "url": "https://wikem.org/wiki/Lactation_Risk_Categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\ncaution if ischemic heart disease\ncaution if hypertension\ncaution if arrhythmias\ncaution if hypokalemia\ncaution if diabetes mellitus\ncaution if seizure disorder\ncaution if hyperthyroidism\ncaution if pheochromocytoma\ncaution if pregnancy\ncaution if elderly patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypersensitivity reaction\nBronchospasm (paradoxical)\nArrhythmias\nElevated blood pressure\nAngina\nHypokalemia\nLactic acidosis\nDue to enhancing glycogenolysis and gluconeogenesis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Tremor\nAnxiety\nTachycardia\nPalpitations\nHeadache\nDizziness\nNausea\nMuscle cramps\nInsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Elevated blood pressure",
+          "url": "https://wikem.org/wiki/Elevated_blood_pressure"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypersensitivity reaction\nBronchospasm (paradoxical)\nArrhythmias\nElevated blood pressure\nAngina\nHypokalemia\nLactic acidosis\nDue to enhancing glycogenolysis and gluconeogenesis",
+      "subsections": {
+        "Common": {
+          "text": "Tremor\nAnxiety\nTachycardia\nPalpitations\nHeadache\nDizziness\nNausea\nMuscle cramps\nInsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Elevated blood pressure",
+          "url": "https://wikem.org/wiki/Elevated_blood_pressure"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Tremor\nAnxiety\nTachycardia\nPalpitations\nHeadache\nDizziness\nNausea\nMuscle cramps\nInsomnia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.7-6h\nMetabolism: liver, CYP450\nExcretion: urine primarily, feces\nMechanism of Action: stimulates beta-2 adrenergic receptors, relaxing airway smooth muscle",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
