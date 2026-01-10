@@ -1,0 +1,141 @@
+{
+  "drug_name": "Valacyclovir",
+  "url": "https://wikem.org/wiki/Valacyclovir",
+  "scraped_at": "2026-01-10T08:04:48.499849",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntiviral\n, inhibits DNA polymerase\nDosage Forms: 500, 1000\nCommon Trade Names: Valtrex",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "HSV-1_/_Herpes_labialis": {
+          "text": "Acute episode: 2g PO BID x 1 day\nSuppression (immunocompetent):\n>9 recurrences/year: 1g PO Qday\n<=9 recurrences/year: 500mg PO Qday",
+          "tables": []
+        },
+        "Genital_HSV": {
+          "text": "1st episode: 1000mg PO BID x 7-10 days, start within 48-72 hour of symptoms\nrecurrence: 500mg PO BID x 3 days, alternative: 1000mg PO qday x 5 days",
+          "tables": []
+        },
+        "Shingles": {
+          "text": "1000mg PO TID x 7 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "HSV-1_/_Herpes_labialis": {
+      "text": "Acute episode: 2g PO BID x 1 day\nSuppression (immunocompetent):\n>9 recurrences/year: 1g PO Qday\n<=9 recurrences/year: 500mg PO Qday",
+      "subsections": {
+        "Genital_HSV": {
+          "text": "1st episode: 1000mg PO BID x 7-10 days, start within 48-72 hour of symptoms\nrecurrence: 500mg PO BID x 3 days, alternative: 1000mg PO qday x 5 days",
+          "tables": []
+        },
+        "Shingles": {
+          "text": "1000mg PO TID x 7 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Genital_HSV": {
+      "text": "1st episode: 1000mg PO BID x 7-10 days, start within 48-72 hour of symptoms\nrecurrence: 500mg PO BID x 3 days, alternative: 1000mg PO qday x 5 days",
+      "subsections": {
+        "Shingles": {
+          "text": "1000mg PO TID x 7 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Shingles": {
+      "text": "1000mg PO TID x 7 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Genital_HSV_2": {
+          "text": "≥12 yrs same as adult dosing for adolescents",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Genital_HSV_2": {
+      "text": "≥12 yrs same as adult dosing for adolescents",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Excreted in breastmilk\nRenal Dosing\nCrCl <10 mL/min: 500 mg/day PO\nHepatic Dosing: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "TTP, HUS (reported in advanced HIV and transplant patients)\nAcute renal failure (especially if elderly or underlying renal disease)\nAgitation, hallucinations, encephalopathy (higher risk in elderly)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache, dizziness\nNausea/vomiting, abdominal pain\nNeutropenia, thrombocytopenia, leukopenia\nElevated LFTs\nNasopharyngitis\nDysmenorrhea\nDepression\nRash\nAlopecia\nEM\nHypertension\nTachycardia\nTremor\nVisual disturbance",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "TTP, HUS (reported in advanced HIV and transplant patients)\nAcute renal failure (especially if elderly or underlying renal disease)\nAgitation, hallucinations, encephalopathy (higher risk in elderly)",
+      "subsections": {
+        "Common": {
+          "text": "Headache, dizziness\nNausea/vomiting, abdominal pain\nNeutropenia, thrombocytopenia, leukopenia\nElevated LFTs\nNasopharyngitis\nDysmenorrhea\nDepression\nRash\nAlopecia\nEM\nHypertension\nTachycardia\nTremor\nVisual disturbance",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Headache, dizziness\nNausea/vomiting, abdominal pain\nNeutropenia, thrombocytopenia, leukopenia\nElevated LFTs\nNasopharyngitis\nDysmenorrhea\nDepression\nRash\nAlopecia\nEM\nHypertension\nTachycardia\nTremor\nVisual disturbance",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-3.3hr\nMetabolism: Hepatic\nExcretion: Urinary\nMechanism of Action: converted to acyclovir, which competes with deoxyguanosine triphosphate for viral DNA polymerase to inhibit DNA synthesis and viral replication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

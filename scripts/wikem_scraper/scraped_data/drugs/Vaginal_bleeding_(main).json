@@ -1,0 +1,198 @@
+{
+  "drug_name": "Vaginal_bleeding_(main)",
+  "url": "https://wikem.org/wiki/Vaginal_bleeding_(main)",
+  "scraped_at": "2026-01-10T08:04:45.390376",
+  "sections": {
+    "Background": {
+      "text": "Undifferentiated vaginal bleeding is normally approached by rapidly determining pregnancy status and, if pregnant, estimated gestation age\nSubsequent workup is then performed based on these factors",
+      "subsections": {
+        "Vaginal_bleeding_definitions": {
+          "text": "Menorrhagia: >7 day (prolonged) or >80 mL/day (excessive) uterine bleeding at regular intervals\nMetrorrhagia: irregular vaginal bleeding outside the normal cycle\nMenometrorrhagia: excessive irregular vaginal bleeding\nIntermenstrual bleeding: variable amounts between regular menstrual periods\nMidcycle spotting: spotting just before ovulation (due to decline in estrogen)\nPolymenorrhea: frequent and light bleeding\nPostcoital bleeding: vaginal bleeding after intercourse, suggesting cervical pathology\nPostmenopausal bleeding: recurrence of bleeding >6 mo after menopause\nAmenorrhea: bleeding that is absent for > 6 months",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Vaginal_bleeding_definitions": {
+      "text": "Menorrhagia: >7 day (prolonged) or >80 mL/day (excessive) uterine bleeding at regular intervals\nMetrorrhagia: irregular vaginal bleeding outside the normal cycle\nMenometrorrhagia: excessive irregular vaginal bleeding\nIntermenstrual bleeding: variable amounts between regular menstrual periods\nMidcycle spotting: spotting just before ovulation (due to decline in estrogen)\nPolymenorrhea: frequent and light bleeding\nPostcoital bleeding: vaginal bleeding after intercourse, suggesting cervical pathology\nPostmenopausal bleeding: recurrence of bleeding >6 mo after menopause\nAmenorrhea: bleeding that is absent for > 6 months",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Vaginal bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vaginal_bleeding_(main)": {
+          "text": "Non-pregnant vaginal bleeding\nPrepubertal vaginal bleeding\nPregnant\nVaginal bleeding in pregnancy (less than 20wks)\nVaginal bleeding in pregnancy (greater than 20wks)\nPostpartum hemorrhage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-pregnant vaginal bleeding",
+          "url": "https://wikem.org/wiki/Non-pregnant_vaginal_bleeding"
+        },
+        {
+          "text": "Prepubertal vaginal bleeding",
+          "url": "https://wikem.org/wiki/Prepubertal_vaginal_bleeding"
+        },
+        {
+          "text": "Pregnant",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Vaginal bleeding in pregnancy (less than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(less_than_20wks)"
+        },
+        {
+          "text": "Vaginal bleeding in pregnancy (greater than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(greater_than_20wks)"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Pregnancy test (urine or serum)\nHemoglobin (CBC or POC)\nConsider type & screen",
+          "tables": []
+        },
+        "PALM-COEIN_Classification_of_Vaginal_Bleeding": {
+          "text": "PALM\n: structural causes\nP\nolyp (AUB-P)\nA\ndenomyosis (AUB-A)\nL\neiomyoma (AUB-L)\nM\nalignancy and hyperplasia (AUB-M)\nCOEIN\n: nonstructural causes\nC\noagulopathy\n(AUB-C)\nO\nvulatory dysfunction (AUB-O)\nE\nndometrial (AUB-E)\nI\natrogenic (AUB-I)\nN\not yet classified (AUB-N)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Pregnancy test (urine or serum)\nHemoglobin (CBC or POC)\nConsider type & screen",
+      "subsections": {
+        "PALM-COEIN_Classification_of_Vaginal_Bleeding": {
+          "text": "PALM\n: structural causes\nP\nolyp (AUB-P)\nA\ndenomyosis (AUB-A)\nL\neiomyoma (AUB-L)\nM\nalignancy and hyperplasia (AUB-M)\nCOEIN\n: nonstructural causes\nC\noagulopathy\n(AUB-C)\nO\nvulatory dysfunction (AUB-O)\nE\nndometrial (AUB-E)\nI\natrogenic (AUB-I)\nN\not yet classified (AUB-N)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "PALM-COEIN_Classification_of_Vaginal_Bleeding": {
+          "text": "PALM\n: structural causes\nP\nolyp (AUB-P)\nA\ndenomyosis (AUB-A)\nL\neiomyoma (AUB-L)\nM\nalignancy and hyperplasia (AUB-M)\nCOEIN\n: nonstructural causes\nC\noagulopathy\n(AUB-C)\nO\nvulatory dysfunction (AUB-O)\nE\nndometrial (AUB-E)\nI\natrogenic (AUB-I)\nN\not yet classified (AUB-N)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "PALM-COEIN_Classification_of_Vaginal_Bleeding": {
+      "text": "PALM\n: structural causes\nP\nolyp (AUB-P)\nA\ndenomyosis (AUB-A)\nL\neiomyoma (AUB-L)\nM\nalignancy and hyperplasia (AUB-M)\nCOEIN\n: nonstructural causes\nC\noagulopathy\n(AUB-C)\nO\nvulatory dysfunction (AUB-O)\nE\nndometrial (AUB-E)\nI\natrogenic (AUB-I)\nN\not yet classified (AUB-N)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See individual pages:\nVaginal Bleeding (Non-Pregnant)\nVaginal Bleeding Pregnant (less than 20wks)\nVaginal Bleeding Pregnant (greater than 20wks)\nPost-Partum Hemorrhage\nVaginal bleeding (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal Bleeding (Non-Pregnant)",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Non-Pregnant)"
+        },
+        {
+          "text": "Vaginal Bleeding Pregnant (less than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_Pregnant_(less_than_20wks)"
+        },
+        {
+          "text": "Vaginal Bleeding Pregnant (greater than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_Pregnant_(greater_than_20wks)"
+        },
+        {
+          "text": "Post-Partum Hemorrhage",
+          "url": "https://wikem.org/wiki/Post-Partum_Hemorrhage"
+        },
+        {
+          "text": "Vaginal bleeding (peds)",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_(peds)"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "See individual diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Vaginal_bleeding_(main)_2": {
+          "text": "Non-pregnant vaginal bleeding\nPrepubertal vaginal bleeding\nPregnant\nVaginal bleeding in pregnancy (less than 20wks)\nVaginal bleeding in pregnancy (greater than 20wks)\nPostpartum hemorrhage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-pregnant vaginal bleeding",
+          "url": "https://wikem.org/wiki/Non-pregnant_vaginal_bleeding"
+        },
+        {
+          "text": "Prepubertal vaginal bleeding",
+          "url": "https://wikem.org/wiki/Prepubertal_vaginal_bleeding"
+        },
+        {
+          "text": "Pregnant",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Vaginal bleeding in pregnancy (less than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(less_than_20wks)"
+        },
+        {
+          "text": "Vaginal bleeding in pregnancy (greater than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(greater_than_20wks)"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        }
+      ]
+    }
+  }
+}

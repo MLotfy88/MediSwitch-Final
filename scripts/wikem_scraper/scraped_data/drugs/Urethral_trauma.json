@@ -1,0 +1,164 @@
+{
+  "drug_name": "Urethral_trauma",
+  "url": "https://wikem.org/wiki/Urethral_trauma",
+  "scraped_at": "2026-01-10T08:04:40.814552",
+  "sections": {
+    "Background": {
+      "text": "Commonly result of blunt trauma\nMissed or inadequately managed injuries can result in strictures and recurrent urologic procedures",
+      "subsections": {
+        "Types": {
+          "text": "Anterior\nLocated anterior to the membranous urethra\nStraddle injuries, self-instrumentation\nPosterior\nLocated in the membranous and prostatic urethra\nDue to blunt trauma from massive deceleration\n[1]\nOften accompanies pelvic fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "Anterior\nLocated anterior to the membranous urethra\nStraddle injuries, self-instrumentation\nPosterior\nLocated in the membranous and prostatic urethra\nDue to blunt trauma from massive deceleration\n[1]\nOften accompanies pelvic fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Hematuria, dysuria, inability to void, blood at meatus\nVaginal bleeding\nPerineal or scrotal hematoma\nHigh-riding or detached prostate\nAssociated with complete posterior urethral disruption\n\"ATLS ® -10 has now removed rectal examination for this purpose due to the poor sensitivity (2%) demonstrated for this maneuver.\"\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Genitourinary_Trauma": {
+          "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Genitourinary_Trauma": {
+      "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Standard \"trauma CT\" is likely to miss urethral trauma\n[3]\nRetrograde urethrogram\nMust perform before catheterization to prevent further urethral injury; inflate balloon with 2-3ml of saline to minimize displacement\n20-60 mL of water soluble contrast in toomey syringe\nCan mix contrast with lubricating jelly in 1:1 ratio to minimize leakage.\n[4]\nStretch penis perpendicularly across patient's thigh to unfold urethra.\nInject 20-60 cc\nslowly\ninto urethra (to prevent venous intravasation) while putting pressure on the glans to prevent leakage, shoot KUB during last 10 mL\nNo bladder filling with extravasation - complete tear\nBladder filling with extravasation - partial tear",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Posterior urethral injury\nSuprapubic cathether placement\nSurgery is usually performed weeks later\nAnterior urethral injury\nPenetrating injuries require surgical exploration and repair",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Genitourinary trauma\nTraumatic Foley Catheter Removal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Traumatic Foley Catheter Removal",
+          "url": "https://wikem.org/wiki/Traumatic_Foley_Catheter_Removal"
+        }
+      ]
+    }
+  }
+}

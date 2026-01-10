@@ -1,0 +1,399 @@
+{
+  "drug_name": "Ursodiol",
+  "url": "https://wikem.org/wiki/Ursodiol",
+  "scraped_at": "2026-01-10T08:04:43.148075",
+  "sections": {
+    "Administration": {
+      "text": "Type: Hepatobiliary\nDosage Forms: Cap: 300mg; Tab: 250mg, 500mg\nRoutes of Administration: Oral\nCommon Trade Names: Actigall, Urso 250, Urso Forte",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Gallstone_dissolution": {
+          "text": "8-10 mg/kg/day PO divided qd-tid",
+          "tables": []
+        },
+        "Primary_biliary_cirrhosis": {
+          "text": "13-15 mg/kg/day PO divided BID-TID",
+          "tables": []
+        },
+        "Primary_sclerosing_cholangitis": {
+          "text": "25-30 mg/kg/day PO divided qd-qid",
+          "tables": []
+        },
+        "Steatohepatitis,_non-alcoholic": {
+          "text": "10-15 mg/kg/day PO divided qd-qid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Gallstone_dissolution": {
+      "text": "8-10 mg/kg/day PO divided qd-tid",
+      "subsections": {
+        "Primary_biliary_cirrhosis": {
+          "text": "13-15 mg/kg/day PO divided BID-TID",
+          "tables": []
+        },
+        "Primary_sclerosing_cholangitis": {
+          "text": "25-30 mg/kg/day PO divided qd-qid",
+          "tables": []
+        },
+        "Steatohepatitis,_non-alcoholic": {
+          "text": "10-15 mg/kg/day PO divided qd-qid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Primary_biliary_cirrhosis": {
+      "text": "13-15 mg/kg/day PO divided BID-TID",
+      "subsections": {
+        "Primary_sclerosing_cholangitis": {
+          "text": "25-30 mg/kg/day PO divided qd-qid",
+          "tables": []
+        },
+        "Steatohepatitis,_non-alcoholic": {
+          "text": "10-15 mg/kg/day PO divided qd-qid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Primary_sclerosing_cholangitis": {
+      "text": "25-30 mg/kg/day PO divided qd-qid",
+      "subsections": {
+        "Steatohepatitis,_non-alcoholic": {
+          "text": "10-15 mg/kg/day PO divided qd-qid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Steatohepatitis,_non-alcoholic": {
+      "text": "10-15 mg/kg/day PO divided qd-qid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Biliary_atresia": {
+          "text": "< 1mo\n20-30 mg/kg/day PO divided bid\n> 1mo\n10-30 mg/kg/day PO divided bid",
+          "tables": []
+        },
+        "Pruritus,_cholestasis-associated": {
+          "text": "> 1mo\n15-30 mg/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Biliary_atresia": {
+      "text": "< 1mo\n20-30 mg/kg/day PO divided bid\n> 1mo\n10-30 mg/kg/day PO divided bid",
+      "subsections": {
+        "Pruritus,_cholestasis-associated": {
+          "text": "> 1mo\n15-30 mg/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pruritus,_cholestasis-associated": {
+      "text": "> 1mo\n15-30 mg/kg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category B: may use during pregnancy",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "May use while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Dose adjustment may be required, but specific guidelines not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Dose adjustment may be required, but specific guidelines not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category B: may use during pregnancy",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "May use while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Dose adjustment may be required, but specific guidelines not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Dose adjustment may be required, but specific guidelines not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "May use while breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Dose adjustment may be required, but specific guidelines not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Dose adjustment may be required, but specific guidelines not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Dose adjustment may be required, but specific guidelines not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Dose adjustment may be required, but specific guidelines not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Dose adjustment may be required, but specific guidelines not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nUnremitting\nacute cholecystitis\nCholangitis\n, acute\nBiliary obstruction\nGallstone pancreatitis\nBiliary-GI fistula\nGallstones, calcified cholesterol\nGallstones, radiopaque\nGallstones, radiolucent bile pigment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Gallstone pancreatitis",
+          "url": "https://wikem.org/wiki/Gallstone_pancreatitis"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Leukopenia\n,\nthrombocytopenia\nHypersensitivity reaction\nAnaphylaxis\nJaundice\n, LFTs elevated",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\n,\nconstipation\nHeadache\n,\ndizziness\nnausea\n, dyspepsia,\nvomiting\n, flatulence\nBack pain, MSK pain\nAlopecia\n,\nrash\n,\npruritus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Alopecia",
+          "url": "https://wikem.org/wiki/Alopecia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Leukopenia\n,\nthrombocytopenia\nHypersensitivity reaction\nAnaphylaxis\nJaundice\n, LFTs elevated",
+      "subsections": {
+        "Common": {
+          "text": "Diarrhea\n,\nconstipation\nHeadache\n,\ndizziness\nnausea\n, dyspepsia,\nvomiting\n, flatulence\nBack pain, MSK pain\nAlopecia\n,\nrash\n,\npruritus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Alopecia",
+          "url": "https://wikem.org/wiki/Alopecia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Diarrhea\n,\nconstipation\nHeadache\n,\ndizziness\nnausea\n, dyspepsia,\nvomiting\n, flatulence\nBack pain, MSK pain\nAlopecia\n,\nrash\n,\npruritus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Alopecia",
+          "url": "https://wikem.org/wiki/Alopecia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: Liver, GI tract\nExcretion: Feces primarily, urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Decreases cholesterol synthesis, secretion, and absorption\nAlters bile cholesterol composition",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

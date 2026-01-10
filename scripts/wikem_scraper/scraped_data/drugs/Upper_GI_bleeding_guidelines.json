@@ -1,0 +1,54 @@
+{
+  "drug_name": "Upper_GI_bleeding_guidelines",
+  "url": "https://wikem.org/wiki/Upper_GI_bleeding_guidelines",
+  "scraped_at": "2026-01-10T08:04:36.054206",
+  "sections": {
+    "Intro": {
+      "text": "See\nupper gastrointestinal bleeding\nfor clinical treatment page.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "American_College_of_Gastroenterology_Guidelines_for_GI_Ulcers": {
+      "text": "Discharge from the ED without inpatient endoscopy may be considered in patients with urea nitrogen < 18.2mg/dL; hemoglobin ≥ 13.0 g/dL for men,12.0 g/dL for women; systolic blood pressure ≥ 110 mm Hg; pulse < 100 beats/min; and absence of melena, syncope, cardiac failure, and liver disease, as they have < 1% chance of requiring intervention. (Conditional, low-quality evidence)\nBlood transfusions should target hemoglobin ≥ 7 g/dL, with higher hemoglobins targeted in patients with clinical evidence of intravascular volume depletion or co-morbidities such as coronary artery disease. (Conditional, low-to-moderate- quality evidence)\nPre-endoscopic IV PPI (eg, 80-mg bolus followed by 8-mg/h infusion) may be considered to decrease the proportion of patients who have higher-risk stigmata of hemorrhage at endoscopy and who receive endoscopic therapy. However, proton pump inhibitors do not improve clinical outcomes such as further bleeding, surgery, or death. (Conditional, high-quality evidence)\nIf endoscopy will be delayed or cannot be performed, an IV PPI is recommended to reduce further bleeding. (Conditional, moderate-quality evidence)\nPatients with upper GI bleeding should generally undergo endoscopy within 24 hours of admission, following resuscitative efforts to optimize hemodynamic parameters and other medical problems. (Conditional, low-quality evidence)\nIn patients who are hemodynamically stable and without serious co-morbidities, endoscopy should be performed as soon as possible in a non-emergent setting to identify the substantial proportion of patients with low-risk endoscopic findings who can be safely discharged. (Conditional, moderate-quality evidence)\nIn patients with higher-risk clinical features (eg, tachycardia, hypo- tension, bloody emesis, or nasogastric aspirate in hospital) endoscopy within 12 hours may be considered to potentially improve clinical outcomes. (Conditional, low-quality evidence)\nIntravenous infusion of erythromycin (250mg approximately 30 min before endoscopy) should be considered to improve diagnostic yield and decrease the need for repeat endoscopy. However, erythromycin has not consistently been shown to improve clinical outcomes. (Conditional, moderate-quality evidence)\nNasogastric or orogastric lavage is not required in patients with upper GI bleeding for diagnosis, prognosis, visualization, or therapeu- tic effect. (Conditional, low-quality evidence)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "GI_Ulcer_Recommendation_Strength_of_Evidence_Classification": {
+      "text": "Strong: The desirable effects of an intervention clearly outweigh the undesirable effects.\nConditional: Uncertainty exists about the trade-offs.\nHigh: Further research is very unlikely to change our confidence in the estimate of effect.\nModerate: Further research is likely to have an important impact on our confidence in the estimate of effect and may change the estimate.\nLow: Further research is very likely to have an important impact on our confidence in the estimate of effect and is likely to change the estimate.\nVery low: Any estimate of effect is very uncertain.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "American_College_of_Gastroenterology_Guidelines_for_Variceal_Bleeding": {
+      "text": "Acute GI hemorrhage in a patient with cirrhosis is an emergency that requires prompt attention with intravascular volume support and blood transfusions, being careful to maintain a hemoglobin of ~8 g/dL (Class I, Level B).\nShort-term antibiotic prophylaxis should be instituted in any patient with cirrhosis and GI hemorrhage (Class I, Level A). Oral norfloxacin (400mg BID) or intravenous\nciprofloxacin\n(in patients in whom oral administration is not possible) is the recommended antibiotic (Class I, Level A). In patients with advanced cirrhosis intravenous\nceftriaxone\n(1 g/day) may be preferable particularly in centers with a high prevalence of quinolone-resistant organisms (Class I, Level B).\nPharmacological therapy (somatostatin or its analogues octreotide and vapreotide; terlipressin) should be initiated as soon as variceal hemorrhage is suspected and continued for 3–5 days after diagnosis is confirmed (Class I, Level A).\nEGD, performed within 12 hours, should be used to make the diagnosis and to treat variceal hemorrhagey (Class I, Level A).\nBalloon tamponade should be used as a temporizing measure (maximum 24 hours) in patients with uncontrollable bleeding for whom a more definitive therapy (e.g., TIPS or endoscopic therapy) is planned (Class I, Level B).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Variceal_Bleeding_Recommendation_Strength_of_Evidence_Classification": {
+      "text": "Recommendation Grading System",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Upper GI Bleeding\nEBQ:Omeprazole in Bleeding Peptic Ulcers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EBQ:Omeprazole in Bleeding Peptic Ulcers",
+          "url": "https://wikem.org/wiki/EBQ:Omeprazole_in_Bleeding_Peptic_Ulcers"
+        }
+      ]
+    },
+    "References": {
+      "text": "Management of Patients with Ulcer Bleeding. March, 2012.\nPrevention and Management of Gastroesophageal Varices and Variceal Hemorrhage in Cirrhosis. September, 2007.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

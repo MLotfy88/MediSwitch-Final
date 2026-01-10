@@ -1,0 +1,183 @@
+{
+  "drug_name": "Valproic_acid",
+  "url": "https://wikem.org/wiki/Valproic_acid",
+  "scraped_at": "2026-01-10T08:04:48.535027",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAnticonvulsant\nDosage Forms: 250mg, 250/5 mL\nRoutes of Administration: Oral, IV\nCommon Trade Names:  Depacon; Depakene; Depakote; Depakote ER; Depakote Sprinkles; Stavzor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsant",
+          "url": "https://wikem.org/wiki/Anticonvulsant"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Complex partial seizures: 30-60mg/kg/day PO (divided bid-tid)\nStart: 10-15mg/kg/day PO divided QD-tid\nIncrease by 5-10mg/kg/day q7 days\nMax: 60mg/kg/day\nDecrease start dose and titrate slowly in elderly patients\nAdjust dose based on treatment response and serum levels\nDivide doses >250mg/day\nDo not cut/crush/chew with outpen caps\nTaper dose gradually to discontinue\nTotal daily IV dose should equal total oral daily dose\nAdminister IV dose as a 60-minute infusion (≤20mg/minute)\nAbsence seizures, simple and complex:  30-60mg/kg/day PO (divided bid-tid)\nStart: 15mg/kg/day PO divided QD-tid, increase by 5-10mg/kg/day every 7 days\nMax: 60mg/kg/day\nBipolar disorder, acute mania: 250-500mg PO tid\nStart: 250mg PO tid, may increase dose rapidly to lowest effective dose\nMax: 60mg/kg/day\nDecrease start dose and titrate slowly in elderly patients\nMigraine headache prophylaxis: 250-500mg PO bid\nStart: 250mg PO bid\nStatus epilepticus (off-label use): IV loading dose: 20 to 40mg/kg\nAdminister at rate of 3 to 6mg/kg/min\nMay give an additional dose of 20mg/kg 10 minutes after the loading infusion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Partial seizures, complex: 30-60mg/kg/day PO divided bid-tid\nStart: 10-15mg/kg/day PO divided QD-tid,\nIncrease by 5-10mg/kg/day q7 days; Max: 60mg/kg/day;\nAdjust dose based on treatment response and serum levels\nNot recommended under age 10\nAbsence seizures, simple and complex: 30-60mg/kg/day PO divided bid-tid\nStart: 15mg/kg/day PO divided QD-tid\nIncrease by 5-10mg/kg/day q7 days\nMax: 60mg/kg/day\nNot recommended under age 10",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Risk Factor:  X (migraine prophylaxis)/D (all other indications)",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "No adjustment necessary though may cause levels to be misleading",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Mild to moderate impairment: Not recommended for use in hepatic disease; clearance is decreased with liver impairment\nSevere impairment: Use is contraindicated.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "No adjustment necessary though may cause levels to be misleading",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Mild to moderate impairment: Not recommended for use in hepatic disease; clearance is decreased with liver impairment\nSevere impairment: Use is contraindicated.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Mild to moderate impairment: Not recommended for use in hepatic disease; clearance is decreased with liver impairment\nSevere impairment: Use is contraindicated.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Hypersensitivity to valproic acid\nHepatic disease\nHepatic impairment, significant\nUrea cycle disorders\nMitochondrial disorder, POLG-related\nPregnancy (migraine headache prophylaxis use)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hepatotoxicity\nPancreatitis\nSIADH\nHyponatremia\nPancytopenia\nThrombocytopenia\nDrug reaction with eosinophilia and systemic symptoms\nHyperammonemia\nHypothermia\nMyelosuppression\nAplastic anemia\nBleeding\nErythema multiforme\n/SJS/TEN",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\nNausea/vomiting\nAsthenia\nSomnolence\nThrombocytopenia\nDyspepsia\nDizziness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Drug reaction with eosinophilia and systemic symptoms",
+          "url": "https://wikem.org/wiki/Drug_reaction_with_eosinophilia_and_systemic_symptoms"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hepatotoxicity\nPancreatitis\nSIADH\nHyponatremia\nPancytopenia\nThrombocytopenia\nDrug reaction with eosinophilia and systemic symptoms\nHyperammonemia\nHypothermia\nMyelosuppression\nAplastic anemia\nBleeding\nErythema multiforme\n/SJS/TEN",
+      "subsections": {
+        "Common": {
+          "text": "Headache\nNausea/vomiting\nAsthenia\nSomnolence\nThrombocytopenia\nDyspepsia\nDizziness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Drug reaction with eosinophilia and systemic symptoms",
+          "url": "https://wikem.org/wiki/Drug_reaction_with_eosinophilia_and_systemic_symptoms"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Headache\nNausea/vomiting\nAsthenia\nSomnolence\nThrombocytopenia\nDyspepsia\nDizziness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 16 hrs\nMetabolism: CYP450\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Increases GABA effects, may inhibit glutamate/NMDA receptor-mediated neuronal excitation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_also": {
+      "text": "Valproate\nValproic acid toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "Valproic acid toxicity",
+          "url": "https://wikem.org/wiki/Valproic_acid_toxicity"
+        }
+      ]
+    },
+    "References": {
+      "text": "<UptoDate, epocrates>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

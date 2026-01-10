@@ -1,0 +1,1023 @@
+{
+  "drug_name": "Uveitis",
+  "url": "https://wikem.org/wiki/Uveitis",
+  "scraped_at": "2026-01-10T08:04:47.576316",
+  "sections": {
+    "Background": {
+      "text": "Uveitis = inflammation of iris, ciliary body, and/or choroid",
+      "subsections": {
+        "Types": {
+          "text": "Anterior Uveitis\nInflammation of iris and/or ciliary body\nTypes:\nIritis\nIridocyclitis\nPosterior uveitis = choroiditis",
+          "tables": []
+        },
+        "Causes": {
+          "text": "Inflammatory\nAssociated with HLA B-27\n50% have associated systemic disease\nAnkylosing spondylitis\nPsoriatic arthritis\nReactive arthritis\nInflammatory bowel disease\nSarcoidosis\nJuvenile idiopathic arthritis\nBehcet disease\nKawasaki disease\nMultiple sclerosis\nGranulomatosis with polyangiitis\nEnvironmental\nTrauma\nCorneal foreign body\nUV keratitis\nInfectious (uncommon)\nCorneal ulcer\nTB\nLyme\nHSV\nToxoplasmosis\nVZV\nSyphilis\nAdenovirus",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Cataracts\nGlaucoma\n(from synechia)\nRetinal detachment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "Reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Behcet disease",
+          "url": "https://wikem.org/wiki/Behcet_disease"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Corneal foreign body",
+          "url": "https://wikem.org/wiki/Corneal_foreign_body"
+        },
+        {
+          "text": "UV keratitis",
+          "url": "https://wikem.org/wiki/UV_keratitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "VZV",
+          "url": "https://wikem.org/wiki/VZV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Cataracts",
+          "url": "https://wikem.org/wiki/Cataracts"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Anterior Uveitis\nInflammation of iris and/or ciliary body\nTypes:\nIritis\nIridocyclitis\nPosterior uveitis = choroiditis",
+      "subsections": {
+        "Causes": {
+          "text": "Inflammatory\nAssociated with HLA B-27\n50% have associated systemic disease\nAnkylosing spondylitis\nPsoriatic arthritis\nReactive arthritis\nInflammatory bowel disease\nSarcoidosis\nJuvenile idiopathic arthritis\nBehcet disease\nKawasaki disease\nMultiple sclerosis\nGranulomatosis with polyangiitis\nEnvironmental\nTrauma\nCorneal foreign body\nUV keratitis\nInfectious (uncommon)\nCorneal ulcer\nTB\nLyme\nHSV\nToxoplasmosis\nVZV\nSyphilis\nAdenovirus",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Cataracts\nGlaucoma\n(from synechia)\nRetinal detachment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "Reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Behcet disease",
+          "url": "https://wikem.org/wiki/Behcet_disease"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Corneal foreign body",
+          "url": "https://wikem.org/wiki/Corneal_foreign_body"
+        },
+        {
+          "text": "UV keratitis",
+          "url": "https://wikem.org/wiki/UV_keratitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "VZV",
+          "url": "https://wikem.org/wiki/VZV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Cataracts",
+          "url": "https://wikem.org/wiki/Cataracts"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Inflammatory\nAssociated with HLA B-27\n50% have associated systemic disease\nAnkylosing spondylitis\nPsoriatic arthritis\nReactive arthritis\nInflammatory bowel disease\nSarcoidosis\nJuvenile idiopathic arthritis\nBehcet disease\nKawasaki disease\nMultiple sclerosis\nGranulomatosis with polyangiitis\nEnvironmental\nTrauma\nCorneal foreign body\nUV keratitis\nInfectious (uncommon)\nCorneal ulcer\nTB\nLyme\nHSV\nToxoplasmosis\nVZV\nSyphilis\nAdenovirus",
+      "subsections": {
+        "Complications": {
+          "text": "Cataracts\nGlaucoma\n(from synechia)\nRetinal detachment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "Reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Behcet disease",
+          "url": "https://wikem.org/wiki/Behcet_disease"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Corneal foreign body",
+          "url": "https://wikem.org/wiki/Corneal_foreign_body"
+        },
+        {
+          "text": "UV keratitis",
+          "url": "https://wikem.org/wiki/UV_keratitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "VZV",
+          "url": "https://wikem.org/wiki/VZV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Cataracts",
+          "url": "https://wikem.org/wiki/Cataracts"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Cataracts\nGlaucoma\n(from synechia)\nRetinal detachment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cataracts",
+          "url": "https://wikem.org/wiki/Cataracts"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Anterior": {
+          "text": "Sudden\nred\n/\npainful eye\nDeep pain; worse with eye movement\nDue to ciliary muscle spasm which irritates CN V\nCauses consensual photophobia\nCiliary flush, marked injection at the limbus (as opposed to perilimbal sparing seen in conjunctivitis)\nTypically small, poorly reactive pupil",
+          "tables": []
+        },
+        "Posterior": {
+          "text": "Floaters\nVisual changes\nGenerally does not cause redness or significant pain\nBlind spots or flashing lights",
+          "tables": []
+        },
+        "Slit-lamp_exam": {
+          "text": "Cell (WBCs from uveal vessels) & flare (proteinaceous transudate from uveal vessels)\nHypopyon\n(with severe disease)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "red",
+          "url": "https://wikem.org/wiki/Red_eye"
+        },
+        {
+          "text": "painful eye",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "Floaters",
+          "url": "https://wikem.org/wiki/Floaters"
+        },
+        {
+          "text": "Visual changes",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "Hypopyon",
+          "url": "https://wikem.org/wiki/Hypopyon"
+        }
+      ]
+    },
+    "Anterior": {
+      "text": "Sudden\nred\n/\npainful eye\nDeep pain; worse with eye movement\nDue to ciliary muscle spasm which irritates CN V\nCauses consensual photophobia\nCiliary flush, marked injection at the limbus (as opposed to perilimbal sparing seen in conjunctivitis)\nTypically small, poorly reactive pupil",
+      "subsections": {
+        "Posterior": {
+          "text": "Floaters\nVisual changes\nGenerally does not cause redness or significant pain\nBlind spots or flashing lights",
+          "tables": []
+        },
+        "Slit-lamp_exam": {
+          "text": "Cell (WBCs from uveal vessels) & flare (proteinaceous transudate from uveal vessels)\nHypopyon\n(with severe disease)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "red",
+          "url": "https://wikem.org/wiki/Red_eye"
+        },
+        {
+          "text": "painful eye",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "Floaters",
+          "url": "https://wikem.org/wiki/Floaters"
+        },
+        {
+          "text": "Visual changes",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "Hypopyon",
+          "url": "https://wikem.org/wiki/Hypopyon"
+        }
+      ]
+    },
+    "Posterior": {
+      "text": "Floaters\nVisual changes\nGenerally does not cause redness or significant pain\nBlind spots or flashing lights",
+      "subsections": {
+        "Slit-lamp_exam": {
+          "text": "Cell (WBCs from uveal vessels) & flare (proteinaceous transudate from uveal vessels)\nHypopyon\n(with severe disease)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Floaters",
+          "url": "https://wikem.org/wiki/Floaters"
+        },
+        {
+          "text": "Visual changes",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "Hypopyon",
+          "url": "https://wikem.org/wiki/Hypopyon"
+        }
+      ]
+    },
+    "Slit-lamp_exam": {
+      "text": "Cell (WBCs from uveal vessels) & flare (proteinaceous transudate from uveal vessels)\nHypopyon\n(with severe disease)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypopyon",
+          "url": "https://wikem.org/wiki/Hypopyon"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Unilateral_red_eye": {
+          "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+          "tables": []
+        },
+        "Acute_onset_flashers_and_floaters": {
+          "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Sympathetic ophthalmia",
+          "url": "https://wikem.org/wiki/Sympathetic_ophthalmia"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Unilateral_red_eye": {
+      "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+      "subsections": {
+        "Acute_onset_flashers_and_floaters": {
+          "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Sympathetic ophthalmia",
+          "url": "https://wikem.org/wiki/Sympathetic_ophthalmia"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Acute_onset_flashers_and_floaters": {
+      "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Sympathetic ophthalmia",
+          "url": "https://wikem.org/wiki/Sympathetic_ophthalmia"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical\nConsider\nCXR\n(uveitis often associated with\nsarcoidosis\n,\nTB\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Treat the underlying infection",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Anterior uveitis\nTopical steroid\n(anterior only; typically in consultation with ophthalmology)\nPrednisolone\n1%\nMydriatics (\nsympathomimetics\n)\nDilate the iris\nPrevents the formation of synechiae\nCyclopentolate\n,\nhomatropine\nor\nphenylephrine\nHCl\nCycloplegics\nRelieves pain\nScopolamine\n0.25%\nOR\ncyclopentolate\n1%\nPosterior Uveitis\nGenerally not responsive to topical treatment\nConsult ophtho for observation vs intraocular steroid injection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical steroid",
+          "url": "https://wikem.org/wiki/Topical_steroid"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "sympathomimetics",
+          "url": "https://wikem.org/wiki/Sympathomimetics"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "homatropine",
+          "url": "https://wikem.org/wiki/Homatropine"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "Cycloplegics",
+          "url": "https://wikem.org/wiki/Cycloplegic"
+        },
+        {
+          "text": "Scopolamine",
+          "url": "https://wikem.org/wiki/Scopolamine"
+        },
+        {
+          "text": "cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        }
+      ]
+    },
+    "Infectious": {
+      "text": "Treat the underlying infection",
+      "subsections": {
+        "Noninfectious": {
+          "text": "Anterior uveitis\nTopical steroid\n(anterior only; typically in consultation with ophthalmology)\nPrednisolone\n1%\nMydriatics (\nsympathomimetics\n)\nDilate the iris\nPrevents the formation of synechiae\nCyclopentolate\n,\nhomatropine\nor\nphenylephrine\nHCl\nCycloplegics\nRelieves pain\nScopolamine\n0.25%\nOR\ncyclopentolate\n1%\nPosterior Uveitis\nGenerally not responsive to topical treatment\nConsult ophtho for observation vs intraocular steroid injection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical steroid",
+          "url": "https://wikem.org/wiki/Topical_steroid"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "sympathomimetics",
+          "url": "https://wikem.org/wiki/Sympathomimetics"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "homatropine",
+          "url": "https://wikem.org/wiki/Homatropine"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "Cycloplegics",
+          "url": "https://wikem.org/wiki/Cycloplegic"
+        },
+        {
+          "text": "Scopolamine",
+          "url": "https://wikem.org/wiki/Scopolamine"
+        },
+        {
+          "text": "cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        }
+      ]
+    },
+    "Noninfectious": {
+      "text": "Anterior uveitis\nTopical steroid\n(anterior only; typically in consultation with ophthalmology)\nPrednisolone\n1%\nMydriatics (\nsympathomimetics\n)\nDilate the iris\nPrevents the formation of synechiae\nCyclopentolate\n,\nhomatropine\nor\nphenylephrine\nHCl\nCycloplegics\nRelieves pain\nScopolamine\n0.25%\nOR\ncyclopentolate\n1%\nPosterior Uveitis\nGenerally not responsive to topical treatment\nConsult ophtho for observation vs intraocular steroid injection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical steroid",
+          "url": "https://wikem.org/wiki/Topical_steroid"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "sympathomimetics",
+          "url": "https://wikem.org/wiki/Sympathomimetics"
+        },
+        {
+          "text": "Cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        },
+        {
+          "text": "homatropine",
+          "url": "https://wikem.org/wiki/Homatropine"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "Cycloplegics",
+          "url": "https://wikem.org/wiki/Cycloplegic"
+        },
+        {
+          "text": "Scopolamine",
+          "url": "https://wikem.org/wiki/Scopolamine"
+        },
+        {
+          "text": "cyclopentolate",
+          "url": "https://wikem.org/wiki/Cyclopentolate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally may be discharged with urgent ophthalmology follow-up within 24-48 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute onset flashers and floaters\nRed Eye (Unilateral)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute onset flashers and floaters",
+          "url": "https://wikem.org/wiki/Acute_onset_flashers_and_floaters"
+        },
+        {
+          "text": "Red Eye (Unilateral)",
+          "url": "https://wikem.org/wiki/Red_Eye_(Unilateral)"
+        }
+      ]
+    }
+  }
+}

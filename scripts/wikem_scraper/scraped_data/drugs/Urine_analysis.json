@@ -1,0 +1,961 @@
+{
+  "drug_name": "Urine_analysis",
+  "url": "https://wikem.org/wiki/Urine_analysis",
+  "scraped_at": "2026-01-10T08:04:42.746075",
+  "sections": {
+    "Reference_Range": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Color": "Clarity/turbidity",
+            "Yellow": "Clear"
+          },
+          {
+            "Color": "pH",
+            "Yellow": "4.5-8.0"
+          },
+          {
+            "Color": "Specific gravity",
+            "Yellow": "1.005-1.025"
+          },
+          {
+            "Color": "Glucose",
+            "Yellow": "<130 mg/d"
+          },
+          {
+            "Color": "Ketones",
+            "Yellow": "None"
+          },
+          {
+            "Color": "Nitrites",
+            "Yellow": "Negative"
+          },
+          {
+            "Color": "Leukocyte esterase",
+            "Yellow": "Negative"
+          },
+          {
+            "Color": "Bilirubin",
+            "Yellow": "Negative"
+          },
+          {
+            "Color": "Urobilirubin",
+            "Yellow": "Small amount (0.5-1mg/dL)"
+          },
+          {
+            "Color": "Blood",
+            "Yellow": "<3 RBCs"
+          },
+          {
+            "Color": "Protein",
+            "Yellow": "<150mg/d"
+          },
+          {
+            "Color": "RBCs",
+            "Yellow": "<2 RBCs/hpf"
+          },
+          {
+            "Color": "WBCs",
+            "Yellow": "<2-5 WBCs/hpf"
+          },
+          {
+            "Color": "Squamous epithelial cells",
+            "Yellow": "<15-20 per hpf"
+          },
+          {
+            "Color": "Casts",
+            "Yellow": "0-5 hyaline casts/hpf"
+          },
+          {
+            "Color": "Crystals",
+            "Yellow": "Occasionally"
+          },
+          {
+            "Color": "Bacteria",
+            "Yellow": "None"
+          },
+          {
+            "Color": "Yeast",
+            "Yellow": "None"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Collection": {
+      "text": "Midstream urine specimen should be collected in clean container\nWomen should clean external genitalia before voiding to avoid contamination\nUrine specimen should be analyzed within 30-60min for accurate results",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Analysis": {
+      "text": "",
+      "subsections": {
+        "Gross_Visual_Examination": {
+          "text": "Color\nNormal color varies from pale light yellow to dark amber\nSee\nAbnormally colored urine\nClarity/turbidity\nDetermined by substances in urine, including cellular debris, casts, crystals, bacteria, proteinuria, vaginal discharge, sperm",
+          "tables": []
+        },
+        "Chemical_Examination": {
+          "text": "pH\nSlightly acidic urine is normal\nAny acid-base abnormalities affects urinary pH\nDiet can affect pH\nUseful in evaluation\nstones\n,\ninfection\n,\nRTA\nStones\n: alkaline (calcium oxalate/calcium phosphate, magnesium-ammonium phosphate, staghorn) vs acidic (uric acid, cysteine)\nUTI\n:\nproteus\nand\nklebsiella\nproduce alkaline urine\nSpecific gravity\nRepresents kidney's ability to concentrate urine; often reflective of hydration status\nLow values can be seen in patients with impaired urinary concentrating ability (i.e.\ndiabetes insipidus\n,\nsickle cell\nnephropathy, acute tubular necrosis)\nHigh values can be due to elevated protein or ketoacids\nSpecific gravity should be considered in detection of pediatric UTI\n[1]\nThe higher the concentration of the urine, when in the presence of negative LE, the higher the negative predictive value of\nUTI\nAt threshold of greater than or equal to 5 WBCs per HPF in microscopic UA\nGlucose\nGlucosuria is due to\nhigh blood glucose\nor decreased kidney threshold concentration\nTypically seen in\ndiabetics\nor\npregnant\npatients\nKetones\nTypically seen with uncontrolled\ndiabetes\n,\nDiabetic ketoacidosis\n, severe exercise, starvation,\nvomiting\n,\npregnancy\nNitrite\n90% specific but 50% sensitive in detecting\ngram negative\nbacteria that converts nitrate to nitrite\nA positive test suggest bacteria but a negative test cannot rule out UTI\nLeukocyte Esterase\nEnzyme within WBC that is released when WBCs lyse\n70% sensitive and 50% specific for detecting WBCs (pyuria)\nBilirubin\nIncreased urobilirubin associated with excessive\nhemolysis\n, liver disease,\nconstipation\n, intestinal bacterial overgrowth\nDecreased urobilirubin associated with obstructive\nbiliary disease\nand severe cholestasis\nProteins\nUrine dipstick become positive the protein >300-500mg/d\nTrace - 10-30mg/dl\n1+ - 30mg/dl\n2+ - 100mg/dl\n3+ - 300 mg/dl\n4+ - >1000mg/dl\nEtiology\nTransient\nproteinuria\n:\nCHF\n,\nfever\n, exercise,\nseizure\n, stress\nPersistent\nproteinuria\n:\nnephrotic syndrome\n,\nglomerulonephritis\n, ATN, AIN, Falcon syndrome,\nmultiple myeloma\n, myoglobinuria\nBlood\nIf more than 3RBCs, urine dipstick is positive for blood\nDoes not detect where the blood is coming from\nCan be due to\nhematuria\n, hemoglobinuria, myoglobinuria, contamination\nBlood+/RBC+ →\nhematuria\nBlood+/RBC- → myoglobinuria (\nrhabdomyolysis\n,\nrenal failure\n) or hemoglobinuria (infection,\ntransfusion-related reaction\n,\nparoxysmal nocturnal hemoglobinuria\n)",
+          "tables": []
+        },
+        "Microscopic_Examination": {
+          "text": "WBCs\nElevated WBCs indicate infection, inflammation or contamination\nRBCs\nMicroscopic\nhematuria\ndefined as 3RBCs/hpf or more\nTransient\nhematuria\nin young patients is typically benign. In older patients >50yo, warrants further work-up for underlying malignancy\nPersistent\nhematuria\nalways warrants further work-up\nRenal: glomerular (\nproteinuria\n, RBC casts, dysmorphic RBCs) vs nonglomerular (no RBC casts or dysmorphic RBCs)\nExtrarenal: tumors,\nstones\n, BPH, infections (\npyelonephritis\n,\ncystitis\n,\nprostatitis\n,\nurethritis\n),\nschistosomiasis\n, foley trauma,\nanticoagulants\n, chemotherapy\nEpithelial Cells\nGenerally, 15-20 squamous cells or more indicates contamination\nHyaline casts - nonspecific\nRed cell casts - nearly diagnostic of\nglomerulonephritis\nor\nvasculitis\nWhite cell casts - tubulointerstitial nephritis, acute pyelonephritis, renal tuberculosis, vaginal infection\nMuddy-brown granular casts - diagnostic of acute tubular necrosis\nWaxy and broad casts - advanced\nrenal failure\nFatty casts -\nnephrotic syndrome\nCrystals\nMay be normal\nCalcium oxalate crystals -\nethylene glycol\ningestion\nUric acid crystals -\ntumor lysis syndrome\n,\ngout\nCystine crystals - cystinuria\nMagnesium ammonium phosphate and triple phosphate crystals -\nUTI\ncaused by\nProteus\n,\nKlebsiella\nBacteria\nGenerally due to infection or contamination\nIf positive for nitrites, leukocyte esterase and bacteria - highly suggestive of\nUTI\nIf significant amount of squamous epithelial cells - may indicate contamination\nUrine culture should be obtained if UTI suspected\nGenerally, >100K/mL of a single organism reflects significant bacteriuria\nYeast\nGenerally due to infection or contamination",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abnormally colored urine",
+          "url": "https://wikem.org/wiki/Abnormally_colored_urine"
+        },
+        {
+          "text": "stones",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "RTA",
+          "url": "https://wikem.org/wiki/Renal_tubular_acidosis"
+        },
+        {
+          "text": "Stones",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "sickle cell",
+          "url": "https://wikem.org/wiki/Sickle_cell"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "high blood glucose",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "diabetics",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "pregnant",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "biliary disease",
+          "url": "https://wikem.org/wiki/Biliary_disease"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "transfusion-related reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        },
+        {
+          "text": "paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "stones",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Bacteria",
+          "url": "https://wikem.org/wiki/Bacteria"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Yeast",
+          "url": "https://wikem.org/wiki/Candiduria"
+        }
+      ]
+    },
+    "Gross_Visual_Examination": {
+      "text": "Color\nNormal color varies from pale light yellow to dark amber\nSee\nAbnormally colored urine\nClarity/turbidity\nDetermined by substances in urine, including cellular debris, casts, crystals, bacteria, proteinuria, vaginal discharge, sperm",
+      "subsections": {
+        "Chemical_Examination": {
+          "text": "pH\nSlightly acidic urine is normal\nAny acid-base abnormalities affects urinary pH\nDiet can affect pH\nUseful in evaluation\nstones\n,\ninfection\n,\nRTA\nStones\n: alkaline (calcium oxalate/calcium phosphate, magnesium-ammonium phosphate, staghorn) vs acidic (uric acid, cysteine)\nUTI\n:\nproteus\nand\nklebsiella\nproduce alkaline urine\nSpecific gravity\nRepresents kidney's ability to concentrate urine; often reflective of hydration status\nLow values can be seen in patients with impaired urinary concentrating ability (i.e.\ndiabetes insipidus\n,\nsickle cell\nnephropathy, acute tubular necrosis)\nHigh values can be due to elevated protein or ketoacids\nSpecific gravity should be considered in detection of pediatric UTI\n[1]\nThe higher the concentration of the urine, when in the presence of negative LE, the higher the negative predictive value of\nUTI\nAt threshold of greater than or equal to 5 WBCs per HPF in microscopic UA\nGlucose\nGlucosuria is due to\nhigh blood glucose\nor decreased kidney threshold concentration\nTypically seen in\ndiabetics\nor\npregnant\npatients\nKetones\nTypically seen with uncontrolled\ndiabetes\n,\nDiabetic ketoacidosis\n, severe exercise, starvation,\nvomiting\n,\npregnancy\nNitrite\n90% specific but 50% sensitive in detecting\ngram negative\nbacteria that converts nitrate to nitrite\nA positive test suggest bacteria but a negative test cannot rule out UTI\nLeukocyte Esterase\nEnzyme within WBC that is released when WBCs lyse\n70% sensitive and 50% specific for detecting WBCs (pyuria)\nBilirubin\nIncreased urobilirubin associated with excessive\nhemolysis\n, liver disease,\nconstipation\n, intestinal bacterial overgrowth\nDecreased urobilirubin associated with obstructive\nbiliary disease\nand severe cholestasis\nProteins\nUrine dipstick become positive the protein >300-500mg/d\nTrace - 10-30mg/dl\n1+ - 30mg/dl\n2+ - 100mg/dl\n3+ - 300 mg/dl\n4+ - >1000mg/dl\nEtiology\nTransient\nproteinuria\n:\nCHF\n,\nfever\n, exercise,\nseizure\n, stress\nPersistent\nproteinuria\n:\nnephrotic syndrome\n,\nglomerulonephritis\n, ATN, AIN, Falcon syndrome,\nmultiple myeloma\n, myoglobinuria\nBlood\nIf more than 3RBCs, urine dipstick is positive for blood\nDoes not detect where the blood is coming from\nCan be due to\nhematuria\n, hemoglobinuria, myoglobinuria, contamination\nBlood+/RBC+ →\nhematuria\nBlood+/RBC- → myoglobinuria (\nrhabdomyolysis\n,\nrenal failure\n) or hemoglobinuria (infection,\ntransfusion-related reaction\n,\nparoxysmal nocturnal hemoglobinuria\n)",
+          "tables": []
+        },
+        "Microscopic_Examination": {
+          "text": "WBCs\nElevated WBCs indicate infection, inflammation or contamination\nRBCs\nMicroscopic\nhematuria\ndefined as 3RBCs/hpf or more\nTransient\nhematuria\nin young patients is typically benign. In older patients >50yo, warrants further work-up for underlying malignancy\nPersistent\nhematuria\nalways warrants further work-up\nRenal: glomerular (\nproteinuria\n, RBC casts, dysmorphic RBCs) vs nonglomerular (no RBC casts or dysmorphic RBCs)\nExtrarenal: tumors,\nstones\n, BPH, infections (\npyelonephritis\n,\ncystitis\n,\nprostatitis\n,\nurethritis\n),\nschistosomiasis\n, foley trauma,\nanticoagulants\n, chemotherapy\nEpithelial Cells\nGenerally, 15-20 squamous cells or more indicates contamination\nHyaline casts - nonspecific\nRed cell casts - nearly diagnostic of\nglomerulonephritis\nor\nvasculitis\nWhite cell casts - tubulointerstitial nephritis, acute pyelonephritis, renal tuberculosis, vaginal infection\nMuddy-brown granular casts - diagnostic of acute tubular necrosis\nWaxy and broad casts - advanced\nrenal failure\nFatty casts -\nnephrotic syndrome\nCrystals\nMay be normal\nCalcium oxalate crystals -\nethylene glycol\ningestion\nUric acid crystals -\ntumor lysis syndrome\n,\ngout\nCystine crystals - cystinuria\nMagnesium ammonium phosphate and triple phosphate crystals -\nUTI\ncaused by\nProteus\n,\nKlebsiella\nBacteria\nGenerally due to infection or contamination\nIf positive for nitrites, leukocyte esterase and bacteria - highly suggestive of\nUTI\nIf significant amount of squamous epithelial cells - may indicate contamination\nUrine culture should be obtained if UTI suspected\nGenerally, >100K/mL of a single organism reflects significant bacteriuria\nYeast\nGenerally due to infection or contamination",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abnormally colored urine",
+          "url": "https://wikem.org/wiki/Abnormally_colored_urine"
+        },
+        {
+          "text": "stones",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "RTA",
+          "url": "https://wikem.org/wiki/Renal_tubular_acidosis"
+        },
+        {
+          "text": "Stones",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "sickle cell",
+          "url": "https://wikem.org/wiki/Sickle_cell"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "high blood glucose",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "diabetics",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "pregnant",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "biliary disease",
+          "url": "https://wikem.org/wiki/Biliary_disease"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "transfusion-related reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        },
+        {
+          "text": "paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "stones",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Bacteria",
+          "url": "https://wikem.org/wiki/Bacteria"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Yeast",
+          "url": "https://wikem.org/wiki/Candiduria"
+        }
+      ]
+    },
+    "Chemical_Examination": {
+      "text": "pH\nSlightly acidic urine is normal\nAny acid-base abnormalities affects urinary pH\nDiet can affect pH\nUseful in evaluation\nstones\n,\ninfection\n,\nRTA\nStones\n: alkaline (calcium oxalate/calcium phosphate, magnesium-ammonium phosphate, staghorn) vs acidic (uric acid, cysteine)\nUTI\n:\nproteus\nand\nklebsiella\nproduce alkaline urine\nSpecific gravity\nRepresents kidney's ability to concentrate urine; often reflective of hydration status\nLow values can be seen in patients with impaired urinary concentrating ability (i.e.\ndiabetes insipidus\n,\nsickle cell\nnephropathy, acute tubular necrosis)\nHigh values can be due to elevated protein or ketoacids\nSpecific gravity should be considered in detection of pediatric UTI\n[1]\nThe higher the concentration of the urine, when in the presence of negative LE, the higher the negative predictive value of\nUTI\nAt threshold of greater than or equal to 5 WBCs per HPF in microscopic UA\nGlucose\nGlucosuria is due to\nhigh blood glucose\nor decreased kidney threshold concentration\nTypically seen in\ndiabetics\nor\npregnant\npatients\nKetones\nTypically seen with uncontrolled\ndiabetes\n,\nDiabetic ketoacidosis\n, severe exercise, starvation,\nvomiting\n,\npregnancy\nNitrite\n90% specific but 50% sensitive in detecting\ngram negative\nbacteria that converts nitrate to nitrite\nA positive test suggest bacteria but a negative test cannot rule out UTI\nLeukocyte Esterase\nEnzyme within WBC that is released when WBCs lyse\n70% sensitive and 50% specific for detecting WBCs (pyuria)\nBilirubin\nIncreased urobilirubin associated with excessive\nhemolysis\n, liver disease,\nconstipation\n, intestinal bacterial overgrowth\nDecreased urobilirubin associated with obstructive\nbiliary disease\nand severe cholestasis\nProteins\nUrine dipstick become positive the protein >300-500mg/d\nTrace - 10-30mg/dl\n1+ - 30mg/dl\n2+ - 100mg/dl\n3+ - 300 mg/dl\n4+ - >1000mg/dl\nEtiology\nTransient\nproteinuria\n:\nCHF\n,\nfever\n, exercise,\nseizure\n, stress\nPersistent\nproteinuria\n:\nnephrotic syndrome\n,\nglomerulonephritis\n, ATN, AIN, Falcon syndrome,\nmultiple myeloma\n, myoglobinuria\nBlood\nIf more than 3RBCs, urine dipstick is positive for blood\nDoes not detect where the blood is coming from\nCan be due to\nhematuria\n, hemoglobinuria, myoglobinuria, contamination\nBlood+/RBC+ →\nhematuria\nBlood+/RBC- → myoglobinuria (\nrhabdomyolysis\n,\nrenal failure\n) or hemoglobinuria (infection,\ntransfusion-related reaction\n,\nparoxysmal nocturnal hemoglobinuria\n)",
+      "subsections": {
+        "Microscopic_Examination": {
+          "text": "WBCs\nElevated WBCs indicate infection, inflammation or contamination\nRBCs\nMicroscopic\nhematuria\ndefined as 3RBCs/hpf or more\nTransient\nhematuria\nin young patients is typically benign. In older patients >50yo, warrants further work-up for underlying malignancy\nPersistent\nhematuria\nalways warrants further work-up\nRenal: glomerular (\nproteinuria\n, RBC casts, dysmorphic RBCs) vs nonglomerular (no RBC casts or dysmorphic RBCs)\nExtrarenal: tumors,\nstones\n, BPH, infections (\npyelonephritis\n,\ncystitis\n,\nprostatitis\n,\nurethritis\n),\nschistosomiasis\n, foley trauma,\nanticoagulants\n, chemotherapy\nEpithelial Cells\nGenerally, 15-20 squamous cells or more indicates contamination\nHyaline casts - nonspecific\nRed cell casts - nearly diagnostic of\nglomerulonephritis\nor\nvasculitis\nWhite cell casts - tubulointerstitial nephritis, acute pyelonephritis, renal tuberculosis, vaginal infection\nMuddy-brown granular casts - diagnostic of acute tubular necrosis\nWaxy and broad casts - advanced\nrenal failure\nFatty casts -\nnephrotic syndrome\nCrystals\nMay be normal\nCalcium oxalate crystals -\nethylene glycol\ningestion\nUric acid crystals -\ntumor lysis syndrome\n,\ngout\nCystine crystals - cystinuria\nMagnesium ammonium phosphate and triple phosphate crystals -\nUTI\ncaused by\nProteus\n,\nKlebsiella\nBacteria\nGenerally due to infection or contamination\nIf positive for nitrites, leukocyte esterase and bacteria - highly suggestive of\nUTI\nIf significant amount of squamous epithelial cells - may indicate contamination\nUrine culture should be obtained if UTI suspected\nGenerally, >100K/mL of a single organism reflects significant bacteriuria\nYeast\nGenerally due to infection or contamination",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "stones",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "RTA",
+          "url": "https://wikem.org/wiki/Renal_tubular_acidosis"
+        },
+        {
+          "text": "Stones",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "sickle cell",
+          "url": "https://wikem.org/wiki/Sickle_cell"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "high blood glucose",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "diabetics",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "pregnant",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "biliary disease",
+          "url": "https://wikem.org/wiki/Biliary_disease"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "transfusion-related reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        },
+        {
+          "text": "paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "stones",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Bacteria",
+          "url": "https://wikem.org/wiki/Bacteria"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Yeast",
+          "url": "https://wikem.org/wiki/Candiduria"
+        }
+      ]
+    },
+    "Microscopic_Examination": {
+      "text": "WBCs\nElevated WBCs indicate infection, inflammation or contamination\nRBCs\nMicroscopic\nhematuria\ndefined as 3RBCs/hpf or more\nTransient\nhematuria\nin young patients is typically benign. In older patients >50yo, warrants further work-up for underlying malignancy\nPersistent\nhematuria\nalways warrants further work-up\nRenal: glomerular (\nproteinuria\n, RBC casts, dysmorphic RBCs) vs nonglomerular (no RBC casts or dysmorphic RBCs)\nExtrarenal: tumors,\nstones\n, BPH, infections (\npyelonephritis\n,\ncystitis\n,\nprostatitis\n,\nurethritis\n),\nschistosomiasis\n, foley trauma,\nanticoagulants\n, chemotherapy\nEpithelial Cells\nGenerally, 15-20 squamous cells or more indicates contamination\nHyaline casts - nonspecific\nRed cell casts - nearly diagnostic of\nglomerulonephritis\nor\nvasculitis\nWhite cell casts - tubulointerstitial nephritis, acute pyelonephritis, renal tuberculosis, vaginal infection\nMuddy-brown granular casts - diagnostic of acute tubular necrosis\nWaxy and broad casts - advanced\nrenal failure\nFatty casts -\nnephrotic syndrome\nCrystals\nMay be normal\nCalcium oxalate crystals -\nethylene glycol\ningestion\nUric acid crystals -\ntumor lysis syndrome\n,\ngout\nCystine crystals - cystinuria\nMagnesium ammonium phosphate and triple phosphate crystals -\nUTI\ncaused by\nProteus\n,\nKlebsiella\nBacteria\nGenerally due to infection or contamination\nIf positive for nitrites, leukocyte esterase and bacteria - highly suggestive of\nUTI\nIf significant amount of squamous epithelial cells - may indicate contamination\nUrine culture should be obtained if UTI suspected\nGenerally, >100K/mL of a single organism reflects significant bacteriuria\nYeast\nGenerally due to infection or contamination",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "stones",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Bacteria",
+          "url": "https://wikem.org/wiki/Bacteria"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Yeast",
+          "url": "https://wikem.org/wiki/Candiduria"
+        }
+      ]
+    }
+  }
+}

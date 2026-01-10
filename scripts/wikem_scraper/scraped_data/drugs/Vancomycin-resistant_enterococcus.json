@@ -1,0 +1,28 @@
+{
+  "drug_name": "Vancomycin-resistant_enterococcus",
+  "url": "https://wikem.org/wiki/Vancomycin-resistant_enterococcus",
+  "scraped_at": "2026-01-10T08:04:50.283686",
+  "sections": {
+    "Background": {
+      "text": "Enterococcus is part of normal gut flora\nMust cover both\nEnterococcus faecium\nand\nEnterococcus faecalis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Enterococcus faecium",
+          "url": "https://wikem.org/wiki/Enterococcus_faecium"
+        },
+        {
+          "text": "Enterococcus faecalis",
+          "url": "https://wikem.org/wiki/Enterococcus_faecalis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "VRE antimicrobial table from www.antimicrobe.org",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

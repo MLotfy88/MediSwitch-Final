@@ -1,0 +1,57 @@
+{
+  "drug_name": "Urologic_disorders_of_spaceflight",
+  "url": "https://wikem.org/wiki/Urologic_disorders_of_spaceflight",
+  "scraped_at": "2026-01-10T08:04:45.463519",
+  "sections": {
+    "Overview": {
+      "text": "Although all of the\nurology conditions\nthat occur on earth can occur during space travel, below are some common conditions related to microgravity.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "urology conditions",
+          "url": "https://wikem.org/wiki/Category:Urology"
+        }
+      ]
+    },
+    "Common_Disorders": {
+      "text": "Urolithiasis\nUrinary retention\nPyelonephritis\nBartholin gland abscess\nEpididymitis\nProstatitis\nTesticular torsion\nUTI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        }
+      ]
+    }
+  }
+}

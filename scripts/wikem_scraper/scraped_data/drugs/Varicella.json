@@ -1,0 +1,985 @@
+{
+  "drug_name": "Varicella",
+  "url": "https://wikem.org/wiki/Varicella",
+  "scraped_at": "2026-01-10T08:04:52.290080",
+  "sections": {
+    "Background": {
+      "text": "Caused by\nvaricella zoster virus\ncausing varicella (chicken pox) and later zoster (\nShingles\n)\nContagious until last lesion crusts over\nFluid from open vesicles contains live virus\n[1]\nIncubation period is 10-21 days with symptoms starting around day 14\n[1]",
+      "subsections": {
+        "Herpes_Virus_Types": {
+          "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        }
+      ]
+    },
+    "Herpes_Virus_Types": {
+      "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pruritic\ngeneralized vesicular exanthem with mild systemic manifestations\nUsually affects children <10y",
+      "subsections": {
+        "Rash": {
+          "text": "Starts on trunk or scalp as pruritic, red macules, spreads to extremities\nWithin 24hr rash becomes vesicular (on erythematous base)\nOften referred to as \"dew drop on a rose petal\"\n[1]\nPalms/soles spared\nLesions in various stages of development\nThe number of lesions can vary; usually 300 or less but can be more than 2,000\n[1]",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Can include\nencephalitis\n,\notitis media\n,\npneumonia\n,\nhepatitis\n,\nstrep\n/\nstaph\nsuperinfection\nof ruptured vesicles\nPerinatal infection in neonates may develop serious illness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pruritic",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "superinfection",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "Rash": {
+      "text": "Starts on trunk or scalp as pruritic, red macules, spreads to extremities\nWithin 24hr rash becomes vesicular (on erythematous base)\nOften referred to as \"dew drop on a rose petal\"\n[1]\nPalms/soles spared\nLesions in various stages of development\nThe number of lesions can vary; usually 300 or less but can be more than 2,000\n[1]",
+      "subsections": {
+        "Complications": {
+          "text": "Can include\nencephalitis\n,\notitis media\n,\npneumonia\n,\nhepatitis\n,\nstrep\n/\nstaph\nsuperinfection\nof ruptured vesicles\nPerinatal infection in neonates may develop serious illness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "superinfection",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Can include\nencephalitis\n,\notitis media\n,\npneumonia\n,\nhepatitis\n,\nstrep\n/\nstaph\nsuperinfection\nof ruptured vesicles\nPerinatal infection in neonates may develop serious illness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "superinfection",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Rash": {
+          "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+          "tables": []
+        },
+        "Vesiculobullous_rashes": {
+          "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+          "tables": []
+        },
+        "Varicella_zoster_virus": {
+          "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        }
+      ]
+    },
+    "Pediatric_Rash": {
+      "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+      "subsections": {
+        "Vesiculobullous_rashes": {
+          "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+          "tables": []
+        },
+        "Varicella_zoster_virus": {
+          "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        }
+      ]
+    },
+    "Vesiculobullous_rashes": {
+      "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+      "subsections": {
+        "Varicella_zoster_virus": {
+          "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        }
+      ]
+    },
+    "Varicella_zoster_virus": {
+      "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically made on clinical features",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Supportive_Care": {
+          "text": "Tylenol\n,\nantihistamine\n, oatmeal baths\nAvoid aspirin in young children due to the risk of\nReye syndrome",
+          "tables": []
+        },
+        "Antivirals": {
+          "text": "Routine use of antiretrovirals for uncomplicated cases in immunocompetent children is not recommended\n[2]\nHowever, evidence shows decreased days of fever and number of lesions\n[3]\nAAP recommends antiviral treatment (within 24hrs) for patients at risk of increased illness severity:\nAny patient older than 12 years of age\nPatients with chronic cutaneous or pulmonary disorders\nPatients receiving long-term salicylate therapy\nPatients receiving short, intermittent, or aerosolized courses of corticosteroids\nOther cases to consider\nacyclovir\nAlso consider in\n[4]\n:\nPregnancy\n[5]",
+          "tables": []
+        },
+        "Immunocompetent_Adult": {
+          "text": "Acyclovir\n800mg PO q6hrs daily x 5 days\nOR\nValacyclovir\n1000mg PO q8hrs daily x 14 days\nOR\nFamiciclovir\n500mg PO q8hrs x 14 days",
+          "tables": []
+        },
+        "Immunocompromised_Adult": {
+          "text": "Acyclovir\n10mg/kg IV q8hrs x 7 days",
+          "tables": []
+        },
+        "At_risk_children_<12yo_child_based_on_AAP_criteria": {
+          "text": "Acyclovir\n20mg/kg PO q6hrs daily x 5 days\nAcyclovir\n10mg/kg IV q8hrs daily x 7 days",
+          "tables": []
+        },
+        "VZIG": {
+          "text": "Initiate VZIG alongside acyclovir for inpatient treatment of child or adult\nFor immunocompromised child with exposure, give as post-exposure prophylaxis if\n[6]\n:\nWithin 10 days window of exposure\nVZIG given IM as 125 IU/10 kg of body weight\nUp to max of 625 IU\nMinimum dose 62.5 IU for patients weighing ≤ 2.0 kg\nMinimum dose 125 IU for weight 2.1 - 10.0 kg\nVZIG may prolong incubation period ≥1 week\nMust have patient closely follow up for signs and symptoms for 28 days after exposure\nIf signs or symptoms of varicella occur, antiviral therapy must be started immediately",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tylenol",
+          "url": "https://wikem.org/wiki/Tylenol"
+        },
+        {
+          "text": "antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        },
+        {
+          "text": "Reye syndrome",
+          "url": "https://wikem.org/wiki/Reye_syndrome"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Famiciclovir",
+          "url": "https://wikem.org/wiki/Famiciclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        }
+      ]
+    },
+    "Supportive_Care": {
+      "text": "Tylenol\n,\nantihistamine\n, oatmeal baths\nAvoid aspirin in young children due to the risk of\nReye syndrome",
+      "subsections": {
+        "Antivirals": {
+          "text": "Routine use of antiretrovirals for uncomplicated cases in immunocompetent children is not recommended\n[2]\nHowever, evidence shows decreased days of fever and number of lesions\n[3]\nAAP recommends antiviral treatment (within 24hrs) for patients at risk of increased illness severity:\nAny patient older than 12 years of age\nPatients with chronic cutaneous or pulmonary disorders\nPatients receiving long-term salicylate therapy\nPatients receiving short, intermittent, or aerosolized courses of corticosteroids\nOther cases to consider\nacyclovir\nAlso consider in\n[4]\n:\nPregnancy\n[5]",
+          "tables": []
+        },
+        "Immunocompetent_Adult": {
+          "text": "Acyclovir\n800mg PO q6hrs daily x 5 days\nOR\nValacyclovir\n1000mg PO q8hrs daily x 14 days\nOR\nFamiciclovir\n500mg PO q8hrs x 14 days",
+          "tables": []
+        },
+        "Immunocompromised_Adult": {
+          "text": "Acyclovir\n10mg/kg IV q8hrs x 7 days",
+          "tables": []
+        },
+        "At_risk_children_<12yo_child_based_on_AAP_criteria": {
+          "text": "Acyclovir\n20mg/kg PO q6hrs daily x 5 days\nAcyclovir\n10mg/kg IV q8hrs daily x 7 days",
+          "tables": []
+        },
+        "VZIG": {
+          "text": "Initiate VZIG alongside acyclovir for inpatient treatment of child or adult\nFor immunocompromised child with exposure, give as post-exposure prophylaxis if\n[6]\n:\nWithin 10 days window of exposure\nVZIG given IM as 125 IU/10 kg of body weight\nUp to max of 625 IU\nMinimum dose 62.5 IU for patients weighing ≤ 2.0 kg\nMinimum dose 125 IU for weight 2.1 - 10.0 kg\nVZIG may prolong incubation period ≥1 week\nMust have patient closely follow up for signs and symptoms for 28 days after exposure\nIf signs or symptoms of varicella occur, antiviral therapy must be started immediately",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tylenol",
+          "url": "https://wikem.org/wiki/Tylenol"
+        },
+        {
+          "text": "antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        },
+        {
+          "text": "Reye syndrome",
+          "url": "https://wikem.org/wiki/Reye_syndrome"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Famiciclovir",
+          "url": "https://wikem.org/wiki/Famiciclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        }
+      ]
+    },
+    "Antivirals": {
+      "text": "Routine use of antiretrovirals for uncomplicated cases in immunocompetent children is not recommended\n[2]\nHowever, evidence shows decreased days of fever and number of lesions\n[3]\nAAP recommends antiviral treatment (within 24hrs) for patients at risk of increased illness severity:\nAny patient older than 12 years of age\nPatients with chronic cutaneous or pulmonary disorders\nPatients receiving long-term salicylate therapy\nPatients receiving short, intermittent, or aerosolized courses of corticosteroids\nOther cases to consider\nacyclovir\nAlso consider in\n[4]\n:\nPregnancy\n[5]",
+      "subsections": {
+        "Immunocompetent_Adult": {
+          "text": "Acyclovir\n800mg PO q6hrs daily x 5 days\nOR\nValacyclovir\n1000mg PO q8hrs daily x 14 days\nOR\nFamiciclovir\n500mg PO q8hrs x 14 days",
+          "tables": []
+        },
+        "Immunocompromised_Adult": {
+          "text": "Acyclovir\n10mg/kg IV q8hrs x 7 days",
+          "tables": []
+        },
+        "At_risk_children_<12yo_child_based_on_AAP_criteria": {
+          "text": "Acyclovir\n20mg/kg PO q6hrs daily x 5 days\nAcyclovir\n10mg/kg IV q8hrs daily x 7 days",
+          "tables": []
+        },
+        "VZIG": {
+          "text": "Initiate VZIG alongside acyclovir for inpatient treatment of child or adult\nFor immunocompromised child with exposure, give as post-exposure prophylaxis if\n[6]\n:\nWithin 10 days window of exposure\nVZIG given IM as 125 IU/10 kg of body weight\nUp to max of 625 IU\nMinimum dose 62.5 IU for patients weighing ≤ 2.0 kg\nMinimum dose 125 IU for weight 2.1 - 10.0 kg\nVZIG may prolong incubation period ≥1 week\nMust have patient closely follow up for signs and symptoms for 28 days after exposure\nIf signs or symptoms of varicella occur, antiviral therapy must be started immediately",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Famiciclovir",
+          "url": "https://wikem.org/wiki/Famiciclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most often discharge\nSecondary bacterial infection most common cause of hospitalization in kids\nPneumonia most common cause of hospitalization in adults\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Vaccine": {
+      "text": "Introduced in 2006. Prior to introduction, incidence prior to adolescence approached 90% in US\nVaccine is 85% effective against all disease, 90% effective against severe disease (greater than 1000 lesions)\nTypically given at age 5 in USA\nPost-exposure prophylaxis:\nIdeally given within 3-5 days of exposure in immunocompetent patients\nIf immunocompromised patient is being given VZIG, varicella vaccine should be administered ≥5 months after VariZIG administration\n[8]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediatric Rashes\nVaricella zoster virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric Rashes",
+          "url": "https://wikem.org/wiki/Pediatric_Rashes"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        }
+      ]
+    }
+  }
+}

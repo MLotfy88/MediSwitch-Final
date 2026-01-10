@@ -1,0 +1,349 @@
+{
+  "drug_name": "Vaginal_bleeding_in_pregnancy_(greater_than_20wks)",
+  "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(greater_than_20wks)",
+  "scraped_at": "2026-01-10T08:04:50.588356",
+  "sections": {
+    "Background": {
+      "text": "Do NOT perform digital exam in patients who present with vaginal bleeding when >20 weeks pregnant\nOnly 20% of miscarriages occur after the first trimester",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Vaginal bleeding\nUterine fundus palpable above umbilicus",
+      "subsections": {
+        "Normal_Vitals_in_Pregnancy": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Vital": "HR",
+                "Nonpregnant": "70",
+                "1st Trimester": "78",
+                "2nd Trimester": "82",
+                "3rd Trimester": "85"
+              },
+              {
+                "Vital": "SBP",
+                "Nonpregnant": "115",
+                "1st Trimester": "112",
+                "2nd Trimester": "112",
+                "3rd Trimester": "114"
+              },
+              {
+                "Vital": "DBP",
+                "Nonpregnant": "70",
+                "1st Trimester": "60",
+                "2nd Trimester": "63",
+                "3rd Trimester": "70"
+              },
+              {
+                "Vital": "Hcrt",
+                "Nonpregnant": "40",
+                "1st Trimester": "36",
+                "2nd Trimester": "33",
+                "3rd Trimester": "34"
+              },
+              {
+                "Vital": "WBC",
+                "Nonpregnant": "7.2k",
+                "1st Trimester": "9.1k",
+                "2nd Trimester": "9.7k",
+                "3rd Trimester": "9.8k"
+              }
+            ]
+          ]
+        },
+        "Estimated_Gestational_Age_by_Fundal_Height": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Weeks": "12",
+                "Fundal Height / Finding": "Pubic symphysis"
+              },
+              {
+                "Weeks": "20",
+                "Fundal Height / Finding": "Umbilicus"
+              },
+              {
+                "Weeks": "20-32",
+                "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+              },
+              {
+                "Weeks": "36",
+                "Fundal Height / Finding": "Xiphoid process"
+              },
+              {
+                "Weeks": ">37",
+                "Fundal Height / Finding": "Regression"
+              },
+              {
+                "Weeks": "Post delivery",
+                "Fundal Height / Finding": "Umbilicus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Vitals_in_Pregnancy": {
+      "text": "",
+      "subsections": {
+        "Estimated_Gestational_Age_by_Fundal_Height": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Weeks": "12",
+                "Fundal Height / Finding": "Pubic symphysis"
+              },
+              {
+                "Weeks": "20",
+                "Fundal Height / Finding": "Umbilicus"
+              },
+              {
+                "Weeks": "20-32",
+                "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+              },
+              {
+                "Weeks": "36",
+                "Fundal Height / Finding": "Xiphoid process"
+              },
+              {
+                "Weeks": ">37",
+                "Fundal Height / Finding": "Regression"
+              },
+              {
+                "Weeks": "Post delivery",
+                "Fundal Height / Finding": "Umbilicus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Vital": "HR",
+            "Nonpregnant": "70",
+            "1st Trimester": "78",
+            "2nd Trimester": "82",
+            "3rd Trimester": "85"
+          },
+          {
+            "Vital": "SBP",
+            "Nonpregnant": "115",
+            "1st Trimester": "112",
+            "2nd Trimester": "112",
+            "3rd Trimester": "114"
+          },
+          {
+            "Vital": "DBP",
+            "Nonpregnant": "70",
+            "1st Trimester": "60",
+            "2nd Trimester": "63",
+            "3rd Trimester": "70"
+          },
+          {
+            "Vital": "Hcrt",
+            "Nonpregnant": "40",
+            "1st Trimester": "36",
+            "2nd Trimester": "33",
+            "3rd Trimester": "34"
+          },
+          {
+            "Vital": "WBC",
+            "Nonpregnant": "7.2k",
+            "1st Trimester": "9.1k",
+            "2nd Trimester": "9.7k",
+            "3rd Trimester": "9.8k"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Estimated_Gestational_Age_by_Fundal_Height": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Weeks": "12",
+            "Fundal Height / Finding": "Pubic symphysis"
+          },
+          {
+            "Weeks": "20",
+            "Fundal Height / Finding": "Umbilicus"
+          },
+          {
+            "Weeks": "20-32",
+            "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+          },
+          {
+            "Weeks": "36",
+            "Fundal Height / Finding": "Xiphoid process"
+          },
+          {
+            "Weeks": ">37",
+            "Fundal Height / Finding": "Regression"
+          },
+          {
+            "Weeks": "Post delivery",
+            "Fundal Height / Finding": "Umbilicus"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vaginal_Bleeding_in_Pregnancy_(>20wks)": {
+          "text": "Emergent delivery\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nPreterm labor\nVaginal trauma\nPlacenta accreta\nIntrauterine fetal demise",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Intrauterine fetal demise",
+          "url": "https://wikem.org/wiki/Intrauterine_fetal_demise"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "B-hCG (quantitative)\nCBC and BMP\nCoags\nT&S (Rh) vs. T&C\nConsider\nPelvic ultrasound",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis combining vaginal bleeding with a positive pregnancy test and ultrasound or physical exam showing >20 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "B-hCG (quantitative)",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        },
+        {
+          "text": "Pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Pelvic"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "B-hCG (quantitative)\nCBC and BMP\nCoags\nT&S (Rh) vs. T&C\nConsider\nPelvic ultrasound",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis combining vaginal bleeding with a positive pregnancy test and ultrasound or physical exam showing >20 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "B-hCG (quantitative)",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        },
+        {
+          "text": "Pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Pelvic"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Typically a clinical diagnosis combining vaginal bleeding with a positive pregnancy test and ultrasound or physical exam showing >20 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consider\nemergent delivery\nSee Differential Diagnosis for other possible etiologies\nNormally, management is deferred to OB/GYN team, considering the possibility of viability at this gestational age",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Normally to Labor & Delivery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Vaginal_bleeding_(main)": {
+          "text": "Non-pregnant vaginal bleeding\nPrepubertal vaginal bleeding\nPregnant\nVaginal bleeding in pregnancy (less than 20wks)\nVaginal bleeding in pregnancy (greater than 20wks)\nPostpartum hemorrhage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-pregnant vaginal bleeding",
+          "url": "https://wikem.org/wiki/Non-pregnant_vaginal_bleeding"
+        },
+        {
+          "text": "Prepubertal vaginal bleeding",
+          "url": "https://wikem.org/wiki/Prepubertal_vaginal_bleeding"
+        },
+        {
+          "text": "Pregnant",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Vaginal bleeding in pregnancy (less than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(less_than_20wks)"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "drug_name": "Valproate",
+  "url": "https://wikem.org/wiki/Valproate",
+  "scraped_at": "2026-01-10T08:04:49.810891",
+  "sections": {
+    "General": {
+      "text": "Type:\nAnticonvulsants\nDosage Forms: 125mg; 250mg; 500mg; 100mg/mL; 250mg/5mL; 500mg/5mL\nCommon Trade Names: Depacon, Depakene, Depakote, Depakote ER. Depakote Sprinkles, Stavzor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Seizures": {
+          "text": "Oral (max 60mg/kg/d)\nSimple/complex absence: Initial 15mg/kg/d; increase 5-10mg/kg/d at weekly until therapeutic\nComplex partial: Initial 10-15mg/kg/d; increase 5-10mg/kg/d at weekly until therapeutic\nExtended release formulation given once daily\nIV: same dose as oral, administered as 60min infusion",
+          "tables": []
+        },
+        "Status_epilepticus,_refractory": {
+          "text": "IV: Loading 15-20mg/kg administered at 20mg/min\nMaintenance: 1-5mg/kg/hr",
+          "tables": []
+        },
+        "Bipolar_disorder,_manic_episode": {
+          "text": "Oral: Depakote Stavzor 750mg/d or Depakote ER 25mg/kg/d qday",
+          "tables": []
+        },
+        "Migraine_prophlyaxis": {
+          "text": "Oral: Depakote, Stavzor 250mg BID or Depakote ER 500mg qday",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Seizures": {
+      "text": "Oral (max 60mg/kg/d)\nSimple/complex absence: Initial 15mg/kg/d; increase 5-10mg/kg/d at weekly until therapeutic\nComplex partial: Initial 10-15mg/kg/d; increase 5-10mg/kg/d at weekly until therapeutic\nExtended release formulation given once daily\nIV: same dose as oral, administered as 60min infusion",
+      "subsections": {
+        "Status_epilepticus,_refractory": {
+          "text": "IV: Loading 15-20mg/kg administered at 20mg/min\nMaintenance: 1-5mg/kg/hr",
+          "tables": []
+        },
+        "Bipolar_disorder,_manic_episode": {
+          "text": "Oral: Depakote Stavzor 750mg/d or Depakote ER 25mg/kg/d qday",
+          "tables": []
+        },
+        "Migraine_prophlyaxis": {
+          "text": "Oral: Depakote, Stavzor 250mg BID or Depakote ER 500mg qday",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Status_epilepticus,_refractory": {
+      "text": "IV: Loading 15-20mg/kg administered at 20mg/min\nMaintenance: 1-5mg/kg/hr",
+      "subsections": {
+        "Bipolar_disorder,_manic_episode": {
+          "text": "Oral: Depakote Stavzor 750mg/d or Depakote ER 25mg/kg/d qday",
+          "tables": []
+        },
+        "Migraine_prophlyaxis": {
+          "text": "Oral: Depakote, Stavzor 250mg BID or Depakote ER 500mg qday",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bipolar_disorder,_manic_episode": {
+      "text": "Oral: Depakote Stavzor 750mg/d or Depakote ER 25mg/kg/d qday",
+      "subsections": {
+        "Migraine_prophlyaxis": {
+          "text": "Oral: Depakote, Stavzor 250mg BID or Depakote ER 500mg qday",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Migraine_prophlyaxis": {
+      "text": "Oral: Depakote, Stavzor 250mg BID or Depakote ER 500mg qday",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Same as adult dosing\nAvoid extended release formulation in children <10yr",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: X\nLactation: Use with caution. Excreted in breast milk.\nRenal Dosing: No adjustment\nHepatic Dosing\nMild-mod impairment: Not recommended\nSevere impairment: Contraindicated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSevere hepatic impairment\nPregnancy\nUrea cycle disorders\nMitochondrial disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hepatotoxicity\nCongenital malformation: neural tube defect\nPancreatitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\n, drowsiness, dizziness, insomnia, nervousness, pain\nAlopecia\nNausea\n,\nvomiting\n,\ndiarrhea\n,\nabdominal pain\n, anorexia\nThrombocytopenia\nInfection\nTremor,\nweakness\nDiplopia\n, visual disturbance\nFlu-like symptoms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Alopecia",
+          "url": "https://wikem.org/wiki/Alopecia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Flu-like symptoms",
+          "url": "https://wikem.org/wiki/Flu-like_symptoms"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hepatotoxicity\nCongenital malformation: neural tube defect\nPancreatitis",
+      "subsections": {
+        "Common": {
+          "text": "Headache\n, drowsiness, dizziness, insomnia, nervousness, pain\nAlopecia\nNausea\n,\nvomiting\n,\ndiarrhea\n,\nabdominal pain\n, anorexia\nThrombocytopenia\nInfection\nTremor,\nweakness\nDiplopia\n, visual disturbance\nFlu-like symptoms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Alopecia",
+          "url": "https://wikem.org/wiki/Alopecia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Flu-like symptoms",
+          "url": "https://wikem.org/wiki/Flu-like_symptoms"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Headache\n, drowsiness, dizziness, insomnia, nervousness, pain\nAlopecia\nNausea\n,\nvomiting\n,\ndiarrhea\n,\nabdominal pain\n, anorexia\nThrombocytopenia\nInfection\nTremor,\nweakness\nDiplopia\n, visual disturbance\nFlu-like symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Alopecia",
+          "url": "https://wikem.org/wiki/Alopecia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Flu-like symptoms",
+          "url": "https://wikem.org/wiki/Flu-like_symptoms"
+        }
+      ]
+    },
+    "Toxicity": {
+      "text": "Potential use for early IV L-carnitine to reduce hepatotoxicity\n100mg/kg IV once, followed by 50mg/kg (max 3 g per dose) q8hrs until ammonia levels normalize\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nChildren >2mo: 7-13 hours\nAdult: 9-19 hours\nMetabolism: Hepatic glucuronide conjugation and mitochondrial beta-oxidation\nExcretion: Urine\nMechanism of Action: Increases availability and enhances action of GABA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure\nValproic acid toxicity\nValproic acid",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Valproic acid toxicity",
+          "url": "https://wikem.org/wiki/Valproic_acid_toxicity"
+        },
+        {
+          "text": "Valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        }
+      ]
+    }
+  }
+}

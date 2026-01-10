@@ -1,0 +1,1594 @@
+{
+  "drug_name": "Urolithiasis",
+  "url": "https://wikem.org/wiki/Urolithiasis",
+  "scraped_at": "2026-01-10T08:04:40.694801",
+  "sections": {
+    "Background": {
+      "text": "Urolithiasis comprises 3 similar clinical entities:\nNephrolithiasis\nUreterolithiasis\nCystolithiasis\nThe most common cause is infection of residual bladder urine with urea-splitting organisms (\nProteus\n,\nPseudomonas\n,\nKlebsiella\n,\nStaphylococcus\n,\nMycoplasma\n,\nProvidentia stuartii\n,\nSerratia\n, and\nMorganella morganii\n)\nPromoters of stone formation\n[1]\nHigh serum calcium\nHigh uric acid and phosphate\nUrine pH abnormalities, either high or low\nInhibitors of stone formation\n[2]\nCitrate\nMagnesium\nVarious macromolecules",
+      "subsections": {
+        "Renal_damage": {
+          "text": "Irreversible renal damage can occur within 3 weeks in patients with a complete obstruction\nMost have no rise in creatinine because unobstructed kidney functions at up to 185% of its baseline capacity",
+          "tables": []
+        },
+        "Epidemiology": {
+          "text": "1-15% lifetime incidence\nMore common in males\n50% recurrence rate within 5-10 years\nMore common in hot dry climates",
+          "tables": []
+        },
+        "Infection": {
+          "text": "8-15% of kidney stones have urinary co-infection\n[3]\nFever, pyuria >10 WBC/hpf, and peripheral WBC >11.3 (any one) best predictors of concomitant UTI\n[3]",
+          "tables": []
+        },
+        "Stone_Expulsion_Rate": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stone Size": "1-4 mm",
+                "Passage Rate[4]": "78%"
+              },
+              {
+                "Stone Size": "5 -7 mm",
+                "Passage Rate[4]": "60%"
+              },
+              {
+                "Stone Size": ">8mm",
+                "Passage Rate[4]": "39%"
+              }
+            ]
+          ]
+        },
+        "Types": {
+          "text": "[5]\n[6]\nCalcium (~80%): Mostly calcium oxylate >> calcium phosphate\nHyperparathyroidism\n,\nhypercalcemia of malignancy\n,\nsarcoidosis\n, increased absorption, loop diuretics,\nIBD\nThe remainder\nStruvite (magnesium ammonium phosphate)\nAssociated with infection with urease-producing bacteria such as\nProteus\n,\nklebsiella\n,\npseudomonas\n,\nstaph\n,\nProvidentia stuartii\n,\nSerratia\n, and\nMorganella morganii\nUric Acid\n25% of patients with\ngout\ndevelop kidney stones\nCystine\nMultiple types of crystals",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Staphylococcus",
+          "url": "https://wikem.org/wiki/Staphylococcus"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Serratia",
+          "url": "https://wikem.org/wiki/Serratia"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Serratia",
+          "url": "https://wikem.org/wiki/Serratia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        }
+      ]
+    },
+    "Renal_damage": {
+      "text": "Irreversible renal damage can occur within 3 weeks in patients with a complete obstruction\nMost have no rise in creatinine because unobstructed kidney functions at up to 185% of its baseline capacity",
+      "subsections": {
+        "Epidemiology": {
+          "text": "1-15% lifetime incidence\nMore common in males\n50% recurrence rate within 5-10 years\nMore common in hot dry climates",
+          "tables": []
+        },
+        "Infection": {
+          "text": "8-15% of kidney stones have urinary co-infection\n[3]\nFever, pyuria >10 WBC/hpf, and peripheral WBC >11.3 (any one) best predictors of concomitant UTI\n[3]",
+          "tables": []
+        },
+        "Stone_Expulsion_Rate": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stone Size": "1-4 mm",
+                "Passage Rate[4]": "78%"
+              },
+              {
+                "Stone Size": "5 -7 mm",
+                "Passage Rate[4]": "60%"
+              },
+              {
+                "Stone Size": ">8mm",
+                "Passage Rate[4]": "39%"
+              }
+            ]
+          ]
+        },
+        "Types": {
+          "text": "[5]\n[6]\nCalcium (~80%): Mostly calcium oxylate >> calcium phosphate\nHyperparathyroidism\n,\nhypercalcemia of malignancy\n,\nsarcoidosis\n, increased absorption, loop diuretics,\nIBD\nThe remainder\nStruvite (magnesium ammonium phosphate)\nAssociated with infection with urease-producing bacteria such as\nProteus\n,\nklebsiella\n,\npseudomonas\n,\nstaph\n,\nProvidentia stuartii\n,\nSerratia\n, and\nMorganella morganii\nUric Acid\n25% of patients with\ngout\ndevelop kidney stones\nCystine\nMultiple types of crystals",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Serratia",
+          "url": "https://wikem.org/wiki/Serratia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "1-15% lifetime incidence\nMore common in males\n50% recurrence rate within 5-10 years\nMore common in hot dry climates",
+      "subsections": {
+        "Infection": {
+          "text": "8-15% of kidney stones have urinary co-infection\n[3]\nFever, pyuria >10 WBC/hpf, and peripheral WBC >11.3 (any one) best predictors of concomitant UTI\n[3]",
+          "tables": []
+        },
+        "Stone_Expulsion_Rate": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stone Size": "1-4 mm",
+                "Passage Rate[4]": "78%"
+              },
+              {
+                "Stone Size": "5 -7 mm",
+                "Passage Rate[4]": "60%"
+              },
+              {
+                "Stone Size": ">8mm",
+                "Passage Rate[4]": "39%"
+              }
+            ]
+          ]
+        },
+        "Types": {
+          "text": "[5]\n[6]\nCalcium (~80%): Mostly calcium oxylate >> calcium phosphate\nHyperparathyroidism\n,\nhypercalcemia of malignancy\n,\nsarcoidosis\n, increased absorption, loop diuretics,\nIBD\nThe remainder\nStruvite (magnesium ammonium phosphate)\nAssociated with infection with urease-producing bacteria such as\nProteus\n,\nklebsiella\n,\npseudomonas\n,\nstaph\n,\nProvidentia stuartii\n,\nSerratia\n, and\nMorganella morganii\nUric Acid\n25% of patients with\ngout\ndevelop kidney stones\nCystine\nMultiple types of crystals",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Serratia",
+          "url": "https://wikem.org/wiki/Serratia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        }
+      ]
+    },
+    "Infection": {
+      "text": "8-15% of kidney stones have urinary co-infection\n[3]\nFever, pyuria >10 WBC/hpf, and peripheral WBC >11.3 (any one) best predictors of concomitant UTI\n[3]",
+      "subsections": {
+        "Stone_Expulsion_Rate": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stone Size": "1-4 mm",
+                "Passage Rate[4]": "78%"
+              },
+              {
+                "Stone Size": "5 -7 mm",
+                "Passage Rate[4]": "60%"
+              },
+              {
+                "Stone Size": ">8mm",
+                "Passage Rate[4]": "39%"
+              }
+            ]
+          ]
+        },
+        "Types": {
+          "text": "[5]\n[6]\nCalcium (~80%): Mostly calcium oxylate >> calcium phosphate\nHyperparathyroidism\n,\nhypercalcemia of malignancy\n,\nsarcoidosis\n, increased absorption, loop diuretics,\nIBD\nThe remainder\nStruvite (magnesium ammonium phosphate)\nAssociated with infection with urease-producing bacteria such as\nProteus\n,\nklebsiella\n,\npseudomonas\n,\nstaph\n,\nProvidentia stuartii\n,\nSerratia\n, and\nMorganella morganii\nUric Acid\n25% of patients with\ngout\ndevelop kidney stones\nCystine\nMultiple types of crystals",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Serratia",
+          "url": "https://wikem.org/wiki/Serratia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        }
+      ]
+    },
+    "Stone_Expulsion_Rate": {
+      "text": "",
+      "subsections": {
+        "Types": {
+          "text": "[5]\n[6]\nCalcium (~80%): Mostly calcium oxylate >> calcium phosphate\nHyperparathyroidism\n,\nhypercalcemia of malignancy\n,\nsarcoidosis\n, increased absorption, loop diuretics,\nIBD\nThe remainder\nStruvite (magnesium ammonium phosphate)\nAssociated with infection with urease-producing bacteria such as\nProteus\n,\nklebsiella\n,\npseudomonas\n,\nstaph\n,\nProvidentia stuartii\n,\nSerratia\n, and\nMorganella morganii\nUric Acid\n25% of patients with\ngout\ndevelop kidney stones\nCystine\nMultiple types of crystals",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Stone Size": "1-4 mm",
+            "Passage Rate[4]": "78%"
+          },
+          {
+            "Stone Size": "5 -7 mm",
+            "Passage Rate[4]": "60%"
+          },
+          {
+            "Stone Size": ">8mm",
+            "Passage Rate[4]": "39%"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Serratia",
+          "url": "https://wikem.org/wiki/Serratia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        }
+      ]
+    },
+    "Types": {
+      "text": "[5]\n[6]\nCalcium (~80%): Mostly calcium oxylate >> calcium phosphate\nHyperparathyroidism\n,\nhypercalcemia of malignancy\n,\nsarcoidosis\n, increased absorption, loop diuretics,\nIBD\nThe remainder\nStruvite (magnesium ammonium phosphate)\nAssociated with infection with urease-producing bacteria such as\nProteus\n,\nklebsiella\n,\npseudomonas\n,\nstaph\n,\nProvidentia stuartii\n,\nSerratia\n, and\nMorganella morganii\nUric Acid\n25% of patients with\ngout\ndevelop kidney stones\nCystine\nMultiple types of crystals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Serratia",
+          "url": "https://wikem.org/wiki/Serratia"
+        },
+        {
+          "text": "gout",
+          "url": "https://wikem.org/wiki/Gout"
+        }
+      ]
+    },
+    "Risk_Factors_for_Complications": {
+      "text": "Renal function at risk\nDM\nHypertension\nHIV\nRenal insufficiency\nSingle kidney\nHorseshoe kidney\nTransplanted kidney\nHistory of difficulty with stones\nExtractions\nStents\nUreterostomy tubes\nLithotripsy\nSymptoms of infection\nFever\nHypotension\nSystemic illness\nUTI\nImmunosuppression\nDM\nAIDS\nChemotherapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pain\nAcute onset, crampy, intermittent, unable to find position of comfort\nLocation of pain depends on location of stone:\nUpper ureter:\nflank pain\nMid ureter: lower anterior quadrant of\nabdomen\nDistal ureter: groin pain\nUVJ: Can mimic a\nUTI\n(frequency, urgency,\ndysuria\n)\nNausea/vomiting\n(50%)\nHematuria\n(85%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "abdomen",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Nephrolithiasis is most common misdiagnosis given to patients with rupturing\nAAA",
+      "subsections": {
+        "Flank_Pain": {
+          "text": "Vascular\nAbdominal aortic aneurysm\nRenal artery embolism\nRenal vein thrombosis\nAortic dissection\nMesenteric ischemia\nRenal\nPyelonephritis\nPerinephric abscess\nPerinephric hematoma\nPapillary necrosis\nRenal cell carcinoma\nObstructive uropathy\nMay or may not be due to\nnephrolithiasis\nRenal infarction\nRenal hemorrhage\nUreter\nNephrolithiasis\nBlood clot\nStricture\nTumor (primary or metastatic)\nBladder\nTumor\nVaricose vein\nCystitis\nGI\nBiliary colic\nPancreatitis\nPerforated\npeptic ulcer\nAppendicitis\n(appendix may be pushed to\nRUQ\nin pregnancy)\nInguinal Hernia\nDiverticulitis\nCancer\nBowel obstruction\nGynecologic\nEctopic Pregnancy\nPID\n/\nTOA\nOvarian cyst\nOvarian torsion\nEndometriosis\nMittelschmerz\nor benign ovulatory pain\nGU\nTesticular torsion\nEpididymitis\nOther\nShingles\nLower lobe\npneumonia\nRetroperitoneal hematoma\n, abscess, or tumor\nEpidural abscess\nEpidural hematoma\nRib contusion/fracture",
+          "tables": []
+        },
+        "Lower_Back_Pain": {
+          "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Renal artery embolism",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Renal infarction",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "peptic ulcer",
+          "url": "https://wikem.org/wiki/Peptic_ulcer"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "RUQ",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "Inguinal Hernia",
+          "url": "https://wikem.org/wiki/Inguinal_Hernia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "TOA",
+          "url": "https://wikem.org/wiki/TOA"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Retroperitoneal hematoma",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hematoma"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Flank_Pain": {
+      "text": "Vascular\nAbdominal aortic aneurysm\nRenal artery embolism\nRenal vein thrombosis\nAortic dissection\nMesenteric ischemia\nRenal\nPyelonephritis\nPerinephric abscess\nPerinephric hematoma\nPapillary necrosis\nRenal cell carcinoma\nObstructive uropathy\nMay or may not be due to\nnephrolithiasis\nRenal infarction\nRenal hemorrhage\nUreter\nNephrolithiasis\nBlood clot\nStricture\nTumor (primary or metastatic)\nBladder\nTumor\nVaricose vein\nCystitis\nGI\nBiliary colic\nPancreatitis\nPerforated\npeptic ulcer\nAppendicitis\n(appendix may be pushed to\nRUQ\nin pregnancy)\nInguinal Hernia\nDiverticulitis\nCancer\nBowel obstruction\nGynecologic\nEctopic Pregnancy\nPID\n/\nTOA\nOvarian cyst\nOvarian torsion\nEndometriosis\nMittelschmerz\nor benign ovulatory pain\nGU\nTesticular torsion\nEpididymitis\nOther\nShingles\nLower lobe\npneumonia\nRetroperitoneal hematoma\n, abscess, or tumor\nEpidural abscess\nEpidural hematoma\nRib contusion/fracture",
+      "subsections": {
+        "Lower_Back_Pain": {
+          "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Renal artery embolism",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Renal infarction",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "peptic ulcer",
+          "url": "https://wikem.org/wiki/Peptic_ulcer"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "RUQ",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "Inguinal Hernia",
+          "url": "https://wikem.org/wiki/Inguinal_Hernia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "TOA",
+          "url": "https://wikem.org/wiki/TOA"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Retroperitoneal hematoma",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hematoma"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Lower_Back_Pain": {
+      "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Labs": {
+          "text": "Urinalysis\n:\nhematuria\nHematuria cannot be used to rule-out or rule-in stone (sensitivity 71-95%; specificity 18-49%)\n[7]\nThe absence of pyuria cannot exclude a complicating UTI (sensitivity 86%; specificity 79%)\n[7]\nUrine culture :\nConsider for all patients\n[3]\nOR\nthose at higher risk (female, pyuria, or\ncystitis\nsymptoms)\n[7]\nUrine pregnancy\nChemistry\nBUN/Cr to evaluate renal function\nCBC: If concern for infection (>15k concerning)",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Consider tailoring your choice of imaging based upon the patient's age, clinical likelihood of stones, risk factors, and prior history of stones\n[8]\nIn young patients, even with no prior history of kidney stones, reasonable approaches may be bedside ultrasound or no imaging\nIn middle aged patients with prior history of stones, it may be reasonable to perform a bedside ultrasound although no imaging can be appropriate as well\nIn middle aged patients with no prior history of stones, CT imaging is reasonable\nIn elderly patients, even with prior history of stones, CT is recommended in order to avoid missing alternative etiologies such as dissection, AAA, or diverticulitis.\nBedside\nRenal ultrasound\nConsider non-contrast CT abdomen and pelvis (KUB protocol) for:\n1st time stone\nOlder patients with other possible diagnosis\nAvoid CT in young (<50 years old), health patients with known history of nephrolithiasis with presentation consistent with renal colic\n[9]\nConsider formal\nultrasound\nfor:\nPregnant pt\nRepeat stone (to avoid CT)\nIn comparison of diagnosis by CT vs. U/S (by EP) vs. U/S (by radiologist):\n[10]\nNo difference in rate of missed high-risk diagnoses that resulted in complications (pyelo/sepsis/diverticular abscess)\nNo difference in rate of serious adverse events, pain scores, return emergency department visits, or hospitalizations",
+          "tables": []
+        },
+        "Imaging_Findings": {
+          "text": "CT Imaging\nHydronephrosis\nHydroureter\nHydrocalyx\nNote: Hydronephrosis, hydroureter, hydrocalyx alone indicate obstructive uropathy, stone must be seen or collected (if passed) in order to diagnose nephrolithiasis as the etiology.\nPerinephric Stranding\nLocation Landmarks\nRenal: Does not cause pain, and usually considered an incidental finding\nUPJ: Ureteropelvic Junction\nUVJ Ureterovesicular Junction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "Urinalysis\n:\nhematuria\nHematuria cannot be used to rule-out or rule-in stone (sensitivity 71-95%; specificity 18-49%)\n[7]\nThe absence of pyuria cannot exclude a complicating UTI (sensitivity 86%; specificity 79%)\n[7]\nUrine culture :\nConsider for all patients\n[3]\nOR\nthose at higher risk (female, pyuria, or\ncystitis\nsymptoms)\n[7]\nUrine pregnancy\nChemistry\nBUN/Cr to evaluate renal function\nCBC: If concern for infection (>15k concerning)",
+      "subsections": {
+        "Imaging": {
+          "text": "Consider tailoring your choice of imaging based upon the patient's age, clinical likelihood of stones, risk factors, and prior history of stones\n[8]\nIn young patients, even with no prior history of kidney stones, reasonable approaches may be bedside ultrasound or no imaging\nIn middle aged patients with prior history of stones, it may be reasonable to perform a bedside ultrasound although no imaging can be appropriate as well\nIn middle aged patients with no prior history of stones, CT imaging is reasonable\nIn elderly patients, even with prior history of stones, CT is recommended in order to avoid missing alternative etiologies such as dissection, AAA, or diverticulitis.\nBedside\nRenal ultrasound\nConsider non-contrast CT abdomen and pelvis (KUB protocol) for:\n1st time stone\nOlder patients with other possible diagnosis\nAvoid CT in young (<50 years old), health patients with known history of nephrolithiasis with presentation consistent with renal colic\n[9]\nConsider formal\nultrasound\nfor:\nPregnant pt\nRepeat stone (to avoid CT)\nIn comparison of diagnosis by CT vs. U/S (by EP) vs. U/S (by radiologist):\n[10]\nNo difference in rate of missed high-risk diagnoses that resulted in complications (pyelo/sepsis/diverticular abscess)\nNo difference in rate of serious adverse events, pain scores, return emergency department visits, or hospitalizations",
+          "tables": []
+        },
+        "Imaging_Findings": {
+          "text": "CT Imaging\nHydronephrosis\nHydroureter\nHydrocalyx\nNote: Hydronephrosis, hydroureter, hydrocalyx alone indicate obstructive uropathy, stone must be seen or collected (if passed) in order to diagnose nephrolithiasis as the etiology.\nPerinephric Stranding\nLocation Landmarks\nRenal: Does not cause pain, and usually considered an incidental finding\nUPJ: Ureteropelvic Junction\nUVJ Ureterovesicular Junction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "Consider tailoring your choice of imaging based upon the patient's age, clinical likelihood of stones, risk factors, and prior history of stones\n[8]\nIn young patients, even with no prior history of kidney stones, reasonable approaches may be bedside ultrasound or no imaging\nIn middle aged patients with prior history of stones, it may be reasonable to perform a bedside ultrasound although no imaging can be appropriate as well\nIn middle aged patients with no prior history of stones, CT imaging is reasonable\nIn elderly patients, even with prior history of stones, CT is recommended in order to avoid missing alternative etiologies such as dissection, AAA, or diverticulitis.\nBedside\nRenal ultrasound\nConsider non-contrast CT abdomen and pelvis (KUB protocol) for:\n1st time stone\nOlder patients with other possible diagnosis\nAvoid CT in young (<50 years old), health patients with known history of nephrolithiasis with presentation consistent with renal colic\n[9]\nConsider formal\nultrasound\nfor:\nPregnant pt\nRepeat stone (to avoid CT)\nIn comparison of diagnosis by CT vs. U/S (by EP) vs. U/S (by radiologist):\n[10]\nNo difference in rate of missed high-risk diagnoses that resulted in complications (pyelo/sepsis/diverticular abscess)\nNo difference in rate of serious adverse events, pain scores, return emergency department visits, or hospitalizations",
+      "subsections": {
+        "Imaging_Findings": {
+          "text": "CT Imaging\nHydronephrosis\nHydroureter\nHydrocalyx\nNote: Hydronephrosis, hydroureter, hydrocalyx alone indicate obstructive uropathy, stone must be seen or collected (if passed) in order to diagnose nephrolithiasis as the etiology.\nPerinephric Stranding\nLocation Landmarks\nRenal: Does not cause pain, and usually considered an incidental finding\nUPJ: Ureteropelvic Junction\nUVJ Ureterovesicular Junction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Imaging_Findings": {
+      "text": "CT Imaging\nHydronephrosis\nHydroureter\nHydrocalyx\nNote: Hydronephrosis, hydroureter, hydrocalyx alone indicate obstructive uropathy, stone must be seen or collected (if passed) in order to diagnose nephrolithiasis as the etiology.\nPerinephric Stranding\nLocation Landmarks\nRenal: Does not cause pain, and usually considered an incidental finding\nUPJ: Ureteropelvic Junction\nUVJ Ureterovesicular Junction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Pain": {
+          "text": "Ketorolac\n15mg IV  or\nIbuprofen\n600mg PO Q6hrs PRN if the patient can tolerate oral medications\n[11]\nAvoid high dose NSAIDS in patients with renal failure or insufficiency.\nKetorolac 15 mg has similar effects to the traditional 30 mg dosage.\n[12]\nMorphine\nor  other\nOpioids\nSevere pain not controlled with NSAIDS\nContraindications to NSAIDS\neGFR <30 mL/min",
+          "tables": []
+        },
+        "Antiemetic": {
+          "text": "Metoclopramide\nOndansetron",
+          "tables": []
+        },
+        "Expulsion_Therapy": {
+          "text": "Consider\nTamsulosin\n0.4mg PO QHS (discontinued after successful expulsion; average 1-2 weeks)\nThe American Urological Association (AUA) advocates the use of medical expulsive therapy in the form of alpha-blockers (tamsulosin) for uncomplicated distal ureteric stones ≤10 mm (Strong recommendation). The EAU suggests that alpha-blockers be used only in distal ureteric stones >5 mm because a large randomized controlled trial demonstrated no benefit in using alpha-blockers for distal ureteric stones of <5 mm.\n[13]\nSee\nEBQ:Alpha-blockers for ureteral stone expulsion\ndiscussion of evidence\n76% vs 48% passage rates in tamsulosin vs no treatment, respectively\n[14]\nOnly patients with stones ≥ 5 mm benefited\nReview of 55 RTCs, with NNT of 4\nTamsulosin number needed to harm (orthostatic hypotension)= 19 (give at night, to reduce side effect rate)\n[7]\nUse of IV fluids to \"flush out\" stone has NOT been shown to improve clinical outcomes\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "EBQ:Alpha-blockers for ureteral stone expulsion",
+          "url": "https://wikem.org/wiki/EBQ:Alpha-blockers_for_ureteral_stone_expulsion"
+        }
+      ]
+    },
+    "Pain": {
+      "text": "Ketorolac\n15mg IV  or\nIbuprofen\n600mg PO Q6hrs PRN if the patient can tolerate oral medications\n[11]\nAvoid high dose NSAIDS in patients with renal failure or insufficiency.\nKetorolac 15 mg has similar effects to the traditional 30 mg dosage.\n[12]\nMorphine\nor  other\nOpioids\nSevere pain not controlled with NSAIDS\nContraindications to NSAIDS\neGFR <30 mL/min",
+      "subsections": {
+        "Antiemetic": {
+          "text": "Metoclopramide\nOndansetron",
+          "tables": []
+        },
+        "Expulsion_Therapy": {
+          "text": "Consider\nTamsulosin\n0.4mg PO QHS (discontinued after successful expulsion; average 1-2 weeks)\nThe American Urological Association (AUA) advocates the use of medical expulsive therapy in the form of alpha-blockers (tamsulosin) for uncomplicated distal ureteric stones ≤10 mm (Strong recommendation). The EAU suggests that alpha-blockers be used only in distal ureteric stones >5 mm because a large randomized controlled trial demonstrated no benefit in using alpha-blockers for distal ureteric stones of <5 mm.\n[13]\nSee\nEBQ:Alpha-blockers for ureteral stone expulsion\ndiscussion of evidence\n76% vs 48% passage rates in tamsulosin vs no treatment, respectively\n[14]\nOnly patients with stones ≥ 5 mm benefited\nReview of 55 RTCs, with NNT of 4\nTamsulosin number needed to harm (orthostatic hypotension)= 19 (give at night, to reduce side effect rate)\n[7]\nUse of IV fluids to \"flush out\" stone has NOT been shown to improve clinical outcomes\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "EBQ:Alpha-blockers for ureteral stone expulsion",
+          "url": "https://wikem.org/wiki/EBQ:Alpha-blockers_for_ureteral_stone_expulsion"
+        }
+      ]
+    },
+    "Antiemetic": {
+      "text": "Metoclopramide\nOndansetron",
+      "subsections": {
+        "Expulsion_Therapy": {
+          "text": "Consider\nTamsulosin\n0.4mg PO QHS (discontinued after successful expulsion; average 1-2 weeks)\nThe American Urological Association (AUA) advocates the use of medical expulsive therapy in the form of alpha-blockers (tamsulosin) for uncomplicated distal ureteric stones ≤10 mm (Strong recommendation). The EAU suggests that alpha-blockers be used only in distal ureteric stones >5 mm because a large randomized controlled trial demonstrated no benefit in using alpha-blockers for distal ureteric stones of <5 mm.\n[13]\nSee\nEBQ:Alpha-blockers for ureteral stone expulsion\ndiscussion of evidence\n76% vs 48% passage rates in tamsulosin vs no treatment, respectively\n[14]\nOnly patients with stones ≥ 5 mm benefited\nReview of 55 RTCs, with NNT of 4\nTamsulosin number needed to harm (orthostatic hypotension)= 19 (give at night, to reduce side effect rate)\n[7]\nUse of IV fluids to \"flush out\" stone has NOT been shown to improve clinical outcomes\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "EBQ:Alpha-blockers for ureteral stone expulsion",
+          "url": "https://wikem.org/wiki/EBQ:Alpha-blockers_for_ureteral_stone_expulsion"
+        }
+      ]
+    },
+    "Expulsion_Therapy": {
+      "text": "Consider\nTamsulosin\n0.4mg PO QHS (discontinued after successful expulsion; average 1-2 weeks)\nThe American Urological Association (AUA) advocates the use of medical expulsive therapy in the form of alpha-blockers (tamsulosin) for uncomplicated distal ureteric stones ≤10 mm (Strong recommendation). The EAU suggests that alpha-blockers be used only in distal ureteric stones >5 mm because a large randomized controlled trial demonstrated no benefit in using alpha-blockers for distal ureteric stones of <5 mm.\n[13]\nSee\nEBQ:Alpha-blockers for ureteral stone expulsion\ndiscussion of evidence\n76% vs 48% passage rates in tamsulosin vs no treatment, respectively\n[14]\nOnly patients with stones ≥ 5 mm benefited\nReview of 55 RTCs, with NNT of 4\nTamsulosin number needed to harm (orthostatic hypotension)= 19 (give at night, to reduce side effect rate)\n[7]\nUse of IV fluids to \"flush out\" stone has NOT been shown to improve clinical outcomes\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "EBQ:Alpha-blockers for ureteral stone expulsion",
+          "url": "https://wikem.org/wiki/EBQ:Alpha-blockers_for_ureteral_stone_expulsion"
+        }
+      ]
+    },
+    "Infected_Urolithiasis": {
+      "text": "Inpatient observation is often the safest disposition for patients with infected stones due to the risk of progressing to\nsepsis\n. All antibiotics should take into account patient's previous sensitivities and local antibiograms.\nTreatment is targeted at\nE. coli\n,\nEnterococcus\n,\nKlebsiella\n,\nProteus mirabilis\n,\nS. saprophyticus\n.",
+      "subsections": {
+        "Outpatient": {
+          "text": "Consider one dose of\nCeftriaxone\n1g IV or\nGentamycin\n7mg/kg IV if the regional susceptibility of\nTMP/SMX\nor\nFluoroquinolones\nis <80%\nCiprofloxacin\n500mg PO BID x7 days\nOR\nTrimethoprim-Sulfamethoxazole DS\n160/800mg PO BID x14 days\nOR\n[15]\nCephalexin\n500mg QID PO x 10-14 days (OR consider 1000mg BID if difficulty with QID regimen)\nOR\nCefdinir\n300mg BID PO x 10-14 days\nOR\nCefpodoxime\n200mg PO BID x 10 days\nOR\n[16]\nCefixime\n400mg PO daily x 10 days\nOR\n[17]\nLevofloxacin\n750mg PO QD x7 days\n[18]",
+          "tables": []
+        },
+        "Adult_Inpatient_Options": {
+          "text": "Ciprofloxacin\n400mg IV q12hr\nOR\nCeftriaxone\n1gm IV QD\n(Preferred in pregnancy)\nOR\nCefotaxime 1-2gm IV q8hr\nOR\nGentamicin\n3mg/kg/day divided q8hr +/-\nampicillin\n1–2 gm q4hr\nOR\nPiperacillin/Tazobactam\n3.375 gm IV q6hr\nOR\nCefepime\n2gm IV q8hr\nOR\nImipenem\n500mg IV q8hr",
+          "tables": []
+        },
+        "Pediatric_Inpatient_Options": {
+          "text": "Ceftriaxone\n75mg/kg IV QD\nOR\nCefotaxime\n50mg/kg IV q8hrs\nOR\nAmpicillin\n25mg/kg IV q6hrs\n+\nGentamicin\n2.5mg/kg IV q8hrs",
+          "tables": []
+        },
+        "Surgical_Removal": {
+          "text": "Considered for ureterolithiasis with:\nPersistent obstruction\nFailure of stone progression\nIncreasing or unremitting colic\nStaghorn calculi",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Proteus mirabilis",
+          "url": "https://wikem.org/wiki/Proteus_mirabilis"
+        },
+        {
+          "text": "S. saprophyticus",
+          "url": "https://wikem.org/wiki/S._saprophyticus"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Trimethoprim-Sulfamethoxazole DS",
+          "url": "https://wikem.org/wiki/Trimethoprim-Sulfamethoxazole_DS"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Surgical_Removal": {
+      "text": "Considered for ureterolithiasis with:\nPersistent obstruction\nFailure of stone progression\nIncreasing or unremitting colic\nStaghorn calculi",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admission": {
+          "text": "Recommended for any of the following:\nIntractable pain or vomiting\n[7]\nProximal\nurinary tract infection\n,\n[7]\nas evidence by:\nUrosepsis\n:\nFever\nHypotension\nIll appearance,\nOR\nMarkedly elevated WBC\nElevated serum lactate\nSingle or transplanted kidney with obstruction\n[7]\nAcute renal failure\n[7]\nHypercalcemic Crisis\nAlso consider admission for patients with:\nSolitary kidney or transplanted kidney without obstruction\nUrinary extravasation\nSignificant medical comorbidities",
+          "tables": []
+        },
+        "Consultation": {
+          "text": "Renal insufficiency\nSevere underlying disease\nStone >10 mm\n[7]\nSloughed renal papillae\nUnclear/distal\nUTI\nRuptured renal capsule causing urinoma\npregnancy\nchildren",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Small stone in patient with adequate analgesia and able to arrange urology follow up within 7d",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        },
+        {
+          "text": "Urosepsis",
+          "url": "https://wikem.org/wiki/Urosepsis"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Hypercalcemic Crisis",
+          "url": "https://wikem.org/wiki/Hypercalcemic_Crisis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        }
+      ]
+    },
+    "Admission": {
+      "text": "Recommended for any of the following:\nIntractable pain or vomiting\n[7]\nProximal\nurinary tract infection\n,\n[7]\nas evidence by:\nUrosepsis\n:\nFever\nHypotension\nIll appearance,\nOR\nMarkedly elevated WBC\nElevated serum lactate\nSingle or transplanted kidney with obstruction\n[7]\nAcute renal failure\n[7]\nHypercalcemic Crisis\nAlso consider admission for patients with:\nSolitary kidney or transplanted kidney without obstruction\nUrinary extravasation\nSignificant medical comorbidities",
+      "subsections": {
+        "Consultation": {
+          "text": "Renal insufficiency\nSevere underlying disease\nStone >10 mm\n[7]\nSloughed renal papillae\nUnclear/distal\nUTI\nRuptured renal capsule causing urinoma\npregnancy\nchildren",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Small stone in patient with adequate analgesia and able to arrange urology follow up within 7d",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        },
+        {
+          "text": "Urosepsis",
+          "url": "https://wikem.org/wiki/Urosepsis"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Hypercalcemic Crisis",
+          "url": "https://wikem.org/wiki/Hypercalcemic_Crisis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        }
+      ]
+    },
+    "Consultation": {
+      "text": "Renal insufficiency\nSevere underlying disease\nStone >10 mm\n[7]\nSloughed renal papillae\nUnclear/distal\nUTI\nRuptured renal capsule causing urinoma\npregnancy\nchildren",
+      "subsections": {
+        "Discharge": {
+          "text": "Small stone in patient with adequate analgesia and able to arrange urology follow up within 7d",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        }
+      ]
+    },
+    "Discharge": {
+      "text": "Small stone in patient with adequate analgesia and able to arrange urology follow up within 7d",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Flank pain\nEBQ:Hematuria in Renal Colic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "EBQ:Hematuria in Renal Colic",
+          "url": "https://wikem.org/wiki/EBQ:Hematuria_in_Renal_Colic"
+        }
+      ]
+    }
+  }
+}

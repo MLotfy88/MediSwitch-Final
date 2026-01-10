@@ -1,0 +1,36 @@
+{
+  "drug_name": "Varicella_zoster_virus",
+  "url": "https://wikem.org/wiki/Varicella_zoster_virus",
+  "scraped_at": "2026-01-10T08:04:50.290165",
+  "sections": {
+    "Intro": {
+      "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Varicella_zoster_virus": {
+      "text": "Varicella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        }
+      ]
+    }
+  }
+}

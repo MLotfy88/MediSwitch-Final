@@ -1,0 +1,327 @@
+{
+  "drug_name": "Uterine_rupture",
+  "url": "https://wikem.org/wiki/Uterine_rupture",
+  "scraped_at": "2026-01-10T08:04:45.183402",
+  "sections": {
+    "Background": {
+      "text": "Spontaneous tearing of the uterus\nMay result in fetus being expelled into peritoneal cavity.\nOccurs in late pregnancy or active labor\nRare, prevalence:\nNo prior c-section = 0.01%\nPrior c-section = 0.2-0.8%\nRisk factors:\nPrior c-section (major)- rupture most commonly occurs along prior scar lines\nMalpresentation\nLabor dystocia\nHypertension\nBicornuate uterus\nGrand multiparity\nConnective tissue disorder\nPlacenta percreta\nPrior myomectomy\nMisoprostol\nuse (oxytocin likely safe)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Connective tissue disorder",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Misoprostol",
+          "url": "https://wikem.org/wiki/Misoprostol"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Persistent\nabdominal pain\nwith\nperitoneal signs\nVaginal bleeding\nShock\nPalpable uterine defect\nLoss of fetal station\nFetal\nbradycardia\n(most suggestive), variable decelerations, evidence of\nhypovolemia\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "peritoneal signs",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(greater_than_20wks)"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vaginal_Bleeding_in_Pregnancy_(>20wks)": {
+          "text": "Emergent delivery\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nPreterm labor\nVaginal trauma\nPlacenta accreta\nIntrauterine fetal demise",
+          "tables": []
+        },
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Intrauterine fetal demise",
+          "url": "https://wikem.org/wiki/Intrauterine_fetal_demise"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        }
+      ]
+    },
+    "3rd_Trimester/Postpartum_Emergencies": {
+      "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC, chemistry\nCoags\nType & screen\nUpreg / b-HCG\nRh\nPelvic ultrasound",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically determined by\npelvic ultrasound\nor (if emergent) OR visualization:\nDisruption of myometrium\nFree peritoneal fluid (\nFAST\n+)\nAnhydramnios/empty uterus\nHerniated amniotic sac\nFetal anatomy outside of uterus\nAbsence of FHR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        },
+        {
+          "text": "pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC, chemistry\nCoags\nType & screen\nUpreg / b-HCG\nRh\nPelvic ultrasound",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically determined by\npelvic ultrasound\nor (if emergent) OR visualization:\nDisruption of myometrium\nFree peritoneal fluid (\nFAST\n+)\nAnhydramnios/empty uterus\nHerniated amniotic sac\nFetal anatomy outside of uterus\nAbsence of FHR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        },
+        {
+          "text": "pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Typically determined by\npelvic ultrasound\nor (if emergent) OR visualization:\nDisruption of myometrium\nFree peritoneal fluid (\nFAST\n+)\nAnhydramnios/empty uterus\nHerniated amniotic sac\nFetal anatomy outside of uterus\nAbsence of FHR",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Fluid resuscitation\nBlood product\nreplacement\nEmergent delivery\nof fetus via cesarean section",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluid resuscitation",
+          "url": "https://wikem.org/wiki/Fluid_resuscitation"
+        },
+        {
+          "text": "Blood product",
+          "url": "https://wikem.org/wiki/Blood_product"
+        },
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission (emergently to operating room)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Postpartum Emergencies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Postpartum Emergencies",
+          "url": "https://wikem.org/wiki/Postpartum_Emergencies"
+        }
+      ]
+    }
+  }
+}

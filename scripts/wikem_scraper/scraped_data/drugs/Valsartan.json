@@ -1,0 +1,133 @@
+{
+  "drug_name": "Valsartan",
+  "url": "https://wikem.org/wiki/Valsartan",
+  "scraped_at": "2026-01-10T08:04:49.674271",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAngiotensin II receptor antagonists\nDosage Forms:\nRoutes of Administration: oral\nCommon Trade Names: Diovan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Angiotensin II receptor antagonists",
+          "url": "https://wikem.org/wiki/Angiotensin_II_receptor_antagonists"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "20-160mg PO 1-2 times per day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: no adjustment\nHepatic dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nConcomitant\naliskiren\nuse in diabetic patients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "aliskiren",
+          "url": "https://wikem.org/wiki/Aliskiren"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Angioedema\nAcute renal failure",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypotension\nDizziness, headache\nElevated BUN/Cr\nCough",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Angioedema\nAcute renal failure",
+      "subsections": {
+        "Common": {
+          "text": "Hypotension\nDizziness, headache\nElevated BUN/Cr\nCough",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Hypotension\nDizziness, headache\nElevated BUN/Cr\nCough",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6h\nMetabolism:\nExcretion: Mostly fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Angiotensin II antagonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypertension\nAngiotensin II receptor antagonists",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Angiotensin II receptor antagonists",
+          "url": "https://wikem.org/wiki/Angiotensin_II_receptor_antagonists"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "drug_name": "Vascular_injury",
+  "url": "https://wikem.org/wiki/Vascular_injury",
+  "scraped_at": "2026-01-10T08:04:51.373236",
+  "sections": {
+    "Background": {
+      "text": "Vascular Injury can have a broad spectrum of presentations. Knowing the appropriate assessment of patients presenting with hard and soft signs of vascular injury is paramount to appropriate treatment and disposition.",
+      "subsections": {
+        "Types": {
+          "text": "Extremity- Injury to the vasculature of the arms or legs\nJunctional- Vascular injury where the extremity meets the torso(Hip, axilla, base of neck)\nNon Compressible Truncal Hemorrhage- Anywhere on the torso involving large vasculature.\nWithin each of these are the following subtypes.\nOcclusive\nTransection\nThrombosis\nEmbolism\n+Reversible spasm\nNon-occlusive\nLaceration\nIntimal flap\nPseudoaneurysm\nA/V fistula\nCompartment syndrome",
+          "tables": []
+        },
+        "Occult_Upper_Extremity_Vascular_Injury": {
+          "text": "Clavicle fracture\n/1st rib fracture → Subclavian artery\nAnterior\nshoulder dislocation\n→ Axillary artery\nProximal humerus fracture\n→ Axillary artery\nHumeral shaft fracture\n→ Brachial artery\nElbow dislocation\n→ Brachial artery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "shoulder dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_dislocation"
+        },
+        {
+          "text": "Proximal humerus fracture",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        },
+        {
+          "text": "Humeral shaft fracture",
+          "url": "https://wikem.org/wiki/Humeral_shaft_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Extremity- Injury to the vasculature of the arms or legs\nJunctional- Vascular injury where the extremity meets the torso(Hip, axilla, base of neck)\nNon Compressible Truncal Hemorrhage- Anywhere on the torso involving large vasculature.\nWithin each of these are the following subtypes.\nOcclusive\nTransection\nThrombosis\nEmbolism\n+Reversible spasm\nNon-occlusive\nLaceration\nIntimal flap\nPseudoaneurysm\nA/V fistula\nCompartment syndrome",
+      "subsections": {
+        "Occult_Upper_Extremity_Vascular_Injury": {
+          "text": "Clavicle fracture\n/1st rib fracture → Subclavian artery\nAnterior\nshoulder dislocation\n→ Axillary artery\nProximal humerus fracture\n→ Axillary artery\nHumeral shaft fracture\n→ Brachial artery\nElbow dislocation\n→ Brachial artery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "shoulder dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_dislocation"
+        },
+        {
+          "text": "Proximal humerus fracture",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        },
+        {
+          "text": "Humeral shaft fracture",
+          "url": "https://wikem.org/wiki/Humeral_shaft_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        }
+      ]
+    },
+    "Occult_Upper_Extremity_Vascular_Injury": {
+      "text": "Clavicle fracture\n/1st rib fracture → Subclavian artery\nAnterior\nshoulder dislocation\n→ Axillary artery\nProximal humerus fracture\n→ Axillary artery\nHumeral shaft fracture\n→ Brachial artery\nElbow dislocation\n→ Brachial artery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "shoulder dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_dislocation"
+        },
+        {
+          "text": "Proximal humerus fracture",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        },
+        {
+          "text": "Humeral shaft fracture",
+          "url": "https://wikem.org/wiki/Humeral_shaft_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Hard_signs": {
+          "text": "Absent distal pulses\nSigns of distal ischemia\nPain, pallor, paresthesia, paralysis, poikilothermia\nAudible bruit or palpable thrill at injury site\nActive pulsatile hemorrhage\nLarge expanding hematoma",
+          "tables": []
+        },
+        "Soft_Signs": {
+          "text": "Small nonexpanding hematoma\nsubjectively decreased pulse\nPeripheral nerve deficit\nHistory of pulsatile or significant hemorrhage at time of injury\nUnexplained hypotension\nHigh risk orthopedic injuries (fracture, dislocation, penetration)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hard_signs": {
+      "text": "Absent distal pulses\nSigns of distal ischemia\nPain, pallor, paresthesia, paralysis, poikilothermia\nAudible bruit or palpable thrill at injury site\nActive pulsatile hemorrhage\nLarge expanding hematoma",
+      "subsections": {
+        "Soft_Signs": {
+          "text": "Small nonexpanding hematoma\nsubjectively decreased pulse\nPeripheral nerve deficit\nHistory of pulsatile or significant hemorrhage at time of injury\nUnexplained hypotension\nHigh risk orthopedic injuries (fracture, dislocation, penetration)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Soft_Signs": {
+      "text": "Small nonexpanding hematoma\nsubjectively decreased pulse\nPeripheral nerve deficit\nHistory of pulsatile or significant hemorrhage at time of injury\nUnexplained hypotension\nHigh risk orthopedic injuries (fracture, dislocation, penetration)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        }
+      ]
+    },
+    "Extremity_trauma": {
+      "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Arterial_Pressure_Index_(API)/Injured_Extremity_Index_(IEI)": {
+          "text": "Doppler-determined arterial systolic blood pressure in injured limb divided by systolic blood pressure in uninjured limb\n<0.9 abnormal, > 0.9 is highly sensitive for excluding major vascular injury\nNPV of IEI >0.9 is ~96%\nAllows for serial, objective monitoring\nOnly detects obstructive lesions\nUnreliable in proximal injuries, popliteal injuries, shotgun wounds, multiple wounds, shock\nFalse negative with deep femoral artery injury",
+          "tables": []
+        },
+        "Imaging_Modalities": {
+          "text": "CT Angiography\nThe Gold standard for excluding vascular Injury\nHighest sensitivity, specificity\nUseful for detection of other injuries(Venous, neural, fractures, etc)\nDupplex Doppler\nCan be operator dependent and does NOT definitively exclude arterial Injury\nS 95-100%; Sp 97-100%; Acc 98-100%\nSens for vessel injury, thrombosis, pseudoaneurysm, intimal flap and A-V fistula\nPoint of care ultrasound\nuseful as an adjunct, but there are no randomized trials proving sensitivity.",
+          "tables": []
+        },
+        "Hard_Signs_(>90%_risk_of_arterial_injury;_50%_require_intervention)": {
+          "text": "Immediate arterial exploration without further investigation",
+          "tables": []
+        },
+        "Soft_Signs_(30%_risk_of_arterial_injury)": {
+          "text": "Perform API → if <0.9 obs/admit for 24h, serial API\nConsider:\nDoppler U/S\nCT angiogram\nEvaluation of compartment pressures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging_Modalities": {
+      "text": "CT Angiography\nThe Gold standard for excluding vascular Injury\nHighest sensitivity, specificity\nUseful for detection of other injuries(Venous, neural, fractures, etc)\nDupplex Doppler\nCan be operator dependent and does NOT definitively exclude arterial Injury\nS 95-100%; Sp 97-100%; Acc 98-100%\nSens for vessel injury, thrombosis, pseudoaneurysm, intimal flap and A-V fistula\nPoint of care ultrasound\nuseful as an adjunct, but there are no randomized trials proving sensitivity.",
+      "subsections": {
+        "Hard_Signs_(>90%_risk_of_arterial_injury;_50%_require_intervention)": {
+          "text": "Immediate arterial exploration without further investigation",
+          "tables": []
+        },
+        "Soft_Signs_(30%_risk_of_arterial_injury)": {
+          "text": "Perform API → if <0.9 obs/admit for 24h, serial API\nConsider:\nDoppler U/S\nCT angiogram\nEvaluation of compartment pressures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation_Algorithm": {
+      "text": "",
+      "subsections": {
+        "Hard_Signs_(>90%_risk_of_arterial_injury;_50%_require_intervention)": {
+          "text": "Immediate arterial exploration without further investigation",
+          "tables": []
+        },
+        "Soft_Signs_(30%_risk_of_arterial_injury)": {
+          "text": "Perform API → if <0.9 obs/admit for 24h, serial API\nConsider:\nDoppler U/S\nCT angiogram\nEvaluation of compartment pressures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Depends on injury type\nConsider emergent vascular surgery consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Dependent on injury type",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Warm Ischemia Time\n6 hours (10% irreversible damage)\n12 hours (90% irreversible damage)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Angiogram Complication\nAcute arterial ischemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Angiogram Complication",
+          "url": "https://wikem.org/wiki/Angiogram_Complication"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        }
+      ]
+    },
+    "References": {
+      "text": "Slama, R., & Jackson, M. (2019). Peripheral Vascular Injury. In A. Koyfman & B. Long (Eds.), The Emergency Medicine Trauma Handbook (pp. 249-259). Cambridge: Cambridge University Press. doi:10.1017/9781108647397.018",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

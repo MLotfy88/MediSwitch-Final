@@ -1,0 +1,301 @@
+{
+  "drug_name": "Uremic_bleeding_syndrome",
+  "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome",
+  "scraped_at": "2026-01-10T08:04:35.736248",
+  "sections": {
+    "Background": {
+      "text": "Bleeding diathesis\nIncreased risk for of bleeding (\nGI\n,\nICH\n, liver hematoma) due to impaired platelet function\nUremic toxins inhibit platelet aggregation\nDisrupts vWF\nPT/PTT normal, but bleeding time elevated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "GI",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Wide range of presentations\nEcchymosis,\npurpura\n,\nepistaxis\n,\nfistula bleeding\n, venipuncture bleeding\nGI bleeding\nIntracranial bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "fistula bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage_of_AV_fistula"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "Intracranial bleeding",
+          "url": "https://wikem.org/wiki/ICH"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Dialysis filter may cause\nthrombocytopenia",
+      "subsections": {
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        }
+      ]
+    },
+    "Coagulopathy": {
+      "text": "",
+      "subsections": {
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Bleeding time extended past 1-7 min (small incision on finger)\nMild thrombocytopenia but plts rarely fall below 80k\nPT and aPTT typically remain normal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treatment = desmopressin, cryoprecipitate, conjugated estrogen, EPO, dialysis\n[1]\nLimited evidence for dialysis (peritoneal vs. hemodialysis) in management of acute uremic bleeding\nDDAVP 0.4 mcg/kg IV over 10 min - effects within 1 hr but increased bleeding time returns within 24 hrs\n[2]\nCryoprecipitate 10 bags over 30 min - benefit seen within 4-12 hrs in most\n[3]\nRecombinant EPO 50 - 150 u/kg IV 3x/wk\nConjugated estrogens at 0.6mg/kg IV over 30 min QD for 5 days - time to effect ~ 6 hrs, max effect at 1 wk, duration of action 2 wks\nAcute\ndialysis\npRBCs\nRaising HCT to above 25-30% improves bleeding time\nDesmopressin\n(DDAVP)\nSimplest and least toxic acute treatment\nIncreases release of factor VIII:von Willebrand factor multimers\n0.3 mcg/kg IV (preferred) or SC (max 20mg). 3mcg/kg intranasaly is an option.\nOnset of action ~1hr, duration of action ~4-24hr\nEstrogen\nUnclear mechanism of action\nOnset of action within 1d\nOptions\nConjugated estrogen 0.6mg/kg IV or 2.5-25mg PO daily\nCryoprecipitate\nOnly indicated for life-threatening bleeding resistant to DDAVP and blood tranfusion\n10 bags over 30 minutes\nPlatelet transfusion\nMinimally effective because infused platelets quickly acquire the uremic defect\nOnly use when uncontrolled hemorrhage\nTopical Hemostatic Agents\nGelatin - Gelfoam or Surgifoam\nThrombin - Floseal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "Platelet transfusion",
+          "url": "https://wikem.org/wiki/Platelet_transfusion"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Coagulopathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    }
+  }
+}

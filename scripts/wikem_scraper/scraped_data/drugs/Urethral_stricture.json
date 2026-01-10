@@ -1,0 +1,83 @@
+{
+  "drug_name": "Urethral_stricture",
+  "url": "https://wikem.org/wiki/Urethral_stricture",
+  "scraped_at": "2026-01-10T08:04:42.959989",
+  "sections": {
+    "Background": {
+      "text": "Occurs relatively commonly in men\nMost common etiology is idiopathic in well-resourced countries, traumatic in resource-poor regions\n[1]\nOther common etiologies include instrumentation, infection, and inflammatory skin conditions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Chronic obstructive voiding symptoms\nSexual dysfunction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Acute\nurinary retention\nUrolithiasis\nUrinary tract infection\nUrethral fistula\nPeriurethral abscess",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Urinary tract infection",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Benign prostatic hyperplasia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign prostatic hyperplasia",
+          "url": "https://wikem.org/wiki/Benign_prostatic_hyperplasia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Should undergo cystourethroscopy, retrograde urethrogram, voiding cystourethrogram, and/or ultrasound urethrography\n[2]\nNoninvasive studies cannot definitively diagnose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Should undergo cystourethroscopy, retrograde urethrogram, voiding cystourethrogram, and/or ultrasound urethrography\n[2]\nNoninvasive studies cannot definitively diagnose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Should undergo cystourethroscopy, retrograde urethrogram, voiding cystourethrogram, and/or ultrasound urethrography\n[2]\nNoninvasive studies cannot definitively diagnose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat resulting complications\nNo absolute contraindication for treatment of urethral strictures\nOptions for treatment include minimally invasive therapies, urinary diversion procedures, and surgical reconstruction (eg, urethroplasty)\nConsult urology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "drug_name": "Urinary_alkalinization",
+  "url": "https://wikem.org/wiki/Urinary_alkalinization",
+  "scraped_at": "2026-01-10T08:04:41.011096",
+  "sections": {
+    "Background": {
+      "text": "Bicarb raises urinary pH which converts weak acids to their ionized form (\"ion trap\")",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Salicylate overdose\nRecommended for salicylate levels >30mg/dl\nPhenobarbital\noverdose (multidose activated charcoal is superior)\nControversial:\nRhabdomyolysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salicylate overdose",
+          "url": "https://wikem.org/wiki/Salicylate_overdose"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Patient unable to tolerate volume/sodium load\nHypokalemia\nRenal insufficiency",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Give NaHCO3 1-2 mEq/kg IV bolus\nOR\n3-4 mEq/kg IV infusion over 1hr\nMonitor urinary pH q15-30min until pH is 7.5-8.5\nSustain alkalinization by either intermittent bolus or continuous bicarbonate infusion\nMonitor serum pH (do not allow to rise above 7.5-7.55)\nMonitor potassium (correct hypokalemia so that alkalinization can continue)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Volume overload\npH shifts\nHypokalemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

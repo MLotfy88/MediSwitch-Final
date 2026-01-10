@@ -1,0 +1,102 @@
+{
+  "drug_name": "Valganciclovir",
+  "url": "https://wikem.org/wiki/Valganciclovir",
+  "scraped_at": "2026-01-10T08:04:48.857297",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiviral\nDosage Forms:\nRoutes of Administration: Oral\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "CMV infection: 900 mg PO BID\nCMV prophylaxis: 900 mg PO daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Neonatal CMV infection: 17 mg/kg PO daily BID x 12 weeks, then 17 mg/kg daily until 1 year of age",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category C, fetal risk cannot be ruled out\nLactation risk: infant risk cannot be ruled out\nRenal dosing\nCrCl 40-59 mL/min: 450 mg BID\nCrCl 25-39 mL/min: 450 mg once daily\nCrCl 10-24 mL/min: 450 mg every 2 days\nCrCl < 10 mL/min or on HD: not recommended\nHepatic dosing:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anemia/aplastic anemia, leukopenia, thrombocytopenia, pancytopenia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting, diarrhea\nGraft rejection\nHeadache\nURI\nUTI\nFever\nTremor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Anemia/aplastic anemia, leukopenia, thrombocytopenia, pancytopenia",
+      "subsections": {
+        "Common": {
+          "text": "Nausea/vomiting, diarrhea\nGraft rejection\nHeadache\nURI\nUTI\nFever\nTremor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Nausea/vomiting, diarrhea\nGraft rejection\nHeadache\nURI\nUTI\nFever\nTremor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4-10h\nMetabolism: Hepatic\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits viral DNA synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "CMV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        }
+      ]
+    }
+  }
+}

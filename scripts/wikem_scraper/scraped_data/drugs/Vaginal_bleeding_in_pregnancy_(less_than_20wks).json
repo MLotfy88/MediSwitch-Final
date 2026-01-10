@@ -1,0 +1,827 @@
+{
+  "drug_name": "Vaginal_bleeding_in_pregnancy_(less_than_20wks)",
+  "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(less_than_20wks)",
+  "scraped_at": "2026-01-10T08:04:51.659991",
+  "sections": {
+    "Background": {
+      "text": "Occurs in 20-40% of 1st trimester pregnancies\nOnce IUP is confirmed by\nultrasound\nno utility in obtaining\nB-hCG\nUS\nDo not use hCG to determine whether\nultrasound\nshould be obtained",
+      "subsections": {
+        "Abortion_Types": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Classification": "Threatened",
+                "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+                "OS": "Closed",
+                "Fetal Tissue Passage": "No",
+                "Misc": "If  < 11 weeks (with fetal cardiac activity) 90% progress to term.  If between 11 and 20 weeks 50% progress to term"
+              },
+              {
+                "Classification": "Inevitable",
+                "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+                "OS": "Open",
+                "Fetal Tissue Passage": "No",
+                "Misc": ""
+              },
+              {
+                "Classification": "Incomplete",
+                "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+                "OS": "Open",
+                "Fetal Tissue Passage": "Yes, some",
+                "Misc": ""
+              },
+              {
+                "Classification": "Complete",
+                "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+                "OS": "Closed",
+                "Fetal Tissue Passage": "Yes, complete expulsion of products",
+                "Misc": "Distinguish from ectopic based on decreasing hCG and/or decreased bleeding"
+              },
+              {
+                "Classification": "Missed",
+                "Characteristics": "Fetal death at <20 weeks without passage of any fetal tissue for 4 weeks after fetal death",
+                "OS": "Closed",
+                "Fetal Tissue Passage": "No",
+                "Misc": ""
+              },
+              {
+                "Classification": "Septic",
+                "Characteristics": "Infection of the uterus during a miscarriage.  Most commonly caused by retained products of conception",
+                "OS": "Open",
+                "Fetal Tissue Passage": "No, or may be incomplete",
+                "Misc": "Uterine tenderness and purulent discharge from the OS may be present"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "B-hCG",
+          "url": "https://wikem.org/wiki/B-hCG"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Abortion_Types": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Classification": "Threatened",
+            "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+            "OS": "Closed",
+            "Fetal Tissue Passage": "No",
+            "Misc": "If  < 11 weeks (with fetal cardiac activity) 90% progress to term.  If between 11 and 20 weeks 50% progress to term"
+          },
+          {
+            "Classification": "Inevitable",
+            "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+            "OS": "Open",
+            "Fetal Tissue Passage": "No",
+            "Misc": ""
+          },
+          {
+            "Classification": "Incomplete",
+            "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+            "OS": "Open",
+            "Fetal Tissue Passage": "Yes, some",
+            "Misc": ""
+          },
+          {
+            "Classification": "Complete",
+            "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+            "OS": "Closed",
+            "Fetal Tissue Passage": "Yes, complete expulsion of products",
+            "Misc": "Distinguish from ectopic based on decreasing hCG and/or decreased bleeding"
+          },
+          {
+            "Classification": "Missed",
+            "Characteristics": "Fetal death at <20 weeks without passage of any fetal tissue for 4 weeks after fetal death",
+            "OS": "Closed",
+            "Fetal Tissue Passage": "No",
+            "Misc": ""
+          },
+          {
+            "Classification": "Septic",
+            "Characteristics": "Infection of the uterus during a miscarriage.  Most commonly caused by retained products of conception",
+            "OS": "Open",
+            "Fetal Tissue Passage": "No, or may be incomplete",
+            "Misc": "Uterine tenderness and purulent discharge from the OS may be present"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Previous spontaneous abortion\nExtent of bleeding, clots, tissue\nOften quantified by pads per hour, greater than 1 per hour is concerning\nPresence of cramping\nLight-headedness?\nChest pain\n?\nShortness of breath\n?\nPalpitations\n?",
+          "tables": []
+        },
+        "Physical": {
+          "text": "Uterus able to palpated in abdomen ~ 12 weeks\nUterus able to visualzed by abdominal ultrasound ~ 10 weeks\nOpen os decreases, but does not rule-out,\nectopic\nIf products of conception obtained send to pathology to rule-out trophoblastic disease\nCan quantify amount of bleeding by number of scopettes of blood on pelvic exam\nLarge subchorionic hemorrhage increases chances of a\nmiscarriage",
+          "tables": []
+        },
+        "Normal_Vitals_in_Pregnancy": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Vital": "HR",
+                "Nonpregnant": "70",
+                "1st Trimester": "78",
+                "2nd Trimester": "82",
+                "3rd Trimester": "85"
+              },
+              {
+                "Vital": "SBP",
+                "Nonpregnant": "115",
+                "1st Trimester": "112",
+                "2nd Trimester": "112",
+                "3rd Trimester": "114"
+              },
+              {
+                "Vital": "DBP",
+                "Nonpregnant": "70",
+                "1st Trimester": "60",
+                "2nd Trimester": "63",
+                "3rd Trimester": "70"
+              },
+              {
+                "Vital": "Hcrt",
+                "Nonpregnant": "40",
+                "1st Trimester": "36",
+                "2nd Trimester": "33",
+                "3rd Trimester": "34"
+              },
+              {
+                "Vital": "WBC",
+                "Nonpregnant": "7.2k",
+                "1st Trimester": "9.1k",
+                "2nd Trimester": "9.7k",
+                "3rd Trimester": "9.8k"
+              }
+            ]
+          ]
+        },
+        "Estimated_Gestational_Age_by_Fundal_Height": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Weeks": "12",
+                "Fundal Height / Finding": "Pubic symphysis"
+              },
+              {
+                "Weeks": "20",
+                "Fundal Height / Finding": "Umbilicus"
+              },
+              {
+                "Weeks": "20-32",
+                "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+              },
+              {
+                "Weeks": "36",
+                "Fundal Height / Finding": "Xiphoid process"
+              },
+              {
+                "Weeks": ">37",
+                "Fundal Height / Finding": "Regression"
+              },
+              {
+                "Weeks": "Post delivery",
+                "Fundal Height / Finding": "Umbilicus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "miscarriage",
+          "url": "https://wikem.org/wiki/First_Trimester_Abortion"
+        }
+      ]
+    },
+    "History": {
+      "text": "Previous spontaneous abortion\nExtent of bleeding, clots, tissue\nOften quantified by pads per hour, greater than 1 per hour is concerning\nPresence of cramping\nLight-headedness?\nChest pain\n?\nShortness of breath\n?\nPalpitations\n?",
+      "subsections": {
+        "Physical": {
+          "text": "Uterus able to palpated in abdomen ~ 12 weeks\nUterus able to visualzed by abdominal ultrasound ~ 10 weeks\nOpen os decreases, but does not rule-out,\nectopic\nIf products of conception obtained send to pathology to rule-out trophoblastic disease\nCan quantify amount of bleeding by number of scopettes of blood on pelvic exam\nLarge subchorionic hemorrhage increases chances of a\nmiscarriage",
+          "tables": []
+        },
+        "Normal_Vitals_in_Pregnancy": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Vital": "HR",
+                "Nonpregnant": "70",
+                "1st Trimester": "78",
+                "2nd Trimester": "82",
+                "3rd Trimester": "85"
+              },
+              {
+                "Vital": "SBP",
+                "Nonpregnant": "115",
+                "1st Trimester": "112",
+                "2nd Trimester": "112",
+                "3rd Trimester": "114"
+              },
+              {
+                "Vital": "DBP",
+                "Nonpregnant": "70",
+                "1st Trimester": "60",
+                "2nd Trimester": "63",
+                "3rd Trimester": "70"
+              },
+              {
+                "Vital": "Hcrt",
+                "Nonpregnant": "40",
+                "1st Trimester": "36",
+                "2nd Trimester": "33",
+                "3rd Trimester": "34"
+              },
+              {
+                "Vital": "WBC",
+                "Nonpregnant": "7.2k",
+                "1st Trimester": "9.1k",
+                "2nd Trimester": "9.7k",
+                "3rd Trimester": "9.8k"
+              }
+            ]
+          ]
+        },
+        "Estimated_Gestational_Age_by_Fundal_Height": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Weeks": "12",
+                "Fundal Height / Finding": "Pubic symphysis"
+              },
+              {
+                "Weeks": "20",
+                "Fundal Height / Finding": "Umbilicus"
+              },
+              {
+                "Weeks": "20-32",
+                "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+              },
+              {
+                "Weeks": "36",
+                "Fundal Height / Finding": "Xiphoid process"
+              },
+              {
+                "Weeks": ">37",
+                "Fundal Height / Finding": "Regression"
+              },
+              {
+                "Weeks": "Post delivery",
+                "Fundal Height / Finding": "Umbilicus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "miscarriage",
+          "url": "https://wikem.org/wiki/First_Trimester_Abortion"
+        }
+      ]
+    },
+    "Physical": {
+      "text": "Uterus able to palpated in abdomen ~ 12 weeks\nUterus able to visualzed by abdominal ultrasound ~ 10 weeks\nOpen os decreases, but does not rule-out,\nectopic\nIf products of conception obtained send to pathology to rule-out trophoblastic disease\nCan quantify amount of bleeding by number of scopettes of blood on pelvic exam\nLarge subchorionic hemorrhage increases chances of a\nmiscarriage",
+      "subsections": {
+        "Normal_Vitals_in_Pregnancy": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Vital": "HR",
+                "Nonpregnant": "70",
+                "1st Trimester": "78",
+                "2nd Trimester": "82",
+                "3rd Trimester": "85"
+              },
+              {
+                "Vital": "SBP",
+                "Nonpregnant": "115",
+                "1st Trimester": "112",
+                "2nd Trimester": "112",
+                "3rd Trimester": "114"
+              },
+              {
+                "Vital": "DBP",
+                "Nonpregnant": "70",
+                "1st Trimester": "60",
+                "2nd Trimester": "63",
+                "3rd Trimester": "70"
+              },
+              {
+                "Vital": "Hcrt",
+                "Nonpregnant": "40",
+                "1st Trimester": "36",
+                "2nd Trimester": "33",
+                "3rd Trimester": "34"
+              },
+              {
+                "Vital": "WBC",
+                "Nonpregnant": "7.2k",
+                "1st Trimester": "9.1k",
+                "2nd Trimester": "9.7k",
+                "3rd Trimester": "9.8k"
+              }
+            ]
+          ]
+        },
+        "Estimated_Gestational_Age_by_Fundal_Height": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Weeks": "12",
+                "Fundal Height / Finding": "Pubic symphysis"
+              },
+              {
+                "Weeks": "20",
+                "Fundal Height / Finding": "Umbilicus"
+              },
+              {
+                "Weeks": "20-32",
+                "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+              },
+              {
+                "Weeks": "36",
+                "Fundal Height / Finding": "Xiphoid process"
+              },
+              {
+                "Weeks": ">37",
+                "Fundal Height / Finding": "Regression"
+              },
+              {
+                "Weeks": "Post delivery",
+                "Fundal Height / Finding": "Umbilicus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "miscarriage",
+          "url": "https://wikem.org/wiki/First_Trimester_Abortion"
+        }
+      ]
+    },
+    "Normal_Vitals_in_Pregnancy": {
+      "text": "",
+      "subsections": {
+        "Estimated_Gestational_Age_by_Fundal_Height": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Weeks": "12",
+                "Fundal Height / Finding": "Pubic symphysis"
+              },
+              {
+                "Weeks": "20",
+                "Fundal Height / Finding": "Umbilicus"
+              },
+              {
+                "Weeks": "20-32",
+                "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+              },
+              {
+                "Weeks": "36",
+                "Fundal Height / Finding": "Xiphoid process"
+              },
+              {
+                "Weeks": ">37",
+                "Fundal Height / Finding": "Regression"
+              },
+              {
+                "Weeks": "Post delivery",
+                "Fundal Height / Finding": "Umbilicus"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Vital": "HR",
+            "Nonpregnant": "70",
+            "1st Trimester": "78",
+            "2nd Trimester": "82",
+            "3rd Trimester": "85"
+          },
+          {
+            "Vital": "SBP",
+            "Nonpregnant": "115",
+            "1st Trimester": "112",
+            "2nd Trimester": "112",
+            "3rd Trimester": "114"
+          },
+          {
+            "Vital": "DBP",
+            "Nonpregnant": "70",
+            "1st Trimester": "60",
+            "2nd Trimester": "63",
+            "3rd Trimester": "70"
+          },
+          {
+            "Vital": "Hcrt",
+            "Nonpregnant": "40",
+            "1st Trimester": "36",
+            "2nd Trimester": "33",
+            "3rd Trimester": "34"
+          },
+          {
+            "Vital": "WBC",
+            "Nonpregnant": "7.2k",
+            "1st Trimester": "9.1k",
+            "2nd Trimester": "9.7k",
+            "3rd Trimester": "9.8k"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Estimated_Gestational_Age_by_Fundal_Height": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Weeks": "12",
+            "Fundal Height / Finding": "Pubic symphysis"
+          },
+          {
+            "Weeks": "20",
+            "Fundal Height / Finding": "Umbilicus"
+          },
+          {
+            "Weeks": "20-32",
+            "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+          },
+          {
+            "Weeks": "36",
+            "Fundal Height / Finding": "Xiphoid process"
+          },
+          {
+            "Weeks": ">37",
+            "Fundal Height / Finding": "Regression"
+          },
+          {
+            "Weeks": "Post delivery",
+            "Fundal Height / Finding": "Umbilicus"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vaginal_Bleeding_in_Pregnancy_(<20wks)": {
+          "text": "Ectopic pregnancy\nSubchorionic hematoma\nFirst Trimester Abortion\nComplete Abortion\nIncomplete Abortion\nInevitable Abortion\nMissed Abortion\nSeptic abortion\nThreatened Abortion\nGestational trophoblastic disease\nConsider when pregnancy-induced hypertension is seen before 24 wks of gestation\nHeterotopic pregnancy\nImplantation bleeding\nMolar pregnancy\nNon-pregnancy related bleeding\nCervicitis\nFibroids\nImplantation bleeding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Subchorionic hematoma",
+          "url": "https://wikem.org/wiki/Subchorionic_hematoma"
+        },
+        {
+          "text": "First Trimester Abortion",
+          "url": "https://wikem.org/wiki/First_Trimester_Abortion"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Fibroids",
+          "url": "https://wikem.org/wiki/Fibroids"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "See also\nmaternal vitals and labs in pregnancy",
+      "subsections": {
+        "Work-Up": {
+          "text": "B-hCG (quantitative)\nCBC and BMP\nCoags\nT&S (Rh) vs. T&C\nUrinalysis\nPelvic ultrasound",
+          "tables": []
+        },
+        "Diagnostic_Algorithm": {
+          "text": "By\nultrasound\nfinding:\n+IUP =\nthreatened abortion\nEctopic\nruled-out unless on fertility drugs\nEmpty uterus + free fluid/adnexal mass =\nEctopic\nEmpty uterus + no free fluid / no mass\nBeta-HCG\n:\n>1,500 = Presumed\nectopic\n<1,500 = Indeterminate: follow serial\nB-HCG\nlevels in 48hrs (if no peritonitis)\nIncreased >66% = normal IUP\nIncreased <66% =\nEctopic",
+          "tables": []
+        },
+        "Discrimatory_Zone": {
+          "text": "Values are for IUP visualization, not ectopic visualization\nPelvic Ultrasound: hCG >1500\nAbd Ultrasound: hCG >3000\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "maternal vitals and labs in pregnancy",
+          "url": "https://wikem.org/wiki/Maternal_vitals_and_labs_in_pregnancy"
+        },
+        {
+          "text": "B-hCG (quantitative)",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Pelvic"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "threatened abortion",
+          "url": "https://wikem.org/wiki/Threatened_abortion"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "B-HCG",
+          "url": "https://wikem.org/wiki/B-HCG"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "B-hCG (quantitative)\nCBC and BMP\nCoags\nT&S (Rh) vs. T&C\nUrinalysis\nPelvic ultrasound",
+      "subsections": {
+        "Diagnostic_Algorithm": {
+          "text": "By\nultrasound\nfinding:\n+IUP =\nthreatened abortion\nEctopic\nruled-out unless on fertility drugs\nEmpty uterus + free fluid/adnexal mass =\nEctopic\nEmpty uterus + no free fluid / no mass\nBeta-HCG\n:\n>1,500 = Presumed\nectopic\n<1,500 = Indeterminate: follow serial\nB-HCG\nlevels in 48hrs (if no peritonitis)\nIncreased >66% = normal IUP\nIncreased <66% =\nEctopic",
+          "tables": []
+        },
+        "Discrimatory_Zone": {
+          "text": "Values are for IUP visualization, not ectopic visualization\nPelvic Ultrasound: hCG >1500\nAbd Ultrasound: hCG >3000\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "B-hCG (quantitative)",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Pelvic"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "threatened abortion",
+          "url": "https://wikem.org/wiki/Threatened_abortion"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "B-HCG",
+          "url": "https://wikem.org/wiki/B-HCG"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diagnostic_Algorithm": {
+          "text": "By\nultrasound\nfinding:\n+IUP =\nthreatened abortion\nEctopic\nruled-out unless on fertility drugs\nEmpty uterus + free fluid/adnexal mass =\nEctopic\nEmpty uterus + no free fluid / no mass\nBeta-HCG\n:\n>1,500 = Presumed\nectopic\n<1,500 = Indeterminate: follow serial\nB-HCG\nlevels in 48hrs (if no peritonitis)\nIncreased >66% = normal IUP\nIncreased <66% =\nEctopic",
+          "tables": []
+        },
+        "Discrimatory_Zone": {
+          "text": "Values are for IUP visualization, not ectopic visualization\nPelvic Ultrasound: hCG >1500\nAbd Ultrasound: hCG >3000\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "threatened abortion",
+          "url": "https://wikem.org/wiki/Threatened_abortion"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "B-HCG",
+          "url": "https://wikem.org/wiki/B-HCG"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        }
+      ]
+    },
+    "Management": {
+      "text": "RhoGAM\nif Rh Negative\nACOG Clinical practice guideline recommends forgoing routine Rh testing and RhIg administration at <12 weeks of gestation\n[5]\nAssess need for transfusion (severe anemia or hypotension)\nTreat specific process:\nEctopic\nThreatened abortion\nIndeterminate\nFollow serial\nB-HCG\nlevels in 48hrs (if no peritonitis)\nIf peritonitis/surgical abdomen, immediate OB/GYN consult for possible\nectopic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "RhoGAM",
+          "url": "https://wikem.org/wiki/Rho(D)_Immune_Globulin_(RhoGAM)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Threatened abortion",
+          "url": "https://wikem.org/wiki/Threatened_abortion"
+        },
+        {
+          "text": "B-HCG",
+          "url": "https://wikem.org/wiki/B-HCG"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit for:\nEctopic\nLife threatening bleeding\nSurgical abdomen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Vaginal_bleeding_(main)": {
+          "text": "Non-pregnant vaginal bleeding\nPrepubertal vaginal bleeding\nPregnant\nVaginal bleeding in pregnancy (less than 20wks)\nVaginal bleeding in pregnancy (greater than 20wks)\nPostpartum hemorrhage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-pregnant vaginal bleeding",
+          "url": "https://wikem.org/wiki/Non-pregnant_vaginal_bleeding"
+        },
+        {
+          "text": "Prepubertal vaginal bleeding",
+          "url": "https://wikem.org/wiki/Prepubertal_vaginal_bleeding"
+        },
+        {
+          "text": "Pregnant",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Vaginal bleeding in pregnancy (greater than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(greater_than_20wks)"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://bridgetotreatment.org/resource/ectopic-pregnancy-in-the-ed-unrestricted/\nhttps://bridgetotreatment.org/resource/ed-management-of-early-pregnancy-loss-misoprostol-protocol/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

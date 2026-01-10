@@ -1,0 +1,79 @@
+{
+  "drug_name": "Ureteral_stent_complications",
+  "url": "https://wikem.org/wiki/Ureteral_stent_complications",
+  "scraped_at": "2026-01-10T08:04:34.954284",
+  "sections": {
+    "Background": {
+      "text": "Placed to relieve obstructions related to nephrolithiasis as well as those related to trauma, strictures, tumors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications_and_Considerations": {
+      "text": "UTI\nPO antibiotics\nPyelonephritis\nIV antibiotics, call urology, obtain imaging to look at the stent and urinary tract\nIncidental microscopic\nhematuria\nMicroscopic hematuria is usually expected\nGross\nhematuria\nCall urology\nDysuria\n, urgency, frequency, MILD\nflank\nand\nabdominal pain\nPain control, rule out\nUTI\nand other processes, consider anticholinergics like\noxybutynin\nMigration, malfunctioning, malpositioning and/or fragmentation of the stent\nImaging, call urology\nErosion of urinary tract and vascular-ureter fistula,\nretroperitoneal hematoma\nResuscitation, call urology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "flank",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "oxybutynin",
+          "url": "https://wikem.org/wiki/Oxybutynin"
+        },
+        {
+          "text": "retroperitoneal hematoma",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hematoma"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Urinary tract infections\nDysuria\nPyelonephritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary tract infections",
+          "url": "https://wikem.org/wiki/Urinary_tract_infections"
+        },
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        }
+      ]
+    }
+  }
+}

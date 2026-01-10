@@ -1,0 +1,868 @@
+{
+  "drug_name": "Uremia",
+  "url": "https://wikem.org/wiki/Uremia",
+  "scraped_at": "2026-01-10T08:04:37.715317",
+  "sections": {
+    "Background": {
+      "text": "Uremia = clinical syndrome associated with end-stage renal disease\nCorrelation exists between symptoms of uremia and low GFR (15-20% of nl)\nBUN/creatinine are inaccurate markers of clinical syndrome of uremia\nContributing Factors:\nExcretory failure\nLeads to toxin accumulation\nBiosynthetic failure\nLoss of Vitamin D and erythropoietin\nRegulatory failure\nUremic state produces excess free radicals → atherosclerosis, amyloidosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features_and_Management": {
+      "text": "",
+      "subsections": {
+        "Neurologic": {
+          "text": "Uremic\nencephalopathy\nDiagnosis of exclusion\nCognitive defects, memory loss, decreased attentiveness,\nslurred speech\nAsterixis,\nseizure\n,\ncoma\nImproves with\ndialysis\nDialysis\ndementia\nSimilar to uremic encephalopathy except progressive, no improvement with dialysis\nEEG findings can differentiate uremic encephalopathy from dialysis dementia\nCVA\nCerebrovascular disease\n, trauma,\nbleeding dyscrasias\n, anticoagulant, hypertension\nSubdural hematoma\n10 times more likely than in general population\nPlatelet dysfunction\nHeadache\n,\nfocal neurologic deficits\n,\nseizure\n,\ncoma\nPeripheral neuropathy\nOccurs in 60-100% of dialysis patients\nParesthesias\n, impaired proprioception,\nweakness\nAutonomic neuropathy (postural\ndizziness\n,\ngastroparesis\n, bowel dysfunction)",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "CK-MB and\ntroponin\nare specific markers of MI even in patients undergoing regular dialysis\nMortality from cardiovascular disease is 10-30 times higher in dialysis patients than general population\nhypertension is common\nUremic\ncardiomyopathy\nDiagnosis of exclusion\nCirculating digitalis-like substances have been implicated\nDialysis rarely improves LV function\nPericarditis\nUremic pericarditis (75% of cases)\nMost common when the other symptoms of uremia are most severe\nBUN is nearly always >60\nLoud friction rub that is often palpable\nTypical pericarditis ECG changes are absent (inflammation does not involve myocardium)\nIf ECG does have typical changes consider infection\nDialysis-related (25% of cases)\nMost common during increased catabolism (trauma, sepsis) or missed dialysis sessions\nConstitutional symptoms, such as fever, are more common  than in uremic pericarditis\nTreatment\nDialysis\nTamponade\nPresents with\naltered mental status\n,\nhypotension\n,\ndyspnea\nRarely present with classic signs of Beck's triad\nPericardiocentesis\nshould only be attempted if hemodynamically unstable\nPulmonary Edema\nCommonly ascribed to fluid overload; also consider MI\nTreat similar to non-ESRD patient\nFurosemide\n80mg IV may be effective even if minimal urine output (pulmonary vasodilation)\nPreload reduction can be accomplished via:\nInduced\ndiarrhea\n(sorbitol)\nPhlebotomy - withdrawal of as little as 150 mL is safe and effective\nCHF\nMay be preexisting\nMay be caused by uremic cardiomyopathy, fluid overload, AV-related high-output failure",
+          "tables": []
+        },
+        "Hematologic": {
+          "text": "Anemia\nWithout treatment, the hematocrit in ESRD patients should stabilize at 15-20%\nTreatment = erythropoietin\nImmunodeficiency\nBleeding diathesis (\nUremic bleeding syndrome\n)\nIncreased risk for of bleeding (GI, ICH, liver hematoma) due to impaired platelet function\nTreatment =\ndesmopressin\n,\ncryoprecipitate\n, conjugated estrogen, EPO, dialysis\n[1]",
+          "tables": []
+        },
+        "GI": {
+          "text": "Anorexia,\nnausea/vomiting\nIncreased incidence of\nGI bleeding\n, diverticular disease,\nascites",
+          "tables": []
+        },
+        "Dermatologic": {
+          "text": "Uremic frost\nGenerated from crystallized nitrogenous waste from sweat\nTypically in BUN > 200mg/dL\nTreatment is lowering BUN",
+          "tables": []
+        },
+        "Renal_bone_disease": {
+          "text": "Metastatic calcification (\ncalciphylaxis\n)\nWhen calcium-phosphate product (Ca x PO4) > 70-80, metastatic calcification can ensue\nSymptoms of\npseudogout\n, skin/finger necrosis (small vessel involvement)\nLife-threatening calcifications can occur in the cardiac and pulmonary systems\nTreatment = use of low-calcium dialysate and phosphate-binding gels\nHyperparathyroidism\n(osteitis fibrosa cystica)\nCalciphylaxis + vitamin D3 deficiency results in depressed Ca, stimulation of PTH\nLeads to high bone turnover → weakened bones → increased\nfracture\nsusceptibility\nTreatment = phosphate binding gels, vitamin D3 replacement\nVitamin D3 deficiency\nand\naluminum intoxication\n(osteomalacia)\nLeads to osteomalacia (defect in bone calcification)\nSymptoms similar to hyperparathyroidism (muscle weakness, bone pain)\nTreatment = desferrioxamine\nAmyloidosis\nCommon in patients >50yo who have received dialysis for >10yr\nComplications: GI perforation, bone cysts with pathologic fracture, arthropathies",
+          "tables": []
+        },
+        "Anion_Gap_Metabolic_Acidosis[2]": {
+          "text": "Early chronic kidney disease associated with hyperchloremic\nnormal anion gap metabolic acidosis\nLate stage disease causes anion gap\nFailure to excrete acid anions, phosphate and sulfate\nBone demineralization - bone buffers H+, releasing calcium from bone, leads to osteopenia\nTreatment: PO\nsodium bicarbonate\n1 mEq/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "slurred speech",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Cerebrovascular disease",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "bleeding dyscrasias",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "focal neurologic deficits",
+          "url": "https://wikem.org/wiki/Focal_neurologic_deficits"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "Tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Pericardiocentesis",
+          "url": "https://wikem.org/wiki/Pericardiocentesis"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "pseudogout",
+          "url": "https://wikem.org/wiki/Pseudogout"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Vitamin D3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "aluminum intoxication",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "normal anion gap metabolic acidosis",
+          "url": "https://wikem.org/wiki/Non_anion_gap_acidosis"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        }
+      ]
+    },
+    "Neurologic": {
+      "text": "Uremic\nencephalopathy\nDiagnosis of exclusion\nCognitive defects, memory loss, decreased attentiveness,\nslurred speech\nAsterixis,\nseizure\n,\ncoma\nImproves with\ndialysis\nDialysis\ndementia\nSimilar to uremic encephalopathy except progressive, no improvement with dialysis\nEEG findings can differentiate uremic encephalopathy from dialysis dementia\nCVA\nCerebrovascular disease\n, trauma,\nbleeding dyscrasias\n, anticoagulant, hypertension\nSubdural hematoma\n10 times more likely than in general population\nPlatelet dysfunction\nHeadache\n,\nfocal neurologic deficits\n,\nseizure\n,\ncoma\nPeripheral neuropathy\nOccurs in 60-100% of dialysis patients\nParesthesias\n, impaired proprioception,\nweakness\nAutonomic neuropathy (postural\ndizziness\n,\ngastroparesis\n, bowel dysfunction)",
+      "subsections": {
+        "Cardiovascular": {
+          "text": "CK-MB and\ntroponin\nare specific markers of MI even in patients undergoing regular dialysis\nMortality from cardiovascular disease is 10-30 times higher in dialysis patients than general population\nhypertension is common\nUremic\ncardiomyopathy\nDiagnosis of exclusion\nCirculating digitalis-like substances have been implicated\nDialysis rarely improves LV function\nPericarditis\nUremic pericarditis (75% of cases)\nMost common when the other symptoms of uremia are most severe\nBUN is nearly always >60\nLoud friction rub that is often palpable\nTypical pericarditis ECG changes are absent (inflammation does not involve myocardium)\nIf ECG does have typical changes consider infection\nDialysis-related (25% of cases)\nMost common during increased catabolism (trauma, sepsis) or missed dialysis sessions\nConstitutional symptoms, such as fever, are more common  than in uremic pericarditis\nTreatment\nDialysis\nTamponade\nPresents with\naltered mental status\n,\nhypotension\n,\ndyspnea\nRarely present with classic signs of Beck's triad\nPericardiocentesis\nshould only be attempted if hemodynamically unstable\nPulmonary Edema\nCommonly ascribed to fluid overload; also consider MI\nTreat similar to non-ESRD patient\nFurosemide\n80mg IV may be effective even if minimal urine output (pulmonary vasodilation)\nPreload reduction can be accomplished via:\nInduced\ndiarrhea\n(sorbitol)\nPhlebotomy - withdrawal of as little as 150 mL is safe and effective\nCHF\nMay be preexisting\nMay be caused by uremic cardiomyopathy, fluid overload, AV-related high-output failure",
+          "tables": []
+        },
+        "Hematologic": {
+          "text": "Anemia\nWithout treatment, the hematocrit in ESRD patients should stabilize at 15-20%\nTreatment = erythropoietin\nImmunodeficiency\nBleeding diathesis (\nUremic bleeding syndrome\n)\nIncreased risk for of bleeding (GI, ICH, liver hematoma) due to impaired platelet function\nTreatment =\ndesmopressin\n,\ncryoprecipitate\n, conjugated estrogen, EPO, dialysis\n[1]",
+          "tables": []
+        },
+        "GI": {
+          "text": "Anorexia,\nnausea/vomiting\nIncreased incidence of\nGI bleeding\n, diverticular disease,\nascites",
+          "tables": []
+        },
+        "Dermatologic": {
+          "text": "Uremic frost\nGenerated from crystallized nitrogenous waste from sweat\nTypically in BUN > 200mg/dL\nTreatment is lowering BUN",
+          "tables": []
+        },
+        "Renal_bone_disease": {
+          "text": "Metastatic calcification (\ncalciphylaxis\n)\nWhen calcium-phosphate product (Ca x PO4) > 70-80, metastatic calcification can ensue\nSymptoms of\npseudogout\n, skin/finger necrosis (small vessel involvement)\nLife-threatening calcifications can occur in the cardiac and pulmonary systems\nTreatment = use of low-calcium dialysate and phosphate-binding gels\nHyperparathyroidism\n(osteitis fibrosa cystica)\nCalciphylaxis + vitamin D3 deficiency results in depressed Ca, stimulation of PTH\nLeads to high bone turnover → weakened bones → increased\nfracture\nsusceptibility\nTreatment = phosphate binding gels, vitamin D3 replacement\nVitamin D3 deficiency\nand\naluminum intoxication\n(osteomalacia)\nLeads to osteomalacia (defect in bone calcification)\nSymptoms similar to hyperparathyroidism (muscle weakness, bone pain)\nTreatment = desferrioxamine\nAmyloidosis\nCommon in patients >50yo who have received dialysis for >10yr\nComplications: GI perforation, bone cysts with pathologic fracture, arthropathies",
+          "tables": []
+        },
+        "Anion_Gap_Metabolic_Acidosis[2]": {
+          "text": "Early chronic kidney disease associated with hyperchloremic\nnormal anion gap metabolic acidosis\nLate stage disease causes anion gap\nFailure to excrete acid anions, phosphate and sulfate\nBone demineralization - bone buffers H+, releasing calcium from bone, leads to osteopenia\nTreatment: PO\nsodium bicarbonate\n1 mEq/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "slurred speech",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Cerebrovascular disease",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "bleeding dyscrasias",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "focal neurologic deficits",
+          "url": "https://wikem.org/wiki/Focal_neurologic_deficits"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "Tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Pericardiocentesis",
+          "url": "https://wikem.org/wiki/Pericardiocentesis"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "pseudogout",
+          "url": "https://wikem.org/wiki/Pseudogout"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Vitamin D3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "aluminum intoxication",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "normal anion gap metabolic acidosis",
+          "url": "https://wikem.org/wiki/Non_anion_gap_acidosis"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        }
+      ]
+    },
+    "Cardiovascular": {
+      "text": "CK-MB and\ntroponin\nare specific markers of MI even in patients undergoing regular dialysis\nMortality from cardiovascular disease is 10-30 times higher in dialysis patients than general population\nhypertension is common\nUremic\ncardiomyopathy\nDiagnosis of exclusion\nCirculating digitalis-like substances have been implicated\nDialysis rarely improves LV function\nPericarditis\nUremic pericarditis (75% of cases)\nMost common when the other symptoms of uremia are most severe\nBUN is nearly always >60\nLoud friction rub that is often palpable\nTypical pericarditis ECG changes are absent (inflammation does not involve myocardium)\nIf ECG does have typical changes consider infection\nDialysis-related (25% of cases)\nMost common during increased catabolism (trauma, sepsis) or missed dialysis sessions\nConstitutional symptoms, such as fever, are more common  than in uremic pericarditis\nTreatment\nDialysis\nTamponade\nPresents with\naltered mental status\n,\nhypotension\n,\ndyspnea\nRarely present with classic signs of Beck's triad\nPericardiocentesis\nshould only be attempted if hemodynamically unstable\nPulmonary Edema\nCommonly ascribed to fluid overload; also consider MI\nTreat similar to non-ESRD patient\nFurosemide\n80mg IV may be effective even if minimal urine output (pulmonary vasodilation)\nPreload reduction can be accomplished via:\nInduced\ndiarrhea\n(sorbitol)\nPhlebotomy - withdrawal of as little as 150 mL is safe and effective\nCHF\nMay be preexisting\nMay be caused by uremic cardiomyopathy, fluid overload, AV-related high-output failure",
+      "subsections": {
+        "Hematologic": {
+          "text": "Anemia\nWithout treatment, the hematocrit in ESRD patients should stabilize at 15-20%\nTreatment = erythropoietin\nImmunodeficiency\nBleeding diathesis (\nUremic bleeding syndrome\n)\nIncreased risk for of bleeding (GI, ICH, liver hematoma) due to impaired platelet function\nTreatment =\ndesmopressin\n,\ncryoprecipitate\n, conjugated estrogen, EPO, dialysis\n[1]",
+          "tables": []
+        },
+        "GI": {
+          "text": "Anorexia,\nnausea/vomiting\nIncreased incidence of\nGI bleeding\n, diverticular disease,\nascites",
+          "tables": []
+        },
+        "Dermatologic": {
+          "text": "Uremic frost\nGenerated from crystallized nitrogenous waste from sweat\nTypically in BUN > 200mg/dL\nTreatment is lowering BUN",
+          "tables": []
+        },
+        "Renal_bone_disease": {
+          "text": "Metastatic calcification (\ncalciphylaxis\n)\nWhen calcium-phosphate product (Ca x PO4) > 70-80, metastatic calcification can ensue\nSymptoms of\npseudogout\n, skin/finger necrosis (small vessel involvement)\nLife-threatening calcifications can occur in the cardiac and pulmonary systems\nTreatment = use of low-calcium dialysate and phosphate-binding gels\nHyperparathyroidism\n(osteitis fibrosa cystica)\nCalciphylaxis + vitamin D3 deficiency results in depressed Ca, stimulation of PTH\nLeads to high bone turnover → weakened bones → increased\nfracture\nsusceptibility\nTreatment = phosphate binding gels, vitamin D3 replacement\nVitamin D3 deficiency\nand\naluminum intoxication\n(osteomalacia)\nLeads to osteomalacia (defect in bone calcification)\nSymptoms similar to hyperparathyroidism (muscle weakness, bone pain)\nTreatment = desferrioxamine\nAmyloidosis\nCommon in patients >50yo who have received dialysis for >10yr\nComplications: GI perforation, bone cysts with pathologic fracture, arthropathies",
+          "tables": []
+        },
+        "Anion_Gap_Metabolic_Acidosis[2]": {
+          "text": "Early chronic kidney disease associated with hyperchloremic\nnormal anion gap metabolic acidosis\nLate stage disease causes anion gap\nFailure to excrete acid anions, phosphate and sulfate\nBone demineralization - bone buffers H+, releasing calcium from bone, leads to osteopenia\nTreatment: PO\nsodium bicarbonate\n1 mEq/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "Tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Pericardiocentesis",
+          "url": "https://wikem.org/wiki/Pericardiocentesis"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "pseudogout",
+          "url": "https://wikem.org/wiki/Pseudogout"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Vitamin D3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "aluminum intoxication",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "normal anion gap metabolic acidosis",
+          "url": "https://wikem.org/wiki/Non_anion_gap_acidosis"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        }
+      ]
+    },
+    "Hematologic": {
+      "text": "Anemia\nWithout treatment, the hematocrit in ESRD patients should stabilize at 15-20%\nTreatment = erythropoietin\nImmunodeficiency\nBleeding diathesis (\nUremic bleeding syndrome\n)\nIncreased risk for of bleeding (GI, ICH, liver hematoma) due to impaired platelet function\nTreatment =\ndesmopressin\n,\ncryoprecipitate\n, conjugated estrogen, EPO, dialysis\n[1]",
+      "subsections": {
+        "GI": {
+          "text": "Anorexia,\nnausea/vomiting\nIncreased incidence of\nGI bleeding\n, diverticular disease,\nascites",
+          "tables": []
+        },
+        "Dermatologic": {
+          "text": "Uremic frost\nGenerated from crystallized nitrogenous waste from sweat\nTypically in BUN > 200mg/dL\nTreatment is lowering BUN",
+          "tables": []
+        },
+        "Renal_bone_disease": {
+          "text": "Metastatic calcification (\ncalciphylaxis\n)\nWhen calcium-phosphate product (Ca x PO4) > 70-80, metastatic calcification can ensue\nSymptoms of\npseudogout\n, skin/finger necrosis (small vessel involvement)\nLife-threatening calcifications can occur in the cardiac and pulmonary systems\nTreatment = use of low-calcium dialysate and phosphate-binding gels\nHyperparathyroidism\n(osteitis fibrosa cystica)\nCalciphylaxis + vitamin D3 deficiency results in depressed Ca, stimulation of PTH\nLeads to high bone turnover → weakened bones → increased\nfracture\nsusceptibility\nTreatment = phosphate binding gels, vitamin D3 replacement\nVitamin D3 deficiency\nand\naluminum intoxication\n(osteomalacia)\nLeads to osteomalacia (defect in bone calcification)\nSymptoms similar to hyperparathyroidism (muscle weakness, bone pain)\nTreatment = desferrioxamine\nAmyloidosis\nCommon in patients >50yo who have received dialysis for >10yr\nComplications: GI perforation, bone cysts with pathologic fracture, arthropathies",
+          "tables": []
+        },
+        "Anion_Gap_Metabolic_Acidosis[2]": {
+          "text": "Early chronic kidney disease associated with hyperchloremic\nnormal anion gap metabolic acidosis\nLate stage disease causes anion gap\nFailure to excrete acid anions, phosphate and sulfate\nBone demineralization - bone buffers H+, releasing calcium from bone, leads to osteopenia\nTreatment: PO\nsodium bicarbonate\n1 mEq/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "pseudogout",
+          "url": "https://wikem.org/wiki/Pseudogout"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Vitamin D3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "aluminum intoxication",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "normal anion gap metabolic acidosis",
+          "url": "https://wikem.org/wiki/Non_anion_gap_acidosis"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        }
+      ]
+    },
+    "GI": {
+      "text": "Anorexia,\nnausea/vomiting\nIncreased incidence of\nGI bleeding\n, diverticular disease,\nascites",
+      "subsections": {
+        "Dermatologic": {
+          "text": "Uremic frost\nGenerated from crystallized nitrogenous waste from sweat\nTypically in BUN > 200mg/dL\nTreatment is lowering BUN",
+          "tables": []
+        },
+        "Renal_bone_disease": {
+          "text": "Metastatic calcification (\ncalciphylaxis\n)\nWhen calcium-phosphate product (Ca x PO4) > 70-80, metastatic calcification can ensue\nSymptoms of\npseudogout\n, skin/finger necrosis (small vessel involvement)\nLife-threatening calcifications can occur in the cardiac and pulmonary systems\nTreatment = use of low-calcium dialysate and phosphate-binding gels\nHyperparathyroidism\n(osteitis fibrosa cystica)\nCalciphylaxis + vitamin D3 deficiency results in depressed Ca, stimulation of PTH\nLeads to high bone turnover → weakened bones → increased\nfracture\nsusceptibility\nTreatment = phosphate binding gels, vitamin D3 replacement\nVitamin D3 deficiency\nand\naluminum intoxication\n(osteomalacia)\nLeads to osteomalacia (defect in bone calcification)\nSymptoms similar to hyperparathyroidism (muscle weakness, bone pain)\nTreatment = desferrioxamine\nAmyloidosis\nCommon in patients >50yo who have received dialysis for >10yr\nComplications: GI perforation, bone cysts with pathologic fracture, arthropathies",
+          "tables": []
+        },
+        "Anion_Gap_Metabolic_Acidosis[2]": {
+          "text": "Early chronic kidney disease associated with hyperchloremic\nnormal anion gap metabolic acidosis\nLate stage disease causes anion gap\nFailure to excrete acid anions, phosphate and sulfate\nBone demineralization - bone buffers H+, releasing calcium from bone, leads to osteopenia\nTreatment: PO\nsodium bicarbonate\n1 mEq/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "pseudogout",
+          "url": "https://wikem.org/wiki/Pseudogout"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Vitamin D3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "aluminum intoxication",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "normal anion gap metabolic acidosis",
+          "url": "https://wikem.org/wiki/Non_anion_gap_acidosis"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        }
+      ]
+    },
+    "Dermatologic": {
+      "text": "Uremic frost\nGenerated from crystallized nitrogenous waste from sweat\nTypically in BUN > 200mg/dL\nTreatment is lowering BUN",
+      "subsections": {
+        "Renal_bone_disease": {
+          "text": "Metastatic calcification (\ncalciphylaxis\n)\nWhen calcium-phosphate product (Ca x PO4) > 70-80, metastatic calcification can ensue\nSymptoms of\npseudogout\n, skin/finger necrosis (small vessel involvement)\nLife-threatening calcifications can occur in the cardiac and pulmonary systems\nTreatment = use of low-calcium dialysate and phosphate-binding gels\nHyperparathyroidism\n(osteitis fibrosa cystica)\nCalciphylaxis + vitamin D3 deficiency results in depressed Ca, stimulation of PTH\nLeads to high bone turnover → weakened bones → increased\nfracture\nsusceptibility\nTreatment = phosphate binding gels, vitamin D3 replacement\nVitamin D3 deficiency\nand\naluminum intoxication\n(osteomalacia)\nLeads to osteomalacia (defect in bone calcification)\nSymptoms similar to hyperparathyroidism (muscle weakness, bone pain)\nTreatment = desferrioxamine\nAmyloidosis\nCommon in patients >50yo who have received dialysis for >10yr\nComplications: GI perforation, bone cysts with pathologic fracture, arthropathies",
+          "tables": []
+        },
+        "Anion_Gap_Metabolic_Acidosis[2]": {
+          "text": "Early chronic kidney disease associated with hyperchloremic\nnormal anion gap metabolic acidosis\nLate stage disease causes anion gap\nFailure to excrete acid anions, phosphate and sulfate\nBone demineralization - bone buffers H+, releasing calcium from bone, leads to osteopenia\nTreatment: PO\nsodium bicarbonate\n1 mEq/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "pseudogout",
+          "url": "https://wikem.org/wiki/Pseudogout"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Vitamin D3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "aluminum intoxication",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "normal anion gap metabolic acidosis",
+          "url": "https://wikem.org/wiki/Non_anion_gap_acidosis"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        }
+      ]
+    },
+    "Renal_bone_disease": {
+      "text": "Metastatic calcification (\ncalciphylaxis\n)\nWhen calcium-phosphate product (Ca x PO4) > 70-80, metastatic calcification can ensue\nSymptoms of\npseudogout\n, skin/finger necrosis (small vessel involvement)\nLife-threatening calcifications can occur in the cardiac and pulmonary systems\nTreatment = use of low-calcium dialysate and phosphate-binding gels\nHyperparathyroidism\n(osteitis fibrosa cystica)\nCalciphylaxis + vitamin D3 deficiency results in depressed Ca, stimulation of PTH\nLeads to high bone turnover → weakened bones → increased\nfracture\nsusceptibility\nTreatment = phosphate binding gels, vitamin D3 replacement\nVitamin D3 deficiency\nand\naluminum intoxication\n(osteomalacia)\nLeads to osteomalacia (defect in bone calcification)\nSymptoms similar to hyperparathyroidism (muscle weakness, bone pain)\nTreatment = desferrioxamine\nAmyloidosis\nCommon in patients >50yo who have received dialysis for >10yr\nComplications: GI perforation, bone cysts with pathologic fracture, arthropathies",
+      "subsections": {
+        "Anion_Gap_Metabolic_Acidosis[2]": {
+          "text": "Early chronic kidney disease associated with hyperchloremic\nnormal anion gap metabolic acidosis\nLate stage disease causes anion gap\nFailure to excrete acid anions, phosphate and sulfate\nBone demineralization - bone buffers H+, releasing calcium from bone, leads to osteopenia\nTreatment: PO\nsodium bicarbonate\n1 mEq/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "pseudogout",
+          "url": "https://wikem.org/wiki/Pseudogout"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Vitamin D3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "aluminum intoxication",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "normal anion gap metabolic acidosis",
+          "url": "https://wikem.org/wiki/Non_anion_gap_acidosis"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "AKI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/AKI"
+        }
+      ]
+    }
+  }
+}

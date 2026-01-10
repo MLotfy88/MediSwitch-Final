@@ -1,0 +1,165 @@
+{
+  "drug_name": "Valproic_acid_toxicity",
+  "url": "https://wikem.org/wiki/Valproic_acid_toxicity",
+  "scraped_at": "2026-01-10T08:04:49.636522",
+  "sections": {
+    "Background": {
+      "text": "Peak concentration occurs within 4hr (12-18hr for controlled release forms)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "CNS depression\nAtaxia\nHypotension\nRespiratory depression",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CNS depression",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Level\nDoes not correlate well with toxicity (can be therapeutic with toxicity)\nAdverse effects increase with level >150\nChemistry\nHypocalcemia\n,\nhypernatremia\n,\nhypophosphatemia\n, AG\nmetabolic acidosis\nLFTs\nElevated transaminases\nHyperammonemia\nCan be asymptomatic or cause Valproate associated\nHepatic Encephalopathy\n(VPE)\nSecondary to L-Carnitine and Acetyl-CoA depletion which inhibits urea cycle\nCan be seen with therapeutic VPA levels and normal LFTs\nLevel does not correlate with severity of VPE",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypophosphatemia",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Hyperammonemia",
+          "url": "https://wikem.org/wiki/Hyperammonemia"
+        },
+        {
+          "text": "Hepatic Encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_Encephalopathy"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Activated_charcoal": {
+          "text": "Activated charcoal\nPO x1 or\nmultidose activated charcoal\n(for delayed-release preparations)",
+          "tables": []
+        },
+        "Levo-carnitine": {
+          "text": "Increases valproate metabolism and recommended for patients with:\nLethargy, coma, VPA associated hyperammonemic encephalopathy, hepatic dysfunction\n100mg/kg IV bolus, followed by 50mg/kg Q8h or alternatively 50mg/kg/day IV in 3 divided doses\n[1]\n[2]",
+          "tables": []
+        },
+        "Naloxone": {
+          "text": "May be effective in reversing CNS depression by unclear mechanism\n[3]\n[4]",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Effective but reserved for severe overdoses (VPA level >500 mcg/mL) and refractory hemodynamic instability and metabolic acidosis that do not respond to fluid resuscitation\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "multidose activated charcoal",
+          "url": "https://wikem.org/wiki/Multidose_activated_charcoal"
+        }
+      ]
+    },
+    "Activated_charcoal": {
+      "text": "Activated charcoal\nPO x1 or\nmultidose activated charcoal\n(for delayed-release preparations)",
+      "subsections": {
+        "Levo-carnitine": {
+          "text": "Increases valproate metabolism and recommended for patients with:\nLethargy, coma, VPA associated hyperammonemic encephalopathy, hepatic dysfunction\n100mg/kg IV bolus, followed by 50mg/kg Q8h or alternatively 50mg/kg/day IV in 3 divided doses\n[1]\n[2]",
+          "tables": []
+        },
+        "Naloxone": {
+          "text": "May be effective in reversing CNS depression by unclear mechanism\n[3]\n[4]",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Effective but reserved for severe overdoses (VPA level >500 mcg/mL) and refractory hemodynamic instability and metabolic acidosis that do not respond to fluid resuscitation\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "multidose activated charcoal",
+          "url": "https://wikem.org/wiki/Multidose_activated_charcoal"
+        }
+      ]
+    },
+    "Levo-carnitine": {
+      "text": "Increases valproate metabolism and recommended for patients with:\nLethargy, coma, VPA associated hyperammonemic encephalopathy, hepatic dysfunction\n100mg/kg IV bolus, followed by 50mg/kg Q8h or alternatively 50mg/kg/day IV in 3 divided doses\n[1]\n[2]",
+      "subsections": {
+        "Naloxone": {
+          "text": "May be effective in reversing CNS depression by unclear mechanism\n[3]\n[4]",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Effective but reserved for severe overdoses (VPA level >500 mcg/mL) and refractory hemodynamic instability and metabolic acidosis that do not respond to fluid resuscitation\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Naloxone": {
+      "text": "May be effective in reversing CNS depression by unclear mechanism\n[3]\n[4]",
+      "subsections": {
+        "Dialysis": {
+          "text": "Effective but reserved for severe overdoses (VPA level >500 mcg/mL) and refractory hemodynamic instability and metabolic acidosis that do not respond to fluid resuscitation\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dialysis": {
+      "text": "Effective but reserved for severe overdoses (VPA level >500 mcg/mL) and refractory hemodynamic instability and metabolic acidosis that do not respond to fluid resuscitation\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Consider discharge for patient with declining levels and patient is asymptomatic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

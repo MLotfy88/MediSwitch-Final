@@ -1,0 +1,68 @@
+{
+  "drug_name": "Vagal_maneuvers",
+  "url": "https://wikem.org/wiki/Vagal_maneuvers",
+  "scraped_at": "2026-01-10T08:04:45.358244",
+  "sections": {
+    "Carotid_sinus_massage": {
+      "text": "Ideal duration of 15 seconds\n[1]\nAuscultate to rule out bruits in carotid artery before performing\nPerform ONE side at a time\nPerform with caution in elderly patients and those with a history of cardiovascular or neurologic events, though the complication rate is low\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Reverse_valsalva": {
+      "text": "First described in a 2020 case series from France by Gaudart, et al.\n[3]\nInitial data scant but promising with 10/11 cardioverting to normal sinus rhythm, including 4 who had failed the modified Valsalva maneuver",
+      "subsections": {
+        "Set-up": {
+          "text": "No assistant or items necessary",
+          "tables": []
+        },
+        "Procedure": {
+          "text": "Have the patient exhale completely in a sitting position\nPinch nose and close mouth tightly\nAttempt to inhale against resistance for 10 seconds",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Set-up": {
+      "text": "No assistant or items necessary",
+      "subsections": {
+        "Procedure": {
+          "text": "Have the patient exhale completely in a sitting position\nPinch nose and close mouth tightly\nAttempt to inhale against resistance for 10 seconds",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Have the patient exhale completely in a sitting position\nPinch nose and close mouth tightly\nAttempt to inhale against resistance for 10 seconds",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatrics": {
+      "text": "Often successful with ice or ice-water application to face for at least 10 seconds (physiologically similar to mammalian diving reflex, and works best in infants up to 6 months of age)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "SVT",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.medmastery.com/magazine/modified-valsalva-maneuver-video-review",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

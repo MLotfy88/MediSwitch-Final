@@ -1,0 +1,118 @@
+{
+  "drug_name": "Vasa_previa",
+  "url": "https://wikem.org/wiki/Vasa_previa",
+  "scraped_at": "2026-01-10T08:04:52.205562",
+  "sections": {
+    "Background": {
+      "text": "Fetal blood vessels from the umbilical cord run in close proximity to cervical os\nSeldom recognized prior to vessel disruption",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Placenta previa\nIVF\nBilobed placenta",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Placenta previa\nIVF\nBilobed placenta",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Painless\nbleeding\noccurs during spontaneous rupture of membranes\nFetal in origin (mother's life is not at risk)\nMay lead to fetal exsanguination",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(greater_than_20wks)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vaginal_Bleeding_in_Pregnancy_(>20wks)": {
+          "text": "Emergent delivery\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nPreterm labor\nVaginal trauma\nPlacenta accreta\nIntrauterine fetal demise",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Intrauterine fetal demise",
+          "url": "https://wikem.org/wiki/Intrauterine_fetal_demise"
+        }
+      ]
+    },
+    "Management": {
+      "text": "C-section",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pregnant vaginal bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also_2": {
+      "text": "Vaginal Bleeding (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal Bleeding (Main)",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "drug_name": "Unilateral_leg_swelling",
+  "url": "https://wikem.org/wiki/Unilateral_leg_swelling",
+  "scraped_at": "2026-01-10T08:04:35.691982",
+  "sections": {
+    "Background": {
+      "text": "Definition: existence of the excess fluid in the lower extremity resulting in swelling of the feet and extending upward\nFurther classified as pitting (depress-able) and non-pitting",
+      "subsections": {
+        "Causes_of_pedal_edema": {
+          "text": "Increased hydrostatic pressure\nDecreased oncotic pressure\nIncreased capillary permeability\nLymphatic obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes_of_pedal_edema": {
+      "text": "Increased hydrostatic pressure\nDecreased oncotic pressure\nIncreased capillary permeability\nLymphatic obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Unilateral leg swelling",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Unilateral_leg_swelling": {
+          "text": "Gravitational\nVenous stasis\nThrombophlebitis\nLymphedema\nMedications\nNSAIDS\nBirth control\nSteroids\nDeep venous thrombosis\n(uncomplicated)\nPhlegmasia alba dolens\nPhlegmasia cerulea dolens\nLeg or\nfoot infection\nCellulitis\nNecrotizing fasciitis\nSeptic Joint\nFracture\nCompartment syndrome\nLimb hypertrophy\nHypertrophy of soft tissue or bone (Klippel-Trenaunay syndrome)\nOvergrowth of body part (Proteus Syndrome)\nLipedema\nTumor\nPost-thrombotic Syndrome\nCauses of\nbilateral pedal edema\nCHF\nPretibial myxedema\nRenal failure\nLiver failure\nHypoalbuminemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Venous stasis",
+          "url": "https://wikem.org/wiki/Venous_stasis"
+        },
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Lymphedema",
+          "url": "https://wikem.org/wiki/Lymphedema"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        },
+        {
+          "text": "Phlegmasia cerulea dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_cerulea_dolens"
+        },
+        {
+          "text": "foot infection",
+          "url": "https://wikem.org/wiki/Foot_infection"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Septic Joint",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "bilateral pedal edema",
+          "url": "https://wikem.org/wiki/Bilateral_pedal_edema"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pretibial myxedema",
+          "url": "https://wikem.org/wiki/Pretibial_myxedema"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        }
+      ]
+    },
+    "Unilateral_leg_swelling": {
+      "text": "Gravitational\nVenous stasis\nThrombophlebitis\nLymphedema\nMedications\nNSAIDS\nBirth control\nSteroids\nDeep venous thrombosis\n(uncomplicated)\nPhlegmasia alba dolens\nPhlegmasia cerulea dolens\nLeg or\nfoot infection\nCellulitis\nNecrotizing fasciitis\nSeptic Joint\nFracture\nCompartment syndrome\nLimb hypertrophy\nHypertrophy of soft tissue or bone (Klippel-Trenaunay syndrome)\nOvergrowth of body part (Proteus Syndrome)\nLipedema\nTumor\nPost-thrombotic Syndrome\nCauses of\nbilateral pedal edema\nCHF\nPretibial myxedema\nRenal failure\nLiver failure\nHypoalbuminemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Venous stasis",
+          "url": "https://wikem.org/wiki/Venous_stasis"
+        },
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Lymphedema",
+          "url": "https://wikem.org/wiki/Lymphedema"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        },
+        {
+          "text": "Phlegmasia cerulea dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_cerulea_dolens"
+        },
+        {
+          "text": "foot infection",
+          "url": "https://wikem.org/wiki/Foot_infection"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Septic Joint",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "bilateral pedal edema",
+          "url": "https://wikem.org/wiki/Bilateral_pedal_edema"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pretibial myxedema",
+          "url": "https://wikem.org/wiki/Pretibial_myxedema"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Ultrasound to rule-out DVT\nConsider x-rays",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound to rule-out DVT",
+          "url": "https://wikem.org/wiki/DVT_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treatment is based on addressing underlying disease process\nIdiopathic edema is a diagnosis of exclusion.  Other disease process, including heart failure, cirrhosis, acute renal failure, nephrotic syndrome, chronic venous insufficiency, and medication induced edema must first be considered.\n[1]\nIdiopathic pedal edema need not to be treated with diuretics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "If no respiratory symptoms, most patients may be safely discharged home\nPatients should be followed up in medical clinic for further investigation and care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Bilateral pedal edema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bilateral pedal edema",
+          "url": "https://wikem.org/wiki/Bilateral_pedal_edema"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: Differential Diagnosis of Lower Extremity Edema",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

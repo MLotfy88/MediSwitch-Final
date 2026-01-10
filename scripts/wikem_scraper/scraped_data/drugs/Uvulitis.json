@@ -1,0 +1,667 @@
+{
+  "drug_name": "Uvulitis",
+  "url": "https://wikem.org/wiki/Uvulitis",
+  "scraped_at": "2026-01-10T08:04:45.669858",
+  "sections": {
+    "Background": {
+      "text": "Uvulitis is characterized by inflammation and edema of uvula\nIsolated uvular inflammation is rare\nMore commonly manifests with other inflammatory diseases of oropharynx:\nEpiglottitis\nPharyngitis\nRarely causes life threatening\nrespiratory distress",
+      "subsections": {
+        "Etiologies": {
+          "text": "Major division: infectious vs. noninfectious etiology\nInfections\n:\nMost commonly\nH. Influenzae\nType B &\nGroup A Streptococcus\nH. Influenzae\nFrequently with\nEpiglottitis\nGroup A Streptococcus\nFrequently with\nPharyngitis\nLess common\nS. Pneumoniae\nAdults\nAnaerobic bacteria\nCandida Albicans\nNoninfectious\nTrauma\nAngioedema\nInhalant irritation\nInhaled\ncannabinoids\nSmoking\nAllergy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "H. Influenzae",
+          "url": "https://wikem.org/wiki/H._Influenzae"
+        },
+        {
+          "text": "Group A Streptococcus",
+          "url": "https://wikem.org/wiki/Group_A_Streptococcus"
+        },
+        {
+          "text": "H. Influenzae",
+          "url": "https://wikem.org/wiki/H._Influenzae"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Group A Streptococcus",
+          "url": "https://wikem.org/wiki/Group_A_Streptococcus"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "S. Pneumoniae",
+          "url": "https://wikem.org/wiki/S._Pneumoniae"
+        },
+        {
+          "text": "Anaerobic bacteria",
+          "url": "https://wikem.org/wiki/Anaerobic_bacteria"
+        },
+        {
+          "text": "Candida Albicans",
+          "url": "https://wikem.org/wiki/Candida_Albicans"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "cannabinoids",
+          "url": "https://wikem.org/wiki/Cannabinoids"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Acute_allergic_reaction"
+        }
+      ]
+    },
+    "Etiologies": {
+      "text": "Major division: infectious vs. noninfectious etiology\nInfections\n:\nMost commonly\nH. Influenzae\nType B &\nGroup A Streptococcus\nH. Influenzae\nFrequently with\nEpiglottitis\nGroup A Streptococcus\nFrequently with\nPharyngitis\nLess common\nS. Pneumoniae\nAdults\nAnaerobic bacteria\nCandida Albicans\nNoninfectious\nTrauma\nAngioedema\nInhalant irritation\nInhaled\ncannabinoids\nSmoking\nAllergy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "H. Influenzae",
+          "url": "https://wikem.org/wiki/H._Influenzae"
+        },
+        {
+          "text": "Group A Streptococcus",
+          "url": "https://wikem.org/wiki/Group_A_Streptococcus"
+        },
+        {
+          "text": "H. Influenzae",
+          "url": "https://wikem.org/wiki/H._Influenzae"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Group A Streptococcus",
+          "url": "https://wikem.org/wiki/Group_A_Streptococcus"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "S. Pneumoniae",
+          "url": "https://wikem.org/wiki/S._Pneumoniae"
+        },
+        {
+          "text": "Anaerobic bacteria",
+          "url": "https://wikem.org/wiki/Anaerobic_bacteria"
+        },
+        {
+          "text": "Candida Albicans",
+          "url": "https://wikem.org/wiki/Candida_Albicans"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "cannabinoids",
+          "url": "https://wikem.org/wiki/Cannabinoids"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Acute_allergic_reaction"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Throat pain\nDysphagia\n, sensation of something in their throat, gagging sensation\nLow-grade\nfever\nSigns/symptoms of concomitant\nepiglottitis\nSudden onset\nHigh\nfever\nDysphagia\nSOB\nDrooling\n+/- Features indicative of etiology:\nSick contacts\nAllergen exposure\nRecent surgical procedure with site of entry via mouth (EGD, laryngoscopy, OGT, etc)\nRecent inhalation of cannabis\nIncomplete\nvaccination\nstatus\nH. Influenzae\n- epiglottis\nFirst H. Influenzae vaccine at 2 months, last booster 12-15 months\nHereditary\nangioedema",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "General\nRange from well appearing to toxic\nUvula\nMarkedly erythematous and edematous\nPinpoint hemorrhage is possible\nVesicular lesions possible if viral etiology\nNonerythematous, pale, swollen (uvular hydrops) may indicate angioedema\nTonsils\nEdematous vs. nonedematous\nExudative vs. nonexudative\nErythematous posterior pharynx\nRespiratory\nRange non-labored breathing to (rarely)\nrespiratory distress\nStridor\n\"Hot Potato Voice\"\nTypically clear lungs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Throat pain",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "vaccination",
+          "url": "https://wikem.org/wiki/Vaccination_schedule"
+        },
+        {
+          "text": "H. Influenzae",
+          "url": "https://wikem.org/wiki/H._Influenzae"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        }
+      ]
+    },
+    "History": {
+      "text": "Throat pain\nDysphagia\n, sensation of something in their throat, gagging sensation\nLow-grade\nfever\nSigns/symptoms of concomitant\nepiglottitis\nSudden onset\nHigh\nfever\nDysphagia\nSOB\nDrooling\n+/- Features indicative of etiology:\nSick contacts\nAllergen exposure\nRecent surgical procedure with site of entry via mouth (EGD, laryngoscopy, OGT, etc)\nRecent inhalation of cannabis\nIncomplete\nvaccination\nstatus\nH. Influenzae\n- epiglottis\nFirst H. Influenzae vaccine at 2 months, last booster 12-15 months\nHereditary\nangioedema",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "General\nRange from well appearing to toxic\nUvula\nMarkedly erythematous and edematous\nPinpoint hemorrhage is possible\nVesicular lesions possible if viral etiology\nNonerythematous, pale, swollen (uvular hydrops) may indicate angioedema\nTonsils\nEdematous vs. nonedematous\nExudative vs. nonexudative\nErythematous posterior pharynx\nRespiratory\nRange non-labored breathing to (rarely)\nrespiratory distress\nStridor\n\"Hot Potato Voice\"\nTypically clear lungs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Throat pain",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "vaccination",
+          "url": "https://wikem.org/wiki/Vaccination_schedule"
+        },
+        {
+          "text": "H. Influenzae",
+          "url": "https://wikem.org/wiki/H._Influenzae"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        }
+      ]
+    },
+    "Physical_Exam": {
+      "text": "General\nRange from well appearing to toxic\nUvula\nMarkedly erythematous and edematous\nPinpoint hemorrhage is possible\nVesicular lesions possible if viral etiology\nNonerythematous, pale, swollen (uvular hydrops) may indicate angioedema\nTonsils\nEdematous vs. nonedematous\nExudative vs. nonexudative\nErythematous posterior pharynx\nRespiratory\nRange non-labored breathing to (rarely)\nrespiratory distress\nStridor\n\"Hot Potato Voice\"\nTypically clear lungs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Uvulitis\nInfectious\nGroup A\nStreptococcus\nH. Influenza\nStrep. Pneumoniae\nCandida Albicans\nNoninfectious\nTrauma\nAngioedema\nInhalant irritation\nAllergy\nEpiglottitis\nStreptococcal Pharyngitis\nPeritonsillar Abscess\nRetropharyngeal Abscess\nHerpes gingivostomatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "H. Influenza",
+          "url": "https://wikem.org/wiki/H._Influenza"
+        },
+        {
+          "text": "Strep. Pneumoniae",
+          "url": "https://wikem.org/wiki/Strep._Pneumoniae"
+        },
+        {
+          "text": "Candida Albicans",
+          "url": "https://wikem.org/wiki/Candida_Albicans"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Streptococcal Pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_Pharyngitis"
+        },
+        {
+          "text": "Peritonsillar Abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess"
+        },
+        {
+          "text": "Retropharyngeal Abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_Abscess"
+        },
+        {
+          "text": "Herpes gingivostomatitis",
+          "url": "https://wikem.org/wiki/Herpes_gingivostomatitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Rapid strep throat swab\nHeterophile antibody (monospot) test\nIf patient is ill appearing consider:\nCBC\nCMP\nBlood culture\nImaging\nIf concern for epiglottitis\nLateral neck x-ray\nIf concern for retropharyngeal abscess\nCT neck with contrast",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "ABC’s and Resuscitation if necessary\nManagement guided by association with\nEpiglottitis\nor\nStreptococcal Pharyngitis",
+      "subsections": {
+        "Epiglottitis": {
+          "text": "General Treatment\nAirway protection with fiberoptic intubation or tracheostomy\nDexamethasone\n0.15mg/kg\nNebulized\nepinephrine\nAntibiotic treatment\nPediatric:\n(\nCefotaxime\n50mg/kg IV q8h and\nCeftriaxone\n50mg/kg IV q24hr) plus\nVancomycin\n15mg/kg IV q12h\nAdult:\n(\nCefotaxime\n2gm IV q4-8h or\nCeftriaxone\n2gm IV q24h) plus\nVancomycin",
+          "tables": []
+        },
+        "Streptococcal_Pharyngitis": {
+          "text": "Pediatrics\nPenicillin V 250mg PO BID x 10 days\nAmoxicillin 50mg/kg PO once daily x 10 days\nAdults\nPenicillin V\n500mg PO BID x 10 days\nIf compliance is unlikely\nBenzathine Penicillin 25,000Units/kg IM (to a maximum of 1.2 million units) x 1 dose\nIf allergic to PCN\nClindamycin\n300mg PO q8h x 10days",
+          "tables": []
+        },
+        "C._Albicans": {
+          "text": "Topical\nnystatin",
+          "tables": []
+        },
+        "Trauma": {
+          "text": "Acetaminophen\nLocal anesthetic lozenges",
+          "tables": []
+        },
+        "Allergic_Reaction": {
+          "text": "Treatment determined by severity of illness\nEpinephrine\n0.3mg 1:1,000 IM\nDiphenhydramine\n50mg IV\nRanitidine\n150mg\nMethylprednisolone\n125mg IV",
+          "tables": []
+        },
+        "Angioedema": {
+          "text": "Cover for allergic reaction with medications above\nIf true angioedema, will not resolve symptoms\nStop\nACE inhibitor\nSee\nangioedema management",
+          "tables": []
+        },
+        "Inhalant_irritation": {
+          "text": "Antihistamines\nIV\nHydrocortisone\nor\ndexamethasone\nIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Streptococcal Pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_Pharyngitis"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "angioedema management",
+          "url": "https://wikem.org/wiki/Angioedema#Management"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Infectious": {
+      "text": "",
+      "subsections": {
+        "Epiglottitis": {
+          "text": "General Treatment\nAirway protection with fiberoptic intubation or tracheostomy\nDexamethasone\n0.15mg/kg\nNebulized\nepinephrine\nAntibiotic treatment\nPediatric:\n(\nCefotaxime\n50mg/kg IV q8h and\nCeftriaxone\n50mg/kg IV q24hr) plus\nVancomycin\n15mg/kg IV q12h\nAdult:\n(\nCefotaxime\n2gm IV q4-8h or\nCeftriaxone\n2gm IV q24h) plus\nVancomycin",
+          "tables": []
+        },
+        "Streptococcal_Pharyngitis": {
+          "text": "Pediatrics\nPenicillin V 250mg PO BID x 10 days\nAmoxicillin 50mg/kg PO once daily x 10 days\nAdults\nPenicillin V\n500mg PO BID x 10 days\nIf compliance is unlikely\nBenzathine Penicillin 25,000Units/kg IM (to a maximum of 1.2 million units) x 1 dose\nIf allergic to PCN\nClindamycin\n300mg PO q8h x 10days",
+          "tables": []
+        },
+        "C._Albicans": {
+          "text": "Topical\nnystatin",
+          "tables": []
+        },
+        "Trauma": {
+          "text": "Acetaminophen\nLocal anesthetic lozenges",
+          "tables": []
+        },
+        "Allergic_Reaction": {
+          "text": "Treatment determined by severity of illness\nEpinephrine\n0.3mg 1:1,000 IM\nDiphenhydramine\n50mg IV\nRanitidine\n150mg\nMethylprednisolone\n125mg IV",
+          "tables": []
+        },
+        "Angioedema": {
+          "text": "Cover for allergic reaction with medications above\nIf true angioedema, will not resolve symptoms\nStop\nACE inhibitor\nSee\nangioedema management",
+          "tables": []
+        },
+        "Inhalant_irritation": {
+          "text": "Antihistamines\nIV\nHydrocortisone\nor\ndexamethasone\nIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "angioedema management",
+          "url": "https://wikem.org/wiki/Angioedema#Management"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Noninfectious": {
+      "text": "",
+      "subsections": {
+        "Trauma": {
+          "text": "Acetaminophen\nLocal anesthetic lozenges",
+          "tables": []
+        },
+        "Allergic_Reaction": {
+          "text": "Treatment determined by severity of illness\nEpinephrine\n0.3mg 1:1,000 IM\nDiphenhydramine\n50mg IV\nRanitidine\n150mg\nMethylprednisolone\n125mg IV",
+          "tables": []
+        },
+        "Angioedema": {
+          "text": "Cover for allergic reaction with medications above\nIf true angioedema, will not resolve symptoms\nStop\nACE inhibitor\nSee\nangioedema management",
+          "tables": []
+        },
+        "Inhalant_irritation": {
+          "text": "Antihistamines\nIV\nHydrocortisone\nor\ndexamethasone\nIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "angioedema management",
+          "url": "https://wikem.org/wiki/Angioedema#Management"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Determined by severity, complications, etc.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Epiglottitis\nRetropharyngeal abscess",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        }
+      ]
+    }
+  }
+}

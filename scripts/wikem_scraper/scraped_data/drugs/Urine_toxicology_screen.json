@@ -1,0 +1,139 @@
+{
+  "drug_name": "Urine_toxicology_screen",
+  "url": "https://wikem.org/wiki/Urine_toxicology_screen",
+  "scraped_at": "2026-01-10T08:04:41.945508",
+  "sections": {
+    "Background": {
+      "text": "Urine drug screen (UDS / UTOX) is typically ordered in trauma, psych, and altered mental status patients where the results can assist inpatient management.\nCooperative psych patients do not require Utox as part of the ED screen\n[1]\n(unless local policy dictates)\nRoutine testing of activated traumas is reasonable, but discretionary testing of nonactivated traumas should be adopted\n[2]\nUnlikely to have any significant impact on the management of ED patients\n[3]\nDrug testing alone never significantly better than history\n[4]\nAppropriate in pediatric altered mental status workup, determining brain death, management of psychiatric disease (dual diagnosis treatment), and in trauma victim patients (substance abuse counseling).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Detection_Interval": {
+      "text": "This is the estimated time a drug is detectable on urine drug screen after last use.\n[5]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Screen": "Amphetamines",
+            "Interval (Prolonged Use)": "1-2 d (2-4 d)"
+          },
+          {
+            "Screen": "Barbiturates",
+            "Interval (Prolonged Use)": "2-4 d"
+          },
+          {
+            "Screen": "Benzodiazepines",
+            "Interval (Prolonged Use)": "1-30 d"
+          },
+          {
+            "Screen": "Cannabinoids",
+            "Interval (Prolonged Use)": "1-3 d (>1 mo)"
+          },
+          {
+            "Screen": "Cocaine",
+            "Interval (Prolonged Use)": "2 d (1 wk)"
+          },
+          {
+            "Screen": "Opiates",
+            "Interval (Prolonged Use)": "1-4 d (<1 wk)"
+          },
+          {
+            "Screen": "Phencyclidine",
+            "Interval (Prolonged Use)": "4-7 d (>1 mo)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Cross_Reactivity": {
+      "text": "Many non-illicit drugs cross react with common drugs screened on the traditional urine drug screen\n[6]\n[7]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Screen": "Amphetamines",
+            "Drugs": "Amantadine,bupropion,chlorpromazine, desipramine.fluoxetine, L-methamphetamine,labetalol,methylphenidate, phentermine,phenylephrine, phenylpropanolamine,promethazine,pseudoephedrine, ranitidine, thioridazine,trazodone"
+          },
+          {
+            "Screen": "Benzodiazepines",
+            "Drugs": "Oxaprozin, sertraline"
+          },
+          {
+            "Screen": "Cannabinoids",
+            "Drugs": "Dronabinol,nonsteroidal anti-inflammatory drugs,proton pump inhibitors"
+          },
+          {
+            "Screen": "Cocaine",
+            "Drugs": "Topical anesthetics containing cocaine"
+          },
+          {
+            "Screen": "Opiates",
+            "Drugs": "Dextromethorphan,diphenhydramine,fluoroquinolones, poppy seeds,quinine,rifampin,verapamil"
+          },
+          {
+            "Screen": "Phencyclidine",
+            "Drugs": "Dextromethorphan,diphenhydramine,ibuprofen, imipramine, ketamine, meperidine, thioridazine,tramadol,venlafaxine"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "True_Positives_and_False_Negatives": {
+      "text": "Most benzodiazepine screens look for oxazepam which is a metabolite of diazepam and chlordiazepoxide. Therefore, lorazepam, alprazolam, and clonazepam are commonly missed.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Screen": "Amphetamines",
+            "TP": "",
+            "FN": "MDA & MDMA"
+          },
+          {
+            "Screen": "Benzodiazepines",
+            "TP": "Oxazepam, temazepam, diazepam, alprazolam, triazolam",
+            "FN": "Lorazepam, clonazepam, midazolam"
+          },
+          {
+            "Screen": "Cannabinoids",
+            "TP": "",
+            "FN": "Synthetics"
+          },
+          {
+            "Screen": "Cocaine",
+            "TP": "",
+            "FN": "Unlikely"
+          },
+          {
+            "Screen": "Opiates",
+            "TP": "Morphine, Codeine, Heroin",
+            "FN": "Fentanyl, tramadol, meperidine, methadone, oxycodone, buprenorphine, hydrocodone, hydromorphone"
+          },
+          {
+            "Screen": "Phencyclidine",
+            "TP": "New screens are very specific",
+            "FN": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Drugs of abuse",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Clinical Toxicology: Do you really need that emergency drug screen?",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

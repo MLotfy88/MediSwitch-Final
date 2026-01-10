@@ -1,0 +1,420 @@
+{
+  "drug_name": "Vaccination_schedule",
+  "url": "https://wikem.org/wiki/Vaccination_schedule",
+  "scraped_at": "2026-01-10T08:04:43.394939",
+  "sections": {
+    "US_CDC_Immunization_Schedule": {
+      "text": "PCV13 = Prevnar",
+      "subsections": {
+        "Birth_to_18_Months": {
+          "text": "The influenza vaccine should be given seasonally to all children >6 months. When receiving the vaccine for the first time, children should receive 2 doses of vaccine 4 weeks apart.",
+          "tables": [
+            [
+              {
+                "Vaccine": "Hep B",
+                "Birth": "1st dose",
+                "1 mo": "2nd dose",
+                "2 mos": "",
+                "4 mos": "3rd dose"
+              },
+              {
+                "Vaccine": "Rotavirus",
+                "Birth": "",
+                "1 mo": "",
+                "2 mos": "1st dose",
+                "4 mos": "2nd dose",
+                "6 mos": "",
+                "9 mos": "",
+                "12 mos": "",
+                "15 mos": ""
+              },
+              {
+                "Vaccine": "DTaP",
+                "Birth": "",
+                "1 mo": "",
+                "2 mos": "1st dose",
+                "4 mos": "2nd dose",
+                "6 mos": "3rd dose",
+                "9 mos": "",
+                "12 mos": "",
+                "15 mos": "4th dose"
+              },
+              {
+                "Vaccine": "HiB",
+                "Birth": "",
+                "1 mo": "",
+                "2 mos": "1st dose",
+                "4 mos": "2nd dose",
+                "6 mos": "",
+                "9 mos": "",
+                "12 mos": "3rd/4th dose"
+              },
+              {
+                "Vaccine": "PCV13",
+                "Birth": "",
+                "1 mo": "",
+                "2 mos": "1st dose",
+                "4 mos": "2nd dose",
+                "6 mos": "3rd dose",
+                "9 mos": "",
+                "12 mos": "4th dose"
+              },
+              {
+                "Vaccine": "Polio",
+                "Birth": "",
+                "1 mo": "",
+                "2 mos": "1st dose",
+                "4 mos": "2nd dose",
+                "6 mos": "3rd dose"
+              },
+              {
+                "Vaccine": "MMR",
+                "Birth": "",
+                "1 mo": "",
+                "2 mos": "",
+                "4 mos": "",
+                "6 mos": "",
+                "9 mos": "",
+                "12 mos": "1st dose"
+              },
+              {
+                "Vaccine": "Varicella",
+                "Birth": "",
+                "1 mo": "",
+                "2 mos": "",
+                "4 mos": "",
+                "6 mos": "",
+                "9 mos": "",
+                "12 mos": "1st dose"
+              },
+              {
+                "Vaccine": "HepA",
+                "Birth": "",
+                "1 mo": "",
+                "2 mos": "",
+                "4 mos": "",
+                "6 mos": "",
+                "9 mos": "",
+                "12 mos": "2 dose series"
+              }
+            ]
+          ]
+        },
+        "18_Months_to_18_Years": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Vaccine": "Hep B",
+                "18 mos": "3rd dose",
+                "19-23 mos": ""
+              },
+              {
+                "Vaccine": "DTaP",
+                "18 mos": "4th dose",
+                "19-23 mos": "",
+                "2-3 yrs": "",
+                "4-6 yrs": "5th dose",
+                "7-10 yrs": "",
+                "11-12 yrs": "(Tdap)"
+              },
+              {
+                "Vaccine": "Polio",
+                "18 mos": "3rd dose",
+                "19-23 mos": "",
+                "2-3 yrs": "",
+                "4-6 yrs": "4th dose"
+              },
+              {
+                "Vaccine": "MMR",
+                "18 mos": "",
+                "19-23 mos": "",
+                "2-3 yrs": "",
+                "4-6 yrs": "2nd dose"
+              },
+              {
+                "Vaccine": "Varicella",
+                "18 mos": "",
+                "19-23 mos": "",
+                "2-3 yrs": "",
+                "4-6 yrs": "2nd dose"
+              },
+              {
+                "Vaccine": "HepA",
+                "18 mos": "2 dose series"
+              },
+              {
+                "Vaccine": "HPV",
+                "18 mos": "",
+                "19-23 mos": "",
+                "2-3 yrs": "",
+                "4-6 yrs": "",
+                "7-10 yrs": "",
+                "11-12 yrs": "3 dose series"
+              },
+              {
+                "Vaccine": "Meningococcal",
+                "18 mos": "",
+                "19-23 mos": "",
+                "2-3 yrs": "",
+                "4-6 yrs": "",
+                "7-10 yrs": "",
+                "11-12 yrs": "1st dose"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Birth_to_18_Months": {
+      "text": "The influenza vaccine should be given seasonally to all children >6 months. When receiving the vaccine for the first time, children should receive 2 doses of vaccine 4 weeks apart.",
+      "subsections": {
+        "18_Months_to_18_Years": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Vaccine": "Hep B",
+                "18 mos": "3rd dose",
+                "19-23 mos": ""
+              },
+              {
+                "Vaccine": "DTaP",
+                "18 mos": "4th dose",
+                "19-23 mos": "",
+                "2-3 yrs": "",
+                "4-6 yrs": "5th dose",
+                "7-10 yrs": "",
+                "11-12 yrs": "(Tdap)"
+              },
+              {
+                "Vaccine": "Polio",
+                "18 mos": "3rd dose",
+                "19-23 mos": "",
+                "2-3 yrs": "",
+                "4-6 yrs": "4th dose"
+              },
+              {
+                "Vaccine": "MMR",
+                "18 mos": "",
+                "19-23 mos": "",
+                "2-3 yrs": "",
+                "4-6 yrs": "2nd dose"
+              },
+              {
+                "Vaccine": "Varicella",
+                "18 mos": "",
+                "19-23 mos": "",
+                "2-3 yrs": "",
+                "4-6 yrs": "2nd dose"
+              },
+              {
+                "Vaccine": "HepA",
+                "18 mos": "2 dose series"
+              },
+              {
+                "Vaccine": "HPV",
+                "18 mos": "",
+                "19-23 mos": "",
+                "2-3 yrs": "",
+                "4-6 yrs": "",
+                "7-10 yrs": "",
+                "11-12 yrs": "3 dose series"
+              },
+              {
+                "Vaccine": "Meningococcal",
+                "18 mos": "",
+                "19-23 mos": "",
+                "2-3 yrs": "",
+                "4-6 yrs": "",
+                "7-10 yrs": "",
+                "11-12 yrs": "1st dose"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Vaccine": "Hep B",
+            "Birth": "1st dose",
+            "1 mo": "2nd dose",
+            "2 mos": "",
+            "4 mos": "3rd dose"
+          },
+          {
+            "Vaccine": "Rotavirus",
+            "Birth": "",
+            "1 mo": "",
+            "2 mos": "1st dose",
+            "4 mos": "2nd dose",
+            "6 mos": "",
+            "9 mos": "",
+            "12 mos": "",
+            "15 mos": ""
+          },
+          {
+            "Vaccine": "DTaP",
+            "Birth": "",
+            "1 mo": "",
+            "2 mos": "1st dose",
+            "4 mos": "2nd dose",
+            "6 mos": "3rd dose",
+            "9 mos": "",
+            "12 mos": "",
+            "15 mos": "4th dose"
+          },
+          {
+            "Vaccine": "HiB",
+            "Birth": "",
+            "1 mo": "",
+            "2 mos": "1st dose",
+            "4 mos": "2nd dose",
+            "6 mos": "",
+            "9 mos": "",
+            "12 mos": "3rd/4th dose"
+          },
+          {
+            "Vaccine": "PCV13",
+            "Birth": "",
+            "1 mo": "",
+            "2 mos": "1st dose",
+            "4 mos": "2nd dose",
+            "6 mos": "3rd dose",
+            "9 mos": "",
+            "12 mos": "4th dose"
+          },
+          {
+            "Vaccine": "Polio",
+            "Birth": "",
+            "1 mo": "",
+            "2 mos": "1st dose",
+            "4 mos": "2nd dose",
+            "6 mos": "3rd dose"
+          },
+          {
+            "Vaccine": "MMR",
+            "Birth": "",
+            "1 mo": "",
+            "2 mos": "",
+            "4 mos": "",
+            "6 mos": "",
+            "9 mos": "",
+            "12 mos": "1st dose"
+          },
+          {
+            "Vaccine": "Varicella",
+            "Birth": "",
+            "1 mo": "",
+            "2 mos": "",
+            "4 mos": "",
+            "6 mos": "",
+            "9 mos": "",
+            "12 mos": "1st dose"
+          },
+          {
+            "Vaccine": "HepA",
+            "Birth": "",
+            "1 mo": "",
+            "2 mos": "",
+            "4 mos": "",
+            "6 mos": "",
+            "9 mos": "",
+            "12 mos": "2 dose series"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "18_Months_to_18_Years": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Vaccine": "Hep B",
+            "18 mos": "3rd dose",
+            "19-23 mos": ""
+          },
+          {
+            "Vaccine": "DTaP",
+            "18 mos": "4th dose",
+            "19-23 mos": "",
+            "2-3 yrs": "",
+            "4-6 yrs": "5th dose",
+            "7-10 yrs": "",
+            "11-12 yrs": "(Tdap)"
+          },
+          {
+            "Vaccine": "Polio",
+            "18 mos": "3rd dose",
+            "19-23 mos": "",
+            "2-3 yrs": "",
+            "4-6 yrs": "4th dose"
+          },
+          {
+            "Vaccine": "MMR",
+            "18 mos": "",
+            "19-23 mos": "",
+            "2-3 yrs": "",
+            "4-6 yrs": "2nd dose"
+          },
+          {
+            "Vaccine": "Varicella",
+            "18 mos": "",
+            "19-23 mos": "",
+            "2-3 yrs": "",
+            "4-6 yrs": "2nd dose"
+          },
+          {
+            "Vaccine": "HepA",
+            "18 mos": "2 dose series"
+          },
+          {
+            "Vaccine": "HPV",
+            "18 mos": "",
+            "19-23 mos": "",
+            "2-3 yrs": "",
+            "4-6 yrs": "",
+            "7-10 yrs": "",
+            "11-12 yrs": "3 dose series"
+          },
+          {
+            "Vaccine": "Meningococcal",
+            "18 mos": "",
+            "19-23 mos": "",
+            "2-3 yrs": "",
+            "4-6 yrs": "",
+            "7-10 yrs": "",
+            "11-12 yrs": "1st dose"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vaccines in pregnancy\nTetanus prophylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaccines in pregnancy",
+          "url": "https://wikem.org/wiki/Vaccines_in_pregnancy"
+        },
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "References": {
+      "text": "http://www.cdc.gov/vaccines/schedules/index.html\nhttp://www.cdc.gov/vaccines/schedules/hcp/child-adolescent.html\nBirth to 18 Years - Color, printable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "drug_name": "Vancomycin_infusion_reaction",
+  "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction",
+  "scraped_at": "2026-01-10T08:04:52.155161",
+  "sections": {
+    "Background": {
+      "text": "Also known as Vancomycin Flushing Syndrome or \"Red Man Syndrome\"\n[1]\nAnaphylactoid reaction after the rapid infusion of\nVancomycin\nPredominantly seen in intravenous infusions, may occur via oral administration in patients with impaired kidney function\nVancomycin triggers the direct release of histamine from mast cells and basophils\nDifferent from anaphylaxis in that reaction is not IgE-Mediated, does not preclude future administration\nRelated to the rate of infusion\nShould be administered at a rate no faster than 10mg/minute (minimum of 1g over 100 minutes)\nIncreased incidence when co-administering with opioids, radiocontrast dye, and some muscle relaxers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Intensely pruritic,\nerythematous rash\nPredominantly face/neck/upper torso\nOccasional\nchest pain\n/\ndyspnea\n, back spasms\nLess common tachycardia,\nfever\n,\nangioedema\n,\nhypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "erythematous rash",
+          "url": "https://wikem.org/wiki/Erythematous_rash"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        }
+      ]
+    },
+    "Erythematous_rash": {
+      "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Typically not needed",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical\nRule out from\nAnaphylaxis\nAssess presence/degree of angioedema\nMild cases include pruritis and erythema\nModerate to severe cases include hypotension, angioedema, chest pain and dyspnea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Typically not needed",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical\nRule out from\nAnaphylaxis\nAssess presence/degree of angioedema\nMild cases include pruritis and erythema\nModerate to severe cases include hypotension, angioedema, chest pain and dyspnea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Clinical\nRule out from\nAnaphylaxis\nAssess presence/degree of angioedema\nMild cases include pruritis and erythema\nModerate to severe cases include hypotension, angioedema, chest pain and dyspnea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Immediately stop transfusion\nSupportive care\nIV H1/H2 blockers\nIVF for transient hypotension, if hypotension prolonged consider anaphylaxis\nIn mild cases, infusion may be restarted after symptom resolution (typically ~20 minutes)\nIn moderate to severe cases, consider pre-medicating after an hour or switching to an alternative antibiotic\nIf patients require rapid infusion of vancomycin, consider pre-medication with diphenhydramine and cimetidine.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "No observation period needed after resolution of symptoms\nImportant to education patient to\navoid\nfuture diagnosis of vancomycin allergy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vancomycin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "References": {
+      "text": "Martel TJ, Jamil RT, King KC. Vancomycin Flushing Syndrome. [Updated 2023 Jan 25]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2023 Jan-. Available from:\nhttps://www.ncbi.nlm.nih.gov/books/NBK482506/\nSivagnanam S, Deleu D. Red man syndrome. Crit Care. 2003 Apr;7(2):119-20. doi: 10.1186/cc1871. Epub 2002 Dec 23. PMID: 12720556; PMCID: PMC270616.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

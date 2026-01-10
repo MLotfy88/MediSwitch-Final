@@ -1,0 +1,903 @@
+{
+  "drug_name": "Urinary_tract_infection_(peds)",
+  "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)",
+  "scraped_at": "2026-01-10T08:04:39.317119",
+  "sections": {
+    "Intro": {
+      "text": "This page is for pediatric patients; see\nAcute cystitis\nfor adult patients.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Most common SBI, accounts for 5-8% of children presenting for fever without clear source\nAssociated with bacteremia in up to 30% of infants 4-8wk of age\nE. coli\nis responsible for ~80% of UTIs\nAfter 1yr of age, occult UTI with normal UA extremely rare\nAfter 2yr of age, UTI remains common in girls (but associated with symptoms)\nUTI in adolescent girl is suggestive of intercourse\nPrevalence of UTI in\nbronchiolitis\nis only 0.8% based on 2019 meta-analysis, which is far lower than in previous studies, suggesting less need for automatic testing for UTI in bronchiolitis\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Infants/young children:\nfever\nwithout other source\nOlder children:\nDysuria\n, frequency, or other urinary complaints\n+/-\nabdominal\n/\nback pain\nUTI +\nfever\n=\npyelonephritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "abdominal",
+          "url": "https://wikem.org/wiki/Abdominal_pain_(peds)"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "0–3_Months_Old": {
+          "text": "Emergent\nNecrotizing Enterocolitis\nVolvulus\nTesticular torsion\nInguinal hernia\nIncarcerated hernia\nTrauma\nPyloric stenosis\nToxic megacolon\nHirschsprung's Disease\nNonemergent\nConstipation\nAcute Gastroenteritis\nColic",
+          "tables": []
+        },
+        "3_mo–3_y_old": {
+          "text": "Emergent\nIntussusception\nTesticular Torsion\nTrauma\nVolvulus\nAppendicitis\nToxic megacolon\nVaso-occlusive crisis\nNonemergent\nAcute Gastroenteritis\nConstipation\nUrinary tract infection\nHenoch-Schonlein purpura",
+          "tables": []
+        },
+        "3_y_old–adolescence": {
+          "text": "Emergent\nAppendicitis\nDKA\nVaso-occlusive crisis\nToxic ingestion\nTesticular Torsion\nOvarian Torsion\nEctopic Pregnancy\nTrauma\nToxic megacolon\nInflammatory bowel disease\nGastric ulcer disease\nOvarian cyst\nPregnancy\nPancreatitis\nCholecystitis\nIntussusception\n(to age 6)\nNonemergent\nConstipation\nAcute Gastroenteritis\nNonspecific\nviral syndrome\nStreptococcus pharyngitis\nUrinary tract infection\nPneumonia\nRenal Stone\nHenoch-Schonlein purpura\nInflammatory bowel disease\nVulvovaginitis",
+          "tables": []
+        },
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing Enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Enterocolitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia_(peds)"
+        },
+        {
+          "text": "Incarcerated hernia",
+          "url": "https://wikem.org/wiki/Incarcerated_hernia"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pyloric stenosis",
+          "url": "https://wikem.org/wiki/Pyloric_stenosis"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Hirschsprung's Disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_Disease"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA_(peds)"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Ovarian Torsion",
+          "url": "https://wikem.org/wiki/Ovarian_Torsion"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Gastric ulcer disease",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Streptococcus pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcus_pharyngitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Renal Stone",
+          "url": "https://wikem.org/wiki/Renal_Stone"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Pediatric_Abdominal_Pain": {
+      "text": "",
+      "subsections": {
+        "0–3_Months_Old": {
+          "text": "Emergent\nNecrotizing Enterocolitis\nVolvulus\nTesticular torsion\nInguinal hernia\nIncarcerated hernia\nTrauma\nPyloric stenosis\nToxic megacolon\nHirschsprung's Disease\nNonemergent\nConstipation\nAcute Gastroenteritis\nColic",
+          "tables": []
+        },
+        "3_mo–3_y_old": {
+          "text": "Emergent\nIntussusception\nTesticular Torsion\nTrauma\nVolvulus\nAppendicitis\nToxic megacolon\nVaso-occlusive crisis\nNonemergent\nAcute Gastroenteritis\nConstipation\nUrinary tract infection\nHenoch-Schonlein purpura",
+          "tables": []
+        },
+        "3_y_old–adolescence": {
+          "text": "Emergent\nAppendicitis\nDKA\nVaso-occlusive crisis\nToxic ingestion\nTesticular Torsion\nOvarian Torsion\nEctopic Pregnancy\nTrauma\nToxic megacolon\nInflammatory bowel disease\nGastric ulcer disease\nOvarian cyst\nPregnancy\nPancreatitis\nCholecystitis\nIntussusception\n(to age 6)\nNonemergent\nConstipation\nAcute Gastroenteritis\nNonspecific\nviral syndrome\nStreptococcus pharyngitis\nUrinary tract infection\nPneumonia\nRenal Stone\nHenoch-Schonlein purpura\nInflammatory bowel disease\nVulvovaginitis",
+          "tables": []
+        },
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing Enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Enterocolitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia_(peds)"
+        },
+        {
+          "text": "Incarcerated hernia",
+          "url": "https://wikem.org/wiki/Incarcerated_hernia"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pyloric stenosis",
+          "url": "https://wikem.org/wiki/Pyloric_stenosis"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Hirschsprung's Disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_Disease"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis_(peds)"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA_(peds)"
+        },
+        {
+          "text": "Vaso-occlusive crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Testicular Torsion",
+          "url": "https://wikem.org/wiki/Testicular_Torsion"
+        },
+        {
+          "text": "Ovarian Torsion",
+          "url": "https://wikem.org/wiki/Ovarian_Torsion"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Gastric ulcer disease",
+          "url": "https://wikem.org/wiki/Gastric_ulcer_disease"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        },
+        {
+          "text": "Acute Gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_Gastroenteritis"
+        },
+        {
+          "text": "viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Streptococcus pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcus_pharyngitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Renal Stone",
+          "url": "https://wikem.org/wiki/Renal_Stone"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Pediatric_fever": {
+      "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Urinalysis\nObtain clean catch specimen\nOR\ncath UA\nNeg UA = neg LE, nit, GS & <5 WBC\nBag urine results in 83% false positive; only useful if negative\nUTI diagnosis cannot be established reliably through bag urine culture (Evidence A; strong recommendation; AAP 2011)\nUrine culture\nSend on all patients except for:\n1. Low-risk patients with normal UA and another explanation for symptoms\n2. Older adolescent females with very high post-test probability without severe illness\n20% of +Urine culture will have negative UA\nDo not send urine bag specimen for culture when UA is negative and clinical suspicion is relatively low\n[2]\nFalse positives are high due to bag contamination",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Patient A: Female patient in ED, <1 year old, fever with no definitive source on examination, pretest probability of UTI is 7%.\nPatient B: Male patient in ED, <1 year old, circumcised, fever with no definitive source on examination, pretest probability of UTI is 0.5%.\nPatient C: Male patient in ED, <1 year old, uncircumcised, fever with no definitive source on examination, pretest probability of UTI is 8%.\nPatient D: Female patient in ED, 2–6 years old, no fever but GU symptoms, pretest probability of UTI is 6.5%.\nPatient E: Female patient in ED, adolescent age range, no fever but urinary symptoms, pretest probability of UTI is 9%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Urinalysis\nObtain clean catch specimen\nOR\ncath UA\nNeg UA = neg LE, nit, GS & <5 WBC\nBag urine results in 83% false positive; only useful if negative\nUTI diagnosis cannot be established reliably through bag urine culture (Evidence A; strong recommendation; AAP 2011)\nUrine culture\nSend on all patients except for:\n1. Low-risk patients with normal UA and another explanation for symptoms\n2. Older adolescent females with very high post-test probability without severe illness\n20% of +Urine culture will have negative UA\nDo not send urine bag specimen for culture when UA is negative and clinical suspicion is relatively low\n[2]\nFalse positives are high due to bag contamination",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Patient A: Female patient in ED, <1 year old, fever with no definitive source on examination, pretest probability of UTI is 7%.\nPatient B: Male patient in ED, <1 year old, circumcised, fever with no definitive source on examination, pretest probability of UTI is 0.5%.\nPatient C: Male patient in ED, <1 year old, uncircumcised, fever with no definitive source on examination, pretest probability of UTI is 8%.\nPatient D: Female patient in ED, 2–6 years old, no fever but GU symptoms, pretest probability of UTI is 6.5%.\nPatient E: Female patient in ED, adolescent age range, no fever but urinary symptoms, pretest probability of UTI is 9%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Patient A: Female patient in ED, <1 year old, fever with no definitive source on examination, pretest probability of UTI is 7%.\nPatient B: Male patient in ED, <1 year old, circumcised, fever with no definitive source on examination, pretest probability of UTI is 0.5%.\nPatient C: Male patient in ED, <1 year old, uncircumcised, fever with no definitive source on examination, pretest probability of UTI is 8%.\nPatient D: Female patient in ED, 2–6 years old, no fever but GU symptoms, pretest probability of UTI is 6.5%.\nPatient E: Female patient in ED, adolescent age range, no fever but urinary symptoms, pretest probability of UTI is 9%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Know your local resistance patterns and make sure to send a urine culture\nDo not use\nnitrofurantoin\nin children (need bloodstream penetration)",
+      "subsections": {
+        "<1mo": {
+          "text": "Admit for IV\nantibiotics\nCeftazidime\n150mg/kg/d divided every 6 h",
+          "tables": []
+        },
+        "1mo_-_2yo": {
+          "text": "Ceftriaxone\n50mg/kg in ED\nCephalexin\n50-100mg/kg/d in 4 divided doses x14d\nMaximum dose (all ages) 4g/24hr",
+          "tables": []
+        },
+        ">2yo": {
+          "text": "Amoxicillin\nMild to moderate infections (>40kg): 500mg PO BID for x10-14d\nCephalexin\n50-100mg/kg/d in 4 divided doses x7d\nCefaclor\n50-100 mg/kg/d divided in 3 doses x5d\nCefixime\n8 mg/kg daily x 5d",
+          "tables": []
+        },
+        ">13yr_adolescent": {
+          "text": "Consider 3 day course of treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Cefaclor",
+          "url": "https://wikem.org/wiki/Cefaclor"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        }
+      ]
+    },
+    "<1mo": {
+      "text": "Admit for IV\nantibiotics\nCeftazidime\n150mg/kg/d divided every 6 h",
+      "subsections": {
+        "1mo_-_2yo": {
+          "text": "Ceftriaxone\n50mg/kg in ED\nCephalexin\n50-100mg/kg/d in 4 divided doses x14d\nMaximum dose (all ages) 4g/24hr",
+          "tables": []
+        },
+        ">2yo": {
+          "text": "Amoxicillin\nMild to moderate infections (>40kg): 500mg PO BID for x10-14d\nCephalexin\n50-100mg/kg/d in 4 divided doses x7d\nCefaclor\n50-100 mg/kg/d divided in 3 doses x5d\nCefixime\n8 mg/kg daily x 5d",
+          "tables": []
+        },
+        ">13yr_adolescent": {
+          "text": "Consider 3 day course of treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Cefaclor",
+          "url": "https://wikem.org/wiki/Cefaclor"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        }
+      ]
+    },
+    "1mo_-_2yo": {
+      "text": "Ceftriaxone\n50mg/kg in ED\nCephalexin\n50-100mg/kg/d in 4 divided doses x14d\nMaximum dose (all ages) 4g/24hr",
+      "subsections": {
+        ">2yo": {
+          "text": "Amoxicillin\nMild to moderate infections (>40kg): 500mg PO BID for x10-14d\nCephalexin\n50-100mg/kg/d in 4 divided doses x7d\nCefaclor\n50-100 mg/kg/d divided in 3 doses x5d\nCefixime\n8 mg/kg daily x 5d",
+          "tables": []
+        },
+        ">13yr_adolescent": {
+          "text": "Consider 3 day course of treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Cefaclor",
+          "url": "https://wikem.org/wiki/Cefaclor"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        }
+      ]
+    },
+    ">2yo": {
+      "text": "Amoxicillin\nMild to moderate infections (>40kg): 500mg PO BID for x10-14d\nCephalexin\n50-100mg/kg/d in 4 divided doses x7d\nCefaclor\n50-100 mg/kg/d divided in 3 doses x5d\nCefixime\n8 mg/kg daily x 5d",
+      "subsections": {
+        ">13yr_adolescent": {
+          "text": "Consider 3 day course of treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Cefaclor",
+          "url": "https://wikem.org/wiki/Cefaclor"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        }
+      ]
+    },
+    ">13yr_adolescent": {
+      "text": "Consider 3 day course of treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit": {
+          "text": "<1 month old\nToxic\nInability to tolerate POs",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "1mo - 2yr, who are well-appearing and not vomiting\n24-hour follow up\n>2 years old\n48-hour follow up",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admit": {
+      "text": "<1 month old\nToxic\nInability to tolerate POs",
+      "subsections": {
+        "Discharge": {
+          "text": "1mo - 2yr, who are well-appearing and not vomiting\n24-hour follow up\n>2 years old\n48-hour follow up",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "1mo - 2yr, who are well-appearing and not vomiting\n24-hour follow up\n>2 years old\n48-hour follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Urinary tract infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary tract infections",
+          "url": "https://wikem.org/wiki/Urinary_tract_infections"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "University of Pittsburgh UTI Calc\nChildren's Hospital of Philadelphia UTI pathway",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

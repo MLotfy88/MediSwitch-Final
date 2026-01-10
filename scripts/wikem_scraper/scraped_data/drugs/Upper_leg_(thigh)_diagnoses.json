@@ -1,0 +1,298 @@
+{
+  "drug_name": "Upper_leg_(thigh)_diagnoses",
+  "url": "https://wikem.org/wiki/Upper_leg_(thigh)_diagnoses",
+  "scraped_at": "2026-01-10T08:04:38.936618",
+  "sections": {
+    "Hip_pain": {
+      "text": "Acute Trauma\nFemur fracture\nProximal\nIntracapsular\nFemoral head fracture\nFemoral neck fracture\nExtracapsular\nIntertrochanteric femur fracture\nTrochanteric femur fracture\nShaft\nMid-shaft femur fracture\n(all subtrochanteric)\nHip dislocation\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nChronic/Atraumatic\nHip bursitis\nPsoas abscess\nPiriformis syndrome\nMeralgia paresthetica\nSeptic arthritis\nSeptic arthritis of the hip (peds)\nObturator nerve entrapment\nAvascular necrosis of hip",
+      "subsections": {
+        "Acute_knee_injury": {
+          "text": "Knee dislocation\nKnee fractures\nPatella fracture\nSegond fracture\nTibial plateau fracture\nMeniscus and ligament knee injuries\nPatella dislocation\nPatellar tendonitis\nPatellar tendon rupture\nQuadriceps tendon rupture",
+          "tables": []
+        },
+        "Nontraumatic/Subacute": {
+          "text": "Arthritis\nGout and Pseudogout\nOsgood-Schlatter disease\nPatellofemoral syndrome\n(Runner's Knee)\nPatellar tendonitis\n(Jumper's knee)\nPes anserine bursitis\nPopliteal cyst\n(Bakers cyst)\nPrepatellar bursitis (nonseptic)\nSeptic bursitis\nSeptic joint\nDVT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        },
+        {
+          "text": "Femoral head fracture",
+          "url": "https://wikem.org/wiki/Femoral_head_fracture"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Intertrochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "Trochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Trochanteric_femur_fracture"
+        },
+        {
+          "text": "Mid-shaft femur fracture",
+          "url": "https://wikem.org/wiki/Mid-shaft_femur_fracture"
+        },
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Hip bursitis",
+          "url": "https://wikem.org/wiki/Hip_bursitis"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Piriformis syndrome",
+          "url": "https://wikem.org/wiki/Piriformis_syndrome"
+        },
+        {
+          "text": "Meralgia paresthetica",
+          "url": "https://wikem.org/wiki/Meralgia_paresthetica"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Obturator nerve entrapment",
+          "url": "https://wikem.org/wiki/Obturator_nerve_entrapment"
+        },
+        {
+          "text": "Avascular necrosis of hip",
+          "url": "https://wikem.org/wiki/Avascular_necrosis_of_hip"
+        },
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "Knee fractures",
+          "url": "https://wikem.org/wiki/Knee_fractures"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Segond fracture",
+          "url": "https://wikem.org/wiki/Segond_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Meniscus and ligament knee injuries",
+          "url": "https://wikem.org/wiki/Meniscus_and_ligament_knee_injuries"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Patellar tendon rupture",
+          "url": "https://wikem.org/wiki/Patellar_tendon_rupture"
+        },
+        {
+          "text": "Quadriceps tendon rupture",
+          "url": "https://wikem.org/wiki/Quadriceps_tendon_rupture"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Gout and Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Osgood-Schlatter disease",
+          "url": "https://wikem.org/wiki/Osgood-Schlatter_disease"
+        },
+        {
+          "text": "Patellofemoral syndrome",
+          "url": "https://wikem.org/wiki/Patellofemoral_syndrome"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Pes anserine bursitis",
+          "url": "https://wikem.org/wiki/Pes_anserine_bursitis"
+        },
+        {
+          "text": "Popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Prepatellar bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Prepatellar_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_arthritis_(general)"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Knee_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute_knee_injury": {
+          "text": "Knee dislocation\nKnee fractures\nPatella fracture\nSegond fracture\nTibial plateau fracture\nMeniscus and ligament knee injuries\nPatella dislocation\nPatellar tendonitis\nPatellar tendon rupture\nQuadriceps tendon rupture",
+          "tables": []
+        },
+        "Nontraumatic/Subacute": {
+          "text": "Arthritis\nGout and Pseudogout\nOsgood-Schlatter disease\nPatellofemoral syndrome\n(Runner's Knee)\nPatellar tendonitis\n(Jumper's knee)\nPes anserine bursitis\nPopliteal cyst\n(Bakers cyst)\nPrepatellar bursitis (nonseptic)\nSeptic bursitis\nSeptic joint\nDVT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "Knee fractures",
+          "url": "https://wikem.org/wiki/Knee_fractures"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Segond fracture",
+          "url": "https://wikem.org/wiki/Segond_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Meniscus and ligament knee injuries",
+          "url": "https://wikem.org/wiki/Meniscus_and_ligament_knee_injuries"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Patellar tendon rupture",
+          "url": "https://wikem.org/wiki/Patellar_tendon_rupture"
+        },
+        {
+          "text": "Quadriceps tendon rupture",
+          "url": "https://wikem.org/wiki/Quadriceps_tendon_rupture"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Gout and Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Osgood-Schlatter disease",
+          "url": "https://wikem.org/wiki/Osgood-Schlatter_disease"
+        },
+        {
+          "text": "Patellofemoral syndrome",
+          "url": "https://wikem.org/wiki/Patellofemoral_syndrome"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Pes anserine bursitis",
+          "url": "https://wikem.org/wiki/Pes_anserine_bursitis"
+        },
+        {
+          "text": "Popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Prepatellar bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Prepatellar_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_arthritis_(general)"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Diagnosis by Body Part (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diagnosis by Body Part (Main)",
+          "url": "https://wikem.org/wiki/Diagnosis_by_Body_Part_(Main)"
+        }
+      ]
+    }
+  }
+}

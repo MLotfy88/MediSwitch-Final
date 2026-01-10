@@ -1,0 +1,154 @@
+{
+  "drug_name": "Vascular_access",
+  "url": "https://wikem.org/wiki/Vascular_access",
+  "scraped_at": "2026-01-10T08:04:52.418631",
+  "sections": {
+    "Vascular_access_types": {
+      "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Pediatric central line",
+          "url": "https://wikem.org/wiki/Pediatric_central_line"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "Venous cutdown",
+          "url": "https://wikem.org/wiki/Venous_cutdown"
+        },
+        {
+          "text": "Umbilical vein catheterization",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "External jugular vein cannulation",
+          "url": "https://wikem.org/wiki/External_jugular_vein_cannulation"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    },
+    "Flow_Rates": {
+      "text": "Flow rate depends on diameter and length of IV; the Hagen–Poiseuille equation.\n[1]",
+      "subsections": {
+        "Peripheral_IV": {
+          "text": "16G IV: 13.2 L/hr\n18G IV: 6.0 L/hr\n20G IV: 3.6 L/hr",
+          "tables": []
+        },
+        "Central_Line": {
+          "text": "5 Fr PICC/Port: 1.75 L/hr\n7 Fr TLC 16G distal port: 1.9 L/hr\n7 Fr TLC 18G proximal port: 3.4 L/hr\n12 Fr HD: 23.7 L/hr\n8.5 Fr\nCordis\n: 7.6 L/hr\n8.5 Fr\nCordis\nwith pressure bag: 20.0 L/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cordis",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Cordis",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        }
+      ]
+    },
+    "Peripheral_IV": {
+      "text": "16G IV: 13.2 L/hr\n18G IV: 6.0 L/hr\n20G IV: 3.6 L/hr",
+      "subsections": {
+        "Central_Line": {
+          "text": "5 Fr PICC/Port: 1.75 L/hr\n7 Fr TLC 16G distal port: 1.9 L/hr\n7 Fr TLC 18G proximal port: 3.4 L/hr\n12 Fr HD: 23.7 L/hr\n8.5 Fr\nCordis\n: 7.6 L/hr\n8.5 Fr\nCordis\nwith pressure bag: 20.0 L/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cordis",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Cordis",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        }
+      ]
+    },
+    "Central_Line": {
+      "text": "5 Fr PICC/Port: 1.75 L/hr\n7 Fr TLC 16G distal port: 1.9 L/hr\n7 Fr TLC 18G proximal port: 3.4 L/hr\n12 Fr HD: 23.7 L/hr\n8.5 Fr\nCordis\n: 7.6 L/hr\n8.5 Fr\nCordis\nwith pressure bag: 20.0 L/hr",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cordis",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Cordis",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Intravenous fluids (main)\nCritical care quick reference",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravenous fluids (main)",
+          "url": "https://wikem.org/wiki/Intravenous_fluids_(main)"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Hagen–Poiseuille equation\nETM: Large Bore IV Access Showdown Part 1\nETM: Large Bore IV Access Showdown Part 2\nemDOCs: Approach to the Patient with Difficult Vascular Access",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

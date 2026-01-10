@@ -1,0 +1,62 @@
+{
+  "drug_name": "Vacuum_splint",
+  "url": "https://wikem.org/wiki/Vacuum_splint",
+  "scraped_at": "2026-01-10T08:04:49.486848",
+  "sections": {
+    "Background": {
+      "text": "Temporary splint device used primarily in prehospital setting.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Suspected extremity fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Application": {
+          "text": "Assess distal pulse, motor function, and sensation in affected extremity.\nHold splint in place around extremity in position of comfort.\nEnsure that the side with intake valve is facing away from skin.\nApply suction device and remove air.\nSeal intake valve and remove suction device.\nSecure splint in place with attached straps.\nReassess distal pulse, motor function, and sensation.",
+          "tables": []
+        },
+        "Removal": {
+          "text": "Open intake valve\nDisconnect straps\nNote: DO NOT cut splint itself (will release contents - polystyrene beads)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Application": {
+      "text": "Assess distal pulse, motor function, and sensation in affected extremity.\nHold splint in place around extremity in position of comfort.\nEnsure that the side with intake valve is facing away from skin.\nApply suction device and remove air.\nSeal intake valve and remove suction device.\nSecure splint in place with attached straps.\nReassess distal pulse, motor function, and sensation.",
+      "subsections": {
+        "Removal": {
+          "text": "Open intake valve\nDisconnect straps\nNote: DO NOT cut splint itself (will release contents - polystyrene beads)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Removal": {
+      "text": "Open intake valve\nDisconnect straps\nNote: DO NOT cut splint itself (will release contents - polystyrene beads)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_also": {
+      "text": "Splinting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    }
+  }
+}

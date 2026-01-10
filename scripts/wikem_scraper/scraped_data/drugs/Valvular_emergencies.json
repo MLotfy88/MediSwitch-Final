@@ -1,0 +1,77 @@
+{
+  "drug_name": "Valvular_emergencies",
+  "url": "https://wikem.org/wiki/Valvular_emergencies",
+  "scraped_at": "2026-01-10T08:04:50.054550",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Valvular_Emergencies": {
+          "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        }
+      ]
+    },
+    "Valvular_Emergencies": {
+      "text": "Mitral stenosis\nMitral regurgitation\nMitral valve prolapse\nAortic stenosis\nAortic regurgitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Mitral regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Heart Murmurs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heart Murmurs",
+          "url": "https://wikem.org/wiki/Heart_Murmurs"
+        }
+      ]
+    }
+  }
+}

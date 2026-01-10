@@ -1,0 +1,178 @@
+{
+  "drug_name": "Uridine_triacetate",
+  "url": "https://wikem.org/wiki/Uridine_triacetate",
+  "scraped_at": "2026-01-10T08:04:43.019971",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntidote\n; Rescue Agent(Chemotherapy)\nDosage Forms: Granule 10g\nRoutes of Administration: Oral\nCommon Trade Names: Vistogard",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Fluorouracil_or_capecitabine_toxicity": {
+          "text": "10g PO q6h x20 doses\nGive with soft food",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Fluorouracil_or_capecitabine_toxicity": {
+      "text": "10g PO q6h x20 doses\nGive with soft food",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Fluorouracil_or_capecitabine_toxicity_2": {
+          "text": "1+ yr old\n6.2 g/m^2 PO q6h x20 doses\nGive with soft food\nMax: 10g/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Fluorouracil_or_capecitabine_toxicity_2": {
+      "text": "1+ yr old\n6.2 g/m^2 PO q6h x20 doses\nGive with soft food\nMax: 10g/dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: Caution with use, weight risk/benefit",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "May occur, but none reported",
+          "tables": []
+        },
+        "Common": {
+          "text": "Vomiting\n,\nNausea\nDiarrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "May occur, but none reported",
+      "subsections": {
+        "Common": {
+          "text": "Vomiting\n,\nNausea\nDiarrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Vomiting\n,\nNausea\nDiarrhea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-2.5 hrs\nMetabolism: Tissue, prodrug converted to uridine\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Incorporates into RNA, inhibiting cell damage and death caused by fluoruracil or capecitabine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "drug_name": "Vaginal_trauma",
+  "url": "https://wikem.org/wiki/Vaginal_trauma",
+  "scraped_at": "2026-01-10T08:04:48.580333",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Genitourinary_Trauma": {
+          "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Genitourinary_Trauma": {
+      "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Perform speculum examination when vaginal hemorrhage or hematoma is present to exclude vaginal laceration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "GU Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GU Trauma",
+          "url": "https://wikem.org/wiki/GU_Trauma"
+        }
+      ]
+    }
+  }
+}

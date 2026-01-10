@@ -1,0 +1,164 @@
+{
+  "drug_name": "Vaccines_in_pregnancy",
+  "url": "https://wikem.org/wiki/Vaccines_in_pregnancy",
+  "scraped_at": "2026-01-10T08:04:45.556243",
+  "sections": {
+    "Routine_Vaccinations": {
+      "text": "",
+      "subsections": {
+        "Travel_and_Other": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Vaccine": "Anthrax",
+                "General Recommendation for Use in Pregnant Women": "Low risk of exposure – not recommended. High risk of exposure – may be used."
+              },
+              {
+                "Vaccine": "BCG",
+                "General Recommendation for Use in Pregnant Women": "Contraindicated."
+              },
+              {
+                "Vaccine": "Japanese Encephalitis",
+                "General Recommendation for Use in Pregnant Women": "Inadequate data for specific recommendation."
+              },
+              {
+                "Vaccine": "Rabies",
+                "General Recommendation for Use in Pregnant Women": "May be used if otherwise indicated."
+              },
+              {
+                "Vaccine": "Typhoid",
+                "General Recommendation for Use in Pregnant Women": "Inadequate data for specific recommendation."
+              },
+              {
+                "Vaccine": "Smallpox",
+                "General Recommendation for Use in Pregnant Women": "Pre-exposure – contraindicated."
+              },
+              {
+                "Vaccine": "",
+                "General Recommendation for Use in Pregnant Women": "Post-exposure – recommended."
+              },
+              {
+                "Vaccine": "Yellow Fever",
+                "General Recommendation for Use in Pregnant Women": "May be used if benefit outweighs risk."
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Vaccine": "Hepatitis A",
+            "General Recommendation for Use in Pregnant Women": "Recommended if otherwise indicated."
+          },
+          {
+            "Vaccine": "Hepatitis B",
+            "General Recommendation for Use in Pregnant Women": "Recommended in some circumstances."
+          },
+          {
+            "Vaccine": "Human Papillomavirus (HPV)",
+            "General Recommendation for Use in Pregnant Women": "Not recommended."
+          },
+          {
+            "Vaccine": "Influenza (Inactivated)",
+            "General Recommendation for Use in Pregnant Women": "Recommended."
+          },
+          {
+            "Vaccine": "Influenza (LAIV)",
+            "General Recommendation for Use in Pregnant Women": "Contraindicated."
+          },
+          {
+            "Vaccine": "MMR",
+            "General Recommendation for Use in Pregnant Women": "Contraindicated."
+          },
+          {
+            "Vaccine": "Meningococcal",
+            "General Recommendation for Use in Pregnant Women": "May be used if otherwise indicated."
+          },
+          {
+            "Vaccine": "PCV13",
+            "General Recommendation for Use in Pregnant Women": "Inadequate data for specific recommendation."
+          },
+          {
+            "Vaccine": "PPSV23",
+            "General Recommendation for Use in Pregnant Women": "Inadequate data for specific recommendation."
+          },
+          {
+            "Vaccine": "Polio",
+            "General Recommendation for Use in Pregnant Women": "May be used if needed."
+          },
+          {
+            "Vaccine": "Td",
+            "General Recommendation for Use in Pregnant Women": "Should be used if otherwise indicated."
+          },
+          {
+            "Vaccine": "Tdap",
+            "General Recommendation for Use in Pregnant Women": "Recommended."
+          },
+          {
+            "Vaccine": "Varicella",
+            "General Recommendation for Use in Pregnant Women": "Contraindicated."
+          },
+          {
+            "Vaccine": "Zoster",
+            "General Recommendation for Use in Pregnant Women": "Contraindicated."
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Travel_and_Other": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Vaccine": "Anthrax",
+            "General Recommendation for Use in Pregnant Women": "Low risk of exposure – not recommended. High risk of exposure – may be used."
+          },
+          {
+            "Vaccine": "BCG",
+            "General Recommendation for Use in Pregnant Women": "Contraindicated."
+          },
+          {
+            "Vaccine": "Japanese Encephalitis",
+            "General Recommendation for Use in Pregnant Women": "Inadequate data for specific recommendation."
+          },
+          {
+            "Vaccine": "Rabies",
+            "General Recommendation for Use in Pregnant Women": "May be used if otherwise indicated."
+          },
+          {
+            "Vaccine": "Typhoid",
+            "General Recommendation for Use in Pregnant Women": "Inadequate data for specific recommendation."
+          },
+          {
+            "Vaccine": "Smallpox",
+            "General Recommendation for Use in Pregnant Women": "Pre-exposure – contraindicated."
+          },
+          {
+            "Vaccine": "",
+            "General Recommendation for Use in Pregnant Women": "Post-exposure – recommended."
+          },
+          {
+            "Vaccine": "Yellow Fever",
+            "General Recommendation for Use in Pregnant Women": "May be used if benefit outweighs risk."
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vaccination schedule",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaccination schedule",
+          "url": "https://wikem.org/wiki/Vaccination_schedule"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "drug_name": "Vaginal_foreign_body",
+  "url": "https://wikem.org/wiki/Vaginal_foreign_body",
+  "scraped_at": "2026-01-10T08:04:50.028834",
+  "sections": {
+    "Background": {
+      "text": "Patients may be reluctant to provide history due to fear or embarrassment\nForeign bodies most commonly found to be:\nRetained tampon\nSex toys or other items used for sexual stimulation\nPackets of drugs\nToilet paper\nPieces of cloth or small toys (in young girls)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Vaginal discharge\n, chronic\nOften malodorous\nConsider foreign body in all prepubertal patients with discharge, especially if bloody or brown\nVaginal bleeding\nVulvovaginitis\nPelvic pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal discharge",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        },
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Infection\nBacterial Vaginosis\n,\nTrichomonas\n,\nchlamydia\n/\ngonorrhea\ninfection,\nCandida Vaginitis\nEndometritis\n,\nPID\n,\nTOA\nOb/gyn conditions\nEctopic pregnancy\n,\nabortion\n(threatened, incomplete, or\nseptic\n)\nPelvic\nthrombophlebitis\nOvarian torsion\n,\novarian cyst\nhemorrhage/rupture\nDysmenorrhea,\nendometriosis\nGenitourinary\nCystitis\n,\nPyelonephritis\nRenal colic\nGastrointestinal\nAppendicitis\n,\nSBO\n,\nmesenteric ischemia\n,\nhernia\nAnorectal abscess\nDiverticulitis\n,\nInflammatory bowel disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "TOA",
+          "url": "https://wikem.org/wiki/TOA"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "septic",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Renal colic",
+          "url": "https://wikem.org/wiki/Renal_colic"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Visualization may be aided by irrigation with normal saline\nChildren <7yo or uncooperative patients may require vaginoscopy in the OR with anesthesia\nPlain films sometimes help identify radiopaque objects\nSome items may be identifiable on\nultrasound\nor\nMRI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Remove object, either manually or with saline irrigation\nAntibiotics typically unnecessary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vulvovaginitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        }
+      ]
+    }
+  }
+}

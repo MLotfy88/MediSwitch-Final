@@ -1,0 +1,165 @@
+{
+  "drug_name": "Vagal_nerve_stimulator_complications",
+  "url": "https://wikem.org/wiki/Vagal_nerve_stimulator_complications",
+  "scraped_at": "2026-01-10T08:04:45.645909",
+  "sections": {
+    "Background": {
+      "text": "Used to treat refractory\nepilepsy\nPulse generator implanted in chest, electric lead attached to vagus nerve in neck\nGenerator stimulates vagal nerve at regular intervals\nUsually does NOT stimulate right vagus nerve (which innervates heart)\nMagnet over VNS leads to extra stimulation\nPatients/caregivers may use magnet in case of aura or breakthrough seizure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "",
+      "subsections": {
+        "Side_Effects": {
+          "text": "Hoarseness\n,\ncough\n,\nsore throat\nDrooling,\ndysphagia\nTorticollis\n/neck spasms\nAnorexia\nShoulder abduction\nUrinary retention\nOutbursts of laughter",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Superficial\nskin infection\nDeep space infection (e.g.\nretropharyngeal abscess\n,\nLudwig's angina\nVocal cord paralysis\nContraction of supraglottic structures→\nstridor\n, sleep apnea\nFacial muscle paresis\nCardiac\narrhythmia\n(rare, as usually left vagus is stimulated)\nLead fracture\nTwiddler's syndrome\n: repeated (often subconscious) manipulation of device, can lead to lead fracture or other device malfunction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hoarseness",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "skin infection",
+          "url": "https://wikem.org/wiki/Skin_infection"
+        },
+        {
+          "text": "retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Facial muscle paresis",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Twiddler's syndrome",
+          "url": "https://wikem.org/wiki/Twiddler%27s_syndrome"
+        }
+      ]
+    },
+    "Side_Effects": {
+      "text": "Hoarseness\n,\ncough\n,\nsore throat\nDrooling,\ndysphagia\nTorticollis\n/neck spasms\nAnorexia\nShoulder abduction\nUrinary retention\nOutbursts of laughter",
+      "subsections": {
+        "Complications": {
+          "text": "Superficial\nskin infection\nDeep space infection (e.g.\nretropharyngeal abscess\n,\nLudwig's angina\nVocal cord paralysis\nContraction of supraglottic structures→\nstridor\n, sleep apnea\nFacial muscle paresis\nCardiac\narrhythmia\n(rare, as usually left vagus is stimulated)\nLead fracture\nTwiddler's syndrome\n: repeated (often subconscious) manipulation of device, can lead to lead fracture or other device malfunction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hoarseness",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "skin infection",
+          "url": "https://wikem.org/wiki/Skin_infection"
+        },
+        {
+          "text": "retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Facial muscle paresis",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Twiddler's syndrome",
+          "url": "https://wikem.org/wiki/Twiddler%27s_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Medical device complications\nSeizure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Medical device complications",
+          "url": "https://wikem.org/wiki/Medical_device_complications"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    }
+  }
+}
