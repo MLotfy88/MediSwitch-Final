@@ -1,0 +1,419 @@
+{
+  "drug_name": "AIDS_fever_of_unknown_origin",
+  "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin",
+  "scraped_at": "2026-01-10T07:46:23.438262",
+  "sections": {
+    "Background": {
+      "text": "Sources of fever vary by stage of disease.   The CD4 count of\n< 200 × 10\n6\ncells/μL\nis very likely if the ED absolute lymphocyte count is\n< 950 × 10(6) cells/μL\nand\nless likely if the absolute lymphocyte count is > 1,700 × 10\n6\ncells/μL\n[1]",
+      "subsections": {
+        "HIV_Associated_Diseases_by_CD4_Level": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "CD4 Count": ">500",
+                "Stage": "Early disease",
+                "Diseases": "Similar to non-immunocompromised patients (Consider HAART medication side-effects)"
+              },
+              {
+                "CD4 Count": "200-500",
+                "Stage": "Intermediate disease",
+                "Diseases": "Kaposi's sarcoma,Candida, bacterial respiratory infections"
+              },
+              {
+                "CD4 Count": "<200",
+                "Stage": "Late disease",
+                "Diseases": "PCP, central line infection,MAC,TB,CMV,drug fever,sinusitis,endocarditis,lymphoma,histoplasmosis,cryptococcus,PML"
+              },
+              {
+                "CD4 Count": "<100",
+                "Stage": "Very late disease",
+                "Diseases": "Cryptococcus,Cryptosporidium,Toxoplasmosis"
+              },
+              {
+                "CD4 Count": "<50",
+                "Stage": "Final Stage",
+                "Diseases": "CMV retinitis,MAC"
+              }
+            ]
+          ]
+        },
+        "CD4_>500": {
+          "text": "Work-up similarly to nonimmunocompromised patients",
+          "tables": []
+        },
+        "CD4_200-500": {
+          "text": "Early bacterial respiratory infection most common",
+          "tables": []
+        },
+        "CD4_<200": {
+          "text": "PCP, central line infection, MAC, TB, CMV, drug fever, sinusitis\nAlso consider: endocarditis, lymphoma, histo, crypto",
+          "tables": []
+        },
+        "CD4_<100": {
+          "text": "Consider disseminated MAC\nToxoplasmosis\n(CNS or pulmonary)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        }
+      ]
+    },
+    "HIV_Associated_Diseases_by_CD4_Level": {
+      "text": "",
+      "subsections": {
+        "CD4_>500": {
+          "text": "Work-up similarly to nonimmunocompromised patients",
+          "tables": []
+        },
+        "CD4_200-500": {
+          "text": "Early bacterial respiratory infection most common",
+          "tables": []
+        },
+        "CD4_<200": {
+          "text": "PCP, central line infection, MAC, TB, CMV, drug fever, sinusitis\nAlso consider: endocarditis, lymphoma, histo, crypto",
+          "tables": []
+        },
+        "CD4_<100": {
+          "text": "Consider disseminated MAC\nToxoplasmosis\n(CNS or pulmonary)",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "CD4 Count": ">500",
+            "Stage": "Early disease",
+            "Diseases": "Similar to non-immunocompromised patients (Consider HAART medication side-effects)"
+          },
+          {
+            "CD4 Count": "200-500",
+            "Stage": "Intermediate disease",
+            "Diseases": "Kaposi's sarcoma,Candida, bacterial respiratory infections"
+          },
+          {
+            "CD4 Count": "<200",
+            "Stage": "Late disease",
+            "Diseases": "PCP, central line infection,MAC,TB,CMV,drug fever,sinusitis,endocarditis,lymphoma,histoplasmosis,cryptococcus,PML"
+          },
+          {
+            "CD4 Count": "<100",
+            "Stage": "Very late disease",
+            "Diseases": "Cryptococcus,Cryptosporidium,Toxoplasmosis"
+          },
+          {
+            "CD4 Count": "<50",
+            "Stage": "Final Stage",
+            "Diseases": "CMV retinitis,MAC"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        }
+      ]
+    },
+    "CD4_>500": {
+      "text": "Work-up similarly to nonimmunocompromised patients",
+      "subsections": {
+        "CD4_200-500": {
+          "text": "Early bacterial respiratory infection most common",
+          "tables": []
+        },
+        "CD4_<200": {
+          "text": "PCP, central line infection, MAC, TB, CMV, drug fever, sinusitis\nAlso consider: endocarditis, lymphoma, histo, crypto",
+          "tables": []
+        },
+        "CD4_<100": {
+          "text": "Consider disseminated MAC\nToxoplasmosis\n(CNS or pulmonary)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        }
+      ]
+    },
+    "CD4_200-500": {
+      "text": "Early bacterial respiratory infection most common",
+      "subsections": {
+        "CD4_<200": {
+          "text": "PCP, central line infection, MAC, TB, CMV, drug fever, sinusitis\nAlso consider: endocarditis, lymphoma, histo, crypto",
+          "tables": []
+        },
+        "CD4_<100": {
+          "text": "Consider disseminated MAC\nToxoplasmosis\n(CNS or pulmonary)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        }
+      ]
+    },
+    "CD4_<200": {
+      "text": "PCP, central line infection, MAC, TB, CMV, drug fever, sinusitis\nAlso consider: endocarditis, lymphoma, histo, crypto",
+      "subsections": {
+        "CD4_<100": {
+          "text": "Consider disseminated MAC\nToxoplasmosis\n(CNS or pulmonary)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        }
+      ]
+    },
+    "CD4_<100": {
+      "text": "Consider disseminated MAC\nToxoplasmosis\n(CNS or pulmonary)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[2]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "HIV_associated_conditions": {
+      "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[2]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nChemistry\nLFT\nLDH\nRPR\nUrinalysis\n/Urine cultures\nBlood cultures\nAerobic, anaerobic, fungal\nCrypto\nToxo\nCoccidiodomycosis\nCXR\nStool culture / O&P\nCT\nLP\nCell count, protein, glucose, VDRL, cryptocoocal antigen, cytology, toxo, CMV, JC, EBV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "HIV - AIDS (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV - AIDS (Main)",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        }
+      ]
+    }
+  }
+}

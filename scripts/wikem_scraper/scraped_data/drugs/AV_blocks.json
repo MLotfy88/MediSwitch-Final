@@ -1,0 +1,91 @@
+{
+  "drug_name": "AV_blocks",
+  "url": "https://wikem.org/wiki/AV_blocks",
+  "scraped_at": "2026-01-10T07:46:30.732169",
+  "sections": {
+    "Types": {
+      "text": "First Degree AV Block\nProlonged PR interval (>200msec) but constant and always conducts\nSecond Degree\nSecond Degree AV Block Type I\n(Wenckeback)\nProgressive prolongation with intermittent dropped QRS complexes\nProgressively shortening RR intervals\nSecond Degree AV Block Type II\nPR interval is constant with intermittent P waves not conducting QRS complexes\nSurrounding RR intervals are constant\nThird Degree AV Block\nComplete Heart Block - no AV conduction\nDissociation between P waves and QRS complexes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "First Degree AV Block",
+          "url": "https://wikem.org/wiki/First_Degree_AV_Block"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "March out P waves\nMarch out QRS complex\nLook at PR interval to determine relation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ECG rhythms",
+      "subsections": {
+        "AV_blocks": {
+          "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG rhythms",
+          "url": "https://wikem.org/wiki/ECG_rhythms"
+        },
+        {
+          "text": "First degree AV block",
+          "url": "https://wikem.org/wiki/First_degree_AV_block"
+        },
+        {
+          "text": "Second degree AV block type I",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_I"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        },
+        {
+          "text": "Third degree AV block",
+          "url": "https://wikem.org/wiki/Third_degree_AV_block"
+        }
+      ]
+    },
+    "AV_blocks": {
+      "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "First degree AV block",
+          "url": "https://wikem.org/wiki/First_degree_AV_block"
+        },
+        {
+          "text": "Second degree AV block type I",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_I"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        },
+        {
+          "text": "Third degree AV block",
+          "url": "https://wikem.org/wiki/Third_degree_AV_block"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "drug_name": "Abdominal_pain_(geriatrics)/en",
+  "url": "https://wikem.org/wiki/Abdominal_pain_(geriatrics)/en",
+  "scraped_at": "2026-01-10T07:46:29.887213",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\nFor standard adult patients see\nAbdominal pain\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Elderly patients\nSurgical emergencies are more common in elderly than in any other patient population\nViral gastroenteritis\nis\nuncommon\nConservative admission strategy is strongly advocated\nPatients with immunosuppression often have delayed or atypical presentations\nFever\nis not a reliable marker for surgical disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Elderly": {
+      "text": "60% are surgical\nAcute onset associated with catastrophe\nMed list is important\nAbdominal exam generally unhelpful/difficult to localize pain\nMisc 25%\nMI\n,\ndissection\n,\nmesenteric ischemia\nBiliary disease\n- 21%\nUnknown - 20%\nObstruction\n- 12%\nprevious surgery adhesions, internal/external\nhernia\n, malignancy\nsigmoid/cecal\nvolvulus\n- persistent pain, can be subacute,\nnausea and vomiting\n, may not have fever\nPerforated viscus - 7%\nNSAIDs\nDiverticular\n- 10%\nAppendicitis\n- 5%\n60% perforation in OR, lacking rebound/guarding\nRenal colic\n- 4%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Geriatrics (Main Page)\nAbdominal Pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "ALiEM: 10 Tips for Approaching Abdominal Pain in the Elderly",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

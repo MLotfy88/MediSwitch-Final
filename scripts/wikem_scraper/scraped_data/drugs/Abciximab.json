@@ -1,0 +1,356 @@
+{
+  "drug_name": "Abciximab",
+  "url": "https://wikem.org/wiki/Abciximab",
+  "scraped_at": "2026-01-10T07:46:26.103543",
+  "sections": {
+    "Administration": {
+      "text": "Type: Glycoprotein IIB/IIIA inhibitor,\nantiplatelet\nDosage Forms: Injection\nRoutes of Administration: IV\nCommon Trade Names: Reopro",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "PCI_Adjunct": {
+          "text": "0.125 mcg/kg/min IV x 12h\nPart of multidrug regiment with\nheparin\nand\naspirin",
+          "tables": []
+        },
+        "Unstable_angina,_refractory": {
+          "text": "10 mcg/min IV x 18-24h\nPart of multidrug regiment with\nheparin\nand\naspirin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        }
+      ]
+    },
+    "PCI_Adjunct": {
+      "text": "0.125 mcg/kg/min IV x 12h\nPart of multidrug regiment with\nheparin\nand\naspirin",
+      "subsections": {
+        "Unstable_angina,_refractory": {
+          "text": "10 mcg/min IV x 18-24h\nPart of multidrug regiment with\nheparin\nand\naspirin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        }
+      ]
+    },
+    "Unstable_angina,_refractory": {
+      "text": "10 mcg/min IV x 18-24h\nPart of multidrug regiment with\nheparin\nand\naspirin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Benefits outweigh risks during pregnancy\nInadequate human data available to assess risk\nRisk of maternal hemorrhage during delivery",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "May use while breast feeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Benefits outweigh risks during pregnancy\nInadequate human data available to assess risk\nRisk of maternal hemorrhage during delivery",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "May use while breast feeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "May use while breast feeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Unavailable",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Unavailable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypersensitivity to murine proteins\nActive internal bleeding\nGI/GU bleeding w/in 6 weeks\nStroke\nw/in 2 years\nCoagulation disorder\nPlt < 100,000\nINR > 1.2\nRecent surgery or trauma\nHTN\n, uncontrolled\nIntracranial neoplasm, AVM, or aneurysm\nVasculitis\nhx\nDextran use in coronary procedure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Thrombocytopenia\nBleeding\nAV Block\n, complete\nAnaphylaxis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Bleeding,\nhypotension\nBack pain, chest pain, abdominal pain\nPeripheral edema\nNausea\n,\nvomiting\nHeadache\n,\ndizziness\nBradycardia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Thrombocytopenia\nBleeding\nAV Block\n, complete\nAnaphylaxis",
+      "subsections": {
+        "Common": {
+          "text": "Bleeding,\nhypotension\nBack pain, chest pain, abdominal pain\nPeripheral edema\nNausea\n,\nvomiting\nHeadache\n,\ndizziness\nBradycardia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Bleeding,\nhypotension\nBack pain, chest pain, abdominal pain\nPeripheral edema\nNausea\n,\nvomiting\nHeadache\n,\ndizziness\nBradycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: <10 min initially then 30 min second phase\nMetabolism: Other\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds to platelet glycoprotein IIb/IIIa receptors, reducing platelet aggregation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antiplatelet medications\nAntiplatelet agent reversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet medications",
+          "url": "https://wikem.org/wiki/Antiplatelet_medications"
+        },
+        {
+          "text": "Antiplatelet agent reversal",
+          "url": "https://wikem.org/wiki/Antiplatelet_agent_reversal"
+        }
+      ]
+    },
+    "References": {
+      "text": "Aguirre FV, Topol EJ, and Ferguson JJ, “Bleeding Complications With the Chimeric Antibody to Platelet Glycoprotein IIb/IIIa Intergrin in Patients Undergoing Percutaneous Coronary Intervention. EPIC Investigators,” Circulation, 1995, 91(12):2882-90. [PubMed 7796496]\nAmsterdam EA, Wenger NK, Brindis RG, et al; American College of Cardiology; American Heart Association Task Force on Practice Guidelines; Society for Cardiovascular Angiography and Interventions; Society of Thoracic Surgeons; American Association for Clinical Chemistry. 2014 AHA/ACC guideline for the management of patients with non-ST-elevation acute coronary syndromes: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines [published correction appears in J Am Coll Cardiol. 2014;64(24):2713-2714]. J Am Coll Cardiol. 2014;64(24):e139-e228. doi: 10.1016/j.jacc.2014.09.017. [PubMed 25260718\nAntman EM, Giugliano RP, Gibson CM, et al, “Abciximab Facilitates the Rate and Extent of Thrombolysis: Results of the Thrombolysis in Myocardial Infarction (TIMI) 14 Trial. The TIMI 14 Investigators,” Circulation, 1999, 99(21):2720-32. [PubMed 10351964]\n“ASSENT-3 Investigators. Efficacy and Safety of Tenecteplase in Combination With Enoxaparin, Abciximab, or Unfractionated Heparin: The ASSENT-3 Randomised Trial in Acute Myocardial Infarction,” Lancet, 2001, 358 (9282):605-13. [PubMed 11530146]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

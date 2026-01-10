@@ -1,0 +1,128 @@
+{
+  "drug_name": "AHA_recommendation_changes_by_year",
+  "url": "https://wikem.org/wiki/AHA_recommendation_changes_by_year",
+  "scraped_at": "2026-01-10T07:46:23.878812",
+  "sections": {
+    "Intro": {
+      "text": "For current guidlines see\nACLS (Main)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "ACLS": {
+      "text": "",
+      "subsections": {
+        "2010_AHA_Recommendation_Changes": {
+          "text": "Routine use of cricoid pressure is NOT recommended\nAirway adjunct is recommended while performing ventilation\nPulse/rhythm checks should only occur q2min\nMost critical component is high-quality compressions\nAtropine and cardiac pacing are NOT recommended for asystole/\nPEA",
+          "tables": []
+        },
+        "2011_AHA_Recommendation_Changes": {
+          "text": "Bystandar CPR changes to CAB (Chest compressions, Airway, Breathing), instead of ABCs\nDe-emphasize Drugs, Devices, and other Distracters\nEmphasize good CPR\nAtropine is removed for bradycardia\nUse an epinephrine drip or\ndopamine\ndrip if needed\nBicarbonate is out removed\nExcept for specific toxidromes or renal failure\nProcainamide is first for\nstable\nVTach\nContinue to use amiodarone for unstable\nUse Amiodarone for UNSTABLE VTach\nLidocaine\nis removed for unstable VTach\nNew section on post arrest care\nNo tPA for hypertension Emergency BP (>200/110)\nReduce BP first\nSpecial sections and algorithms added for 15 special situations (ie. pregnancy, stroke, PE)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PEA",
+          "url": "https://wikem.org/wiki/PEA"
+        },
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "2010_AHA_Recommendation_Changes": {
+      "text": "Routine use of cricoid pressure is NOT recommended\nAirway adjunct is recommended while performing ventilation\nPulse/rhythm checks should only occur q2min\nMost critical component is high-quality compressions\nAtropine and cardiac pacing are NOT recommended for asystole/\nPEA",
+      "subsections": {
+        "2011_AHA_Recommendation_Changes": {
+          "text": "Bystandar CPR changes to CAB (Chest compressions, Airway, Breathing), instead of ABCs\nDe-emphasize Drugs, Devices, and other Distracters\nEmphasize good CPR\nAtropine is removed for bradycardia\nUse an epinephrine drip or\ndopamine\ndrip if needed\nBicarbonate is out removed\nExcept for specific toxidromes or renal failure\nProcainamide is first for\nstable\nVTach\nContinue to use amiodarone for unstable\nUse Amiodarone for UNSTABLE VTach\nLidocaine\nis removed for unstable VTach\nNew section on post arrest care\nNo tPA for hypertension Emergency BP (>200/110)\nReduce BP first\nSpecial sections and algorithms added for 15 special situations (ie. pregnancy, stroke, PE)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PEA",
+          "url": "https://wikem.org/wiki/PEA"
+        },
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "2011_AHA_Recommendation_Changes": {
+      "text": "Bystandar CPR changes to CAB (Chest compressions, Airway, Breathing), instead of ABCs\nDe-emphasize Drugs, Devices, and other Distracters\nEmphasize good CPR\nAtropine is removed for bradycardia\nUse an epinephrine drip or\ndopamine\ndrip if needed\nBicarbonate is out removed\nExcept for specific toxidromes or renal failure\nProcainamide is first for\nstable\nVTach\nContinue to use amiodarone for unstable\nUse Amiodarone for UNSTABLE VTach\nLidocaine\nis removed for unstable VTach\nNew section on post arrest care\nNo tPA for hypertension Emergency BP (>200/110)\nReduce BP first\nSpecial sections and algorithms added for 15 special situations (ie. pregnancy, stroke, PE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "PALS": {
+      "text": "",
+      "subsections": {
+        "2010_AHA_Recommendations": {
+          "text": "Use Heimlich for >1yr; back/chest thrusts for <1yr\nTreat shock with initial 20cc/kg bolus\nRepeat boluses up to total of 60 mL/kg; thereafter pressors should be started\nDo not routinely hyperventilate even in cases of head injury\nProvide family with option of being present during resuscitation\nIO is useful as initial vascular access\nSelf-Adhering Electrodes\nUse largest size that will fit on child’s chest with out touching\nWhen possible leave 3cm between electrodes\nAdult size for >10kg; infant size for <10kg\nHypotension\nis defined as systolic BP:\n<60 (0 to 28 days)\n<70 (1mo - 12mo)\n<70 + (2 X age in yr) (1-10yr)\n<90 (≥10yr)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "2010_AHA_Recommendations": {
+      "text": "Use Heimlich for >1yr; back/chest thrusts for <1yr\nTreat shock with initial 20cc/kg bolus\nRepeat boluses up to total of 60 mL/kg; thereafter pressors should be started\nDo not routinely hyperventilate even in cases of head injury\nProvide family with option of being present during resuscitation\nIO is useful as initial vascular access\nSelf-Adhering Electrodes\nUse largest size that will fit on child’s chest with out touching\nWhen possible leave 3cm between electrodes\nAdult size for >10kg; infant size for <10kg\nHypotension\nis defined as systolic BP:\n<60 (0 to 28 days)\n<70 (1mo - 12mo)\n<70 + (2 X age in yr) (1-10yr)\n<90 (≥10yr)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ACLS (Main)\nPALS (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "2020 AHA Guidelines",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

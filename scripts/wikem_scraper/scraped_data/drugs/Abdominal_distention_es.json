@@ -1,0 +1,142 @@
+{
+  "drug_name": "Abdominal_distention/es",
+  "url": "https://wikem.org/wiki/Abdominal_distention/es",
+  "scraped_at": "2026-01-10T07:46:32.530776",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antecedentes": {
+      "text": "Definido como: hinchazón difusa o agrandamiento del abdomen.\nTambién puede referirse a la sensación de presión abdominal elevada y aumento de volumen.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Características_clínicas": {
+      "text": "Hinchazón difusa o agrandamiento del abdomen (o la sensación de tal)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Diagnóstico_diferencial": {
+      "text": "",
+      "subsections": {
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Abdominal_distention": {
+      "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Evaluación": {
+      "text": "Puede ser obvio en el examen físico (p. ej. obesidad)\nConsidere la ecografía como primera prueba (p. ej. obesidad vs. ascites)\nSi no está seguro, considere TC de abdomen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Manejo": {
+      "text": "Depende de la etiología subyacente.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Destino": {
+      "text": "Depende de la etiología subyacente.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

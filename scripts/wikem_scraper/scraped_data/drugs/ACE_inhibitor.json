@@ -1,0 +1,106 @@
+{
+  "drug_name": "ACE_inhibitor",
+  "url": "https://wikem.org/wiki/ACE_inhibitor",
+  "scraped_at": "2026-01-10T07:46:21.909073",
+  "sections": {
+    "Background": {
+      "text": "Angiotensin-converting-enzyme inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "ACE_inhibitor_and_ARB_equivalent_doses_in_Hypertension": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "ACE inhibitors dosages for hypertension": "Name"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Benazepril"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Captopril"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Enalapril"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Fosinopril"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Lisinopril"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Moexipril"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Perindopril"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Quinapril"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Ramipril"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Trandolapril"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Imidapril"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Valsartan"
+          },
+          {
+            "ACE inhibitors dosages for hypertension": "Losartan"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Drug_class_side_effect_profile": {
+      "text": "Hypotension\n, acute\nrenal failure\n,\nhyperkalemia\n,\ncough\n,\nangioedema\n, and anaphylactoid reactions.\nContraindicated in\npregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        }
+      ]
+    }
+  }
+}

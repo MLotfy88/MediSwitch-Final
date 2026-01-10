@@ -1,0 +1,120 @@
+{
+  "drug_name": "ACS_anatomical_correlation",
+  "url": "https://wikem.org/wiki/ACS_anatomical_correlation",
+  "scraped_at": "2026-01-10T07:46:24.167092",
+  "sections": {
+    "Intro": {
+      "text": "Q waves in V1-V3 over time\nSTD inf leads\nSTD in aVL (most common lead to see reciprocal change)\nSTE V1 (only lead looking at RV)\nSTE III > II (III more R facing)\nSTE V1 > V2, STE V1 + STD V2\nSTD in V1, V2, V3;\nR>S in V1\nTall R waves in V1-V3 (Q waves on back of heart) w/ upright TWs\nDoesn't apply in SVT\n",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Ischemic Changes": "STE V1-V3, TWIQ waves in V1-V3 over time",
+            "Location": "Septal",
+            "Coronary Artery": "Septal branch"
+          },
+          {
+            "Ischemic Changes": "STE V2-V4",
+            "Location": "Anterior",
+            "Coronary Artery": "LAD"
+          },
+          {
+            "Ischemic Changes": "STE I, aVL, V5, V6STD inf leads",
+            "Location": "Lateral",
+            "Coronary Artery": "Circumflex"
+          },
+          {
+            "Ischemic Changes": "STE I, aVL, V2-6",
+            "Location": "Anterolateral",
+            "Coronary Artery": "LAD + circumflex = Left main or 2 critical lesions"
+          },
+          {
+            "Ischemic Changes": "STE II, III, aVFSTD in aVL (most common lead to see reciprocal change)",
+            "Location": "Inferior",
+            "Coronary Artery": "RCA"
+          },
+          {
+            "Ischemic Changes": "STE V1 (only lead looking at RV)STE III > II (III more R facing)STE V1 > V2, STE V1 + STD V2",
+            "Location": "Right ventricle",
+            "Coronary Artery": "RCA"
+          },
+          {
+            "Ischemic Changes": "STD in V1, V2, V3;R>S in V1Tall R waves in V1-V3 (Q waves on back of heart) w/ upright TWs",
+            "Location": "Posterior aka Inferolateral",
+            "Coronary Artery": "RCA (90%), LCA (10%)"
+          },
+          {
+            "Ischemic Changes": "STE avR>V1Doesn't apply in SVT",
+            "Location": "Anterolateral",
+            "Coronary Artery": "Left Main"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "ACS_Anatomical_Correlation_Chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Ischemic Changes": "STE V1-V3, TWIQ waves in V1-V3 over time",
+            "Location": "Septal",
+            "Coronary Artery": "Septal branch"
+          },
+          {
+            "Ischemic Changes": "STE V2-V4",
+            "Location": "Anterior",
+            "Coronary Artery": "LAD"
+          },
+          {
+            "Ischemic Changes": "STE I, aVL, V5, V6STD inf leads",
+            "Location": "Lateral",
+            "Coronary Artery": "Circumflex"
+          },
+          {
+            "Ischemic Changes": "STE I, aVL, V2-6",
+            "Location": "Anterolateral",
+            "Coronary Artery": "LAD + circumflex = Left main or 2 critical lesions"
+          },
+          {
+            "Ischemic Changes": "STE II, III, aVFSTD in aVL (most common lead to see reciprocal change)",
+            "Location": "Inferior",
+            "Coronary Artery": "RCA"
+          },
+          {
+            "Ischemic Changes": "STE V1 (only lead looking at RV)STE III > II (III more R facing)STE V1 > V2, STE V1 + STD V2",
+            "Location": "Right ventricle",
+            "Coronary Artery": "RCA"
+          },
+          {
+            "Ischemic Changes": "STD in V1, V2, V3;R>S in V1Tall R waves in V1-V3 (Q waves on back of heart) w/ upright TWs",
+            "Location": "Posterior aka Inferolateral",
+            "Coronary Artery": "RCA (90%), LCA (10%)"
+          },
+          {
+            "Ischemic Changes": "STE avR>V1Doesn't apply in SVT",
+            "Location": "Anterolateral",
+            "Coronary Artery": "Left Main"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute coronary syndrome (main)\nMyocardial Infarction Complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndrome (main)",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Myocardial Infarction Complications",
+          "url": "https://wikem.org/wiki/Myocardial_Infarction_Complications"
+        }
+      ]
+    }
+  }
+}

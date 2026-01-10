@@ -1,0 +1,458 @@
+{
+  "drug_name": "Abdominal_trauma",
+  "url": "https://wikem.org/wiki/Abdominal_trauma",
+  "scraped_at": "2026-01-10T07:46:35.220956",
+  "sections": {
+    "Background": {
+      "text": "Typically divided into penetrating and abdominal trauma\nGun shot wounds that penetrate the peritoneum virtually all have intra-abdominal injury requiring surgery\nSmall bowel most commonly injured",
+      "subsections": {
+        "Classes_of_hemorrhagic_shock": {
+          "text": "^Base excess is the quantity of base (HCO3-, in mEq/L) that is above or below the normal range in the body. A negative number is called a base deficit and indicates metabolic acidosis.",
+          "tables": [
+            [
+              {
+                "Class": "Approximate blood loss",
+                "I": "<15%",
+                "II": "15-30%",
+                "III": "30-40%",
+                "IV": ">40%"
+              },
+              {
+                "Class": "Heart rate",
+                "I": "↔",
+                "II": "↔/↑",
+                "III": "↑",
+                "IV": "↑↑"
+              },
+              {
+                "Class": "Blood pressure",
+                "I": "↔",
+                "II": "↔",
+                "III": "↔/↓",
+                "IV": "↓"
+              },
+              {
+                "Class": "Pulse Pressure (mmHg)",
+                "I": "↔",
+                "II": "↓",
+                "III": "↓",
+                "IV": "↓"
+              },
+              {
+                "Class": "Respiratory Rate (per min)",
+                "I": "↔",
+                "II": "↔",
+                "III": "↔/↑",
+                "IV": "↑"
+              },
+              {
+                "Class": "Urine Output (mL/hr)",
+                "I": "↔",
+                "II": "↔",
+                "III": "↓",
+                "IV": "↓↓"
+              },
+              {
+                "Class": "Glasgow coma scale score",
+                "I": "↔",
+                "II": "↔",
+                "III": "↓",
+                "IV": "↓"
+              },
+              {
+                "Class": "Base deficit^",
+                "I": "0 to -2 mEq/L",
+                "II": "-2 to -6 mEq/L",
+                "III": "-6 to -10 mEq/L",
+                "IV": "-10 or less mEq/L"
+              },
+              {
+                "Class": "Need for blood products",
+                "I": "Monitor",
+                "II": "Possible",
+                "III": "Yes",
+                "IV": "Massive transfusion protocol"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classes_of_hemorrhagic_shock": {
+      "text": "^Base excess is the quantity of base (HCO3-, in mEq/L) that is above or below the normal range in the body. A negative number is called a base deficit and indicates metabolic acidosis.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Class": "Approximate blood loss",
+            "I": "<15%",
+            "II": "15-30%",
+            "III": "30-40%",
+            "IV": ">40%"
+          },
+          {
+            "Class": "Heart rate",
+            "I": "↔",
+            "II": "↔/↑",
+            "III": "↑",
+            "IV": "↑↑"
+          },
+          {
+            "Class": "Blood pressure",
+            "I": "↔",
+            "II": "↔",
+            "III": "↔/↓",
+            "IV": "↓"
+          },
+          {
+            "Class": "Pulse Pressure (mmHg)",
+            "I": "↔",
+            "II": "↓",
+            "III": "↓",
+            "IV": "↓"
+          },
+          {
+            "Class": "Respiratory Rate (per min)",
+            "I": "↔",
+            "II": "↔",
+            "III": "↔/↑",
+            "IV": "↑"
+          },
+          {
+            "Class": "Urine Output (mL/hr)",
+            "I": "↔",
+            "II": "↔",
+            "III": "↓",
+            "IV": "↓↓"
+          },
+          {
+            "Class": "Glasgow coma scale score",
+            "I": "↔",
+            "II": "↔",
+            "III": "↓",
+            "IV": "↓"
+          },
+          {
+            "Class": "Base deficit^",
+            "I": "0 to -2 mEq/L",
+            "II": "-2 to -6 mEq/L",
+            "III": "-6 to -10 mEq/L",
+            "IV": "-10 or less mEq/L"
+          },
+          {
+            "Class": "Need for blood products",
+            "I": "Monitor",
+            "II": "Possible",
+            "III": "Yes",
+            "IV": "Massive transfusion protocol"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Typically, abdominal pain after trauma (blunt or penetrating)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Abdominal_Trauma": {
+      "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "ATLS_Blunt_Abdominal_Trauma_Algorithm": {
+          "text": "Unstable\nFAST\nto search for free fluid (vs.\nDPL\nif unavailable)\nPositive: Exploratory laparotomy\nNegative: CT scan\nStable\nCT scan\nExploratory laparotomy, angiographic embolization, conservative management as indicated",
+          "tables": []
+        },
+        "Imaging_Tests": {
+          "text": "Ultrasound (\nFAST\n)\nIndicated\nonly\nfor hemodynamically unstable trauma patients\nOtherwise CT is indicated for primary imaging\nUltrasound cannot reliably evaluate retroperitoneum / hollow viscous injury\nUltrasound has lower sensitivity in the setting of pelvic fractures\nIf CT is not available (e.g. low resource area, multiple casualty) can consider serial\nFAST\nexams, which increases sensitivity\nFor example, serial abdominal exams with two FAST examinations performed at least 6 hours apart\nCT\nCT with IV contrast only is typical standard\nMay consider triple-contrast (IV, PO, PR) if specific concern for viscous perforation, although delay to imaging typically prohibits this as the initial study",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        },
+        {
+          "text": "DPL",
+          "url": "https://wikem.org/wiki/DPL"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST_exam"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        }
+      ]
+    },
+    "ATLS_Blunt_Abdominal_Trauma_Algorithm": {
+      "text": "Unstable\nFAST\nto search for free fluid (vs.\nDPL\nif unavailable)\nPositive: Exploratory laparotomy\nNegative: CT scan\nStable\nCT scan\nExploratory laparotomy, angiographic embolization, conservative management as indicated",
+      "subsections": {
+        "Imaging_Tests": {
+          "text": "Ultrasound (\nFAST\n)\nIndicated\nonly\nfor hemodynamically unstable trauma patients\nOtherwise CT is indicated for primary imaging\nUltrasound cannot reliably evaluate retroperitoneum / hollow viscous injury\nUltrasound has lower sensitivity in the setting of pelvic fractures\nIf CT is not available (e.g. low resource area, multiple casualty) can consider serial\nFAST\nexams, which increases sensitivity\nFor example, serial abdominal exams with two FAST examinations performed at least 6 hours apart\nCT\nCT with IV contrast only is typical standard\nMay consider triple-contrast (IV, PO, PR) if specific concern for viscous perforation, although delay to imaging typically prohibits this as the initial study",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        },
+        {
+          "text": "DPL",
+          "url": "https://wikem.org/wiki/DPL"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST_exam"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        }
+      ]
+    },
+    "Imaging_Tests": {
+      "text": "Ultrasound (\nFAST\n)\nIndicated\nonly\nfor hemodynamically unstable trauma patients\nOtherwise CT is indicated for primary imaging\nUltrasound cannot reliably evaluate retroperitoneum / hollow viscous injury\nUltrasound has lower sensitivity in the setting of pelvic fractures\nIf CT is not available (e.g. low resource area, multiple casualty) can consider serial\nFAST\nexams, which increases sensitivity\nFor example, serial abdominal exams with two FAST examinations performed at least 6 hours apart\nCT\nCT with IV contrast only is typical standard\nMay consider triple-contrast (IV, PO, PR) if specific concern for viscous perforation, although delay to imaging typically prohibits this as the initial study",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST_exam"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Nonoperative management is the norm in children, but not necessarily in adults.\nATLS\nalgorithm for severe trauma\nVascular access\nConsider\nblood transfusion\n(and\nmassive transfusion protocol\n) +\nTXA\nSurgery consult (surgery vs. IR)\npolytrauma, hypotension, free intraperitoneal fluid - immediate exploratory laparotomy\nisolated bleed for angioembolization",
+      "subsections": {
+        "Indications_for_laparotomy": {
+          "text": "Blunt\nAnterior abdominal injury with hypotension\nAbdominal wall disruption\nPeritonitis\nFree air under diaphragm on chest radiograph\nPositive FAST or DPL in hemodynamically unstable patient\nCT-diagnosed injury requiring surgery (i.e., pancreatic transection, duodenal rupture, diaphragm injury)\nPenetrating\nInjury to abdomen, back, and flank with hypotension\nAbdominal tenderness\nGI evisceration\nHigh suspicion for transabdominal trajectory after gunshot wound\nCT-diagnosed injury requiring surgery (i.e., ureter or pancreas)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ATLS",
+          "url": "https://wikem.org/wiki/ATLS"
+        },
+        {
+          "text": "blood transfusion",
+          "url": "https://wikem.org/wiki/Blood_transfusion"
+        },
+        {
+          "text": "massive transfusion protocol",
+          "url": "https://wikem.org/wiki/Massive_transfusion_protocol"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Indications_for_laparotomy": {
+      "text": "Blunt\nAnterior abdominal injury with hypotension\nAbdominal wall disruption\nPeritonitis\nFree air under diaphragm on chest radiograph\nPositive FAST or DPL in hemodynamically unstable patient\nCT-diagnosed injury requiring surgery (i.e., pancreatic transection, duodenal rupture, diaphragm injury)\nPenetrating\nInjury to abdomen, back, and flank with hypotension\nAbdominal tenderness\nGI evisceration\nHigh suspicion for transabdominal trajectory after gunshot wound\nCT-diagnosed injury requiring surgery (i.e., ureter or pancreas)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Discharge": {
+          "text": "CT scan of the abdomen and pelvis negative, normotensive\nPenetrating\nKnife: If local wound exploration shows no violation of anterior fascia, suture laceration and discharge\nIf CT shows a subcutaneous trajectory or minimal retroperitoneal violation, discharge home after period of observation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "CT scan of the abdomen and pelvis negative, normotensive\nPenetrating\nKnife: If local wound exploration shows no violation of anterior fascia, suture laceration and discharge\nIf CT shows a subcutaneous trajectory or minimal retroperitoneal violation, discharge home after period of observation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Trauma (main)\nTrauma in pregnancy\nThoracic and lumbar spine trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma (main)",
+          "url": "https://wikem.org/wiki/Trauma_(main)"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Thoracic and lumbar spine trauma",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_spine_trauma"
+        }
+      ]
+    },
+    "References": {
+      "text": "Shah, Essential Emergency Trauma, pgs 143-148\nBailitz J, Bokhari F, Scaletta TA, Schaider J. Emergent Management of Trauma. New York: The McGraw-Hill Company, 2011: pg 193.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=j5BuHyoeK-U}}\n{{#widget:YouTube|id=l8VDztQtHG4}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

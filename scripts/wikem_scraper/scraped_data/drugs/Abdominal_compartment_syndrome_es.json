@@ -1,0 +1,266 @@
+{
+  "drug_name": "Abdominal_compartment_syndrome/es",
+  "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome/es",
+  "scraped_at": "2026-01-10T07:46:31.108743",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antecedentes": {
+      "text": "Disfunción orgánica causada por hipertensión intrabdominal\nAumento de la presión intrabdominal que resulta en disminución de la perfusión orgánica, hemodinámica alterada",
+      "subsections": {
+        "Fisiopatología": {
+          "text": "Presión de perfusión abdominal = MAP - presión intrabdominal\nAcumulación de líquido o sangre dentro del peritoneo o retroperitoneo\nY/o disminución de la compliancia de la pared abdominal\nAumento de la presión dentro de una cavidad de volumen fijo → hipoperfusión de los órganos abdominales\nTambién causa restricción de la excursión diafragmática y retorno venoso central alterado",
+          "tables": []
+        },
+        "Causas": {
+          "text": "Pancreatitis aguda\nAscitis\nPeritonitis difusa\nRehidratación con grandes volúmenes de\nlíquidos intravenosos\nReperfusión de\nintestino isquémico\nHemorragia retroperitoneal\nOclusión intestinal\nTraumatismo",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Fisiopatología": {
+      "text": "Presión de perfusión abdominal = MAP - presión intrabdominal\nAcumulación de líquido o sangre dentro del peritoneo o retroperitoneo\nY/o disminución de la compliancia de la pared abdominal\nAumento de la presión dentro de una cavidad de volumen fijo → hipoperfusión de los órganos abdominales\nTambién causa restricción de la excursión diafragmática y retorno venoso central alterado",
+      "subsections": {
+        "Causas": {
+          "text": "Pancreatitis aguda\nAscitis\nPeritonitis difusa\nRehidratación con grandes volúmenes de\nlíquidos intravenosos\nReperfusión de\nintestino isquémico\nHemorragia retroperitoneal\nOclusión intestinal\nTraumatismo",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causas": {
+      "text": "Pancreatitis aguda\nAscitis\nPeritonitis difusa\nRehidratación con grandes volúmenes de\nlíquidos intravenosos\nReperfusión de\nintestino isquémico\nHemorragia retroperitoneal\nOclusión intestinal\nTraumatismo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Características_clínicas": {
+      "text": "La mayoría de los pacientes están críticamente enfermos y no pueden comunicarse\nDisminución del\nretorno venoso central\nAumento de la\npresión venosa yugular\n(PVY)\nAumento de la presión intracraneal\n(PIC)\nDisminución de la\nprecarga cardíaca\nAumento de la\nposcarga cardíaca\nPresión intratorácica aumentada\nDisminución de la\ncomplianza pulmonar\n(causará altas presiones pico en pacientes ventilados)\nDisminución de la\ncapacidad residual funcional\nEmpeoramiento del\nmalabarismo ventilación-perfusión\n(V/Q)\nOliguria,\ninsuficiencia renal\nIsquemia intestinal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Diagnóstico_diferencial": {
+      "text": "",
+      "subsections": {
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Abdominal_Trauma": {
+      "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Evaluación": {
+      "text": "",
+      "subsections": {
+        "Evaluación_2": {
+          "text": "El examen físico no es ni sensible ni específico\nLink to\npasos para medir la presión vesical con línea arterial y\nvideo\n.\nObtener presión vesical\nNormal = <12 mmHg\nHipertensión intraabdominal (IAH) = 12 - 20 mmHg\nPreocupación por síndrome de compartimento abdominal = >20 mmHg (también requiere evidencia de daño a órganos finales)",
+          "tables": []
+        },
+        "Prónostico": {
+          "text": "Síndrome de compartimiento abdominal = Hipertensión intraabdominal (IAH) >20 mmHg MÁS daño en órganos terminales\nLa presión de perfusión abdominal <60 mmHg sugiere hipoperfusión abdominal\n[1]\nNota que la exploración de la vena cava inferior para evaluar el estado de volumen es especialmente poco fiable, ya que el colapso puede no representar depleción de volumen en el contexto de altas presiones intraabdominales\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluación_2": {
+      "text": "El examen físico no es ni sensible ni específico\nLink to\npasos para medir la presión vesical con línea arterial y\nvideo\n.\nObtener presión vesical\nNormal = <12 mmHg\nHipertensión intraabdominal (IAH) = 12 - 20 mmHg\nPreocupación por síndrome de compartimento abdominal = >20 mmHg (también requiere evidencia de daño a órganos finales)",
+      "subsections": {
+        "Prónostico": {
+          "text": "Síndrome de compartimiento abdominal = Hipertensión intraabdominal (IAH) >20 mmHg MÁS daño en órganos terminales\nLa presión de perfusión abdominal <60 mmHg sugiere hipoperfusión abdominal\n[1]\nNota que la exploración de la vena cava inferior para evaluar el estado de volumen es especialmente poco fiable, ya que el colapso puede no representar depleción de volumen en el contexto de altas presiones intraabdominales\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prónostico": {
+      "text": "Síndrome de compartimiento abdominal = Hipertensión intraabdominal (IAH) >20 mmHg MÁS daño en órganos terminales\nLa presión de perfusión abdominal <60 mmHg sugiere hipoperfusión abdominal\n[1]\nNota que la exploración de la vena cava inferior para evaluar el estado de volumen es especialmente poco fiable, ya que el colapso puede no representar depleción de volumen en el contexto de altas presiones intraabdominales\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Manejo": {
+      "text": "",
+      "subsections": {
+        "No_quirúrgico": {
+          "text": "A menudo se utiliza como primera línea de tratamiento cuando no hay lesiones abdominales presentes\n[3]\nLimitar la resucitación con fluidos\nSonda nasogástrica\ny descompresión vesical\nReposición de electrolitos\nAntibióticos\nFármacos vasoactivos\ncon objetivo de MAP 65\nTRCR (Terapia de Reemplazo Renal Continuo)\nDrenaje percutáneo de fluidos (eliminar ascitis si está presente)\nTratar el dolor y sedar adecuadamente\nPosición de Trendelenburg inversa\nConsiderar\nmetoclopramida",
+          "tables": []
+        },
+        "Quirúrgico": {
+          "text": "Tratamiento definitivo\nLa laparotomía proporciona descompresión\nAlta tasa de complicaciones\nNo hay pautas para el momento del cierre",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "No_quirúrgico": {
+      "text": "A menudo se utiliza como primera línea de tratamiento cuando no hay lesiones abdominales presentes\n[3]\nLimitar la resucitación con fluidos\nSonda nasogástrica\ny descompresión vesical\nReposición de electrolitos\nAntibióticos\nFármacos vasoactivos\ncon objetivo de MAP 65\nTRCR (Terapia de Reemplazo Renal Continuo)\nDrenaje percutáneo de fluidos (eliminar ascitis si está presente)\nTratar el dolor y sedar adecuadamente\nPosición de Trendelenburg inversa\nConsiderar\nmetoclopramida",
+      "subsections": {
+        "Quirúrgico": {
+          "text": "Tratamiento definitivo\nLa laparotomía proporciona descompresión\nAlta tasa de complicaciones\nNo hay pautas para el momento del cierre",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Quirúrgico": {
+      "text": "Tratamiento definitivo\nLa laparotomía proporciona descompresión\nAlta tasa de complicaciones\nNo hay pautas para el momento del cierre",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Destino": {
+      "text": "Ingresar (al hospital)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Ver_también": {
+      "text": "Síndrome de compartimiento\n\"tradicional\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,604 @@
+{
+  "drug_name": "20kg_(6yr)",
+  "url": "https://wikem.org/wiki/20kg_(6yr)",
+  "scraped_at": "2026-01-10T07:46:23.202170",
+  "sections": {
+    "Critical_Care_Quick_Reference_Group": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Weight": "Age",
+            "20 kg": "6 years"
+          },
+          {
+            "Weight": "Broselow Color",
+            "20 kg": "Blue"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Normal_Vital_Signs": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Heart Rate": "Respiratory Rate",
+            "70-110 bpm": "18-24 rpm"
+          },
+          {
+            "Heart Rate": "Systolic BP",
+            "70-110 bpm": "80-110 mmHg"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Intubation": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medication": "Pretreatment"
+          },
+          {
+            "Medication": "Lidocaine",
+            "Dose": "30 mg",
+            "Calculation": "1.5 mg/kg[1]"
+          },
+          {
+            "Medication": "Fentanyl",
+            "Dose": "20 mcg",
+            "Calculation": "1  mcg/kg"
+          },
+          {
+            "Medication": "RSI"
+          },
+          {
+            "Medication": "Etomidate",
+            "Dose": "6 mg",
+            "Calculation": "0.3 mg/kg"
+          },
+          {
+            "Medication": "Succinylcholine",
+            "Dose": "30 mg",
+            "Calculation": "1.5 mg/kg"
+          },
+          {
+            "Medication": "Midazolam(Versed)",
+            "Dose": "2 mg",
+            "Calculation": "0.1 mg/kg(max 2 mg per dose)"
+          },
+          {
+            "Medication": "Ketamine",
+            "Dose": "40 mg",
+            "Calculation": "2 mg/kg"
+          },
+          {
+            "Medication": "Vecuronium",
+            "Dose": "2 mg",
+            "Calculation": "0.1 mg/kg"
+          },
+          {
+            "Medication": "Rocuronium",
+            "Dose": "20 mg",
+            "Calculation": "1 mg/kg"
+          },
+          {
+            "Medication": "Equipment"
+          },
+          {
+            "Medication": "ET Tube (cuffed)",
+            "Dose": "5 ±0.5",
+            "Calculation": "age/4+3"
+          },
+          {
+            "Medication": "ET Tube (uncuffed)",
+            "Dose": "6 ±0.5",
+            "Calculation": "age/4+4"
+          },
+          {
+            "Medication": "Blade",
+            "Dose": "3-4",
+            "Calculation": "Miller or MAC"
+          },
+          {
+            "Medication": "cm to teeth",
+            "Dose": "15",
+            "Calculation": "3 x ETT size"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Pulseless_Arrest": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medication": "Defibrillation",
+            "Dose": "40  J",
+            "Calculation": "2 J/kg(max 200)"
+          },
+          {
+            "Medication": "Epinephrine(1:10,000)",
+            "Dose": "0.2 mg",
+            "Calculation": "0.01 mg/kg(max 1 mg)"
+          },
+          {
+            "Medication": "Amiodaroneload (without pulse)",
+            "Dose": "100 mg",
+            "Calculation": "5 mg/kg(max 300)"
+          },
+          {
+            "Medication": "Lidocaine",
+            "Dose": "20 mg",
+            "Calculation": "1 mg/kg"
+          },
+          {
+            "Medication": "LidocaineInfusion",
+            "Dose": "1000 mcg/min",
+            "Calculation": "50 mcg/kg/min"
+          },
+          {
+            "Medication": "Magnesium sulfate",
+            "Dose": "1000 mg",
+            "Calculation": "50 mg/kg(max 2000 mg)"
+          },
+          {
+            "Medication": "CalCl(100mg/mL)",
+            "Dose": "400",
+            "Calculation": "20 mg/kg(max 1000 mg)"
+          },
+          {
+            "Medication": "Sodium Bicarbonate(8.4%)",
+            "Dose": "20mL",
+            "Calculation": "1 mL/kg(max 50 mL)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Cardiac_with_Pulse": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medication": "Adenosine",
+            "Dose": "2 mg",
+            "Calculation": "0.1 mg/kg(max 6 mg)"
+          },
+          {
+            "Medication": "AdenosineRepeat",
+            "Dose": "4 mg",
+            "Calculation": "0.2 mg/kg(max 12 mg)"
+          },
+          {
+            "Medication": "Amiodaroneload (with pulse)",
+            "Dose": "100 mg",
+            "Calculation": "5 mg/kg"
+          },
+          {
+            "Medication": "Amiodarone2nd/3rd dose",
+            "Dose": "repeat loading dose up to total 3 times",
+            "Calculation": "15 mg/kg max"
+          },
+          {
+            "Medication": "Atropine",
+            "Dose": "0.4 mg",
+            "Calculation": "0.02 mg/kg(max 1 mg)"
+          },
+          {
+            "Medication": "CardioversionFirst Shock",
+            "Dose": "20 J",
+            "Calculation": "1  J/kg"
+          },
+          {
+            "Medication": "CardioversionSecond Shock",
+            "Dose": "40 J",
+            "Calculation": "2 J/kg"
+          },
+          {
+            "Medication": "Procainamide",
+            "Dose": "300 mg",
+            "Calculation": "15 mg/kg(max 1500 mg)"
+          },
+          {
+            "Medication": "Diltiazem",
+            "Dose": "5 mg",
+            "Calculation": "0.25 mg/kg"
+          },
+          {
+            "Medication": "Esmolol",
+            "Dose": "2000 mcg/min",
+            "Calculation": "100 mcg/kg/min"
+          },
+          {
+            "Medication": "Magnesium sulfate",
+            "Dose": "1000 mg",
+            "Calculation": "50 mg/kg"
+          },
+          {
+            "Medication": "Nitroglycerindrip",
+            "Dose": "1 mcg",
+            "Calculation": "0.05 mcg/kg/min"
+          },
+          {
+            "Medication": "Glucagon",
+            "Dose": "0.5 mg",
+            "Calculation": "0.025 mg/kg"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Hypoglycemia": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medication": "D25W",
+            "Dose": "40 mL",
+            "Calculation": "2 mL/kg"
+          },
+          {
+            "Medication": "D10 W",
+            "Dose": "50 mL",
+            "Calculation": "2.5 mL/kg"
+          },
+          {
+            "Medication": "Glucagon",
+            "Dose": "0.5 mg",
+            "Calculation": "0.025 mg/kg"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Vasopressors": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medication": "Norepinephrine(Levophed)",
+            "IV Dose (mcg/kg/min)": "0.1-2 mcg/kg/min",
+            "Concentration": "8mg in 500mL D5W"
+          },
+          {
+            "Medication": "Dopamine",
+            "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+            "Concentration": "400mg in 250 D5W"
+          },
+          {
+            "Medication": "Dobutamine",
+            "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+            "Concentration": "250mg in 250 mg D5W"
+          },
+          {
+            "Medication": "Epinephrine",
+            "IV Dose (mcg/kg/min)": "0.1-1 mcg/kg/min",
+            "Concentration": "1mg in 250 D5W"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Sedation": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medication": "Lorazepam(Ativan)",
+            "Dose": "1 mg",
+            "Calculation": "0.05 mg/kg(max 2 mg per dose)"
+          },
+          {
+            "Medication": "Morphine",
+            "Dose": "2 mg",
+            "Calculation": "0.1 mg/kg"
+          },
+          {
+            "Medication": "Fenatnyl",
+            "Dose": "20 mcg",
+            "Calculation": "1 mcg/kg"
+          },
+          {
+            "Medication": "Ketamine",
+            "Dose": "20 mg",
+            "Calculation": "1 mg/kg"
+          },
+          {
+            "Medication": "Midazolam(Versed)",
+            "Dose": "2 mg",
+            "Calculation": "0.1 mg/kg(max 2 mg per dose)"
+          },
+          {
+            "Medication": "PropofolIV (initial)",
+            "Dose": "20 mg",
+            "Calculation": "1 mg/kg"
+          },
+          {
+            "Medication": "Propofol(drip)",
+            "Dose": "1000 mcg",
+            "Calculation": "50  mcg/kg/min"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Seizure_and_CNS": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medication": "Lorazepam(Ativan)",
+            "Dose": "1 mg",
+            "Calculation": "0.05 mg/kg(max 2 mg per dose)"
+          },
+          {
+            "Medication": "Fosphenytoin(PE = phenytoin equivalent)",
+            "Dose": "400 PE",
+            "Calculation": "20 PE/kg"
+          },
+          {
+            "Medication": "Phenytoin(Dilantin)",
+            "Dose": "400 mg",
+            "Calculation": "20 mg/kg"
+          },
+          {
+            "Medication": "Phenobarbitol",
+            "Dose": "200 mg",
+            "Calculation": "10 mg/kg"
+          },
+          {
+            "Medication": "Diazepam(Valium) rectal",
+            "Dose": "2 mg",
+            "Calculation": "0.1 mg/kg every 2 min"
+          },
+          {
+            "Medication": "Levetiracetam(Keppra)",
+            "Dose": "400 mg",
+            "Calculation": "20 mg/kg"
+          },
+          {
+            "Medication": "Mannitol",
+            "Dose": "20 g",
+            "Calculation": "1 g/kg"
+          },
+          {
+            "Medication": "Hypoglycemia",
+            "Dose": "IV dextrose",
+            "Calculation": "see glucose table"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Trauma": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medication": "Normal saline 0.9% bolus",
+            "Dose": "400mL"
+          },
+          {
+            "Medication": "PRBCs (1u=250mL)",
+            "Dose": "200mL"
+          },
+          {
+            "Medication": "Chest tube(fr)",
+            "Dose": "28"
+          },
+          {
+            "Medication": "Central line",
+            "Dose": "4F (IJ/subclavian)4-5F (femoral)"
+          },
+          {
+            "Medication": "NG tube (fr)",
+            "Dose": "12"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Equipment": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medication": "Chest tube(fr)",
+            "Dose": "28"
+          },
+          {
+            "Medication": "Central line",
+            "Dose": "4F (IJ/subclavian)4-5F (femoral)"
+          },
+          {
+            "Medication": "NG tube (fr)",
+            "Dose": "12"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Fluids": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Medication": "Normal saline 0.9% bolus",
+            "Dose": "400mL",
+            "Calculation": "20 mL/kg"
+          },
+          {
+            "Medication": "Maintenance",
+            "Dose": "60mL/hr",
+            "Calculation": "4-2-1 Rule"
+          },
+          {
+            "Medication": "PRBCs (1u=250mL)",
+            "Dose": "200mL"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Quick_Reference_Groups": {
+          "text": "ACLS (Main)\nPALS (Main)",
+          "tables": [
+            [
+              {
+                "Adult": "Category"
+              },
+              {
+                "Adult": "Large adult"
+              },
+              {
+                "Adult": "ADULT"
+              },
+              {
+                "Adult": "Small adult"
+              },
+              {
+                "Adult": "Pediatric"
+              },
+              {
+                "Adult": "Broslow Color"
+              },
+              {
+                "Adult": "Green"
+              },
+              {
+                "Adult": "Orange"
+              },
+              {
+                "Adult": "Blue"
+              },
+              {
+                "Adult": "White"
+              },
+              {
+                "Adult": "Yellow"
+              },
+              {
+                "Adult": "Purple"
+              },
+              {
+                "Adult": "Red"
+              },
+              {
+                "Adult": "Pink"
+              },
+              {
+                "Adult": "Gray"
+              },
+              {
+                "Adult": "3.5kg (newborn)"
+              },
+              {
+                "Adult": "Preemie"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        }
+      ]
+    },
+    "Quick_Reference_Groups": {
+      "text": "ACLS (Main)\nPALS (Main)",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Adult": "Category"
+          },
+          {
+            "Adult": "Large adult"
+          },
+          {
+            "Adult": "ADULT"
+          },
+          {
+            "Adult": "Small adult"
+          },
+          {
+            "Adult": "Pediatric"
+          },
+          {
+            "Adult": "Broslow Color"
+          },
+          {
+            "Adult": "Green"
+          },
+          {
+            "Adult": "Orange"
+          },
+          {
+            "Adult": "Blue"
+          },
+          {
+            "Adult": "White"
+          },
+          {
+            "Adult": "Yellow"
+          },
+          {
+            "Adult": "Purple"
+          },
+          {
+            "Adult": "Red"
+          },
+          {
+            "Adult": "Pink"
+          },
+          {
+            "Adult": "Gray"
+          },
+          {
+            "Adult": "3.5kg (newborn)"
+          },
+          {
+            "Adult": "Preemie"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        }
+      ]
+    }
+  }
+}

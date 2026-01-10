@@ -1,0 +1,360 @@
+{
+  "drug_name": "Abacavir/lamivudine",
+  "url": "https://wikem.org/wiki/Abacavir/lamivudine",
+  "scraped_at": "2026-01-10T07:46:25.845918",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiviral\nDosage Forms: TAB 600mg, 300mg\nRoutes of Administration: Oral\nCommon Trade Names: Epzicom, APO, Auro, Kivexa, MYLAN, PMS, TEVA\nAdministered W/WO food.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "HIV_infection": {
+          "text": "1 tab PO daily (abacavir 600 mg and lamivudine 300 mg)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "HIV_infection": {
+      "text": "1 tab PO daily (abacavir 600 mg and lamivudine 300 mg)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "HIV_infection_2": {
+          "text": ">25kg: 1 tab PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "HIV_infection_2": {
+      "text": ">25kg: 1 tab PO daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Abacavir: Benefits outweigh risks during pregnancy\nLamivudine: Benefits outweigh risks during pregnancy",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Avoid breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl <50: Avoid use\nPediatric:\nCrCl <50: Avoid use",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nChild-Pugh Class A: Avoid use\nChild-Pugh Class B or C: Contraindicated\nPediatric:\nChild-Pugh Class A: Avoid use\nChild-Pugh Class B or C: Contraindicated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Abacavir: Benefits outweigh risks during pregnancy\nLamivudine: Benefits outweigh risks during pregnancy",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Avoid breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl <50: Avoid use\nPediatric:\nCrCl <50: Avoid use",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nChild-Pugh Class A: Avoid use\nChild-Pugh Class B or C: Contraindicated\nPediatric:\nChild-Pugh Class A: Avoid use\nChild-Pugh Class B or C: Contraindicated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Avoid breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl <50: Avoid use\nPediatric:\nCrCl <50: Avoid use",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nChild-Pugh Class A: Avoid use\nChild-Pugh Class B or C: Contraindicated\nPediatric:\nChild-Pugh Class A: Avoid use\nChild-Pugh Class B or C: Contraindicated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nCrCl <50: Avoid use\nPediatric:\nCrCl <50: Avoid use",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nChild-Pugh Class A: Avoid use\nChild-Pugh Class B or C: Contraindicated\nPediatric:\nChild-Pugh Class A: Avoid use\nChild-Pugh Class B or C: Contraindicated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nChild-Pugh Class A: Avoid use\nChild-Pugh Class B or C: Contraindicated\nPediatric:\nChild-Pugh Class A: Avoid use\nChild-Pugh Class B or C: Contraindicated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHLA-B*5701 Positive pts\nHepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypersensitivity reaction\nAnaphylaxis\nStevens-Johnson syndrome\nToxic epidermal necrolysis\nErythema multiforme\nMI\nLactic acidosis\nHepatomegaly w/ steatosis\nPancreatitis\nHBV exacerbation, post-treatment\nPeripheral neuropathy\nAnemia\n, severe\nRhabdomyolysis\nImmune reconstitution syndrome\nAutoimmune disorders",
+          "tables": []
+        },
+        "Common": {
+          "text": "Insomnia, depression,\nfatigue\n, abnormal dreams\nHeadache\n,\ndizziness\nNausea\n,\ndiarrhea\n, abdominal pain,\nRash\nFever\nAnxiety\nHyperamylasemia",
+          "tables": []
+        },
+        "Disease-related_concerns": {
+          "text": "Coronary heart disease: Use associated with increased risk of MI in some cohort studies (Elion 2018; HHS 2017)\nChronic hepatitis B: Severe acute exacerbations of hepatitis B have been reported in patients who are co-infected with hepatitis B virus (HBV) and HIV-1 and have discontinued lamivudine, which is one component of abacavir/lamivudine.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Peripheral_neuropathy"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypersensitivity reaction\nAnaphylaxis\nStevens-Johnson syndrome\nToxic epidermal necrolysis\nErythema multiforme\nMI\nLactic acidosis\nHepatomegaly w/ steatosis\nPancreatitis\nHBV exacerbation, post-treatment\nPeripheral neuropathy\nAnemia\n, severe\nRhabdomyolysis\nImmune reconstitution syndrome\nAutoimmune disorders",
+      "subsections": {
+        "Common": {
+          "text": "Insomnia, depression,\nfatigue\n, abnormal dreams\nHeadache\n,\ndizziness\nNausea\n,\ndiarrhea\n, abdominal pain,\nRash\nFever\nAnxiety\nHyperamylasemia",
+          "tables": []
+        },
+        "Disease-related_concerns": {
+          "text": "Coronary heart disease: Use associated with increased risk of MI in some cohort studies (Elion 2018; HHS 2017)\nChronic hepatitis B: Severe acute exacerbations of hepatitis B have been reported in patients who are co-infected with hepatitis B virus (HBV) and HIV-1 and have discontinued lamivudine, which is one component of abacavir/lamivudine.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Peripheral_neuropathy"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Insomnia, depression,\nfatigue\n, abnormal dreams\nHeadache\n,\ndizziness\nNausea\n,\ndiarrhea\n, abdominal pain,\nRash\nFever\nAnxiety\nHyperamylasemia",
+      "subsections": {
+        "Disease-related_concerns": {
+          "text": "Coronary heart disease: Use associated with increased risk of MI in some cohort studies (Elion 2018; HHS 2017)\nChronic hepatitis B: Severe acute exacerbations of hepatitis B have been reported in patients who are co-infected with hepatitis B virus (HBV) and HIV-1 and have discontinued lamivudine, which is one component of abacavir/lamivudine.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Disease-related_concerns": {
+      "text": "Coronary heart disease: Use associated with increased risk of MI in some cohort studies (Elion 2018; HHS 2017)\nChronic hepatitis B: Severe acute exacerbations of hepatitis B have been reported in patients who are co-infected with hepatitis B virus (HBV) and HIV-1 and have discontinued lamivudine, which is one component of abacavir/lamivudine.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nAbacavir: 1.5h\nLamivudine: 5-7h\nMetabolism:\nAbacavir: Liver\nLamivudine: Intracellular; active metabolite\nExcretion:\nAbacavir: Urine 82.2% (1.2% unchanged), feces 16%\nLamivudine: Urine (primarily unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Both drugs inhibit reverse transcriptase and incorporates into viral DNA, resulting in chain termination",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Elion RA, Althoff KN, Zhang J, et al; American AIDS Cohort Collaboration on Research and Design of IeDEA. Recent abacavir use increases risk of type 1 and type 2 myocardial infarctions among adults with HIV. J Acquir Immune Defic Syndr. 2018;78(1):62-72. doi: 10.1097/QAI.0000000000001642. [PubMed 29419568]\nEpzicom (abacavir and lamivudine) [prescribing information]. Research Triangle Park, NC: GlaxoSmithKline; April 2018.\nHHS Panel on Antiretroviral Guidelines for Adults and Adolescents. Guidelines for the use of antiretroviral agents in HIV-1-infected adults and adolescents.\nhttp://www.aidsinfo.nih.gov/ContentFiles/AdultandAdolescentGL.pdf\n. Updated October 17, 2017. Accessed October 18, 2017.\nKivexa (abacavir and lamivudine) [product monograph]. Laval, Quebec, Canada: ViiV Healthcare ULC; December 2018.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

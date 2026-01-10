@@ -1,0 +1,41 @@
+{
+  "drug_name": "AVPU_scale",
+  "url": "https://wikem.org/wiki/AVPU_scale",
+  "scraped_at": "2026-01-10T07:46:27.074465",
+  "sections": {
+    "Background": {
+      "text": "Simplification of the GCS",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Scale": {
+      "text": "",
+      "subsections": {
+        "AVPU_scale": {
+          "text": "Alert (GCS 15)\nResponsive to Verbal stimuli (GCS 13)\nResponsive to Painful stimuli (GCS 8)\nUnresponsive (GCS 3)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "AVPU_scale": {
+      "text": "Alert (GCS 15)\nResponsive to Verbal stimuli (GCS 13)\nResponsive to Painful stimuli (GCS 8)\nUnresponsive (GCS 3)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Glasgow Coma Scale (GCS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Glasgow Coma Scale (GCS)",
+          "url": "https://wikem.org/wiki/Glasgow_Coma_Scale_(GCS)"
+        }
+      ]
+    }
+  }
+}

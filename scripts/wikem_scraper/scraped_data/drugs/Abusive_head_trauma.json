@@ -1,0 +1,235 @@
+{
+  "drug_name": "Abusive_head_trauma",
+  "url": "https://wikem.org/wiki/Abusive_head_trauma",
+  "scraped_at": "2026-01-10T07:46:35.099211",
+  "sections": {
+    "Background": {
+      "text": "Current term for constellation of injuries that result from\nnonaccidental trauma\ninvolving forcefully shaking infant and/or any direct head impact\nmay be referred to as \"shaken baby syndrome\" in lay press or old literature\nInjuries result of repetitive acceleration-deceleration and rotational forces (akin to whip lash) as well as direct blunt trauma from impact with objects or assailant",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Majority of patients <1 year old\nHistory concerning/red flags for\nchild abuse\nRetinal hemorrhage\nMost common manifestation of abusive head trauma (as high as 85% in some retrospective reviews\n[1]\n)\nIn infants, virtually pathognomonic for nonaccidental trauma, especially when numerous and multilayered\nDue to vitreoretinal traction\nMay lead to\nretinal detachment\nMay also have other eye findings (e.g. subconjunctival hemorrhage,\nhyphema\n, ecchymoses\nSigns of\ntraumatic brain injury\nSDH\n(most common intracranial injury),\nskull fracture\n, diffuse axonal injury\nAMS\n, lethargy,\nseizure\n, irritability/inconsolable\ncrying\nCutaneous ecchymoses: to face/head and other areas where patient grabbed or sustained impact\nOther injuries associated with\nchild abuse\n, especially long bone and/or\nrib fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "hyphema",
+          "url": "https://wikem.org/wiki/Hyphema"
+        },
+        {
+          "text": "traumatic brain injury",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "SDH",
+          "url": "https://wikem.org/wiki/SDH"
+        },
+        {
+          "text": "skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "crying",
+          "url": "https://wikem.org/wiki/Crying_infant"
+        },
+        {
+          "text": "child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Bruising\nMongolian spots (congenital dermal melanosis)\nBleeding disorders\nHemangiomas\nPhytophotodermatitis\nMalignancy\nConnective tissue disease\nCultural healing practices (eg, coining and cupping)\nOsteogenesis imperfecta\nVasculitis\n(\nHenoch-Schönlein purpura\n)\nInk stains (e.g. caused by new clothing)\nBurns\nHypersensitivity reaction\nFriction blisters\nImpetigo\n(may be confused with cigarette burns)\nPhytophotodermatitis\nDermatitis herpetiformis\nAccidental\nlaxative\ningestion\nHealing practices (eg, coining, cupping, and moxibustion)\nFractures\nRickets\nCongenital\nsyphilis\n(can cause periosteal elevation)\nBirth trauma\nCPR\n(rarely causes rib fractures and very rarely causes posterior rib fractures)\nOsteogenesis imperfecta\nCaffey disease\nOsteomyelitis\nSubdural hematoma\nBleeding disorders\nVascular malformations\nGlutaric aciduria type 153\nBenign extra-axial fluid\nMenkes disease\nRetinal hemorrhage\nVasculitis\nVascular obstruction\nVaginal delivery (generally disappear by 4 weeks of age)\nCPR (retinal hemorrhages are rare after chest compressions and, if present, are usually in the presence of other risk factors for hemorrhage)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bleeding disorders",
+          "url": "https://wikem.org/wiki/Coagulopathy_(main)"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Osteogenesis imperfecta",
+          "url": "https://wikem.org/wiki/Osteogenesis_imperfecta"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Henoch-Schönlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Sch%C3%B6nlein_purpura"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "laxative",
+          "url": "https://wikem.org/wiki/Laxative"
+        },
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures_and_dislocations_(peds)"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "Osteogenesis imperfecta",
+          "url": "https://wikem.org/wiki/Osteogenesis_imperfecta"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Bleeding disorders",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Skeletal survey for all children < 2 years of age, non-verbal, or severe developmental delay. Note: Follow-up skeletal survey should be performed within 10 to 14 days\nSkull AP and lateral view (left and right)\nChest\nAP and lateral view\nRight and left oblique of the chest\nAP of the abdomen to include pelvis and hips\nAP and lateral spine to include cervical, thoracic, and lumbar vertebrae\nAP bilateral humerus\nAP bilateral forearms\nAP bilateral femurs\nAP bilateral tibia and fibula\nPosterior view of the hands\nDorsoplantar view of the feet\nHead CT\nwithout contrast for any child < 1 year with suspicion of abuse or >1 year with concerning signs of head trauma\nTrauma labs: CBC, CMP, PT, PTT, lipase, and urinalysis (looking for blood; use bag specimen). Consider urine tox screen\nConsider CPK and platelet function studies if extensive bruising is present\nIf trauma labs are abnormal, obtain a CT of abdomen/pelvis with IV contrast\nConsider a dilated\nfundoscopic exam\nif under 2 years\nPhotograph injuries\nObtain a social work consult",
+      "subsections": {
+        "Inpatient_Workup": {
+          "text": "CBC\nCMP, Mg, phos\nPT/INR/aPTT, fibrinogen\nPTH, iCa, 25-hydroxy-Vit D, 1,25-dihydroxy-Vit D\nvW panel (vW AT, ristocetin cofactors, factor VIII)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "fundoscopic exam",
+          "url": "https://wikem.org/wiki/Fundoscopic_exam"
+        }
+      ]
+    },
+    "Inpatient_Workup": {
+      "text": "CBC\nCMP, Mg, phos\nPT/INR/aPTT, fibrinogen\nPTH, iCa, 25-hydroxy-Vit D, 1,25-dihydroxy-Vit D\nvW panel (vW AT, ristocetin cofactors, factor VIII)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat any identified injuries\nOphtho consult for retinal hemorrhages\nReport abuse concerns to appropriate authority",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Dependent on severity of injuries and safety upon discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Nonaccidental trauma\nPediatric head trauma\nTrauma (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "Trauma (peds)",
+          "url": "https://wikem.org/wiki/Trauma_(peds)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Tintinalli's\nCurrent Diagnosis & Treatment: Pediatrics, 24e,\n[\nBMJ Best Practices\n]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

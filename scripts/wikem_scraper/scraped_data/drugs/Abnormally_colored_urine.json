@@ -1,0 +1,398 @@
+{
+  "drug_name": "Abnormally_colored_urine",
+  "url": "https://wikem.org/wiki/Abnormally_colored_urine",
+  "scraped_at": "2026-01-10T07:46:34.667911",
+  "sections": {
+    "Background": {
+      "text": "The urine can help guide the toxicologic differential in a poisoned patient\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Complaint of abnormally colored urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Red_Urine": {
+          "text": "Hematuria\nHemoglobinuria\nPorphyria\nMyoglobinuria (\nrhabdomyolysis\n)\nFoods\nBlackberries\nBeets\nBlackberries\nRhubarb\nFood coloring\nFava beans\nDrugs\nLaxatives\nPhenophthalein\nRifampin\nDoxorubicin\nDeferoxamine\nIbuprofen\nChloroquine\nHydroxocobalamin\nUric acid crystalluria\n(neonates)",
+          "tables": []
+        },
+        "Black": {
+          "text": "Methyldopa\nBetadine\nMelanoma\nCresol\nIiron\nLaxatives (cascara, senna)\nL-dopa\nMethocarbamol\nMetronidazole\nNitrofurantoin\nSorbitol",
+          "tables": []
+        },
+        "Orange": {
+          "text": "Pyridium\nRifampin\nVitamin A\nVitamin B12\nCarrots\nBeets\nBile pigments\nUric acid crystalluria\n(neonates)",
+          "tables": []
+        },
+        "Purple": {
+          "text": "Phenolphthalein\nPurple Urine Bag Syndrome\n[2]\n[3]",
+          "tables": []
+        },
+        "Brown": {
+          "text": "Levodopa\nMetronidazole\nNitrofurantoin\nIron sorbitol\nChloroquine\nMethyldopa\nAcetaminophen (overdose)\nNiridazole\nFava beans\nRhubarb",
+          "tables": []
+        },
+        "Blue/Green": {
+          "text": "Amitryptiline\nIndomethicin\nPseudomonas\nMethylene blue\nClorets breath mints\nCimetidine\nFlupirtine\nMethocarbamol\nMetoclopramide\nPromethazine\nPropofol\nTetrahydronaphthalene\nZaleplon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Uric acid crystalluria",
+          "url": "https://wikem.org/wiki/Uric_acid_crystalluria"
+        },
+        {
+          "text": "Pyridium",
+          "url": "https://wikem.org/wiki/Pyridium"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12"
+        },
+        {
+          "text": "Uric acid crystalluria",
+          "url": "https://wikem.org/wiki/Uric_acid_crystalluria"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        }
+      ]
+    },
+    "Red_Urine": {
+      "text": "Hematuria\nHemoglobinuria\nPorphyria\nMyoglobinuria (\nrhabdomyolysis\n)\nFoods\nBlackberries\nBeets\nBlackberries\nRhubarb\nFood coloring\nFava beans\nDrugs\nLaxatives\nPhenophthalein\nRifampin\nDoxorubicin\nDeferoxamine\nIbuprofen\nChloroquine\nHydroxocobalamin\nUric acid crystalluria\n(neonates)",
+      "subsections": {
+        "Black": {
+          "text": "Methyldopa\nBetadine\nMelanoma\nCresol\nIiron\nLaxatives (cascara, senna)\nL-dopa\nMethocarbamol\nMetronidazole\nNitrofurantoin\nSorbitol",
+          "tables": []
+        },
+        "Orange": {
+          "text": "Pyridium\nRifampin\nVitamin A\nVitamin B12\nCarrots\nBeets\nBile pigments\nUric acid crystalluria\n(neonates)",
+          "tables": []
+        },
+        "Purple": {
+          "text": "Phenolphthalein\nPurple Urine Bag Syndrome\n[2]\n[3]",
+          "tables": []
+        },
+        "Brown": {
+          "text": "Levodopa\nMetronidazole\nNitrofurantoin\nIron sorbitol\nChloroquine\nMethyldopa\nAcetaminophen (overdose)\nNiridazole\nFava beans\nRhubarb",
+          "tables": []
+        },
+        "Blue/Green": {
+          "text": "Amitryptiline\nIndomethicin\nPseudomonas\nMethylene blue\nClorets breath mints\nCimetidine\nFlupirtine\nMethocarbamol\nMetoclopramide\nPromethazine\nPropofol\nTetrahydronaphthalene\nZaleplon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Uric acid crystalluria",
+          "url": "https://wikem.org/wiki/Uric_acid_crystalluria"
+        },
+        {
+          "text": "Pyridium",
+          "url": "https://wikem.org/wiki/Pyridium"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12"
+        },
+        {
+          "text": "Uric acid crystalluria",
+          "url": "https://wikem.org/wiki/Uric_acid_crystalluria"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        }
+      ]
+    },
+    "Black": {
+      "text": "Methyldopa\nBetadine\nMelanoma\nCresol\nIiron\nLaxatives (cascara, senna)\nL-dopa\nMethocarbamol\nMetronidazole\nNitrofurantoin\nSorbitol",
+      "subsections": {
+        "Orange": {
+          "text": "Pyridium\nRifampin\nVitamin A\nVitamin B12\nCarrots\nBeets\nBile pigments\nUric acid crystalluria\n(neonates)",
+          "tables": []
+        },
+        "Purple": {
+          "text": "Phenolphthalein\nPurple Urine Bag Syndrome\n[2]\n[3]",
+          "tables": []
+        },
+        "Brown": {
+          "text": "Levodopa\nMetronidazole\nNitrofurantoin\nIron sorbitol\nChloroquine\nMethyldopa\nAcetaminophen (overdose)\nNiridazole\nFava beans\nRhubarb",
+          "tables": []
+        },
+        "Blue/Green": {
+          "text": "Amitryptiline\nIndomethicin\nPseudomonas\nMethylene blue\nClorets breath mints\nCimetidine\nFlupirtine\nMethocarbamol\nMetoclopramide\nPromethazine\nPropofol\nTetrahydronaphthalene\nZaleplon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pyridium",
+          "url": "https://wikem.org/wiki/Pyridium"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12"
+        },
+        {
+          "text": "Uric acid crystalluria",
+          "url": "https://wikem.org/wiki/Uric_acid_crystalluria"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        }
+      ]
+    },
+    "Orange": {
+      "text": "Pyridium\nRifampin\nVitamin A\nVitamin B12\nCarrots\nBeets\nBile pigments\nUric acid crystalluria\n(neonates)",
+      "subsections": {
+        "Purple": {
+          "text": "Phenolphthalein\nPurple Urine Bag Syndrome\n[2]\n[3]",
+          "tables": []
+        },
+        "Brown": {
+          "text": "Levodopa\nMetronidazole\nNitrofurantoin\nIron sorbitol\nChloroquine\nMethyldopa\nAcetaminophen (overdose)\nNiridazole\nFava beans\nRhubarb",
+          "tables": []
+        },
+        "Blue/Green": {
+          "text": "Amitryptiline\nIndomethicin\nPseudomonas\nMethylene blue\nClorets breath mints\nCimetidine\nFlupirtine\nMethocarbamol\nMetoclopramide\nPromethazine\nPropofol\nTetrahydronaphthalene\nZaleplon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pyridium",
+          "url": "https://wikem.org/wiki/Pyridium"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12"
+        },
+        {
+          "text": "Uric acid crystalluria",
+          "url": "https://wikem.org/wiki/Uric_acid_crystalluria"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        }
+      ]
+    },
+    "Purple": {
+      "text": "Phenolphthalein\nPurple Urine Bag Syndrome\n[2]\n[3]",
+      "subsections": {
+        "Brown": {
+          "text": "Levodopa\nMetronidazole\nNitrofurantoin\nIron sorbitol\nChloroquine\nMethyldopa\nAcetaminophen (overdose)\nNiridazole\nFava beans\nRhubarb",
+          "tables": []
+        },
+        "Blue/Green": {
+          "text": "Amitryptiline\nIndomethicin\nPseudomonas\nMethylene blue\nClorets breath mints\nCimetidine\nFlupirtine\nMethocarbamol\nMetoclopramide\nPromethazine\nPropofol\nTetrahydronaphthalene\nZaleplon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        }
+      ]
+    },
+    "Brown": {
+      "text": "Levodopa\nMetronidazole\nNitrofurantoin\nIron sorbitol\nChloroquine\nMethyldopa\nAcetaminophen (overdose)\nNiridazole\nFava beans\nRhubarb",
+      "subsections": {
+        "Blue/Green": {
+          "text": "Amitryptiline\nIndomethicin\nPseudomonas\nMethylene blue\nClorets breath mints\nCimetidine\nFlupirtine\nMethocarbamol\nMetoclopramide\nPromethazine\nPropofol\nTetrahydronaphthalene\nZaleplon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        }
+      ]
+    },
+    "Blue/Green": {
+      "text": "Amitryptiline\nIndomethicin\nPseudomonas\nMethylene blue\nClorets breath mints\nCimetidine\nFlupirtine\nMethocarbamol\nMetoclopramide\nPromethazine\nPropofol\nTetrahydronaphthalene\nZaleplon",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Hematuria_vs_Myoglobinuria": {
+          "text": "Hematuria\nUrinalysis\n= +Blood with +RBCs\nMyoglobinuria\nUrinalysis\n= +Blood with -RBCs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Myoglobinuria",
+          "url": "https://wikem.org/wiki/Myoglobinuria"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Hematuria_vs_Myoglobinuria": {
+      "text": "Hematuria\nUrinalysis\n= +Blood with +RBCs\nMyoglobinuria\nUrinalysis\n= +Blood with -RBCs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Myoglobinuria",
+          "url": "https://wikem.org/wiki/Myoglobinuria"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Dependent on diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Dependent on diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Rhabdomyolysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Poison Review - What Color is Your Urine?",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

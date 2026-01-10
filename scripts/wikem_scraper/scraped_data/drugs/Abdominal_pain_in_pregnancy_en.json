@@ -1,0 +1,273 @@
+{
+  "drug_name": "Abdominal_pain_in_pregnancy/en",
+  "url": "https://wikem.org/wiki/Abdominal_pain_in_pregnancy/en",
+  "scraped_at": "2026-01-10T07:46:34.889985",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Pregnant women are at risk for the same general\nabdominal pathologies\nin addition to unique complications associated with pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal pain in patient with positive pregnancy test",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_Pain_in_Pregnancy": {
+          "text": "The same\nabdominal pain differential\nas non-pregnant patients, plus:",
+          "tables": []
+        },
+        "<20_Weeks": {
+          "text": "Ectopic pregnancy\nFirst trimester abortion\nComplete abortion\nThreatened abortion\nInevitable abortion\nIncomplete abortion\nMissed abortion\nSeptic abortion\nRound ligament stretching\nIncarcerated uterus\nMalposition of the uterus",
+          "tables": []
+        },
+        ">20_Weeks": {
+          "text": "Labor\n/\nPreterm labor\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nVaginal trauma\nHELLP syndrome\nCholestasis of pregnancy\nChorioamnionitis\nIncarcerated uterus\nAcute fatty liver of pregnancy\nMalposition of the uterus\nPlacenta accreta\nPlacenta increta\nPlacenta percreta",
+          "tables": []
+        },
+        "Any_time": {
+          "text": "Hemorrhagic ovarian cyst\nFibroid degeneration or torsion\nOvarian torsion\nConstipation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain differential",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "First trimester abortion",
+          "url": "https://wikem.org/wiki/First_trimester_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Labor",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Abdominal_Pain_in_Pregnancy": {
+      "text": "The same\nabdominal pain differential\nas non-pregnant patients, plus:",
+      "subsections": {
+        "<20_Weeks": {
+          "text": "Ectopic pregnancy\nFirst trimester abortion\nComplete abortion\nThreatened abortion\nInevitable abortion\nIncomplete abortion\nMissed abortion\nSeptic abortion\nRound ligament stretching\nIncarcerated uterus\nMalposition of the uterus",
+          "tables": []
+        },
+        ">20_Weeks": {
+          "text": "Labor\n/\nPreterm labor\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nVaginal trauma\nHELLP syndrome\nCholestasis of pregnancy\nChorioamnionitis\nIncarcerated uterus\nAcute fatty liver of pregnancy\nMalposition of the uterus\nPlacenta accreta\nPlacenta increta\nPlacenta percreta",
+          "tables": []
+        },
+        "Any_time": {
+          "text": "Hemorrhagic ovarian cyst\nFibroid degeneration or torsion\nOvarian torsion\nConstipation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain differential",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "First trimester abortion",
+          "url": "https://wikem.org/wiki/First_trimester_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Labor",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Must consider\nectopic pregnancy\nin pregnant patient presenting with abdominal pain and no documented IUP\nQuantitative\nbeta hCG\nand\npelvic US\nAlso consider\nbeta hCG\nand\npelvic US\nif concerned for spontaneous abortion\nConsider\npelvic exam\nto check for open cervical os, protruding products of conception\nUrinalysis\nCBC, CMP, lipase, abdominal imaging depending on the differential",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit": {
+          "text": "Ruptured\nectopic pregnancy\nActive labor\nPreeclampsia\n/\nHELLP\nPlacental abruption\nUterine rupture\nOvarian torsion\nSurgical abdomen",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Ectopic pregnancy\nif hemodynamically stable with OB follow-up\nSpontaneous abortion\nif hemodynamically stable with adequate pain control",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admit": {
+      "text": "Ruptured\nectopic pregnancy\nActive labor\nPreeclampsia\n/\nHELLP\nPlacental abruption\nUterine rupture\nOvarian torsion\nSurgical abdomen",
+      "subsections": {
+        "Discharge": {
+          "text": "Ectopic pregnancy\nif hemodynamically stable with OB follow-up\nSpontaneous abortion\nif hemodynamically stable with adequate pain control",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Ectopic pregnancy\nif hemodynamically stable with OB follow-up\nSpontaneous abortion\nif hemodynamically stable with adequate pain control",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal Pain\nPregnancy (main)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

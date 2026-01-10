@@ -1,0 +1,101 @@
+{
+  "drug_name": "AV_fistula_aneurysm/pseudoaneurysm",
+  "url": "https://wikem.org/wiki/AV_fistula_aneurysm/pseudoaneurysm",
+  "scraped_at": "2026-01-10T07:46:27.425142",
+  "sections": {
+    "Background": {
+      "text": "AV fistulas/grafts can form a aneurysm or pseudoaneurysm which can lead to bleeding and other complications\nAneursym: contains all layers of the vessel wall\nMost are asymptomatic; rarely rupture\nMore likely in fistula than grafts\nPseudoaneurysm: focal disruption of vessel wall with a collection of blood that is contained\nResults from subcutaneous extravasation of blood from puncture sites\nMore likely in grafts than fistulas",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Patients will have physical findings of a dilated aneurysm\nBleeding\nEschar\nMostly asymptomatic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "AV_Fistula_Complications": {
+          "text": "Clotting of AV fistula\nInfection of AV fistula\nHemorrhage of AV fistula\nVascular insufficiency from AV fistula\nAV fistula aneurysm/pseudoaneurysm\nHigh-output heart failure from AV fistula",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotting of AV fistula",
+          "url": "https://wikem.org/wiki/Clotting_of_AV_fistula"
+        },
+        {
+          "text": "Infection of AV fistula",
+          "url": "https://wikem.org/wiki/Infection_of_AV_fistula"
+        },
+        {
+          "text": "Hemorrhage of AV fistula",
+          "url": "https://wikem.org/wiki/Hemorrhage_of_AV_fistula"
+        },
+        {
+          "text": "Vascular insufficiency from AV fistula",
+          "url": "https://wikem.org/wiki/Vascular_insufficiency_from_AV_fistula"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        }
+      ]
+    },
+    "AV_Fistula_Complications": {
+      "text": "Clotting of AV fistula\nInfection of AV fistula\nHemorrhage of AV fistula\nVascular insufficiency from AV fistula\nAV fistula aneurysm/pseudoaneurysm\nHigh-output heart failure from AV fistula",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotting of AV fistula",
+          "url": "https://wikem.org/wiki/Clotting_of_AV_fistula"
+        },
+        {
+          "text": "Infection of AV fistula",
+          "url": "https://wikem.org/wiki/Infection_of_AV_fistula"
+        },
+        {
+          "text": "Hemorrhage of AV fistula",
+          "url": "https://wikem.org/wiki/Hemorrhage_of_AV_fistula"
+        },
+        {
+          "text": "Vascular insufficiency from AV fistula",
+          "url": "https://wikem.org/wiki/Vascular_insufficiency_from_AV_fistula"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Depends if patient is symptomatic\nAV Fistula: indications for vascular evaluation\n[1]\nThe skin overlying the fistula is compromised\nThere is a risk of fistula rupture\nAvailable puncture sites are limited\nAV Graft: indications for vascular evaluation\n[2]\nPseudoaneurysm that is symptomatic\nPseudoaneurysm that is twice the diameter of the graft (ie, >4 cm in diameter)\nPseudoaneurysm that threatens the viability of the overlying skin, regardless of diameter\nPseudoaneurysm that is expanding\nLarge or multiple pseudoaneurysms that limit the number of cannulation sites.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Likely discharge home with vascular consultation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dialysis complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis complications",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        }
+      ]
+    }
+  }
+}

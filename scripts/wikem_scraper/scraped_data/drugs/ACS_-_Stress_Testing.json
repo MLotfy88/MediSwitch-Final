@@ -1,0 +1,52 @@
+{
+  "drug_name": "ACS_-_Stress_Testing",
+  "url": "https://wikem.org/wiki/ACS_-_Stress_Testing",
+  "scraped_at": "2026-01-10T07:46:19.761874",
+  "sections": {
+    "Background": {
+      "text": "Stress testing is recommended for patients with low-moderate pretest probability of CAD\nNot helpful in patients with very low risk or high risk",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "ECG-Based_Exercise_Treadmill_Testing": {
+      "text": "68% sn, 77% sp\n[1]\nContraindications to Exercise Testing\nAbsolute\nMyocardial infarction\n(within 2 days)\nHigh-risk unstable angina\nUncontrolled cardiac dysrhythmias\nSymptomatic aortic stenosis\nUncontrolled symptomatic heart failure\nAcute pulmonary embolus or pulmonary infarction\nAcute myocarditis or pericarditis\nAcute aortic dissection\nRelative\nBaseline ST segment abnormalities\nLeft main coronary stenosis\nModerate stenotic valvular heart disease\nElectrolyte abnormalities\nSevere hypertension (>200 sys, >110 dia)\nTachydysrhythmias or bradydysrhythmias\nHOCM\nMental or physical impairment\nHigh-degree atrioventricular block\nThe Bottom Line:\nETT has low sensitivity and specificity overall (especially for women) and as such is not a good test for patients in whom suspicion for ACS is high\nETT is safe in low-risk and select intermediate-risk patients as a way of determining who is at low risk for short term adverse events (and therefore can go home)\nETT does not have prognostic value for patients who return to the ED with concerning symptoms or ECG changes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        }
+      ]
+    },
+    "Stress_Echocardiography": {
+      "text": "Sn 80% sp 84%\nWhen used in low-risk patients, NPV 97-100%\nWho should be tested (ACC/AHA Class IIa)\npatients with abnormal baseline ECG\npatients unable to exercise\nwomen with low- to intermediate-risk\nWho shouldn’t be tested with stress echo\npatients in whom a sub-optimal study is likely (very obese, COPD with expanded AP chest diameter, etc)\npatients with grossly abnormal baseline LV or valvular function (e.g. severe AS)\nThe Bottom Line\nStress echocardiography (chemical or exercise induced) has greater sensitivity and specificity than ETT for ACS (especially for women)\nPatients with normal stress echos are at very low risk for mortality within 1 year\nA normal stress echo does not preclude subsequent ACS, nor should it lower suspicion for ACS when a patient presents with new symptoms!",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Cardiac_Radionuclide_Imaging": {
+      "text": "Nuclear myocardial perfusion imaging is generally appropriate in patients with acute chest pain in which the diagnosis of acute coronary syndrome is unclear, to determine whether or not cardiac catheterization is indicated, or to determine prognosis. Appropriate Use Criteria (AUC) has been developed by the American College of Cardiology and is updated regularly.\n[2]\n. Absolute contraindications to stress testing include acute myocardial infarction (within 2 days), unstable angina, and symptomatic heart failure.\n[3]\n. The decision to perform nuclear myocardial perfusion imaging or stress echo imaging generally depends upon local expertise. The benefit of nuclear imaging is that it can be performed in nearly 100% of patients, whereas echo stress testing is more limited by body habitus and the ability to obtain good imaging windows quickly after stressing the patient. The benefit of echo stress testing is lower costs and no radiation exposure. The amount of radiation exposure from a stress-rest nuclear myocardial perfusion scan is typically 10 mSv or less for gamma camera based imaging (similar to a chest CT), and under 5 mSv for PET imaging.\nPATIENTS WITH ACUTE CHEST PAIN: APPROPRIATE INDICATIONS\nPatients with acute chest pain with possible acute coronary syndrome: a) ECG shows no ischemic changes, LBBB, or electronically ventricular paced rhythm; and b) negative to borderline elevated\ntroponin\nlevels.\nIn this setting, nuclear imaging is considered appropriate in both low-risk TIMI score and high-risk TIMI score patients\nPATIENTS WITH ACUTE CHEST PAIN: INAPPROPRIATE INDICATIONS\nPatients with definite acute coronary syndrome\nEarly stress testing contraindicated within 2 days after myocardial infarction\nTHE BOTTOM LINE\nAsymptomatic patients in need of risk stratification typically will undergo exercise ECG testing only. Imaging is indicated only when the ECG is uninterpretable, the patient is unable to adequately exercise, or the pretest probability is intermediate or high.\nSymptomatic patients with an uncertain diagnosis of acute coronary syndrome frequently undergo a stress imaging procedure first, then depending upon the result, may or may not undergo cardiac catheterization.\nThe decision regarding stress nuclear versus stress echo is usually made based upon availability of local expertise.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acute Coronary Syndrome (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute Coronary Syndrome (Main)",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        }
+      ]
+    }
+  }
+}

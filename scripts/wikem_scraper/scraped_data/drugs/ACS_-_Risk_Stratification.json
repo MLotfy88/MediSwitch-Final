@@ -1,0 +1,348 @@
+{
+  "drug_name": "ACS_-_Risk_Stratification",
+  "url": "https://wikem.org/wiki/ACS_-_Risk_Stratification",
+  "scraped_at": "2026-01-10T07:46:23.119490",
+  "sections": {
+    "HEART_Score": {
+      "text": "The score has been derived and validated in an ED population and predicts 6 week adverse cardiac events\n[1]\n[2]\nLow risk patients have a score 0-3 and have a less than 2% risk of MACE at 6 weeks.\n0-3\n: 2.5% risk of adverse cardiac event. Patient's can be discharged with follow-up.\n4-6\n: 20.3% risk of adverse cardiac event. Patients should be admitted to the hospital for trending of\ntroponin\nand provocative testing.\n≥7\n: 72.7% risk of adverse cardiac event, suggesting early invasive measures with these patients and close coordination with inpatient cardiology",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Criteria": "History"
+          },
+          {
+            "Criteria": "Highly Suspicious",
+            "Point Value": "+2"
+          },
+          {
+            "Criteria": "Moderately Suspicious",
+            "Point Value": "+1"
+          },
+          {
+            "Criteria": "Slightly Suspicious",
+            "Point Value": "0"
+          },
+          {
+            "Criteria": "ECG"
+          },
+          {
+            "Criteria": "Significant ST-depression",
+            "Point Value": "+2"
+          },
+          {
+            "Criteria": "Non specific repolarisation disturbance",
+            "Point Value": "+1"
+          },
+          {
+            "Criteria": "Normal",
+            "Point Value": "0"
+          },
+          {
+            "Criteria": "Age"
+          },
+          {
+            "Criteria": "≥ 65",
+            "Point Value": "+2"
+          },
+          {
+            "Criteria": "45-65",
+            "Point Value": "+1"
+          },
+          {
+            "Criteria": "≤ 45",
+            "Point Value": "0"
+          },
+          {
+            "Criteria": "Risk Factors (Hypercholesterolemia, Hypertension, Diabetes Mellitus, Smoking,Obesity)"
+          },
+          {
+            "Criteria": "≥ 3 risk factors or history of atherosclerotic disease",
+            "Point Value": "+2"
+          },
+          {
+            "Criteria": "1-2 risk factors",
+            "Point Value": "+1"
+          },
+          {
+            "Criteria": "No risk factors known",
+            "Point Value": "0"
+          },
+          {
+            "Criteria": "Troponin"
+          },
+          {
+            "Criteria": "≥ 3× normal limit",
+            "Point Value": "+2"
+          },
+          {
+            "Criteria": "1-3× normal limit",
+            "Point Value": "+1"
+          },
+          {
+            "Criteria": "≤ normal limit",
+            "Point Value": "0"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "New_Vancouver_Chest_Pain_Rule": {
+      "text": "Useful for screening patient with low risk for ACS\nThe old Vancouver chest pain rule was not properly validated\n[3]\n[4]\n[4]\nThe new rule was validated in 2014 on 1635 patients and published in 2014\n[5]\nWith\nhigh sensitivity troponins\nthe\nsensitivity is 99.1%\n(95% CI 97.4-99.7), &\nspecificity is 16.1\n(95% CI 14.2-18.2)\nWith\nsensitive troponin-I\nthe sensitivity was 98.8% (97.0-99.5), & specificity of 15.8 (13.9-17.9)",
+      "subsections": {
+        "Algorithm": {
+          "text": "Is the same for c-TnI assay and hs-TnI assay but sensitivity differences by a percentage point\nIs there an abnormal ECG, positive\ntroponin\nat 2 hrs or prior ACS nitrate use?\nIf\nYes\nto any then no early discharge\nDoes palpation reproduce the pain?\nIf\nYes\nthen early discharge\nAge ≥50, or does pain radiate to neck, jaw, or left arm?\nIf\nYes\nthen no early discharge\nIf answer is\nNo\nto all of the above stepwise questions then the patient can have early discharge with close follow-up for further provocative testing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Algorithm": {
+      "text": "Is the same for c-TnI assay and hs-TnI assay but sensitivity differences by a percentage point\nIs there an abnormal ECG, positive\ntroponin\nat 2 hrs or prior ACS nitrate use?\nIf\nYes\nto any then no early discharge\nDoes palpation reproduce the pain?\nIf\nYes\nthen early discharge\nAge ≥50, or does pain radiate to neck, jaw, or left arm?\nIf\nYes\nthen no early discharge\nIf answer is\nNo\nto all of the above stepwise questions then the patient can have early discharge with close follow-up for further provocative testing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Likelihood_That_Signs/Symptoms_Represent_ACS_due_to_CAD": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Feature": "History",
+            "High Likelihood (any of the following)": "Chest or left arm pain or discomfort as chief symptom reproducing prior documented angina",
+            "Intermediate Likelihood (absence of high-likelihood features and presence of any of the following)": "Chest or left arm pain or discomfort as chief symptom",
+            "Low Likelihood (absence of high- or intermediate-likelihood features but may have)": "Probable ischemic symptoms in absence of any of the intermediate-likelihood characteristics"
+          },
+          {
+            "Feature": "Known history of coronary artery disease, including myocardial infarction",
+            "High Likelihood (any of the following)": "Age >70 y old",
+            "Intermediate Likelihood (absence of high-likelihood features and presence of any of the following)": "Recent cocaine use"
+          },
+          {
+            "Feature": "Male sex"
+          },
+          {
+            "Feature": "Diabetes mellitus"
+          },
+          {
+            "Feature": "Examination",
+            "High Likelihood (any of the following)": "Transient mitral regurgitation murmur, hypotension, diaphoresis, pulmonary edema, or rales",
+            "Intermediate Likelihood (absence of high-likelihood features and presence of any of the following)": "Extracardiac vascular disease",
+            "Low Likelihood (absence of high- or intermediate-likelihood features but may have)": "Chest discomfort reproduced by palpation"
+          },
+          {
+            "Feature": "ECG",
+            "High Likelihood (any of the following)": "New, or presumably new, transient ST-segment deviation (1 mm or greater) or T-wave inversion in multiple precordial leads",
+            "Intermediate Likelihood (absence of high-likelihood features and presence of any of the following)": "Fixed Q waves",
+            "Low Likelihood (absence of high- or intermediate-likelihood features but may have)": "T-wave flattening or inversion <1 mm in leads with dominant R waves"
+          },
+          {
+            "Feature": "ST depression 0.5–1.0 mm or T-wave inversion >1 mm"
+          },
+          {
+            "Feature": "Normal ECG"
+          },
+          {
+            "Feature": "Cardiac markers",
+            "High Likelihood (any of the following)": "Elevated cardiactroponinI,troponinT, or MB fraction of creatine kinase",
+            "Intermediate Likelihood (absence of high-likelihood features and presence of any of the following)": "Normal",
+            "Low Likelihood (absence of high- or intermediate-likelihood features but may have)": "Normal"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Short-Term_Risk_of_Composite_Outcome": {
+      "text": "Composite Outcome: Death or Nonfatal Myocardial Infarction by Risk Stratification in Patients with Unstable Angina",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Feature": "History",
+            "High Likelihood (at least one of the following features must be present)": "Accelerating tempo of ischemic symptoms in preceding 48 h",
+            "Intermediate Likelihood (no high-risk feature, but must have one of the following)": "Prior myocardial infarction, peripheral or cerebrovascular disease, or coronary artery bypass grafting; prior aspirin use",
+            "Low Likelihood (no high- or intermediate-risk feature, but may have any of the following)": "—"
+          },
+          {
+            "Feature": "Character of the pain",
+            "High Likelihood (at least one of the following features must be present)": "Prolonged ongoing (>20 min) rest pain",
+            "Intermediate Likelihood (no high-risk feature, but must have one of the following)": "Prolonged (>20 min) rest angina, now resolved, with moderate or high likelihood of CAD",
+            "Low Likelihood (no high- or intermediate-risk feature, but may have any of the following)": "Increased angina frequency, severity, or duration"
+          },
+          {
+            "Feature": "Rest angina (>20 min) or relieved with rest or sublingual nitroglycerin",
+            "High Likelihood (at least one of the following features must be present)": "Angina provoked at a lower threshold"
+          },
+          {
+            "Feature": "New-onset angina with onset 2 wk to 2 mo before presentation"
+          },
+          {
+            "Feature": "Nocturnal angina"
+          },
+          {
+            "Feature": "New-onset or progressive Canadian Cardiology Society Class III or IV angina in the past 2 wk without prolonged (>20 min) rest pain but with intermediate or high likelihood of CAD;",
+            "High Likelihood (at least one of the following features must be present)": ""
+          },
+          {
+            "Feature": "Clinical findings",
+            "High Likelihood (at least one of the following features must be present)": "Pulmonary edema, most likely due to ischemia",
+            "Intermediate Likelihood (no high-risk feature, but must have one of the following)": "Age >70 y old",
+            "Low Likelihood (no high- or intermediate-risk feature, but may have any of the following)": "Chest discomfort reproduced by palpation"
+          },
+          {
+            "Feature": "New or worsening mitral regurgitation murmur"
+          },
+          {
+            "Feature": "S3or new/worsening rales"
+          },
+          {
+            "Feature": "Hypotension, bradycardia, tachycardia"
+          },
+          {
+            "Feature": "Age >75 y old"
+          },
+          {
+            "Feature": "ECG",
+            "High Likelihood (at least one of the following features must be present)": "Angina at rest with transient ST-segment changes >0.5 mm",
+            "Intermediate Likelihood (no high-risk feature, but must have one of the following)": "T-wave changes, pathologic Q waves, or resting ST depression <1 mm in multiple lead groups (anterior, inferior, lateral)",
+            "Low Likelihood (no high- or intermediate-risk feature, but may have any of the following)": "Normal or unchanged ECG"
+          },
+          {
+            "Feature": "Bundle-branch block, new or presumed new"
+          },
+          {
+            "Feature": "Sustained ventricular tachycardia"
+          },
+          {
+            "Feature": "Cardiac markers",
+            "High Likelihood (at least one of the following features must be present)": "Elevated cardiac TnT, TnI, or CK-MB (e.g., TnT or TnI >0.1 nanogram/mL)",
+            "Intermediate Likelihood (no high-risk feature, but must have one of the following)": "Slightly elevated cardiac TnT, TnI, or CK-MB (e.g., TnT >0.01 but <0.1 nanogram/mL)",
+            "Low Likelihood (no high- or intermediate-risk feature, but may have any of the following)": "Normal"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "TIMI_Risk_Stratification_Score": {
+      "text": "",
+      "subsections": {
+        "NSTEMI_TIMI_Score": {
+          "text": "Used to estimate percent risk of all-cause mortality, new/recurrent MI, or need for revascularization at 14 days\nAge >65 yrs\n(1 point)\nThree or more risk factors for coronary artery disease:\n(1 point)\nfamily history of coronary artery disease\nhypertension\nhypercholesterolaemia\ndiabetes\ncurrent smoker\nUse of\naspirin\nin the past 7 days\n(1 point)\nSignificant coronary stenosis (stenosis >50%)\n(1 point)\nSevere angina (e.g., >2 angina events in past 24 h or persisting discomfort)\n(1 point)\nST-segment deviation of ≥0.05 mV on first ECG\n(1 point)\nIncreased troponin and/or creatine kinase-MB blood tests\n(1 point)",
+          "tables": [
+            [
+              {
+                "points": "0",
+                "% risk of mortality, MI, or need for revascularization": "5%"
+              },
+              {
+                "points": "1",
+                "% risk of mortality, MI, or need for revascularization": "5%"
+              },
+              {
+                "points": "2",
+                "% risk of mortality, MI, or need for revascularization": "8%"
+              },
+              {
+                "points": "3",
+                "% risk of mortality, MI, or need for revascularization": "13%"
+              },
+              {
+                "points": "4",
+                "% risk of mortality, MI, or need for revascularization": "20%"
+              },
+              {
+                "points": "5",
+                "% risk of mortality, MI, or need for revascularization": "26%"
+              },
+              {
+                "points": "6",
+                "% risk of mortality, MI, or need for revascularization": "41%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        }
+      ]
+    },
+    "NSTEMI_TIMI_Score": {
+      "text": "Used to estimate percent risk of all-cause mortality, new/recurrent MI, or need for revascularization at 14 days\nAge >65 yrs\n(1 point)\nThree or more risk factors for coronary artery disease:\n(1 point)\nfamily history of coronary artery disease\nhypertension\nhypercholesterolaemia\ndiabetes\ncurrent smoker\nUse of\naspirin\nin the past 7 days\n(1 point)\nSignificant coronary stenosis (stenosis >50%)\n(1 point)\nSevere angina (e.g., >2 angina events in past 24 h or persisting discomfort)\n(1 point)\nST-segment deviation of ≥0.05 mV on first ECG\n(1 point)\nIncreased troponin and/or creatine kinase-MB blood tests\n(1 point)",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "points": "0",
+            "% risk of mortality, MI, or need for revascularization": "5%"
+          },
+          {
+            "points": "1",
+            "% risk of mortality, MI, or need for revascularization": "5%"
+          },
+          {
+            "points": "2",
+            "% risk of mortality, MI, or need for revascularization": "8%"
+          },
+          {
+            "points": "3",
+            "% risk of mortality, MI, or need for revascularization": "13%"
+          },
+          {
+            "points": "4",
+            "% risk of mortality, MI, or need for revascularization": "20%"
+          },
+          {
+            "points": "5",
+            "% risk of mortality, MI, or need for revascularization": "26%"
+          },
+          {
+            "points": "6",
+            "% risk of mortality, MI, or need for revascularization": "41%"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acute Coronary Syndrome (Main)\nADAPT Trial",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute Coronary Syndrome (Main)",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "ADAPT Trial",
+          "url": "https://wikem.org/wiki/EBQ:ADAPT_Trial_2-Hour_Troponin_Rule_Out"
+        }
+      ]
+    }
+  }
+}

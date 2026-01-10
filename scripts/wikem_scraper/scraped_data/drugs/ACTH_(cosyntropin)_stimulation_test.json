@@ -1,0 +1,49 @@
+{
+  "drug_name": "ACTH_(cosyntropin)_stimulation_test",
+  "url": "https://wikem.org/wiki/ACTH_(cosyntropin)_stimulation_test",
+  "scraped_at": "2026-01-10T07:46:19.011695",
+  "sections": {
+    "Background": {
+      "text": "ACTH (cosyntropin) stimulation test measures how well the adrenal glands respond to adrenocorticotropic hormone (ACTH)\nACTH is a hormone produced in the pituitary gland that stimulates the adrenal glands to release a hormone called cortisol\nMan-made form of ACTH is called cosyntropin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Test": {
+      "text": "Before: Draw serum cortisol\nTime 0: Give 0.25mg IM/IV of ACTH (Cosyntropin) over 2min (0.125mg if <2yrs old)\nTime 30: Draw serum cortisol\nTime 60: Draw serum cortisol & give 100mg hydrodortison IVP\nNormal Response:\nCortisol level doubles from baseline after Cosyntropin administration\nAdrenal Insufficiency:\nCortisol level fails to rise after Cosyntropin administration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "If abnormal test, can give:\nDexamethasone\n6mg IV\nOR\nHydrocortisone\n100mg IV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Adrenal crisis\nAddison's disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        }
+      ]
+    }
+  }
+}
