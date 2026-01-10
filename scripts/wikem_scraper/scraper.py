@@ -210,9 +210,16 @@ class WikEMScraper:
         
         return rows
     
-    def extract_section_content(self, soup: BeautifulSoup, section_id: str) -> Optional[Dict]:
-        """Extract content with structure preservation"""
-        header_span = soup.find('span', id=section_id)
+    def extract_section_content(self, soup: BeautifulSoup, section_id_pattern: str) -> Optional[Dict]:
+        """Extract content with structure preservation using regex for ID"""
+        # Find header with regex ID match (e.g. "Antibiotic_Sensitivities" matching "Antibiotic_Sensitivities[1]")
+        import re
+        header_span = soup.find('span', id=re.compile(f"^{section_id_pattern}(?:\[\d+\])?$"))
+        
+        if not header_span:
+            # Try finding by text if ID fails
+            header_span = soup.find('span', class_='mw-headline', string=re.compile(f"^{section_id_pattern}", re.I))
+            
         if not header_span:
             return None
         
@@ -225,6 +232,72 @@ class WikEMScraper:
         }
         
         next_node = parent_h2.next_sibling
+        current_subsection = None
+        
+        while next_node:
+            if next_node.name == 'h2':
+                break
+            
+            # H3/H4 Subsections (Contextual Dosing, Monitoring)
+            if next_node.name in ['h3', 'h4']:
+                subsection_span = next_node.find('span', class_='mw-headline')
+                if subsection_span:
+                    # Clean ID/Text for subsection key
+                    raw_id = subsection_span.get('id', subsection_span.get_text(strip=True))
+                    # Remove [1], [2] etc from subsection keys
+                    current_subsection = re.sub(r'\[\d+\]$', '', raw_id)
+                    
+                    content["subsections"][current_subsection] = {
+                        "text": "",
+                        "tables": []
+                    }
+            
+            # Tables (Antibiotic Sensitivities)
+            elif next_node.name == 'table':
+                table_data = self.extract_table(next_node)
+                if table_data:
+                    if current_subsection and current_subsection in content["subsections"]:
+                        content["subsections"][current_subsection]["tables"].append(table_data)
+                    else:
+                        content["tables"].append(table_data)
+            
+            # Text content
+            elif next_node.name in ['p', 'ul', 'ol', 'dl']:
+                text = next_node.get_text(separator='\n', strip=True)
+                
+                # Extract links
+                for link in next_node.find_all('a', href=True):
+                    href = link.get('href', '')
+                    if href.startswith('/wiki/') and 'Special:' not in href:
+                        link_text = link.get_text(strip=True)
+                        if link_text:
+                            content["links"].append({
+                                "text": link_text,
+                                "url": f"https://wikem.org{href}"
+                            })
+                
+                if text:
+                    if current_subsection and current_subsection in content["subsections"]:
+                        content["subsections"][current_subsection]["text"] += text + "\n"
+                    else:
+                        content["text"] += text + "\n"
+            
+            next_node = next_node.next_sibling
+        
+        # Clean up
+        content["text"] = content["text"].strip()
+        for sub in content["subsections"].values():
+            sub["text"] = sub["text"].strip()
+        
+        # Remove empty subsections
+        content["subsections"] = {k: v for k, v in content["subsections"].items() 
+                                   if v["text"] or v["tables"]}
+        
+        # Return None if completely empty
+        if not content["text"] and not content["subsections"] and not content["tables"]:
+            return None
+        
+        return content
         current_subsection = None
         
         while next_node:
