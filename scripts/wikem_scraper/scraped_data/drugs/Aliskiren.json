@@ -1,0 +1,108 @@
+{
+  "drug_name": "Aliskiren",
+  "url": "https://wikem.org/wiki/Aliskiren",
+  "scraped_at": "2026-01-10T02:55:31.491531",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypertension": {
+          "text": "150-300 mg PO qd",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: X\nLactation risk: Consider alternative",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl > 30: No adjustment\nCrCl < 30: Not Definied\nHD/PD: No Supplement\nPediatric: Safety/efficacy not established in pediatric patients",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Safety/efficacy not established in pediatric patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\n,\nangioedema\nStevens-Johnson syndrome\n,\nToxic epidermal necrolysis\nHypotension\nHyperkalemia\nRenal failure,\nNephrolithiasis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\nHyperkalemia\nBUN, Cr elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 24h\nMetabolism: Liver partially; 3A4 substrate\nExcretion: Urine (25% unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

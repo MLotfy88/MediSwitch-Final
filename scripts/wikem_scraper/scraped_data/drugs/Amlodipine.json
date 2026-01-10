@@ -1,0 +1,72 @@
+{
+  "drug_name": "Amlodipine",
+  "url": "https://wikem.org/wiki/Amlodipine",
+  "scraped_at": "2026-01-10T02:56:42.324026",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntihypertensive\n(dihydropyridine-\nCCB\n)\nDosage Forms: tablet\nDosage Strengths: 2.5mg, 5mg, 10mg\nRoutes of Administration: PO\nCommon Trade Names: Norvasc",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihypertensive",
+          "url": "https://wikem.org/wiki/Antihypertensive"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/CCBs"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "hypertension\n5-10mg PO qDaily\nStart: 5mg PO qDaily for intial antihypertesnive, do 2.5 if elderly or 2nd line drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "hypertension\n2.5-5mg PO qDaily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Safety Unknown\nRenal Dosing\nAdult: no adjustment\nPediatric: no adjustment\nHepatic Dosing\nAdult: Start at 2.5mg qDaily\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSevere CAD, AS, CHF\nRe-dose/Caution: Elderly/Hepatic Impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Angina, MI\nHypotension\nHepatitis\nErythema multiforme",
+          "tables": []
+        },
+        "Common": {
+          "text": "Peripheral edema\nFatigue\nPalpitations\nDizziness\nNausea\nFlushing\nEczematous eruptions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 30-50h\nMetabolism: liver extensively; CYP450: 3A4\nExcretion: urine 59-62% (5-10% unchanged), bile/feces 20-25%\nMechanism of Action: CCB-dihydropyridine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

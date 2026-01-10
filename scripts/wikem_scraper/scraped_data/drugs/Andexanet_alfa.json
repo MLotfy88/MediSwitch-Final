@@ -1,0 +1,112 @@
+{
+  "drug_name": "Andexanet_alfa",
+  "url": "https://wikem.org/wiki/Andexanet_alfa",
+  "scraped_at": "2026-01-10T02:57:30.381459",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Determined_by_last_dose,_type_of_factor_Xa_inhibitor,_and_dose_of_inhibitor": {
+          "text": "Last dose >8 hours ago\nLow dose\nLast dose <8 hours or unknown\nApixaban\n<5 mg: Low dose\n>5 mg/unknown: High dose\nRivaroxaban\n<10 mg: Low dose\n>10 mg/unknown: High dose",
+          "tables": []
+        },
+        "Low_Dose": {
+          "text": "400\nmg IV bolus at rate of ~30 mg/minute, followed 2 minutes later by\n4\nmg/minute for up to 120 minutes",
+          "tables": []
+        },
+        "High_Dose": {
+          "text": "800\nmg IV bolus at rate of ~30 mg/minute, followed 2 minutes later by\n8\nmg/minute for up to 120 minutes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "Rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "not known",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "not known",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "None",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Arterial and venous thromboembolism\nDVT\n(6%)\nIschemic stroke\n(5%)\nMyocardial infarction\n(3%)\nPulmonary embolism\n(3%)\nAcute Respiratory failure (1%)\nCardiac arrest\nSudden death",
+          "tables": []
+        },
+        "Common": {
+          "text": "Infusion site reaction\nUTI (5%)\nPneumonia (5%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5 to 7 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "FDA approved in May 2018, limited availability June 2018 with broader commercial launch in early 2019\nCost, $3,300 per 100 mg vial",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "drug_name": "Anavip",
+  "url": "https://wikem.org/wiki/Anavip",
+  "scraped_at": "2026-01-10T02:57:24.910501",
+  "sections": {
+    "Pediatric_Dosing": {
+      "text": "Identical to adult dosing as above",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "No known Pregnancy category\nIn general, antidotes should not be withheld if indicated for treatment of the mother for fears of teratogenicity.",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "It is not known if Crotalidae Immune F(ab’)2 (Equine) is present in breast milk.\nAccording to the manufacturer, the decision to continue or discontinue breastfeeding during therapy should consider the risk of infant exposure, the benefits of breastfeeding to the infant, and the benefits of treatment to the mother.",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult/Pediatric: There are no dosage adjustments provided in the manufacturer's labeling.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult/Pediatric: There are no dosage adjustments provided in the manufacturer's labeling.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "The most common reported side effects in clinical trials include: pruritis, rash, arthralgia, and nausea\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "drug_name": "Abciximab",
+  "url": "https://wikem.org/wiki/Abciximab",
+  "scraped_at": "2026-01-10T02:54:37.847451",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "PCI_Adjunct": {
+          "text": "0.125 mcg/kg/min IV x 12h\nPart of multidrug regiment with\nheparin\nand\naspirin",
+          "tables": []
+        },
+        "Unstable_angina,_refractory": {
+          "text": "10 mcg/min IV x 18-24h\nPart of multidrug regiment with\nheparin\nand\naspirin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Benefits outweigh risks during pregnancy\nInadequate human data available to assess risk\nRisk of maternal hemorrhage during delivery",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "May use while breast feeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypersensitivity to murine proteins\nActive internal bleeding\nGI/GU bleeding w/in 6 weeks\nStroke\nw/in 2 years\nCoagulation disorder\nPlt < 100,000\nINR > 1.2\nRecent surgery or trauma\nHTN\n, uncontrolled\nIntracranial neoplasm, AVM, or aneurysm\nVasculitis\nhx\nDextran use in coronary procedure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Thrombocytopenia\nBleeding\nAV Block\n, complete\nAnaphylaxis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Bleeding,\nhypotension\nBack pain, chest pain, abdominal pain\nPeripheral edema\nNausea\n,\nvomiting\nHeadache\n,\ndizziness\nBradycardia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: <10 min initially then 30 min second phase\nMetabolism: Other\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

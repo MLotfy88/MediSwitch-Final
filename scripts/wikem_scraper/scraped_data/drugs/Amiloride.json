@@ -1,0 +1,57 @@
+{
+  "drug_name": "Amiloride",
+  "url": "https://wikem.org/wiki/Amiloride",
+  "scraped_at": "2026-01-10T02:56:18.729580",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "5-20 mg PO daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Not indicated in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk:\nRenal dosing:\nAvoid if CrCl <50\nCrCl 10-50: reduce dose by 50%\nHepatic dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAnuria, acute or chronic renal insufficiency, diabetic nephropathy\nHyperkalemia\nConcomitant use of antikaliuretic agents, potassium supplementation/salt substitutes, or other potassium-sparing agents",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hyperkalemia\nCardiac dysrhythmia, palpitations\nAplastic anemia, neutropenia\nEncephalopathy\nRaised intraocular pressure",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting, diarrhea, loss of appetite\nRash\nAsthenia, muscle cramps\nCough, dyspnea\nDizziness\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6-9h\nMetabolism: NOT hepatic\nExcretion: Renal, fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

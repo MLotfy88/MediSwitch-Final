@@ -1,0 +1,68 @@
+{
+  "drug_name": "Amikacin",
+  "url": "https://wikem.org/wiki/Amikacin",
+  "scraped_at": "2026-01-10T02:56:15.548358",
+  "sections": {
+    "General": {
+      "text": "Type:\nAminoglycoside\nDosage Forms: injectable solution\nRoutes of Administration: IM, IV\nCommon Trade Names: Amikin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Bacterial infections\n7.5mg/kg IM/IV q12h\nOR\n5mg/kg IM/IV q8h\nUncomplicated UTI\n250mg IM BID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Neonates:\n10mg/kg IM/IV x 1 THEN\n7.5mg/kg IM/IV q12h\nInfants / Children\n5mg/kg IM/IV q8h MAX 1.5 g/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation: Safety Unknown\nRenal Dosing\nAdult\nCrCl 50-80 give q12-24h\nCrCl 10-50 give q24-48h\nCrCl <10 give q48-72h\nHD: give supplement\nPediatric\nCrCl 30-50 give q12-18h\nCrCl 10-29 give q18-24h\nCrCl <10 give q48-72h\nHD/PD start 5mg/kg x 1, no supplement\nHepatic Dosing Not Defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Nephrotoxicity\nOtotoxicity\nNeurotoxicity\nNeuromuscular blockade\nSuperinfection",
+          "tables": []
+        },
+        "Common": {
+          "text": "Elev. BUN / Cr\nHearing loss / tinnitus\nVertigo\nInjection site reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2h (30-86 h in renal impairment)\nMetabolism: None\nExcretion: Urine\nMechanism of Action: Bactericidal, binds to 30S ribosomal subunit, inhibits protein synthesis.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

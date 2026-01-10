@@ -1,0 +1,147 @@
+{
+  "drug_name": "Amoxicillin",
+  "url": "https://wikem.org/wiki/Amoxicillin",
+  "scraped_at": "2026-01-10T02:56:48.384509",
+  "sections": {
+    "General": {
+      "text": "Type: Amino-\nPenicillin\nDosage Forms: oral solution, capsule, tablet, chewable tablet, extended release tablet\nDosage Strengths: oral solution: 125, 200, 250, 400mg/5 mL; capsule: 250, 500mg; tablet: 500, 875mg; chewable tablet: 125, 250mg; extended release tablet: 775mg\nRoutes of Administration: PO\nCommon Trade Names: Amoxil; Moxatag, Trimox",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "500-875mg PO q12",
+          "tables": []
+        },
+        "Strep_Pharyngitis": {
+          "text": "1000mg PO q24h x 10 days",
+          "tables": []
+        },
+        "Otitis_Media": {
+          "text": "1000mg PO q8h x 10 days",
+          "tables": []
+        },
+        "Sinusitis": {
+          "text": "1000mg PO q8h x 10 days",
+          "tables": []
+        },
+        "Dental_Abscess": {
+          "text": "1000mg PO x 1, then 500mg PO q8h x 3 days\nIf\nI&D",
+          "tables": []
+        },
+        "Chlamydial_Cervicitis/Urethritis": {
+          "text": "500mg PO q8h x 7 days\nFor pregnant patients",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "500mg PO q8h x 14-21 days",
+          "tables": []
+        },
+        "Salmonella": {
+          "text": "Not 1st line treatment\nAcute\nImmunocompetent\n500mg PO q8h x 3-7 days\nImmunocompromised\n1000mg PO q8h x 3-14 days\nChronic carrier\n1000mg PO q8h x 3 months",
+          "tables": []
+        },
+        "Typhoid_Fever": {
+          "text": "Not 1st line treatment\n50-100mg/kg/day PO divided q6-8h x 14 days\nFirst Dose: 12.5mg-33.3mg/kg PO x 1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "I&D",
+          "url": "https://wikem.org/wiki/I%26D"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_3": {
+          "text": "<3mo:\n20-30mg/kg/day PO divided q12h\nFirst Dose: 10-15mg/kg PO x 1\nMax: 30mg/kg/day\n>3mo:\n25-45mg/kg/day PO divided q12h\nFirst Dose: 12.5-22.5mg/kg PO x 1\nMax: 875mg/dose",
+          "tables": []
+        },
+        "Otitis_Media_2": {
+          "text": "<2 months\n30mg/kg/day PO divided q12h x 10 days\nFirst Dose: 15mg/kg PO x 1\n2 months - 5 years\n80-90mg/kg/day PO divided q12h x 10 days\nFirst Dose: 40-45mg/kg PO x 1\nMax: 1000mg/dose\n6-12 years\n80-90mg/kg/day PO divided q12h x 5-10 days\nFirst Dose: 40-45mg/kg/day PO x 1\nMax: 1000mg/dose",
+          "tables": []
+        },
+        "Community_Acquired_Pneumonia": {
+          "text": "90mg/kg/day PO divided q12h x 5-10 days\nFirst Dose: 45mg/kg PO x 1\nMax\n3 months - 4 years: 500mg/dose\n>5 years: 4000mg/day",
+          "tables": []
+        },
+        "Strep_Pharyngitis_2": {
+          "text": "50mg/kg Po q24h x 10 days\nMax: 1000mg/day",
+          "tables": []
+        },
+        "Sinusitis_2": {
+          "text": "90mg/kg/day PO divided q8-12h x 10 days\nMax: 1000mg/dose",
+          "tables": []
+        },
+        "H._pylori": {
+          "text": "50mg/kg/day PO divided BID x 7-14 days\nMax: 2000mg/day",
+          "tables": []
+        },
+        "Early_Lyme_Disease": {
+          "text": "50mg/kg/day PO divided q8h x 14-21 days\nFirst Dose: 16.6mg/kg PO x1\nMax: 500mg/dose",
+          "tables": []
+        },
+        "Salmonella_(>3mo)": {
+          "text": "50-100mg/kg/day PO divided q8-12h\nAcute: x 3-7 days\nAcute Immunocompromised: 10-14 days\nChronic: 3 months",
+          "tables": []
+        },
+        "Typhoid_Fever_(>3mo)": {
+          "text": "Not 1st line treatment\n50-100mg/kg/day PO divided q6-8h x 14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Use caution\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nHypersensitivity vasculitis\nSJS/TEN\nPseudomembranous colitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea, nausea/vomiting\nRash\nHeadache\nAST/ALT elevation\nMucocutaneous candidiasis\nSerum sickness-like reactions\nAnemia, leukopenia, thrombocytopenia, eosinophilia\nHyperactivity, anxiety, insomnia, confusion behavioral changes\nTooth discoloration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3.7 hr (neonates), 1-2 hr (infants and children), 0.7 - 1.4 hr (adults)\nMetabolism: Hepatic\nExcretion: Urine\nMechanism of Action: Inhibits bacterial cell wall synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

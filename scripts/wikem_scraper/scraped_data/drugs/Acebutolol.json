@@ -1,0 +1,169 @@
+{
+  "drug_name": "Acebutolol",
+  "url": "https://wikem.org/wiki/Acebutolol",
+  "scraped_at": "2026-01-10T02:54:41.341903",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypertension": {
+          "text": "400-800 mg PO bid\nMax: 1200 mg/day (800mg in elderly pts)",
+          "tables": []
+        },
+        "Ventricular_arrhythmia": {
+          "text": "300-600 mg PO bid\nMax: 1200 mg/day (800mg in elderly pts)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Possible risk of intrauterine growth restriction\nLactation risk: Avoid during breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl 25-50: Decrease dose 50%\nCrCl <25: Decrease dose 75%\nHD/PD: No supplement\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Caution advised\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSinus\nbradycardia\n2nd or 3rd degree\nAV block\nHeart failure\n, uncompensated\nCardiogenic shock\nSick sinus syndrome w/o pacemaker\nBreastfeeding\nAvoid abrupt withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "CHF\nBradycardia\n, severe\nHeart block\nAngina\n,\nMI\nif abrupt discontinuation\nVentricular\narrhythmia\nif abrupt discontinuation\nRaynaud phenomenon\nBronchospasm\nLupus\nerythematosus",
+          "tables": []
+        },
+        "Common": {
+          "text": "Fatigue\n,\nDizziness\n,\nHeadache\nConstipation\n,\nDiarrhea\nDyspepsia\nNausea\nDyspnea\nInsomnia\nUrinary frequency\nChest pain\nEdema\nAbnormal dreams\nRash\nArthralgia\n/\nMyalgia\nVisual disturbance",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3-4 hours (8-13h diacetolol)\nMetabolism: Liver; Production of active metabolite (diacetolol)\nExcretion: Bile/feces/gut wall 50-60%; Urine 30-40% (12-29% unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

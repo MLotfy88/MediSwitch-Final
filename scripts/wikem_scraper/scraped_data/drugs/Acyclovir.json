@@ -1,0 +1,171 @@
+{
+  "drug_name": "Acyclovir",
+  "url": "https://wikem.org/wiki/Acyclovir",
+  "scraped_at": "2026-01-10T02:55:16.174231",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntiviral\n:\nnucleoside analoge\nDosage Forms: IV, PO (200 mg, 400 mg, and 800 mg)\nCommon Trade Names: Zovirax",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        },
+        {
+          "text": "nucleoside analoge",
+          "url": "https://wikem.org/wiki/Nucleoside_analoge"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "HSV\nEncephalitis\n10mg/kg IV q8h x 10 d\nGenital/Mucocutaneous HSV\nImmunocompetent\n1st episode, Mild-mod: 400mg PO TID x 7-10 d\n1st episode, Severe: 5-10mg/kg IV q8h x 2-7 d\nRecurrence: 400mg PO TID x 5 d\nSuppression: 400mg PO BID\nImmunocompromised\n1st episode: 400mg PO TID x 5-10 d\nRecurrence: 400mg PO TID x 5-10 d\nSuppression: 400-800mg PO BID-TID\nVaricella\nImmunocompetent\n800mg PO QID x 5-7 d\nImmunocompromised\n10mg/kg IV q8h x 7 d\nHerpes Zoster\nImmunocompetent\n800mg PO 5x/day x 7 d\nImmunocompromised\n10mg/kg IV q8h x 7 d\nHerpes Zoster\nImmunocompetent\n800mg PO 5x/day x 7 d\nImmunocompromised\n10mg/kg IV q8h x 7 d\nHerpes zoster ophthalmicus\n800mg PO 5x/day x 7 d\nHSV prophylaxis in immunocompromised\n400-800mg PO BID-TID\nHSV keratitis\n400mg PO 5x/day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Genital/Mucocutaneous HSV",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes Zoster",
+          "url": "https://wikem.org/wiki/Herpes_Zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "HSV keratitis",
+          "url": "https://wikem.org/wiki/HSV_keratitis"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Neonatal HSV\n40-60mg/kg/day IV divided q12h x 14-21 d\nHSV encephalitis\n3 mo - 11 y/o\n30-45mg/kg/day IV divided q8h x 14-21 d\n>12 y/o\n30mg/kg/day IV divided q8h x 14-21 d\nGenital/mucocutaneous HSV\nImmunocompetent\n1st episode, 2-11 y/o\n40-80mg/kg/day PO divided q6-8 h x 5 d, max 1g/day\n1st episode, >12 y/o\n1g/day PO divided 5x/day x 7-10 d\nImmunocompromised\nPO: >2 y/o: 1g/day PO divided 3-5x/day x 7-14 d\nIV: >1 y/o: 30mg/kg/day IV divided q8h x 7-14 d\nVaricella\nImmunocompetent\nPO: > 2 y/o: 80mg/kg/day PO divided q6h x 5 d\nIV: > 1 y/o: 30mg/kg/day IV divided q8h x 7-10 d\nImmunocompromised\n30mg/kg/day IV divided q8h x 7-10 d\nHerpes zoster\nImmunocompetent\nPO: > 12 y/o: 4g/day PO divided 5x/day x 5-7 d\nIV: 30mg/kg/day IV divided q8h x 7-10 d\nImmunocompromised\n30mg/kg/day IV divided q8h x 7-10 d\nHSV-1/\nHerpes labialis\n15 mg/kg PO (max dose of 200 mg) 5 times per day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation Risk Categories\n: Safe\nRenal Dosing\nAdult\nIV\nCrCl 25-50 give q12h\nCrCl 10-24 give q24h\nCrCl <10 decrease dose 50%, give q24h\nHD give usual dose as supplement\nPD no supplement\nPO\nCrCl <25: see package insert\nHD: give usual dose as supplement\nPD: no supplement\nPediatric\nGeriatric\nRefer to adult dosing. Oral: Initial doses should begin at the low end of the dosage range\nHepatic Dosing\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation Risk Categories",
+          "url": "https://wikem.org/wiki/Lactation_Risk_Categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hallucinations\n/\npsychosis\nSeizure\nComa\nEncephalopathy\nThrombocytopenia\nLeukopenia\nAnaphylaxis\nAngioedema\nErythema Multiforme\nSJS\n/\nTEN\nTTP\nHepatitis\nRenal failure",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting/diarrhea\nHeadache\nDizziness\nRash\nArthralgia\nConfusion / lethargy\nElev. BUN/creatinine\nPhotosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Erythema Multiforme",
+          "url": "https://wikem.org/wiki/Erythema_Multiforme"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "TEN",
+          "url": "https://wikem.org/wiki/TEN"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.5 - 3.3 hrs\nMetabolism: virally infected cells (intracellularly); liver\nExcretion: Urine\nMechanism of Action: Inhibits DNA polymerase",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
