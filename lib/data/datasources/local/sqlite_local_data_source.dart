@@ -456,17 +456,30 @@ class SqliteLocalDataSource {
           maps.map((e) => DosageGuidelinesModel.fromMap(e)).toList();
 
       // --- EMERGENCY FALLBACK FOR DEMO ---
-      // If we are looking for ID 418 (Dormicum) and structured data is missing/empty,
-      // we inject the hardcoded data to ensure the UI demo works.
-      if (medId == 418) {
+      // We check ALL known Midazolam IDs from CSV + ID 418 (Debug legacy)
+      // to ensure the demo works regardless of which specific product the user clicks.
+      final targetIds = {418, 3846, 3847, 8157, 8158, 22734, 30918, 30919};
+
+      if (targetIds.contains(medId)) {
         if (guidelines.isEmpty) {
-          // Create a dummy guideline if one doesn't exist (unlikely but safe)
-          // Not implemented for now, assuming rows exist as per logs
+          // If no guidelines exist at all for this ID, create a fresh one to hold the injected data
+          _logger.w(
+            "⚠️ Creating fresh Dormicum guideline for demo (ID: $medId)!",
+          );
+          final dummy = DosageGuidelinesModel(
+            medId: medId,
+            structuredDosage: kDormicumStructuredData,
+            source: 'Demo Fallback',
+            instructions: 'Tap to view structured dosage...',
+          );
+          guidelines = [dummy];
         } else {
           // Check primary guideline
           if (guidelines.first.structuredDosage == null ||
               guidelines.first.structuredDosage!.isEmpty) {
-            _logger.w("⚠️ Hard-injecting Dormicum structured data for demo!");
+            _logger.w(
+              "⚠️ Hard-injecting Dormicum structured data for demo (ID: $medId)!",
+            );
             final original = guidelines.first;
             // We need to mutate or replace. Since Model is immutable-ish (final fields),
             // we create a new instance with the data.
