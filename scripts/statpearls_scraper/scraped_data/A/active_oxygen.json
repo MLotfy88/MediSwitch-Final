@@ -1,0 +1,10 @@
+{
+  "drug_name": "active oxygen",
+  "nbk_id": "NBK617062",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK617062/",
+  "scraped_at": "2026-01-11T15:22:03",
+  "sections": {
+    "indications": "Contraindications to PDT include a history of porphyria, hypersensitivity to topical photosensitizers, and cutaneous tumors that are unresponsive to treatment.\n[26]",
+    "clinical_significance": "Clinicians often use PDT over other treatment modalities, such as cryotherapy, imiquimod, and surgical excision, for the treatment of actinic keratoses and nonmelanoma skin cancers due to its unique combination of benefits. PDT is a rather noninvasive procedure that allows patients to experience minimal adverse effects and little downtime. Additionally, the ability of PDT to treat multiple lesions simultaneously with minimal carcinogenic risk and mild general toxicity makes it a highly attractive treatment modality.\n[40]\nAnother key advantage of PDT is its ability to selectively target abnormal epidermis that overlies actinic keratoses and superficial skin tumors. This selectivity arises from the accumulation of porphyrin metabolites, which are produced when topical preparations, such as 5-ALA and MAL, are incubated topically on the skin before exposure to blue or red light.\n[3]\nAs a result, PDT not only effectively treats skin lesions but also yields superior cosmetic results, avoiding scarring that typically occurs with surgical excision."
+  }
+}

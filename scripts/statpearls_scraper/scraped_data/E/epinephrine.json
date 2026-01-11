@@ -1,0 +1,10 @@
+{
+  "drug_name": "epinephrine",
+  "nbk_id": "NBK567772",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK567772/",
+  "scraped_at": "2026-01-11T15:28:50",
+  "sections": {
+    "indications": "Before administering any immunization, it is crucial to complete a history and physical and review the patient's medical and immunization records. It is vital to know the patient's medications, allergies, or previous vaccination reactions before their current encounter. If a patient has ever had anaphylaxis or a severe allergic reaction to any parts of a specific vaccine or prior vaccination, further investigation must be performed before inoculation.\n[4]\n\nCertain vaccines have components that can provoke allergies, and individual patients may have a medical history that contraindicates vaccination. Below is a list of some common allergies and cautions to be aware of for particular vaccines:\n\nRotavirus:\n\nSevere combined immunodeficiency disorder\nHistory of intussusception.\n[5]\n[6]\n\nInfluenza:\n\nYounger than six months of age\nSevere egg allergy\n[7]\n\nMMR, Varicella, Herpes Zoster:\n\nPregnancy\nSevere immunodeficiency (including HIV with CD4 count <200)\n[8]\n[9]\n\nAfter gathering all the information necessary, including a comprehensive history and physical, a list of allergies, and prior medical history, the immunization schedule can be consulted for that patient's individual needs. Once the immunizations to be given during the encounter are discussed and confirmed, consent should be obtained from the patient or the patient's guardian regarding the vaccinations.",
+    "clinical_significance": "The general public must have access to vaccines and immunizations. By further educating various healthcare professionals on the safe administration of immunizations and epinephrine auto-injectibles, we improve access and allow patients to find different vaccine delivery options to suit their individual needs."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "drug_name": "gemcitabine",
+  "nbk_id": "NBK613284",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK613284/",
+  "scraped_at": "2026-01-11T15:29:54",
+  "sections": {
+    "indications": "Contraindications to brachytherapy in gallbladder cancer include widespread metastatic disease where localized treatment would not provide significant benefit.\n[15]\nPatients who cannot tolerate the procedure due to poor overall health or severe comorbid conditions are also unsuitable candidates. Furthermore, anatomical variations that prevent effective catheter placement, such as in cases with complex biliary anatomy or severe obstruction that cannot be navigated, increase the risk of iatrogenic injury.\n[16]\nBrachytherapy is also contraindicated in cases where previous treatments have led to complications that increase a patient's vulnerability to this procedure's adverse events.",
+    "clinical_significance": "Brachytherapy shows promise as a treatment option for gallbladder cancer. This intervention is particularly relevant for cases where surgery is not feasible, shifting the treatment focus from cure to disease control and symptom palliation. By delivering targeted radiation via catheter-based techniques, brachytherapy offers an alternative that may improve survival and control over the disease, as demonstrated in other biliary tract cancers. In gallbladder malignancies, the transhepatic and transduodenal delivery methods isolate radioactive isotopes to the obstructed area, minimizing exposure to surrounding organs. Data suggest that brachytherapy could be a valuable addition to the therapeutic arsenal against gallbladder cancer, particularly in locally advanced or metastatic cases, providing a means to extend survival and improve quality of life when traditional therapies may fall short.\n[25]"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "drug_name": "fibers",
+  "nbk_id": "NBK560843",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK560843/",
+  "scraped_at": "2026-01-11T15:29:31",
+  "sections": {
+    "clinical_significance": "Diabetic neuropathy is a pathologic process that may occur in those with diabetes. Hyperglycemia interferes with nerve conduction and weakens the walls of the vasa nervorum, depriving nerves of oxygen and nutrients. Diabetic neuropathy can affect the nerves of the autonomic system, especially GVA fibers, potentially contributing to dysfunctional blood pressure regulation and gastroparesis.\n[22]\nGVA fibers affected by diabetic neuropathy have a reduced GVE fiber response.\n\nCurrent knowledge indicates that referred pain occurs because multiple primary sensory neurons converge on a single ascending tract in the spinal cord. When painful stimuli activate visceral receptors, the brain is unable to distinguish between the visceral signals and somatic signals; the brain interprets that the pain is coming from somatic regions (e, skin, skeletal musculature, and bones) of the body rather than the visceral regions (ie, spleen, kidney, and heart). For example, patients with angina pectoris, a type of cardiac pain, experience referred pain in the chest and upper left arm.\n[23]\n\nAnother example is patients with temporomandibular disorder (TMD), who may experience referred pain in the teeth or other sections in the orofacial area.\n[24]\nAreas of referred pain can be cross-referenced against dermatome charts to help identify the visceral organ sending pain signals."
+  }
+}

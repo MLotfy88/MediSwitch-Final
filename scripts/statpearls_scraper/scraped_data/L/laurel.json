@@ -1,0 +1,9 @@
+{
+  "drug_name": "laurel",
+  "nbk_id": "NBK536929",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK536929/",
+  "scraped_at": "2026-01-11T15:32:39",
+  "sections": {
+    "toxicity": "Nystatin therapy has been associated with mucositis and, in rare cases, Stevens-Johnson syndrome. Oral fluconazole and clotrimazole troches may lead to elevated liver function tests and, infrequently, hepatotoxicity. Proton pump inhibitors reduce systemic absorption of azole antifungals by increasing gastric pH.\n\nTriazole antifungals, including fluconazole, itraconazole, voriconazole, and posaconazole, act as inhibitors of hepatic cytochrome P450 enzymes. All triazoles inhibit CYP3A4 and can increase plasma concentrations of multiple medications. Fluconazole and ketoconazole also inhibit CYP2C8 and CYP2C9. Clinicians should exercise caution when prescribing triazoles alongside other drugs and consider substituting amphotericin or nystatin when appropriate. Specific drug interactions include:\n\nWarfarin, monitor for a 2 to 3 times increase in INR\nVinca alkaloids\nSteroids (methylprednisolone and dexamethasone)\nStatins\nProtease inhibitors\nPhosphodiesterase type-5 inhibitors\nPhenytoin (clinicians should decrease the dose and monitor serum levels with fluconazole and itraconazole)\nFelodipine cut the dose by 50%\nDigoxin: monitor serum digoxin levels\nCyclosporine (decrease dosage by 50% and monitor serum cyclosporine levels)\nCarbamazepine (only in azole doses over 200 mg per day)\nBenzodiazepines reduce the dose\nAripiprazole"
+  }
+}

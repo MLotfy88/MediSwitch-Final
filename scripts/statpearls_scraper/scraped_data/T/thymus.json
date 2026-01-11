@@ -1,0 +1,9 @@
+{
+  "drug_name": "thymus",
+  "nbk_id": "NBK546601",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK546601/",
+  "scraped_at": "2026-01-11T15:40:06",
+  "sections": {
+    "clinical_significance": "The clinical significance of the blood-thymus barrier is still extensively studied because of its potential role in limiting autoimmune diseases. Mouse studies demonstrate that intrathymic inoculation of antigen has led to apoptosis of CD4 and CD8 cells.\n[11]\nStudies have found that genetically engineered autologous dendritic cells expressing self-antigen could be inoculated into the thymic cortex to treat autoimmune disease. Genetically engineered dendritic cells with self-antigen can also be inoculated into the thymic cortex to promote tolerance for organ transplantation.\n[11]\n\nThe blood-thymus barrier is also clinically significant because it becomes compromised under various conditions. Factors that increase permeability to the blood-thymus barrier include ACTH, stress, sex hormones, and glucocorticoids, which allows for foreign antigens to enter the thymic cortex leading to impaired immunity\n[5]\nAlthough this topic is still a topic of study, it could help explain the dynamic nature of our immune responses over a lifetime and changes in apparent autoimmune responses.\n\nMyeloma antigens in mice have been phagocytized and presented by dendritic cells within the thymic cortex.\n[12]\nPresentation of tumor antigen to the cortical thymocytes can lead to apoptosis, constituting a major mechanism of tumor escape. The role of the blood-thymus barrier is still the subject of intensive research because of its potential in treating various autoimmune diseases and cancer."
+  }
+}

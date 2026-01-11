@@ -1,0 +1,10 @@
+{
+  "drug_name": "whtitening formula",
+  "nbk_id": "NBK537190",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK537190/",
+  "scraped_at": "2026-01-11T15:41:43",
+  "sections": {
+    "indications": "It is crucial to understand that the Parkland formula is a widely accepted method for burn resuscitation. Although this method has no absolute contraindications, patients with comorbidities like heart failure or end-stage renal disease must be closely monitored regarding their volume status during fluid resuscitation. Patients with smaller burns who can maintain a diet do not require fluid resuscitation.",
+    "clinical_significance": "Managing the fluid status in burn and trauma patients is a challenging and demanding task. All resuscitative formulas should be used as a starting guide for fluid resuscitation; no formula is comprehensive enough to include the true complexity of burns as there are many unaccounted clinical variables.\n[3]\nFurthermore, most studies do not include electrical burns, chemical burns, and multiple trauma patients who traditionally require more resuscitation when calculating the total fluids required. Despite the challenges of one formula being unable to account for the individual intricacies of each burn treated, the Parkland formula is a reasonable starting point for achieving adequate fluid resuscitation despite its limitations."
+  }
+}

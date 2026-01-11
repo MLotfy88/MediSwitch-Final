@@ -1,0 +1,9 @@
+{
+  "drug_name": "hydroxychloroquine sulphate",
+  "nbk_id": "NBK537086",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK537086/",
+  "scraped_at": "2026-01-11T15:31:16",
+  "sections": {
+    "toxicity": "Mortality of hydroxychloroquine and chloroquine overdoses is estimated between 10-30% but may be higher. Aggressive management of acute overdose and toxicity is critical to the survival of the patient.\n\nInitial management should include epinephrine for vasopressor support and correction of any electrolyte abnormalities, with particular attention to hypokalemia, which commonly accompanies these overdoses. Hypoglycemia should also be managed appropriately with boluses and continuous infusions of intravenous dextrose as needed.\n\nPatients with significant hemodynamic collapse should be intubated and sedated with high-dose diazepam infusions.\n[19]\nIn addition, clinicians should consider GI decontamination with activated charcoal if not contraindicated and gastric lavage depending on the time of ingestion, quantity ingested, and clinical presentation.\n[47]\n[48]\n\nHemodialysis is not currently indicated or recommended in the management of hydroxychloroquine or chloroquine toxicity.\n[49]\nOf note, ophthalmic manifestations of toxicity are not typically seen in acute overdoses.\n[22]\nVision and hearing changes are much more commonly seen with chronic use and tend to be irreversible.\n[50]"
+  }
+}

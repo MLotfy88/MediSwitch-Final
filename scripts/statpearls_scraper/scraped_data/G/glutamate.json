@@ -1,0 +1,9 @@
+{
+  "drug_name": "glutamate",
+  "nbk_id": "NBK537267",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK537267/",
+  "scraped_at": "2026-01-11T15:30:13",
+  "sections": {
+    "clinical_significance": "Excitotoxicity, for which glutamate is considered the perennial culprit, is involved in a plethora of disease processes. Glutamate’s role in synaptic plasticity has broad clinical implications, particularly regarding learning and functional disabilities, neurodegenerative diseases, and addictive behaviors.\n[7]\nAs a pathogenic factor in substance use disorder, dysregulation of glutamate homeostasis has been shown to disrupt communication between the prefrontal cortex and the nucleus accumbens, altering neuroplasticity and dendritic spine morphology. Repeated drug use leads to an imbalance between synaptic and non-synaptic (glial) glutamate, which impairs corticostriatal control of drug-seeking behavior. This pathway also raises potential pharmacological targets; already,\nN\n-acetylcysteine has been shown to inhibit drug-seeking relapse.\n[11]\nExcitotoxicity-induced glial injury can also mediate neurodegeneration by altering the expression of Na-dependent glutamate transporters, leaving the brain more susceptible to aberrant glutamate cycling and contributing to diseases affecting both neurons (eg, dementia) and glia (eg, multiple sclerosis) alike.\n[3]\n]"
+  }
+}

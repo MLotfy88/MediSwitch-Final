@@ -1,0 +1,9 @@
+{
+  "drug_name": "peptide complex",
+  "nbk_id": "NBK541023",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK541023/",
+  "scraped_at": "2026-01-11T15:36:20",
+  "sections": {
+    "clinical_significance": "Both major histocompatibility complex class I and class II molecules are responsible for the acute immune response that progresses to graft rejection. Because of the significant genetic variability in HLA antigens between individuals, donor organs can contain highly immunogenic antigens. It is the donor’s HLA molecules themselves that get recognized as non-self HLA, which leads to the generation of anti-HLA antibodies and subsequent graft damage.\n[8]\nIn fact, antibody-mediated rejection is the most common cause of kidney or heart transplant loss. These antibodies can cause necrotic cell death in endothelial cells. The mechanism of cell damage is via both complement-dependent and complement-independent pathways. The complement-dependent antibody response involves the classical complement cascade, while the complement-independent response involves intracellular signal transduction cascades.\n[9]\n\nDonor organs are often preferentially taken from siblings or close family members and tested for HLA compatibility to minimize this risk. Patients typically undergo crossmatching to identify any preexisting HLA antibodies. However, post-transplant monitoring for anti-HLA antibodies is still required as they can develop even years after the transplant.\n[10]"
+  }
+}

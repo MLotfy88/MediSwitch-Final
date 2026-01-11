@@ -1,0 +1,9 @@
+{
+  "drug_name": "gefitinib",
+  "nbk_id": "NBK482459",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK482459/",
+  "scraped_at": "2026-01-11T15:29:54",
+  "sections": {
+    "clinical_significance": "Given the involvement of EGFR in the pathology of cancers, EGFR inhibitors have been considered potential therapeutic agents. Currently, 2 classes of anti-EGFR agents have shown clinical activity and achieved regulatory approval for cancer treatment.\n\nAnti-EGFR monoclonal antibodies\nAnti-EGFR monoclonal antibodies (cetuximab, panitumumab, erlotinib, and gefitinib) act as competitive inhibitors of EGFR ligand binding.\nEGFR tyrosine kinase inhibitors\nEGFR tyrosine kinase inhibitors (gefitinib, erlotinib, brigatinib, lapatinib) are small molecules that bind and inhibit the EGFR intracellular tyrosine kinase, which prevents further downstream activation.\n\nAnti-EGFR monoclonal antibodies have now been approved for treating advanced colorectal and head and neck tumors, and EGFR TKIs have been approved for treating advanced non–small cell lung cancer, pancreatic carcinoma, head and neck tumors, and glioblastoma.\n\nAn adverse effect of both classes of medications is a papulopustular eruption, seen in 90% of patients. Although these treatments are promising, resistance often develops. The T790M mutation and\nMET\noncogene are the 2 primary sources of resistance."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "drug_name": "tetanus",
+  "nbk_id": "NBK559008",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK559008/",
+  "scraped_at": "2026-01-11T15:39:55",
+  "sections": {
+    "toxicity": "Common side effects are fever, redness, swelling, and pain at the injection site, which is usually the deltoid and thigh regions. Fever is more common in routine vaccinations when administered with concurrent vaccines.\n[13]\nAnaphylaxis, urticaria, angioedema, and neurologic complications have been reported following tetanus vaccine administration but are rare. Contraindications are an anaphylactic reaction to the previous dose and encephalopathy not attributed to other causes within 7 days of the previously given dose. Precautions should be considered for Guillain-Barre syndrome within 6 weeks of the previous dose, history of Arthus-type reaction, or underlying neurologic conditions."
+  }
+}

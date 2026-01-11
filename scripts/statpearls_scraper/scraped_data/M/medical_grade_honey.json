@@ -1,0 +1,11 @@
+{
+  "drug_name": "medical grade honey",
+  "nbk_id": "NBK553110",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK553110/",
+  "scraped_at": "2026-01-11T15:33:52",
+  "sections": {
+    "indications": "Proper diabetic foot care has no contraindications. Preventive foot care is appropriate for every patient with diabetes and poses minimal risk.",
+    "clinical_significance": "Proper diabetic foot care is a critical component of diabetes management for limb preservation. Foot ulceration is one of the leading causes of hospitalization and amputation among patients with diabetes. Most diabetic foot complications arise from ischemia, neuropathy, and infection. Patients with diabetes and neuropathy have a 7% to 10% annual risk of developing foot ulceration, which increases to 25% to 30% in individuals with additional risk factors, such as PAD, pedal deformities, or a history of ulceration or amputation. Approximately 85% of diabetes-related lower extremity amputations result from complications of foot ulceration. Risk of amputation rises with age. Patients older than 45 have an 8-fold increased risk of amputation, those older than 65 years a 12-fold risk, and individuals aged 65 to 74 years a 23-fold risk.",
+    "monitoring": "Care of the diabetic foot is an interprofessional responsibility. Holstein et al reported a 75% reduction in major limb amputations in patients with diabetes following the establishment of an interprofessional foot clinic with increased revascularization rates.\n[35]\nPrimary care physicians and nursing staff play a key role in identifying at-risk feet and providing education on proper care and monitoring. Individuals with elevated risk factors or pedal deformities should receive regular follow-up with podiatry. Development of ulcerations necessitates more frequent surveillance and may require referral to additional specialists, including vascular surgery, infectious disease, plastic surgery, and prosthetics."
+  }
+}

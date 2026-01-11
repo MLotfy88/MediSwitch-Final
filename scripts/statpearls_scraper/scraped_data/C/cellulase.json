@@ -1,0 +1,9 @@
+{
+  "drug_name": "cellulase",
+  "nbk_id": "NBK573072",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK573072/",
+  "scraped_at": "2026-01-11T15:25:33",
+  "sections": {
+    "toxicity": "Linezolid may cause bone marrow suppression (anemia, thrombocytopenia), optic neuropathy, or lactic acidosis. Weekly monitoring of the complete blood count is essential, and visual acuity and color vision should be assessed if the drug is used for more than 2 weeks. The drug should be discontinued if hematologic toxicity occurs and switched to an alternative agent if vision changes arise.\n\nAzithromycin may lead to gastrointestinal upset, QT prolongation, and hepatotoxicity. Patients with cardiac conditions should undergo electrocardiogram monitoring, and liver function tests should be conducted during prolonged or systemic use. Caution is necessary if QT-prolonging drugs are concurrently prescribed. This drug should be discontinued if hepatic symptoms emerge.\n\nIntrastromal injections can result in local inflammation and, in rare cases, corneal melting. Regular slit-lamp exams are advised to monitor stromal changes and thinning. If these manifestations are observed, the injection frequency should be reduced or topical therapy switched, and lubricants or a BCL should be considered for comfort.\n\nSystemic therapy may result in drug-drug interactions, gastrointestinal intolerance, or, in rare cases, neuropathy, particularly when linezolid is given. Regular clinical evaluations and medication reconciliations are important. The regimen must be adjusted as needed based on patient tolerance and side effect profiles.\n\nGeneral strategies include avoiding corticosteroids during active infections, as they may worsen prognosis. For prolonged cases, supportive therapies like artificial tears, BCLs, and vitamin supplements can be beneficial. An interprofessional team should be involved if systemic toxicity is suspected."
+  }
+}

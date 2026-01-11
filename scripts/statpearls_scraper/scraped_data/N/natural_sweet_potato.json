@@ -1,0 +1,9 @@
+{
+  "drug_name": "natural sweet potato",
+  "nbk_id": "NBK565844",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK565844/",
+  "scraped_at": "2026-01-11T15:34:57",
+  "sections": {
+    "clinical_significance": "NK cells are essential components of innate immunity. Although their function may be compromised in many primary immune deficiency disorders, rare isolated Natural Killer cell deficiency syndromes may also occur. There are two potential varieties of NK cell deficiency: (1) the classical natural killer cell deficiency (CNKD) and (2) functional natural killer cell deficiency (FNKD).\n[24]\n[25]\nCNKD reflects the significant absence of NK cells among peripheral blood mononuclear cells and fewer than 1% of NK cells in peripheral blood should be present in a minimum of three independent tests separated by one month to establish this diagnosis. Unlike CNKD, patients with FNKD have NK cells found in their peripheral blood within the spectrum of age-specific average values; however, permanently deficient in their functions. Both CNKD and FNKD patients are highly susceptible to human papillomavirus, herpes simplex virus, cytomegalovirus, Epstein-Barr virus, varicella-zoster virus infection.\n[24]\n[26]\n[27]\n\nThe prognostic value of NK cells infiltrating solid tumors has attracted considerable attention in clinical practice. Several independent studies have demonstrated that higher levels of NK cell markers such as CD56 and NKp46 in solid tumors correlate with favorable prognosis and overall survival rate.\n[28]\n[29]\n[30]\nHowever, further research is necessary to establish a scoring system including information from tumor type, clinical staging, pathological grading, etc. The clinical development of NK cell-based cancer therapy provided promising results. The NK cell-based clinical trials presented a desirable safety profile and efficacy in hematologic malignancies and solid tumors.\n[31]\n[32]\n[33]"
+  }
+}

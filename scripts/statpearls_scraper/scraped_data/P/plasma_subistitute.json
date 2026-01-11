@@ -1,0 +1,9 @@
+{
+  "drug_name": "plasma subistitute",
+  "nbk_id": "NBK597370",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK597370/",
+  "scraped_at": "2026-01-11T15:36:48",
+  "sections": {
+    "toxicity": "Adverse effects range from simple allergic reactions to life-threatening reactions such as TACO and TRALI. Simple reactions can be handled in the inpatient unit, whereas more severe reactions warrant ICU care. TRALI and TACO may require intubation and mechanical ventilation. Multidisciplinary management with the involvement of transfusion specialists, intensivists, nurses, and respiratory therapists is essential for improvement in patient outcomes. Mitigation strategies in blood collection and processing are necessary to prevent reactions like TRALI. These strategies include checking for antibodies (HLA, HNA), excluding female donors with a history of pregnancy, and avoiding multiparous donors.\n[5]\n\nPreventing adverse effects in blood transfusions begins at the collection stage. Male donors are often preferred, as female donors may possess antibodies due to pregnancy that are capable of causing adverse effects. Other measures include checking the bag to avoid clerical errors, monitoring during transfusion, and early identification of symptoms and treatment."
+  }
+}

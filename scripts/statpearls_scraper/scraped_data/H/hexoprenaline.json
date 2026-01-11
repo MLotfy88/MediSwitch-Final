@@ -1,0 +1,10 @@
+{
+  "drug_name": "hexoprenaline",
+  "nbk_id": "NBK562212",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK562212/",
+  "scraped_at": "2026-01-11T15:30:49",
+  "sections": {
+    "indications": "The contraindications for the procedure have been laid out in ACOG Practice Bulletin 171 in Box 1 and are the following:\n[11]\n\nA gestational age above 34 weeks\nIntrauterine fetal demise\nLethal fetal anomaly\nNonreassuring fetal status\nSevere preeclampsia or eclampsia\nMaternal bleeding with hemodynamic instability\nChorioamnionitis\nPreterm premature rupture of membranes (except when there are no signs of maternal infection and there is a need for transportation, steroid administration, or both)\nSpecific contraindications to tocolytic agents\n\nRelative contraindications also include if there´s already advanced cervical dilation over 5 cm, maternal heart disease, hyperthyroidism, uncontrolled diabetes, mild abruptio placentae, stable placenta previa, and intrauterine growth restriction. Studies have shown that there is no beneficial delay in delivery with tocolytics for patients with symptomatic abnormal placentation.\n[12]\nAnother considered contraindication is small for gestational age. While this can vary on an individual level, smaller infants will tend to need to be ventilated upon delivery.",
+    "clinical_significance": "Tocolysis is clinically significant because it increases the amount of time to perform neonatal interventions. The WHO has shown that it is beneficial to delay delivery by up to 48 hours, allowing for antenatal corticosteroids to help fetal lung maturity in premature neonates.\n[28]\nThere have been publications that have questioned if tocolytics have benefits on major neonatal morbidity.\n[29]\n[30]"
+  }
+}

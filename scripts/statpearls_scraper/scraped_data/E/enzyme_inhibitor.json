@@ -1,0 +1,9 @@
+{
+  "drug_name": "enzyme inhibitor",
+  "nbk_id": "NBK609091",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK609091/",
+  "scraped_at": "2026-01-11T15:28:50",
+  "sections": {
+    "toxicity": "Rituximab is generally considered safe during the first trimester of pregnancy due to its IgG1 component, as placental transfer is not believed to occur until around the 16th week of gestation. Rituximab has a half-life of approximately 18 to 22 days and is typically eliminated within 3 to 4 months after the last dose. Because it can deplete B cells, if the drug is needed during the later stages of pregnancy, neonatal B-cell counts should be closely monitored until the infant is 6 months old.\n[38]\n\nTacrolimus is considered safe during pregnancy, and maintaining therapeutic levels is essential to reduce the risk of preterm births.\n[39]\n[40]\nMonitoring renal function and potassium levels in neonates exposed to tacrolimus has also been recommended.\n[41]\nSimilarly, cyclosporine is regarded as relatively safe for use during pregnancy.\n[42]\n[43]"
+  }
+}

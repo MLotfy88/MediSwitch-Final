@@ -1,0 +1,11 @@
+{
+  "drug_name": "poloxamer",
+  "nbk_id": "NBK538522",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK538522/",
+  "scraped_at": "2026-01-11T15:36:52",
+  "sections": {
+    "indications": "Irrigation may not be necessary for certain highly vascular areas such as the scalp.\n[5]\nWounds with fistulas or sinuses with unknown depth should undergo careful evaluation before irrigation is performed to avoid forcing bacteria and debris containing fluids further into the wound or other body spaces.",
+    "clinical_significance": "Proper wound management includes wound irrigation as it leads to better wound healing, decreased risk of infection, and decreased risk of hospital admission.",
+    "monitoring": "Vital signs\nPain scores\nSymptoms and/or signs of wound infection\nSymptoms and/or signs of wound dehiscence\nSymptoms and/or signs of anaphylaxis or allergy to the irrigating solutions"
+  }
+}

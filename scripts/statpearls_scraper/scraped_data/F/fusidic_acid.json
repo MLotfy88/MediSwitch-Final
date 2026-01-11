@@ -1,0 +1,9 @@
+{
+  "drug_name": "fusidic acid",
+  "nbk_id": "NBK592427",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK592427/",
+  "scraped_at": "2026-01-11T15:29:49",
+  "sections": {
+    "clinical_significance": "SSI rates after MMS can vary depending on factors such as the anatomic site, closure method, and other variables. However, these rates are generally low, typically ranging from around 1.4% to 2.7%.\n[1]\n\nRates of endocarditis and prosthetic joint infection are even lower. A survey was sent to the American College of Mohs Surgery members in 2012. With 230 respondents, there were no reports of infective endocarditis following a cutaneous surgery and only one report of prosthetic joint infection. The prosthetic joint infection reportedly occurred following a skin infection of a biopsy site that subsequently seeded the knee joint.\n[22]\nIn addition, the rate of bacteremia after cutaneous surgery is around 0.7% which is lower than the higher end of positive blood cultures (2.1%) found in healthy patients.\n[23]\n\nThis study concluded that cutaneous surgeons overuse antibiotics for prophylaxis of endocarditis and prosthetic joint infection based on the current guidelines.\n[22]\nThis highlights the variability in practice between surgeons and the need to focus on best practices to avoid adverse effects, adding to unnecessary healthcare spending and increasing antimicrobial resistance, as outlined above."
+  }
+}

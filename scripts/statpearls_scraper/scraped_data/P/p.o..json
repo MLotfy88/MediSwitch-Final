@@ -1,0 +1,10 @@
+{
+  "drug_name": "p.o.",
+  "nbk_id": "NBK570595",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK570595/",
+  "scraped_at": "2026-01-11T15:35:47",
+  "sections": {
+    "indications": "Pediatric ultrasound has no absolute contraindications, as it is a noninvasive, radiation-free imaging modality. However, relative contraindications may include open wounds, severe skin infections, or recent surgical sites in the area being examined, which could cause discomfort or hinder the effectiveness of the scan.",
+    "clinical_significance": "Ultrasound is a safe, radiation-free, and readily available imaging procedure that can be easily performed at the bedside. The portability and accessibility of ultrasound make it essential in the initial evaluation of pediatric gynecological conditions. In many cases, ultrasound provides a definitive diagnosis and can also identify cases requiring further evaluation with MRI or CT scans. Emerging techniques such as CEUS have become valuable adjuncts to routine ultrasound for assessing various pathologies, such as tumoral angiogenesis, distinguishing benign from malignant lesions, and evaluating emergency conditions such as ovarian torsion.\n[6]\n\nPediatric radiologists must have a comprehensive understanding of the normal ultrasound appearance of the female pelvis across all developmental stages—from neonate to adolescent or postpubertal age. Familiarity with the sonographic features of various pelvic pathologies is essential for accurate diagnosis and appropriate clinical management. For example, recognizing the characteristic ultrasound findings of ovarian torsion is essential for timely intervention, which may help preserve ovarian function."
+  }
+}

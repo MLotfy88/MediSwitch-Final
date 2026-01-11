@@ -1,0 +1,9 @@
+{
+  "drug_name": "glucose 40%",
+  "nbk_id": "NBK549816",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK549816/",
+  "scraped_at": "2026-01-11T15:30:11",
+  "sections": {
+    "clinical_significance": "HbA1c is a well-established marker that reflects average blood glucose levels over the preceding 3 months and serves as a reliable indicator of long-term glycemic control.\n[2]\nHbA1c\nis widely used not only for monitoring diabetes mellitus but also as a diagnostic tool and an alternative to glucose testing for screening diabetes mellitus. Glycated hemoglobin has been firmly recognized as a predictor of the risk of developing microvascular complications, such as retinopathy and nephropathy, in patients with diabetes mellitus.\n[32]\n[33]\nNotably, the absolute risks of these complications are directly proportional to the mean HbA1c concentration. Studies have demonstrated that the risk of diabetic retinopathy increases continuously with rising HbA1c levels, and a single HbA1c measurement can predict the progression of retinopathy even 4 years later.\n[2]\n[34]"
+  }
+}

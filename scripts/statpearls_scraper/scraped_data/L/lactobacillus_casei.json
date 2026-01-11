@@ -1,0 +1,12 @@
+{
+  "drug_name": "lactobacillus casei",
+  "nbk_id": "NBK553134",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK553134/",
+  "scraped_at": "2026-01-11T15:32:27",
+  "sections": {
+    "indications": "Generally, since most research indicates that probiotics are safe, there are no real contraindications. Instead, following the rare occurrences, specific individuals should proceed with caution. Those with short gut syndrome, the immunocompromised, and the elderly patients should consider potential side effects before initiation.\n[8]\nFurthermore, when placing central venous catheters, a proper protocol should be enforced to prevent the introduction of pathogens.",
+    "mechanism": "Although the complete mechanism of action probiotics have on the body is not fully understood, there have been certain notable findings in the past. Research has found probiotics to enhance the immune system, playing a role in both innate and adaptive immunity and increasing the overall efficiency. Furthermore, research shows that probiotics carry many anti-inflammatory effects. They act as a regulatory substance for the immune system, helping to sustain homeostasis when it comes to inflammatory and anti-inflammatory responses.\n[6]\nProbiotics have also been implicated in impacting both the enteric and central nervous systems, thereby decreasing notions of pain through the activation of opioid and endocannabinoid receptors.\n[7]",
+    "administration": "Probiotics come in a variety of different forms. They are available in fermented foods, capsules, liquids, and powders.\n[7]\nThey are easily accessible and located in most grocery stores, pharmacies, and through online purchases.\n[7]\nWith the easy accessibility of probiotics, sellers must be informed about the benefits of supplementation to provide better information to consumers.",
+    "adverse_effects": "There has been insufficient evidence on whether probiotics are safe or not. There have been rare occurrences where patients who took probiotics were subject to fungemia, bacteremia, and endocarditis. Research has revealed the most documented probiotics to cause fungemia to be\nSaccharomyces cerevisiae\nand\nSaccharomyces boulardii\n. Studies also show that bacteremia and sepsis resulted from various\nLactobacillus\nstrains,\nS. boulardii\n,\nS. cerevisiae\n,\nBacillus subtilis\n, and\nBifidobacterium breve\n. Endocarditis caused by probiotics is on record to be caused by\nLactobacillus\nand\nStreptococcus\n.\n[5]"
+  }
+}

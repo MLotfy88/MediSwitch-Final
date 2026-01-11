@@ -1,0 +1,9 @@
+{
+  "drug_name": "vaccine bcg",
+  "nbk_id": "NBK441916",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK441916/",
+  "scraped_at": "2026-01-11T15:40:52",
+  "sections": {
+    "toxicity": "Potential anti-TB drug toxicities range from mild to life-threatening. Patients must be educated about early signs and symptoms of drug toxicity, instructed about when to discontinue their use, and seek immediate evaluation should they occur. Detailed guidelines provide recommendations for treatment response assessment, adverse drug reaction monitoring, and patient management. The following is a list of commonly occurring adverse events and their associated anti-TB drugs:\n\nHepatitis (malaise, fatigue, fever, anorexia, nausea, dark urine)\nINH\nBedaquiline\nRifampin\nPyrazinamide\nPeripheral neuropathy\nINH\nLinezolid\nOcular toxicity\nEthambutol\nRash\nPyrazinamide\nEthambutol\nFluoroquinolones\nAmikacin\nBeta-lactams\nINH\nStreptomycin\nPara-aminosalicylic acid\nCranial nerve VIII dysfunction and renal dysfunction\nAmikacin\nStreptomycin\nCapreomycin\nKanamycin\nGastrointestinal upset\nAll anti-TB drugs\nMyalgias-arthralgias\nBedaquiline\nPyrazinamide\nAnxiety, confusion, psychosis\nCycloserine\nFluoroquinolones\nHypoglycemia\nFluoroquinolones\nTendonitis\nFluoroquinolones\n[62]\n[75]\n[76]\n[77]\n\nPeople with TB and HIV coinfection undergoing antiretroviral therapy present additional challenges. Coadministration of anti-TB and antiretroviral agents can pose significant risks due to adverse reactions and drug-drug interactions. For example, rifamycins cause decreased plasma concentrations of protease inhibitors and nonnucleoside reverse-transcriptase inhibitors. In coinfected individuals, the restoration of immunity may result in clinical deterioration due to immune reconstitution inflammatory syndrome. Excellent references provide discussions of the management of these pharmacological challenges.\n[27]\n[78]\n[79]\n[80]"
+  }
+}

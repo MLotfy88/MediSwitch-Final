@@ -1,0 +1,10 @@
+{
+  "drug_name": "lidocaine hcl",
+  "nbk_id": "NBK574554",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK574554/",
+  "scraped_at": "2026-01-11T15:32:59",
+  "sections": {
+    "indications": "Absolute\n\nPatient refusal\nAllergy to anesthetic\n\nRelative\n\nOpen globe\nLocal infection\nDistorted anatomy (traumatic, post-surgical, or due to underlying disease)\nBleeding or clotting disorders\nPoor patient cooperation",
+    "clinical_significance": "Appropriate selection and delivery of anesthesia are essential to perform procedures safely and improve patient comfort. For surgical procedures localized to a specific anatomical area, direct anesthetic infiltration is often adequate. However, for larger procedures or those requiring minimal tissue distortion, regional nerve blockade offers a distinct advantage in that a relatively smaller amount of anesthesia is necessary to anesthetize a specific area.\n\nGiven the complex sensory innervation of the face, knowledge of anatomy is required to safely and effectively deliver local and regional anesthesia. In addition, targeted anesthesia, either through local tissue infiltration or regional nerve blockade, enables the delivery of an anesthetic as an adjunct or alternative to systemic anesthesia."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "drug_name": "wheat germ",
+  "nbk_id": "NBK493231",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK493231/",
+  "scraped_at": "2026-01-11T15:41:41",
+  "sections": {
+    "toxicity": "Zinc toxicity from over-supplementation is rare but can lead to significant adverse effects. Excessive intake may cause gastric irritation, presenting with nausea, vomiting, abdominal pain, and, in severe cases, gastric hemorrhage.\n[3]\n\nA key concern with chronic high-dose zinc supplementation is its potential to interfere with copper absorption. Zinc and copper share similar intestinal transport pathways, and excess zinc can lead to copper deficiency, potentially resulting in anemia, neutropenia, and neurologic complications. As noted, copper levels should be monitored during prolonged or high-dose zinc therapy, with supplementation added if needed to prevent deficiency.\n\nManagement of zinc toxicity involves discontinuing excess zinc intake and providing supportive care for gastrointestinal symptoms. In cases of documented copper deficiency secondary to zinc over-supplementation, appropriate copper replacement should be initiated."
+  }
+}

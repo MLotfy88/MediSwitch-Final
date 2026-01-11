@@ -1,0 +1,11 @@
+{
+  "drug_name": "polydimethylsiloxane",
+  "nbk_id": "NBK580486",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK580486/",
+  "scraped_at": "2026-01-11T15:36:56",
+  "sections": {
+    "indications": "The various contraindications for SB include:\n\nScleromalacia or severe scleral thinning\nAdvanced PVR changes\nDense vitreous hemorrhage or significant cataract which precludes fundus view\nPrevious glaucoma surgery\nRRD secondary a giant retinal tear\nRRD secondary to retinal breaks posterior to the equator",
+    "clinical_significance": "SB is an elegant and safe extraocular surgery, especially because it doesn’t disturb the vitreous. It doesn’t require the use of sophisticated machines and is significantly less expensive than a vitrectomy.\n[25]\nAlthough vitrectomy is a better option for eyes with advanced PVR changes, anatomical and functional results produced by SB in primary uncomplicated RRD are comparable. The need to master the surgery becomes even more important as the incidence of myopia is rising sharply, and the incidence of young patients developing RRD is expected to follow the same trend.\n[26]",
+    "monitoring": "The assistants must be aware of the potential complications that can occur during the procedure. They should be able to identify the complication and get ready with the instrumentation necessary for further management. In particular, special attention should be paid to monitoring vitals during muscle handling and signs of scleral perforation while placing scleral sutures."
+  }
+}

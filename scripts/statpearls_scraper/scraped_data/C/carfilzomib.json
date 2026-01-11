@@ -1,0 +1,9 @@
+{
+  "drug_name": "carfilzomib",
+  "nbk_id": "NBK592405",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK592405/",
+  "scraped_at": "2026-01-11T15:25:14",
+  "sections": {
+    "toxicity": "Although newer anti-MM agents have significant benefits in treating RRMM, they are not free of adverse effects. Every drug has its unique adverse effect profile and needs to be considered while treating the patient for prompt identification and management. Sometimes the adverse effects are so severe that treatment must be changed or temporarily discontinued.\n[59]\nSome of the toxicities of medications being used are as follows:\n\nNeurotoxicity: CAR-T cell therapy\nOcular toxicity: belantamab mafodotin\nCardiotoxicity: carfilzomib, doxorubicin\nGastrointestinal toxicity: selinexor, lenalidomide\nNephrotoxicity: lenalidomide, zoledronic acid\nImmune impression: Auto-HCT, CAR-T cell therapy, dexamethasone\nMyelosuppression: daratumumab, carfilzomib, selinexor, CAR-T cell therapy\nPeripheral neuropathy: thalidomide, protease inhibitors\n\nDuring the course of treatment, patients are closely monitored for adverse effects and treated accordingly.\n\nIn addition to anti-myeloma drugs, supportive care plays a significant role in symptomatic relief for RRMM patients. Besides radiotherapy and surgery, bisphosphonates and denosumab are used to manage bone disease.\n[60]\n\nMM patients are at a much higher risk of infections than the general population due to impaired immune systems. Therefore, vaccinations are recommended along with prophylactic medications to prevent herpes zoster, pneumocystis, and other infections.\n[61]"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "drug_name": "travoprost",
+  "nbk_id": "NBK582156",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK582156/",
+  "scraped_at": "2026-01-11T15:40:28",
+  "sections": {
+    "indications": "MIGS is contraindicated in the following situations:\n\nActive neovascular glaucoma (NVG)\nPrimary angle-closure glaucoma (PACG) or secondary angle-closure glaucoma (SACG)\nCorneal opacity\nAngle dysgenesis\nElevated episcleral venous pressure, e.g., Sturge Weber syndrome, thyroid eye disease, retrobulbar tumors\n[18]",
+    "clinical_significance": "Minimally invasive glaucoma surgery has revolutionized glaucoma management over the past few years. It is a relatively new modality of glaucoma management that is gaining popularity as large numbers of surgeons are opting for it. The postoperative outcomes and patient satisfaction rate are good with these procedures.\n\nThe safety profile and efficacy are also good. MIGS has opened a new door for mild to moderate glaucoma management, reducing the medication burden on the patients. Recent studies have provided highly encouraging results, and more large-scale studies with long-term follow-up will be needed to give better insight and understanding of MIGS.\n[46]",
+    "monitoring": "The nursing, allied health, and interprofessional team also help monitor these patients with regular IOP monitoring, whenever needed with OCT (optical coherence tomography) and HFA (Humphrey field analyzer), and monitoring the regular follow-up of these patients."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "drug_name": "interferon",
+  "nbk_id": "NBK560585",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK560585/",
+  "scraped_at": "2026-01-11T15:31:33",
+  "sections": {
+    "clinical_significance": "Diagnostic tests for latent TB have played a role in the decreasing prevalence of the disease over time. In addition, the development of vaccines for the prevention of TB in endemic areas and effective treatments for active TB have also contributed to a reduction in the incidence. The IGRA test has several advantages over other testing methods for diagnosing latent TB, including a single patient encounter for sample collection, the possibility of obtaining results within 24 hours, its usefulness in patients with prior BCG vaccination, and results that are not subject to reader bias. However, if the patient is immunosuppressed, they may have an inadequate immune response, resulting in a false negative. IGRA tests are not appropriate for children younger than 5 for the same reason. Additionally, IGRA tests are not useful for monitoring treatment response.\n[2]\n[23]\n[24]"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "drug_name": "cefadroxil",
+  "nbk_id": "NBK560544",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK560544/",
+  "scraped_at": "2026-01-11T15:25:22",
+  "sections": {
+    "indications": "There are a number of contraindications to CO2 laser resurfacing. The presence of active acne lesions may result in infection or abnormal colonization following the procedure. Open wounds or active infection, particularly from herpes simplex virus, should also postpone the procedure until after resolution. Adnexal damage from autoimmune disease, burns, or irradiation can interfere with re-epithelialization, and patients with histories of these conditions may not be candidates for treatment with CO2 lasers. Furthermore, the recent use of oral isotretinoin within the previous 6 to 12 months may lead to delayed wound healing or undesirable scarring. Lastly, a history of diseases associated with kobnerization phenomenon, including vitiligo and psoriasis, are also contraindications for this therapy.",
+    "clinical_significance": "Carbon dioxide laser skin resurfacing is a technique effective for both cosmetic and medical applications. It is an excellent modality for treating and preventing wrinkles and skin laxity that occur with photoaging. It is also effective in the treatment and prevention of keratinocyte skin cancers.\n\nAppropriate patient selection and education are essential for successful outcomes with CO2 laser treatments. Patients with Fitzpatrick skin types I-II are most amenable to treatment with CO2 lasers; however, CO2 lasers may also be used for patients with skin types III-VI with careful adjustment of treatment parameters, particularly when a fractionated delivery system is employed.\n\nInfectious complications, including herpes simplex virus reactivation, and bacterial and fungal infections, can impair healing, and appropriate prophylaxis should be administered. Patients should be followed carefully after treatment to provide clinicians the opportunity to identify and promptly manage any complications that may arise."
+  }
+}

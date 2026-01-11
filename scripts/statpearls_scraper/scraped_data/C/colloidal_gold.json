@@ -1,0 +1,10 @@
+{
+  "drug_name": "colloidal gold",
+  "nbk_id": "NBK563213",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK563213/",
+  "scraped_at": "2026-01-11T15:27:11",
+  "sections": {
+    "indications": "Absolute contraindications to lymphoscintigraphy include but are not limited to clinically positive nodal disease. Relative contraindications to the procedure include allergies to radioisotopes or components of the radiotracer preparation, pregnancy, and significant alterations to normal anatomy, including those encountered after prior therapeutic interventions.",
+    "clinical_significance": "The identification of a sentinel lymph node in patients undergoing evaluation for breast cancer or melanoma has a critical role in guiding treatment strategies. A sentinel lymph node provides diagnostic information regarding the presence or absence of metastases and predicts the metastatic potential for the evaluated malignancy. The decision to employ surgical techniques that include more extensive interventions is also guided by the presence or absence of metastases in a sentinel lymph node (see\nImage.\nLymphoscintigraphy, Breast Cancer).\n\nThe morbidity associated with axillary lymph node dissection, namely lymphedema, has furthered the role of lymphoscintigraphy. The added advantage of histopathologic sectioning of a single lymph node and the ability to use staining in a more targeted manner can promote better detection of isolated tumor cells.\n[18]\nObservations on the limitations of lymph node dissection, its effect on overall survival, and the lack of survival benefit of lymphadenectomy following the identification of a positive sentinel lymph node underscore the need for effective lymphoscintigraphic methods.\n[19]\n[20]\n[21]\n\nSentinel lymph node identification and biopsy as a staging tool in intermediate-thickness melanoma has similarly precluded the need for lymph node dissection in patients for whom such a surgical intervention would yield little benefit (see\nImage.\nLymphoscintigraphy, Melanoma).\n[22]\nLymphadenectomy following positive sentinel lymph node identification in patients with melanoma offers little benefit.\n[23]"
+  }
+}
