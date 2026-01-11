@@ -52,4 +52,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "feat(data): update ncbi statpearls scraped data [skip ci]"
-          file_pattern: 'scripts/statpearls_scraper/scraped_data/*.json scripts/statpearls_scraper/scraped_data/**/*.json scripts/statpearls_scraper/targets.csv'
+          file_pattern: 'scripts/statpearls_scraper/'
+          skip_dirty_check: true
+          skip_fetch: true
+          skip_checkout: true
