@@ -1,0 +1,12 @@
+{
+  "drug_name": "hydroxyurea",
+  "nbk_id": "NBK537209",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK537209/",
+  "scraped_at": "2026-01-11T18:47:16",
+  "sections": {
+    "indications": "Hydroxyurea is an antineoplastic agent used alone or in combination with other chemotherapeutic drugs or radiation in the treatment of resistant leukemias and carcinomas of the head and neck. It is also useful to increase fetal hemoglobin concentration, thus reducing the frequency of severe crisis and reducing the necessity for blood transfusions in patients with sickle cell anemia.\n\nThey also use hydroxyurea off-label in the treatment of polycythemia vera, essential thrombocythemia, psoriasis, acute myeloid leukemia, meningioma, melanoma, and ovarian cancer.\n[1]\n[2]",
+    "mechanism": "Hydroxyurea is an extremely toxic drug with a low therapeutic index.\n\nSince hydroxyurea inhibits DNA synthesis, it can result in significant toxicity, including myelosuppression. Furthermore, inhibition of DNA synthesis without affecting RNA synthesis may result in red blood cells becoming megaloblastic.",
+    "monitoring": "As with most medicines, patients on hydroxyurea should have their electrolytes and renal function monitored, especially in patients with severe nausea, vomiting, and diarrhea. For those with myelosuppression, the practitioner should monitor signs of infection as well as CBC with differential count and platelet counts.",
+    "administration": "Treatment:\n\nPre-hospital GI decontamination is not recommended.\nActivated charcoal administration if an overdose is recent and patient, not vomiting, and able to maintain the airway.\nAirway management. Intubation in patients with severe respiratory symptoms.\n\nTreatment is symptomatic and supportive.\n\nIn patients with nausea and vomiting, treat with antiemetics, and administer intravenous fluids as needed.\n\nIn patients with myelosuppression, treat with colony-stimulating factors in patients with neutropenia, platelets transfusion in patients with severe thrombocytopenia, and packed red blood cell transfusion in patients with anemia.\n\nIn patients with seizures, treat with antiepileptics.\n\nMild mucositis treatment is with bland oral rinses like 0.9 % normal saline, sodium bicarbonate, and water. In moderate cases with pain, a local anesthetic is added. Treatment for moderate to severe mucositis is with local anesthetic and systemic analgesics. Oral antimicrobial mouthwashes can help to decrease the risk of infection."
+  }
+}

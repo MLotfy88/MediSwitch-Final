@@ -1,0 +1,10 @@
+{
+  "drug_name": "retapamulin",
+  "nbk_id": "NBK568809",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK568809/",
+  "scraped_at": "2026-01-11T18:47:51",
+  "sections": {
+    "indications": "Impetigo is a common infection of the superficial layers of the epidermis that is highly contagious and most commonly caused by gram-positive bacteria. It most commonly presents as erythematous plaques with a yellow crust and may be itchy or painful.  The lesions are highly contagious and spread easily. Diagnosis is typically based on the symptoms and clinical manifestations alone. Treatment involves topical and oral antibiotics and symptomatic care.\n[1]\n[2]\n[3]",
+    "monitoring": "History and physical exam are essential to the diagnosis of impetigo.  Bacterial cultures can be used for confirmation of diagnosis and should be obtained if methicillin-resistant\nstaph aureus\n(MRSA) is suspected or if an impetigo outbreak is present.  A skin biopsy may be considered if the case is refractory.\n\nThe anti-streptolysin O (ASO) response is weak from impetigo alone. Therefore, serologic testing for streptococcal antibodies is not indicated for the diagnosis of impetigo. However, it may be useful if poststreptococcal glomerulonephritis is suspected in a patient with a recent impetigo outbreak.\n\nHuman immunodeficiency virus (HIV) testing should be considered when a previously healthy adult develops bullous impetigo."
+  }
+}
