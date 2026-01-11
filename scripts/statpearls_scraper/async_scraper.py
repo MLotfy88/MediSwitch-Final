@@ -39,13 +39,16 @@ async def fetch_url(session, url, retries=3):
             # Random delay for politeness
             await asyncio.sleep(random.uniform(*DELAY_RANGE))
             
-            async with session.get(url, timeout=30) as response:
+            async with session.get(url, timeout=60) as response:
                 if response.status == 200:
                     return await response.text()
                 elif response.status == 429:
                     wait = 2 ** attempt * 5
                     print(f"⚠️ 429 Too Many Requests. Waiting {wait}s...")
                     await asyncio.sleep(wait)
+                elif response.status == 404:
+                    print(f"❌ 404 Not Found: {url}")
+                    return None # No retry for 404
                 else:
                     print(f"⚠️ Status {response.status} for {url}")
         except Exception as e:
@@ -55,16 +58,20 @@ async def fetch_url(session, url, retries=3):
     return None
 
 def parse_html(html, drug_name, nbk_id, url):
-    """Parse StatPearls HTML structure"""
+    """Parse StatPearls HTML structure with improved flexibility"""
     soup = BeautifulSoup(html, 'html.parser')
     
-    # Locate main content
+    # Locate main content - Try multiple selectors
     content_div = soup.find('div', {'id': 'article-details'}) or \
                   soup.find('div', class_='content') or \
-                  soup.find('article')
+                  soup.find('article') or \
+                  soup.find('div', class_='book-content') # Added selector
                   
     if not content_div:
-        return None
+        # Last resort: try extracting from body if specific div not found
+        content_div = soup.body
+        if not content_div:
+            return None
         
     drug_data = {
         "drug_name": drug_name,
@@ -85,8 +92,11 @@ def parse_html(html, drug_name, nbk_id, url):
         "Clinical Significance": "clinical_significance"
     }
     
-    for h2 in content_div.find_all('h2'):
-        title = h2.get_text(strip=True)
+    # Analyze Headers (h2, h3, h4) since structure varies
+    headers = content_div.find_all(['h2', 'h3', 'h4'])
+    
+    for header in headers:
+        title = header.get_text(strip=True)
         key = None
         
         for k, v in target_sections.items():
@@ -94,11 +104,12 @@ def parse_html(html, drug_name, nbk_id, url):
                 key = v
                 break
         
-        if key:
+        if key and key not in drug_data["sections"]: # Don't overwrite higher level headers
             content = []
-            for sibling in h2.find_next_siblings():
-                if sibling.name == 'h2':
-                    break
+            for sibling in header.find_next_siblings():
+                if sibling.name in ['h2', 'h3', 'h4'] and sibling.name <= header.name:
+                    break # Stop at next header of same or higher level
+                
                 if sibling.name in ['p', 'ul', 'ol', 'div']:
                     text = sibling.get_text(separator='\n', strip=True)
                     if text:
