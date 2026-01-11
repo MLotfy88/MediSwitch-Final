@@ -60,7 +60,9 @@ def get_all_ingredients():
     WHERE ingredient IS NOT NULL 
       AND ingredient != ''
       AND LENGTH(ingredient) >= 4
-      AND ingredient GLOB '[A-Z]*'
+      
+      -- Must start with a letter (case-insensitive)
+      AND (ingredient GLOB '[A-Z]*' OR ingredient GLOB '[a-z]*')
       
       -- Exclude supplements & cosmetics
       AND LOWER(ingredient) NOT LIKE '%protein%'
@@ -85,7 +87,7 @@ def get_all_ingredients():
       -- Max 3 words (descriptions usually longer)
       AND LENGTH(ingredient) - LENGTH(REPLACE(ingredient, ' ', '')) <= 2
       
-      -- Exclude dose-specific entries
+      -- Exclude dose-specific entries  
       AND ingredient NOT LIKE '%mg%'
       AND ingredient NOT LIKE '%mcg%'
       AND ingredient NOT LIKE '%gm%'
