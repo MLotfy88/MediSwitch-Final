@@ -183,6 +183,11 @@ async def main():
         next(reader, None) # header
         for row in reader:
             if len(row) >= 3:
+                ingredient, nbk_id, url = row[:3]
+                if nbk_id == "NO_MATCH" or not url:
+                    stats['skipped'] += 1
+                    continue
+                    
                 queue.put_nowait(row)
                 total += 1
                 
