@@ -43,6 +43,7 @@ jobs:
           PYTHONUNBUFFERED: 1
 
       - name: Commit Scraped Data
+        if: always() # Ensure we save progress even if timeout/cancelled
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "feat(data): update ncbi statpearls scraped data [skip ci]"

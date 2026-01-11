@@ -195,6 +195,9 @@ def main():
                 f.flush()
                 print(f"✅ {nbk}")
             else:
+                # Record as processed but no match to avoid re-searching
+                writer.writerow([ing, "NO_MATCH", ""])
+                f.flush()
                 print("❌ No match")
             
             # Progress report every 10
