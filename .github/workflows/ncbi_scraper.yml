@@ -8,7 +8,7 @@ on:
 jobs:
   scrape-ncbi:
     runs-on: ubuntu-latest
-    timeout-minutes: 300 # 5 hours
+    timeout-minutes: 480 # 8 hours (increased from 5)
     permissions:
       contents: write
 
@@ -35,7 +35,7 @@ jobs:
       - name: Generate Targets (Continue Discovery)
         run: |
           echo "Running target generator (resumes automatically)..."
-          timeout 240m python3 scripts/statpearls_scraper/generate_targets.py || echo "Generator completed or timeout"
+          timeout 360m python3 scripts/statpearls_scraper/generate_targets.py || echo "Generator completed or timeout"
 
       - name: Run Async Scraper
         run: python3 scripts/statpearls_scraper/async_scraper.py
