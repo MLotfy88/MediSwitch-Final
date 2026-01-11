@@ -32,10 +32,10 @@ jobs:
           cat assets/database/parts/mediswitch.db.part-* > assets/database/mediswitch.db
           ls -lh assets/database/mediswitch.db
 
-      - name: Generate Targets (Continue Discovery)
+      - name: Generate Targets (FAST ASYNC MODE)
         run: |
-          echo "Running target generator (resumes automatically)..."
-          timeout 360m python3 scripts/statpearls_scraper/generate_targets.py || echo "Generator completed or timeout"
+          echo "Running fast async target generator (3-10 req/sec)..."
+          timeout 360m python3 scripts/statpearls_scraper/generate_targets_async.py || echo "Generator completed or timeout"
 
       - name: Run Async Scraper
         run: python3 scripts/statpearls_scraper/async_scraper.py
