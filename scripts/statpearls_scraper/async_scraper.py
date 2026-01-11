@@ -83,11 +83,24 @@ def parse_html(html, drug_name, nbk_id, url):
     
     target_sections = {
         "Indications": "indications",
+        "Introduction": "indications", # Fallback for non-standard articles
+        
         "Administration": "administration",
+        "Treatment / Management": "administration", # Fallback
+        
         "Adverse Effects": "adverse_effects",
+        "Side Effects": "adverse_effects", # Fallback
+        "Complications": "adverse_effects", # Fallback for procedures
+        
         "Contraindications": "contraindications",
+        
         "Monitoring": "monitoring",
+        "Evaluation": "monitoring", # Fallback
+        
         "Mechanism of Action": "mechanism",
+        "Pathophysiology": "mechanism", # Fallback for disease-like articles
+        "Etiology": "mechanism", # Fallback
+        
         "Toxicity": "toxicity",
         "Clinical Significance": "clinical_significance"
     }
