@@ -28,20 +28,14 @@ jobs:
 
       - name: Reconstruct Database (for Target Gen)
         run: |
-          # The database is split in parts, we need to join them to read ingredients
-          if [ -f "scripts/statpearls_scraper/targets.csv" ]; then
-             echo "Targets file exists. Skipping DB reconstruction."
-          else
-             echo "Targets file missing. Reconstructing DB..."
-             cat assets/database/parts/mediswitch.db.part-* > assets/database/mediswitch.db
-             ls -lh assets/database/mediswitch.db
-          fi
+          echo "Reconstructing DB for ingredient list..."
+          cat assets/database/parts/mediswitch.db.part-* > assets/database/mediswitch.db
+          ls -lh assets/database/mediswitch.db
 
-      - name: Generate Targets (if missing)
+      - name: Generate Targets (Continue Discovery)
         run: |
-          if [ ! -f "scripts/statpearls_scraper/targets.csv" ]; then
-            python3 scripts/statpearls_scraper/generate_targets.py
-          fi
+          echo "Running target generator (resumes automatically)..."
+          timeout 240m python3 scripts/statpearls_scraper/generate_targets.py || echo "Generator completed or timeout"
 
       - name: Run Async Scraper
         run: python3 scripts/statpearls_scraper/async_scraper.py
