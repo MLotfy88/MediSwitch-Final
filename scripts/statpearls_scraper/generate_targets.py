@@ -27,26 +27,56 @@ def clean_name(ingredient):
     return re.sub(r'\(.*?\)', '', ingredient).strip()
 
 def get_all_ingredients():
-    """Fetch all quality ingredients from DB"""
+    """Fetch all PHARMACEUTICAL ingredients (enhanced filtering for 85%+ success)"""
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
-    cursor.execute("SELECT DISTINCT ingredient FROM med_ingredients WHERE ingredient IS NOT NULL AND ingredient != ''")
-    raw = [row[0] for row in cursor.fetchall()]
+    
+    # Enhanced filter: Focus on real pharmaceutical drugs only
+    query = """
+    SELECT DISTINCT ingredient 
+    FROM med_ingredients 
+    WHERE ingredient IS NOT NULL 
+      AND ingredient != ''
+      AND LENGTH(ingredient) >= 4
+      AND ingredient GLOB '[A-Z]*'
+      
+      -- Exclude supplements & cosmetics
+      AND LOWER(ingredient) NOT LIKE '%protein%'
+      AND LOWER(ingredient) NOT LIKE '%flavor%'
+      AND LOWER(ingredient) NOT LIKE '%extract%'
+      AND LOWER(ingredient) NOT LIKE '%oil%'
+      AND LOWER(ingredient) NOT LIKE '%wax%'
+      AND LOWER(ingredient) NOT LIKE '%powder%'
+      AND LOWER(ingredient) NOT LIKE '%cream%'
+      AND LOWER(ingredient) NOT LIKE '%lotion%'
+      AND LOWER(ingredient) NOT LIKE '%gel%'
+      
+      -- Exclude malformed entries
+      AND ingredient NOT LIKE '%(%'
+      AND ingredient NOT LIKE '%)%'
+      
+      -- Exclude herbs
+      AND LOWER(ingredient) NOT LIKE '%tribulus%'
+      AND LOWER(ingredient) NOT LIKE '%claw%'
+      AND LOWER(ingredient) NOT LIKE '%leaves%'
+      
+      -- Max 3 words (descriptions usually longer)
+      AND LENGTH(ingredient) - LENGTH(REPLACE(ingredient, ' ', '')) <= 2
+      
+      -- Exclude dose-specific entries
+      AND ingredient NOT LIKE '%mg%'
+      AND ingredient NOT LIKE '%mcg%'
+      AND ingredient NOT LIKE '%gm%'
+      AND ingredient NOT LIKE '% ml%'
+    """
+    
+    cursor.execute(query)
+    ingredients = [row[0] for row in cursor.fetchall()]
     conn.close()
     
-    # Quality filter
-    quality = []
-    for ing in raw:
-        cleaned = clean_name(ing)
-        if cleaned and len(cleaned) >= 3 and cleaned[0].isalpha():
-            # At least 70% letters
-            letters = sum(c.isalpha() for c in cleaned)
-            if letters / len(cleaned) > 0.7:
-                quality.append(ing)
-    
-    quality.sort(key=lambda x: clean_name(x).lower())
-    print(f"📊 Total: {len(raw)} | Quality: {len(quality)}")
-    return quality
+    ingredients.sort(key=lambda x: clean_name(x).lower())
+    print(f"📊 Total pharma drugs (filtered): {len(ingredients)}")
+    return ingredients
 
 def search_ncbi(ingredient):
     """Multi-strategy NCBI search"""
