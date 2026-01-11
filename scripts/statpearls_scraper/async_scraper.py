@@ -175,6 +175,8 @@ async def main():
         
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     
+    stats = {'success': 0, 'failed': 0, 'empty': 0, 'skipped': 0}
+    
     # Load targets
     queue = asyncio.Queue()
     total = 0
@@ -192,8 +194,6 @@ async def main():
                 total += 1
                 
     print(f"🚀 Loaded {total} targets")
-    
-    stats = {'success': 0, 'failed': 0, 'empty': 0, 'skipped': 0}
     
     async with aiohttp.ClientSession(headers=HEADERS) as session:
         workers = [
