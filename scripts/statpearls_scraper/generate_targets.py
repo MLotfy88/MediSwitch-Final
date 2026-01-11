@@ -1,155 +1,151 @@
 #!/usr/bin/env python3
 """
-NCBI Target Generator
-Maps local ingredients (from SQLite) to NCBI StatPearls Books via E-Utilities API.
-Generates a targets.csv file for the scraper.
+NCBI StatPearls Target Generator - Production Version  
+Maps med_ingredients to NCBI Book IDs (NBK...)
+OPTIMIZED FOR HIGH SUCCESS RATE
 """
-
 import sqlite3
 import requests
 import csv
 import time
-import os
+import re
 from pathlib import Path
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# Configuration
+# Config
 DB_PATH = Path(__file__).parents[2] / "assets/database/mediswitch.db"
 OUTPUT_FILE = Path(__file__).parent / "targets.csv"
-CACHE_FILE = Path(__file__).parent / "targets_cache.json"
-
-# NCBI E-Utilities
+USER_AGENT = "MediSwitch Research Bot (admin@mediswitch.com)"
 ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
-API_KEY = "" # Optional: Add API key if available for higher rate limits
-USER_AGENT = "MediSwitch ETL Bot (admin@mediswitch.com)"
+ESUMMARY_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
 
-def get_db_ingredients():
-    """Fetch distinct ingredients from local DB"""
-    print(f"📂 Connecting to database: {DB_PATH}")
-    if not DB_PATH.exists():
-        raise FileNotFoundError(f"Database not found at {DB_PATH}")
-        
+session = requests.Session()
+session.headers.update({"User-Agent": USER_AGENT})
+
+def clean_name(ingredient):
+    """Remove parentheses and trim"""
+    if not ingredient: return ""
+    return re.sub(r'\(.*?\)', '', ingredient).strip()
+
+def get_all_ingredients():
+    """Fetch all quality ingredients from DB"""
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT DISTINCT ingredient FROM med_ingredients WHERE ingredient IS NOT NULL AND ingredient != ''")
-    ingredients = [row[0] for row in cursor.fetchall()]
+    raw = [row[0] for row in cursor.fetchall()]
     conn.close()
-    print(f"✅ Found {len(ingredients)} unique ingredients.")
-    return ingredients
+    
+    # Quality filter
+    quality = []
+    for ing in raw:
+        cleaned = clean_name(ing)
+        if cleaned and len(cleaned) >= 3 and cleaned[0].isalpha():
+            # At least 70% letters
+            letters = sum(c.isalpha() for c in cleaned)
+            if letters / len(cleaned) > 0.7:
+                quality.append(ing)
+    
+    quality.sort(key=lambda x: clean_name(x).lower())
+    print(f"📊 Total: {len(raw)} | Quality: {len(quality)}")
+    return quality
 
 def search_ncbi(ingredient):
-    """Search NCBI Bookshelf for StatPearls book matching the ingredient"""
-    query = f"StatPearls [Book] AND {ingredient} [Title]"
-    params = {
-        "db": "books",
-        "term": query,
-        "retmode": "json",
-    }
+    """Multi-strategy NCBI search"""
+    cleaned = clean_name(ingredient)
     
-    try:
-        # Rate limit (3 requests/sec without API key)
-        time.sleep(0.34) 
-        
-        response = requests.get(ESEARCH_URL, params=params, headers={"User-Agent": USER_AGENT}, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        
-        id_list = data.get("esearchresult", {}).get("idlist", [])
-        
-        if id_list:
-            # Return the first match. In a more complex version, we might fetch summaries
-            # to verify exact title match, but usually top result for specific query is good.
-            # However, ESearch gives UIDs (numbers). We need the NBK ID (e.g., NBK5678).
-            # We can't get NBK ID directly from ESearch JSON easily without ESummary.
-            # Actually, let's try a different approach: ESummary on the ID.
+    # Try Title first (most accurate), then All Fields
+    strategies = [
+        f"StatPearls[Book] AND {cleaned}[Title]",
+        f"StatPearls[Book] AND {cleaned}[All Fields]"
+    ]
+    
+    for query in strategies:
+        try:
+            time.sleep(1.5)  # Conservative delay
+            res = session.get(ESEARCH_URL, params={"db": "books", "term": query, "retmode": "json"}, timeout=10)
             
-            uid = id_list[0]
-            return fetch_nbk_id(uid)
+            if res.status_code == 429:
+                print(f"⚠️ Rate Limit! Waiting 60s...")
+                time.sleep(60)
+                return search_ncbi(ingredient)  # Retry once
             
-        return None
-        
-    except Exception as e:
-        print(f"❌ Error searching {ingredient}: {e}")
-        return None
+            if res.status_code != 200:
+                continue
+                
+            data = res.json()
+            ids = data.get("esearchresult", {}).get("idlist", [])
+            
+            if ids:
+                # Try top 3 results
+                for uid in ids[:3]:
+                    nbk = fetch_nbk_id(uid)
+                    if nbk:
+                        return nbk
+        except Exception as e:
+            print(f"  ⚠️ Error: {e}")
+            continue
+    
+    return None
 
 def fetch_nbk_id(uid):
-    """Fetch Summary to get the visible NBK ID (Book Accession ID)"""
-    ESUMMARY_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
-    params = {
-        "db": "books",
-        "id": uid,
-        "retmode": "json"
-    }
-    
+    """Extract NBK ID from UID"""
     try:
-        response = requests.get(ESUMMARY_URL, params=params, headers={"User-Agent": USER_AGENT}, timeout=10)
-        data = response.json()
+        time.sleep(1)
+        res = session.get(ESUMMARY_URL, params={"db": "books", "id": uid, "retmode": "json"}, timeout=10)
+        if res.status_code == 429:
+            time.sleep(60)
+            return fetch_nbk_id(uid)
+        
+        if res.status_code != 200:
+            return None
+            
+        data = res.json()
         result = data.get("result", {}).get(uid, {})
+        nbk = result.get("chapteraccessionid") or result.get("rid") or result.get("accession")
         
-        # Accession ID is usually the book ID like NBK...
-        accession = result.get("accession") # This might be the book ID or article ID
-        # StatPearls chapters often have IDs starting with NBK
-        
-        # Let's check 'bookaccession' or similar fields if 'accession' isn't right.
-        # But commonly 'accession' or 'uids' list contains it.
-        # Actually, for books db, the article ID (NBK...) is often the accession.
-        
-        if accession:
-            return accession
-        return None
-        
-    except Exception as e:
-        print(f"❌ Error fetching summary for {uid}: {e}")
-        return None
+        if nbk and nbk.startswith("NBK"):
+            return nbk
+    except Exception:
+        pass
+    return None
 
-def process_batch(ingredients, max_workers=5):
-    """Process ingredients in parallel (careful with rate limits)"""
-    results = []
+def main():
+    ingredients = get_all_ingredients()
     
-    print(f"🚀 Starting NCBI mapping for {len(ingredients)} ingredients...")
-    
-    # Check for existing results to resume
-    existing_map = {}
+    # Load existing
+    existing = set()
     if OUTPUT_FILE.exists():
         with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
             reader = csv.reader(f)
-            next(reader, None) # header
+            next(reader, None)  # skip header
             for row in reader:
-                if len(row) >= 2:
-                    existing_map[row[0]] = row[1]
+                if row: existing.add(row[0])
     
-    print(f"⏭️  Skipping {len(existing_map)} already mapped ingredients.")
+    remaining = [i for i in ingredients if i not in existing]
+    print(f"✅ Already mapped: {len(existing)}")
+    print(f"🔍 Remaining: {len(remaining)}")
+    print(f"⏱️  Estimated time: ~{len(remaining) * 3 / 60:.1f} minutes\n")
     
-    to_process = [i for i in ingredients if i not in existing_map]
-    
-    # We will use a sequential loop for now to strict adherence to rate limits
-    # Multi-threading E-Utils without API key is risky (IP ban).
-    # "Up to 3 requests per second" -> 0.34s delay per request.
-    
-    count = 0
+    # Process
     with open(OUTPUT_FILE, 'a', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         if OUTPUT_FILE.stat().st_size == 0:
             writer.writerow(["ingredient", "nbk_id", "url"])
+        
+        for idx, ing in enumerate(remaining, 1):
+            print(f"[{idx}/{len(remaining)}] {ing}...", end=" ")
+            nbk = search_ncbi(ing)
             
-        for ingredient in to_process:
-            nbk_id = search_ncbi(ingredient)
-            if nbk_id:
-                url = f"https://www.ncbi.nlm.nih.gov/books/{nbk_id}/"
-                print(f"✅ Mapped: {ingredient} -> {nbk_id}")
-                writer.writerow([ingredient, nbk_id, url])
-                f.flush() # Ensure it's written
+            if nbk:
+                url = f"https://www.ncbi.nlm.nih.gov/books/{nbk}/"
+                writer.writerow([ing, nbk, url])
+                f.flush()
+                print(f"✅ {nbk}")
             else:
-                print(f"⚠️  No match: {ingredient}")
-                # We could write a "null" record to avoid re-searching?
-                # For now let's just log it.
+                print("❌ No match")
             
-            count += 1
-            if count % 10 == 0:
-                print(f"📊 Progress: {count}/{len(to_process)}")
-
-    print("🏁 Mapping complete.")
+            # Progress report every 10
+            if idx % 10 == 0:
+                print(f"\n📊 Progress: {idx}/{len(remaining)} ({idx/len(remaining)*100:.1f}%)\n")
 
 if __name__ == "__main__":
-    ingredients = get_db_ingredients()
-    process_batch(ingredients)
+    main()
