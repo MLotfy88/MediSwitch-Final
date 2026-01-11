@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-NCBI StatPearls Target Generator - Production Version  
+NCBI StatPearls Target Generator - Production Version with Name Normalization
 Maps med_ingredients to NCBI Book IDs (NBK...)
-OPTIMIZED FOR HIGH SUCCESS RATE
+OPTIMIZED FOR HIGH SUCCESS RATE with intelligent name correction
 """
 import sqlite3
 import requests
@@ -10,6 +10,9 @@ import csv
 import time
 import re
 from pathlib import Path
+
+# Import name normalization
+from drug_name_corrections import normalize_drug_name, PRECOMPUTED_CORRECTIONS
 
 # Config
 DB_PATH = Path(__file__).parents[2] / "assets/database/mediswitch.db"
@@ -22,9 +25,28 @@ session = requests.Session()
 session.headers.update({"User-Agent": USER_AGENT})
 
 def clean_name(ingredient):
-    """Remove parentheses and trim"""
-    if not ingredient: return ""
-    return re.sub(r'\(.*?\)', '', ingredient).strip()
+    """
+    Smart name cleaning with normalization
+    1. Check precomputed corrections first (fast)
+    2. Apply normalize_drug_name (handles doses, spelling, etc.)
+    3. Remove parentheses
+    """
+    if not ingredient: 
+        return ""
+    
+    lower = ingredient.lower().strip()
+    
+    # Fast path: precomputed corrections
+    if lower in PRECOMPUTED_CORRECTIONS:
+        return PRECOMPUTED_CORRECTIONS[lower]
+    
+    # Apply full normalization
+    normalized = normalize_drug_name(ingredient)
+    
+    # Final cleanup: remove any remaining parentheses
+    normalized = re.sub(r'\(.*?\)', '', normalized).strip()
+    
+    return normalized
 
 def get_all_ingredients():
     """Fetch all PHARMACEUTICAL ingredients (enhanced filtering for 85%+ success)"""
