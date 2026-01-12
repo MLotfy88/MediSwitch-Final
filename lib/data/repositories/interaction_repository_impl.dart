@@ -235,11 +235,14 @@ class InteractionRepositoryImpl implements InteractionRepository {
         // Dynamic Save: Ensure table exists or handle error silently
         try {
           await localDataSource.saveDosageGuidelines(remoteData);
+          _logger.i('[InteractionRepo] Dosage cached successfully.');
         } catch (e) {
           _logger.w('[InteractionRepo] Failed to cache dosages: $e');
         }
 
         return remoteData.map((e) => DosageGuidelinesModel.fromMap(e)).toList();
+      } else {
+        _logger.w('[InteractionRepo] API returned empty dosage list.');
       }
     } catch (e) {
       _logger.w(
