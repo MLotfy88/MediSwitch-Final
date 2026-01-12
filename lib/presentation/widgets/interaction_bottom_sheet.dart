@@ -366,8 +366,11 @@ class InteractionBottomSheet extends StatelessWidget {
 
     if (recommendation != null && recommendation.trim().isNotEmpty) {
       management = recommendation;
-      // Append management_text if different
-      if (managementText.isNotEmpty && managementText != recommendation) {
+      // Append management_text only if it's different AND not already contained
+      if (managementText.isNotEmpty &&
+          managementText.trim() != recommendation.trim() &&
+          !recommendation.contains(managementText.trim()) &&
+          !managementText.contains(recommendation.trim())) {
         management = '$management\n\n$managementText';
       }
     } else if (managementText.isNotEmpty) {
@@ -382,8 +385,9 @@ class InteractionBottomSheet extends StatelessWidget {
         effect = extracted.mainText;
         if (management.isEmpty) {
           management = extracted.recommendation;
-        } else if (!management.contains(extracted.recommendation)) {
-          // Only append if not already present
+        } else if (!management.contains(extracted.recommendation) &&
+            !extracted.recommendation.contains(management)) {
+          // Only append if they don't overlap
           management = '$management\n\n${extracted.recommendation}';
         }
       }
