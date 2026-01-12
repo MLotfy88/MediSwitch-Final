@@ -232,9 +232,45 @@ class InteractionRepositoryImpl implements InteractionRepository {
           .timeout(const Duration(seconds: 5)); // Short timeout for UX
 
       if (remoteData.isNotEmpty) {
+        // Map API keys to Local DB columns
+        final validForLocal =
+            remoteData.map((apiItem) {
+              // Flatten/Normalize the map for SQLite
+              return {
+                'id': apiItem['id'],
+                'med_id': apiItem['med_id'],
+                'min_dose': apiItem['wikem_min_dose'] ?? apiItem['min_dose'],
+                'max_dose': apiItem['wikem_max_dose'] ?? apiItem['max_dose'],
+                'dose_unit': apiItem['wikem_dose_unit'] ?? apiItem['dose_unit'],
+                'frequency': apiItem['wikem_frequency'] ?? apiItem['frequency'],
+                'duration': apiItem['duration'],
+                'instructions':
+                    apiItem['wikem_instructions'] ?? apiItem['instructions'],
+                'condition':
+                    apiItem['wikem_patient_category'] ?? apiItem['condition'],
+                'source': apiItem['source'] ?? 'API',
+                'is_pediatric':
+                    (apiItem['wikem_patient_category'] == 'pediatric') ? 1 : 0,
+                'route': apiItem['wikem_route'] ?? apiItem['route'],
+                // Store raw blobs if needed for structured parsing later
+                // 'structured_dosage': apiItem['wikem_json_blob'],
+
+                // Rich fields mapping
+                'ncbi_indications': apiItem['ncbi_indications'],
+                'ncbi_administration': apiItem['ncbi_administration'],
+                'ncbi_monitoring': apiItem['ncbi_monitoring'],
+                'ncbi_mechanism': apiItem['ncbi_mechanism'],
+                'black_box_warning':
+                    apiItem['ncbi_contraindications'], // Mapping example, verifying specific keys needed
+
+                // Note: The log showed 'ncbi_contraindications' in INSERT. verify model.
+                'updated_at': DateTime.now().millisecondsSinceEpoch,
+              };
+            }).toList();
+
         // Dynamic Save: Ensure table exists or handle error silently
         try {
-          await localDataSource.saveDosageGuidelines(remoteData);
+          await localDataSource.saveDosageGuidelines(validForLocal);
           _logger.i('[InteractionRepo] Dosage cached successfully.');
         } catch (e) {
           _logger.w('[InteractionRepo] Failed to cache dosages: $e');
