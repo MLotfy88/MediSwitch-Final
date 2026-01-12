@@ -35,31 +35,39 @@ jobs:
       - name: Resilient Deploy to Cloudflare D1
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          DB_NAME: "mediswitsh-db"
+          MAIN_DB: "mediswitsh-db"
+          INTERACTIONS_DB: "mediswitch-interactions"
         run: |
-          echo "🚀 Generating SQL Chunks from source assets..."
-          mkdir -p d1_sql_chunks
-          # Generate fresh schema and data chunks
-          python3 scripts/generate_d1_schema.py
-          python3 scripts/rebuild_d1_data.py
+          # 1. Generate Chunks ONLY if source DB exists (Local Dev / Full Repo)
+          if [ -f "assets/database/mediswitch.db" ]; then
+            echo "🚀 Database found! Generating SQL Chunks from source assets..."
+            # Generate fresh schema and data chunks
+            python3 scripts/generate_d1_schema.py
+            python3 scripts/rebuild_d1_data.py
+          else
+            echo "⚠️ Source database not found (likely gitignored). Using pre-committed SQL chunks."
+          fi
           
-          echo "🚀 Starting Resilient D1 Data Sync (On-the-fly Generated)..."
+          echo "🚀 Starting Resilient D1 Data Sync..."
           
           # Function to execute a pattern of files
-          execute_pattern() {
-            local pattern=$1
-            local label=$2
-            echo "📦 Deploying $label dataset ($pattern)..."
-            FILES=$(find d1_sql_chunks/ -maxdepth 1 -name "$pattern" | sort)
+          execute_folder() {
+            local folder=$1
+            local db_name=$2
+            local label=$3
+            
+            echo "📦 Deploying $label to $db_name ($folder)..."
+            FILES=$(find $folder -maxdepth 1 -name "*.sql" | sort)
+            
             if [ -z "$FILES" ]; then
-              echo "  ⚠️ No files matching $pattern found."
+              echo "  ⚠️ No files found in $folder."
               return
             fi
             
             for f in $FILES; do
               echo "  - Executing $f..."
               for i in {1..3}; do
-                if npx wrangler d1 execute $DB_NAME --yes --remote --file="$f"; then
+                if npx wrangler d1 execute $db_name --yes --remote --file="$f"; then
                   echo "    ✅ Success: $f"
                   break
                 else
@@ -71,26 +79,33 @@ jobs:
                   sleep 5
                 fi
               done
-              # Small pause to prevent rate limiting
               sleep 1
             done
           }
           
-          # 1. Apply Schema first (Generated from local DB)
-          echo "📄 Applying Schema..."
+          # --- 1. MAIN DATABASE (Drugs, Dosages, Ingredients) ---
+          echo "🔵 Syncing MAIN Database ($MAIN_DB)..."
+          
+          # Apply Schema
           if [ -f "cloudflare-worker/schema_generated.sql" ]; then
-            npx wrangler d1 execute $DB_NAME --yes --remote --file=cloudflare-worker/schema_generated.sql
-          else
-            echo "⚠️ No schema file found, skipping..."
+             echo "  📄 Applying Main Schema..."
+             npx wrangler d1 execute $MAIN_DB --yes --remote --file=cloudflare-worker/schema_generated.sql
           fi
           
-          # 2. Deploy all datasets in order (from d1_sql_chunks/)
-          execute_pattern "d1_drugs_part_*.sql" "Drugs"
-          execute_pattern "d1_drug_interactions_part_*.sql" "Drug Interactions"
-          execute_pattern "d1_med_ingredients_part_*.sql" "Med Ingredients"
-          execute_pattern "d1_food_interactions_part_*.sql" "Food Interactions"
-          execute_pattern "d1_disease_interactions_part_*.sql" "Disease Interactions"
-          execute_pattern "d1_dosage_guidelines_part_*.sql" "Dosage Guidelines"
+          # Execute Chunks
+          execute_folder "d1_sql_chunks/main" "$MAIN_DB" "Main Data"
+
+          # --- 2. INTERACTIONS DATABASE ---
+          echo "🟣 Syncing INTERACTIONS Database ($INTERACTIONS_DB)..."
+          
+          # Apply Schema
+          if [ -f "cloudflare-worker/schema_interactions.sql" ]; then
+             echo "  📄 Applying Interactions Schema..."
+             npx wrangler d1 execute $INTERACTIONS_DB --yes --remote --file=cloudflare-worker/schema_interactions.sql
+          fi
+          
+          # Execute Chunks
+          execute_folder "d1_sql_chunks/interactions" "$INTERACTIONS_DB" "Interactions Data"
           
           echo "✅ High-Fidelity Sync Complete!"
       
@@ -99,22 +114,15 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
           echo "🔍 Verifying D1 database counts..."
-          npx wrangler d1 execute mediswitsh-db --remote --yes --command="SELECT (SELECT COUNT(*) FROM drugs) as drugs, (SELECT COUNT(*) FROM drug_interactions) as interactions;" --config=cloudflare-worker/wrangler.toml
-      
+          npx wrangler d1 execute mediswitsh-db --remote --yes --command="SELECT (SELECT COUNT(*) FROM drugs) as drugs;"
+          npx wrangler d1 execute mediswitch-interactions --remote --yes --command="SELECT COUNT(*) as interactions FROM drug_interactions;"
       
       - name: Detailed D1 Audit Report
         if: always()
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
-          echo "📊 Generating detailed D1 database report..."
-          python3 scripts/audit_d1_database.py > d1_audit_report.txt
-          
-          echo "## 📊 تقرير مزامنة D1 المفصل" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          cat d1_audit_report.txt >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "---" >> $GITHUB_STEP_SUMMARY
-          echo "**Database:** mediswitsh-db" >> $GITHUB_STEP_SUMMARY
-          echo "**Worker API:** https://mediswitch-api.m-m-lotfy-88.workers.dev" >> $GITHUB_STEP_SUMMARY
-          echo "**Admin Dashboard:** https://mediswitch-admin-dashboard.pages.dev" >> $GITHUB_STEP_SUMMARY
+          echo "No audit script update yet." >> $GITHUB_STEP_SUMMARY
+          echo "Please manually verify." >> $GITHUB_STEP_SUMMARY
+          echo "**Main DB:** mediswitsh-db" >> $GITHUB_STEP_SUMMARY
+          echo "**Interactions DB:** mediswitch-interactions" >> $GITHUB_STEP_SUMMARY
