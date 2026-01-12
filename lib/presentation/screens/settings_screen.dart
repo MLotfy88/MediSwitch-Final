@@ -9,6 +9,7 @@ import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../bloc/medicine_provider.dart';
 import '../bloc/settings_provider.dart';
+import '../pages/specialty_download_screen.dart';
 import '../widgets/settings_list_tile.dart';
 import 'admin/dashboard_screen.dart';
 import 'debug/log_viewer_screen.dart';
@@ -351,6 +352,26 @@ class SettingsScreen extends StatelessWidget {
                         value: settingsProvider.offlineModeEnabled,
                         onChanged: (v) => settingsProvider.updateOfflineMode(v),
                       ),
+                    ),
+                    _buildDivider(context),
+                    SettingsListTile(
+                      title:
+                          isRTL
+                              ? 'تحميل بيانات التخصص'
+                              : 'Download Specialty Data',
+                      subtitle:
+                          isRTL
+                              ? 'حمّل البيانات حسب مجال تخصصك'
+                              : 'Download data for your specialty',
+                      leadingIcon: LucideIcons.stethoscope,
+                      trailing: const Icon(LucideIcons.chevronRight, size: 18),
+                      onTap:
+                          () => Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => const SpecialtyDownloadScreen(),
+                            ),
+                          ),
                     ),
                     _buildDivider(context),
                     SettingsListTile(

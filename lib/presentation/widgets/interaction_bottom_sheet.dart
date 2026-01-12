@@ -382,7 +382,8 @@ class InteractionBottomSheet extends StatelessWidget {
         effect = extracted.mainText;
         if (management.isEmpty) {
           management = extracted.recommendation;
-        } else {
+        } else if (!management.contains(extracted.recommendation)) {
+          // Only append if not already present
           management = '$management\n\n${extracted.recommendation}';
         }
       }
