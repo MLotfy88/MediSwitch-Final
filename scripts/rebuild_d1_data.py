@@ -117,11 +117,29 @@ def smart_export():
     cursor = conn.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'")
     tables = [r[0] for r in cursor.fetchall()]
     
-    os.makedirs(CHUNK_DIR, exist_ok=True)
+    # Create base directory
+    # Clear existing chunks
+    if os.path.exists(CHUNK_DIR):
+        import shutil
+        shutil.rmtree(CHUNK_DIR)
     
+    os.makedirs(os.path.join(CHUNK_DIR, "main"), exist_ok=True)
+    os.makedirs(os.path.join(CHUNK_DIR, "interactions"), exist_ok=True)
+    
+    INTERACTION_TABLES = ['drug_interactions', 'food_interactions', 'disease_interactions']
+
     for table in tables:
         if table == "android_metadata": continue
         print(f"\n📦 Exporting {table}...")
+        
+        # Determine target directory
+        if table in INTERACTION_TABLES:
+            target_dir = os.path.join(CHUNK_DIR, "interactions")
+        else:
+            target_dir = os.path.join(CHUNK_DIR, "main")
+
+        # Dynamic Batch Size
+        current_batch_size = 50 if table == "dosage_guidelines" else 200
         
         # Get columns
         c = conn.execute(f"SELECT * FROM {table} LIMIT 1")
@@ -129,11 +147,10 @@ def smart_export():
         
         cur = conn.execute(f"SELECT * FROM {table}")
         
-        batch = []
         file_idx = 0
         
         while True:
-            rows = cur.fetchmany(BATCH_SIZE)
+            rows = cur.fetchmany(current_batch_size)
             if not rows:
                 break
             
@@ -143,11 +160,11 @@ def smart_export():
                 sql_lines.append(f"INSERT OR REPLACE INTO {table} ({', '.join(cols)}) VALUES ({', '.join(vals)});")
             
             fname = f"d1_{table}_part_{file_idx:03d}.sql"
-            with open(os.path.join(CHUNK_DIR, fname), "w", encoding="utf-8") as f:
+            with open(os.path.join(target_dir, fname), "w", encoding="utf-8") as f:
                 f.write("\n".join(sql_lines))
             
             file_idx += 1
-            print(f"  Saved {fname} ({len(rows)} rows)")
+            print(f"  Saved {fname} ({len(rows)} rows) in {target_dir}")
             
     print("\n✅ Export complete!")
 
