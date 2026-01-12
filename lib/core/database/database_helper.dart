@@ -89,28 +89,10 @@ class DatabaseHelper {
 
     if (needsCopy) {
       _logger.i(
-        'DatabaseHelper: Database marker missing (v26) or DB not found. Attempting asset copy...',
+        'DatabaseHelper: Database marker missing (v26) or DB not found. Copying Core DB...',
       );
       try {
         await Directory(dirname(path)).create(recursive: true);
-
-        // Parts list (aa to an) - Reduced after orphan cleanup
-        const partNames = [
-          'aa',
-          'ab',
-          'ac',
-          'ad',
-          'ae',
-          'af',
-          'ag',
-          'ah',
-          'ai',
-          'aj',
-          'ak',
-          'al',
-          'am',
-          'an',
-        ];
 
         // Explicitly delete old DB and any old markers to ensure clean state
         if (await dbFile.exists()) {
@@ -120,44 +102,21 @@ class DatabaseHelper {
           await dbFile.delete();
         }
 
-        // Use IOSink to stream parts directly to disk without loading entire DB into memory (STREAMS ONE AT A TIME)
-        final IOSink sink = dbFile.openWrite(mode: FileMode.writeOnly);
-        int totalBytes = 0;
-        bool allPartsFound = true;
-
-        for (var part in partNames) {
-          final partPath = 'assets/database/parts/mediswitch.db.part-$part';
-          try {
-            // Loading 50MB into memory is much safer than 500MB
-            final ByteData data = await rootBundle.load(partPath);
-            final Uint8List bytes = data.buffer.asUint8List(
-              data.offsetInBytes,
-              data.lengthInBytes,
-            );
-            sink.add(bytes);
-            totalBytes += bytes.length;
-            _logger.d(
-              'DatabaseHelper: Streamed part $part (${bytes.length} bytes)',
-            );
-          } catch (e) {
-            _logger.e(
-              'DatabaseHelper: FAILED to load/stream split part $part at $partPath: $e',
-            );
-            allPartsFound = false;
-            break;
-          }
-        }
-
-        await sink.flush();
-        await sink.close();
-
-        if (allPartsFound && totalBytes > 0) {
+        // Copy Core DB directly (no assembly needed)
+        const coreDbPath = 'assets/database/mediswitch_core.db';
+        try {
+          final ByteData data = await rootBundle.load(coreDbPath);
+          final bytes = data.buffer.asUint8List(
+            data.offsetInBytes,
+            data.lengthInBytes,
+          );
+          await dbFile.writeAsBytes(bytes);
           await markerFile.create();
           _logger.i(
-            'DatabaseHelper: SUCCESS! Joined and copied $totalBytes bytes to $path',
+            'DatabaseHelper: SUCCESS! Copied Core DB (${bytes.length} bytes) to $path',
           );
 
-          // FORCE SET VERSION to match app version (preventing immediate Upgrade/Create confusion)
+          // FORCE SET VERSION to match app version
           try {
             _logger.i(
               'DatabaseHelper: Setting localized user_version to $_dbVersion...',
@@ -167,18 +126,14 @@ class DatabaseHelper {
           } catch (_) {
             // Ignore temporary open errors
           }
-        } else {
-          _logger.w(
-            'DatabaseHelper: Asset copy aborted or failed. Total bytes written: $totalBytes',
+        } catch (e) {
+          _logger.e(
+            'DatabaseHelper: FAILED to load Core DB at $coreDbPath: $e',
           );
           if (await dbFile.exists()) await dbFile.delete();
         }
       } catch (e, s) {
-        _logger.e(
-          'DatabaseHelper: CRITICAL error copying pre-packaged database',
-          e,
-          s,
-        );
+        _logger.e('DatabaseHelper: CRITICAL error copying Core database', e, s);
       }
     } else {
       _logger.i(

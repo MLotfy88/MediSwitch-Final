@@ -102,20 +102,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/meds.csv
-    - assets/database/parts/mediswitch.db.part-aa
-    - assets/database/parts/mediswitch.db.part-ab
-    - assets/database/parts/mediswitch.db.part-ac
-    - assets/database/parts/mediswitch.db.part-ad
-    - assets/database/parts/mediswitch.db.part-ae
-    - assets/database/parts/mediswitch.db.part-af
-    - assets/database/parts/mediswitch.db.part-ag
-    - assets/database/parts/mediswitch.db.part-ah
-    - assets/database/parts/mediswitch.db.part-ai
-    - assets/database/parts/mediswitch.db.part-aj
-    - assets/database/parts/mediswitch.db.part-ak
-    - assets/database/parts/mediswitch.db.part-al
-    - assets/database/parts/mediswitch.db.part-am
-    - assets/database/parts/mediswitch.db.part-an
+    - assets/database/mediswitch_core.db
     - assets/images/ # Added for logo and other images
     - assets/icon/ # Added for app icon
     - assets/icons/medical/ # Medical specialty SVG icons from healthicons.org

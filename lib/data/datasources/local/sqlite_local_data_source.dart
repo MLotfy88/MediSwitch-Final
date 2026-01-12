@@ -655,12 +655,25 @@ class SqliteLocalDataSource {
         .toList();
   }
 
-  // Modified to group by Ingredient (active) as per user request
+  // Modified to use pre-calculated home_summary table for instant home screen loading
   Future<List<Map<String, dynamic>>> getFoodInteractionCounts() async {
     await seedingComplete;
     final db = await dbHelper.database;
-    // Group by Ingredient so the list shows Active Ingredients, not Trade Names.
-    // MAX(med_id) is selected but irrelevant as we use ingredient name for lookup.
+
+    // Attempt to read from home_summary first
+    try {
+      final List<Map<String, dynamic>> summary = await db.query(
+        'home_summary',
+        where: 'type = ?',
+        whereArgs: ['food_interaction'],
+        orderBy: 'count DESC',
+        limit: 20,
+      );
+      if (summary.isNotEmpty) return summary;
+    } catch (_) {
+      // Fallback to slow query if table doesn't exist yet
+    }
+
     return await db.rawQuery('''
       SELECT MAX(med_id) as med_id, ingredient as name, COUNT(*) as count 
       FROM ${DatabaseHelper.foodInteractionsTable}
@@ -724,13 +737,38 @@ class SqliteLocalDataSource {
     await seedingComplete;
     final db = await dbHelper.database;
 
-    // Simplified Query to avoid complex CTE issues on some devices/versions
-    // Also removed the restrictive NOT IN list for now or limited it.
+    // Use pre-calculated home_summary for instant loading
+    try {
+      final List<Map<String, dynamic>> summary = await db.query(
+        'home_summary',
+        where: 'type = ?',
+        whereArgs: ['high_risk_ingredient'],
+        orderBy: 'danger_score DESC',
+        limit: limit,
+      );
+      if (summary.isNotEmpty) {
+        // Map keys to match expected UI output
+        return summary
+            .map(
+              (e) => {
+                'name': e['name'],
+                'normalizedName': e['name'],
+                'totalInteractions': e['count'],
+                'severeCount': e['severe_count'],
+                'moderateCount': e['moderate_count'],
+                'minorCount': e['minor_count'],
+                'dangerScore': e['danger_score'],
+              },
+            )
+            .toList();
+      }
+    } catch (_) {
+      // Fallback
+    }
 
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       SELECT 
-        ingredient1 as name, 
         ingredient1 as name, 
         ingredient1 as normalizedName,
         COUNT(*) as totalInteractions,
@@ -1127,9 +1165,11 @@ class SqliteLocalDataSource {
 
   // --- Hybrid Caching Methods ---
 
+  /// Selective sync: Save drug interactions (used by sync and API fallback)
   Future<void> saveDrugInteractions(
     List<Map<String, dynamic>> interactions,
   ) async {
+    if (interactions.isEmpty) return;
     final db = await dbHelper.database;
     final batch = db.batch();
     for (final interaction in interactions) {
@@ -1145,9 +1185,26 @@ class SqliteLocalDataSource {
     );
   }
 
+  /// Get list of ingredient pairs that exist locally (for selective sync)
+  Future<Set<String>> getLocalDrugInteractionIngredients() async {
+    final db = await dbHelper.database;
+    try {
+      final result = await db.rawQuery(
+        'SELECT DISTINCT ingredient1, ingredient2 FROM ${DatabaseHelper.interactionsTable}',
+      );
+      return result
+          .map((e) => '${e['ingredient1']}_${e['ingredient2']}')
+          .toSet();
+    } catch (_) {
+      return {};
+    }
+  }
+
+  /// Selective sync: Save food interactions
   Future<void> saveFoodInteractions(
     List<Map<String, dynamic>> interactions,
   ) async {
+    if (interactions.isEmpty) return;
     final db = await dbHelper.database;
     final batch = db.batch();
     for (final interaction in interactions) {
@@ -1163,9 +1220,24 @@ class SqliteLocalDataSource {
     );
   }
 
+  /// Get list of ingredients that have food interactions locally
+  Future<Set<String>> getLocalFoodInteractionIngredients() async {
+    final db = await dbHelper.database;
+    try {
+      final result = await db.rawQuery(
+        'SELECT DISTINCT ingredient FROM ${DatabaseHelper.foodInteractionsTable}',
+      );
+      return result.map((e) => e['ingredient'] as String).toSet();
+    } catch (_) {
+      return {};
+    }
+  }
+
+  /// Selective sync: Save disease interactions
   Future<void> saveDiseaseInteractions(
     List<Map<String, dynamic>> interactions,
   ) async {
+    if (interactions.isEmpty) return;
     final db = await dbHelper.database;
     final batch = db.batch();
     for (final interaction in interactions) {
@@ -1179,6 +1251,19 @@ class SqliteLocalDataSource {
     _logger.i(
       '[SqliteLocalDataSource] Cached ${interactions.length} disease interactions.',
     );
+  }
+
+  /// Get list of med_ids that have disease interactions locally
+  Future<Set<int>> getLocalDiseaseInteractionMedIds() async {
+    final db = await dbHelper.database;
+    try {
+      final result = await db.rawQuery(
+        'SELECT DISTINCT med_id FROM ${DatabaseHelper.diseaseInteractionsTable}',
+      );
+      return result.map((e) => e['med_id'] as int).toSet();
+    } catch (_) {
+      return {};
+    }
   }
 
   // Helper to check for existing medicines (for sync logic to avoid dupes if strictly needed)
