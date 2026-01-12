@@ -80,11 +80,8 @@ class DatabaseHelper {
     _logger.i('DatabaseHelper: Initializing database at $path');
 
     // --- PRE-PACKAGED DATABASE LOGIC ---
-    // v21 marker for the final split fix
-    final markerFilePath = join(
-      documentsDirectory.path,
-      'db_v25_interactions_fix.txt',
-    );
+    // v26 marker for the final split fix - UPDATED to v26 for complete 15-part assembly
+    final markerFilePath = join(documentsDirectory.path, 'db_v26_complete.txt');
     final markerFile = File(markerFilePath);
 
     final dbFile = File(path);
@@ -92,12 +89,12 @@ class DatabaseHelper {
 
     if (needsCopy) {
       _logger.i(
-        'DatabaseHelper: Database marker missing (v19) or DB not found. Attempting asset copy...',
+        'DatabaseHelper: Database marker missing (v26) or DB not found. Attempting asset copy...',
       );
       try {
         await Directory(dirname(path)).create(recursive: true);
 
-        // Parts list (aa to aj)
+        // Parts list (aa to ao)
         const partNames = [
           'aa',
           'ab',
@@ -109,6 +106,11 @@ class DatabaseHelper {
           'ah',
           'ai',
           'aj',
+          'ak',
+          'al',
+          'am',
+          'an',
+          'ao',
         ];
 
         // Explicitly delete old DB and any old markers to ensure clean state
