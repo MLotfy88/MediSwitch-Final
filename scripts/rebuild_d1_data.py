@@ -140,7 +140,7 @@ def smart_export():
             sql_lines = []
             for row in rows:
                 vals = [clean_sql_val(row[col]) for col in cols]
-                sql_lines.append(f"INSERT INTO {table} ({', '.join(cols)}) VALUES ({', '.join(vals)});")
+                sql_lines.append(f"INSERT OR REPLACE INTO {table} ({', '.join(cols)}) VALUES ({', '.join(vals)});")
             
             fname = f"d1_{table}_part_{file_idx:03d}.sql"
             with open(os.path.join(CHUNK_DIR, fname), "w", encoding="utf-8") as f:
