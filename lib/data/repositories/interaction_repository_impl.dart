@@ -7,6 +7,7 @@ import 'package:mediswitch/core/services/file_logger_service.dart';
 import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
 import 'package:mediswitch/data/datasources/remote/drug_remote_data_source.dart';
 import 'package:mediswitch/data/datasources/remote/interaction_remote_data_source.dart';
+import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
 import 'package:mediswitch/domain/entities/disease_interaction.dart';
 import 'package:mediswitch/domain/entities/dosage_guidelines.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
@@ -219,33 +220,38 @@ class InteractionRepositoryImpl implements InteractionRepository {
   @override
   Future<List<DosageGuidelines>> getDosageGuidelines(DrugEntity drug) async {
     if (drug.id == null) return [];
+
+    // Strategy: API First -> Cache -> Local Fallback
     try {
-      // 1. Try Local Cache first
-      var guidelines = await localDataSource.getDosageGuidelines(drug.id!);
+      _logger.i(
+        '[InteractionRepo] Fetching dosage guidelines from API for ${drug.tradeName}...',
+      );
 
-      // 2. If empty and has connection, try API (Hybrid Mode)
-      if (guidelines.isEmpty) {
-        _logger.i(
-          '[InteractionRepo] No local dosages for ${drug.tradeName}, fetching from API...',
-        );
+      final remoteData = await remoteDataSource
+          .getDosageGuidelines(drug.id!)
+          .timeout(const Duration(seconds: 5)); // Short timeout for UX
+
+      if (remoteData.isNotEmpty) {
+        // Dynamic Save: Ensure table exists or handle error silently
         try {
-          final remoteData = await remoteDataSource
-              .getDosageGuidelines(drug.id!)
-              .timeout(const Duration(seconds: 10));
-          if (remoteData.isNotEmpty) {
-            // Save to local cache
-            await localDataSource.saveDosageGuidelines(remoteData);
-            // Re-fetch from local to get proper models
-            guidelines = await localDataSource.getDosageGuidelines(drug.id!);
-          }
+          await localDataSource.saveDosageGuidelines(remoteData);
         } catch (e) {
-          _logger.w('[InteractionRepo] Dosage API fetch failed: $e');
+          _logger.w('[InteractionRepo] Failed to cache dosages: $e');
         }
-      }
 
-      return guidelines;
+        return remoteData.map((e) => DosageGuidelinesModel.fromMap(e)).toList();
+      }
     } catch (e) {
-      debugPrint('Error getting dosage guidelines: $e');
+      _logger.w(
+        '[InteractionRepo] API fetch failed ($e), falling back to local.',
+      );
+    }
+
+    // Fallback: Local Cache
+    try {
+      return await localDataSource.getDosageGuidelines(drug.id!);
+    } catch (e) {
+      _logger.e('[InteractionRepo] Local fallback failed: $e');
       return [];
     }
   }

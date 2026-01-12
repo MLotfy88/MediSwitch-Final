@@ -343,6 +343,7 @@ async function handleGetDosages(request, DB) {
 
     const sortOrder = url.searchParams.get('sortOrder') === 'DESC' ? 'DESC' : 'ASC';
     const offset = (page - 1) * limit;
+    const medId = url.searchParams.get('med_id'); // NEW: Support filtering by med_id
 
     try {
         // Table existence check
@@ -354,16 +355,32 @@ async function handleGetDosages(request, DB) {
         let query = 'SELECT * FROM dosage_guidelines';
         let countQuery = 'SELECT COUNT(*) as total FROM dosage_guidelines';
         const params = [];
+        const conditions = [];
+
+        // NEW: Filter by med_id if provided
+        if (medId) {
+            conditions.push('med_id = ?');
+            params.push(parseInt(medId));
+        }
 
         if (search) {
-            query += ' WHERE instructions LIKE ? OR condition LIKE ?';
-            countQuery += ' WHERE instructions LIKE ? OR condition LIKE ?';
-            const searchParam = `%${search}%`;
-            params.push(searchParam, searchParam);
+            conditions.push('(instructions LIKE ? OR condition LIKE ?)');
+            params.push(`%${search}%`, `%${search}%`);
+        }
+
+        if (conditions.length > 0) {
+            const whereClause = ' WHERE ' + conditions.join(' AND ');
+            query += whereClause;
+            countQuery += whereClause;
         }
 
         query += ` ORDER BY ${sortBy} ${sortOrder} LIMIT ? OFFSET ?`;
-        const countParams = search ? [`%${search}%`, `%${search}%`] : [];
+
+        // Build count params (same as query params but without limit/offset)
+        const countParams = [];
+        if (medId) countParams.push(parseInt(medId));
+        if (search) countParams.push(`%${search}%`, `%${search}%`);
+
         params.push(limit, offset);
 
         const [dataResult, countResult] = await Promise.all([

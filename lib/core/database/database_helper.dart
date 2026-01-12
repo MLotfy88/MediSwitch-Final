@@ -20,7 +20,7 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 25; // Updated for Interaction Fix + UI Polish
+  static const int _dbVersion = 27; // Updated for Dosage Table Fix
   static const String medicinesTable = 'drugs';
   static const String interactionsTable = 'drug_interactions';
   static const String foodInteractionsTable = 'food_interactions';
@@ -363,6 +363,13 @@ class DatabaseHelper {
       } catch (e) {
         _logger.e('Error adding structured_dosage column: $e');
       }
+    }
+
+    if (oldVersion < 27) {
+      _logger.i(
+        'DatabaseHelper: Upgrading to v27 - Ensuring dosage table exists...',
+      );
+      await _onCreate(db, newVersion);
     }
 
     if (oldVersion == 0) {
