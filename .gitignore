@@ -135,3 +135,4 @@ scripts/wikem_scraper/failed_html/
 scripts/wikem_scraper/*.log
 scripts/wikem_scraper/*.sql
 *.sql
+!d1_sql_chunks/*.sql

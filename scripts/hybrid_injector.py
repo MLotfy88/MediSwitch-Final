@@ -1,231 +1,166 @@
 #!/usr/bin/env python3
 """
-Hybrid Data Injector: WikEM + NCBI StatPearls
-Populates the new clean dosage_guidelines table
+Hybrid Data Injector V2: Full Coverage
+Iterates through ALL DB ingredients to match NCBI data.
 """
 
 import sqlite3
 import json
 import zlib
-from pathlib import Path
 import re
+import csv
+from pathlib import Path
 
 # Paths
 DB_PATH = Path(__file__).parents[1] / "assets/database/mediswitch.db"
 WIKEM_DATA_DIR = Path(__file__).parent / "wikem_scraper/scraped_data/drugs"
 NCBI_DATA_DIR = Path(__file__).parent / "statpearls_scraper/scraped_data"
-WIKEM_MATCHES = Path(__file__).parent / "wikem_scraper/wikem_matches.csv"
 
-# Dose extraction pattern (from wikem_parser.py)
+# Dose pattern
 DOSE_PATTERN = re.compile(
     r'(\d+(?:\.\d+)?)\s*(?:-\s*(\d+(?:\.\d+)?))?\s*(mg|mcg|g|mg/kg|mcg/kg|units|mEq|mmol)',
     re.IGNORECASE
 )
 
-
-def parse_wikem_dosage_line(text):
-    """Extract numeric dosage from WikEM text"""
-    match = DOSE_PATTERN.search(text)
-    if not match:
-        return None, None, None
-    
-    min_dose = float(match.group(1))
-    max_dose = float(match.group(2)) if match.group(2) else min_dose
-    dose_unit = match.group(3).lower()
-    
-    return min_dose, max_dose, dose_unit
+def clean_name(name):
+    """Normalize name for file matching"""
+    # Remove dosage info (e.g. "Amoxicillin 500mg" -> "Amoxicillin")
+    name = re.sub(r'\s*\d+[\w%]*', '', name)
+    # Replace special chars
+    name = name.replace('/', '_').replace(' ', '_').lower()
+    return name
 
 
-def determine_category(text):
-    """Determine patient category from text"""
-    text_lower = text.lower()
-    if any(kw in text_lower for kw in ['pediatric', 'child', 'infant', 'newborn', 'pals']):
-        return 'Pediatric'
-    elif any(kw in text_lower for kw in ['geriatric', 'elderly', 'older']):
-        return 'Geriatric'
-    return 'Adult'
-
-
-def extract_route(text):
-    """Extract route from text"""
-    routes = ['IV', 'PO', 'IM', 'SC', 'IO', 'PR', 'SL', 'TD']
-    for route in routes:
-        if route in text.upper():
-            return route
-    return None
-
-
-def inject_hybrid_data():
-    """Main injection function"""
+def inject_all_data():
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     
-    print("🚀 Starting Hybrid Injection (WikEM + NCBI)...")
+    print("🚀 Starting Hybrid Injection V3 (WikEM Priority + Full Coverage)...")
     
-    # Load WikEM matches (ingredient names only)
-    wikem_ingredients = {}  # {drug_name: ingredient_name}
-    with open(WIKEM_MATCHES, 'r', encoding='utf-8') as f:
-        for idx, line in enumerate(f):
-            if idx == 0:  # Skip header row
-                continue
-            parts = line.strip().split(',')
-            if len(parts) >= 3 and parts[1].strip():
-                drug_name, ingredient_name, match_type = parts[0], parts[1], parts[2]
-                if match_type in ['Exact', 'Fuzzy (>0.85)']:  # Only matched drugs
-                    wikem_ingredients[drug_name.lower()] = ingredient_name.lower()
+    # 1. Load WikEM Matches from CSV (Priority Mapping)
+    # Maps normalized DB ingredient -> WikEM Filename/Path
+    wikem_map = {} 
+    wikem_matches_path = Path(__file__).parent / "wikem_scraper/wikem_matches.csv"
     
-    print(f"📋 Loaded {len(wikem_ingredients)} WikEM ingredient matches")
+    if wikem_matches_path.exists():
+        print("📋 Loading WikEM matches from CSV...")
+        with open(wikem_matches_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                db_ing = row.get('DB_Ingredient_Name')
+                file_path = row.get('File_Path')
+                match_type = row.get('Match_Type')
+                
+                if db_ing and file_path and match_type in ['Exact', 'Fuzzy (>0.85)', 'Match']:
+                    # Normalize db_ing to match our iteration key
+                    key = clean_name(db_ing)
+                    # Resolve absolute path
+                    # generated path was relative to project root in some versions, or absolute. 
+                    # Let's check if it exists relative to project or is just a name.
+                    # The CSV sample showed: scripts/wikem_scraper/scraped_data/drugs/Cyclophosphamide.json
+                    # We are in scripts/hybrid_injector.py
+                    # So we need to go up one level to project root to find 'scripts/...'
+                    
+                    # Safer: just take basename and look in WIKEM_DATA_DIR
+                    filename = Path(file_path).name
+                    full_path = WIKEM_DATA_DIR / filename
+                    if full_path.exists():
+                        wikem_map[key] = full_path
+
+    print(f"🔗 Loaded {len(wikem_map)} explicit WikEM matches")
+
+    # 2. Get all active ingredients
+    cursor.execute("SELECT DISTINCT med_id, ingredient FROM med_ingredients WHERE ingredient IS NOT NULL")
+    all_ingredients = cursor.fetchall()
+    print(f"📋 Processing {len(all_ingredients)} ingredient-med pairs...")
     
-    # Get all med_ids for these ingredients
-    drug_to_med_ids = {}  # {drug_name: [med_id1, med_id2, ...]}
-    for drug_name, ingredient in wikem_ingredients.items():
-        cursor.execute('SELECT med_id FROM med_ingredients WHERE LOWER(ingredient) = ?', (ingredient,))
-        med_ids = [row[0] for row in cursor.fetchall()]
-        if med_ids:
-            drug_to_med_ids[drug_name] = med_ids
+    stats = {'wikem': 0, 'ncbi': 0, 'hybrid': 0, 'none': 0}
     
-    print(f"🔗 Found med_ids for {len(drug_to_med_ids)} drugs")
-    
-    total_inserted = 0
-    
-    # Process each drug
-    for drug_name, med_ids in drug_to_med_ids.items():
-        # 1. Load WikEM data
-        wikem_file = WIKEM_DATA_DIR / f"{drug_name.title()}.json"
-        wikem_data = None
-        if wikem_file.exists():
-            with open(wikem_file, 'r', encoding='utf-8') as f:
-                wikem_data = json.load(f)
+    for med_id, ingredient in all_ingredients:
+        # Prepare Keys
+        clean_ing = clean_name(ingredient)
+        if not clean_ing: continue
+        if len(clean_ing) > 150: clean_ing = clean_ing[:150]
+
+        # A. Find WikEM Data
+        # Strategy 1: Check Explicit Map (Priority)
+        wikem_file = wikem_map.get(clean_ing)
         
-        # 2. Load NCBI data (if exists)
-        ncbi_file = NCBI_DATA_DIR / f"{drug_name.replace('_', ' ').title().replace(' ', '_')}.json"
+        # Strategy 2: Direct Name Match (Fallback)
+        if not wikem_file:
+            potential_file = WIKEM_DATA_DIR / f"{clean_ing.title()}.json"
+            if potential_file.exists():
+                wikem_file = potential_file
+
+        # B. Find NCBI Data
+        # Smart NCBI Finder (Subfolders)
+        first_char = clean_ing[0].upper() if clean_ing[0].isalpha() else '#'
+        ncbi_file = NCBI_DATA_DIR / first_char / f"{clean_ing}.json"
+        
+        # Load Data
+        wikem_data = None
+        if wikem_file:
+            try:
+                with open(wikem_file) as f: wikem_data = json.load(f)
+            except Exception: pass
+            
         ncbi_data = None
         if ncbi_file.exists():
-            with open(ncbi_file, 'r', encoding='utf-8') as f:
-                ncbi_data = json.load(f)
-        
-        # Skip if no data from either source
-        if not wikem_data and not ncbi_data:
+            try:
+                with open(ncbi_file) as f: ncbi_data = json.load(f)
+            except Exception: pass
+            
+        if not ncbi_data and not wikem_data:
+            stats['none'] += 1
             continue
+
+        # Determine Source
+        source = 'Hybrid' if (wikem_data and ncbi_data) else ('WikEM' if wikem_data else 'NCBI')
+        stats[source.lower()] += 1
         
-        # 3. Parse WikEM dosages
-        wikem_rows = []
-        if wikem_data:
-            sections = wikem_data.get('sections', {})
-            for section_name, section_data in sections.items():
-                if 'dosing' not in section_name.lower() and 'dosage' not in section_name.lower():
-                    continue
-                
-                text_content = section_data.get('text', '')
-                subsections = section_data.get('subsections', {})
-                
-                # Process main text
-                if text_content:
-                    for line in text_content.split('\n'):
-                        min_d, max_d, unit = parse_wikem_dosage_line(line)
-                        if min_d:
-                            wikem_rows.append({
-                                'min_dose': min_d,
-                                'max_dose': max_d,
-                                'unit': unit,
-                                'route': extract_route(line),
-                                'category': determine_category(line),
-                                'instructions': line.strip()
-                            })
-                
-                # Process subsections
-                for sub_name, sub_data in subsections.items():
-                    sub_text = sub_data.get('text', '')
-                    for line in sub_text.split('\n'):
-                        min_d, max_d, unit = parse_wikem_dosage_line(line)
-                        if min_d:
-                            wikem_rows.append({
-                                'min_dose': min_d,
-                                'max_dose': max_d,
-                                'unit': unit,
-                                'route': extract_route(line),
-                                'category': determine_category(line),
-                                'instructions': line.strip()
-                            })
-        
-        # 4. Compress JSON blobs
-        wikem_blob = None
-        if wikem_data:
-            wikem_json = json.dumps(wikem_data, ensure_ascii=False)
-            wikem_blob = zlib.compress(wikem_json.encode('utf-8'))
+        # Prepare Blobs
+        wikem_blob = zlib.compress(json.dumps(wikem_data).encode()) if wikem_data else None
         
         ncbi_blob = None
         ncbi_sections = {}
         if ncbi_data:
             ncbi_sections = ncbi_data.get('sections', {})
-            ncbi_json = json.dumps(ncbi_data, ensure_ascii=False)
-            ncbi_blob = zlib.compress(ncbi_json.encode('utf-8'))
-        
-        # 5. Insert rows - Loop through each med_id for this drug
-        for med_id in med_ids:
-            if wikem_rows or ncbi_data:
-                # If we have WikEM rows, create one row per dosage per med_id
-                if wikem_rows:
-                    for row in wikem_rows:
-                        cursor.execute('''
-                            INSERT INTO dosage_guidelines (
-                                med_id,
-                                wikem_min_dose, wikem_max_dose, wikem_dose_unit,
-                                wikem_route, wikem_patient_category, wikem_instructions,
-                                wikem_json_blob,
-                                ncbi_indications, ncbi_administration, ncbi_adverse_effects,
-                                ncbi_contraindications, ncbi_monitoring, ncbi_mechanism, ncbi_toxicity,
-                                ncbi_json_blob,
-                                source
-                            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                        ''', (
-                            med_id,
-                            row['min_dose'], row['max_dose'], row['unit'],
-                            row['route'], row['category'], row['instructions'],
-                            wikem_blob,
-                            ncbi_sections.get('indications'),
-                            ncbi_sections.get('administration'),
-                            ncbi_sections.get('adverse_effects'),
-                            ncbi_sections.get('contraindications'),
-                            ncbi_sections.get('monitoring'),
-                            ncbi_sections.get('mechanism'),
-                            ncbi_sections.get('toxicity'),
-                            ncbi_blob,
-                            'Hybrid' if ncbi_data else 'WikEM'
-                        ))
-                        total_inserted += 1
-                else:
-                    # NCBI only (no numeric dosing from WikEM)
-                    cursor.execute('''
-                        INSERT INTO dosage_guidelines (
-                            med_id,
-                            ncbi_indications, ncbi_administration, ncbi_adverse_effects,
-                            ncbi_contraindications, ncbi_monitoring, ncbi_mechanism, ncbi_toxicity,
-                            ncbi_json_blob,
-                            source
-                        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                    ''', (
-                        med_id,
-                        ncbi_sections.get('indications'),
-                        ncbi_sections.get('administration'),
-                        ncbi_sections.get('adverse_effects'),
-                        ncbi_sections.get('contraindications'),
-                        ncbi_sections.get('monitoring'),
-                        ncbi_sections.get('mechanism'),
-                        ncbi_sections.get('toxicity'),
-                        ncbi_blob,
-                        'NCBI'
-                    ))
-                    total_inserted += 1
-    
+            ncbi_blob = zlib.compress(json.dumps(ncbi_data).encode())
+
+        # Check for existing to avoid duplicates if re-running without clean
+        # But for this run, we assume we might be running fresh or merging.
+        # Let's do a quick check to prevent primary key errors if not cleaning.
+        # cursor.execute("SELECT 1 FROM dosage_guidelines WHERE med_id = ? AND source = ?", (med_id, source))
+        # if cursor.fetchone(): continue
+
+        # Insert
+        cursor.execute('''
+            INSERT INTO dosage_guidelines (
+                med_id,
+                wikem_json_blob,
+                ncbi_indications, ncbi_administration, ncbi_adverse_effects,
+                ncbi_contraindications, ncbi_monitoring, ncbi_mechanism, ncbi_toxicity,
+                ncbi_json_blob,
+                source
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''', (
+            med_id,
+            wikem_blob,
+            ncbi_sections.get('indications'),
+            ncbi_sections.get('administration'),
+            ncbi_sections.get('adverse_effects'),
+            ncbi_sections.get('contraindications'),
+            ncbi_sections.get('monitoring'),
+            ncbi_sections.get('mechanism'),
+            ncbi_sections.get('toxicity'),
+            ncbi_blob,
+            source
+        ))
+            
     conn.commit()
+    print(f"🏁 Finished! Stats: {stats}")
     conn.close()
-    
-    print("="*50)
-    print(f"✅ HYBRID INJECTION COMPLETE")
-    print(f"💉 Total Rows Inserted: {total_inserted}")
-    print("="*50)
 
 
 if __name__ == "__main__":
-    inject_hybrid_data()
+    inject_all_data()

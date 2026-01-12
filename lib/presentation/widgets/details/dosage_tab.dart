@@ -90,7 +90,6 @@ class DosageTab extends StatelessWidget {
                 const SizedBox(height: 16),
                 _InstructionsCard(
                   instructions: primary.instructions!,
-                  source: primary.source ?? 'WHO',
                   isAr: isAr,
                 ),
               ],
@@ -291,7 +290,7 @@ class _StructuredDosageViewState extends State<_StructuredDosageView> {
             Icon(LucideIcons.sparkles, size: 18, color: Colors.blue),
             const SizedBox(width: 8),
             Text(
-              widget.isAr ? 'الجرعات الذكية (Beta)' : 'Smart Dosages (FDA)',
+              widget.isAr ? 'الجرعات الذكية' : 'Smart Dosages',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue[800],
@@ -870,26 +869,90 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
             ],
           ),
           const SizedBox(height: 12),
+
+          // Frequency Selector Chips
+          Text(
+            widget.isAr ? 'التكرار:' : 'Frequency:',
+            style: TextStyle(
+              fontSize: 12,
+              color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+            ),
+          ),
+          const SizedBox(height: 8),
+          Row(
+            children: [
+              _FrequencyChip(
+                label: widget.isAr ? '1×' : '1x',
+                subLabel: widget.isAr ? 'يومياً' : 'daily',
+                isSelected: _timesPerDay == 1,
+                onTap:
+                    () => setState(() {
+                      _timesPerDay = 1;
+                    }),
+                theme: theme,
+              ),
+              const SizedBox(width: 8),
+              _FrequencyChip(
+                label: widget.isAr ? '2×' : '2x',
+                subLabel: widget.isAr ? 'يومياً' : 'daily',
+                isSelected: _timesPerDay == 2,
+                onTap:
+                    () => setState(() {
+                      _timesPerDay = 2;
+                    }),
+                theme: theme,
+              ),
+              const SizedBox(width: 8),
+              _FrequencyChip(
+                label: widget.isAr ? '3×' : '3x',
+                subLabel: widget.isAr ? 'يومياً' : 'daily',
+                isSelected: _timesPerDay == 3,
+                onTap:
+                    () => setState(() {
+                      _timesPerDay = 3;
+                    }),
+                theme: theme,
+              ),
+              const SizedBox(width: 8),
+              _FrequencyChip(
+                label: widget.isAr ? '4×' : '4x',
+                subLabel: widget.isAr ? 'يومياً' : 'daily',
+                isSelected: _timesPerDay == 4,
+                onTap:
+                    () => setState(() {
+                      _timesPerDay = 4;
+                    }),
+                theme: theme,
+              ),
+            ],
+          ),
+
+          const SizedBox(height: 12),
           if (_resultMg != null)
             GestureDetector(
               onTap: _copyResult,
               child: Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 16,
-                  vertical: 12,
-                ),
+                padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  color: theme.colorScheme.primary.withValues(alpha: 0.1),
+                  gradient: LinearGradient(
+                    colors: [
+                      theme.colorScheme.primary.withValues(alpha: 0.15),
+                      theme.colorScheme.primary.withValues(alpha: 0.05),
+                    ],
+                  ),
                   borderRadius: BorderRadius.circular(12),
+                  border: Border.all(
+                    color: theme.colorScheme.primary.withValues(alpha: 0.3),
+                  ),
                 ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          widget.isAr ? 'الجرعة المحسوبة:' : 'Calculated:',
+                          widget.isAr ? 'الجرعة الواحدة:' : 'Single Dose:',
                           style: TextStyle(
                             fontSize: 12,
                             color: theme.colorScheme.onSurface.withValues(
@@ -897,41 +960,153 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
                             ),
                           ),
                         ),
-                        const SizedBox(height: 4),
-                        Text(
-                          _resultMl != null
-                              ? '${_resultMg!.toStringAsFixed(1)} mg '
-                                  '(${_resultMl!.toStringAsFixed(1)} ml)'
-                              : '${_resultMg!.toStringAsFixed(1)} mg',
-                          style: theme.textTheme.titleMedium?.copyWith(
-                            fontWeight: FontWeight.bold,
-                            color: theme.colorScheme.primary,
-                          ),
-                        ),
-                        // Frequency display
-                        const SizedBox(height: 2),
-                        Text(
-                          widget.isAr
-                              ? '$_timesPerDay مرات يومياً ${widget.frequency != null && widget.frequency! > 0 ? "(كل ${widget.frequency} ساعة)" : ""}'
-                              : '$_timesPerDay times daily ${widget.frequency != null && widget.frequency! > 0 ? "(Every ${widget.frequency}h)" : ""}',
-                          style: TextStyle(
-                            fontSize: 12,
-                            color: theme.colorScheme.secondary,
-                            fontWeight: FontWeight.w600,
+                        Icon(
+                          LucideIcons.copy,
+                          size: 16,
+                          color: theme.colorScheme.primary.withValues(
+                            alpha: 0.7,
                           ),
                         ),
                       ],
                     ),
-                    Icon(
-                      LucideIcons.copy,
-                      size: 18,
-                      color: theme.colorScheme.primary,
+                    const SizedBox(height: 4),
+                    Text(
+                      _resultMl != null
+                          ? '${_resultMg!.toStringAsFixed(1)} mg (${_resultMl!.toStringAsFixed(1)} ml)'
+                          : '${_resultMg!.toStringAsFixed(1)} mg',
+                      style: theme.textTheme.titleLarge?.copyWith(
+                        fontWeight: FontWeight.bold,
+                        color: theme.colorScheme.primary,
+                      ),
+                    ),
+
+                    const Divider(height: 24),
+
+                    // Daily Total
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              widget.isAr
+                                  ? 'الجرعة اليومية الإجمالية:'
+                                  : 'Daily Total:',
+                              style: TextStyle(
+                                fontSize: 11,
+                                color: theme.colorScheme.onSurface.withValues(
+                                  alpha: 0.6,
+                                ),
+                              ),
+                            ),
+                            Text(
+                              _resultMl != null
+                                  ? '${(_resultMg! * _timesPerDay).toStringAsFixed(0)} mg (${(_resultMl! * _timesPerDay).toStringAsFixed(1)} ml)'
+                                  : '${(_resultMg! * _timesPerDay).toStringAsFixed(0)} mg',
+                              style: TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.w600,
+                                color: theme.colorScheme.secondary,
+                              ),
+                            ),
+                          ],
+                        ),
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 12,
+                            vertical: 6,
+                          ),
+                          decoration: BoxDecoration(
+                            color: theme.colorScheme.secondary.withValues(
+                              alpha: 0.1,
+                            ),
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                          child: Text(
+                            '$_timesPerDay× ${widget.isAr ? "يومياً" : "daily"}',
+                            style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.bold,
+                              color: theme.colorScheme.secondary,
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
               ),
             ),
         ],
+      ),
+    );
+  }
+}
+
+/// Frequency selector chip for the mini calculator
+class _FrequencyChip extends StatelessWidget {
+  const _FrequencyChip({
+    required this.label,
+    required this.subLabel,
+    required this.isSelected,
+    required this.onTap,
+    required this.theme,
+  });
+
+  final String label;
+  final String subLabel;
+  final bool isSelected;
+  final VoidCallback onTap;
+  final ThemeData theme;
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: GestureDetector(
+        onTap: onTap,
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 200),
+          padding: const EdgeInsets.symmetric(vertical: 10),
+          decoration: BoxDecoration(
+            color:
+                isSelected
+                    ? theme.colorScheme.primary
+                    : theme.colorScheme.surfaceContainerHighest,
+            borderRadius: BorderRadius.circular(8),
+            border: Border.all(
+              color:
+                  isSelected
+                      ? theme.colorScheme.primary
+                      : theme.colorScheme.outline.withValues(alpha: 0.3),
+            ),
+          ),
+          child: Column(
+            children: [
+              Text(
+                label,
+                style: TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                  color:
+                      isSelected
+                          ? theme.colorScheme.onPrimary
+                          : theme.colorScheme.onSurface,
+                ),
+              ),
+              Text(
+                subLabel,
+                style: TextStyle(
+                  fontSize: 9,
+                  color:
+                      isSelected
+                          ? theme.colorScheme.onPrimary.withValues(alpha: 0.8)
+                          : theme.colorScheme.onSurface.withValues(alpha: 0.6),
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
@@ -990,14 +1165,9 @@ class _InputField extends StatelessWidget {
 }
 
 class _InstructionsCard extends StatelessWidget {
-  const _InstructionsCard({
-    required this.instructions,
-    required this.source,
-    required this.isAr,
-  });
+  const _InstructionsCard({required this.instructions, required this.isAr});
 
   final String instructions;
-  final String source;
   final bool isAr;
 
   @override
@@ -1020,19 +1190,11 @@ class _InstructionsCard extends StatelessWidget {
               Icon(LucideIcons.info, size: 16, color: appColors.info),
               const SizedBox(width: 8),
               Text(
-                isAr ? 'إرشادات WHO' : 'WHO Guidelines',
+                isAr ? 'إرشادات سريرية' : 'Clinical Guidelines',
                 style: TextStyle(
                   fontWeight: FontWeight.w600,
                   color: appColors.info,
                   fontSize: 13,
-                ),
-              ),
-              const Spacer(),
-              Text(
-                source,
-                style: TextStyle(
-                  fontSize: 10,
-                  color: appColors.info.withValues(alpha: 0.7),
                 ),
               ),
             ],

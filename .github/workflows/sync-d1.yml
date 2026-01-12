@@ -39,6 +39,8 @@ jobs:
         run: |
           echo "🚀 Generating SQL Chunks from source assets..."
           mkdir -p d1_sql_chunks
+          # Generate fresh schema and data chunks
+          python3 scripts/generate_d1_schema.py
           python3 scripts/rebuild_d1_data.py
           
           echo "🚀 Starting Resilient D1 Data Sync (On-the-fly Generated)..."
@@ -74,23 +76,21 @@ jobs:
             done
           }
           
-          # 1. Apply Schema first (from main schema file or d1_migration_sql)
+          # 1. Apply Schema first (Generated from local DB)
           echo "📄 Applying Schema..."
-          if [ -f "d1_migration_sql/01_schema.sql" ]; then
-            npx wrangler d1 execute $DB_NAME --yes --remote --file=d1_migration_sql/01_schema.sql
-          elif [ -f "cloudflare-worker/schema.sql" ]; then
-            npx wrangler d1 execute $DB_NAME --yes --remote --file=cloudflare-worker/schema.sql
+          if [ -f "cloudflare-worker/schema_generated.sql" ]; then
+            npx wrangler d1 execute $DB_NAME --yes --remote --file=cloudflare-worker/schema_generated.sql
           else
             echo "⚠️ No schema file found, skipping..."
           fi
           
           # 2. Deploy all datasets in order (from d1_sql_chunks/)
-          execute_pattern "d1_import_part_*.sql" "Drugs"
-          execute_pattern "d1_rules_part_*.sql" "Drug Interactions"
-          execute_pattern "d1_ingredients_part_*.sql" "Med Ingredients"
-          execute_pattern "d1_food_part_*.sql" "Food Interactions"
-          execute_pattern "d1_disease_part_*.sql" "Disease Interactions"
-          execute_pattern "d1_dosages_part_*.sql" "Dosage Guidelines"
+          execute_pattern "d1_drugs_part_*.sql" "Drugs"
+          execute_pattern "d1_drug_interactions_part_*.sql" "Drug Interactions"
+          execute_pattern "d1_med_ingredients_part_*.sql" "Med Ingredients"
+          execute_pattern "d1_food_interactions_part_*.sql" "Food Interactions"
+          execute_pattern "d1_disease_interactions_part_*.sql" "Disease Interactions"
+          execute_pattern "d1_dosage_guidelines_part_*.sql" "Dosage Guidelines"
           
           echo "✅ High-Fidelity Sync Complete!"
       

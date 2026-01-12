@@ -165,7 +165,7 @@ def run_pipeline():
             if not guidelines:
                 # Fallback: Insert Empty Structured Row just to hold the Blob
                 cursor.execute("""
-                    INSERT INTO dosage_guidelines (med_id, source, structured_dosage, instructions)
+                    INSERT INTO dosage_guidelines (med_id, source, wikem_json_blob, wikem_instructions)
                     VALUES (?, ?, ?, ?)
                 """, (med_id, "WikEM", blob, "See detailed card for dosage information."))
                 inserted_count += 1
@@ -173,12 +173,12 @@ def run_pipeline():
                 for gl in guidelines:
                     cursor.execute("""
                         INSERT INTO dosage_guidelines (
-                            med_id, source, structured_dosage,
-                            min_dose, max_dose, dose_unit, frequency, route, 
-                            patient_category, instructions
+                            med_id, source, wikem_json_blob,
+                            wikem_min_dose, wikem_max_dose, wikem_dose_unit, wikem_frequency, wikem_route, 
+                            wikem_patient_category, wikem_instructions
                         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                     """, (
-                        med_id, "WikEM", blob, # Blob replicated for now (or could be refactored to separate table)
+                        med_id, "WikEM", blob,
                         gl["min_dose"], gl["max_dose"], gl["dose_unit"], 
                         gl["frequency"], gl["route"], gl["patient_category"], gl["instructions"]
                     ))

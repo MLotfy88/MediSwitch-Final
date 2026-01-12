@@ -1,5 +1,23 @@
 # 🎯 ملخص المشروع - January 2025
 
+### CHECKPOINT 154
+**Date:** 2026-01-12
+**Goal:** Full D1 Synchronization & Admin Dashboard Update.
+**Changes:**
+- **Deployment Pipeline**: Updated `.github/workflows/sync-d1.yml` to automatically generate D1-compatible schema from local DB and perform a "fresh" sync (Drop/Create/Insert).
+- **Schema Management**: Created `scripts/generate_d1_schema.py` to ensure Cloudflare D1 schema always mirrors the local optimization changes (including BLOBs).
+- **Admin Dashboard**: Enhanced `DosageManagement` page to display ALL database columns, including visual indicators for compressed binary data (`wikem_*`, `ncbi_*`).
+- **Scripts**: Upgraded `scripts/rebuild_d1_data.py` to support dynamic column extraction and HEX encoding for BLOB data transfer.
+
+### CHECKPOINT 153
+**Date:** 2026-01-12
+**Goal:** Database Optimization & Coverage Expansion.
+**Changes:**
+- **Compression**: Implemented zlib compression for voluminous dosage text fields (`wikem_*`, `ncbi_*`), reducing database size from 806MB to 644MB (~20% reduction).
+- **Duplicate Linking**: Recovered dosage data for 1,144 missing drugs by implementing "smart linking" (fuzzy matching active ingredients), effectively filling ~50% of the remaining coverage gap.
+- **Model Update**: Updated Flutter `DosageGuidelinesModel` to support `package:archive` for on-the-fly zlib decompression.
+- **Maintenance**: successfully Vacuumed and re-split the database into 15 optimized parts.
+
 ### CHECKPOINT 151
 **Date:** 2026-01-04
 **Goal:** Fixed dosage instruction truncation by removing hardcoded limits in extraction/patch scripts.
@@ -280,3 +298,20 @@
 
 # 🎯 ملخص المشروع - December 19, 2025
 ... (بقبة السجل السابق)
+# 🎯 ملخص المشروع - January 2026
+
+### CHECKPOINT 152
+**Date:** 2026-01-12
+**Goal:** دمج بيانات الجرعات من WikEM و NCBI وتحديث واجهة Flutter
+**Changes:**
+- **دمج بيانات WikEM**: استخراج 2,513 سجل جرعات منظمة من 364 دواء مع بيانات سريرية كاملة.
+- **دمج بيانات NCBI**: إضافة 37,080 سجل جرعات من 12,575 دواء لتغطية 69.5% من قاعدة البيانات.
+- **تحديث السكيما**: إضافة أعمدة `wikem_*` و `ncbi_*` لفصل وتتبع مصادر البيانات.
+- **تحديث Flutter UI**: تعديل `DosageTab` و `DosageGuidelinesModel` لقراءة البيانات من الأعمدة الجديدة.
+- **إزالة المصادر**: حذف كل الإشارات لأسماء المصادر (FDA, WHO, WikEM, NCBI) من الواجهة لعرض موحد.
+- **حاسبة الجرعات**: التأكد من دمج عمود `concentration` في الحسابات.
+- **السكربتات المطورة**:
+  - `scripts/wikem_scraper/wikem_parser.py` (محدث)
+  - `scripts/integrate_ncbi_fallback.py` (جديد)
+  - `scripts/verify_dosage_integration.py` (جديد)
+
