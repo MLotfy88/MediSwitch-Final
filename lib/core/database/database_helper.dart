@@ -365,11 +365,54 @@ class DatabaseHelper {
       }
     }
 
-    if (oldVersion < 27) {
+    if (oldVersion < 28) {
       _logger.i(
-        'DatabaseHelper: Upgrading to v27 - Ensuring dosage table exists...',
+        'DatabaseHelper: Upgrading to v28 - FORCE creating dosage table...',
       );
-      await _onCreate(db, newVersion);
+      await db.execute('''
+        CREATE TABLE IF NOT EXISTS $dosageTable (
+          id INTEGER PRIMARY KEY,
+          med_id INTEGER,
+          min_dose REAL,
+          max_dose REAL,
+          dose_unit TEXT,
+          frequency INTEGER,
+          duration INTEGER,
+          instructions TEXT,
+          condition TEXT,
+          source TEXT DEFAULT 'Local',
+          is_pediatric INTEGER DEFAULT 0,
+          route TEXT,
+          structured_dosage BLOB,
+          
+          -- Rich Data Fields
+          warnings TEXT,
+          contraindications TEXT,
+          adverse_reactions TEXT,
+          renal_adjustment TEXT,
+          hepatic_adjustment TEXT,
+          black_box_warning TEXT,
+          overdose_management TEXT,
+          pregnancy_category TEXT,
+          lactation_info TEXT,
+          special_populations TEXT,
+
+          -- NCBI Specific
+          ncbi_indications TEXT,
+          ncbi_administration TEXT,
+          ncbi_monitoring TEXT,
+          ncbi_mechanism TEXT,
+
+          -- Timestamps
+          created_at INTEGER DEFAULT 0,
+          updated_at INTEGER DEFAULT 0
+        )
+      ''');
+
+      // Index for faster lookups
+      await db.execute(
+        'CREATE INDEX IF NOT EXISTS idx_dosage_med_id ON $dosageTable(med_id)',
+      );
     }
 
     if (oldVersion == 0) {
