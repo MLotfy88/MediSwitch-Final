@@ -140,7 +140,7 @@ def smart_export():
 
         # Dynamic Batch Size - Reduced for HEX literal overhead
         if table == "dosage_guidelines":
-            current_batch_size = 10
+            current_batch_size = 1
         elif table in INTERACTION_TABLES:
             current_batch_size = 100
         else:
