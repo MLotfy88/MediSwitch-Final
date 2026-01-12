@@ -94,7 +94,7 @@ class DatabaseHelper {
       try {
         await Directory(dirname(path)).create(recursive: true);
 
-        // Parts list (aa to ao)
+        // Parts list (aa to an) - Reduced after orphan cleanup
         const partNames = [
           'aa',
           'ab',
@@ -110,7 +110,6 @@ class DatabaseHelper {
           'al',
           'am',
           'an',
-          'ao',
         ];
 
         // Explicitly delete old DB and any old markers to ensure clean state

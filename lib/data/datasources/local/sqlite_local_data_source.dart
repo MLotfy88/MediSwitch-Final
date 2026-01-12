@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert'; // Import dart:convert
 
+import 'package:archive/archive.dart';
 import 'package:csv/csv.dart'; // Restore csv import
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -481,12 +482,17 @@ class SqliteLocalDataSource {
     // This matches the logic of 'getFoodInteractionCounts' which groups by this column.
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.foodInteractionsTable,
-      columns: ['interaction'],
+      columns: ['interaction_blob', 'interaction'], // Fallback if still text
       where: 'ingredient = ?',
       whereArgs: [ingredient],
     );
 
-    return maps.map((e) => e['interaction'] as String).toList();
+    return maps
+        .map(
+          (e) =>
+              _decompressZlib(e['interaction_blob'] ?? e['interaction']) ?? '',
+        )
+        .toList();
   }
 
   Future<List<MedicineModel>> getDrugsWithFoodInteractions(int limit) async {
@@ -617,11 +623,16 @@ class SqliteLocalDataSource {
     final db = await dbHelper.database;
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.foodInteractionsTable,
-      columns: ['interaction'],
+      columns: ['interaction_blob', 'interaction'],
       where: 'med_id = ?',
       whereArgs: [medId],
     );
-    return maps.map((e) => e['interaction'] as String).toList();
+    return maps
+        .map(
+          (e) =>
+              _decompressZlib(e['interaction_blob'] ?? e['interaction']) ?? '',
+        )
+        .toList();
   }
 
   // Added for consistent querying by trade name (matching the counts)
@@ -632,11 +643,16 @@ class SqliteLocalDataSource {
     final db = await dbHelper.database;
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.foodInteractionsTable,
-      columns: ['interaction'],
+      columns: ['interaction_blob', 'interaction'],
       where: 'trade_name = ?',
       whereArgs: [tradeName],
     );
-    return maps.map((e) => e['interaction'] as String).toList();
+    return maps
+        .map(
+          (e) =>
+              _decompressZlib(e['interaction_blob'] ?? e['interaction']) ?? '',
+        )
+        .toList();
   }
 
   // Modified to group by Ingredient (active) as per user request
@@ -661,11 +677,45 @@ class SqliteLocalDataSource {
   ) async {
     await seedingComplete;
     final db = await dbHelper.database;
-    return await db.query(
+    final List<Map<String, dynamic>> rawMaps = await db.query(
       DatabaseHelper.foodInteractionsTable,
       where: 'med_id = ?',
       whereArgs: [medId],
     );
+
+    // Decompress blobs for detailed view
+    return rawMaps.map((map) {
+      final newMap = Map<String, dynamic>.from(map);
+      newMap['interaction'] = _decompressZlib(
+        map['interaction_blob'] ?? map['interaction'],
+      );
+      newMap['management_text'] = _decompressZlib(
+        map['management_text_blob'] ?? map['management_text'],
+      );
+      newMap['mechanism_text'] = _decompressZlib(
+        map['mechanism_text_blob'] ?? map['mechanism_text'],
+      );
+      return newMap;
+    }).toList();
+  }
+
+  /// Helper to decompress ZLIB data (BLOB to String)
+  String? _decompressZlib(dynamic data) {
+    if (data == null) return null;
+    if (data is String) return data;
+    if (data is List<int>) {
+      try {
+        final decoded = const ZLibDecoder().decodeBytes(data);
+        return utf8.decode(decoded);
+      } catch (e) {
+        try {
+          return utf8.decode(data, allowMalformed: true);
+        } catch (_) {
+          return null;
+        }
+      }
+    }
+    return null;
   }
 
   Future<List<Map<String, dynamic>>> getHighRiskIngredientsWithMetrics({

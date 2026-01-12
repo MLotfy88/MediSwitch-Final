@@ -116,7 +116,6 @@ flutter:
     - assets/database/parts/mediswitch.db.part-al
     - assets/database/parts/mediswitch.db.part-am
     - assets/database/parts/mediswitch.db.part-an
-    - assets/database/parts/mediswitch.db.part-ao
     - assets/images/ # Added for logo and other images
     - assets/icon/ # Added for app icon
     - assets/icons/medical/ # Medical specialty SVG icons from healthicons.org

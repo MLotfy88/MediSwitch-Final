@@ -33,12 +33,18 @@ class DrugInteractionModel extends DrugInteraction {
       ingredient1: json['ingredient1'] as String? ?? '',
       ingredient2: json['ingredient2'] as String? ?? '',
       severity: json['severity'] as String? ?? 'Moderate',
-      effect: json['effect'] as String?,
+      effect: _decompress(json['effect_blob'] ?? json['effect']),
       arabicEffect: json['arabic_effect'] as String?,
-      recommendation: json['recommendation'] as String?,
+      recommendation: _decompress(
+        json['recommendation_blob'] ?? json['recommendation'],
+      ),
       arabicRecommendation: json['arabic_recommendation'] as String?,
-      managementText: _decompress(json['management_text']),
-      mechanismText: _decompress(json['mechanism_text']),
+      managementText: _decompress(
+        json['management_text_blob'] ?? json['management_text'],
+      ),
+      mechanismText: _decompress(
+        json['mechanism_text_blob'] ?? json['mechanism_text'],
+      ),
       riskLevel: json['risk_level'] as String?,
       ddinterId: json['ddinter_id'] as String? ?? json['ddinterId'] as String?,
       alternativesA: DrugInteraction.parseAlternatives(json['alternatives_a']),

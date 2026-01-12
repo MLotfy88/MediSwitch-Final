@@ -25,7 +25,11 @@ class DiseaseInteractionModel extends DiseaseInteraction {
       medId: json['med_id'] as int? ?? 0,
       tradeName: json['trade_name'] as String? ?? '',
       diseaseName: json['disease_name'] as String? ?? 'Unknown Disease',
-      interactionText: _decompress(json['interaction_text']) ?? '',
+      interactionText:
+          _decompress(
+            json['interaction_text_blob'] ?? json['interaction_text'],
+          ) ??
+          '',
       severity: json['severity'] as String? ?? 'Major',
       source: json['source'] as String? ?? 'DDInter',
     );

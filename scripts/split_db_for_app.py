@@ -1,6 +1,8 @@
 import os
 import math
 
+import shutil
+
 DB_PATH = "assets/database/mediswitch.db"
 OUTPUT_DIR = "assets/database/parts"
 CHUNK_SIZE_MB = 45 # Slightly under 50MB to be safe and fit GitHub's 100MB limit easily
@@ -10,9 +12,13 @@ def split_database():
         print(f"Database file not found at {DB_PATH}")
         return
 
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
-        print(f"Created directory {OUTPUT_DIR}")
+    # Clean previous parts
+    if os.path.exists(OUTPUT_DIR):
+        print(f"Cleaning existing parts in {OUTPUT_DIR}...")
+        shutil.rmtree(OUTPUT_DIR)
+    
+    os.makedirs(OUTPUT_DIR)
+    print(f"Created directory {OUTPUT_DIR}")
 
     file_size = os.path.getsize(DB_PATH)
     print(f"Database size: {file_size / (1024*1024):.2f} MB")
