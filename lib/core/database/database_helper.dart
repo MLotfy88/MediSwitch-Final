@@ -64,6 +64,10 @@ class DatabaseHelper {
     _initCompleter = Completer<Database>();
     try {
       _database = await _initDatabase();
+      // SELF-HEALING: Verify critical tables exist regardless of version
+      if (_database != null) {
+        await _ensureCriticalTablesExist(_database!);
+      }
       _initCompleter!.complete(_database);
     } catch (e) {
       _initCompleter!.completeError(e);
@@ -417,6 +421,83 @@ class DatabaseHelper {
 
     if (oldVersion == 0) {
       await _onCreate(db, newVersion);
+    }
+  }
+
+  // Robust check to create tables if migration failed/skipped
+  Future<void> _ensureCriticalTablesExist(Database db) async {
+    try {
+      // Check for Dosage Table
+      final dosageCount = Sqflite.firstIntValue(
+        await db.rawQuery(
+          "SELECT count(*) FROM sqlite_master WHERE type='table' AND name='$dosageTable'",
+        ),
+      );
+
+      if (dosageCount == 0) {
+        _logger.w('Self-Healing: dosage_guidelines table missing. Creating...');
+        await db.execute('''
+        CREATE TABLE IF NOT EXISTS $dosageTable (
+          id INTEGER PRIMARY KEY,
+          med_id INTEGER,
+          min_dose REAL,
+          max_dose REAL,
+          dose_unit TEXT,
+          frequency INTEGER,
+          duration INTEGER,
+          instructions TEXT,
+          condition TEXT,
+          source TEXT DEFAULT 'Local',
+          is_pediatric INTEGER DEFAULT 0,
+          route TEXT,
+          structured_dosage BLOB,
+          
+          warnings TEXT,
+          contraindications TEXT,
+          adverse_reactions TEXT,
+          renal_adjustment TEXT,
+          hepatic_adjustment TEXT,
+          black_box_warning TEXT,
+          overdose_management TEXT,
+          pregnancy_category TEXT,
+          lactation_info TEXT,
+          special_populations TEXT,
+
+          ncbi_indications TEXT,
+          ncbi_administration TEXT,
+          ncbi_monitoring TEXT,
+          ncbi_mechanism TEXT,
+
+          created_at INTEGER DEFAULT 0,
+          updated_at INTEGER DEFAULT 0
+        )
+      ''');
+        await db.execute(
+          'CREATE INDEX IF NOT EXISTS idx_dosage_med_id ON $dosageTable(med_id)',
+        );
+      }
+
+      // Check for Home Cache Table
+      final cacheCount = Sqflite.firstIntValue(
+        await db.rawQuery(
+          "SELECT count(*) FROM sqlite_master WHERE type='table' AND name='$homeCacheTable'",
+        ),
+      );
+
+      if (cacheCount == 0) {
+        _logger.w(
+          'Self-Healing: home_sections_cache table missing. Creating...',
+        );
+        await db.execute('''
+          CREATE TABLE IF NOT EXISTS $homeCacheTable (
+            "key" TEXT PRIMARY KEY,
+            data TEXT,
+            updated_at INTEGER
+          )
+        ''');
+      }
+    } catch (e) {
+      _logger.e('Error in self-healing table check: $e');
     }
   }
 }
