@@ -712,13 +712,19 @@ class SqliteLocalDataSource {
     }).toList();
   }
 
-  /// Helper to decompress ZLIB data (BLOB to String)
+  /// Helper to decompress ZLIB data (BLOB to String) - Recursive support
   String? _decompressZlib(dynamic data) {
     if (data == null) return null;
     if (data is String) return data;
     if (data is List<int>) {
       try {
         final decoded = const ZLibDecoder().decodeBytes(data);
+        // Check if the result looks like another ZLIB stream (starts with 0x78)
+        if (decoded.length >= 2 &&
+            decoded[0] == 0x78 &&
+            (decoded[1] == 0x9C || decoded[1] == 0x01 || decoded[1] == 0xDA)) {
+          return _decompressZlib(decoded); // Recursive call
+        }
         return utf8.decode(decoded);
       } catch (e) {
         try {

@@ -1,5 +1,6 @@
-import 'package:archive/archive.dart';
 import 'dart:convert';
+
+import 'package:archive/archive.dart';
 
 import '../../domain/entities/dosage_guidelines.dart';
 
@@ -81,26 +82,25 @@ class DosageGuidelinesModel extends DosageGuidelines {
     );
   }
 
-  /// Helper to decompress ZLIB data if needed
+  /// Helper to decompress ZLIB data if needed - Recursive support
   static String? _decompress(dynamic data) {
     if (data == null) return null;
-    if (data is String)
-      return data; // Already string (legacy or not compressed)
+    if (data is String) return data;
 
     if (data is List) {
       try {
         final bytes = data.cast<int>();
         if (bytes.isEmpty) return null;
 
-        // ZLIB header check (78 9C etc) roughly, or just try decode
-        // Since we compressed with python zlib (which uses zlib format),
-        // we use ZLibDecoder from archive package
         final decoded = const ZLibDecoder().decodeBytes(bytes);
+        // Recursive check for nested compression
+        if (decoded.length >= 2 &&
+            decoded[0] == 0x78 &&
+            (decoded[1] == 0x9C || decoded[1] == 0x01 || decoded[1] == 0xDA)) {
+          return _decompress(decoded);
+        }
         return utf8.decode(decoded);
       } catch (e) {
-        // Fallback or print error?
-        // If it fails, maybe it wasn't compressed or different format.
-        // But for this specific DB update, we know it is zlib.
         print('Error decompressing dosage field: $e');
         return null;
       }

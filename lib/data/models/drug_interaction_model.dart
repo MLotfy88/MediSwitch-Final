@@ -57,13 +57,22 @@ class DrugInteractionModel extends DrugInteraction {
     );
   }
 
-  // ZLIB Decompression Helper
+  // ZLIB Decompression Helper with Recursive support
   static String? _decompress(dynamic content) {
     if (content == null) return null;
     if (content is String) return content;
     if (content is List<int>) {
       try {
-        return utf8.decode(ZLibDecoder().decodeBytes(content));
+        final decompressed = ZLibDecoder().decodeBytes(content);
+        // Check if the result looks like another ZLIB stream (starts with 0x78)
+        if (decompressed.length >= 2 &&
+            decompressed[0] == 0x78 &&
+            (decompressed[1] == 0x9C ||
+                decompressed[1] == 0x01 ||
+                decompressed[1] == 0xDA)) {
+          return _decompress(decompressed); // Recursive call
+        }
+        return utf8.decode(decompressed);
       } catch (e) {
         try {
           return utf8.decode(content, allowMalformed: true);
