@@ -97,7 +97,6 @@ def inject_all_data():
         first_char = clean_ing[0].upper() if clean_ing[0].isalpha() else '#'
         ncbi_file = NCBI_DATA_DIR / first_char / f"{clean_ing}.json"
         
-<<<<<<< Updated upstream
         # Load Data
         wikem_data = None
         if wikem_file:
@@ -105,27 +104,15 @@ def inject_all_data():
                 with open(wikem_file) as f: wikem_data = json.load(f)
             except Exception: pass
             
-=======
-        # 2. Load NCBI data (if exists)
-        # Search strategy: Clean name -> First Letter -> File
->>>>>>> Stashed changes
         ncbi_data = None
         
         # Normalize name for file search (same as scraper)
-        safe_name = drug_name.replace('_', ' ').title().replace(' ', '_').replace('/', '_')
+        safe_name = ingredient.replace('_', ' ').title().replace(' ', '_').replace('/', '_')
         first_letter = safe_name[0].upper() if safe_name[0].isalpha() else '#'
         
         ncbi_file = NCBI_DATA_DIR / first_letter / f"{safe_name}.json"
         
         if ncbi_file.exists():
-<<<<<<< Updated upstream
-            try:
-                with open(ncbi_file) as f: ncbi_data = json.load(f)
-            except Exception: pass
-            
-        if not ncbi_data and not wikem_data:
-            stats['none'] += 1
-=======
             with open(ncbi_file, 'r', encoding='utf-8') as f:
                 ncbi_data = json.load(f)
         else:
@@ -137,7 +124,7 @@ def inject_all_data():
         
         # Skip if no data from either source
         if not wikem_data and not ncbi_data:
->>>>>>> Stashed changes
+            stats['none'] += 1
             continue
 
         # Determine Source
