@@ -138,8 +138,13 @@ def smart_export():
         else:
             target_dir = os.path.join(CHUNK_DIR, "main")
 
-        # Dynamic Batch Size
-        current_batch_size = 50 if table == "dosage_guidelines" else 200
+        # Dynamic Batch Size - Reduced for HEX literal overhead
+        if table == "dosage_guidelines":
+            current_batch_size = 10
+        elif table in INTERACTION_TABLES:
+            current_batch_size = 100
+        else:
+            current_batch_size = 200
         
         # Get columns
         c = conn.execute(f"SELECT * FROM {table} LIMIT 1")
