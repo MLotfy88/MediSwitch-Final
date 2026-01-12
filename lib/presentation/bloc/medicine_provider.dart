@@ -12,9 +12,9 @@ import 'package:mediswitch/core/services/unified_sync_service.dart';
 import 'package:mediswitch/core/usecases/usecase.dart';
 import 'package:mediswitch/core/utils/category_mapper_helper.dart';
 import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
-import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
 import 'package:mediswitch/data/models/medicine_model.dart';
 import 'package:mediswitch/domain/entities/category_entity.dart';
+import 'package:mediswitch/domain/entities/dosage_guidelines.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
 import 'package:mediswitch/domain/entities/high_risk_ingredient.dart';
@@ -1259,12 +1259,28 @@ class MedicineProvider extends ChangeNotifier {
     }
   }
 
-  Future<List<DosageGuidelinesModel>> getDosageGuidelines(int medId) async {
-    // Directly access local data source for dosage guidelines
-    // Since this is specific to the local SQLite DB "Dosage Guidelines" table.
+  Future<List<DosageGuidelines>> getDosageGuidelines(int medId) async {
+    // UPDATED: Use Repository to enable API Fallback
     try {
       if (medId == 0) return [];
-      return await _localDataSource.getDosageGuidelines(medId);
+      // Create a temporary entity with just ID for the repo lookup
+      // The repo mainly needs ID for API/DB lookup. Trade Name is logging only.
+      final tempDrug = DrugEntity(
+        id: medId,
+        tradeName: 'Drug#$medId', // identifying for logs
+        active: '',
+        category: '',
+        company: '',
+        arabicName: '',
+        price: '',
+        dosageForm: '',
+        concentration: '',
+        unit: '',
+        usage: '',
+        lastPriceUpdate: '',
+      );
+
+      return await _interactionRepository.getDosageGuidelines(tempDrug);
     } catch (e) {
       _logger.e("Error fetching dosage guidelines: $e");
       return [];

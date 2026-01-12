@@ -8,7 +8,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/constants/app_spacing.dart';
 import 'package:mediswitch/core/utils/dosage_parser.dart';
-import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
+import 'package:mediswitch/domain/entities/dosage_guidelines.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
@@ -29,7 +29,7 @@ class DosageTab extends StatelessWidget {
 
     return SingleChildScrollView(
       padding: AppSpacing.edgeInsetsAllMedium,
-      child: FutureBuilder<List<DosageGuidelinesModel>>(
+      child: FutureBuilder<List<DosageGuidelines>>(
         future: Provider.of<MedicineProvider>(
           context,
           listen: false,
@@ -100,7 +100,7 @@ class DosageTab extends StatelessWidget {
                 const SizedBox(height: 16),
                 _SafetyAlertCard(
                   title: isAr ? 'تحذير خطير (Boxed Warning)' : 'Boxed Warning',
-                  content: primary.blackBoxWarning!,
+                  content: primary!.blackBoxWarning ?? '',
                   icon: LucideIcons.alertTriangle,
                   color: Colors.red,
                   isAr: isAr,
@@ -112,7 +112,7 @@ class DosageTab extends StatelessWidget {
                 const SizedBox(height: 16),
                 _SafetyAlertCard(
                   title: isAr ? 'تعديل جرعة الكلى' : 'Renal Adjustment',
-                  content: primary.renalAdjustment!,
+                  content: primary!.renalAdjustment ?? '',
                   icon: LucideIcons.filter,
                   color: Colors.purple,
                   isAr: isAr,
@@ -124,7 +124,7 @@ class DosageTab extends StatelessWidget {
                 const SizedBox(height: 16),
                 _SafetyAlertCard(
                   title: isAr ? 'تعديل جرعة الكبد' : 'Hepatic Adjustment',
-                  content: primary.hepaticAdjustment!,
+                  content: primary!.hepaticAdjustment ?? '',
                   icon: LucideIcons.activity,
                   color: Colors.brown,
                   isAr: isAr,
@@ -136,7 +136,7 @@ class DosageTab extends StatelessWidget {
                 const SizedBox(height: 16),
                 _SafetyAlertCard(
                   title: isAr ? 'موانع الاستعمال' : 'Contraindications',
-                  content: primary.contraindications!,
+                  content: primary!.contraindications ?? '',
                   icon: LucideIcons.ban,
                   color: Colors.redAccent,
                   isAr: isAr,
@@ -148,7 +148,7 @@ class DosageTab extends StatelessWidget {
                 const SizedBox(height: 16),
                 _SafetyAlertCard(
                   title: isAr ? 'تحذيرات' : 'Warnings',
-                  content: primary.warnings!,
+                  content: primary!.warnings ?? '',
                   icon: LucideIcons.alertCircle,
                   color: Colors.orange[800]!,
                   isAr: isAr,
@@ -160,7 +160,7 @@ class DosageTab extends StatelessWidget {
                 const SizedBox(height: 16),
                 _SafetyAlertCard(
                   title: isAr ? 'الأعراض الجانبية' : 'Adverse Reactions',
-                  content: primary.adverseReactions!,
+                  content: primary!.adverseReactions ?? '',
                   icon: LucideIcons.frown,
                   color: Colors.grey[700]!,
                   isAr: isAr,
@@ -174,7 +174,7 @@ class DosageTab extends StatelessWidget {
                 const SizedBox(height: 16),
                 _SafetyAlertCard(
                   title: isAr ? 'دواعي الاستعمال' : 'Indications & Usage',
-                  content: primary.ncbiIndications!,
+                  content: primary!.ncbiIndications ?? '',
                   icon: LucideIcons.stethoscope,
                   color: Colors.blue,
                   isAr: isAr,
@@ -187,7 +187,7 @@ class DosageTab extends StatelessWidget {
                 const SizedBox(height: 16),
                 _SafetyAlertCard(
                   title: isAr ? 'آلية العمل' : 'Mechanism of Action',
-                  content: primary.ncbiMechanism!,
+                  content: primary!.ncbiMechanism ?? '',
                   icon: LucideIcons.zap,
                   color: Colors.amber[800]!,
                   isAr: isAr,
@@ -200,7 +200,7 @@ class DosageTab extends StatelessWidget {
                 const SizedBox(height: 16),
                 _SafetyAlertCard(
                   title: isAr ? 'المراقبة' : 'Monitoring Parameters',
-                  content: primary.ncbiMonitoring!,
+                  content: primary!.ncbiMonitoring ?? '',
                   icon: LucideIcons.eye,
                   color: Colors.teal[700]!,
                   isAr: isAr,
@@ -213,7 +213,7 @@ class DosageTab extends StatelessWidget {
                 const SizedBox(height: 16),
                 _SafetyAlertCard(
                   title: isAr ? 'طريقة الإعطاء' : 'Administration',
-                  content: primary.ncbiAdministration!,
+                  content: primary!.ncbiAdministration ?? '',
                   icon: LucideIcons.syringe,
                   color: Colors.indigo,
                   isAr: isAr,
@@ -512,7 +512,7 @@ class _StandardDoseCard extends StatelessWidget {
     this.concentration,
   });
 
-  final DosageGuidelinesModel? guideline;
+  final DosageGuidelines? guideline;
   final String drugForm;
   final bool isAr;
   final String? concentration;
@@ -626,7 +626,7 @@ class _StandardDoseCard extends StatelessWidget {
     );
   }
 
-  String _formatDoseRange(DosageGuidelinesModel g) {
+  String _formatDoseRange(DosageGuidelines g) {
     if (g.minDose == null) return '-';
     if (g.maxDose != null && g.minDose != null && g.maxDose! > g.minDose!) {
       return '${g.minDose!.toStringAsFixed(0)}-${g.maxDose!.toStringAsFixed(0)} mg';
