@@ -1226,6 +1226,24 @@ class SqliteLocalDataSource {
     );
   }
 
+  /// Save dosage guidelines from API
+  Future<void> saveDosageGuidelines(List<Map<String, dynamic>> dosages) async {
+    if (dosages.isEmpty) return;
+    final db = await dbHelper.database;
+    final batch = db.batch();
+    for (final dosage in dosages) {
+      batch.insert(
+        DatabaseHelper.dosageTable,
+        dosage,
+        conflictAlgorithm: ConflictAlgorithm.replace,
+      );
+    }
+    await batch.commit(noResult: true);
+    _logger.i(
+      '[SqliteLocalDataSource] Cached ${dosages.length} dosage guidelines.',
+    );
+  }
+
   /// Get list of ingredients that have food interactions locally
   Future<Set<String>> getLocalFoodInteractionIngredients() async {
     final db = await dbHelper.database;

@@ -220,7 +220,30 @@ class InteractionRepositoryImpl implements InteractionRepository {
   Future<List<DosageGuidelines>> getDosageGuidelines(DrugEntity drug) async {
     if (drug.id == null) return [];
     try {
-      return await localDataSource.getDosageGuidelines(drug.id!);
+      // 1. Try Local Cache first
+      var guidelines = await localDataSource.getDosageGuidelines(drug.id!);
+
+      // 2. If empty and has connection, try API (Hybrid Mode)
+      if (guidelines.isEmpty) {
+        _logger.i(
+          '[InteractionRepo] No local dosages for ${drug.tradeName}, fetching from API...',
+        );
+        try {
+          final remoteData = await remoteDataSource
+              .getDosageGuidelines(drug.id!)
+              .timeout(const Duration(seconds: 10));
+          if (remoteData.isNotEmpty) {
+            // Save to local cache
+            await localDataSource.saveDosageGuidelines(remoteData);
+            // Re-fetch from local to get proper models
+            guidelines = await localDataSource.getDosageGuidelines(drug.id!);
+          }
+        } catch (e) {
+          _logger.w('[InteractionRepo] Dosage API fetch failed: $e');
+        }
+      }
+
+      return guidelines;
     } catch (e) {
       debugPrint('Error getting dosage guidelines: $e');
       return [];
