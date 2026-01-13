@@ -1,0 +1,163 @@
+{
+  "timestamp": "2026-01-13T20:19:00.469211",
+  "ingredients_validated": 0,
+  "cross_source_checks": [],
+  "logical_issues": [
+    {
+      "drug": "1 2 3 (one two three) 20 f.c.tabs.",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "1 2 3 (one two three) 20 f.c.tabs.",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "1 2 3 (one two three) 20 f.c.tabs.",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Abimol extra 20 tab.",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Acetaprofen 120ml susp.",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Acetaprofen 120ml susp.",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Adol sinus 24 caplets",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Adol sinus 24 caplets",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Cetafen plus 30 tab.",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Cetafen plus 30 tab.",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Cetafen plus 30 tab.",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Cetafen plus 30 tab.",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Fortalgin 10mg 10 tab",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Fortalgin 10mg 10 tab",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Glasbiflu 20 tablets",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Glasbiflu 20 tablets",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Glasbiflu 20 tablets",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Grippostad 20 caps",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Grippostad 20 caps",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Grippostad 20 caps",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Grippostad 20 caps",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    },
+    {
+      "drug": "Grippostad 20 caps",
+      "ingredient": "Paracetamol",
+      "issues": [
+        "❌ No numeric dose AND no text instructions"
+      ]
+    }
+  ],
+  "interaction_issues": [],
+  "samples_for_review": []
+}
