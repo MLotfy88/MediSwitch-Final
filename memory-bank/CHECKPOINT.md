@@ -1,5 +1,15 @@
 # 🎯 ملخص المشروع - January 2025
 
+### CHECKPOINT 155
+**Date:** 2026-01-13
+**Goal:** Dosage UI Redesign & D1 Sync Repair.
+**Changes:**
+- **D1 Sync**: Fixed `UNIQUE constraint` error by excluding local autoincrement IDs from sync.
+- **Large Records**: Resolved `SQLITE_TOOBIG` for MedID 24820 by implementing a 10KB (binary) truncation limit for SQL statement safety.
+- **Dosage UI**: Enhanced `DosageTab` by replacing the gradient background with theme-standard cards and adding a structured grid for WikEM data (Route, Category, Dose, Frequency).
+- **Redundancy**: Implemented logic to hide the "Clinical Guidelines" section if instructions are already displayed as the main "Hero" content.
+- **Code Stability**: Fixed structural Dart syntax errors in `dosage_tab.dart`.
+
 ### CHECKPOINT 154
 **Date:** 2026-01-12
 **Goal:** Full D1 Synchronization & Admin Dashboard Update.

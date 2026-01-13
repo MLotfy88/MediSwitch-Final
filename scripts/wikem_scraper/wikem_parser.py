@@ -163,25 +163,61 @@ def run_pipeline():
             # If no parsed lines found, Insert at least ONE row with just the BLOB
             
             if not guidelines:
-                # Fallback: Insert Empty Structured Row just to hold the Blob
-                cursor.execute("""
-                    INSERT INTO dosage_guidelines (med_id, source, wikem_json_blob, wikem_instructions)
-                    VALUES (?, ?, ?, ?)
-                """, (med_id, "WikEM", blob, "See detailed card for dosage information."))
+                # Fallback: Insert/Update Empty Structured Row just to hold the Blob
+                cursor.execute("SELECT id FROM dosage_guidelines WHERE med_id = ?", (med_id,))
+                existing_row = cursor.fetchone()
+                
+                if existing_row:
+                    cursor.execute("""
+                        UPDATE dosage_guidelines 
+                        SET source = source || ' + WikEM', 
+                            wikem_json_blob = ?, 
+                            wikem_instructions = ?
+                        WHERE id = ?
+                    """, (blob, "See detailed card for dosage information.", existing_row[0]))
+                else:
+                    cursor.execute("""
+                        INSERT INTO dosage_guidelines (med_id, source, wikem_json_blob, wikem_instructions)
+                        VALUES (?, ?, ?, ?)
+                    """, (med_id, "WikEM", blob, "See detailed card for dosage information."))
                 inserted_count += 1
             else:
                 for gl in guidelines:
-                    cursor.execute("""
-                        INSERT INTO dosage_guidelines (
-                            med_id, source, wikem_json_blob,
-                            wikem_min_dose, wikem_max_dose, wikem_dose_unit, wikem_frequency, wikem_route, 
-                            wikem_patient_category, wikem_instructions
-                        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                    """, (
-                        med_id, "WikEM", blob,
-                        gl["min_dose"], gl["max_dose"], gl["dose_unit"], 
-                        gl["frequency"], gl["route"], gl["patient_category"], gl["instructions"]
-                    ))
+                    # Strategy: Try to update an existing row first (e.g., matching med_id)
+                    # Issue: One med_id might have multiple dosage rows (e.g. diff indications)
+                    # Optimized Strategy: Update the FIRST row for this med_id with WikEM data content
+                    # Then Insert the rest as new rows if multiple WikEM guidelines exist
+                    
+                    cursor.execute("SELECT id FROM dosage_guidelines WHERE med_id = ? AND wikem_instructions IS NULL LIMIT 1", (med_id,))
+                    target_row = cursor.fetchone()
+                    
+                    if target_row:
+                        cursor.execute("""
+                            UPDATE dosage_guidelines 
+                            SET source = source || ' + WikEM',
+                                wikem_json_blob = ?,
+                                wikem_min_dose = ?, wikem_max_dose = ?, wikem_dose_unit = ?, 
+                                wikem_frequency = ?, wikem_route = ?, wikem_patient_category = ?, 
+                                wikem_instructions = ?
+                            WHERE id = ?
+                        """, (
+                            blob,
+                            gl["min_dose"], gl["max_dose"], gl["dose_unit"], 
+                            gl["frequency"], gl["route"], gl["patient_category"], gl["instructions"],
+                            target_row[0]
+                        ))
+                    else:
+                        cursor.execute("""
+                            INSERT INTO dosage_guidelines (
+                                med_id, source, wikem_json_blob,
+                                wikem_min_dose, wikem_max_dose, wikem_dose_unit, wikem_frequency, wikem_route, 
+                                wikem_patient_category, wikem_instructions
+                            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        """, (
+                            med_id, "WikEM", blob,
+                            gl["min_dose"], gl["max_dose"], gl["dose_unit"], 
+                            gl["frequency"], gl["route"], gl["patient_category"], gl["instructions"]
+                        ))
                     inserted_count += 1
             
             processed_count += 1

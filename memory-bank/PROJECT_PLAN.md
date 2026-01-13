@@ -169,6 +169,10 @@
 - [x] **تحديث Flutter**: تعديل DosageTab و Models لقراءة البيانات الجديدة
 - [x] **إزالة Attribution**: حذف كل إشارات أسماء المصادر من الواجهة
 - [x] **التحقق**: تأكيد تغطية 69.5% من قاعدة البيانات (17,745 من 25,538 دواء)
+- [x] **Phase 17: Dosage UI & D1 Sync Repair** (Jan 13, 2026)
+    - [x] **D1 Repair**: Resolved `UNIQUE constraint` by excluding local IDs and `SQLITE_TOOBIG` by truncating blobs (10KB limit).
+    - [x] **UI Enhancement**: Removed gradient, added structured cards (Route, Category, Dose, Freq), and deduplicated instructions.
+    - [x] **Structural Fix**: Repaired Dart syntax errors in `dosage_tab.dart`.
 
 ---
 

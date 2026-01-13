@@ -79,7 +79,11 @@ class DosageTab extends StatelessWidget {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(LucideIcons.fileX, size: 48, color: Colors.grey),
+                      const Icon(
+                        LucideIcons.fileX,
+                        size: 48,
+                        color: Colors.grey,
+                      ),
                       const SizedBox(height: 16),
                       Text(
                         isAr
@@ -105,21 +109,25 @@ class DosageTab extends StatelessWidget {
                 int currScore = 0;
                 int nextScore = 0;
 
-                if (curr.blackBoxWarning?.isNotEmpty == true) currScore += 5;
-                if (curr.contraindications?.isNotEmpty == true) currScore += 2;
-                if (curr.warnings?.isNotEmpty == true) currScore += 1;
-                if (curr.adverseReactions?.isNotEmpty == true) currScore += 1;
+                if (curr.blackBoxWarning?.isNotEmpty ?? false) currScore += 5;
+                if (curr.contraindications?.isNotEmpty ?? false) currScore += 2;
+                if (curr.warnings?.isNotEmpty ?? false) currScore += 1;
+                if (curr.adverseReactions?.isNotEmpty ?? false) currScore += 1;
 
-                if (next.blackBoxWarning?.isNotEmpty == true) nextScore += 5;
-                if (next.contraindications?.isNotEmpty == true) nextScore += 2;
-                if (next.warnings?.isNotEmpty == true) nextScore += 1;
-                if (next.adverseReactions?.isNotEmpty == true) nextScore += 1;
+                if (next.blackBoxWarning?.isNotEmpty ?? false) nextScore += 5;
+                if (next.contraindications?.isNotEmpty ?? false) nextScore += 2;
+                if (next.warnings?.isNotEmpty ?? false) nextScore += 1;
+                if (next.adverseReactions?.isNotEmpty ?? false) nextScore += 1;
 
                 return currScore >= nextScore ? curr : next;
               } catch (e) {
                 return curr; // Fallback
               }
             });
+
+            final heroInstruction = primary.instructions;
+            final showInstructionAsHero =
+                heroInstruction != null && heroInstruction.length > 20;
 
             return Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -129,6 +137,7 @@ class DosageTab extends StatelessWidget {
                   drugForm: drug.dosageForm,
                   isAr: isAr,
                   concentration: drug.concentration,
+                  showInstructionAsHero: showInstructionAsHero,
                 ),
                 const SizedBox(height: 16),
                 if (drug.concentration.isNotEmpty)
@@ -139,7 +148,8 @@ class DosageTab extends StatelessWidget {
                     isAr: isAr,
                   ),
                 if (primary.instructions != null &&
-                    primary.instructions!.isNotEmpty) ...[
+                    primary.instructions!.isNotEmpty &&
+                    !showInstructionAsHero) ...[
                   const SizedBox(height: 16),
                   _InstructionsCard(
                     instructions: primary.instructions!,
@@ -351,7 +361,7 @@ class _StructuredDosageViewState extends State<_StructuredDosageView> {
         // Header for the new section
         Row(
           children: [
-            Icon(LucideIcons.sparkles, size: 18, color: Colors.blue),
+            const Icon(LucideIcons.sparkles, size: 18, color: Colors.blue),
             const SizedBox(width: 8),
             Text(
               widget.isAr ? 'الجرعات الذكية' : 'Smart Dosages',
@@ -365,8 +375,9 @@ class _StructuredDosageViewState extends State<_StructuredDosageView> {
         const SizedBox(height: 12),
 
         ...uiSections.map((section) {
-          if (section['type'] == 'table_cards') {
-            final cards = section['data'] as List<dynamic>;
+          final s = section as Map<String, dynamic>;
+          if (s['type'] == 'table_cards') {
+            final cards = s['data'] as List<dynamic>;
             return Column(
               children:
                   cards
@@ -380,7 +391,7 @@ class _StructuredDosageViewState extends State<_StructuredDosageView> {
             );
           }
           return const SizedBox.shrink();
-        }).toList(),
+        }),
       ],
     );
   }
@@ -408,7 +419,7 @@ class _FocusedDosageCardState extends State<_FocusedDosageCard> {
     final hero = data['hero_dose'] as String?;
     final contextTitle =
         data['Indication/Context'] ?? data['Population'] ?? 'Dosage Info';
-    final String instruction =
+    final instruction =
         (data['Dosage Instruction'] ?? data.values.join('\n')).toString();
     final maxDose = data['max_dose_constraint'];
 
@@ -573,6 +584,7 @@ class _StandardDoseCard extends StatelessWidget {
     required this.guideline,
     required this.drugForm,
     required this.isAr,
+    required this.showInstructionAsHero,
     this.concentration,
   });
 
@@ -580,6 +592,7 @@ class _StandardDoseCard extends StatelessWidget {
   final String drugForm;
   final bool isAr;
   final String? concentration;
+  final bool showInstructionAsHero;
 
   @override
   Widget build(BuildContext context) {
@@ -589,11 +602,7 @@ class _StandardDoseCard extends StatelessWidget {
     // Logic to avoid generic data
     final hasValidDose = guideline?.minDose != null && guideline!.minDose! > 0;
 
-    // "Hero" Content is the Instructions if available (WikEM protocol)
-    // If not, it falls back to a structured dose summary
     final heroInstruction = guideline?.instructions;
-    final bool showInstructionAsHero =
-        heroInstruction != null && heroInstruction.length > 20;
 
     // If neither hero instructions nor numeric limits exist, do NOT render the card.
     if (!showInstructionAsHero && !hasValidDose) {
@@ -605,15 +614,8 @@ class _StandardDoseCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: theme.cardColor,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: appColors.border.withValues(alpha: 0.3)),
-        gradient: LinearGradient(
-          colors: [
-            theme.colorScheme.primary.withValues(alpha: 0.05),
-            theme.colorScheme.surface,
-          ],
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-        ),
+        border: Border.all(color: appColors.border.withValues(alpha: 0.5)),
+        boxShadow: appColors.shadowCard, // Match app theme
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -641,11 +643,10 @@ class _StandardDoseCard extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
-                color: theme.colorScheme.primary.withValues(alpha: 0.05),
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(
-                  color: theme.colorScheme.primary.withValues(alpha: 0.1),
+                color: theme.colorScheme.surfaceContainerHighest.withValues(
+                  alpha: 0.3,
                 ),
+                borderRadius: BorderRadius.circular(8),
               ),
               child: Text(
                 heroInstruction!,
@@ -659,34 +660,59 @@ class _StandardDoseCard extends StatelessWidget {
             const SizedBox(height: 16),
           ],
 
-          // 2. Numeric Summary (Only if valid and makes sense)
-          // Hide if just "As directed" or useless
-          if (hasValidDose) ...[
-            Row(
+          // 2. Structured Data Grid
+          if (hasValidDose || guideline?.route != null) ...[
+            Wrap(
+              spacing: 12,
+              runSpacing: 12,
               children: [
-                Expanded(
-                  child: _BigNumberCard(
+                if (guideline?.route != null)
+                  _SmallInfoCard(
+                    label: isAr ? 'الطريق' : 'Route',
+                    value: guideline!.route!,
+                    icon: LucideIcons.syringe,
+                    color: Colors.purple,
+                    isAr: isAr,
+                  ),
+
+                // Category
+                if (guideline?.isPediatric == true)
+                  _SmallInfoCard(
+                    label: isAr ? 'الفئة' : 'Category',
+                    value: isAr ? 'أطفال' : 'Pediatric',
+                    icon: LucideIcons.baby,
+                    color: Colors.pink,
+                    isAr: isAr,
+                  )
+                else if (guideline?.condition != null &&
+                    guideline!.condition != 'Adult')
+                  _SmallInfoCard(
+                    label: isAr ? 'الحالة' : 'Condition',
+                    value: guideline!.condition!,
+                    icon: LucideIcons.activity,
+                    color: Colors.blue,
+                    isAr: isAr,
+                  ),
+
+                // Min-Max Dose
+                if (hasValidDose)
+                  _SmallInfoCard(
                     label: isAr ? 'الجرعة' : 'Dose',
                     value: _formatDoseRange(guideline!),
-                    subValue: concentration != null ? '($concentration)' : null,
                     icon: LucideIcons.pill,
                     color: theme.colorScheme.primary,
                     isAr: isAr,
                   ),
-                ),
-                if (guideline?.frequency != null &&
-                    guideline!.frequency! > 0) ...[
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: _BigNumberCard(
-                      label: isAr ? 'التكرار' : 'Frequency',
-                      value: _formatFrequencyShort(guideline!.frequency!, isAr),
-                      icon: LucideIcons.clock,
-                      color: Colors.orange,
-                      isAr: isAr,
-                    ),
+
+                // Frequency
+                if (guideline?.frequency != null && guideline!.frequency! > 0)
+                  _SmallInfoCard(
+                    label: isAr ? 'التكرار' : 'Frequency',
+                    value: _formatFrequencyShort(guideline!.frequency!, isAr),
+                    icon: LucideIcons.clock,
+                    color: Colors.orange,
+                    isAr: isAr,
                   ),
-                ],
               ],
             ),
           ],
@@ -704,27 +730,25 @@ class _StandardDoseCard extends StatelessWidget {
   }
 
   String _formatFrequencyShort(int freq, bool isAr) {
-    if (freq == 24) return isAr ? '1× يومياً' : '1x Daily';
-    if (freq == 12) return isAr ? '2× يومياً' : '2x Daily';
-    if (freq == 8) return isAr ? '3× يومياً' : '3x Daily';
-    if (freq == 6) return isAr ? '4× يومياً' : '4x Daily';
+    if (freq == 24) return isAr ? 'مرة يومياً' : 'Once daily';
+    if (freq == 12) return isAr ? 'مرتين يومياً' : 'BID';
+    if (freq == 8) return isAr ? '3 مرات يومياً' : 'TID';
+    if (freq == 6) return isAr ? '4 مرات يومياً' : 'QID';
     return isAr ? 'كل $freq س' : 'q${freq}h';
   }
 }
 
-class _BigNumberCard extends StatelessWidget {
-  const _BigNumberCard({
+class _SmallInfoCard extends StatelessWidget {
+  const _SmallInfoCard({
     required this.label,
     required this.value,
     required this.icon,
     required this.color,
     required this.isAr,
-    this.subValue,
   });
 
   final String label;
   final String value;
-  final String? subValue;
   final IconData icon;
   final Color color;
   final bool isAr;
@@ -733,46 +757,37 @@ class _BigNumberCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     return Container(
-      padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 12),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       decoration: BoxDecoration(
-        color: color.withValues(alpha: 0.08),
-        borderRadius: BorderRadius.circular(12),
+        color: color.withValues(alpha: 0.1),
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: color.withValues(alpha: 0.2)),
       ),
-      child: Column(
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
         children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            mainAxisSize: MainAxisSize.min,
+          Icon(icon, size: 14, color: color),
+          const SizedBox(width: 6),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Icon(icon, size: 14, color: color),
-              const SizedBox(width: 6),
               Text(
                 label,
-                style: theme.textTheme.labelMedium?.copyWith(
-                  color: color,
+                style: TextStyle(
+                  fontSize: 10,
+                  color: theme.colorScheme.secondary,
+                ),
+              ),
+              Text(
+                value,
+                style: TextStyle(
+                  fontSize: 12,
                   fontWeight: FontWeight.bold,
+                  color: theme.colorScheme.onSurface,
                 ),
               ),
             ],
           ),
-          const SizedBox(height: 8),
-          Text(
-            value,
-            textAlign: TextAlign.center,
-            style: theme.textTheme.headlineSmall?.copyWith(
-              fontWeight: FontWeight.bold,
-              color: theme.colorScheme.onSurface,
-            ),
-          ),
-          if (subValue != null) ...[
-            const SizedBox(height: 4),
-            Text(
-              subValue!,
-              style: theme.textTheme.bodySmall?.copyWith(
-                color: theme.colorScheme.secondary,
-              ),
-            ),
-          ],
         ],
       ),
     );
