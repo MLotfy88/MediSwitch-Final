@@ -232,8 +232,13 @@ class InteractionRepositoryImpl implements InteractionRepository {
           .timeout(const Duration(seconds: 5)); // Short timeout for UX
 
       if (remoteData.isNotEmpty) {
+        // [DEBUG] Inspect the first item's keys to debugging missing data
+        _logger.d('API Dosage Keys: ${remoteData.first.keys.toList()}');
+        _logger.d('API Dosage Data (first): ${remoteData.first}');
+
         // Map API keys to Local DB columns
         final validForLocal =
+            // ... (rest of code)
             remoteData.map((apiItem) {
               // Flatten/Normalize the map for SQLite
               return {
@@ -262,7 +267,6 @@ class InteractionRepositoryImpl implements InteractionRepository {
                 'ncbi_mechanism': apiItem['ncbi_mechanism'],
                 'black_box_warning':
                     apiItem['ncbi_contraindications'], // Mapping example, verifying specific keys needed
-
                 // Note: The log showed 'ncbi_contraindications' in INSERT. verify model.
                 'updated_at': DateTime.now().millisecondsSinceEpoch,
               };

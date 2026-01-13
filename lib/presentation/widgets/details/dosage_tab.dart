@@ -39,28 +39,24 @@ class DosageTab extends StatelessWidget {
             return const Center(child: CircularProgressIndicator());
           }
 
-          final guidelines = snapshot.data ?? [];
-
-          if (guidelines.isEmpty) {
+          // 1. Handle Fetch Errors
+          if (snapshot.hasError) {
             return Center(
               child: Padding(
-                padding: AppSpacing.edgeInsetsAllLarge,
+                padding: const EdgeInsets.all(16.0),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(LucideIcons.fileX, size: 48, color: Colors.grey),
+                    const Icon(
+                      LucideIcons.alertTriangle,
+                      size: 48,
+                      color: Colors.orange,
+                    ),
                     const SizedBox(height: 16),
                     Text(
-                      isAr
-                          ? 'لا توجد معلومات جرعات متاحة لهذا الدواء حالياً.'
-                          : 'No dosage information available for this drug yet.',
+                      'خطأ في تحميل البيانات\n${snapshot.error}',
                       textAlign: TextAlign.center,
-                      style: TextStyle(color: Colors.grey[600]),
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      'MedID: ${drug.id}',
-                      style: TextStyle(color: Colors.grey[400], fontSize: 10),
+                      style: const TextStyle(color: Colors.red),
                     ),
                   ],
                 ),
@@ -68,188 +64,233 @@ class DosageTab extends StatelessWidget {
             );
           }
 
-          final primary = guidelines.reduce((curr, next) {
-            int currScore = 0;
-            int nextScore = 0;
+          // 2. Wrap UI logic in Try-Catch to debug "Gray Screen"
+          try {
+            final guidelines = snapshot.data ?? [];
 
-            if (curr.blackBoxWarning?.isNotEmpty == true) currScore += 5;
-            if (curr.contraindications?.isNotEmpty == true) currScore += 2;
-            if (curr.warnings?.isNotEmpty == true) currScore += 1;
-            if (curr.adverseReactions?.isNotEmpty == true) currScore += 1;
+            if (guidelines.isEmpty) {
+              return Center(
+                child: Padding(
+                  padding: AppSpacing.edgeInsetsAllLarge,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(LucideIcons.fileX, size: 48, color: Colors.grey),
+                      const SizedBox(height: 16),
+                      Text(
+                        isAr
+                            ? 'لا توجد معلومات جرعات متاحة لهذا الدواء حالياً.'
+                            : 'No dosage information available for this drug yet.',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(color: Colors.grey[600]),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        'MedID: ${drug.id}',
+                        style: TextStyle(color: Colors.grey[400], fontSize: 10),
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            }
 
-            if (next.blackBoxWarning?.isNotEmpty == true) nextScore += 5;
-            if (next.contraindications?.isNotEmpty == true) nextScore += 2;
-            if (next.warnings?.isNotEmpty == true) nextScore += 1;
-            if (next.adverseReactions?.isNotEmpty == true) nextScore += 1;
+            // Safe aggregation logic
+            final primary = guidelines.reduce((curr, next) {
+              try {
+                int currScore = 0;
+                int nextScore = 0;
 
-            // Prefer Local/DailyMed source if scores equal?
-            // For now, richness is king.
-            return currScore >= nextScore ? curr : next;
-          });
+                if (curr.blackBoxWarning?.isNotEmpty == true) currScore += 5;
+                if (curr.contraindications?.isNotEmpty == true) currScore += 2;
+                if (curr.warnings?.isNotEmpty == true) currScore += 1;
+                if (curr.adverseReactions?.isNotEmpty == true) currScore += 1;
 
-          return Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              _StandardDoseCard(
-                guideline: primary,
-                drugForm: drug.dosageForm,
-                isAr: isAr,
-                concentration: drug.concentration,
-              ),
-              const SizedBox(height: 16),
-              if (drug.concentration.isNotEmpty)
-                _MiniDoseCalculator(
+                if (next.blackBoxWarning?.isNotEmpty == true) nextScore += 5;
+                if (next.contraindications?.isNotEmpty == true) nextScore += 2;
+                if (next.warnings?.isNotEmpty == true) nextScore += 1;
+                if (next.adverseReactions?.isNotEmpty == true) nextScore += 1;
+
+                return currScore >= nextScore ? curr : next;
+              } catch (e) {
+                return curr; // Fallback
+              }
+            });
+
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                _StandardDoseCard(
+                  guideline: primary,
+                  drugForm: drug.dosageForm,
+                  isAr: isAr,
                   concentration: drug.concentration,
-                  standardDose: primary?.minDose,
-                  frequency: primary?.frequency,
-                  isAr: isAr,
                 ),
-              if (primary?.instructions != null &&
-                  primary!.instructions!.isNotEmpty) ...[
                 const SizedBox(height: 16),
-                _InstructionsCard(
-                  instructions: primary.instructions!,
-                  isAr: isAr,
-                ),
-              ],
+                if (drug.concentration.isNotEmpty)
+                  _MiniDoseCalculator(
+                    concentration: drug.concentration,
+                    standardDose: primary.minDose,
+                    frequency: primary.frequency,
+                    isAr: isAr,
+                  ),
+                if (primary.instructions != null &&
+                    primary.instructions!.isNotEmpty) ...[
+                  const SizedBox(height: 16),
+                  _InstructionsCard(
+                    instructions: primary.instructions!,
+                    isAr: isAr,
+                  ),
+                ],
 
-              // --- New Rich Data Sections ---
-              if (primary?.blackBoxWarning != null &&
-                  primary!.blackBoxWarning!.isNotEmpty) ...[
-                const SizedBox(height: 16),
-                _SafetyAlertCard(
-                  title: isAr ? 'تحذير خطير (Boxed Warning)' : 'Boxed Warning',
-                  content: primary!.blackBoxWarning ?? '',
-                  icon: LucideIcons.alertTriangle,
-                  color: Colors.red,
-                  isAr: isAr,
-                ),
-              ],
+                // --- New Rich Data Sections ---
+                if (primary.blackBoxWarning != null &&
+                    primary.blackBoxWarning!.isNotEmpty) ...[
+                  const SizedBox(height: 16),
+                  _SafetyAlertCard(
+                    title:
+                        isAr ? 'تحذير خطير (Boxed Warning)' : 'Boxed Warning',
+                    content: primary.blackBoxWarning ?? '',
+                    icon: LucideIcons.alertTriangle,
+                    color: Colors.red,
+                    isAr: isAr,
+                  ),
+                ],
 
-              if (primary?.renalAdjustment != null &&
-                  primary!.renalAdjustment!.isNotEmpty) ...[
-                const SizedBox(height: 16),
-                _SafetyAlertCard(
-                  title: isAr ? 'تعديل جرعة الكلى' : 'Renal Adjustment',
-                  content: primary!.renalAdjustment ?? '',
-                  icon: LucideIcons.filter,
-                  color: Colors.purple,
-                  isAr: isAr,
-                ),
-              ],
+                if (primary.renalAdjustment != null &&
+                    primary.renalAdjustment!.isNotEmpty) ...[
+                  const SizedBox(height: 16),
+                  _SafetyAlertCard(
+                    title: isAr ? 'تعديل جرعة الكلى' : 'Renal Adjustment',
+                    content: primary.renalAdjustment ?? '',
+                    icon: LucideIcons.filter,
+                    color: Colors.purple,
+                    isAr: isAr,
+                  ),
+                ],
 
-              if (primary?.hepaticAdjustment != null &&
-                  primary!.hepaticAdjustment!.isNotEmpty) ...[
-                const SizedBox(height: 16),
-                _SafetyAlertCard(
-                  title: isAr ? 'تعديل جرعة الكبد' : 'Hepatic Adjustment',
-                  content: primary!.hepaticAdjustment ?? '',
-                  icon: LucideIcons.activity,
-                  color: Colors.brown,
-                  isAr: isAr,
-                ),
-              ],
+                if (primary.hepaticAdjustment != null &&
+                    primary.hepaticAdjustment!.isNotEmpty) ...[
+                  const SizedBox(height: 16),
+                  _SafetyAlertCard(
+                    title: isAr ? 'تعديل جرعة الكبد' : 'Hepatic Adjustment',
+                    content: primary.hepaticAdjustment ?? '',
+                    icon: LucideIcons.activity,
+                    color: Colors.brown,
+                    isAr: isAr,
+                  ),
+                ],
 
-              if (primary?.contraindications != null &&
-                  primary!.contraindications!.isNotEmpty) ...[
-                const SizedBox(height: 16),
-                _SafetyAlertCard(
-                  title: isAr ? 'موانع الاستعمال' : 'Contraindications',
-                  content: primary!.contraindications ?? '',
-                  icon: LucideIcons.ban,
-                  color: Colors.redAccent,
-                  isAr: isAr,
-                ),
-              ],
+                if (primary.contraindications != null &&
+                    primary.contraindications!.isNotEmpty) ...[
+                  const SizedBox(height: 16),
+                  _SafetyAlertCard(
+                    title: isAr ? 'موانع الاستعمال' : 'Contraindications',
+                    content: primary.contraindications ?? '',
+                    icon: LucideIcons.ban,
+                    color: Colors.redAccent,
+                    isAr: isAr,
+                  ),
+                ],
 
-              if (primary?.warnings != null &&
-                  primary!.warnings!.isNotEmpty) ...[
-                const SizedBox(height: 16),
-                _SafetyAlertCard(
-                  title: isAr ? 'تحذيرات' : 'Warnings',
-                  content: primary!.warnings ?? '',
-                  icon: LucideIcons.alertCircle,
-                  color: Colors.orange[800]!,
-                  isAr: isAr,
-                ),
-              ],
+                if (primary.warnings != null &&
+                    primary.warnings!.isNotEmpty) ...[
+                  const SizedBox(height: 16),
+                  _SafetyAlertCard(
+                    title: isAr ? 'تحذيرات' : 'Warnings',
+                    content: primary.warnings ?? '',
+                    icon: LucideIcons.alertCircle,
+                    color: Colors.orange[800]!,
+                    isAr: isAr,
+                  ),
+                ],
 
-              if (primary?.adverseReactions != null &&
-                  primary!.adverseReactions!.isNotEmpty) ...[
-                const SizedBox(height: 16),
-                _SafetyAlertCard(
-                  title: isAr ? 'الأعراض الجانبية' : 'Adverse Reactions',
-                  content: primary!.adverseReactions ?? '',
-                  icon: LucideIcons.frown,
-                  color: Colors.grey[700]!,
-                  isAr: isAr,
-                  isCollapsible: true,
-                ),
-              ],
+                if (primary.adverseReactions != null &&
+                    primary.adverseReactions!.isNotEmpty) ...[
+                  const SizedBox(height: 16),
+                  _SafetyAlertCard(
+                    title: isAr ? 'الأعراض الجانبية' : 'Adverse Reactions',
+                    content: primary.adverseReactions ?? '',
+                    icon: LucideIcons.frown,
+                    color: Colors.grey[700]!,
+                    isAr: isAr,
+                    isCollapsible: true,
+                  ),
+                ],
 
-              // --- NCBI Clinical Info ---
-              if (primary?.ncbiIndications != null &&
-                  primary!.ncbiIndications!.isNotEmpty) ...[
-                const SizedBox(height: 16),
-                _SafetyAlertCard(
-                  title: isAr ? 'دواعي الاستعمال' : 'Indications & Usage',
-                  content: primary!.ncbiIndications ?? '',
-                  icon: LucideIcons.stethoscope,
-                  color: Colors.blue,
-                  isAr: isAr,
-                  isCollapsible: true,
-                ),
-              ],
+                // --- NCBI Clinical Info ---
+                if (primary.ncbiIndications != null &&
+                    primary.ncbiIndications!.isNotEmpty) ...[
+                  const SizedBox(height: 16),
+                  _SafetyAlertCard(
+                    title: isAr ? 'دواعي الاستعمال' : 'Indications & Usage',
+                    content: primary.ncbiIndications ?? '',
+                    icon: LucideIcons.stethoscope,
+                    color: Colors.blue,
+                    isAr: isAr,
+                    isCollapsible: true,
+                  ),
+                ],
 
-              if (primary?.ncbiMechanism != null &&
-                  primary!.ncbiMechanism!.isNotEmpty) ...[
-                const SizedBox(height: 16),
-                _SafetyAlertCard(
-                  title: isAr ? 'آلية العمل' : 'Mechanism of Action',
-                  content: primary!.ncbiMechanism ?? '',
-                  icon: LucideIcons.zap,
-                  color: Colors.amber[800]!,
-                  isAr: isAr,
-                  isCollapsible: true,
-                ),
-              ],
+                if (primary.ncbiMechanism != null &&
+                    primary.ncbiMechanism!.isNotEmpty) ...[
+                  const SizedBox(height: 16),
+                  _SafetyAlertCard(
+                    title: isAr ? 'آلية العمل' : 'Mechanism of Action',
+                    content: primary.ncbiMechanism ?? '',
+                    icon: LucideIcons.zap,
+                    color: Colors.amber[800]!,
+                    isAr: isAr,
+                    isCollapsible: true,
+                  ),
+                ],
 
-              if (primary?.ncbiMonitoring != null &&
-                  primary!.ncbiMonitoring!.isNotEmpty) ...[
-                const SizedBox(height: 16),
-                _SafetyAlertCard(
-                  title: isAr ? 'المراقبة' : 'Monitoring Parameters',
-                  content: primary!.ncbiMonitoring ?? '',
-                  icon: LucideIcons.eye,
-                  color: Colors.teal[700]!,
-                  isAr: isAr,
-                  isCollapsible: true,
-                ),
-              ],
+                if (primary.ncbiMonitoring != null &&
+                    primary.ncbiMonitoring!.isNotEmpty) ...[
+                  const SizedBox(height: 16),
+                  _SafetyAlertCard(
+                    title: isAr ? 'المراقبة' : 'Monitoring Parameters',
+                    content: primary.ncbiMonitoring ?? '',
+                    icon: LucideIcons.eye,
+                    color: Colors.teal[700]!,
+                    isAr: isAr,
+                    isCollapsible: true,
+                  ),
+                ],
 
-              if (primary?.ncbiAdministration != null &&
-                  primary!.ncbiAdministration!.isNotEmpty) ...[
-                const SizedBox(height: 16),
-                _SafetyAlertCard(
-                  title: isAr ? 'طريقة الإعطاء' : 'Administration',
-                  content: primary!.ncbiAdministration ?? '',
-                  icon: LucideIcons.syringe,
-                  color: Colors.indigo,
-                  isAr: isAr,
-                  isCollapsible: true,
-                ),
-              ],
+                if (primary.ncbiAdministration != null &&
+                    primary.ncbiAdministration!.isNotEmpty) ...[
+                  const SizedBox(height: 16),
+                  _SafetyAlertCard(
+                    title: isAr ? 'طريقة الإعطاء' : 'Administration',
+                    content: primary.ncbiAdministration ?? '',
+                    icon: LucideIcons.syringe,
+                    color: Colors.indigo,
+                    isAr: isAr,
+                    isCollapsible: true,
+                  ),
+                ],
 
-              if (primary?.structuredDosage != null &&
-                  primary!.structuredDosage!.isNotEmpty) ...[
-                const SizedBox(height: 16),
-                _StructuredDosageView(
-                  compressedData: primary.structuredDosage!,
-                  isAr: isAr,
-                ),
+                if (primary.structuredDosage != null &&
+                    primary.structuredDosage!.isNotEmpty) ...[
+                  const SizedBox(height: 16),
+                  _StructuredDosageView(
+                    compressedData: primary.structuredDosage!,
+                    isAr: isAr,
+                  ),
+                ],
               ],
-            ],
-          ).animate().fadeIn(duration: 300.ms);
+            ).animate().fadeIn(duration: 300.ms);
+          } catch (e, s) {
+            return Container(
+              padding: const EdgeInsets.all(16),
+              color: Colors.white,
+              child: SelectableText(
+                'UI RENDER ERROR:\n$e\n\n$s',
+                style: const TextStyle(color: Colors.red, fontSize: 12),
+              ),
+            );
+          }
         },
       ),
     );
