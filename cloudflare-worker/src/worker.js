@@ -231,10 +231,16 @@ export default {
 
             if (path === '/api/admin/db/query' && method === 'POST') {
                 try {
-                    const { query, params = [] } = await request.json();
+                    const { query, params = [], target = 'main' } = await request.json();
                     if (!query) return errorResponse('Query required', 400);
 
-                    const stmt = DB.prepare(query).bind(...params);
+                    // Select Database Binding
+                    let selectedDB = DB;
+                    if (target === 'interactions') {
+                        selectedDB = INTERACTIONS_DB || DB;
+                    }
+
+                    const stmt = selectedDB.prepare(query).bind(...params);
                     const isSelect = query.trim().toUpperCase().startsWith('SELECT') || query.trim().toUpperCase().startsWith('PRAGMA');
 
                     if (isSelect) {
