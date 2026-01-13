@@ -232,10 +232,6 @@ class InteractionRepositoryImpl implements InteractionRepository {
           .timeout(const Duration(seconds: 5)); // Short timeout for UX
 
       if (remoteData.isNotEmpty) {
-        // [DEBUG] Inspect the first item's keys to debugging missing data
-        _logger.d('API Dosage Keys: ${remoteData.first.keys.toList()}');
-        _logger.d('API Dosage Data (first): ${remoteData.first}');
-
         // Map API keys to Local DB columns
         final validForLocal =
             // ... (rest of code)

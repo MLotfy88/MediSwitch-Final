@@ -66,7 +66,11 @@ class DosageTab extends StatelessWidget {
 
           // 2. Wrap UI logic in Try-Catch to debug "Gray Screen"
           try {
-            final guidelines = snapshot.data ?? [];
+            // Fix: Cast explicitly to base type to prevent runtime type mismatch in reduce()
+            // Error was: (Base, Base)->Base is not subtype of (Model, Model)->Model
+            // Fix: Cast explicitly to base type to prevent runtime type mismatch in reduce()
+            final guidelines =
+                (snapshot.data ?? []).cast<DosageGuidelines>().toList();
 
             if (guidelines.isEmpty) {
               return Center(
