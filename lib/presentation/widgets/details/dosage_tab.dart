@@ -595,6 +595,11 @@ class _StandardDoseCard extends StatelessWidget {
     final bool showInstructionAsHero =
         heroInstruction != null && heroInstruction.length > 20;
 
+    // If neither hero instructions nor numeric limits exist, do NOT render the card.
+    if (!showInstructionAsHero && !hasValidDose) {
+      return const SizedBox.shrink();
+    }
+
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
@@ -1392,13 +1397,35 @@ class _SafetyAlertCardState extends State<_SafetyAlertCard> {
             Divider(height: 1, color: widget.color.withValues(alpha: 0.1)),
             Padding(
               padding: const EdgeInsets.all(12),
-              child: SelectableText(
-                showContent,
-                style: theme.textTheme.bodyMedium?.copyWith(
-                  color: theme.colorScheme.onSurface,
-                  height: 1.5,
-                ),
-                textAlign: widget.isAr ? TextAlign.justify : TextAlign.left,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  SelectableText(
+                    showContent,
+                    style: theme.textTheme.bodyMedium?.copyWith(
+                      color: theme.colorScheme.onSurface,
+                      height: 1.5,
+                    ),
+                    textAlign: widget.isAr ? TextAlign.justify : TextAlign.left,
+                  ),
+                  if (widget.isCollapsible &&
+                      !_isExpanded &&
+                      widget.content.length > 150)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 8.0),
+                      child: GestureDetector(
+                        onTap: () => setState(() => _isExpanded = true),
+                        child: Text(
+                          widget.isAr ? 'اقرأ المزيد...' : 'Read More...',
+                          style: TextStyle(
+                            color: widget.color,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 12,
+                          ),
+                        ),
+                      ),
+                    ),
+                ],
               ),
             ),
           ],

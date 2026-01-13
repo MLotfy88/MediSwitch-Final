@@ -37,12 +37,12 @@ class _InitializationScreenState extends State<InitializationScreen> {
     {
       "title": "Clinical Intelligence",
       "subtitle":
-          "MediSwitch identifies over 15,000 disease-drug contraindications instantly powered by DDInter 2.0.",
+          "MediSwitch identifies thousands of disease-drug contraindications instantly powered by OpenFDA & Trusted Sources.",
     },
     {
       "title": "Interaction Matrix",
       "subtitle":
-          "Our engine analyzes 140,000+ interaction rules in milliseconds to maximize patient safety.",
+          "Our engine analyzes massive interaction rules in milliseconds to maximize patient safety.",
     },
     {
       "title": "Dietary Awareness",
@@ -57,7 +57,7 @@ class _InitializationScreenState extends State<InitializationScreen> {
     {
       "title": "Pediatric Precision",
       "subtitle":
-          "Access specific dosage guidelines for children ensured by reliable clinical sources.",
+          "Access specific dosage guidelines for children ensured by OpenFDA standards.",
     },
   ];
 
