@@ -104,6 +104,14 @@
 - [x] إصلاح أخطاء الـ `DrugRepositoryImpl` في Flutter.
 - [x] تحديث ملف `.gitignore` لاستبعاد الملفات الضخمة.
 
+### المرحلة 12: Admin Dashboard Fixes & Subscription Plans ✅ (Jul 02, 2026)
+- [x] **Feedback Hub Fix**: حل مشكلة خطأ 500 عبر إضافة دوال `handleGetFeedback` و `handleUpdateFeedback` في `worker.js`.
+- [x] **Real-time API Latency**: قياس زمن الاستجابة الفعلي للطلبات وعرضه حياً في لوحة التحكم بدلاً من رقم وهمي.
+- [x] **User Intelligence Update**: إعادة بناء صفحة متابعة المستخدمين لتعتمد على البيانات الحقيقية من قاعدة D1، ودعم تفعيل/تجميد الحسابات (Active/Suspended) مع إزالة الرسوم البيانية الوهمية.
+- [x] **Subscription Stats Activation**: ربط إحصائيات لوحة التحكم والاشتراكات بقاعدة D1 لعرض الأرقام الحقيقية.
+- [x] **Dedicated Subscription Plans Page**: إنشاء صفحة مخصصة مستقلة لإدارة باقات الاشتراك والصلاحيات وتفعيل/تعطيل الباقات.
+- [x] **Campaign Commander Actions**: تفعيل أزرار الحذف والمعاينة مع تصميم واجهة محاكاة لمعاينة الإشعارات.
+
 ---
 
 ## 🔄 المرحلة الحالية: Maintenance & Optimization

@@ -1,5 +1,16 @@
 # 🎯 ملخص المشروع - January 2025
 
+### CHECKPOINT 156
+**Date:** 2026-07-02
+**Goal:** Admin Dashboard API Fixes, Real Stats Integration, and Dedicated Subscription Plans Page.
+**Changes:**
+- **Feedback Hub**: Implemented missing `handleGetFeedback` and `handleUpdateFeedback` in `worker.js` to resolve 500 error on `/api/admin/feedback`.
+- **API Latency**: Implemented real-time roundtrip API response latency measurement and display on the Dashboard instead of static dummy value (42ms).
+- **User Intelligence**: Overhauled the page to use the real database columns (`id`, `email`, `name`, `status`, `created_at`). Implemented real suspend/activate action triggers mapping to D1 database and removed static mockup retention charts.
+- **Subscriptions Stats**: Integrated the stats endpoint in `worker.js` with `new_subscriptions_30d` and `canceled_subscriptions` queries, enabling dynamic, real metrics in the dashboard.
+- **Subscription Plans**: Extracted the IAP Products matrix into a dedicated `SubscriptionPlans.tsx` page, supporting full CRUD, active status toggles, and feature permissions gating.
+- **Campaign Commander**: Activated action icons (Delete and View Preview), adding a phone-sized simulated dispatch notification card layout.
+
 ### CHECKPOINT 155
 **Date:** 2026-01-13
 **Goal:** Dosage UI Redesign & D1 Sync Repair.

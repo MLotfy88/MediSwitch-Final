@@ -299,7 +299,9 @@ async function handleStats(DB) {
                 (SELECT COUNT(*) FROM subscriptions WHERE status = 'active' AND expires_at > unixepoch('now')) as active_subscriptions,
                 (SELECT COUNT(*) FROM sponsored_drugs WHERE active = 1) as sponsored_count,
                 (SELECT COUNT(*) FROM drugs WHERE price > 0) as drugs_with_price,
-                (SELECT COUNT(*) FROM drugs WHERE qr_code IS NOT NULL) as drugs_with_barcode
+                (SELECT COUNT(*) FROM drugs WHERE qr_code IS NOT NULL) as drugs_with_barcode,
+                (SELECT COUNT(*) FROM subscriptions WHERE created_at > unixepoch('now', '-30 days')) as new_subscriptions_30d,
+                (SELECT COUNT(*) FROM subscriptions WHERE status = 'canceled') as canceled_subscriptions
         `;
 
         const result = await DB.prepare(statsQuery).first();
@@ -312,7 +314,9 @@ async function handleStats(DB) {
             active_subscriptions: result.active_subscriptions || 0,
             sponsored_count: result.sponsored_count || 0,
             drugs_with_price: result.drugs_with_price || 0,
-            drugs_with_barcode: result.drugs_with_barcode || 0
+            drugs_with_barcode: result.drugs_with_barcode || 0,
+            new_subscriptions_30d: result.new_subscriptions_30d || 0,
+            canceled_subscriptions: result.canceled_subscriptions || 0
         });
     } catch (error) {
         console.error('Stats error:', error);
@@ -1852,6 +1856,51 @@ async function handleAdminGrantPremium(userId, request, DB) {
     } catch (error) {
         console.error('Grant premium error:', error);
         return errorResponse('Failed to grant premium', 500);
+    }
+}
+
+async function handleGetFeedback(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        let results = [];
+        try {
+            const query = await DB.prepare('SELECT * FROM feedback ORDER BY created_at DESC LIMIT 100').all();
+            results = query.results || [];
+        } catch (e) {
+            try {
+                const query = await DB.prepare('SELECT * FROM user_feedback ORDER BY created_at DESC LIMIT 100').all();
+                results = query.results || [];
+            } catch (err) {
+                // Table doesn't exist yet, return empty list
+                return jsonResponse({ data: [] });
+            }
+        }
+        return jsonResponse({ data: results });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleUpdateFeedback(id, request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const data = await request.json();
+        const status = data.status || 'resolved';
+        
+        let table = 'feedback';
+        try {
+            await DB.prepare('SELECT id FROM feedback LIMIT 1').first();
+        } catch (e) {
+            table = 'user_feedback';
+        }
+        
+        await DB.prepare(`UPDATE ${table} SET status = ?, updated_at = unixepoch('now') WHERE id = ?`)
+            .bind(status, id)
+            .run();
+            
+        return jsonResponse({ message: 'Feedback updated successfully' });
+    } catch (e) {
+        return errorResponse(e.message, 500);
     }
 }
 
