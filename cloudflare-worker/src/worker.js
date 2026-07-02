@@ -198,6 +198,7 @@ export default {
             // Generic Interaction Lookup (Public - Hybrid Split)
             if (path === '/api/interactions' && method === 'GET') return handleGetInteractions(request, INTERACTIONS_DB || DB);
             if (path === '/api/notifications' && method === 'GET') return handleGetUserNotifications(request, DB);
+            if (path === '/api/sponsored' && method === 'GET') return handleGetPublicSponsoredDrugs(DB);
 
             // Sync (Internal/Admin)
             if (path.startsWith('/api/sync/')) {
@@ -1946,7 +1947,33 @@ async function handleGetSponsoredDrugs(DB) {
     if (!DB) return errorResponse('Database not configured', 500);
     try {
         const { results } = await DB.prepare('SELECT * FROM sponsored_drugs ORDER BY priority DESC').all();
-        return jsonResponse({ data: results || [] });
+        // Map fields for frontend compatibility
+        const mapped = (results || []).map(row => ({
+            ...row,
+            active: row.active === 1,
+            expires_at: row.expires_at ? new Date(row.expires_at * 1000).toISOString() : null
+        }));
+        return jsonResponse({ data: mapped });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleGetPublicSponsoredDrugs(DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const { results } = await DB.prepare(`
+            SELECT * FROM sponsored_drugs 
+            WHERE active = 1 AND (expires_at IS NULL OR expires_at > unixepoch('now'))
+            ORDER BY priority DESC
+        `).all();
+        // Map fields for frontend/mobile compatibility
+        const mapped = (results || []).map(row => ({
+            ...row,
+            active: row.active === 1,
+            expires_at: row.expires_at ? new Date(row.expires_at * 1000).toISOString() : null
+        }));
+        return jsonResponse({ data: mapped });
     } catch (e) {
         return errorResponse(e.message, 500);
     }
@@ -1956,13 +1983,36 @@ async function handleCreateSponsoredDrug(request, DB) {
     if (!DB) return errorResponse('Database not configured', 500);
     try {
         const data = await request.json();
+        
+        let drugName = data.drug_name;
+        if (!drugName && data.drug_id) {
+            const drugResult = await DB.prepare('SELECT trade_name FROM drugs WHERE id = ?').bind(data.drug_id).first();
+            if (drugResult) {
+                drugName = drugResult.trade_name;
+            } else {
+                drugName = 'Drug #' + data.drug_id;
+            }
+        }
+
+        const priority = parseInt(data.priority || '1');
+        const active = (data.active === true || data.active === 1 || data.status === 'active') ? 1 : 0;
+        
+        let expiresAt = null;
+        if (data.ends_at) {
+            expiresAt = Math.floor(new Date(data.ends_at).getTime() / 1000);
+        } else if (data.expires_at) {
+            expiresAt = Math.floor(new Date(data.expires_at).getTime() / 1000);
+        }
+
         const result = await DB.prepare(`
-            INSERT INTO sponsored_drugs (drug_id, company, banner_url, campaign_type, priority, status, starts_at, ends_at)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            INSERT INTO sponsored_drugs (drug_id, drug_name, priority, active, expires_at)
+            VALUES (?, ?, ?, ?, ?)
         `).bind(
-            data.drug_id, data.company, data.banner_url || null,
-            data.campaign_type || 'search_top', data.priority || 0,
-            data.status || 'active', data.starts_at || null, data.ends_at || null
+            data.drug_id,
+            drugName,
+            priority,
+            active,
+            expiresAt
         ).run();
         return jsonResponse({ data: { id: result.meta.last_row_id, ...data } }, 201);
     } catch (e) {
@@ -1974,14 +2024,34 @@ async function handleUpdateSponsoredDrug(id, request, DB) {
     if (!DB) return errorResponse('Database not configured', 500);
     try {
         const data = await request.json();
+        
+        let drugName = data.drug_name;
+        if (!drugName && data.drug_id) {
+            const drugResult = await DB.prepare('SELECT trade_name FROM drugs WHERE id = ?').bind(data.drug_id).first();
+            if (drugResult) {
+                drugName = drugResult.trade_name;
+            }
+        }
+
+        const priority = parseInt(data.priority || '1');
+        const active = (data.active === true || data.active === 1 || data.status === 'active') ? 1 : 0;
+        
+        let expiresAt = null;
+        if (data.expires_at) {
+            const parsed = new Date(data.expires_at);
+            if (!isNaN(parsed.getTime())) {
+                expiresAt = Math.floor(parsed.getTime() / 1000);
+            } else {
+                expiresAt = parseInt(data.expires_at);
+            }
+        }
+
         await DB.prepare(`
             UPDATE sponsored_drugs SET 
-                drug_id = ?, company = ?, banner_url = ?, campaign_type = ?, 
-                priority = ?, status = ?, starts_at = ?, ends_at = ?
+                drug_id = ?, drug_name = ?, priority = ?, active = ?, expires_at = ?, updated_at = unixepoch('now')
             WHERE id = ?
         `).bind(
-            data.drug_id, data.company, data.banner_url, data.campaign_type,
-            data.priority, data.status, data.starts_at, data.ends_at, id
+            data.drug_id, drugName, priority, active, expiresAt, id
         ).run();
         return jsonResponse({ data: { id: parseInt(id), ...data } });
     } catch (e) {

@@ -60,6 +60,7 @@ jobs:
           echo "flutter.versionCode=${{ github.run_number }}" >> android/local.properties
           
           cd android
+          chmod +x gradlew
           ./gradlew assembleRelease
           cd ..
 

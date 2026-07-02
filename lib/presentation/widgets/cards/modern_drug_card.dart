@@ -4,6 +4,8 @@ import 'package:mediswitch/core/utils/date_formatter.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 import 'package:mediswitch/presentation/widgets/modern_badge.dart';
+import 'package:provider/provider.dart';
+import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
 
 class ModernDrugCard extends StatelessWidget {
   final DrugEntity drug;
@@ -92,12 +94,18 @@ class ModernDrugCard extends StatelessWidget {
                     ],
                   ),
                 ),
-                // Top-right badges (NEW / POPULAR)
-                // Priority: POPULAR > NEW (if both, show POPULAR only)
+                // Top-right badges (SPONSORED / POPULAR / NEW)
+                // Priority: SPONSORED > POPULAR > NEW
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
-                    if (drug.isPopular)
+                    if (context.select<MedicineProvider, bool>((p) => p.isDrugSponsored(drug.id)))
+                      ModernBadge(
+                        text: Directionality.of(context) == TextDirection.rtl ? 'ممول' : 'SPONSORED',
+                        variant: BadgeVariant.warning,
+                        size: BadgeSize.sm,
+                      )
+                    else if (drug.isPopular)
                       const ModernBadge(
                         text: 'POPULAR',
                         variant: BadgeVariant.popular,

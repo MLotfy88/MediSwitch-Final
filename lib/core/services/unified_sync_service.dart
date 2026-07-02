@@ -128,7 +128,7 @@ class UnifiedSyncService {
       logger.i('Syncing Notifications...');
       // Use proper URL constant if available, otherwise hardcode for background reliability
       final uri = Uri.parse(
-        'https://mediswitch-api.m-m-lotfy-88.workers.dev/api/admin/notifications?limit=10',
+        'https://mediswitch-api.m-m-lotfy-88.workers.dev/api/notifications?limit=10',
       );
       final response = await http.get(uri);
 

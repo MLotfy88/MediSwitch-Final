@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -12,6 +13,7 @@ class NotificationProvider extends ChangeNotifier {
   final FlutterLocalNotificationsPlugin _localNotifications =
       FlutterLocalNotificationsPlugin();
   bool _isInitialized = false;
+  Timer? _foregroundTimer;
 
   List<AppNotification> get notifications => List.unmodifiable(_notifications);
 
@@ -32,6 +34,18 @@ class NotificationProvider extends ChangeNotifier {
 
     // Check for remote notifications after initialization
     checkRemoteNotifications();
+
+    // Start foreground periodic check every 60 seconds
+    _foregroundTimer = Timer.periodic(
+      const Duration(seconds: 60),
+      (_) => checkRemoteNotifications(),
+    );
+  }
+
+  @override
+  void dispose() {
+    _foregroundTimer?.cancel();
+    super.dispose();
   }
 
   Future<void> _initLocalNotifications() async {

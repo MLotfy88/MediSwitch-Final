@@ -10,6 +10,7 @@
 - **Subscriptions Stats**: Integrated the stats endpoint in `worker.js` with `new_subscriptions_30d` and `canceled_subscriptions` queries, enabling dynamic, real metrics in the dashboard.
 - **Subscription Plans**: Extracted the IAP Products matrix into a dedicated `SubscriptionPlans.tsx` page, supporting full CRUD, active status toggles, and feature permissions gating.
 - **Campaign Commander**: Activated action icons (Delete and View Preview), adding a phone-sized simulated dispatch notification card layout.
+- **GitHub Actions CI**: Resolved `gradlew` permission denied build failure by adding `chmod +x gradlew` command before compiling the APK.
 
 ### CHECKPOINT 155
 **Date:** 2026-01-13

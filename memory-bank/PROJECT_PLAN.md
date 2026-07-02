@@ -185,6 +185,12 @@
     - [x] **D1 Repair**: Resolved `UNIQUE constraint` by excluding local IDs and `SQLITE_TOOBIG` by truncating blobs (10KB limit).
     - [x] **UI Enhancement**: Removed gradient, added structured cards (Route, Category, Dose, Freq), and deduplicated instructions.
     - [x] **Structural Fix**: Repaired Dart syntax errors in `dosage_tab.dart`.
+- [x] **Phase 18: Notifications Background Sync & Monetization 2.0 Integration** (Jul 02, 2026)
+    - [x] **Workmanager Periodic Sync**: Registered background task `notificationsCheckTask` to pull notifications every 15 minutes while the app is closed.
+    - [x] **Foreground Active Polling**: Implemented a 60-second background polling timer in `NotificationProvider` for foreground status updates.
+    - [x] **Sponsored Listings Insertion**: Integrated the `/api/sponsored` public endpoint to fetch sponsored drugs. Sorted/pinned them to the top of results in Flutter `MedicineProvider._applyFilters` with a warning/orange "SPONSORED" / "ممول" badge.
+    - [x] **Campaign Resend functionality**: Added a "Resend" button (using `Send` icon) next to sent notifications in the Campaign Commander wizard.
+    - [x] **Sponsored Drug Status Toggle**: Wired the switch component in `Monetization.tsx` to pause/activate listings and resolved the D1 column mismatch 500 error in `worker.js`.
 
 ---
 

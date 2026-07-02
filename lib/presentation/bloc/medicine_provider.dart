@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:http/http.dart' as http;
 
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
@@ -69,6 +70,7 @@ class MedicineProvider extends ChangeNotifier {
   final List<DrugEntity> _favorites = []; // List of full entities
   final Set<String> _favoriteIds = {}; // Set of IDs for O(1) lookup
   Set<int> _newDrugIds = {}; // For O(1) new lookup (Last 50 IDs)
+  Set<int> _sponsoredDrugIds = {}; // For O(1) sponsored lookup
   List<DrugEntity> _recentlyViewedDrugs = []; // New list for visited drugs
 
   List<DrugEntity> _filteredMedicines = [];
@@ -110,6 +112,12 @@ class MedicineProvider extends ChangeNotifier {
 
   /// Check if a drug is in the latest 50 drugs list
   bool isDrugNew(int? drugId) => drugId != null && _newDrugIds.contains(drugId);
+
+  Set<int> get sponsoredDrugIds => _sponsoredDrugIds;
+
+  /// Check if a drug is sponsored
+  bool isDrugSponsored(int? drugId) =>
+      drugId != null && _sponsoredDrugIds.contains(drugId);
 
   List<DrugEntity> get highRiskDrugs => _highRiskDrugs;
   List<DrugEntity> get foodInteractionDrugs => _foodInteractionDrugs;
@@ -214,6 +222,9 @@ class MedicineProvider extends ChangeNotifier {
       // 1. Load LOCAL Data ONLY (Fast)
       await _loadLocalDataOnly();
 
+      // Fetch sponsored drugs in background asynchronously
+      fetchSponsoredDrugs();
+
       _isInitialLoadComplete = true;
       _isLoading = false;
       notifyListeners();
@@ -252,6 +263,15 @@ class MedicineProvider extends ChangeNotifier {
     _logger.d("MedicineProvider: Phase 1 - Loading badge IDs...");
     // Phase 1: Load badge IDs first (MUST complete before Phase 2)
     await Future.wait([_loadPopularDrugs(), _loadNewDrugIds()]);
+
+    // Try to load cached sponsored drug IDs
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final cached = prefs.getStringList('sponsored_drug_ids');
+      if (cached != null) {
+        _sponsoredDrugIds = cached.map((s) => int.parse(s)).toSet();
+      }
+    } catch (_) {}
 
     _logger.d("MedicineProvider: Phase 2 - Loading drugs and other data...");
     // Phase 2: Load everything else (now badge IDs are available)
@@ -1196,6 +1216,15 @@ class MedicineProvider extends ChangeNotifier {
         // Apply isNew and isPopular flags BEFORE final assignment
         filtered = _applyDrugFlags(filtered);
 
+        // Pin Sponsored drugs to the absolute top of the results
+        filtered.sort((a, b) {
+          final aSponsored = isDrugSponsored(a.id);
+          final bSponsored = isDrugSponsored(b.id);
+          if (aSponsored && !bSponsored) return -1;
+          if (!aSponsored && bSponsored) return 1;
+          return 0;
+        });
+
         _hasMoreItems = drugs.length == fetchLimit;
         // Remove the extra item if we fetched it
         final itemsToAdd =
@@ -1294,6 +1323,50 @@ class MedicineProvider extends ChangeNotifier {
       return 'فشل في تحميل البيانات من قاعدة البيانات.';
     } else {
       return 'حدث خطأ غير متوقع.';
+    }
+  }
+
+  Future<void> fetchSponsoredDrugs() async {
+    try {
+      _logger.i("MedicineProvider: Fetching sponsored drugs from remote API...");
+      const baseUrl = 'https://mediswitch-api.m-m-lotfy-88.workers.dev';
+      final uri = Uri.parse('$baseUrl/api/sponsored');
+      final response = await http.get(uri).timeout(
+        const Duration(seconds: 10),
+        onTimeout: () => http.Response('{"data":[]}', 408),
+      );
+      if (response.statusCode == 200) {
+        final Map<String, dynamic> body = jsonDecode(response.body) as Map<String, dynamic>;
+        final List<dynamic> data = (body['data'] as List<dynamic>?) ?? [];
+        final ids = <int>{};
+        for (var item in data) {
+          if (item is Map<String, dynamic> && item['drug_id'] != null) {
+            final parsedId = int.tryParse(item['drug_id'].toString());
+            if (parsedId != null) {
+              ids.add(parsedId);
+            }
+          }
+        }
+        _sponsoredDrugIds = ids;
+        _logger.i("MedicineProvider: Successfully fetched ${ids.length} sponsored drug IDs: $ids");
+        
+        // Save to SharedPreferences for offline support
+        final prefs = await SharedPreferences.getInstance();
+        await prefs.setStringList('sponsored_drug_ids', ids.map((id) => id.toString()).toList());
+        
+        notifyListeners();
+      }
+    } catch (e) {
+      _logger.e("MedicineProvider: Error fetching sponsored drugs: $e");
+      // Load from local storage for fallback
+      try {
+        final prefs = await SharedPreferences.getInstance();
+        final cached = prefs.getStringList('sponsored_drug_ids');
+        if (cached != null) {
+          _sponsoredDrugIds = cached.map((s) => int.parse(s)).toSet();
+          _logger.i("MedicineProvider: Loaded ${_sponsoredDrugIds.length} sponsored drug IDs from cache.");
+        }
+      } catch (_) {}
     }
   }
 }

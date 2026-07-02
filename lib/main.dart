@@ -5,6 +5,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:intl/date_symbol_data_local.dart'; // Import for date formatting initialization
 import 'package:provider/provider.dart';
 import 'package:workmanager/workmanager.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'core/di/locator.dart';
 import 'core/services/file_logger_service.dart';
@@ -27,6 +28,15 @@ void callbackDispatcher() {
       // Re-initialize DI for the background isolate
       await setupLocator();
       final syncService = locator<UnifiedSyncService>();
+
+      if (task == 'notificationsCheckTask') {
+        // Only check notifications (lightweight)
+        final prefs = await SharedPreferences.getInstance();
+        await syncService.syncNotifications(prefs);
+        return true;
+      }
+
+      // Full sync (daily task)
       final result = await syncService.syncAllData();
       return result.isRight();
     } catch (e) {
@@ -105,6 +115,18 @@ Future<void> main() async {
         requiresBatteryNotLow: true,
       ),
       existingWorkPolicy: ExistingWorkPolicy.replace,
+    );
+
+    // --- Background Notifications Check (Every 15 minutes) ---
+    logger.i("main: Scheduling periodic notifications check (every 15 min)...");
+    await Workmanager().registerPeriodicTask(
+      "notifications-check-periodic",
+      "notificationsCheckTask",
+      frequency: const Duration(minutes: 15),
+      constraints: Constraints(
+        networkType: NetworkType.connected,
+      ),
+      existingWorkPolicy: ExistingWorkPolicy.keep,
     );
 
     // REMOVED: Routing logic moved to InitializationScreen
