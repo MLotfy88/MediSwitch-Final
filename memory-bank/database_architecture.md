@@ -1,159 +1,184 @@
-# بنية وهندسة قواعد البيانات - MediSwitch (Database Architecture)
+# هيكلية قواعد البيانات (Database Architecture V16)
 
-## 📄 المراجع الأساسية
-*   [systemPatterns.md](file:///f:/App-Projects/mediswitch/memory-bank/systemPatterns.md) - المعمارية العامة ومسار البيانات الهجين.
-*   [techContext.md](file:///f:/App-Projects/mediswitch/memory-bank/techContext.md) - التقنيات والملفات المرجعية.
-
----
-
-## 🏗️ استراتيجية تقسيم قواعد البيانات (Database Split Strategy)
-
-لضمان معايير أداء استثنائية وتجنب القيود التخزينية المحددة بـ 500 ميجابايت لقواعد Cloudflare D1، تم تقسيم البيانات الطبية إلى قاعدتين منفصلتين في السحابة:
-
-1.  **القاعدة الأساسية السحابية (`mediswitsh-db`)**:
-    *   تحتوي على البيانات الأساسية سريعة التغير والتحليلات.
-    *   تضم الجداول: `drugs` (الأدوية)، `dosage_guidelines` (الجرعات)، `notifications` (الإشعارات)، `app_config` (الإعدادات).
-2.  **قاعدة التفاعلات السحابية (`mediswitch-interactions`)**:
-    *   تحتوي على البيانات المرجعية الطبية الضخمة وثقيلة الحجم (تضم 320,000+ سجل).
-    *   تضم الجداول: `drug_interactions` (التفاعلات الدوائية)، `med_ingredients` (مكونات الأدوية)، `food_interactions` (تفاعلات الطعام)، `disease_interactions` (تفاعلات الأمراض).
-
-> *ملاحظة توجيهية*: عند استدعاء الـ Worker في السحابة، يقوم بفحص مسار الطلب برمجياً وتوجيه الاستعلام مباشرة إلى القاعدة السحابية المناسبة.
+## 🌟 نظرة عامة
+تعتمد MediSwitch على بنية بيانات هجينة (Hybrid Architecture) تجمع بين الأداء العالي للتخزين المحلي (`SQLite`) وقوة السحابة للمزامنة (`Cloudflare D1`). تم تصميم هذه الهيكلية لضمان العمل بدون إنترنت (Offline-First) مع قدرة التحديث المستمر.
 
 ---
 
-## 🗂️ تفاصيل جداول قاعدة البيانات المحلية والسحابية (V16 Schema)
+## 🏗️ المكونات الرئيسية
 
-تتطابق قاعدة البيانات المحلية المشفرة في تطبيق الجوال SQLite وقواعد البيانات السحابية D1 في هيكليتها تماماً لضمان سلاسة المزامنة، وتتبع المخطط البرمجي التالي:
+### 1. قاعدة البيانات المحلية (Local Database)
+- **المحرك**: `SQLite`
+- **الموقع**: جهاز المستخدم (Mobile App).
+- **الإصدار**: V16 Schema.
+- **الوظيفة**: تخزين كامل لبيانات الأدوية والتفاعلات لتمكين البحث الفوري بدون إنترنت.
 
-### 1. جدول الأدوية الرئيسي (`drugs`)
-الجدول المركزي الذي يجمع تفاصيل الدواء والسعر والخصائص السريرية والروابط الخارجية.
+### 2. قواعد البيانات السحابية (Cloud Databases - Split D1 Strategy)
+تم تقسيم قاعدة البيانات السحابية إلى قاعدتين منفصلتين لتحسين الأداء وتجاوز حدود الحجم (Size Limits):
 
-| العمود | النوع | الوصف |
-| :--- | :--- | :--- |
-| `id` | INTEGER PK | المعرف الفريد للدواء محلياً وسحابياً. |
-| `trade_name` | TEXT | الاسم التجاري باللغة الإنجليزية. |
-| `arabic_name` | TEXT | الاسم التجاري باللغة العربية. |
-| `price` | TEXT | سعر الدواء الحالي للجمهور. |
-| `old_price` | TEXT | سعر الدواء القديم (للمقارنة وإظهار تغير السعر). |
-| `category` | TEXT | التصنيف العلاجي الأساسي (مترجم برمجياً). |
-| `active` | TEXT | المادة الفعالة الرئيسية (أو المواد مجتمعة). |
-| `company` | TEXT | الشركة المصنعة أو الموزعة. |
-| `dosage_form` | TEXT | الشكل الصيدلاني بالإنجليزية (أقراص، شراب، إلخ). |
-| `dosage_form_ar` | TEXT | الشكل الصيدلاني بالعربية. |
-| `concentration` | REAL | تركيز المادة الفعالة للدواء. |
-| `unit` | TEXT | وحدة القياس (مثل mg, ml, mcg). |
-| `usage` | TEXT | دواعي الاستعمال الرئيسية (مختصر). |
-| `pharmacology` | TEXT | التصنيف الفارماكولوجي للدواء. |
-| `barcode` | TEXT | الباركود الدولي للدواء (للبحث بماسح الباركود). |
-| `qr_code` | TEXT | رمز QR الدوائي. |
-| `visits` | INTEGER | عدد زيارات وتصفح الدواء (يستخدم للتحليلات وحساب شارة POPULAR). |
-| `last_price_update` | TEXT | تاريخ آخر تحديث لسعر الدواء. |
-| `updated_at` | INTEGER | طابع زمني للمزامنة الفروقية الفعالة. |
-| `indication` | TEXT | دواعي الاستعمال بالتفصيل السريري الكامل. |
-| `mechanism_of_action` | TEXT | آلية عمل الدواء الحيوية داخل الجسم. |
-| `pharmacodynamics` | TEXT | الديناميكا الدوائية ومسار الدواء. |
-| `data_source_pharmacology`| TEXT | مصدر المعلومات الفارماكولوجية (مثال: DailyMed). |
-| `has_drug_interaction` | INTEGER | مؤشر تفاعلات دوائية (1 = لديه تفاعلات، 0 = لا يوجد). |
-| `has_food_interaction` | INTEGER | مؤشر تفاعلات مع الأطعمة. |
-| `has_disease_interaction`| INTEGER | مؤشر تفاعلات مع الأمراض. |
-| `description` | TEXT | وصف شامل إضافي للدواء. |
-| `atc_codes` | TEXT | الأكواد العالمية للتصنيف الكيميائي التشريحي (ATC). |
-| `external_links` | TEXT | روابط خارجية إضافية (مخزنة كـ JSON) مثل DrugBank. |
+**أ. قاعدة البيانات الأساسية (`mediswitch-db`)**
+- **المحتوى**: البيانات الأساسية الخفيفة وسريعة التغير.
+- **الجداول**:
+  - `drugs`: جدول الأدوية الرئيسي.
+  - `dosage_guidelines`: إرشادات الجرعات.
+  - `notifications`: الإشعارات الإدارية.
+  - `users`: بيانات المستخدمين (إن وجدت).
+
+**ب. قاعدة بيانات التفاعلات (`mediswitch-interactions`)**
+- **المحتوى**: البيانات الضخمة والمراجع العلمية (Read-Heavy).
+- **الجداول**:
+  - `drug_interactions`: سجلات التفاعلات (320,000+ سجل).
+  - `med_ingredients`: مكونات الأدوية (Mapping).
+  - `food_interactions`: تفاعلات الغذاء.
+  - `disease_interactions`: تفاعلات الأمراض.
+
+> **ملاحظة**: يقوم الـ Worker بتوجيه الاستعلامات تلقائياً للقاعدة المناسبة بناءً على الـ Endpoint المطلوبة. قاعدة `medicines` و `notifications` يتم توجيهها لـ `mediswitch-db`، بينما `interactions` تذهب لـ `mediswitch-interactions`.
+
+
+### 3. خط أنابيب البيانات (Data Pipeline)
+- **المصدر الخام**: DDInter, DrugBank, DailyMed.
+- **المعالج (Processor)**: سكربتات Python (`populate_mediswitch_final.py`).
+- **المصدر الوسيط**: ملفات SQL مجزأة (`d1_sql_chunks`).
+- **التزامن**: عبر GitHub Actions (High-Fidelity Sync).
+
+### 4. الملفات المصدرية (Source Files)
+تعتمد قاعدة البيانات على الملفات التالية فقط (حسب الكود الفعلي):
+
+| الملف | الامتداد | المسار | الوصف |
+| :--- | :--- | :--- | :--- |
+| **Medicines Data** | `.csv` | `assets/meds.csv` | قاعدة بيانات الأدوية المصرية (23,000+ دواء) وتشمل الأسعار، الشركات، والمواد الفعالة. |
+| **DDInter Database** | `.db` | `assets/external_research_data/ddinter_complete.db` | قاعدة بيانات SQLite تحتوي على بيانات DDInter 2.0 الكاملة (تفاعلات، وصف، آليات). |
+| **Dosage Guidelines** | `.json` | `assets/data/dosage_guidelines.json` | ملف يحتوي على إرشادات الجرعات المجمعة من DailyMed و Local Scraper لجدول `dosage_guidelines`. |
+
+> **ملاحظة:** يتم دمج هذه المصادر في `mediswitch.db` عبر سكربتات التعبئة (`populate_mediswitch_final.py`).
+
+---
+
+## 🗂️ تفاصيل الجداول الكاملة (Full V16 Schema)
+
+فيما يلي توثيق شامل لكل الجداول والأعمدة في قاعدة البيانات، متطابق تماماً مع ملف `01_schema.sql`.
+
+### 1. جدول الأدوية (`drugs`)
+الجدول المركزي للأدوية، يجمع بين بيانات السوق المحلي والبيانات العالمية.
+
+| # | العمود | النوع | الوصف |
+| :--- | :--- | :--- | :--- |
+| 1 | `id` | INTEGER PK | المعرف الفريد للدواء |
+| 2 | `trade_name` | TEXT | الاسم التجاري (En) |
+| 3 | `arabic_name` | TEXT | الاسم التجاري (Ar) |
+| 4 | `price` | TEXT | سعر الجمهور الحالي |
+| 5 | `old_price` | TEXT | السعر القديم للمقارنة |
+| 6 | `category` | TEXT | التصنيف العلاجي الرئيسي |
+| 7 | `active` | TEXT | المادة الفعالة الرئيسية |
+| 8 | `company` | TEXT | الشركة المصنعة |
+| 9 | `dosage_form` | TEXT | الشكل الصيدلاني (En) |
+| 10 | `dosage_form_ar` | TEXT | الشكل الصيدلاني (Ar) |
+| 11 | `concentration` | REAL | تركيز المادة الفعالة |
+| 12 | `unit` | TEXT | وحدة التركيز (mg, ml) |
+| 13 | `usage` | TEXT | دواعي الاستعمال (مختصر) |
+| 14 | `pharmacology` | TEXT | التصنيف الفارماكولوجي |
+| 15 | `barcode` | TEXT | الباركود الدولي |
+| 16 | `qr_code` | TEXT | كود QR |
+| 17 | `visits` | INTEGER | عدد مرات العرض (Analytics) |
+| 18 | `last_price_update` | TEXT | تاريخ آخر تحديث للسعر |
+| 19 | `updated_at` | INTEGER | طابع زمني للمزامنة |
+| 20 | `indication` | TEXT | دواعي الاستعمال (تفصيلي) |
+| 21 | `mechanism_of_action` | TEXT | آلية العمل |
+| 22 | `pharmacodynamics` | TEXT | الديناميكا الدوائية |
+| 23 | `data_source_pharmacology` | TEXT | مصدر البيانات الفارماكولوجية |
+| 24 | `has_drug_interaction` | INTEGER | مؤشر تفاعلات دوائية (0/1) |
+| 25 | `has_food_interaction` | INTEGER | مؤشر تفاعلات غذائية (0/1) |
+| 26 | `has_disease_interaction` | INTEGER | مؤشر تفاعلات مرضية (0/1) |
+| 27 | `description` | TEXT | وصف نصي كامل للدواء |
+| 28 | `atc_codes` | TEXT | أكواد التصنيف التشريحي (ATC) |
+| 29 | `external_links` | TEXT | روابط خارجية (JSON) |
 
 ### 2. جدول التفاعلات الدوائية (`drug_interactions`)
-يضم قواعد التفاعل والتعارض بين المواد الفعالة المختلفة.
+قاعدة قواعد التفاعلات بين المواد الفعالة.
 
-| العمود | النوع | الوصف |
-| :--- | :--- | :--- |
-| `id` | INTEGER PK | معرف التفاعل الفريد. |
-| `ingredient1` | TEXT | المادة الفعالة الأولى (بأحرف كبيرة وصغيرة حساسة). |
-| `ingredient2` | TEXT | المادة الفعالة الثانية المتعارضة. |
-| `severity` | TEXT | مستوى خطورة التفاعل (Major, Moderate, Minor). |
-| `effect` | TEXT | الأثر السريري الناتج عن التداخل بالإنجليزية. |
-| `arabic_effect` | TEXT | الأثر السريري الناتج باللغة العربية. |
-| `recommendation` | TEXT | التوصية الطبية والبدائل لتفادي الخطر بالإنجليزية. |
-| `arabic_recommendation` | TEXT | التوصية الطبية باللغة العربية. |
-| `management_text` | TEXT | التوجيهات الطبية المفصلة لكيفية التعامل مع التفاعل. |
-| `mechanism_text` | TEXT | الشرح العلمي والآلية الكيميائية للتفاعل. |
-| `alternatives_a` | TEXT | بدائل المادة الأولى المقترحة (لتجنب التفاعل). |
-| `alternatives_b` | TEXT | بدائل المادة الثانية المقترحة. |
-| `risk_level` | TEXT | مستوى التعارض الرقمي أو المرجعي في DDInter. |
-| `ddinter_id` | TEXT | المعرف المرجعي في قاعدة بيانات DDInter 2.0. |
-| `source` | TEXT | مصدر البيانات (DDInter / DrugBank). |
-| `type` | TEXT | نوع التداخل العلمي. |
-| `metabolism_info` | TEXT | معلومات الأيض الكبدي وتأثير الإنزيمات. |
-| `source_url` | TEXT | رابط المرجع العلمي الخارجي للتفاعل. |
-| `reference_text` | TEXT | اسم ونصوص المراجع والكتب الطبية المستند عليها. |
-| `updated_at` | INTEGER | طابع زمني لأغراض المزامنة. |
+| # | العمود | النوع | الوصف |
+| :--- | :--- | :--- | :--- |
+| 1 | `id` | INTEGER PK | معرف التفاعل |
+| 2 | `ingredient1` | TEXT | الطرف الأول (المادة الفعالة) |
+| 3 | `ingredient2` | TEXT | الطرف الثاني (المادة الفعالة) |
+| 4 | `severity` | TEXT | مستوى الخطورة (Major, Moderate, Minor) |
+| 5 | `effect` | TEXT | الأثر الناتج عن التفاعل |
+| 6 | `arabic_effect` | TEXT | الأثر الناتج (بالعربية) |
+| 7 | `recommendation` | TEXT | التوصية الطبية |
+| 8 | `arabic_recommendation` | TEXT | التوصية الطبية (بالعربية) |
+| 9 | `management_text` | TEXT | كيفية إدارة التفاعل سريرياً |
+| 10 | `mechanism_text` | TEXT | الآلية العلمية للتفاعل |
+| 11 | `alternatives_a` | TEXT | بدائل مقترحة للطرف الأول |
+| 12 | `alternatives_b` | TEXT | بدائل مقترحة للطرف الثاني |
+| 13 | `risk_level` | TEXT | مستوى الخطر (تصنيف DDInter) |
+| 14 | `ddinter_id` | TEXT | المعرف في قاعدة DDInter |
+| 15 | `source` | TEXT | مصدر التفاعل |
+| 16 | `type` | TEXT | نوع التفاعل |
+| 17 | `metabolism_info` | TEXT | معلومات الأيض |
+| 18 | `source_url` | TEXT | رابط المصدر |
+| 19 | `reference_text` | TEXT | المرجع العلمي |
+| 20 | `updated_at` | INTEGER | طابع زمني للمزامنة |
 
-### 3. جدول تفاعلات الأطعمة (`food_interactions`)
-تفاعلات المواد الفعالة مع الأطعمة والمشروبات المختلفة.
+### 3. جدول تفاعلات الغذاء (`food_interactions`)
 
-| العمود | النوع | الوصف |
-| :--- | :--- | :--- |
-| `id` | INTEGER PK | معرف التفاعل. |
-| `med_id` | INTEGER | معرف الدواء المرتبط (FK). |
-| `trade_name` | TEXT | اسم الدواء التجاري. |
-| `interaction` | TEXT | نص التعارض الغذائي بالتفصيل (مثل: تجنب تناوله مع عصير الجريب فروت). |
-| `ingredient` | TEXT | المادة الفعالة المسببة للتعارض. |
-| `severity` | TEXT | درجة خطورة التداخل. |
-| `management_text` | TEXT | نصيحة وتوجيهات التعامل الطبي. |
-| `mechanism_text` | TEXT | آلية التداخل الغذائي. |
-| `reference_text` | TEXT | المراجع الطبية الموثقة. |
-| `source` | TEXT | مصدر البيانات (مثل DrugBank). |
-| `created_at` | INTEGER | تاريخ إنشاء السجل. |
+| # | العمود | النوع | الوصف |
+| :--- | :--- | :--- | :--- |
+| 1 | `id` | INTEGER PK | معرف التفاعل |
+| 2 | `med_id` | INTEGER | معرف الدواء المرتبط |
+| 3 | `trade_name` | TEXT | اسم الدواء |
+| 4 | `interaction` | TEXT | نص التفاعل (En) |
+| 5 | `ingredient` | TEXT | المادة المسببة |
+| 6 | `severity` | TEXT | درجة الخطورة |
+| 7 | `management_text` | TEXT | توجيهات الإدارة |
+| 8 | `mechanism_text` | TEXT | شرح الآلية |
+| 9 | `reference_text` | TEXT | المرجع |
+| 10 | `source` | TEXT | المصدر (افتراضي DrugBank) |
+| 11 | `created_at` | INTEGER | طابع زمني |
 
 ### 4. جدول تفاعلات الأمراض (`disease_interactions`)
-تعارضات الأدوية مع الحالات المرضية المسبقة للمريض.
 
-| العمود | النوع | الوصف |
-| :--- | :--- | :--- |
-| `id` | INTEGER PK | معرف التفاعل الفريد. |
-| `med_id` | INTEGER | معرف الدواء (FK). |
-| `trade_name` | TEXT | الاسم التجاري للدواء. |
-| `disease_name` | TEXT | اسم المرض المتعارض مع الدواء (مثل: الفشل الكلوي، الربو). |
-| `interaction_text`| TEXT | تفاصيل التعارض والمخاطر. |
-| `severity` | TEXT | درجة الخطورة الطبية للتعارض (مثل: Contraindicated, Caution). |
-| `reference_text` | TEXT | المرجع السريري المعتمد. |
-| `source` | TEXT | مصدر التفاعل (DDInter). |
-| `created_at` | INTEGER | طابع زمني. |
+| # | العمود | النوع | الوصف |
+| :--- | :--- | :--- | :--- |
+| 1 | `id` | INTEGER PK | معرف التفاعل |
+| 2 | `med_id` | INTEGER | معرف الدواء |
+| 3 | `trade_name` | TEXT | اسم الدواء |
+| 4 | `disease_name` | TEXT | اسم المرض المتعارض معه |
+| 5 | `interaction_text` | TEXT | تفاصيل التعارض |
+| 6 | `severity` | TEXT | درجة الخطورة |
+| 7 | `reference_text` | TEXT | المرجع الطبي |
+| 8 | `source` | TEXT | المصدر (افتراضي DDInter) |
+| 9 | `created_at` | INTEGER | طابع زمني |
 
 ### 5. جدول إرشادات الجرعات (`dosage_guidelines`)
-يخزن الجرعات الموصى بها للأدوية مقسمة حسب الحالات المرضية والسن.
+يحتفظ ببيانات الجرعات من مصادر موثوقة مثل FDA/DailyMed.
 
-| العمود | النوع | الوصف |
-| :--- | :--- | :--- |
-| `id` | INTEGER PK | معرف السجل الفريد. |
-| `med_id` | INTEGER | معرف الدواء (FK). |
-| `dailymed_setid` | TEXT | معرف المجموعة المرجعي في DailyMed. |
-| `min_dose` | REAL | الجرعة الدنيا الموصى بها. |
-| `max_dose` | REAL | الجرعة القصوى الآمنة. |
-| `frequency` | INTEGER | تكرار الجرعة في اليوم (مثال: 3 مرات يومياً). |
-| `duration` | INTEGER | المدة الموصى بها للعلاج بالأيام. |
-| `instructions` | TEXT | التعليمات السريرية التفصيلية للجرعة. |
-| `condition` | TEXT | الحالة المرضية المستهدفة (Indication). |
-| `source` | TEXT | مصدر بيانات الجرعة (WHO / WikEM / NCBI). |
-| `is_pediatric` | INTEGER | مؤشر جرعة الأطفال (1 = جرعة أطفال، 0 = جرعة بالغين). |
+| # | العمود | النوع | الوصف |
+| :--- | :--- | :--- | :--- |
+| 1 | `id` | INTEGER PK | معرف السجل |
+| 2 | `med_id` | INTEGER | معرف الدواء |
+| 3 | `dailymed_setid` | TEXT | معرف مجموعة DailyMed |
+| 4 | `min_dose` | REAL | الجرعة الدنيا |
+| 5 | `max_dose` | REAL | الجرعة القصوى |
+| 6 | `frequency` | INTEGER | التكرار اليومي |
+| 7 | `duration` | INTEGER | مدة العلاج |
+| 8 | `instructions` | TEXT | تعليمات الاستخدام |
+| 9 | `condition` | TEXT | الحالة المرضية المستهدفة |
+| 10 | `source` | TEXT | المصدر |
+| 11 | `is_pediatric` | INTEGER | هل هي جرعة أطفال؟ (0/1) |
 
-### 6. جدول ربط المكونات والخرائط (`med_ingredients`)
-يستخدم كجدول وسيط للربط لتسهيل استعلامات الفحص السريعة والربط الفروقي دون الحاجة لتحليل نصوص المواد الفعالة داخل جدول الأدوية.
+### 6. جدول مكونات الأدوية (`med_ingredients`)
+جدول ربط لتسهيل البحث عن التفاعلات (Normalization).
 
-| العمود | النوع | الوصف |
-| :--- | :--- | :--- |
-| `med_id` | INTEGER | معرف الدواء المرتبط (FK). |
-| `ingredient` | TEXT | اسم المادة الفعالة الفردية (حروف صغيرة Nocase). |
-| `updated_at` | INTEGER | طابع المزامنة. |
+| # | العمود | النوع | الوصف |
+| :--- | :--- | :--- | :--- |
+| 1 | `med_id` | INTEGER | معرف الدواء (FK) |
+| 2 | `ingredient` | TEXT | المادة الفعالة (NOCASE) |
+| 3 | `updated_at` | INTEGER | طابع زمني |
 
 ---
 
-## 🛡️ الفهارس المطبقة محلياً وسحابياً (Database Indexes)
-
-لتحقيق سرعة استعلام فائقة في ثانية واحدة حتى على الهواتف القديمة، تم بناء الفهارس التالية:
-*   `idx_drugs_trade_name`: على عمود `trade_name` لسرعة البحث الإنجليزي.
-*   `idx_drugs_arabic_name`: على عمود `arabic_name` للبحث باللغة العربية.
-*   `idx_drugs_active`: على عمود `active` للبحث بالمواد الفعالة.
-*   `idx_drugs_category`: على عمود `category` لتسهيل عمل فلاتر الفئات الطبية.
-*   `idx_drug_interactions_ingredients`: فهرس مركب على المواد الفعالة `ingredient1` و `ingredient2` لتسريع فاحص التفاعلات الهجين.
-*   `idx_med_ingredients_med_id`: على عمود `med_id` لسرعة الربط والتحويل.
-*   `idx_dosage_guidelines_med_id`: لتسريع فتح شاشة تبويب الجرعات.
-*   `idx_food_interactions_med_id` و `idx_disease_interactions_med_id`: لتسريع فتح تبويب تفاعلات الدواء.
+## 🛡️ الفهارس (Indexes)
+لتحسين أداء البحث:
+- `drugs`: `trade_name`, `active`, `category`.
+- `drug_interactions`: `ingredient1`, `ingredient2`, `pair`.
+- الطفليات: `med_id` في جداول التفاعلات والجرعات.

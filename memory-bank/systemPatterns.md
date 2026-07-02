@@ -1,73 +1,70 @@
-# أنماط وهندسة النظام - MediSwitch (System Patterns)
+# أنماط النظام - MediSwitch (System Patterns)
 
-## 📄 المراجع الأساسية
-*   [projectbrief.md](file:///f:/App-Projects/mediswitch/memory-bank/projectbrief.md) - هندسة المشروع الكبرى.
-*   [database_architecture.md](file:///f:/App-Projects/mediswitch/memory-bank/database_architecture.md) - هيكلية الجداول محلياً وسحابياً.
+## 🏗️ البنية المعمارية (Architecture)
 
----
-
-## 🏗️ الهيكل التنظيمي للمشروع وعلاقات المكونات (Component Architecture)
-
-يتكون مشروع MediSwitch من ثلاثة تطبيقات فرعية تتفاعل معاً لتأمين مسار البيانات بالكامل:
+يعتمد مشروع **MediSwitch** على مبادئ **Clean Architecture** لضمان فصل المسؤوليات، سهولة الصيانة، وقابلية الاختبار. يتم تقسيم التطبيق إلى ثلاث طبقات رئيسية:
 
 ```mermaid
 graph TD
-    Dashboard[React Admin Dashboard] -- HTTP Bearer Auth --> Worker[Cloudflare Worker API]
-    Actions[GitHub Actions / Scraper] -- HTTP API Key Auth --> Worker
-    Worker --> D1_Core[(mediswitch-db: Core Data)]
-    Worker --> D1_Interactions[(mediswitch-interactions: Interactions)]
-    
-    App[Flutter Mobile App] -- HTTP API Requests --> Worker
-    App --> SQLite[(SQLite Local DB: V16)]
-    
-    style Dashboard fill:#f9f,stroke:#333,stroke-width:2px
-    style Worker fill:#bbf,stroke:#333,stroke-width:2px
-    style App fill:#bfb,stroke:#333,stroke-width:2px
-    style SQLite fill:#fbb,stroke:#333,stroke-width:2px
+    UI[طبقة العرض - Presentation Layer] --> Domain[طبقة المجال - Domain Layer]
+    Data[طبقة البيانات - Data Layer] --> Domain
+    Data --> Remote[مصدر بيانات عن بعد - Cloudflare D1]
+    Data --> Local[مصدر بيانات محلي - SQLite]
 ```
 
-### 1. تطبيق الجوال (Flutter App) - هيكلية Clean Architecture
-يتم تطبيق فصل صارم للمسؤوليات داخل مجلد `lib` بالشكل التالي:
-*   **`core`**: يحتوي على الثوابت (`constants`)، وإعدادات الاتصال وحقن التبعيات (`di/locator.dart`)، وإدارة قاعدة البيانات المباشرة (`database/database_helper.dart`)، والخدمات المشتركة مثل المزامنة الموحدة (`services/unified_sync_service.dart`).
-*   **`data`**:
-    *   `datasources`: مصادر البيانات المحلية (SQLite عبر `sqlite_local_data_source.dart`) والبعيدة (أقراص HTTP عبر Remote Data Sources).
-    *   `models`: كائنات تحويل البيانات (JSON/Row Map -> Dart Object).
-    *   `repositories`: تطبيق مستودعات البيانات التي تحدد استراتيجيات جلب البيانات (مثال: Cache-First).
-*   **`domain`**:
-    *   `entities`: كائنات الأعمال الصافية والمنظفة (Clean Dart) مثل `DrugEntity` و `DrugInteraction`.
-    *   `usecases`: العمليات الوظيفية الصرفة (أمثلة: `SearchDrugsUseCase` و `FindDrugAlternativesUseCase`).
-*   **`presentation`**:
-    *   `bloc` (ChangeNotifier Providers): إدارة الحالة وإيصال البيانات للشاشات (مثال: `MedicineProvider`, `SubscriptionProvider`).
-    *   `screens` & `widgets`: واجهات المستخدم والعناصر الرسومية.
+### 1. طبقة العرض (Presentation Layer) - Flutter
+هذه الطبقة مسؤولة عن كل ما يراه المستخدم ويتفاعل معه.
+-   **الشاشات (Screens)**: واجهات التطبيق (UI).
+-   **إدارة الحالة (State Management)**: نستخدم `Provider` لبساطته وكفاءته.
+-   **المنطق (Logic)**: يتم فصل المنطق عن الرسم باستخدام ViewModels.
 
-### 2. النظام الخلفي (Cloudflare Workers API) - `worker.js`
-*   يعمل كبوابة API لا مركزية (Serverless API).
-*   **توجيه قواعد البيانات (DB Routing)**:
-    *   يتصل بـ `DB` (قاعدة `mediswitsh-db` الأساسية) لقراءة وتحديث الأدوية والنسخ والإعدادات.
-    *   يتصل بـ `INTERACTIONS_DB` (قاعدة `mediswitch-interactions`) لقراءة وإدارة التفاعلات الطبية ومكوناتها لتفادي حدود الحجم.
-*   **التحقق والمصادقة**:
-    *   يتحقق من مفتاح تحديث البيانات في ترويسة `Authorization` لتحديثات GitHub Actions.
-    *   *ملاحظة فنية*: لا تزال منافذ الأدمن العادية تفتقر للتحقق من المفتاح في الخادم، ويتم حمايتها برمجياً في الواجهة الأمامية للوحة التحكم عبر مقارنة المفتاح المدخل بمفاتيح البيئة السحابية.
+### 2. طبقة المجال (Domain Layer) - Dart Pure
+الطبقة الجوهرية (النقية) المستقلة عن أي إطار عمل أو قاعدة بيانات.
+-   **الكيانات (Entities)**: نماذج البيانات الأساسية (مثل `Drug`, `Interaction`).
+-   **حالات الاستخدام (Use Cases)**: العمليات التجارية (مثل "البحث عن دواء", "مزامنة البيانات").
+-   **العقود (Interfaces)**: تعريفات لكيفية عمل المستودعات (Repositories).
 
-### 3. لوحة التحكم (React Admin Dashboard)
-*   مبنية باستخدام React و TypeScript مع Vite و Tailwind CSS (مع سمات فضاء احترافية Space Command).
-*   **API Client (`src/lib/api.ts`)**: يقوم بتغليف طلبات HTTP وإضافة مفتاح الأدمن كرمز Bearer Token في ترويسة `Authorization` لتمريره إلى الـ API الخلفي.
-*   **إدارة الميزات وبوابات الترخيص**: واجهة لتعديل صلاحيات باقات الاشتراك (Permissions) وحفظها بتنسيق JSON لتحديد ميزات المستخدمين.
+### 3. طبقة البيانات (Data Layer)
+حلقة الوصل بين التطبيق ومصادر البيانات.
+-   **المستودعات (Repositories)**: تنفيذ للعقود المحددة في طبقة المجال.
+-   **المصادر (Data Sources)**:
+    -   **محلي (Local)**: `SQLite` (للتخزين الدائم) و `SharedPreferences` (للإعدادات).
+    -   **سحابي (Cloud)**: `Cloudflare Worker API` (لسحب البيانات الجديدة).
 
 ---
 
-## 🔄 الأنماط البرمجية المطبقة (Design Patterns)
+## 🧩 أنماط التصميم (Design Patterns)
 
-### 1. نمط المستودع الهجين الذكي (Hybrid Cache-First Repository Pattern)
-يتم تطبيق هذا النمط للتحكم بملفات التفاعلات والجرعات الضخمة لحماية حجم التطبيق وأداء الذاكرة:
-*   عند استدعاء `findAllInteractionsForDrug(drug)` في `InteractionRepositoryImpl`:
-    1.  يتم البحث محلياً في SQLite عن تفاعلات المادة الفعالة للدواء.
-    2.  إذا كانت النتيجة فارغة، يتم الاتصال بالـ API الخلفي لجلب التفاعلات من قاعدة `mediswitch-interactions`.
-    3.  عند الحصول عليها، يتم تخزينها محلياً في SQLite عبر `SqliteLocalDataSource.saveDrugInteractions` وتمريرها للشاشة.
-    4.  في المرة القادمة، يقرأها التطبيق محلياً وبشكل فوري تماماً دون إنترنت.
+1.  **Repository Pattern**:
+    -   فصل منطق جلب البيانات عن واجهة المستخدم. يسمح بتغيير مصدر البيانات (مثلاً من API إلى Cache) دون التأثير على الشاشات.
 
-### 2. نمط الخدمة الفردية (Singleton Pattern)
-*   جميع الخدمات الثقيلة مثل `DatabaseHelper` و `FileLoggerService` مسجلة كـ `Singleton` أو `LazySingleton` في محدد الخدمات `GetIt` لضمان استهلاك ذاكرة منخفض وعدم تكرار فتح الاتصال مع SQLite.
+2.  **Singleton Pattern**:
+    -   يستخدم للخدمات التي يجب أن يكون لها نسخة واحدة فقط طوال حياة التطبيق، مثل `NetworkClient` و `DatabaseHelper`.
 
-### 3. نمط المراقبة وإدارة الحالة (Observer Pattern with Providers)
-*   تحديث شاشات التطبيق يتم تلقائياً بالاعتماد على `ChangeNotifierProvider` و `context.watch<T>()` لضمان فصل منطق البيانات عن الرسوم وتحديث الواجهة لحظياً عند اكتمال مزامنة البيانات أو الإعلانات.
+3.  **Adapter Pattern**:
+    -   تحويل البيانات القادمة من API (JSON) إلى نماذج Dart (Models) والعكس.
+
+4.  **Observer Pattern**:
+    -   يستخدم `ChangeNotifier` لتحديث الواجهة تلقائياً عند تغير البيانات (مثلاً عند انتهاء التحميل أو حدوث خطأ).
+
+5.  **Offline-First Strategy**:
+    -   التطبيق يعتمد أولاً على البيانات المحلية. المزامنة تحدث في الخلفية، مما يضمن تجربة مستخدم سريعة جداً.
+
+---
+
+## ⚙️ القرارات التقنية الرئيسية
+
+### الواجهة الأمامية (Flutter)
+-   **إدارة الحالة**: تم اختيار `Provider` لأنه الخيار الرسمي الموصى به من Google للمشاريع متوسطة الحجم، ولأنه يقلل من التعقيد (Boilerplate).
+-   **قاعدة البيانات**: `sqflite` هو الخيار الأفضل للأداء العالي مع كميات بيانات كبيرة (23,000+ دواء) مقارنة بـ Hive أو SharedPreferences.
+
+### الواجهة الخلفية (Serverless)
+-   **Cloudflare Workers**: تم استبدال الخوادم التقليدية (VPS/Django) بـ Workers لتقليل التكلفة إلى الصفر تقريباً وزيادة سرعة الاستجابة عالمياً.
+-   **Cloudflare D1**: قاعدة بيانات SQL موزعة، تتوافق تماماً مع SQLite المستخدم في التطبيق، مما يسهل المزامنة.
+
+## 🔄 تدفق البيانات (Data Sync Flow)
+
+1.  **طلب التحديث**: التطبيق يطلب `/api/sync` ويرسل تاريخ آخر تحديث لديه.
+2.  **حساب الفروقات**: الـ Worker يستعلم قاعدة D1 عن السجلات التي تم تعديلها بعد هذا التاريخ.
+3.  **الاستجابة**: الـ Worker يعيد فقط البيانات الجديدة (JSON).
+4.  **التخزين**: التطبيق يحفظ البيانات الجديدة في SQLite ويحدث تاريخ "آخر مزامنة".

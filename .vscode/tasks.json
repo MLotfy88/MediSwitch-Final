@@ -2,31 +2,10 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Admin Dashboard: Watch TS Errors",
-            "type": "shell",
-            "command": "npx tsc --watch --noEmit",
-            "isBackground": true,
-            "problemMatcher": "$tsc-watch",
-            "options": {
-                "cwd": "${workspaceFolder}/admin-dashboard"
-            },
-            "presentation": {
-                "reveal": "silent",
-                "panel": "shared",
-                "clear": true
-            },
-            "runOptions": {
-                "runOn": "folderOpen"
-            }
-        },
-        {
             "label": "Admin Dashboard: Check Build",
             "type": "shell",
-            "command": "npm run build:dev",
+            "command": "export NVM_DIR=\"$HOME/.nvm\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && cd admin-dashboard && npm run build:dev",
             "group": "build",
-            "options": {
-                "cwd": "${workspaceFolder}/admin-dashboard"
-            },
             "problemMatcher": [
                 "$tsc",
                 {
@@ -54,10 +33,7 @@
         {
             "label": "ESLint: Check All Files",
             "type": "shell",
-            "command": "npm run lint",
-            "options": {
-                "cwd": "${workspaceFolder}/admin-dashboard"
-            },
+            "command": "export NVM_DIR=\"$HOME/.nvm\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && cd admin-dashboard && npm run lint",
             "problemMatcher": "$eslint-stylish",
             "presentation": {
                 "reveal": "always",
@@ -67,40 +43,8 @@
         {
             "label": "TypeScript: Check All Files",
             "type": "shell",
-            "command": "npx tsc --noEmit",
-            "options": {
-                "cwd": "${workspaceFolder}/admin-dashboard"
-            },
+            "command": "export NVM_DIR=\"$HOME/.nvm\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && cd admin-dashboard && npx tsc --noEmit",
             "problemMatcher": "$tsc",
-            "presentation": {
-                "reveal": "always",
-                "panel": "shared"
-            }
-        },
-        {
-            "label": "Flutter: Analyze All",
-            "type": "shell",
-            "command": "flutter analyze",
-            "options": {
-                "cwd": "${workspaceFolder}"
-            },
-            "problemMatcher": {
-                "owner": "dart",
-                "fileLocation": [
-                    "relative",
-                    "${workspaceFolder}"
-                ],
-                "pattern": [
-                    {
-                        "regexp": "^\\s+(info|warning|error)\\s+•\\s+(.+)\\s+•\\s+(.+):(\\d+):(\\d+)\\s+•",
-                        "severity": 1,
-                        "message": 2,
-                        "file": 3,
-                        "line": 4,
-                        "column": 5
-                    }
-                ]
-            },
             "presentation": {
                 "reveal": "always",
                 "panel": "shared"
