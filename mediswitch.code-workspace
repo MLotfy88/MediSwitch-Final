@@ -31,7 +31,7 @@
             "source.organizeImports": "explicit"
         },
         // Flutter settings (existing)
-        "dart.flutterSdkPath": "/usr/bin/flutter",
+        "dart.flutterSdkPath": "C:\\src\\flutter",
         "[dart]": {
             "editor.formatOnSave": true,
             "editor.selectionHighlight": false,

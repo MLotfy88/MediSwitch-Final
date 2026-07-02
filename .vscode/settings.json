@@ -5,15 +5,16 @@
     "typescript.validate.enable": true,
     "typescript.suggest.autoImports": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    // ESLint - IMPORTANT SETTINGS
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    // ESLint
     "eslint.enable": true,
     "eslint.run": "onType",
     "eslint.lintTask.enable": true,
     "eslint.workingDirectories": [
         {
-            "mode": "auto"
-        },
-        "./admin-dashboard"
+            "directory": "admin-dashboard",
+            "changeProcessCWD": true
+        }
     ],
     "eslint.validate": [
         "javascript",
@@ -21,9 +22,6 @@
         "typescript",
         "typescriptreact"
     ],
-    "eslint.options": {
-        "overrideConfigFile": "admin-dashboard/eslint.config.js"
-    },
     // Problems panel
     "problems.showCurrentInStatus": true,
     "problems.sortOrder": "severity",
@@ -33,17 +31,19 @@
         "source.organizeImports": "explicit"
     },
     // Dart/Flutter
-    "dart.flutterSdkPath": "/usr/bin/flutter",
+    "dart.flutterSdkPath": "C:\\src\\flutter",
+    "dart.sdkPath": "C:\\src\\flutter\\bin\\cache\\dart-sdk",
+    "dart.showTodos": true,
+    "dart.reportAnalyzerErrors": true,
     "[dart]": {
         "editor.formatOnSave": true,
-        "editor.rulers": [
-            80
-        ]
+        "editor.rulers": [80]
     },
     // File exclusions
     "files.watcherExclude": {
         "**/node_modules/**": true,
         "**/.git/objects/**": true,
-        "**/build/**": true
+        "**/build/**": true,
+        "**/.dart_tool/**": true
     }
 }
