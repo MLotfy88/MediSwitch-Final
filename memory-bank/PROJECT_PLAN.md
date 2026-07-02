@@ -121,9 +121,13 @@
   - Fixed SQL query to return original case ingredient names using MAX Length logic
   - Verified meds.csv visits data
   - Added `_applyDrugFlags` helper in MedicineProvider
-  - Applied flags across all drug loading methods
-  - Removed duplicate `copyWith` code from UI screens
-  - **Fixed Parsing Bug:** Filtered out "interactions", "pro", etc. during seeding by blocking invalid ingredient names.
+  - Centralized flags and removed duplicate code
+  - **Fixed Parsing Bug:** Filtered out invalid ingredient names during seeding.
+- [x] **VS Code Diagnostics & SDK Path Fixes (Jul 02, 2026)**
+  - Corrected `dart.flutterSdkPath` to Windows path (`C:\src\flutter`) in `.vscode/settings.json` and `mediswitch.code-workspace`.
+  - Installed missing `node_modules` in `admin-dashboard` to restore TypeScript compiler and ESLint.
+  - Enabled project diagnostics (`enableProjectDiagnostics: true`) to show React/TypeScript errors across all files in Problems tab without opening them.
+  - Rewrote `.vscode/tasks.json` with Windows-compatible commands (`options.cwd`) and configured the default build task (`Ctrl+Shift+B`) to watch TypeScript compiler errors.
 
 ---
 
