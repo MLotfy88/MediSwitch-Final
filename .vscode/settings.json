@@ -1,19 +1,28 @@
 {
-    // TypeScript
+    // ═══════════════════════════════════════════════════════
+    // TypeScript / React Settings
+    // ═══════════════════════════════════════════════════════
     "typescript.tsdk": "admin-dashboard/node_modules/typescript/lib",
     "typescript.enablePromptUseWorkspaceTsdk": true,
     "typescript.validate.enable": true,
     "typescript.suggest.autoImports": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    // ESLint - IMPORTANT SETTINGS
+
+    // CRITICAL: This enables project-wide diagnostics for TypeScript
+    // Shows TS errors in Problems tab WITHOUT opening each file
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+
+    // ═══════════════════════════════════════════════════════
+    // ESLint Settings
+    // ═══════════════════════════════════════════════════════
     "eslint.enable": true,
     "eslint.run": "onType",
     "eslint.lintTask.enable": true,
     "eslint.workingDirectories": [
         {
-            "mode": "auto"
-        },
-        "./admin-dashboard"
+            "directory": "admin-dashboard",
+            "changeProcessCWD": true
+        }
     ],
     "eslint.validate": [
         "javascript",
@@ -21,29 +30,52 @@
         "typescript",
         "typescriptreact"
     ],
-    "eslint.options": {
-        "overrideConfigFile": "admin-dashboard/eslint.config.js"
-    },
-    // Problems panel
+
+    // ═══════════════════════════════════════════════════════
+    // Problems Panel Settings
+    // ═══════════════════════════════════════════════════════
     "problems.showCurrentInStatus": true,
     "problems.sortOrder": "severity",
-    // Auto-fix on save
+
+    // ═══════════════════════════════════════════════════════
+    // Auto-fix on Save
+    // ═══════════════════════════════════════════════════════
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit",
         "source.organizeImports": "explicit"
     },
-    // Dart/Flutter
-    "dart.flutterSdkPath": "/usr/bin/flutter",
+
+    // ═══════════════════════════════════════════════════════
+    // Dart / Flutter Settings
+    // ═══════════════════════════════════════════════════════
+    "dart.flutterSdkPath": "C:\\src\\flutter",
+    "dart.sdkPath": "C:\\src\\flutter\\bin\\cache\\dart-sdk",
+
+    // CRITICAL: Analyze the entire workspace, not just open files
+    "dart.analysisExcludedFolders": [],
+    "dart.analyzeAngularTemplates": true,
+    "dart.showTodos": true,
+    "dart.reportAnalyzerErrors": true,
+    "dart.analyzerDiagnosticsPort": null,
+    "dart.analyzerInstrumentationLogFile": null,
+
     "[dart]": {
         "editor.formatOnSave": true,
-        "editor.rulers": [
-            80
-        ]
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
     },
-    // File exclusions
+
+    // ═══════════════════════════════════════════════════════
+    // File Watcher Exclusions (Performance)
+    // ═══════════════════════════════════════════════════════
     "files.watcherExclude": {
         "**/node_modules/**": true,
         "**/.git/objects/**": true,
-        "**/build/**": true
+        "**/build/**": true,
+        "**/.dart_tool/**": true
     }
 }

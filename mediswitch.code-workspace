@@ -10,28 +10,49 @@
         }
     ],
     "settings": {
-        // TypeScript Settings
+        // ═══════════════════════════════════════════════════════
+        // TypeScript Settings (for Admin Dashboard)
+        // ═══════════════════════════════════════════════════════
         "typescript.tsdk": "admin-dashboard/node_modules/typescript/lib",
         "typescript.enablePromptUseWorkspaceTsdk": true,
         "typescript.validate.enable": true,
         "typescript.suggest.autoImports": true,
-        // Enable type checking
         "typescript.check.npmIsInstalled": true,
         "typescript.updateImportsOnFileMove.enabled": "always",
-        // Show all diagnostics
+
+        // CRITICAL: Shows TS errors across ALL project files in Problems tab
+        "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+
+        // ═══════════════════════════════════════════════════════
+        // Problems Panel
+        // ═══════════════════════════════════════════════════════
         "problems.showCurrentInStatus": true,
-        // File associations
+        "problems.sortOrder": "severity",
+
+        // ═══════════════════════════════════════════════════════
+        // File Associations
+        // ═══════════════════════════════════════════════════════
         "files.associations": {
             "*.tsx": "typescriptreact",
             "*.ts": "typescript"
         },
-        // Auto-fix on save for TypeScript
+
+        // ═══════════════════════════════════════════════════════
+        // Auto-fix on Save
+        // ═══════════════════════════════════════════════════════
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": "explicit",
             "source.organizeImports": "explicit"
         },
-        // Flutter settings (existing)
-        "dart.flutterSdkPath": "/usr/bin/flutter",
+
+        // ═══════════════════════════════════════════════════════
+        // Flutter / Dart Settings
+        // ═══════════════════════════════════════════════════════
+        "dart.flutterSdkPath": "C:\\src\\flutter",
+        "dart.sdkPath": "C:\\src\\flutter\\bin\\cache\\dart-sdk",
+        "dart.showTodos": true,
+        "dart.reportAnalyzerErrors": true,
+
         "[dart]": {
             "editor.formatOnSave": true,
             "editor.selectionHighlight": false,

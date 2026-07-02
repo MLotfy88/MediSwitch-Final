@@ -1,4 +1,26 @@
-# 🎯 ملخص المشروع - January 2025
+# 🎯 ملخص المشروع - 2026
+
+### CHECKPOINT 157
+**Date:** 2026-07-02
+**Goal:** Fix VS Code Problems Tab - Show Flutter & React errors automatically without opening files.
+**Changes:**
+- **Critical Fix**: Ran `npm install` for `admin-dashboard` - `node_modules` was completely missing, preventing TypeScript SDK and ESLint from functioning.
+- **Flutter SDK Path**: Corrected from Linux path (`/usr/bin/flutter`) to Windows path (`C:\src\flutter`) in both `.vscode/settings.json` and `mediswitch.code-workspace`.
+- **Dart SDK**: Added `dart.sdkPath` pointing to `C:\src\flutter\bin\cache\dart-sdk`.
+- **Project Diagnostics**: Enabled `typescript.tsserver.experimental.enableProjectDiagnostics` to show TS errors across ALL project files (not just open ones).
+- **Tasks Fix**: Replaced Linux `cd dir; command` syntax with `options.cwd` for Windows PowerShell compatibility.
+- **tsconfig Cleanup**: Removed conflicting options from root `tsconfig.json` that were overriding strict settings.
+- **ESLint Config**: Fixed `eslint.workingDirectories` to use proper directory config with `changeProcessCWD`.
+- **New Task**: Added "Flutter: Analyze All" task with proper problem matcher.
+
+### CHECKPOINT 156
+**Date:** 2026-07-02
+**Goal:** Codebase Review, Integration Alignment, & Memory Bank Restructuring.
+**Changes:**
+- **Codebase Review**: Inspected the Flutter code, finding that remote configuration (maintenance mode, alerts) and IAP validations are not fully wired.
+- **Admin Dashboard Review**: Inspected dashboard pages and API endpoints. Dashboard includes complete sponsored drugs, configuration toggles, and feature permissions UI but remains untested.
+- **Database Alignment**: Documented V16 schema and the D1 split database strategy (mediswitsh-db for core, mediswitch-interactions for 320,000+ interactions) in `database_architecture.md`.
+- **Memory Bank Cleanup**: Deleted 10 obsolete and redundant files in the memory-bank folder and wrote fresh, accurate versions of all core files.
 
 ### CHECKPOINT 155
 **Date:** 2026-01-13
